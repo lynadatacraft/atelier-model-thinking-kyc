@@ -1,0 +1,12 @@
+[
+  {
+    "group_id": "sim-hackathon-c",
+    "group_name": "Cendrelis Instruments SAS",
+    "industry": "Manufacture and support of simulated measurement instruments; domestic business plus the explicitly listed exports and projects.",
+    "hq_city": "Lyon",
+    "hq_country_iso2": "FR",
+    "primary_language": "fr",
+    "default_timezone": "Europe/Paris",
+    "notes": "Fictional tenant. Reporting perimeter for this case is the client and descendants, excluding upstream parent."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "person_relationships",
+  "data": [
+    {
+      "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+      "subsidiary_id": "sim-hackathon-a-client",
+      "relationship_type": "ubo_of",
+      "effective_from": "2020-01-15",
+      "direct_pct": 0,
+      "indirect_pct": 60,
+      "votes_pct": 60,
+      "control_basis": null
+    },
+    {
+      "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+      "subsidiary_id": "sim-hackathon-a-client",
+      "relationship_type": "signatory_for",
+      "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+    },
+    {
+      "person_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+      "subsidiary_id": "sim-hackathon-a-client",
+      "relationship_type": "ubo_of",
+      "effective_from": "2020-01-15",
+      "direct_pct": 0,
+      "indirect_pct": 40,
+      "votes_pct": 40,
+      "control_basis": null
+    },
+    {
+      "person_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+      "subsidiary_id": "sim-hackathon-a-client",
+      "relationship_type": "signatory_for",
+      "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+    }
+  ]
+}

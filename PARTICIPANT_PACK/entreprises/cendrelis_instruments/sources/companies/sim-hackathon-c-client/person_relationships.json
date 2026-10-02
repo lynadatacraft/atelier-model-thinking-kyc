@@ -1,0 +1,49 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "person_relationships",
+  "data": [
+    {
+      "person_id": "eda94533-6f47-51f8-abfa-951e43bfe1f5",
+      "subsidiary_id": "sim-hackathon-c-client",
+      "relationship_type": "ubo_of",
+      "effective_from": "2020-01-15",
+      "direct_pct": 60,
+      "indirect_pct": 0,
+      "votes_pct": 60,
+      "control_basis": null
+    },
+    {
+      "person_id": "eda94533-6f47-51f8-abfa-951e43bfe1f5",
+      "subsidiary_id": "sim-hackathon-c-client",
+      "relationship_type": "signatory_for",
+      "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+    },
+    {
+      "person_id": "e7cf7f41-ae73-5d73-9512-39b056d3974a",
+      "subsidiary_id": "sim-hackathon-c-client",
+      "relationship_type": "ubo_of",
+      "effective_from": "2020-01-15",
+      "direct_pct": 40,
+      "indirect_pct": 0,
+      "votes_pct": 40,
+      "control_basis": null
+    },
+    {
+      "person_id": "2e49ea16-4a18-546e-bcb9-be1bbaf4180f",
+      "subsidiary_id": "sim-hackathon-c-client",
+      "relationship_type": "controller_of",
+      "effective_from": "2020-01-15",
+      "direct_pct": 0,
+      "indirect_pct": 0,
+      "votes_pct": 0,
+      "control_basis": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes."
+    },
+    {
+      "person_id": "fd1b4137-afa0-5f95-8bb8-30afcf336c2a",
+      "subsidiary_id": "sim-hackathon-c-client",
+      "relationship_type": "signatory_for",
+      "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+    }
+  ]
+}

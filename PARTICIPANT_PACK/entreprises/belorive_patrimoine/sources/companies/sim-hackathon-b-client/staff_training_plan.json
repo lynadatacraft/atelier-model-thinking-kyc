@@ -1,0 +1,26 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "staff_training_plan",
+  "data": {
+    "document_id": "B-HR-20260820",
+    "issued_at": "2026-08-20",
+    "record_type": "hr_plan",
+    "entity": "Belorive Patrimoine SAS",
+    "headcount": 18,
+    "sessions": [
+      {
+        "topic": "Workstation ergonomics",
+        "duration_hours": 2
+      },
+      {
+        "topic": "Spreadsheet basics",
+        "duration_hours": 3
+      }
+    ],
+    "venue": "Lyon, France",
+    "budget_eur": 1200,
+    "period": "2026",
+    "status": "Internal scheduling proposal; not a compliance-policy or authorization record."
+  }
+}

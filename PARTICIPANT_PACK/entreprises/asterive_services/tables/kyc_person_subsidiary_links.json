@@ -1,0 +1,20 @@
+[
+  {
+    "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "group_id": "sim-hackathon-a",
+    "role": "ubo"
+  },
+  {
+    "person_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "group_id": "sim-hackathon-a",
+    "role": "ubo"
+  },
+  {
+    "person_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "group_id": "sim-hackathon-a",
+    "role": "signatory"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9",
+    "group_id": "sim-hackathon-b",
+    "given_name": "Camille",
+    "surname": "Orvaux",
+    "date_of_birth": "1980-04-12",
+    "notes": "Fictional exercise person; identity is deduplicated across roles."
+  },
+  {
+    "person_id": "9751a47f-e88f-5771-9d5c-ec1a6e8728cd",
+    "group_id": "sim-hackathon-b",
+    "given_name": "Samir",
+    "surname": "Dervelle",
+    "date_of_birth": "1985-08-23",
+    "notes": "Fictional exercise person; identity is deduplicated across roles."
+  },
+  {
+    "person_id": "78da5c96-5e92-582b-8d59-68dceaeae03a",
+    "group_id": "sim-hackathon-b",
+    "given_name": "Léa",
+    "surname": "Montelac",
+    "date_of_birth": "1985-08-23",
+    "notes": "Fictional exercise person; identity is deduplicated across roles."
+  },
+  {
+    "person_id": "8ae0d408-2d51-5c8f-822a-a795e9baa779",
+    "group_id": "sim-hackathon-b",
+    "given_name": "Alex",
+    "surname": "Fernel",
+    "date_of_birth": "1985-08-23",
+    "notes": "Fictional exercise person; identity is deduplicated across roles."
+  },
+  {
+    "person_id": "0cd724dc-b507-56d2-ae8d-2f35ff747f6d",
+    "group_id": "sim-hackathon-b",
+    "given_name": "Julien",
+    "surname": "Valsenne",
+    "date_of_birth": null,
+    "notes": "Fictional exercise person; identity is deduplicated across roles."
+  }
+]

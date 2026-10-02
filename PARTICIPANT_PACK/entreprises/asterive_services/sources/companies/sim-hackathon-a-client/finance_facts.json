@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "finance_facts",
+  "data": {
+    "period": "2025-01-01/2025-12-31",
+    "currency": "EUR",
+    "group_totals": {
+      "revenue": 10000000,
+      "expenses": 8000000,
+      "assets": 5000000
+    },
+    "group_assets_note": "Consolidated totals are supplied in the finance schedule.",
+    "activities": []
+  }
+}

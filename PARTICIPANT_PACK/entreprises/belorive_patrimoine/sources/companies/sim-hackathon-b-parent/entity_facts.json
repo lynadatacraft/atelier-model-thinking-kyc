@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "entity_facts",
+  "data": {
+    "subsidiary_name": "Belorive Participations SAS",
+    "country_iso2": "FR",
+    "address": "50 place du Groupe Fictif, 69000 Lyon, France"
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "bcfd0d6f-3581-5f6a-a7bc-31b041927d63",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "ubo_list": [
+      {
+        "person_id": "eda94533-6f47-51f8-abfa-951e43bfe1f5",
+        "ubo_name": "Nora Avelune",
+        "ubo_ownership_percentage": 60,
+        "direct_percentage": 60,
+        "indirect_percentage": 0,
+        "voting_percentage": 60,
+        "control_basis": "Ownership above 25%"
+      },
+      {
+        "person_id": "e7cf7f41-ae73-5d73-9512-39b056d3974a",
+        "ubo_name": "Hugo Valcendre",
+        "ubo_ownership_percentage": 40,
+        "direct_percentage": 40,
+        "indirect_percentage": 0,
+        "voting_percentage": 40,
+        "control_basis": "Ownership above 25%"
+      },
+      {
+        "person_id": "2e49ea16-4a18-546e-bcb9-be1bbaf4180f",
+        "ubo_name": "Inès Rocheval",
+        "ubo_ownership_percentage": 0,
+        "direct_percentage": 0,
+        "indirect_percentage": 0,
+        "voting_percentage": 0,
+        "control_basis": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes."
+      }
+    ],
+    "ubo_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "C/sources/companies/sim-hackathon-c-client/ownership.md",
+        "source_ref": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "551d2ee53eea6ecb53661f11220a8f2f9efcbdca248833e760d3452f6c385e87"
+      }
+    ],
+    "tax_residency_info": {
+      "tax_residencies": [
+        {
+          "country": "France",
+          "tin": "SIM-TIN-C-FR"
+        }
+      ],
+      "tin": "SIM-TIN-C-FR",
+      "crs_status": "Active NFE",
+      "giin": null
+    },
+    "tax_residency_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "C/sources/companies/sim-hackathon-c-client/tax.md",
+        "source_ref": "sources/companies/sim-hackathon-c-client/tax.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "af5153f003f317a6e1d4712192647f90c0750e32c753f9b9e8e43d00f4aca019"
+      }
+    ],
+    "sanctions_related_issues": [
+      {
+        "assessment_status": "fictional_case_exposure_not_legal_clearance",
+        "assessment_date": "2026-09-01",
+        "country": "Cuba",
+        "entity": "Cendrelis Export SAS",
+        "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+        "description": "Export and support of simulated measurement instruments under the fictional export authorization.",
+        "current": true,
+        "planned": false,
+        "revenue": 600000,
+        "expenses": 80000,
+        "assets": 150000,
+        "entity_totals": {
+          "revenue": 12000000,
+          "expenses": 8000000,
+          "assets": 3000000
+        },
+        "third_parties": [
+          "Laboratoire Caribe SIM SA"
+        ],
+        "government": false,
+        "bank_use": true,
+        "bank_product": "SIM-ACCOUNT-C",
+        "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+      },
+      {
+        "assessment_status": "fictional_case_exposure_not_legal_clearance",
+        "assessment_date": "2026-09-01",
+        "country": "Lebanon",
+        "entity": "Cendrelis Export SAS",
+        "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+        "description": "Measurement-instrument support contract with a wholly government-owned laboratory.",
+        "current": true,
+        "planned": false,
+        "revenue": 300000,
+        "expenses": 40000,
+        "assets": 0,
+        "entity_totals": {
+          "revenue": 12000000,
+          "expenses": 8000000,
+          "assets": 3000000
+        },
+        "third_parties": [
+          "Laboratoire Public Levant SIM"
+        ],
+        "government": true,
+        "bank_use": true,
+        "bank_product": "SIM-ACCOUNT-C",
+        "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+      },
+      {
+        "assessment_status": "fictional_case_exposure_not_legal_clearance",
+        "assessment_date": "2026-09-01",
+        "country": "Myanmar",
+        "entity": "Cendrelis Export SAS",
+        "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+        "description": "Proposed private-sector instrument support project; no 2025 amounts and no executed transaction.",
+        "current": false,
+        "planned": true,
+        "revenue": 0,
+        "expenses": 0,
+        "assets": 0,
+        "entity_totals": {
+          "revenue": 12000000,
+          "expenses": 8000000,
+          "assets": 3000000
+        },
+        "third_parties": [
+          "Atelier Delta SIM Ltd"
+        ],
+        "government": false,
+        "bank_use": true,
+        "bank_product": "SIM-ACCOUNT-C",
+        "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+      }
+    ],
+    "sanctions_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "C/sources/companies/sim-hackathon-c-client/activities.md",
+        "source_ref": "sources/companies/sim-hackathon-c-client/activities.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "d9027f14f1f259d7c5181cba9fd9f92a7218d4ef75aba42a38b92bdc8ae18ad9"
+      },
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "C/sources/companies/sim-hackathon-c-client/compliance.md",
+        "source_ref": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "6e56f889b0f5d38bd8e11d8ca76616ffaa32f5aea24132043403c70c6211a9ea"
+      }
+    ]
+  }
+]

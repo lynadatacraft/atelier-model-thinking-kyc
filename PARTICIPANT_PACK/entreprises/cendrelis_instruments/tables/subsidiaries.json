@@ -1,0 +1,33 @@
+[
+  {
+    "subsidiary_id": "sim-hackathon-c-client",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_name": "Cendrelis Instruments SAS",
+    "legal_form": "SAS",
+    "registration_number": "SIM-RCS-C-001",
+    "lei": null,
+    "country_iso2": "FR",
+    "address": "12 rue des Sociétés Fictives, 69000 Lyon, France",
+    "is_listed": false,
+    "tax_id": "SIM-TIN-C-FR",
+    "nace_codes": [
+      "26.51"
+    ],
+    "perimeter_tags": "reporting_client",
+    "is_holding": false
+  },
+  {
+    "subsidiary_id": "sim-hackathon-c-entity-1",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_name": "Cendrelis Export SAS",
+    "legal_form": null,
+    "registration_number": null,
+    "lei": null,
+    "country_iso2": "FR",
+    "address": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+    "tax_id": null,
+    "nace_codes": null,
+    "perimeter_tags": "controlled_descendant",
+    "is_holding": false
+  }
+]

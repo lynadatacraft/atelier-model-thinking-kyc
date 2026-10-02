@@ -1,0 +1,786 @@
+[
+  {
+    "id": "2e2183e5-535c-5ec4-bbfa-f605d26d114d",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-entity-1",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-entity-1/entity_facts.json",
+    "source_sha256": "0a7fb22081057650ea46e093312ca180fe8daa5e5ddb070e00606addaba05d04",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "ee3d2c1b11aaa3dfafaf146204494f6421b2e74534a40df37cae7c22f051e5ad",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_facts",
+      "data": {
+        "subsidiary_name": "Cendrelis Export SAS",
+        "country_iso2": "FR",
+        "address": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+        "financial_totals": {
+          "revenue": 12000000,
+          "expenses": 8000000,
+          "assets": 3000000
+        }
+      }
+    }
+  },
+  {
+    "id": "950a337f-7775-55ba-bc2c-3480ffb8b9de",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": null,
+    "person_id": "eda94533-6f47-51f8-abfa-951e43bfe1f5",
+    "source_kind": "manual",
+    "document_id": "C/sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "source_sha256": "cd95e6ceec07c9634f5b7376347bccc54443ccd3f63d02c8b7fc9844a0b70d90",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "809bf4dcae4dcab9c75a8d899a8f8e01eeb96bc788f008b202981fc1ae2b1d7f",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Nora",
+        "surname": "Avelune",
+        "name": "Nora Avelune",
+        "birth_date": "1980-04-12",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-C1-FR"
+        },
+        "id_number": "SIM-ID-C1"
+      }
+    }
+  },
+  {
+    "id": "0d6f54e8-c907-5c1a-b6c5-7a5a85d8afe9",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": null,
+    "person_id": "e7cf7f41-ae73-5d73-9512-39b056d3974a",
+    "source_kind": "manual",
+    "document_id": "C/sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "source_sha256": "2213a374450a63b7483028b6727359bed7f9d271ab55774640d3ffdbc10aa5ce",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "f3c50a05151c38dcfd493435bbda16f2d21a5b9fcb2ad190337c95a097783d94",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Hugo",
+        "surname": "Valcendre",
+        "name": "Hugo Valcendre",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-C2-FR"
+        },
+        "id_number": "SIM-ID-C2"
+      }
+    }
+  },
+  {
+    "id": "b224bbbd-298b-5018-9fa1-3adce6035759",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": null,
+    "person_id": "2e49ea16-4a18-546e-bcb9-be1bbaf4180f",
+    "source_kind": "manual",
+    "document_id": "C/sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "source_sha256": "b294fc75264e916cdeeb0cba1319243e3fd3e2433142b411b75800432e13b0d6",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "fafe0f5d742c3464bf965615cf29bcef7f3f3c91fd6304cadce5e4616fc6924f",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Inès",
+        "surname": "Rocheval",
+        "name": "Inès Rocheval",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-C3-FR"
+        },
+        "id_number": "SIM-ID-C3"
+      }
+    }
+  },
+  {
+    "id": "3bf2021e-8269-5d99-913f-20a6ee4260b3",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": null,
+    "person_id": "fd1b4137-afa0-5f95-8bb8-30afcf336c2a",
+    "source_kind": "manual",
+    "document_id": "C/sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "source_sha256": "28c0edb9b0205577ea799db69da9aba6cb23a2a790d6ca2b1e0f36c53d291e3c",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "7f15b0fb4d2262af64055613900275de2f8a37a0966e5e6b5759eaf43c17cb49",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Alex",
+        "surname": "Fernel",
+        "name": "Alex Fernel",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-CR-FR"
+        },
+        "id_number": null,
+        "missing_id_reason": "Identity document renewal pending; number not supplied as of 2026-09-01."
+      }
+    }
+  },
+  {
+    "id": "db96b695-f3d6-59c9-9760-bc9e38676b36",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/person_relationships.json",
+    "source_sha256": "122dadf877694389cbbcf8cb3f601a7a444fb8777b167f66775dc4a8ddb46fc1",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "ba9e63e980d70f85bfd9362cd3a7b6ba8474b2d6d729eced9952b4a48a9c3f8e",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "person_relationships",
+      "data": [
+        {
+          "person_id": "eda94533-6f47-51f8-abfa-951e43bfe1f5",
+          "subsidiary_id": "sim-hackathon-c-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 60,
+          "indirect_pct": 0,
+          "votes_pct": 60,
+          "control_basis": null
+        },
+        {
+          "person_id": "eda94533-6f47-51f8-abfa-951e43bfe1f5",
+          "subsidiary_id": "sim-hackathon-c-client",
+          "relationship_type": "signatory_for",
+          "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        },
+        {
+          "person_id": "e7cf7f41-ae73-5d73-9512-39b056d3974a",
+          "subsidiary_id": "sim-hackathon-c-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 40,
+          "indirect_pct": 0,
+          "votes_pct": 40,
+          "control_basis": null
+        },
+        {
+          "person_id": "2e49ea16-4a18-546e-bcb9-be1bbaf4180f",
+          "subsidiary_id": "sim-hackathon-c-client",
+          "relationship_type": "controller_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 0,
+          "indirect_pct": 0,
+          "votes_pct": 0,
+          "control_basis": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes."
+        },
+        {
+          "person_id": "fd1b4137-afa0-5f95-8bb8-30afcf336c2a",
+          "subsidiary_id": "sim-hackathon-c-client",
+          "relationship_type": "signatory_for",
+          "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ]
+    }
+  },
+  {
+    "id": "70cd47e0-15b6-5ea0-acea-aa8d900736ca",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/corporate_facts.json",
+    "source_sha256": "7d6515464125b5527ef0f8967dd092660cb9248648b71e77eb71d866e80e5598",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "f2f00914e85ceb82503ed1c92fab6e3efedce4a6e396ec538f5032600e5a5b8c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "corporate_facts",
+      "data": {
+        "name": "Cendrelis Instruments SAS",
+        "business_description": "Manufacture and support of simulated measurement instruments; domestic business plus the explicitly listed exports and projects.",
+        "headcount": 240,
+        "source_of_funds_description": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+        "as_of": "2026-09-01",
+        "period": "2025-01-01/2025-12-31",
+        "currency": "EUR",
+        "incorporation": "France",
+        "legal_form": "SAS",
+        "street": "12 rue des Sociétés Fictives",
+        "postcode": "69000",
+        "city": "Lyon",
+        "country": "France",
+        "address": "12 rue des Sociétés Fictives, 69000 Lyon, France",
+        "establishment": null,
+        "registration": "SIM-RCS-C-001",
+        "registry_place": "Lyon",
+        "tin": "SIM-TIN-C-FR",
+        "other_ids": "SIM-INTERNAL-C-001",
+        "lei": null,
+        "nace": "26.51",
+        "listed": false,
+        "market": null,
+        "parent": null,
+        "entity_category": "None",
+        "bearer": false,
+        "funds": [
+          "Own activity",
+          "Investors"
+        ],
+        "other_funds": null,
+        "perimeter": [
+          {
+            "name": "Cendrelis Instruments SAS",
+            "country": "France",
+            "ownership_pct": 100,
+            "relation": "reporting entity",
+            "bank_user": true
+          },
+          {
+            "name": "Cendrelis Export SAS",
+            "country": "France",
+            "ownership_pct": 100,
+            "relation": "wholly owned subsidiary",
+            "bank_user": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8749b63d-2063-5fdc-981e-5198ca1ef9be",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/tax_facts.json",
+    "source_sha256": "3745507a86ab06299cda117fc095287270057811026484b59453d17c9609a2af",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "7f8ee1cac306fea82b6b64b2e8e44cef903f3218797656eedc57a5a35d88e4b3",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "tax_facts",
+      "data": {
+        "tax_residences": [
+          {
+            "country": "France",
+            "tin": "SIM-TIN-C-FR"
+          }
+        ],
+        "tax_category": "Active non-financial entity",
+        "active_subtype": "Passive income <50%",
+        "passive_income_pct": 5,
+        "passive_assets_pct": 10,
+        "supervisor": null,
+        "unsupervised": true
+      }
+    }
+  },
+  {
+    "id": "3e233536-7379-5bd1-9b85-0cece79495ef",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/mandate_facts.json",
+    "source_sha256": "9a13df3fe1573470b56e7e5d26c8fd1db4f77cb2c5a8af730b41a6a86e1f36ec",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "56c2dc193cf2eac43f8e1f30a0141e5ceaca9edfac514afe8a6ff6b934f7eb06",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "mandate_facts",
+      "data": {
+        "name": "Cendrelis Instruments SAS",
+        "date": "01/09/2026",
+        "place": "Lyon",
+        "signer_role": "Présidente",
+        "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+        "bank_requests_clarification": false
+      }
+    }
+  },
+  {
+    "id": "9b70bcb3-a26e-577c-997b-bf813b72af29",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/activities_facts.json",
+    "source_sha256": "76b0f09f120a08a81359d33f24d6d0427b5d1844e153a769bea7feb8dfafeca0",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "af25cfe5e7e6c75f6ad3ff2b2597e48cc85efeb43116418f6e0a155fbd042512",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "activities_facts",
+      "data": {
+        "activities": [
+          {
+            "country": "Cuba",
+            "entity": "Cendrelis Export SAS",
+            "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+            "description": "Export and support of simulated measurement instruments under the fictional export authorization.",
+            "current": true,
+            "planned": false,
+            "revenue": 600000,
+            "expenses": 80000,
+            "assets": 150000,
+            "entity_totals": {
+              "revenue": 12000000,
+              "expenses": 8000000,
+              "assets": 3000000
+            },
+            "third_parties": [
+              "Laboratoire Caribe SIM SA"
+            ],
+            "government": false,
+            "bank_use": true,
+            "bank_product": "SIM-ACCOUNT-C",
+            "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+          },
+          {
+            "country": "Lebanon",
+            "entity": "Cendrelis Export SAS",
+            "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+            "description": "Measurement-instrument support contract with a wholly government-owned laboratory.",
+            "current": true,
+            "planned": false,
+            "revenue": 300000,
+            "expenses": 40000,
+            "assets": 0,
+            "entity_totals": {
+              "revenue": 12000000,
+              "expenses": 8000000,
+              "assets": 3000000
+            },
+            "third_parties": [
+              "Laboratoire Public Levant SIM"
+            ],
+            "government": true,
+            "bank_use": true,
+            "bank_product": "SIM-ACCOUNT-C",
+            "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+          },
+          {
+            "country": "Myanmar",
+            "entity": "Cendrelis Export SAS",
+            "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+            "description": "Proposed private-sector instrument support project; no 2025 amounts and no executed transaction.",
+            "current": false,
+            "planned": true,
+            "revenue": 0,
+            "expenses": 0,
+            "assets": 0,
+            "entity_totals": {
+              "revenue": 12000000,
+              "expenses": 8000000,
+              "assets": 3000000
+            },
+            "third_parties": [
+              "Atelier Delta SIM Ltd"
+            ],
+            "government": false,
+            "bank_use": true,
+            "bank_product": "SIM-ACCOUNT-C",
+            "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+          }
+        ],
+        "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+        "ukraine_regions_activity": false,
+        "bank_users": [
+          "Cendrelis Instruments SAS"
+        ]
+      }
+    }
+  },
+  {
+    "id": "6d93d3d7-8234-52ec-8157-0087eec14ca8",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/compliance_facts.json",
+    "source_sha256": "d2c463748a26a8385e8e51930be48d88c9dd1ef825e169611dab0a09dd482278",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "2b57e5218466560a13ea05792d88b68741d34b8161a8621e9faf2f2ef4e4679c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "compliance_facts",
+      "data": {
+        "policy": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+        "bank_use": true,
+        "bank_account": "SIM-ACCOUNT-C",
+        "isolation": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+        "licenses": [
+          {
+            "reference": "SIM-EXPORT-C-01",
+            "type": "Fictional controlled-item export authorization",
+            "recipient": "Cendrelis Export SAS",
+            "activity": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories",
+            "authority": "Simulation Export Review Office",
+            "expiry": null,
+            "expiry_note": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+          }
+        ],
+        "government": {
+          "name": "Laboratoire Public Levant SIM",
+          "country": "Lebanon",
+          "ownership_pct": 100,
+          "entity": "Cendrelis Export SAS",
+          "activity": "Support of measurement instruments",
+          "group_revenue_pct": 0.5,
+          "entity_revenue_pct": 2.5,
+          "sanctions_program": "Not a designated party in the scenario; relevant government nexus is a questionnaire trigger."
+        },
+        "dual_use": {
+          "goods": "SIM-X1 measurement instruments",
+          "hs_code": "SIM-HS-X1",
+          "control_code": "SIM-DUAL-X1",
+          "destinations": [
+            "Cuba",
+            "Lebanon"
+          ],
+          "transit": [
+            "France"
+          ],
+          "classification": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+          "anti_diversion": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+        },
+        "chpl": true,
+        "bank_users": [
+          "Cendrelis Instruments SAS"
+        ],
+        "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    }
+  },
+  {
+    "id": "84ebad10-8551-5a69-adab-b60632b9afee",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/finance_facts.json",
+    "source_sha256": "6c0d3365e613b65fcd9059f04301d120c00107b4571ee20eed6ef4735f21d4e0",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "07bbce09b2406fc854595a0d7632e0f145ce2514b6b4b614f0c33744f07907c1",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "finance_facts",
+      "data": {
+        "period": "2025-01-01/2025-12-31",
+        "currency": "EUR",
+        "group_totals": {
+          "revenue": 60000000,
+          "expenses": 40000000,
+          "assets": 30000000
+        },
+        "group_assets_note": "Consolidated totals are supplied in the finance schedule.",
+        "activities": [
+          {
+            "country": "Cuba",
+            "entity": "Cendrelis Export SAS",
+            "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+            "description": "Export and support of simulated measurement instruments under the fictional export authorization.",
+            "current": true,
+            "planned": false,
+            "revenue": 600000,
+            "expenses": 80000,
+            "assets": 150000,
+            "entity_totals": {
+              "revenue": 12000000,
+              "expenses": 8000000,
+              "assets": 3000000
+            },
+            "third_parties": [
+              "Laboratoire Caribe SIM SA"
+            ],
+            "government": false,
+            "bank_use": true,
+            "bank_product": "SIM-ACCOUNT-C",
+            "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+          },
+          {
+            "country": "Lebanon",
+            "entity": "Cendrelis Export SAS",
+            "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+            "description": "Measurement-instrument support contract with a wholly government-owned laboratory.",
+            "current": true,
+            "planned": false,
+            "revenue": 300000,
+            "expenses": 40000,
+            "assets": 0,
+            "entity_totals": {
+              "revenue": 12000000,
+              "expenses": 8000000,
+              "assets": 3000000
+            },
+            "third_parties": [
+              "Laboratoire Public Levant SIM"
+            ],
+            "government": true,
+            "bank_use": true,
+            "bank_product": "SIM-ACCOUNT-C",
+            "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+          },
+          {
+            "country": "Myanmar",
+            "entity": "Cendrelis Export SAS",
+            "domicile": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+            "description": "Proposed private-sector instrument support project; no 2025 amounts and no executed transaction.",
+            "current": false,
+            "planned": true,
+            "revenue": 0,
+            "expenses": 0,
+            "assets": 0,
+            "entity_totals": {
+              "revenue": 12000000,
+              "expenses": 8000000,
+              "assets": 3000000
+            },
+            "third_parties": [
+              "Atelier Delta SIM Ltd"
+            ],
+            "government": false,
+            "bank_use": true,
+            "bank_product": "SIM-ACCOUNT-C",
+            "classification": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "a67fcef0-ff2a-5342-af7e-8b7c6bebae9a",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/office_supplies_invoice.json",
+    "source_sha256": "ccde6fa0866e530a22cdfb3f1c22218a355b68b3fb8f204aca48bf4e532f710f",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "5bd1fab9f98e1aaf0d6f76359c8720765ed8b88aa787a1572ec4502698523aaa",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "office_supplies_invoice",
+      "data": {
+        "document_id": "C-INVOICE-20260815",
+        "issued_at": "2026-08-15",
+        "record_type": "invoice",
+        "buyer": "Cendrelis Instruments SAS",
+        "supplier": "Papeterie des Ateliers Fictifs SAS",
+        "supplier_country": "France",
+        "invoice_reference": "SIM-INVOICE-C-0815",
+        "currency": "EUR",
+        "items": [
+          {
+            "description": "Recycled paper and office stationery",
+            "quantity": 10,
+            "net_amount": 240
+          }
+        ],
+        "net_total": 240,
+        "vat_total": 48,
+        "gross_total": 288,
+        "service_scope": "Domestic office supplies; FY2026 purchase, not an FY2025 consolidated financial schedule."
+      }
+    }
+  },
+  {
+    "id": "7b04f34f-6384-5f08-841d-47e8a0d6077f",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/staff_training_plan.json",
+    "source_sha256": "2c9a9d21ae0c16335847a8f48e8848b58ad4de44d69c5be3e297966c52d49cd0",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "71976f48fb9a51edcd4485097a48fe3f203904582e501123bee311e1f4ce95dd",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "staff_training_plan",
+      "data": {
+        "document_id": "C-HR-20260820",
+        "issued_at": "2026-08-20",
+        "record_type": "hr_plan",
+        "entity": "Cendrelis Instruments SAS",
+        "headcount": 240,
+        "sessions": [
+          {
+            "topic": "Workstation ergonomics",
+            "duration_hours": 2
+          },
+          {
+            "topic": "Spreadsheet basics",
+            "duration_hours": 3
+          }
+        ],
+        "venue": "Lyon, France",
+        "budget_eur": 1200,
+        "period": "2026",
+        "status": "Internal scheduling proposal; not a compliance-policy or authorization record."
+      }
+    }
+  },
+  {
+    "id": "cefb923e-04ee-5cae-a643-46a733f37dc1",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-client/registered_office_archive.json",
+    "source_sha256": "e77cfa349d23778195863458f665fe03e9413a98d3a389c723407b889f58170b",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "4e7eafd9718b6d561222cad746e69814226e4d7940ec02b0c47fe6f2339976ae",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "registered_office_archive",
+      "data": {
+        "document_id": "C-REGISTRY-20241231",
+        "issued_at": "2024-12-31",
+        "record_type": "registered_office_notice",
+        "entity": "Cendrelis Instruments SAS",
+        "registration": "SIM-RCS-C-001",
+        "address": "72 rue des Anciennes Archives Fictives, 33000 Bordeaux, France",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31",
+        "record_status": "superseded",
+        "superseded_by": "C-CORPORATE-20260901",
+        "notice": "Historical address only. Current registered office is recorded in the September 2026 corporate register."
+      }
+    }
+  },
+  {
+    "id": "f91b9df0-c799-5d56-88f5-159712e890df",
+    "group_id": "sim-hackathon-c",
+    "subsidiary_id": "sim-hackathon-c-entity-1",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "C/sources/companies/sim-hackathon-c-entity-1/entity_registry_extract.json",
+    "source_sha256": "bd74bb8c66a3620b2be585cf596a75085c666babbd335342bf538ff0f96cd806",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "1f1435ea988116610522011d829a2a916ca216ebdeba834e2a6e41c44a2daf8c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_registry_extract",
+      "data": {
+        "document_id": "C-RELATED-REGISTRY-20260901",
+        "issued_at": "2026-09-01",
+        "record_type": "registry_extract",
+        "entity": "Cendrelis Export SAS",
+        "registration": "SIM-RCS-C-RELATED-009",
+        "registered_office": "30 rue des Instruments Fictifs, 69000 Lyon, France",
+        "incorporation_country": "FR",
+        "scope": "This extract belongs only to the named legal entity. It does not establish a tax residence or any identifier for another group company."
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+country,entity,planned,revenue,expenses,assets,entity_revenue,entity_expenses,entity_assets
+Cuba,Cendrelis Export SAS,False,600000,80000,150000,12000000,8000000,3000000
+Lebanon,Cendrelis Export SAS,False,300000,40000,0,12000000,8000000,3000000
+Myanmar,Cendrelis Export SAS,True,0,0,0,12000000,8000000,3000000

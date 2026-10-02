@@ -1,0 +1,112 @@
+{
+  "dataset_version": "hackathon-v2",
+  "schema_basis": "Local staging catalog plus corporate-context/assertion/reporting-period migrations in prefill handoff; not a live schema verification.",
+  "synthetic": true,
+  "group_id": "sim-hackathon-a",
+  "client_subsidiary_id": "sim-hackathon-a-client",
+  "as_of": "2026-09-01",
+  "table_files": {
+    "groups": "tables/groups.json",
+    "subsidiaries": "tables/subsidiaries.json",
+    "kyc_persons": "tables/kyc_persons.json",
+    "kyc_person_subsidiary_links": "tables/kyc_person_subsidiary_links.json",
+    "company_profile_facts": "tables/company_profile_facts.json",
+    "corporate_context": "tables/corporate_context.json",
+    "kyc_context_sources": "tables/kyc_context_sources.json",
+    "kyc_context_assertions": "tables/kyc_context_assertions.json"
+  },
+  "table_counts": {
+    "groups": 1,
+    "subsidiaries": 2,
+    "kyc_persons": 3,
+    "kyc_person_subsidiary_links": 3,
+    "company_profile_facts": 121,
+    "corporate_context": 1,
+    "kyc_context_sources": 15,
+    "kyc_context_assertions": 121
+  },
+  "storage_status": "Supabase Storage bucket hackathon-context; keys prefixed by case code.",
+  "assertion_status": "Unvalidated manual authored facts; no OCR or reviewed extraction claimed.",
+  "missing_values": [
+    {
+      "source_id": "183caadd-8767-5f72-81e8-da46402d32a0",
+      "pointer": "/data/missing_id_reason",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "93e02819-27cf-598e-8305-67fa50b79fa5",
+      "pointer": "/data/0/control_basis",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "93e02819-27cf-598e-8305-67fa50b79fa5",
+      "pointer": "/data/2/control_basis",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "b9a99931-0b02-5c73-94ce-a304813a168b",
+      "pointer": "/data/establishment",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "b9a99931-0b02-5c73-94ce-a304813a168b",
+      "pointer": "/data/lei",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "b9a99931-0b02-5c73-94ce-a304813a168b",
+      "pointer": "/data/market",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "b9a99931-0b02-5c73-94ce-a304813a168b",
+      "pointer": "/data/parent/tax_residence",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "b9a99931-0b02-5c73-94ce-a304813a168b",
+      "pointer": "/data/other_funds",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "bc8827af-3991-595b-bf19-d3c1b665013c",
+      "pointer": "/data/supervisor",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "eb3c2e45-524b-5030-88b7-8f775ea9e584",
+      "pointer": "/data/government",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    },
+    {
+      "source_id": "eb3c2e45-524b-5030-88b7-8f775ea9e584",
+      "pointer": "/data/dual_use",
+      "reason": "Explicitly unknown or absent in the authored context; no positive assertion emitted."
+    }
+  ],
+  "source_documents": [
+    "sources/companies/sim-hackathon-a-client/activities.md",
+    "sources/companies/sim-hackathon-a-client/activities_facts.json",
+    "sources/companies/sim-hackathon-a-client/compliance.md",
+    "sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "sources/companies/sim-hackathon-a-client/corporate.md",
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-a-client/exposure.csv",
+    "sources/companies/sim-hackathon-a-client/finance.md",
+    "sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "sources/companies/sim-hackathon-a-client/mandate.md",
+    "sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "sources/companies/sim-hackathon-a-client/office_supplies_invoice.json",
+    "sources/companies/sim-hackathon-a-client/ownership.md",
+    "sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "sources/companies/sim-hackathon-a-client/registered_office_archive.json",
+    "sources/companies/sim-hackathon-a-client/staff_training_plan.json",
+    "sources/companies/sim-hackathon-a-client/tax.md",
+    "sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "sources/companies/sim-hackathon-a-parent/entity_facts.json",
+    "sources/companies/sim-hackathon-a-parent/entity_registry_extract.json",
+    "sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json"
+  ]
+}

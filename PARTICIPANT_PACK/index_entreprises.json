@@ -1,0 +1,26 @@
+{
+  "asterive_services": {
+    "company": "Asterive Services SAS",
+    "folder": "entreprises/asterive_services",
+    "manifest": "entreprises/asterive_services/manifest.json",
+    "group_id": "sim-hackathon-a",
+    "source_prefix": "A/",
+    "source_prefix_local_target": "entreprises/asterive_services/"
+  },
+  "belorive_patrimoine": {
+    "company": "Belorive Patrimoine SAS",
+    "folder": "entreprises/belorive_patrimoine",
+    "manifest": "entreprises/belorive_patrimoine/manifest.json",
+    "group_id": "sim-hackathon-b",
+    "source_prefix": "B/",
+    "source_prefix_local_target": "entreprises/belorive_patrimoine/"
+  },
+  "cendrelis_instruments": {
+    "company": "Cendrelis Instruments SAS",
+    "folder": "entreprises/cendrelis_instruments",
+    "manifest": "entreprises/cendrelis_instruments/manifest.json",
+    "group_id": "sim-hackathon-c",
+    "source_prefix": "C/",
+    "source_prefix_local_target": "entreprises/cendrelis_instruments/"
+  }
+}

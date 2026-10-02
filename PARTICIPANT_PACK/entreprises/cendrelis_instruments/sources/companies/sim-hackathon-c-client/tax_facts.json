@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "tax_facts",
+  "data": {
+    "tax_residences": [
+      {
+        "country": "France",
+        "tin": "SIM-TIN-C-FR"
+      }
+    ],
+    "tax_category": "Active non-financial entity",
+    "active_subtype": "Passive income <50%",
+    "passive_income_pct": 5,
+    "passive_assets_pct": 10,
+    "supervisor": null,
+    "unsupervised": true
+  }
+}

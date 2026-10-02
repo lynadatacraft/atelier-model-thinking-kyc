@@ -1,0 +1,12 @@
+[
+  {
+    "group_id": "sim-hackathon-b",
+    "group_name": "Belorive Participations SAS",
+    "industry": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.",
+    "hq_city": "Lyon",
+    "hq_country_iso2": "FR",
+    "primary_language": "fr",
+    "default_timezone": "Europe/Paris",
+    "notes": "Fictional tenant. Reporting perimeter for this case is the client and descendants, excluding upstream parent."
+  }
+]
