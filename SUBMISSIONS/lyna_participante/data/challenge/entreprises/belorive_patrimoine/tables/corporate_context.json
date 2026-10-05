@@ -1,0 +1,144 @@
+[
+  {
+    "id": "bcc2907b-98b2-5920-a405-a03b243e2eec",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "ubo_list": [
+      {
+        "person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9",
+        "ubo_name": "Camille Orvaux",
+        "ubo_ownership_percentage": 42,
+        "direct_percentage": 0,
+        "indirect_percentage": 42,
+        "voting_percentage": 42,
+        "control_basis": "Ownership above 25%"
+      },
+      {
+        "person_id": "9751a47f-e88f-5771-9d5c-ec1a6e8728cd",
+        "ubo_name": "Samir Dervelle",
+        "ubo_ownership_percentage": 28,
+        "direct_percentage": 0,
+        "indirect_percentage": 28,
+        "voting_percentage": 28,
+        "control_basis": "Ownership above 25%"
+      },
+      {
+        "person_id": "78da5c96-5e92-582b-8d59-68dceaeae03a",
+        "ubo_name": "Léa Montelac",
+        "ubo_ownership_percentage": 30,
+        "direct_percentage": 30,
+        "indirect_percentage": 0,
+        "voting_percentage": 30,
+        "control_basis": "Ownership above 25%"
+      }
+    ],
+    "ubo_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "B/sources/companies/sim-hackathon-b-client/ownership.md",
+        "source_ref": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+      }
+    ],
+    "tax_residency_info": {
+      "tax_residencies": [
+        {
+          "country": "France",
+          "tin": "SIM-TIN-B-FR"
+        }
+      ],
+      "tin": "SIM-TIN-B-FR",
+      "crs_status": "Passive NFE",
+      "giin": null
+    },
+    "tax_residency_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "B/sources/companies/sim-hackathon-b-client/tax.md",
+        "source_ref": "sources/companies/sim-hackathon-b-client/tax.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+      }
+    ],
+    "sanctions_related_issues": [
+      {
+        "assessment_status": "fictional_case_exposure_not_legal_clearance",
+        "assessment_date": "2026-09-01",
+        "country": "Belarus",
+        "entity": "Belorive Immobilier Belarus LLC",
+        "domicile": "1 avenue du Site Fictif, Belarus",
+        "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+        "current": true,
+        "planned": false,
+        "revenue": 200000,
+        "expenses": 60000,
+        "assets": 500000,
+        "entity_totals": {
+          "revenue": 2000000,
+          "expenses": 1000000,
+          "assets": 5000000
+        },
+        "third_parties": [
+          "Locataire Boréal SIM LLC"
+        ],
+        "government": false,
+        "bank_use": false,
+        "bank_product": null,
+        "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+      },
+      {
+        "assessment_status": "fictional_case_exposure_not_legal_clearance",
+        "assessment_date": "2026-09-01",
+        "country": "Russia",
+        "entity": "Belorive Clôture Russia LLC",
+        "domicile": "1 avenue du Site Fictif, Russia",
+        "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+        "current": true,
+        "planned": false,
+        "revenue": 0,
+        "expenses": 24000,
+        "assets": 100000,
+        "entity_totals": {
+          "revenue": 0,
+          "expenses": 120000,
+          "assets": 500000
+        },
+        "third_parties": [
+          "Archivage Nord SIM LLC"
+        ],
+        "government": false,
+        "bank_use": false,
+        "bank_product": null,
+        "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+      },
+      {
+        "assessment_status": "fictional_person_nexus",
+        "assessment_date": "2026-09-01",
+        "name": "Julien Valsenne",
+        "role": "Director of Belorive Clôture Russia LLC",
+        "nationality": "France",
+        "residence": "Russia",
+        "ownership_pct": 0,
+        "listed": false,
+        "government_role": false
+      }
+    ],
+    "sanctions_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "B/sources/companies/sim-hackathon-b-client/activities.md",
+        "source_ref": "sources/companies/sim-hackathon-b-client/activities.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "bb0c6944aa852f9c4437874ab49cf0c4033b808ac179ab477beb11fd1682d1aa"
+      },
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "B/sources/companies/sim-hackathon-b-client/compliance.md",
+        "source_ref": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "ecba5548743e60362cede38fd1dbfad45edaeb3bae779ac7aef79a554045e82e"
+      }
+    ]
+  }
+]

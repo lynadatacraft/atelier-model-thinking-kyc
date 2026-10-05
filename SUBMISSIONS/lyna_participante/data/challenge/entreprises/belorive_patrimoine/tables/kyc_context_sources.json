@@ -1,0 +1,856 @@
+[
+  {
+    "id": "0fcbef5d-1434-54af-8322-212e576f831a",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-entity-1",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-entity-1/entity_facts.json",
+    "source_sha256": "2920a4679a863460346f07a6c0e7dd758b7d3106f48d2c7d18a34dbafafefee8",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "fc8f5299044ca3177ade28b386a17f0ee1e9723bec6fcfb8774331aa0344adbe",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_facts",
+      "data": {
+        "subsidiary_name": "Belorive Immobilier Belarus LLC",
+        "country_iso2": "BY",
+        "address": "1 avenue du Site Fictif, Belarus",
+        "financial_totals": {
+          "revenue": 2000000,
+          "expenses": 1000000,
+          "assets": 5000000
+        }
+      }
+    }
+  },
+  {
+    "id": "572feecd-b6eb-570f-a509-8ba7a0c374f5",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-entity-2",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-entity-2/entity_facts.json",
+    "source_sha256": "30c026a9b43b7d5d2f424b4fa7a27609880964d459b98c1a61bd4df417109c74",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "704792f8b1dadf1fd1e972dee929da6bb909523b61bfd98e306eb8717ccd513e",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_facts",
+      "data": {
+        "subsidiary_name": "Belorive Clôture Russia LLC",
+        "country_iso2": "RU",
+        "address": "1 avenue du Site Fictif, Russia",
+        "financial_totals": {
+          "revenue": 0,
+          "expenses": 120000,
+          "assets": 500000
+        }
+      }
+    }
+  },
+  {
+    "id": "b7d30813-a3ac-5dc2-9d56-0a4164aa0693",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-parent",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-parent/entity_facts.json",
+    "source_sha256": "a77c85f5963f4d401a3ecaefcf602fda32f683b4b242238a017ecc7677f07ff6",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "b80417a5f3ab3dd69d5b57ab095f3c612dbfdc0b331b19c5a41f11dacbe7641c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_facts",
+      "data": {
+        "subsidiary_name": "Belorive Participations SAS",
+        "country_iso2": "FR",
+        "address": "50 place du Groupe Fictif, 69000 Lyon, France"
+      }
+    }
+  },
+  {
+    "id": "4842d562-7e76-59f8-a0f3-ff8ab79106f1",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": null,
+    "person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9",
+    "source_kind": "manual",
+    "document_id": "B/sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+    "source_sha256": "6ca50f06e5ea0368693d7b2324a82565bc0ad3c7640dd5881762f71371092552",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "f133af091c2d7a5058ac92eec67ad454dfbfd0ad5ca8acf511b3ab81eaf525f8",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Camille",
+        "surname": "Orvaux",
+        "name": "Camille Orvaux",
+        "birth_date": "1980-04-12",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-B1-FR"
+        },
+        "id_number": "SIM-ID-B1"
+      }
+    }
+  },
+  {
+    "id": "e18be313-1c11-52d9-bba5-ec5041ee2646",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": null,
+    "person_id": "9751a47f-e88f-5771-9d5c-ec1a6e8728cd",
+    "source_kind": "manual",
+    "document_id": "B/sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+    "source_sha256": "dfeea3c32cc187c1c3875feeae1b97445783c0272091049346115a246ee07ecf",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "ac5a0050e3d95282b06a212ec7a7ccd485ed97ae960360a829a325ba6384b9d6",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Samir",
+        "surname": "Dervelle",
+        "name": "Samir Dervelle",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-B2-FR"
+        },
+        "id_number": "SIM-ID-B2"
+      }
+    }
+  },
+  {
+    "id": "5e7f32f0-1dc5-5756-8e9c-c9694b97c931",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": null,
+    "person_id": "78da5c96-5e92-582b-8d59-68dceaeae03a",
+    "source_kind": "manual",
+    "document_id": "B/sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "source_sha256": "83c4827a4708dc2ea5449c3c00cd53decd4184beec742fdf1e4d04a9dd3951b7",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "59df25029827e0eba843020bc2c4c92374c7a9bd0b844ec27d469e17d07a767c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Léa",
+        "surname": "Montelac",
+        "name": "Léa Montelac",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France",
+          "United States"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France",
+          "United States"
+        ],
+        "tins": {
+          "France": "SIM-TIN-B3-FR",
+          "United States": null
+        },
+        "id_number": "SIM-ID-B3",
+        "tin_note": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required."
+      }
+    }
+  },
+  {
+    "id": "a96a10a6-d3dc-5d92-928f-5c287cee766b",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": null,
+    "person_id": "8ae0d408-2d51-5c8f-822a-a795e9baa779",
+    "source_kind": "manual",
+    "document_id": "B/sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json",
+    "source_sha256": "281d4077898355a3f1caf0627344d37eb843cbf7f21192e9d81c4ed041759aa1",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "259a1eec71a96919f2168b328943b7b0d8d8b5f56f2812096072717a33c06282",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Alex",
+        "surname": "Fernel",
+        "name": "Alex Fernel",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-BR-FR"
+        },
+        "id_number": "SIM-ID-BR",
+        "missing_id_reason": null
+      }
+    }
+  },
+  {
+    "id": "90c8bdc9-02d0-5b7d-80d8-fdb4661dd659",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": null,
+    "person_id": "0cd724dc-b507-56d2-ae8d-2f35ff747f6d",
+    "source_kind": "manual",
+    "document_id": "B/sources/persons/0cd724dc-b507-56d2-ae8d-2f35ff747f6d/personal_facts.json",
+    "source_sha256": "047b5b5290b67506bf098e0b980ad9be32ab410322f2befe4c03847048e674a9",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "44ca7b6b1c963e972c2718fc1472e58097e84e1adc97efb4b0e1aab540dc840a",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "name": "Julien Valsenne",
+        "given": "Julien",
+        "surname": "Valsenne",
+        "birth_date": null,
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "Russia"
+        ]
+      }
+    }
+  },
+  {
+    "id": "06dfa4e8-a573-57b2-87cc-09fbc3fa5e80",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/person_relationships.json",
+    "source_sha256": "e579eee60c566062680e07b8c6f3a53540a7a0cfa1689f26f45cf71e961533f4",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "01c331f48864e96cfcb29df98afb8e2c1871033b7854ae6c348db29c506a7827",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "person_relationships",
+      "data": [
+        {
+          "person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9",
+          "subsidiary_id": "sim-hackathon-b-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 0,
+          "indirect_pct": 42,
+          "votes_pct": 42,
+          "control_basis": null
+        },
+        {
+          "person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9",
+          "subsidiary_id": "sim-hackathon-b-client",
+          "relationship_type": "signatory_for",
+          "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        },
+        {
+          "person_id": "9751a47f-e88f-5771-9d5c-ec1a6e8728cd",
+          "subsidiary_id": "sim-hackathon-b-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 0,
+          "indirect_pct": 28,
+          "votes_pct": 28,
+          "control_basis": null
+        },
+        {
+          "person_id": "78da5c96-5e92-582b-8d59-68dceaeae03a",
+          "subsidiary_id": "sim-hackathon-b-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 30,
+          "indirect_pct": 0,
+          "votes_pct": 30,
+          "control_basis": null
+        },
+        {
+          "person_id": "8ae0d408-2d51-5c8f-822a-a795e9baa779",
+          "subsidiary_id": "sim-hackathon-b-client",
+          "relationship_type": "signatory_for",
+          "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ]
+    }
+  },
+  {
+    "id": "9b3441b4-8bd3-50d1-8d45-91c30e6fc819",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-entity-2",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-entity-2/person_relationships.json",
+    "source_sha256": "75d5e3539b867bfcf549dc678a67f0c41aada42d91150e0f78835085c785567a",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "ab9e9ae2c0a8b593125213fcf0dc56c9cab428857272c97d0d50f3b3b6149814",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "person_relationships",
+      "data": [
+        {
+          "person_id": "0cd724dc-b507-56d2-ae8d-2f35ff747f6d",
+          "subsidiary_id": "sim-hackathon-b-entity-2",
+          "relationship_type": "director_of",
+          "description": "Director of Belorive Clôture Russia LLC"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9dfff563-0edd-54e2-9c93-01efb4dfd3e0",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/corporate_facts.json",
+    "source_sha256": "420fbf579ba668f9d792026f1bdb98c47aff7fdb8a3626023b8203480ba8ed0b",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "b60a1f5ac6098b180ad9b545d3bf88fb8a90c169b91c74303608da80d53fd30f",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "corporate_facts",
+      "data": {
+        "name": "Belorive Patrimoine SAS",
+        "business_description": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.",
+        "headcount": 18,
+        "source_of_funds_description": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+        "as_of": "2026-09-01",
+        "period": "2025-01-01/2025-12-31",
+        "currency": "EUR",
+        "incorporation": "France",
+        "legal_form": "SAS",
+        "street": "11 rue des Sociétés Fictives",
+        "postcode": "69000",
+        "city": "Lyon",
+        "country": "France",
+        "address": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+        "establishment": null,
+        "registration": "SIM-RCS-B-001",
+        "registry_place": "Lyon",
+        "tin": "SIM-TIN-B-FR",
+        "other_ids": "SIM-INTERNAL-B-001",
+        "lei": null,
+        "nace": "68.20",
+        "listed": false,
+        "market": null,
+        "parent": {
+          "name": "Belorive Participations SAS",
+          "incorporation": "France",
+          "tax_residence": "France",
+          "address": "50 place du Groupe Fictif, 69000 Lyon, France",
+          "capital_pct": 70,
+          "votes_pct": 70,
+          "owners": [
+            {
+              "person": "B1",
+              "pct": 60
+            },
+            {
+              "person": "B2",
+              "pct": 40
+            }
+          ]
+        },
+        "entity_category": "Mere Asset Holding Company",
+        "bearer": false,
+        "funds": [
+          "Own activity",
+          "Investors"
+        ],
+        "other_funds": null,
+        "perimeter": [
+          {
+            "name": "Belorive Patrimoine SAS",
+            "country": "France",
+            "ownership_pct": 100,
+            "relation": "reporting entity",
+            "bank_user": true
+          },
+          {
+            "name": "Belorive Immobilier Belarus LLC",
+            "country": "Belarus",
+            "ownership_pct": 100,
+            "relation": "wholly owned subsidiary",
+            "bank_user": false
+          },
+          {
+            "name": "Belorive Clôture Russia LLC",
+            "country": "Russia",
+            "ownership_pct": 100,
+            "relation": "wholly owned subsidiary",
+            "bank_user": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5418ccc0-f1e9-5dc6-ac05-43a801c55b9e",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/tax_facts.json",
+    "source_sha256": "141aa4a9c887a13069c55c0ba4db5ff49956164ed5442fcfaefef09e13b73c11",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "14f12d1b686c3db110c7cbc6ffa3537794f4d2f57c858e9eba07992b0f76ed40",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "tax_facts",
+      "data": {
+        "tax_residences": [
+          {
+            "country": "France",
+            "tin": "SIM-TIN-B-FR"
+          }
+        ],
+        "tax_category": "Passive non-financial entity",
+        "active_subtype": null,
+        "passive_income_pct": 80,
+        "passive_assets_pct": 75,
+        "supervisor": null,
+        "unsupervised": true
+      }
+    }
+  },
+  {
+    "id": "3723d7ce-017a-5fa1-8936-bd65b4a1ca08",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/mandate_facts.json",
+    "source_sha256": "61065a67e2210e11a6057f7c85460ceb80751990106ba40c7a94995fa1adac2e",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "6657797c4c62569b02ce8edc9e47d1e617f3074d4eae4e158ba149c0d480be9d",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "mandate_facts",
+      "data": {
+        "name": "Belorive Patrimoine SAS",
+        "date": "01/09/2026",
+        "place": "Lyon",
+        "signer_role": "Présidente",
+        "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+        "bank_requests_clarification": false
+      }
+    }
+  },
+  {
+    "id": "7702ca0b-071b-59f5-950c-50822cd4755a",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/activities_facts.json",
+    "source_sha256": "2faded64a3203a515e0557f1bb0ec84f79e5485f6ce01a139f9866b376bebdd2",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "29b5ad3f6eeaa043255a541aec3e6665eca660597a718c0cebe3386b3ae73b70",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "activities_facts",
+      "data": {
+        "activities": [
+          {
+            "country": "Belarus",
+            "entity": "Belorive Immobilier Belarus LLC",
+            "domicile": "1 avenue du Site Fictif, Belarus",
+            "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+            "current": true,
+            "planned": false,
+            "revenue": 200000,
+            "expenses": 60000,
+            "assets": 500000,
+            "entity_totals": {
+              "revenue": 2000000,
+              "expenses": 1000000,
+              "assets": 5000000
+            },
+            "third_parties": [
+              "Locataire Boréal SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          },
+          {
+            "country": "Russia",
+            "entity": "Belorive Clôture Russia LLC",
+            "domicile": "1 avenue du Site Fictif, Russia",
+            "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+            "current": true,
+            "planned": false,
+            "revenue": 0,
+            "expenses": 24000,
+            "assets": 100000,
+            "entity_totals": {
+              "revenue": 0,
+              "expenses": 120000,
+              "assets": 500000
+            },
+            "third_parties": [
+              "Archivage Nord SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        ],
+        "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+        "ukraine_regions_activity": false,
+        "bank_users": [
+          "Belorive Patrimoine SAS"
+        ]
+      }
+    }
+  },
+  {
+    "id": "2966c2a0-0618-5056-9323-e7aaafea5dc4",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/compliance_facts.json",
+    "source_sha256": "32e01415e0d71c35c6286b7f4d8bd844be5a9fbe055ada7cca1e5ea00069c0ee",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "353da3ca4b976fd6a73dc7626bf093407e2c896cc13f5442eed0a23929a787bd",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "compliance_facts",
+      "data": {
+        "policy": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+        "bank_use": false,
+        "bank_account": "SIM-ACCOUNT-B",
+        "isolation": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+        "licenses": [
+          {
+            "reference": "SIM-AUTH-B-01",
+            "type": "Fictional sanctions wind-down authorization",
+            "recipient": "Belorive Clôture Russia LLC",
+            "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+            "authority": "Simulation Authorization Office",
+            "expiry": "2026-12-31"
+          }
+        ],
+        "government": null,
+        "dual_use": null,
+        "chpl": false,
+        "bank_users": [
+          "Belorive Patrimoine SAS"
+        ],
+        "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    }
+  },
+  {
+    "id": "5686677b-df69-523d-9175-a35ae9b67b47",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/finance_facts.json",
+    "source_sha256": "f567822b734a0a12e8ada73e1ccede109d5c8ee614e7df3fc1e3f4e30ff6f7d4",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "de19b556befcacd702d17581b1459e1eb71e35debf1cb2f4dfa0fb466a0d8fa1",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "finance_facts",
+      "data": {
+        "period": "2025-01-01/2025-12-31",
+        "currency": "EUR",
+        "group_totals": {
+          "revenue": 20000000,
+          "expenses": 12000000,
+          "assets": null
+        },
+        "group_assets_note": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+        "activities": [
+          {
+            "country": "Belarus",
+            "entity": "Belorive Immobilier Belarus LLC",
+            "domicile": "1 avenue du Site Fictif, Belarus",
+            "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+            "current": true,
+            "planned": false,
+            "revenue": 200000,
+            "expenses": 60000,
+            "assets": 500000,
+            "entity_totals": {
+              "revenue": 2000000,
+              "expenses": 1000000,
+              "assets": 5000000
+            },
+            "third_parties": [
+              "Locataire Boréal SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          },
+          {
+            "country": "Russia",
+            "entity": "Belorive Clôture Russia LLC",
+            "domicile": "1 avenue du Site Fictif, Russia",
+            "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+            "current": true,
+            "planned": false,
+            "revenue": 0,
+            "expenses": 24000,
+            "assets": 100000,
+            "entity_totals": {
+              "revenue": 0,
+              "expenses": 120000,
+              "assets": 500000
+            },
+            "third_parties": [
+              "Archivage Nord SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "d4e32095-e64b-5fef-b032-17777d991f07",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/office_supplies_invoice.json",
+    "source_sha256": "a5cd3ebd4216b2deb07cc9ea666b19eda5c8188eeba102e98acaf0a7c5439c5b",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "a1b906ef1bd2e10b916b60f4e2ab470297e2870177659d5816c9526e3343f5fb",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "office_supplies_invoice",
+      "data": {
+        "document_id": "B-INVOICE-20260815",
+        "issued_at": "2026-08-15",
+        "record_type": "invoice",
+        "buyer": "Belorive Patrimoine SAS",
+        "supplier": "Papeterie des Ateliers Fictifs SAS",
+        "supplier_country": "France",
+        "invoice_reference": "SIM-INVOICE-B-0815",
+        "currency": "EUR",
+        "items": [
+          {
+            "description": "Recycled paper and office stationery",
+            "quantity": 10,
+            "net_amount": 240
+          }
+        ],
+        "net_total": 240,
+        "vat_total": 48,
+        "gross_total": 288,
+        "service_scope": "Domestic office supplies; FY2026 purchase, not an FY2025 consolidated financial schedule."
+      }
+    }
+  },
+  {
+    "id": "ba9761f7-a594-5352-b536-e6d06cd73ec3",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/staff_training_plan.json",
+    "source_sha256": "3f744797f65a4a1b79c94a6691ea824889af925cfee13f287136c7a8242d7199",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "c5f355f14c508f09c0f71cf655c1e1c1d93069f1b84f6ca809ef2c98f16225bb",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "staff_training_plan",
+      "data": {
+        "document_id": "B-HR-20260820",
+        "issued_at": "2026-08-20",
+        "record_type": "hr_plan",
+        "entity": "Belorive Patrimoine SAS",
+        "headcount": 18,
+        "sessions": [
+          {
+            "topic": "Workstation ergonomics",
+            "duration_hours": 2
+          },
+          {
+            "topic": "Spreadsheet basics",
+            "duration_hours": 3
+          }
+        ],
+        "venue": "Lyon, France",
+        "budget_eur": 1200,
+        "period": "2026",
+        "status": "Internal scheduling proposal; not a compliance-policy or authorization record."
+      }
+    }
+  },
+  {
+    "id": "8e53893d-409e-52a0-8f43-18e243d5cc9d",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-client/registered_office_archive.json",
+    "source_sha256": "cbe3777079a5e8203f7fb10f402c73914a2db5a3e66b7ca84b4645ee1cabea7c",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "6309c9d7dbd981c3ca2d403a656eefebc83dd01d8b56fd4458c41f16e98a6adb",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "registered_office_archive",
+      "data": {
+        "document_id": "B-REGISTRY-20241231",
+        "issued_at": "2024-12-31",
+        "record_type": "registered_office_notice",
+        "entity": "Belorive Patrimoine SAS",
+        "registration": "SIM-RCS-B-001",
+        "address": "71 rue des Anciennes Archives Fictives, 33000 Bordeaux, France",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31",
+        "record_status": "superseded",
+        "superseded_by": "B-CORPORATE-20260901",
+        "notice": "Historical address only. Current registered office is recorded in the September 2026 corporate register."
+      }
+    }
+  },
+  {
+    "id": "ca58327f-6e53-5bc2-9b90-85b6d473b267",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_id": "sim-hackathon-b-entity-1",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "B/sources/companies/sim-hackathon-b-entity-1/entity_registry_extract.json",
+    "source_sha256": "d1713a964138b428f928c339e425061a2fa0cdc826c63617901af4d9b063b046",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "1e9a820722c624de1d05be24f6651e981805dafb07de86398da1f533604a7798",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_registry_extract",
+      "data": {
+        "document_id": "B-RELATED-REGISTRY-20260901",
+        "issued_at": "2026-09-01",
+        "record_type": "registry_extract",
+        "entity": "Belorive Immobilier Belarus LLC",
+        "registration": "SIM-RCS-B-RELATED-009",
+        "registered_office": "1 avenue du Site Fictif, Belarus",
+        "incorporation_country": "BY",
+        "scope": "This extract belongs only to the named legal entity. It does not establish a tax residence or any identifier for another group company."
+      }
+    }
+  }
+]

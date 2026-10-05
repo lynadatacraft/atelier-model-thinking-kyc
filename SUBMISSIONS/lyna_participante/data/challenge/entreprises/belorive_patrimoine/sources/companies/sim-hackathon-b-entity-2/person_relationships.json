@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "person_relationships",
+  "data": [
+    {
+      "person_id": "0cd724dc-b507-56d2-ae8d-2f35ff747f6d",
+      "subsidiary_id": "sim-hackathon-b-entity-2",
+      "relationship_type": "director_of",
+      "description": "Director of Belorive Clôture Russia LLC"
+    }
+  ]
+}

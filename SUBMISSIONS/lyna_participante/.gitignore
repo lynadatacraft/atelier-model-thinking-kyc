@@ -1,0 +1,27 @@
+# Organizer answer keys — NEVER commit
+private/
+*.correction.*
+organizer/
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated outputs
+outputs/
+
+# Local caches (OCR layouts)
+.cache/
+
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Benchmark reports contain expected answers: never commit
+*.benchmark.json
+*.benchmark.md
+benchmark/

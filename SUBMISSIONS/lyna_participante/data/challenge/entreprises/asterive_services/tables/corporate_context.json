@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1b37f65d-4671-5119-966a-403b28cbbff6",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "ubo_list": [
+      {
+        "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+        "ubo_name": "Élodie Varenne",
+        "ubo_ownership_percentage": 60,
+        "direct_percentage": 0,
+        "indirect_percentage": 60,
+        "voting_percentage": 60,
+        "control_basis": "Ownership above 25%"
+      },
+      {
+        "person_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+        "ubo_name": "Malik Sorel",
+        "ubo_ownership_percentage": 40,
+        "direct_percentage": 0,
+        "indirect_percentage": 40,
+        "voting_percentage": 40,
+        "control_basis": "Ownership above 25%"
+      }
+    ],
+    "ubo_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "A/sources/companies/sim-hackathon-a-client/ownership.md",
+        "source_ref": "sources/companies/sim-hackathon-a-client/ownership.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "438316ce6d87772b3b7c114158211ec7ae11c75e26660c9aa4495cc455b77111"
+      }
+    ],
+    "tax_residency_info": {
+      "tax_residencies": [
+        {
+          "country": "France",
+          "tin": "SIM-TIN-A-FR"
+        }
+      ],
+      "tin": "SIM-TIN-A-FR",
+      "crs_status": "Active NFE",
+      "giin": null
+    },
+    "tax_residency_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "A/sources/companies/sim-hackathon-a-client/tax.md",
+        "source_ref": "sources/companies/sim-hackathon-a-client/tax.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "48d0ce684f22b572ec0d679202cd20f97b536021ef5d3fc088cf4ae278344851"
+      }
+    ],
+    "sanctions_related_issues": [],
+    "sanctions_sources": [
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "A/sources/companies/sim-hackathon-a-client/activities.md",
+        "source_ref": "sources/companies/sim-hackathon-a-client/activities.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+      },
+      {
+        "source_bucket": "hackathon-context",
+        "source_document_path": "A/sources/companies/sim-hackathon-a-client/compliance.md",
+        "source_ref": "sources/companies/sim-hackathon-a-client/compliance.md",
+        "observed_at": "2026-09-01",
+        "source_sha256": "f94edaedd18b0956cbb49845d4dd76f7e79b77dbbbef97410f341f4d3348f77e"
+      }
+    ]
+  }
+]

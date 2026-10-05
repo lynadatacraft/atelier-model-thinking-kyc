@@ -1,0 +1,61 @@
+[
+  {
+    "subsidiary_id": "sim-hackathon-b-client",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_name": "Belorive Patrimoine SAS",
+    "legal_form": "SAS",
+    "registration_number": "SIM-RCS-B-001",
+    "lei": null,
+    "country_iso2": "FR",
+    "address": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+    "is_listed": false,
+    "tax_id": "SIM-TIN-B-FR",
+    "nace_codes": [
+      "68.20"
+    ],
+    "perimeter_tags": "reporting_client",
+    "is_holding": false
+  },
+  {
+    "subsidiary_id": "sim-hackathon-b-entity-1",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_name": "Belorive Immobilier Belarus LLC",
+    "legal_form": null,
+    "registration_number": null,
+    "lei": null,
+    "country_iso2": "BY",
+    "address": "1 avenue du Site Fictif, Belarus",
+    "tax_id": null,
+    "nace_codes": null,
+    "perimeter_tags": "controlled_descendant",
+    "is_holding": false
+  },
+  {
+    "subsidiary_id": "sim-hackathon-b-entity-2",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_name": "Belorive Clôture Russia LLC",
+    "legal_form": null,
+    "registration_number": null,
+    "lei": null,
+    "country_iso2": "RU",
+    "address": "1 avenue du Site Fictif, Russia",
+    "tax_id": null,
+    "nace_codes": null,
+    "perimeter_tags": "controlled_descendant",
+    "is_holding": false
+  },
+  {
+    "subsidiary_id": "sim-hackathon-b-parent",
+    "group_id": "sim-hackathon-b",
+    "subsidiary_name": "Belorive Participations SAS",
+    "legal_form": null,
+    "registration_number": null,
+    "lei": null,
+    "country_iso2": "FR",
+    "address": "50 place du Groupe Fictif, 69000 Lyon, France",
+    "tax_id": null,
+    "nace_codes": null,
+    "perimeter_tags": "upstream_parent_excluded_from_reporting",
+    "is_holding": true
+  }
+]

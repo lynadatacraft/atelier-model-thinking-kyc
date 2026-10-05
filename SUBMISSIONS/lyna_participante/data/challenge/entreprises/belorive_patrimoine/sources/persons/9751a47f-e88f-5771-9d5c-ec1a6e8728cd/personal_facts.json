@@ -1,0 +1,26 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "personal_facts",
+  "data": {
+    "given": "Samir",
+    "surname": "Dervelle",
+    "name": "Samir Dervelle",
+    "birth_date": "1985-08-23",
+    "birth_country": "France",
+    "nationalities": [
+      "France"
+    ],
+    "residences": [
+      "France"
+    ],
+    "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "tax_residences": [
+      "France"
+    ],
+    "tins": {
+      "France": "SIM-TIN-B2-FR"
+    },
+    "id_number": "SIM-ID-B2"
+  }
+}

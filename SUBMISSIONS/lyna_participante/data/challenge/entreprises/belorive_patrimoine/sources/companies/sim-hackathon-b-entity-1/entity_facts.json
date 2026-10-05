@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "entity_facts",
+  "data": {
+    "subsidiary_name": "Belorive Immobilier Belarus LLC",
+    "country_iso2": "BY",
+    "address": "1 avenue du Site Fictif, Belarus",
+    "financial_totals": {
+      "revenue": 2000000,
+      "expenses": 1000000,
+      "assets": 5000000
+    }
+  }
+}

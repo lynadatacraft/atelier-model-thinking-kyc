@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "personal_facts",
+  "data": {
+    "given": "Alex",
+    "surname": "Fernel",
+    "name": "Alex Fernel",
+    "birth_date": "1985-08-23",
+    "birth_country": "France",
+    "nationalities": [
+      "France"
+    ],
+    "residences": [
+      "France"
+    ],
+    "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "tax_residences": [
+      "France"
+    ],
+    "tins": {
+      "France": "SIM-TIN-AR-FR"
+    },
+    "id_number": "SIM-ID-AR",
+    "missing_id_reason": null
+  }
+}

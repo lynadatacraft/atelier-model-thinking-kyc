@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "entity_registry_extract",
+  "data": {
+    "document_id": "B-RELATED-REGISTRY-20260901",
+    "issued_at": "2026-09-01",
+    "record_type": "registry_extract",
+    "entity": "Belorive Immobilier Belarus LLC",
+    "registration": "SIM-RCS-B-RELATED-009",
+    "registered_office": "1 avenue du Site Fictif, Belarus",
+    "incorporation_country": "BY",
+    "scope": "This extract belongs only to the named legal entity. It does not establish a tax residence or any identifier for another group company."
+  }
+}

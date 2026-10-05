@@ -1,0 +1,26 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "office_supplies_invoice",
+  "data": {
+    "document_id": "C-INVOICE-20260815",
+    "issued_at": "2026-08-15",
+    "record_type": "invoice",
+    "buyer": "Cendrelis Instruments SAS",
+    "supplier": "Papeterie des Ateliers Fictifs SAS",
+    "supplier_country": "France",
+    "invoice_reference": "SIM-INVOICE-C-0815",
+    "currency": "EUR",
+    "items": [
+      {
+        "description": "Recycled paper and office stationery",
+        "quantity": 10,
+        "net_amount": 240
+      }
+    ],
+    "net_total": 240,
+    "vat_total": 48,
+    "gross_total": 288,
+    "service_scope": "Domestic office supplies; FY2026 purchase, not an FY2025 consolidated financial schedule."
+  }
+}

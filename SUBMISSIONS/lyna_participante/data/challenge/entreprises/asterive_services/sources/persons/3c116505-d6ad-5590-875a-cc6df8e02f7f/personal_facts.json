@@ -1,0 +1,26 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "personal_facts",
+  "data": {
+    "given": "Élodie",
+    "surname": "Varenne",
+    "name": "Élodie Varenne",
+    "birth_date": "1980-04-12",
+    "birth_country": "France",
+    "nationalities": [
+      "France"
+    ],
+    "residences": [
+      "France"
+    ],
+    "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "tax_residences": [
+      "France"
+    ],
+    "tins": {
+      "France": "SIM-TIN-A1-FR"
+    },
+    "id_number": "SIM-ID-A1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "registered_office_archive",
+  "data": {
+    "document_id": "A-REGISTRY-20241231",
+    "issued_at": "2024-12-31",
+    "record_type": "registered_office_notice",
+    "entity": "Asterive Services SAS",
+    "registration": "SIM-RCS-A-001",
+    "address": "70 rue des Anciennes Archives Fictives, 33000 Bordeaux, France",
+    "valid_from": "2024-01-01",
+    "valid_to": "2024-12-31",
+    "record_status": "superseded",
+    "superseded_by": "A-CORPORATE-20260901",
+    "notice": "Historical address only. Current registered office is recorded in the September 2026 corporate register."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "compliance_facts",
+  "data": {
+    "policy": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+    "bank_use": false,
+    "bank_account": "SIM-ACCOUNT-B",
+    "isolation": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+    "licenses": [
+      {
+        "reference": "SIM-AUTH-B-01",
+        "type": "Fictional sanctions wind-down authorization",
+        "recipient": "Belorive Clôture Russia LLC",
+        "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+        "authority": "Simulation Authorization Office",
+        "expiry": "2026-12-31"
+      }
+    ],
+    "government": null,
+    "dual_use": null,
+    "chpl": false,
+    "bank_users": [
+      "Belorive Patrimoine SAS"
+    ],
+    "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+  }
+}

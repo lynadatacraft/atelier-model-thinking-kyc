@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "personal_facts",
+  "data": {
+    "given": "Léa",
+    "surname": "Montelac",
+    "name": "Léa Montelac",
+    "birth_date": "1985-08-23",
+    "birth_country": "France",
+    "nationalities": [
+      "France",
+      "United States"
+    ],
+    "residences": [
+      "France"
+    ],
+    "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "tax_residences": [
+      "France",
+      "United States"
+    ],
+    "tins": {
+      "France": "SIM-TIN-B3-FR",
+      "United States": null
+    },
+    "id_number": "SIM-ID-B3",
+    "tin_note": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required."
+  }
+}

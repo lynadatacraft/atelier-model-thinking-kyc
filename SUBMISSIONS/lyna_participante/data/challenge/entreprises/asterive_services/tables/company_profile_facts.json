@@ -1,0 +1,3511 @@
+[
+  {
+    "id": "259ba8f9-ca28-5a55-8fc5-5af7a6934269",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-parent",
+    "subsidiary_id": "sim-hackathon-a-parent",
+    "canonical_key": "entity.legal_name",
+    "value_jsonb": "Asterive Participations SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/subsidiary_name",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+      "json_pointer": "/data/subsidiary_name",
+      "quote": "\"Asterive Participations SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+        "json_pointer": "/data/subsidiary_name",
+        "quote": "\"Asterive Participations SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "022b11b6-22a1-57cd-b4ce-50dc8db446b3",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-parent",
+    "subsidiary_id": "sim-hackathon-a-parent",
+    "canonical_key": "other",
+    "value_jsonb": "FR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/country_iso2",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+      "json_pointer": "/data/country_iso2",
+      "quote": "\"FR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+        "json_pointer": "/data/country_iso2",
+        "quote": "\"FR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b3a9ea2e-1f24-5d51-bf6e-bd3a9caafd16",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-parent",
+    "subsidiary_id": "sim-hackathon-a-parent",
+    "canonical_key": "other",
+    "value_jsonb": "40 place du Groupe Fictif, 69000 Lyon, France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/address",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+      "json_pointer": "/data/address",
+      "quote": "\"40 place du Groupe Fictif, 69000 Lyon, France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+        "json_pointer": "/data/address",
+        "quote": "\"40 place du Groupe Fictif, 69000 Lyon, France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "3a0f1178-b791-59db-9f20-94939fa31c2d",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Élodie",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/given",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/given",
+      "quote": "\"Élodie\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/given",
+        "quote": "\"Élodie\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "653f8c49-6a07-5895-810b-45a3846dc33a",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Varenne",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/surname",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/surname",
+      "quote": "\"Varenne\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/surname",
+        "quote": "\"Varenne\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "98d2c26e-f118-5b3e-9df3-a0aeca998fd6",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Élodie Varenne",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/name",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/name",
+      "quote": "\"Élodie Varenne\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/name",
+        "quote": "\"Élodie Varenne\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "3f7ccce8-fbd4-55b0-940c-521ea928ce8b",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "1980-04-12",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/birth_date",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/birth_date",
+      "quote": "\"1980-04-12\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/birth_date",
+        "quote": "\"1980-04-12\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "34ce200a-d7b9-5932-8d25-13706ae17a51",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/birth_country",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/birth_country",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/birth_country",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "bffaf1ae-7836-574f-b4f3-4bc75caefd5f",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/nationalities/0",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/nationalities/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/nationalities/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "3ef2f789-b5ff-5994-b95b-fc4de50f02a0",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/residences/0",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/residences/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/residences/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "7aee5133-a8e8-576d-bd17-e3599ad9a760",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/address",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/address",
+      "quote": "\"12 avenue des Personnages Fictifs, 69000 Lyon, France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/address",
+        "quote": "\"12 avenue des Personnages Fictifs, 69000 Lyon, France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "5b786c9b-5527-5381-92d1-e0837269d341",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/tax_residences/0",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/tax_residences/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/tax_residences/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "089653d8-f1bb-5131-8ea7-1b0fbc5ae889",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "SIM-TIN-A1-FR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/tins/France",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/tins/France",
+      "quote": "\"SIM-TIN-A1-FR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/tins/France",
+        "quote": "\"SIM-TIN-A1-FR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "c4cd0fe0-8a73-5592-8e60-a9a8a12ce9fe",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "SIM-ID-A1",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/id_number",
+    "latest_evidence_path": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+      "json_pointer": "/data/id_number",
+      "quote": "\"SIM-ID-A1\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+        "json_pointer": "/data/id_number",
+        "quote": "\"SIM-ID-A1\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "7941b418-b7cc-5d0b-939f-c1425406a130",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Malik",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/given",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/given",
+      "quote": "\"Malik\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/given",
+        "quote": "\"Malik\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "a0dff2b5-3c4d-5853-9ff0-f9d211e49840",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Sorel",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/surname",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/surname",
+      "quote": "\"Sorel\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/surname",
+        "quote": "\"Sorel\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "feb6bd8f-1588-5529-bb2a-b3fb039d1d48",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Malik Sorel",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/name",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/name",
+      "quote": "\"Malik Sorel\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/name",
+        "quote": "\"Malik Sorel\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "ab343337-ff2b-56b0-a6c0-48ad8d127119",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "1985-08-23",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/birth_date",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/birth_date",
+      "quote": "\"1985-08-23\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/birth_date",
+        "quote": "\"1985-08-23\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "9a190812-a661-54ee-9eda-2c8a9525fe51",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/birth_country",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/birth_country",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/birth_country",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "48e9c30d-e91e-5bd0-97d1-0edf809ec352",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/nationalities/0",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/nationalities/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/nationalities/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "8ecd7c4d-dfe2-5495-9df9-58bc88a16256",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/residences/0",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/residences/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/residences/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "8951d09b-3990-5b02-a9fa-6ec0ebe3c72e",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/address",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/address",
+      "quote": "\"12 avenue des Personnages Fictifs, 69000 Lyon, France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/address",
+        "quote": "\"12 avenue des Personnages Fictifs, 69000 Lyon, France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "f5722cb6-c2fc-51f9-966d-e30818182dd4",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/tax_residences/0",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/tax_residences/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/tax_residences/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "bf4ff21a-e563-5ed3-82db-8e26763798da",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "SIM-TIN-A2-FR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/tins/France",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/tins/France",
+      "quote": "\"SIM-TIN-A2-FR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/tins/France",
+        "quote": "\"SIM-TIN-A2-FR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "2a207930-7ef8-53d0-bd59-3547fc129731",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "SIM-ID-A2",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/id_number",
+    "latest_evidence_path": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+      "json_pointer": "/data/id_number",
+      "quote": "\"SIM-ID-A2\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+        "json_pointer": "/data/id_number",
+        "quote": "\"SIM-ID-A2\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "c7b517a5-97e3-5bad-b21e-f3aa71eaa656",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Alex",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/given",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/given",
+      "quote": "\"Alex\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/given",
+        "quote": "\"Alex\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "d463f15c-8f4a-5cca-803d-c40c286d4680",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Fernel",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/surname",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/surname",
+      "quote": "\"Fernel\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/surname",
+        "quote": "\"Fernel\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "154930cd-ba2e-54aa-946a-0c69aac758de",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "Alex Fernel",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/name",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/name",
+      "quote": "\"Alex Fernel\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/name",
+        "quote": "\"Alex Fernel\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "853e05a1-930a-54a7-8e5c-1d167cb425a6",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "1985-08-23",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/birth_date",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/birth_date",
+      "quote": "\"1985-08-23\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/birth_date",
+        "quote": "\"1985-08-23\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "c211c1e5-4b2c-590a-abdc-56a6c284482a",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/birth_country",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/birth_country",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/birth_country",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "6873d20a-d8c2-5ff3-a2d7-fbdc48693742",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/nationalities/0",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/nationalities/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/nationalities/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "f99435b1-8b86-5725-8ba0-839d2300835c",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/residences/0",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/residences/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/residences/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "75dd92a9-c541-52d9-b66a-9147071e77bc",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/address",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/address",
+      "quote": "\"12 avenue des Personnages Fictifs, 69000 Lyon, France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/address",
+        "quote": "\"12 avenue des Personnages Fictifs, 69000 Lyon, France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "0d13c053-8e16-52bb-bd8d-cdc281790b0d",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/tax_residences/0",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/tax_residences/0",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/tax_residences/0",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "09ae5494-3952-5732-acff-4ab3ef359bf1",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "SIM-TIN-AR-FR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/tins/France",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/tins/France",
+      "quote": "\"SIM-TIN-AR-FR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/tins/France",
+        "quote": "\"SIM-TIN-AR-FR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "70377165-8fee-5dab-b508-71130cdf6712",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "person",
+    "scope_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "subsidiary_id": null,
+    "canonical_key": "other",
+    "value_jsonb": "SIM-ID-AR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored identity record, person scope: /data/id_number",
+    "latest_evidence_path": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+      "json_pointer": "/data/id_number",
+      "quote": "\"SIM-ID-AR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+        "json_pointer": "/data/id_number",
+        "quote": "\"SIM-ID-AR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "91fd1dfb-2f36-5004-a4a3-f4d27d2bfdaf",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "ubo_of",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/0/relationship_type",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/0/relationship_type",
+      "quote": "\"ubo_of\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/0/relationship_type",
+        "quote": "\"ubo_of\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "e299c3c8-f15a-5fa8-9dd9-8d3c1ab947bb",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "2020-01-15",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/0/effective_from",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/0/effective_from",
+      "quote": "\"2020-01-15\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/0/effective_from",
+        "quote": "\"2020-01-15\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "5a4b8487-3c08-5087-8794-00e658ae878c",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ubo.percentage",
+    "value_jsonb": 0,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/0/direct_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/0/direct_pct",
+      "quote": "0",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/0/direct_pct",
+        "quote": "0",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "dc54f0b3-ab32-527d-9858-58529ee9e3a2",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ubo.percentage",
+    "value_jsonb": 60,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/0/indirect_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/0/indirect_pct",
+      "quote": "60",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/0/indirect_pct",
+        "quote": "60",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "75dbd671-31b8-525b-9e2d-17b6f6e8e6f8",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ubo.percentage",
+    "value_jsonb": 60,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/0/votes_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/0/votes_pct",
+      "quote": "60",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/0/votes_pct",
+        "quote": "60",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "7ed03043-9b85-54e7-80d3-17d4a19c0f97",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "signatory_for",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, person-company relationship scope: /data/1/relationship_type",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/1/relationship_type",
+      "quote": "\"signatory_for\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/1/relationship_type",
+        "quote": "\"signatory_for\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "999c6acc-763a-56e9-8bb7-5bee19789d82",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "signatory.authority",
+    "value_jsonb": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, person-company relationship scope: /data/1/authority",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/1/authority",
+      "quote": "\"Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/1/authority",
+        "quote": "\"Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "26a15e8a-16c1-5e7d-a1d5-af6726c3aaa2",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "ubo_of",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/2/relationship_type",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/2/relationship_type",
+      "quote": "\"ubo_of\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/2/relationship_type",
+        "quote": "\"ubo_of\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "66df2e04-1086-5b24-85d9-043d2bacec09",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "2020-01-15",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/2/effective_from",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/2/effective_from",
+      "quote": "\"2020-01-15\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/2/effective_from",
+        "quote": "\"2020-01-15\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "618c8063-d446-57d2-b1a2-33dac9c7a9b2",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ubo.percentage",
+    "value_jsonb": 0,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/2/direct_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/2/direct_pct",
+      "quote": "0",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/2/direct_pct",
+        "quote": "0",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "f30fa7c1-b6fe-5f54-a853-5e09a5a24afc",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ubo.percentage",
+    "value_jsonb": 40,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/2/indirect_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/2/indirect_pct",
+      "quote": "40",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/2/indirect_pct",
+        "quote": "40",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "464e7e85-6a55-57d4-ad36-046dfe538222",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ubo.percentage",
+    "value_jsonb": 40,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored ownership record, person-company relationship scope: /data/2/votes_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/2/votes_pct",
+      "quote": "40",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/2/votes_pct",
+        "quote": "40",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "057330fa-04c0-501a-830d-9598b391c772",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "signatory_for",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, person-company relationship scope: /data/3/relationship_type",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/3/relationship_type",
+      "quote": "\"signatory_for\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/3/relationship_type",
+        "quote": "\"signatory_for\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "725066e8-12fb-517b-9e37-8b03a57f13ee",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "signatory.authority",
+    "value_jsonb": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, person-company relationship scope: /data/3/authority",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+      "json_pointer": "/data/3/authority",
+      "quote": "\"Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+        "json_pointer": "/data/3/authority",
+        "quote": "\"Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b04bff22-9ee6-5c16-b0db-d2ce2fac4c1e",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "entity.legal_name",
+    "value_jsonb": "Asterive Services SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/name",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/name",
+      "quote": "\"Asterive Services SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/name",
+        "quote": "\"Asterive Services SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "440777a0-dad1-5745-8cbe-e313392e7400",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "activity.description",
+    "value_jsonb": "French B2B IT consulting and application support for domestic clients; no direct or indirect international operations or projects.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/business_description",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/business_description",
+      "quote": "\"French B2B IT consulting and application support for domestic clients; no direct or indirect international operations or projects.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/business_description",
+        "quote": "\"French B2B IT consulting and application support for domestic clients; no direct or indirect international operations or projects.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "7ecd17f4-ffa7-524e-b6ae-a06c81a5c849",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "financial.employees",
+    "value_jsonb": 80,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/headcount",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/headcount",
+      "quote": "80",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/headcount",
+        "quote": "80",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "e02fd435-c973-5a25-bd07-93b00bb7b898",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "source_of_funds",
+    "value_jsonb": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/source_of_funds_description",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/source_of_funds_description",
+      "quote": "\"Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/source_of_funds_description",
+        "quote": "\"Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "0b5f47b1-536c-5d75-a336-b817c17dac16",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "2026-09-01",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/as_of",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/as_of",
+      "quote": "\"2026-09-01\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/as_of",
+        "quote": "\"2026-09-01\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "898b2e83-a875-5e23-bdd2-873b388f6517",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "2025-01-01/2025-12-31",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/period",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/period",
+      "quote": "\"2025-01-01/2025-12-31\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/period",
+        "quote": "\"2025-01-01/2025-12-31\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "9f4aee99-e397-564c-b56f-603426b78e2e",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "EUR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/currency",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/currency",
+      "quote": "\"EUR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/currency",
+        "quote": "\"EUR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "2b2493c4-56e8-519f-95ec-2b8cd25b731a",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "incorporation.country",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/incorporation",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/incorporation",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/incorporation",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "cfedf3da-9d53-5e85-964c-61259fb93cae",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "entity.legal_form",
+    "value_jsonb": "SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/legal_form",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/legal_form",
+      "quote": "\"SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/legal_form",
+        "quote": "\"SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "d416e297-bdc9-5009-9a8e-b0565c6dcae1",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "registered_office.street",
+    "value_jsonb": "10 rue des Sociétés Fictives",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/street",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/street",
+      "quote": "\"10 rue des Sociétés Fictives\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/street",
+        "quote": "\"10 rue des Sociétés Fictives\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "0ee9eaf0-643e-56c3-bc15-e64cdb032200",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "registered_office.postal_code",
+    "value_jsonb": "69000",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/postcode",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/postcode",
+      "quote": "\"69000\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/postcode",
+        "quote": "\"69000\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "2a2c8b07-767b-5bcc-b8e3-34b4da2a08bf",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "registered_office.city",
+    "value_jsonb": "Lyon",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/city",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/city",
+      "quote": "\"Lyon\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/city",
+        "quote": "\"Lyon\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "f00b3fdc-1d0e-5ea7-88f0-71e5eb0aab70",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "registered_office.country",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/country",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/country",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/country",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "2e6c2d4e-572f-554e-96bb-faa2135b07ac",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "registered_office.address",
+    "value_jsonb": "10 rue des Sociétés Fictives, 69000 Lyon, France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/address",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/address",
+      "quote": "\"10 rue des Sociétés Fictives, 69000 Lyon, France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/address",
+        "quote": "\"10 rue des Sociétés Fictives, 69000 Lyon, France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "cdbdd4a5-19e2-52ed-800b-5bc60bbf74b7",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "entity.registration_number",
+    "value_jsonb": "SIM-RCS-A-001",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/registration",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/registration",
+      "quote": "\"SIM-RCS-A-001\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/registration",
+        "quote": "\"SIM-RCS-A-001\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b765fadd-555e-5057-8a33-4c1e4e39f654",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Lyon",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/registry_place",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/registry_place",
+      "quote": "\"Lyon\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/registry_place",
+        "quote": "\"Lyon\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "63223b7a-da77-5ff2-abd6-00b5733c4daf",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "tax.identifier",
+    "value_jsonb": "SIM-TIN-A-FR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/tin",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/tin",
+      "quote": "\"SIM-TIN-A-FR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/tin",
+        "quote": "\"SIM-TIN-A-FR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "86f4f892-eec1-547f-b6be-1d23e1506de7",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "SIM-INTERNAL-A-001",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/other_ids",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/other_ids",
+      "quote": "\"SIM-INTERNAL-A-001\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/other_ids",
+        "quote": "\"SIM-INTERNAL-A-001\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "5aee84f3-00cd-5b02-a464-71ab094743dd",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "activity.sector_code",
+    "value_jsonb": "62.02",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/nace",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/nace",
+      "quote": "\"62.02\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/nace",
+        "quote": "\"62.02\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "56e2b7d9-7d1d-5821-b268-8e51fa03dbf1",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "entity.listing_status",
+    "value_jsonb": false,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/listed",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/listed",
+      "quote": "false",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/listed",
+        "quote": "false",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "192b024e-0c86-5053-aa5c-60e704c5cbb2",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": "Asterive Participations SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/name",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/name",
+      "quote": "\"Asterive Participations SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/name",
+        "quote": "\"Asterive Participations SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "6806d0ce-d797-594c-9c44-fb41d1d1b9d8",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/incorporation",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/incorporation",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/incorporation",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "f9e16986-f819-56ab-a27e-a003f5f97e9f",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": "40 place du Groupe Fictif, 69000 Lyon, France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/address",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/address",
+      "quote": "\"40 place du Groupe Fictif, 69000 Lyon, France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/address",
+        "quote": "\"40 place du Groupe Fictif, 69000 Lyon, France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "0b5ec6d5-31fc-5506-88b8-d7f9d2dfeb76",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": 100,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/capital_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/capital_pct",
+      "quote": "100",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/capital_pct",
+        "quote": "100",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "71c5fa7a-de72-5771-a6ec-1232bb703453",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": 100,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/votes_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/votes_pct",
+      "quote": "100",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/votes_pct",
+        "quote": "100",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "1cf392c2-8fe1-557a-9df0-fa35fb1fe63e",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": "A1",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/owners/0/person",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/owners/0/person",
+      "quote": "\"A1\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/owners/0/person",
+        "quote": "\"A1\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "794c557f-2732-513e-b8b4-a8cec019d07c",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": 60,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/owners/0/pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/owners/0/pct",
+      "quote": "60",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/owners/0/pct",
+        "quote": "60",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "87976146-d1fc-5736-baea-97f68d26de86",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": "A2",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/owners/1/person",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/owners/1/person",
+      "quote": "\"A2\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/owners/1/person",
+        "quote": "\"A2\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "84f3d411-d249-5535-ac32-55f4da536766",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": 40,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/owners/1/pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/owners/1/pct",
+      "quote": "40",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/owners/1/pct",
+        "quote": "40",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "910846a6-8de3-5da4-88bf-2d270c88f6fd",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "ownership.structure",
+    "value_jsonb": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/parent/tax_residence_note",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/parent/tax_residence_note",
+      "quote": "\"Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/parent/tax_residence_note",
+        "quote": "\"Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "ac85ba23-00b0-5051-9fe3-69385f5572f5",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "None",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/entity_category",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/entity_category",
+      "quote": "\"None\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/entity_category",
+        "quote": "\"None\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "2d2587e1-2ee5-52c7-a961-acfeff76e7aa",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": false,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/bearer",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/bearer",
+      "quote": "false",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/bearer",
+        "quote": "false",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "9bee7960-727a-5d8a-ab20-a7dd90ea1c58",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "source_of_funds",
+    "value_jsonb": "Own activity",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/funds/0",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/funds/0",
+      "quote": "\"Own activity\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/funds/0",
+        "quote": "\"Own activity\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "1c24852c-8126-514d-9df7-3156232bd7cd",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "source_of_funds",
+    "value_jsonb": "Investors",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/funds/1",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/funds/1",
+      "quote": "\"Investors\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/funds/1",
+        "quote": "\"Investors\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "431226d6-ac59-542b-8577-0cc22d915b21",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Asterive Services SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/perimeter/0/name",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/perimeter/0/name",
+      "quote": "\"Asterive Services SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/perimeter/0/name",
+        "quote": "\"Asterive Services SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b8a976c6-8252-5f82-857d-229d6c734c5c",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/perimeter/0/country",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/perimeter/0/country",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/perimeter/0/country",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4825a661-b39e-5cfc-a312-b38d83b682dc",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": 100,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/perimeter/0/ownership_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/perimeter/0/ownership_pct",
+      "quote": "100",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/perimeter/0/ownership_pct",
+        "quote": "100",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "6c39e8c8-4775-57dc-9ce7-5e76232cfd4f",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "reporting entity",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/perimeter/0/relation",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/perimeter/0/relation",
+      "quote": "\"reporting entity\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/perimeter/0/relation",
+        "quote": "\"reporting entity\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "21e7c32c-f90d-54fa-8947-c20181b3f740",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": true,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored corporate record, client/reporting-group scope: /data/perimeter/0/bank_user",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+      "json_pointer": "/data/perimeter/0/bank_user",
+      "quote": "true",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+        "json_pointer": "/data/perimeter/0/bank_user",
+        "quote": "true",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4e914b85-6cbe-595f-bb01-857957cbfd8d",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "tax_residence.country",
+    "value_jsonb": "France",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/tax_residences/0/country",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/tax_residences/0/country",
+      "quote": "\"France\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/tax_residences/0/country",
+        "quote": "\"France\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4bdf7c2a-2280-5208-9970-ae923695508f",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "tax.identifier",
+    "value_jsonb": "SIM-TIN-A-FR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/tax_residences/0/tin",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/tax_residences/0/tin",
+      "quote": "\"SIM-TIN-A-FR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/tax_residences/0/tin",
+        "quote": "\"SIM-TIN-A-FR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4cc54619-6fc7-597b-8e6c-1dd47c1f9204",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "tax.crs_status",
+    "value_jsonb": "Active non-financial entity",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/tax_category",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/tax_category",
+      "quote": "\"Active non-financial entity\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/tax_category",
+        "quote": "\"Active non-financial entity\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "af6c2d7f-1200-5d86-8288-11c2ce7e4097",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Passive income <50%",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/active_subtype",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/active_subtype",
+      "quote": "\"Passive income <50%\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/active_subtype",
+        "quote": "\"Passive income <50%\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b37565f6-380f-52e1-82c3-5afb38b8cf33",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": 5,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/passive_income_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/passive_income_pct",
+      "quote": "5",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/passive_income_pct",
+        "quote": "5",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "5e3be698-9d00-55ce-8253-af7efee418a1",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": 10,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/passive_assets_pct",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/passive_assets_pct",
+      "quote": "10",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/passive_assets_pct",
+        "quote": "10",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b68684cd-d55e-5f24-be8d-6b109e866f8d",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": true,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored tax record, client/reporting-group scope: /data/unsupervised",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+      "json_pointer": "/data/unsupervised",
+      "quote": "true",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+        "json_pointer": "/data/unsupervised",
+        "quote": "true",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4d84f0e0-2a50-5d50-b9cb-2c9e30aa8e75",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "entity.legal_name",
+    "value_jsonb": "Asterive Services SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, client/reporting-group scope: /data/name",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+      "json_pointer": "/data/name",
+      "quote": "\"Asterive Services SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+        "json_pointer": "/data/name",
+        "quote": "\"Asterive Services SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "caf7ba29-7fb2-5ba7-9173-e03e51e71a57",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "01/09/2026",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, client/reporting-group scope: /data/date",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+      "json_pointer": "/data/date",
+      "quote": "\"01/09/2026\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+        "json_pointer": "/data/date",
+        "quote": "\"01/09/2026\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "7d007773-52d4-52de-a257-7060144643fb",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Lyon",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, client/reporting-group scope: /data/place",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+      "json_pointer": "/data/place",
+      "quote": "\"Lyon\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+        "json_pointer": "/data/place",
+        "quote": "\"Lyon\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "8d7c8583-88c3-5bb7-ab52-b79627ec4f1b",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Présidente",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, client/reporting-group scope: /data/signer_role",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+      "json_pointer": "/data/signer_role",
+      "quote": "\"Présidente\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+        "json_pointer": "/data/signer_role",
+        "quote": "\"Présidente\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "33284131-c2ae-5671-b498-d97e65879100",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "signatory.authority",
+    "value_jsonb": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, client/reporting-group scope: /data/authority",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+      "json_pointer": "/data/authority",
+      "quote": "\"Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+        "json_pointer": "/data/authority",
+        "quote": "\"Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "60b7dda3-6ee6-5a96-b8ff-5ea77d6ceb8c",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": false,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored mandate record, client/reporting-group scope: /data/bank_requests_clarification",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+      "json_pointer": "/data/bank_requests_clarification",
+      "quote": "false",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+        "json_pointer": "/data/bank_requests_clarification",
+        "quote": "false",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "95860060-6a04-5eef-817c-6a2fb5c65a61",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": [],
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored activities record, client/reporting-group scope: /data/activities",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+      "json_pointer": "/data/activities",
+      "quote": "[]",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+        "json_pointer": "/data/activities",
+        "quote": "[]",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "5844aaf8-27ac-5d23-bd8a-9cd211d6d597",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored activities record, client/reporting-group scope: /data/negative_declaration",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+      "json_pointer": "/data/negative_declaration",
+      "quote": "\"Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+        "json_pointer": "/data/negative_declaration",
+        "quote": "\"Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "873ace15-f396-5e87-9d24-5d6238e275e6",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": false,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored activities record, client/reporting-group scope: /data/ukraine_regions_activity",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+      "json_pointer": "/data/ukraine_regions_activity",
+      "quote": "false",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+        "json_pointer": "/data/ukraine_regions_activity",
+        "quote": "false",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "bfb66d87-4b60-55af-b120-3d4732189d08",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Asterive Services SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored activities record, client/reporting-group scope: /data/bank_users/0",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+      "json_pointer": "/data/bank_users/0",
+      "quote": "\"Asterive Services SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+        "json_pointer": "/data/bank_users/0",
+        "quote": "\"Asterive Services SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "12f7b7d1-7245-5201-bfb4-8c07a2e0e12e",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "sanctions.exposure",
+    "value_jsonb": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/policy",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/policy",
+      "quote": "\"Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/policy",
+        "quote": "\"Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b391fd66-a5d7-56b5-a6fd-8f17eb682a6f",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": false,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/bank_use",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/bank_use",
+      "quote": "false",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/bank_use",
+        "quote": "false",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4bd30fec-75cc-51c1-8935-509feab0a177",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "SIM-ACCOUNT-A",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/bank_account",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/bank_account",
+      "quote": "\"SIM-ACCOUNT-A\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/bank_account",
+        "quote": "\"SIM-ACCOUNT-A\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "4f4ab4a5-f3bf-5199-868e-c574a6cff645",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/isolation",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/isolation",
+      "quote": "\"Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/isolation",
+        "quote": "\"Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "9dd0c6c9-81aa-50c4-85fd-abbe377d277c",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "sanctions.exposure",
+    "value_jsonb": [],
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/licenses",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/licenses",
+      "quote": "[]",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/licenses",
+        "quote": "[]",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "0b9344e5-c6d5-5c64-b2c9-c1fbbb69b626",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": false,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/chpl",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/chpl",
+      "quote": "false",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/chpl",
+        "quote": "false",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "2a23706b-90f7-50df-ad56-f55a7ac7f153",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Asterive Services SAS",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/bank_users/0",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/bank_users/0",
+      "quote": "\"Asterive Services SAS\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/bank_users/0",
+        "quote": "\"Asterive Services SAS\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "a2af22bb-4ed8-5220-aaf6-f521af875e36",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored compliance record, client/reporting-group scope: /data/negative_declaration",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+      "json_pointer": "/data/negative_declaration",
+      "quote": "\"Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+        "json_pointer": "/data/negative_declaration",
+        "quote": "\"Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "bfa32024-893e-5d08-b8fb-59deb8dc2ba9",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "2025-01-01/2025-12-31",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/period",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/period",
+      "quote": "\"2025-01-01/2025-12-31\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/period",
+        "quote": "\"2025-01-01/2025-12-31\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "e94348a9-8767-5f09-88b4-9569ea1ca08e",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "EUR",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/currency",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/currency",
+      "quote": "\"EUR\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/currency",
+        "quote": "\"EUR\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "9c2d5988-18de-5e3f-9594-647748a8d669",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": 10000000,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/group_totals/revenue",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/group_totals/revenue",
+      "quote": "10000000",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/group_totals/revenue",
+        "quote": "10000000",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "b03c8fe8-c4b1-5472-94ad-b9a30795bb9f",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": 8000000,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/group_totals/expenses",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/group_totals/expenses",
+      "quote": "8000000",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/group_totals/expenses",
+        "quote": "8000000",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "1c7ace44-d089-57cb-a26d-10b6abd131d0",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": 5000000,
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/group_totals/assets",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/group_totals/assets",
+      "quote": "5000000",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/group_totals/assets",
+        "quote": "5000000",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "5347e4ba-b90f-55cd-90b3-cfa1e5794c4d",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": "Consolidated totals are supplied in the finance schedule.",
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/group_assets_note",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/group_assets_note",
+      "quote": "\"Consolidated totals are supplied in the finance schedule.\"",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/group_assets_note",
+        "quote": "\"Consolidated totals are supplied in the finance schedule.\"",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  },
+  {
+    "id": "cae86436-1ab2-50f7-b122-c8126bee14ea",
+    "group_id": "sim-hackathon-a",
+    "scope_type": "subsidiary",
+    "scope_id": "sim-hackathon-a-client",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "canonical_key": "other",
+    "value_jsonb": [],
+    "status": "observed",
+    "confidence": null,
+    "latest_evidence_summary": "Authored finance record, client/reporting-group scope: /data/activities",
+    "latest_evidence_path": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "latest_evidence_jsonb": {
+      "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+      "json_pointer": "/data/activities",
+      "quote": "[]",
+      "provenance": "authored_synthetic_record"
+    },
+    "evidence_history_jsonb": [
+      {
+        "source_ref": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+        "json_pointer": "/data/activities",
+        "quote": "[]",
+        "provenance": "authored_synthetic_record"
+      }
+    ],
+    "evidence_count": 1,
+    "last_evidence_at": "2026-09-01T00:00:00Z"
+  }
+]

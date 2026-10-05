@@ -1,0 +1,17 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "personal_facts",
+  "data": {
+    "name": "Julien Valsenne",
+    "given": "Julien",
+    "surname": "Valsenne",
+    "birth_date": null,
+    "nationalities": [
+      "France"
+    ],
+    "residences": [
+      "Russia"
+    ]
+  }
+}

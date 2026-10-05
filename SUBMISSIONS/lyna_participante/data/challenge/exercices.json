@@ -1,0 +1,37 @@
+[
+  {
+    "exercice": "form_01",
+    "entreprise": "Asterive Services SAS",
+    "questionnaire": "questionnaires/01_asterive_services.pdf",
+    "contexte": "entreprises/asterive_services",
+    "langue": "Français"
+  },
+  {
+    "exercice": "form_02",
+    "entreprise": "Belorive Patrimoine SAS",
+    "questionnaire": "questionnaires/02_belorive_patrimoine.pdf",
+    "contexte": "entreprises/belorive_patrimoine",
+    "langue": "Français"
+  },
+  {
+    "exercice": "form_03",
+    "entreprise": "Cendrelis Instruments SAS",
+    "questionnaire": "questionnaires/03_cendrelis_instruments.pdf",
+    "contexte": "entreprises/cendrelis_instruments",
+    "langue": "Anglais"
+  },
+  {
+    "exercice": "form_04",
+    "entreprise": "Belorive Patrimoine SAS",
+    "questionnaire": "questionnaires/04_belorive_patrimoine.pdf",
+    "contexte": "entreprises/belorive_patrimoine",
+    "langue": "Anglais"
+  },
+  {
+    "exercice": "form_05",
+    "entreprise": "Cendrelis Instruments SAS",
+    "questionnaire": "questionnaires/05_cendrelis_instruments.pdf",
+    "contexte": "entreprises/cendrelis_instruments",
+    "langue": "Polonais / anglais"
+  }
+]

@@ -1,0 +1,570 @@
+[
+  {
+    "id": "9b2f3a6d-cc15-594c-a89c-2760dab4741a",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-parent",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+    "source_sha256": "bd82b6e081aac7c5a6536129444efa0d7ac2775b1adb7c25ced695f1b776f8c3",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "0d0f174446942f242376c028036b75c551b404a56b0d49163618de2246adfea3",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_facts",
+      "data": {
+        "subsidiary_name": "Asterive Participations SAS",
+        "country_iso2": "FR",
+        "address": "40 place du Groupe Fictif, 69000 Lyon, France"
+      }
+    }
+  },
+  {
+    "id": "3b82cf83-0757-5956-9de7-aeaf9bbb0266",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": null,
+    "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+    "source_kind": "manual",
+    "document_id": "A/sources/persons/3c116505-d6ad-5590-875a-cc6df8e02f7f/personal_facts.json",
+    "source_sha256": "251b26b74061fb24b99ee60ad3c59e0ec4d3e8bc5f6259da3399b0b85b47badd",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "5a2a0f52e573365621d0fa7314283e6fd86efab940eb696a2290ac205522a0a1",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Élodie",
+        "surname": "Varenne",
+        "name": "Élodie Varenne",
+        "birth_date": "1980-04-12",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-A1-FR"
+        },
+        "id_number": "SIM-ID-A1"
+      }
+    }
+  },
+  {
+    "id": "24cfd3d1-cbb0-5562-ac1d-4c34e5a6d6ce",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": null,
+    "person_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+    "source_kind": "manual",
+    "document_id": "A/sources/persons/9d8ad917-6028-5c23-a4fe-f76a19fbe33d/personal_facts.json",
+    "source_sha256": "793c6f5df0c7ac0228d0553499dfdf0291fa53cd9fa4a984f1fac7a583847814",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "dc491b14b39ec7cf1a1c56137f00c78f06dfeb4a82140fa134120cbb5e65d7f8",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Malik",
+        "surname": "Sorel",
+        "name": "Malik Sorel",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-A2-FR"
+        },
+        "id_number": "SIM-ID-A2"
+      }
+    }
+  },
+  {
+    "id": "183caadd-8767-5f72-81e8-da46402d32a0",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": null,
+    "person_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+    "source_kind": "manual",
+    "document_id": "A/sources/persons/c975234f-7a23-546b-b467-edfe23420b1c/personal_facts.json",
+    "source_sha256": "9737a1d7f9d0156e1a8fb51d46cadecfdfd8a220225347a54fe6ec482fb43e1d",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "4773d615864e957ccf53ccb7f9a78c40e4c4fcdf815f3a2571f22cbb62c27ad8",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "personal_facts",
+      "data": {
+        "given": "Alex",
+        "surname": "Fernel",
+        "name": "Alex Fernel",
+        "birth_date": "1985-08-23",
+        "birth_country": "France",
+        "nationalities": [
+          "France"
+        ],
+        "residences": [
+          "France"
+        ],
+        "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+        "tax_residences": [
+          "France"
+        ],
+        "tins": {
+          "France": "SIM-TIN-AR-FR"
+        },
+        "id_number": "SIM-ID-AR",
+        "missing_id_reason": null
+      }
+    }
+  },
+  {
+    "id": "93e02819-27cf-598e-8305-67fa50b79fa5",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/person_relationships.json",
+    "source_sha256": "a051cfa9533831b9cbd96354a6b526f144075632d4e4cb1af18b52745c013101",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "49e82f9f785714912555ac902f74031c4a9adaeb021e1fe9a2c032e5a8e31024",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "person_relationships",
+      "data": [
+        {
+          "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+          "subsidiary_id": "sim-hackathon-a-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 0,
+          "indirect_pct": 60,
+          "votes_pct": 60,
+          "control_basis": null
+        },
+        {
+          "person_id": "3c116505-d6ad-5590-875a-cc6df8e02f7f",
+          "subsidiary_id": "sim-hackathon-a-client",
+          "relationship_type": "signatory_for",
+          "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        },
+        {
+          "person_id": "9d8ad917-6028-5c23-a4fe-f76a19fbe33d",
+          "subsidiary_id": "sim-hackathon-a-client",
+          "relationship_type": "ubo_of",
+          "effective_from": "2020-01-15",
+          "direct_pct": 0,
+          "indirect_pct": 40,
+          "votes_pct": 40,
+          "control_basis": null
+        },
+        {
+          "person_id": "c975234f-7a23-546b-b467-edfe23420b1c",
+          "subsidiary_id": "sim-hackathon-a-client",
+          "relationship_type": "signatory_for",
+          "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ]
+    }
+  },
+  {
+    "id": "b9a99931-0b02-5c73-94ce-a304813a168b",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "source_sha256": "60ce4b8e3f6a1bc54f075ccc8b3dba4ed625274152e77805deb333d3717e1198",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "aa9bf9ac339eec48fc3c9571981fd6000a02b3b609808efa356a68574ea6e14d",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "corporate_facts",
+      "data": {
+        "name": "Asterive Services SAS",
+        "business_description": "French B2B IT consulting and application support for domestic clients; no direct or indirect international operations or projects.",
+        "headcount": 80,
+        "source_of_funds_description": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+        "as_of": "2026-09-01",
+        "period": "2025-01-01/2025-12-31",
+        "currency": "EUR",
+        "incorporation": "France",
+        "legal_form": "SAS",
+        "street": "10 rue des Sociétés Fictives",
+        "postcode": "69000",
+        "city": "Lyon",
+        "country": "France",
+        "address": "10 rue des Sociétés Fictives, 69000 Lyon, France",
+        "establishment": null,
+        "registration": "SIM-RCS-A-001",
+        "registry_place": "Lyon",
+        "tin": "SIM-TIN-A-FR",
+        "other_ids": "SIM-INTERNAL-A-001",
+        "lei": null,
+        "nace": "62.02",
+        "listed": false,
+        "market": null,
+        "parent": {
+          "name": "Asterive Participations SAS",
+          "incorporation": "France",
+          "tax_residence": null,
+          "address": "40 place du Groupe Fictif, 69000 Lyon, France",
+          "capital_pct": 100,
+          "votes_pct": 100,
+          "owners": [
+            {
+              "person": "A1",
+              "pct": 60
+            },
+            {
+              "person": "A2",
+              "pct": 40
+            }
+          ],
+          "tax_residence_note": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence."
+        },
+        "entity_category": "None",
+        "bearer": false,
+        "funds": [
+          "Own activity",
+          "Investors"
+        ],
+        "other_funds": null,
+        "perimeter": [
+          {
+            "name": "Asterive Services SAS",
+            "country": "France",
+            "ownership_pct": 100,
+            "relation": "reporting entity",
+            "bank_user": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bc8827af-3991-595b-bf19-d3c1b665013c",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/tax_facts.json",
+    "source_sha256": "2bf6de6b472a0c5329f2bfafa5745fa4dab06648c437e841fd4f11ba5e7c0de5",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "d284d4376f76df0b9d1caf939ee570af30092ab36db84d733e7f0f2cb55561bc",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "tax_facts",
+      "data": {
+        "tax_residences": [
+          {
+            "country": "France",
+            "tin": "SIM-TIN-A-FR"
+          }
+        ],
+        "tax_category": "Active non-financial entity",
+        "active_subtype": "Passive income <50%",
+        "passive_income_pct": 5,
+        "passive_assets_pct": 10,
+        "supervisor": null,
+        "unsupervised": true
+      }
+    }
+  },
+  {
+    "id": "b6a5e15f-5e87-53d6-a255-a622139213d4",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/mandate_facts.json",
+    "source_sha256": "b40caa299866712a1765962d0542ea82b59f2a6767aa2f5215ca6d9d2f058680",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "57a0e258744dbcba43e8e608665f29fb7f2e8d22053a011a22589f91f747e090",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "mandate_facts",
+      "data": {
+        "name": "Asterive Services SAS",
+        "date": "01/09/2026",
+        "place": "Lyon",
+        "signer_role": "Présidente",
+        "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+        "bank_requests_clarification": false
+      }
+    }
+  },
+  {
+    "id": "60b15c01-d5cd-5d0c-86fc-b67aea3ee221",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/activities_facts.json",
+    "source_sha256": "b31bca61f72a9fc81aa824716f79d5bfadbd6f0727a3288426f19e3b074fcf4b",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "76bdae2980cee050194ec02116c265ef05986d816bc80e3ae718c6a83fb684d7",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "activities_facts",
+      "data": {
+        "activities": [],
+        "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+        "ukraine_regions_activity": false,
+        "bank_users": [
+          "Asterive Services SAS"
+        ]
+      }
+    }
+  },
+  {
+    "id": "eb3c2e45-524b-5030-88b7-8f775ea9e584",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/compliance_facts.json",
+    "source_sha256": "48ad5e49d5c451610642497ad91328b18e4413b4e2a05d96cb0edb5abd8f3334",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "e00e1c8080d2fdaf7f0242ace92e8a851789902d5c3169067c3c4d2aa13526ef",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "compliance_facts",
+      "data": {
+        "policy": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+        "bank_use": false,
+        "bank_account": "SIM-ACCOUNT-A",
+        "isolation": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+        "licenses": [],
+        "government": null,
+        "dual_use": null,
+        "chpl": false,
+        "bank_users": [
+          "Asterive Services SAS"
+        ],
+        "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    }
+  },
+  {
+    "id": "b442a455-2dc2-5207-9912-fd26fc678ca9",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/finance_facts.json",
+    "source_sha256": "64d7333136f140aa052ceab8405a46ecd2f09396966000109bbe04a86d11d0e4",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "9bbe6cb3ad27002ec757323deef01922383dd9c28b96987e8ad197a54cc6a48c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "finance_facts",
+      "data": {
+        "period": "2025-01-01/2025-12-31",
+        "currency": "EUR",
+        "group_totals": {
+          "revenue": 10000000,
+          "expenses": 8000000,
+          "assets": 5000000
+        },
+        "group_assets_note": "Consolidated totals are supplied in the finance schedule.",
+        "activities": []
+      }
+    }
+  },
+  {
+    "id": "477ee8d6-eace-5d5c-bfcf-7e1c8f5f3c9a",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/office_supplies_invoice.json",
+    "source_sha256": "f3324963d0eb5ae0645dc401a6924ff579f08d6f5dffb7e988b28592b0b9ec2e",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "1872adf598b9b6614aabb4c730a010b09a178cf72d6c67fa2c84b53aee6a4131",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "office_supplies_invoice",
+      "data": {
+        "document_id": "A-INVOICE-20260815",
+        "issued_at": "2026-08-15",
+        "record_type": "invoice",
+        "buyer": "Asterive Services SAS",
+        "supplier": "Papeterie des Ateliers Fictifs SAS",
+        "supplier_country": "France",
+        "invoice_reference": "SIM-INVOICE-A-0815",
+        "currency": "EUR",
+        "items": [
+          {
+            "description": "Recycled paper and office stationery",
+            "quantity": 10,
+            "net_amount": 240
+          }
+        ],
+        "net_total": 240,
+        "vat_total": 48,
+        "gross_total": 288,
+        "service_scope": "Domestic office supplies; FY2026 purchase, not an FY2025 consolidated financial schedule."
+      }
+    }
+  },
+  {
+    "id": "3ae09230-1abf-50a0-9301-eff928dcd578",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/staff_training_plan.json",
+    "source_sha256": "c6d7ff589a26e95bfc42ff7b9fcce4aac5bdd4bda2a3ee9a260a02abd8aff7f2",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "5be24059153c0f86b4fc2e44fdf63508ea2db2b4f6129c8e4387fead9c03284c",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "staff_training_plan",
+      "data": {
+        "document_id": "A-HR-20260820",
+        "issued_at": "2026-08-20",
+        "record_type": "hr_plan",
+        "entity": "Asterive Services SAS",
+        "headcount": 80,
+        "sessions": [
+          {
+            "topic": "Workstation ergonomics",
+            "duration_hours": 2
+          },
+          {
+            "topic": "Spreadsheet basics",
+            "duration_hours": 3
+          }
+        ],
+        "venue": "Lyon, France",
+        "budget_eur": 1200,
+        "period": "2026",
+        "status": "Internal scheduling proposal; not a compliance-policy or authorization record."
+      }
+    }
+  },
+  {
+    "id": "67caee44-87b0-5eb1-9331-08477afa0fbd",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-client",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-client/registered_office_archive.json",
+    "source_sha256": "ef1b98c36588c809e917d7ca4c832d438cd49e09c9a118616ea069130ee58062",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "68e272c72217e2437ac5e983d46a332f30a8e445d5b46c0ba27da5b397f60b98",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "registered_office_archive",
+      "data": {
+        "document_id": "A-REGISTRY-20241231",
+        "issued_at": "2024-12-31",
+        "record_type": "registered_office_notice",
+        "entity": "Asterive Services SAS",
+        "registration": "SIM-RCS-A-001",
+        "address": "70 rue des Anciennes Archives Fictives, 33000 Bordeaux, France",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31",
+        "record_status": "superseded",
+        "superseded_by": "A-CORPORATE-20260901",
+        "notice": "Historical address only. Current registered office is recorded in the September 2026 corporate register."
+      }
+    }
+  },
+  {
+    "id": "6fd9b216-0d56-5cc7-903a-0c04b68aacc5",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_id": "sim-hackathon-a-parent",
+    "person_id": null,
+    "source_kind": "manual",
+    "document_id": "A/sources/companies/sim-hackathon-a-parent/entity_registry_extract.json",
+    "source_sha256": "ef48c37c9b1fa77637043bb33a2dea337ce173361fe249763e22fea793abec66",
+    "source_bucket": null,
+    "source_document_path": null,
+    "declared_at": "2026-09-01",
+    "extraction_version": "hackathon-db-layout-v1",
+    "extraction_sha256": "3a1474da76b5b689d5ac446bfc709b41171963a81367dbb57aaeb6767da46e6a",
+    "extraction_json": {
+      "synthetic": true,
+      "declared_at": "2026-09-01",
+      "document_type": "entity_registry_extract",
+      "data": {
+        "document_id": "A-RELATED-REGISTRY-20260901",
+        "issued_at": "2026-09-01",
+        "record_type": "registry_extract",
+        "entity": "Asterive Participations SAS",
+        "registration": "SIM-RCS-A-RELATED-009",
+        "registered_office": "40 place du Groupe Fictif, 69000 Lyon, France",
+        "incorporation_country": "FR",
+        "scope": "This extract belongs only to the named legal entity. It does not establish a tax residence or any identifier for another group company."
+      }
+    }
+  }
+]

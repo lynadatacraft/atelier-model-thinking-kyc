@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "activities_facts",
+  "data": {
+    "activities": [],
+    "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "ukraine_regions_activity": false,
+    "bank_users": [
+      "Asterive Services SAS"
+    ]
+  }
+}

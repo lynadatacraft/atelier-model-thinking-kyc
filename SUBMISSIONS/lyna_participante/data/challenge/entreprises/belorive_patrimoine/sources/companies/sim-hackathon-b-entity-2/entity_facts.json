@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "entity_facts",
+  "data": {
+    "subsidiary_name": "Belorive Clôture Russia LLC",
+    "country_iso2": "RU",
+    "address": "1 avenue du Site Fictif, Russia",
+    "financial_totals": {
+      "revenue": 0,
+      "expenses": 120000,
+      "assets": 500000
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "declared_at": "2026-09-01",
+  "document_type": "mandate_facts",
+  "data": {
+    "name": "Asterive Services SAS",
+    "date": "01/09/2026",
+    "place": "Lyon",
+    "signer_role": "Présidente",
+    "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+    "bank_requests_clarification": false
+  }
+}

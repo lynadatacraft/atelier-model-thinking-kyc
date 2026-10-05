@@ -1,0 +1,33 @@
+[
+  {
+    "subsidiary_id": "sim-hackathon-a-client",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_name": "Asterive Services SAS",
+    "legal_form": "SAS",
+    "registration_number": "SIM-RCS-A-001",
+    "lei": null,
+    "country_iso2": "FR",
+    "address": "10 rue des Sociétés Fictives, 69000 Lyon, France",
+    "is_listed": false,
+    "tax_id": "SIM-TIN-A-FR",
+    "nace_codes": [
+      "62.02"
+    ],
+    "perimeter_tags": "reporting_client",
+    "is_holding": false
+  },
+  {
+    "subsidiary_id": "sim-hackathon-a-parent",
+    "group_id": "sim-hackathon-a",
+    "subsidiary_name": "Asterive Participations SAS",
+    "legal_form": null,
+    "registration_number": null,
+    "lei": null,
+    "country_iso2": "FR",
+    "address": "40 place du Groupe Fictif, 69000 Lyon, France",
+    "tax_id": null,
+    "nace_codes": null,
+    "perimeter_tags": "upstream_parent_excluded_from_reporting",
+    "is_holding": true
+  }
+]
