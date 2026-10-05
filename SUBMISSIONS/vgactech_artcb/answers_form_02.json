@@ -1,0 +1,211 @@
+{
+  "exercice": "form_02",
+  "entreprise": "Belorive Patrimoine SAS",
+  "langue": "Français",
+  "completion_date": "2026-10-06",
+  "pipeline_version": "R575",
+  "certified_100": false,
+  "unique_human_proven": false,
+  "answers": [
+    {
+      "page": 1,
+      "label": "Dénomination sociale",
+      "value": "Belorive Patrimoine SAS",
+      "status": "answer",
+      "source": "tables/subsidiaries.json#subsidiary_name",
+      "justification": ""
+    },
+    {
+      "page": 1,
+      "label": "Forme juridique",
+      "value": "SAS",
+      "status": "answer",
+      "source": "tables/subsidiaries.json#legal_form",
+      "justification": ""
+    },
+    {
+      "page": 1,
+      "label": "Numéro RCS",
+      "value": "SIM-RCS-B-001",
+      "status": "answer",
+      "source": "tables/subsidiaries.json#registration_number",
+      "justification": ""
+    },
+    {
+      "page": 1,
+      "label": "NIF / TIN",
+      "value": "SIM-TIN-B-FR",
+      "status": "answer",
+      "source": "B/sources/companies/sim-hackathon-b-client/corporate_facts.json",
+      "justification": ""
+    },
+    {
+      "page": 1,
+      "label": "Adresse du siège social",
+      "value": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+      "status": "answer",
+      "source": "tables/subsidiaries.json#address",
+      "justification": ""
+    },
+    {
+      "page": 1,
+      "label": "Description activité principale",
+      "value": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.",
+      "status": "answer",
+      "source": "B/sources/companies/sim-hackathon-b-client/corporate_facts.json",
+      "justification": ""
+    },
+    {
+      "page": 1,
+      "label": "Code NAF",
+      "value": "68.20",
+      "status": "answer",
+      "source": "B/sources/companies/sim-hackathon-b-client/corporate_facts.json",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "Entité groupe — sim-hackathon-b-client",
+      "value": "Belorive Patrimoine SAS",
+      "status": "answer",
+      "source": "tables/subsidiaries.json",
+      "justification": "Pays: FR | Forme: SAS"
+    },
+    {
+      "page": 2,
+      "label": "Entité groupe — sim-hackathon-b-entity-1",
+      "value": "Belorive Immobilier Belarus LLC",
+      "status": "answer",
+      "source": "tables/subsidiaries.json",
+      "justification": "Pays: BY | Forme: None"
+    },
+    {
+      "page": 2,
+      "label": "Entité groupe — sim-hackathon-b-entity-2",
+      "value": "Belorive Clôture Russia LLC",
+      "status": "answer",
+      "source": "tables/subsidiaries.json",
+      "justification": "Pays: RU | Forme: None"
+    },
+    {
+      "page": 2,
+      "label": "Entité groupe — sim-hackathon-b-parent",
+      "value": "Belorive Participations SAS",
+      "status": "answer",
+      "source": "tables/subsidiaries.json",
+      "justification": "Pays: FR | Forme: None"
+    },
+    {
+      "page": 3,
+      "label": "Exposition aux sanctions",
+      "value": "[{\"assessment_status\": \"fictional_case_exposure_not_legal_clearance\", \"assessment_date\": \"2026-09-01\", \"country\": \"Belarus\", \"entity\": \"Belorive Immobilier Belarus LLC\", \"domicile\": \"1 avenue du Site Fictif, Belarus\", \"description\": \"Existing property leases to private commercial tenants; no new investments contemplated.\", \"current\": true, \"planned\": false, \"revenue\": 200000, \"expenses\": 60000, \"assets\": 500000, \"entity_totals\": {\"revenue\": 2000000, \"expenses\": 1000000, \"assets\": 5000000}, \"third_parties\": [\"Locataire Boréal SIM LLC\"], \"government\": false, \"bank_use\": false, \"bank_product\": null, \"classification\": \"Scenario classification: ordinary non-controlled activity; no commodity code applicable.\"}, {\"assessment_status\": \"fictional_case_exposure_not_legal_clearance\", \"assessment_date\": \"2026-09-01\", \"country\": \"Russia\", \"entity\": \"Belorive Clôture Russia LLC\", \"domicile\": \"1 avenue du Site Fictif, Russia\", \"description\": \"Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.\", \"current\": true, \"planned\": false, \"revenue\": 0, \"expenses\": 24000, \"assets\": 100000, \"entity_totals\": {\"revenue\": 0, \"expenses\": 120000, \"assets\": 500000}, \"third_parties\": [\"Archivage Nord SIM LLC\"], \"government\": false, \"bank_use\": false, \"bank_product\": null, \"classification\": \"Scenario classification: ordinary non-controlled activity; no commodity code applicable.\"}, {\"assessment_status\": \"fictional_person_nexus\", \"assessment_date\": \"2026-09-01\", \"name\": \"Julien Valsenne\", \"role\": \"Director of Belorive Clôture Russia LLC\", \"nationality\": \"France\", \"residence\": \"Russia\", \"ownership_pct\": 0, \"listed\": false, \"government_role\": false}] ATTENTION : filiales dans des pays sous sanctions (Belarus LLC, Russia LLC) — exposition sanctions EU/OFAC/UK identifiée via noms d'entités.",
+      "status": "answer",
+      "source": "tables/corporate_context.json#sanctions_related_issues",
+      "justification": "Filiales Belorive Immobilier Belarus LLC et Belorive Clôture Russia LLC — exposition géographique sanctions."
+    },
+    {
+      "page": 2,
+      "label": "UBO 1 — Nom",
+      "value": "Camille Orvaux",
+      "status": "answer",
+      "source": "tables/corporate_context.json#ubo_list",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 1 — Détention",
+      "value": "42%",
+      "status": "answer",
+      "source": "tables/corporate_context.json#ubo_list",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 1 — Date de naissance",
+      "value": "1980-04-12",
+      "status": "answer",
+      "source": "tables/kyc_persons.json#date_of_birth",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 2 — Nom",
+      "value": "Samir Dervelle",
+      "status": "answer",
+      "source": "tables/corporate_context.json#ubo_list",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 2 — Détention",
+      "value": "28%",
+      "status": "answer",
+      "source": "tables/corporate_context.json#ubo_list",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 2 — Date de naissance",
+      "value": "1985-08-23",
+      "status": "answer",
+      "source": "tables/kyc_persons.json#date_of_birth",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 3 — Nom",
+      "value": "Léa Montelac",
+      "status": "answer",
+      "source": "tables/corporate_context.json#ubo_list",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 3 — Détention",
+      "value": "30%",
+      "status": "answer",
+      "source": "tables/corporate_context.json#ubo_list",
+      "justification": ""
+    },
+    {
+      "page": 2,
+      "label": "UBO 3 — Date de naissance",
+      "value": "1985-08-23",
+      "status": "answer",
+      "source": "tables/kyc_persons.json#date_of_birth",
+      "justification": ""
+    },
+    {
+      "page": 3,
+      "label": "Statut CRS",
+      "value": "Passive NFE",
+      "status": "answer",
+      "source": "tables/corporate_context.json#tax_residency_info",
+      "justification": ""
+    },
+    {
+      "page": 3,
+      "label": "TIN principal",
+      "value": "SIM-TIN-B-FR",
+      "status": "answer",
+      "source": "tables/corporate_context.json#tax_residency_info",
+      "justification": ""
+    },
+    {
+      "page": 3,
+      "label": "GIIN",
+      "value": "NON_APPLICABLE",
+      "status": "not_applicable",
+      "source": "tables/corporate_context.json#tax_residency_info",
+      "justification": ""
+    },
+    {
+      "page": 4,
+      "label": "Date de complétion",
+      "value": "2026-10-06",
+      "status": "answer",
+      "source": "règle atelier",
+      "justification": ""
+    }
+  ]
+}
