@@ -1,0 +1,3670 @@
+{
+ "exercice": "form_03",
+ "entreprise": "Cendrelis Instruments SAS",
+ "langue": "Anglais",
+ "situation_au": "2026-09-01",
+ "zones": 176,
+ "comptes_par_etat": {
+  "not_applicable": 119,
+  "answer": 48,
+  "missing_information": 9
+ },
+ "preuves_retrogradees_a_la_relecture": 0,
+ "pieces_ecartees_pour_irrecevabilite": [
+  {
+   "fichier": "sources/companies/sim-hackathon-c-client/office_supplies_invoice.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'office_supplies_invoice' : ne porte aucune donnee reglementee (admissibility.md)"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-c-client/registered_office_archive.json",
+   "test": "4 — pièce remplacée",
+   "preuve": "record_status = 'superseded'"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-c-client/staff_training_plan.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'staff_training_plan' : ne porte aucune donnee reglementee (admissibility.md)"
+  }
+ ],
+ "faits_bruts": 568,
+ "faits_apres_deduplication": 310,
+ "notions_du_vocabulaire": 171,
+ "incidents": [],
+ "conflits_de_modalite_retires": 0,
+ "mesure": {
+  "appels": 0,
+  "cache": 176,
+  "secondes": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "ocr_blocs": 4,
+  "cellules_de_bloc": 150,
+  "rattrapage_familles": 14,
+  "rattrapage_cellules": 15,
+  "rattrapage_cache": 14,
+  "rattrapage_cout_usd": 0.0,
+  "rattrapage_rendus": 10,
+  "rattrapage_rejets": {
+   "inconnu assume par le modele": 4
+  },
+  "rattrapages_rejetes": 3,
+  "rattrapes": 7,
+  "cout_usd": 0.0,
+  "duree_totale_s": 14.8
+ },
+ "reponses": [
+  {
+   "page": 2,
+   "libelle": "Virtual asset service provider (VASP)",
+   "option": "Virtual asset service provider (VASP)",
+   "zone": [
+    72.7,
+    566.6,
+    7.2,
+    6.8
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+   "preuve_valeur": "None",
+   "justification": "Case d'une liste de classification exclusive (Case à cocher si l'entité est un prestataire de services sur actifs virtuels). Le dossier déclare « entity_category » = « None » : cette modalité n'est pas celle du client, la condition n'est pas déclenchée.",
+   "manquant": []
+  },
+  {
+   "page": 2,
+   "libelle": "Special Purpose Vehicle (SPV)",
+   "option": "Special Purpose Vehicle (SPV)",
+   "zone": [
+    72.7,
+    542.2,
+    7.2,
+    6.8
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+   "preuve_valeur": "None",
+   "justification": "Case d'une liste de classification exclusive (Case à cocher si l'entité est un Special Purpose Vehicle (SPV)). Le dossier déclare « entity_category » = « None » : cette modalité n'est pas celle du client, la condition n'est pas déclenchée.",
+   "manquant": []
+  },
+  {
+   "page": 2,
+   "libelle": "Cannabis Business",
+   "option": "Cannabis Business",
+   "zone": [
+    72.7,
+    517.3,
+    7.2,
+    7.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Non-Financial Asset Manager",
+   "option": "Non-Financial Asset Manager",
+   "zone": [
+    72.7,
+    492.5,
+    7.2,
+    7.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Holding entities",
+   "option": "Holding entities",
+   "zone": [
+    72.7,
+    443.2,
+    7.2,
+    6.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Mere Asset Holding Companies (EMTAs)",
+   "option": "Mere Asset Holding Companies (EMTAs)",
+   "zone": [
+    72.7,
+    418.7,
+    7.2,
+    6.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "On-line gambling and casinos",
+   "option": "On-line gambling and casinos",
+   "zone": [
+    72.7,
+    393.8,
+    7.2,
+    6.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Money transmitters, currency trading and similar entities",
+   "option": "Money transmitters, currency trading and similar entities",
+   "zone": [
+    72.7,
+    369.0,
+    7.2,
+    7.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "None of the indicated below",
+   "option": "None of the indicated below",
+   "zone": [
+    72.7,
+    344.5,
+    7.2,
+    7.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "a Legal Name",
+   "option": null,
+   "zone": [
+    118.8,
+    165.2,
+    424.1,
+    16.2
+   ],
+   "role": "donnee",
+   "notion": "name",
+   "sujet": "client",
+   "valeur": "Cendrelis Instruments SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/name",
+   "preuve_valeur": "Cendrelis Instruments SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-c-client/mandate.md",
+    "sources/companies/sim-hackathon-c-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "«= = Tax Identification Number",
+   "option": null,
+   "zone": [
+    211.7,
+    189.0,
+    331.9,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "tin",
+   "sujet": "client",
+   "valeur": "SIM-TIN-C-FR",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/tin",
+   "preuve_valeur": "SIM-TIN-C-FR",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "« Le",
+   "option": null,
+   "zone": [
+    90.4,
+    212.8,
+    452.5,
+    18.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "¢ NACE Code of the company",
+   "option": null,
+   "zone": [
+    208.4,
+    273.6,
+    66.2,
+    17.3
+   ],
+   "role": "donnee",
+   "notion": "nace",
+   "sujet": "client",
+   "valeur": "26.51",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/nace",
+   "preuve_valeur": "26.51",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "Name of authority",
+   "option": null,
+   "zone": [
+    180.7,
+    634.0,
+    347.0,
+    20.5
+   ],
+   "role": "donnee",
+   "notion": "authority",
+   "sujet": "client",
+   "valeur": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/authority",
+   "preuve_valeur": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "|",
+   "option": null,
+   "zone": [
+    141.5,
+    763.2,
+    347.4,
+    20.5
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Texte bruité/OCR corrompu sans contenu exploitable, probablement artefact de scan (texte_dans_la_cellule est un artefact OCR illisible, aucune valeur à y inscrire). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 2,
+   "libelle": "Entity’s Type",
+   "option": null,
+   "zone": [
+    122.0,
+    302.0,
+    459.0,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "legal_form",
+   "sujet": "client",
+   "valeur": "SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/legal_form",
+   "preuve_valeur": "SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "a Responsible Financial Supervisory Authority",
+   "option": null,
+   "zone": [
+    294.1,
+    597.2,
+    286.9,
+    11.9
+   ],
+   "role": "donnee",
+   "notion": "supervisor",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-c-client/tax.md#/supervisor",
+   "justification": "Le dossier déclare cette valeur explicitement inconnue, sans assertion positive.",
+   "manquant": [
+    "supervisor"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "i Please indicate the source of funds",
+   "option": null,
+   "zone": [
+    262.8,
+    709.2,
+    318.2,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "source_of_funds_description",
+   "sujet": "client",
+   "valeur": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/source_of_funds_description",
+   "preuve_valeur": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 3,
+   "libelle": "*Please explain",
+   "option": null,
+   "zone": [
+    130.7,
+    85.3,
+    450.4,
+    10.1
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.6,
+    170.3,
+    568.6,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.name",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "Nora Avelune",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/name",
+   "preuve_valeur": "Nora Avelune",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    184.7,
+    238.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Aucune pièce recevable ne porte cette notion.",
+   "manquant": [
+    "people.#.control_basis"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    184.7,
+    245.7,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": 60,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/direct_pct",
+   "preuve_valeur": 60,
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    198.7,
+    267.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "1980-04-12",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/birth_date",
+   "preuve_valeur": "1980-04-12",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    198.7,
+    276.3,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.0.nationalities.0",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/nationalities/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    213.1,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.residences.0",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/residences/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    213.1,
+    151.0,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.id_number",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "SIM-ID-C1",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/id_number",
+   "preuve_valeur": "SIM-ID-C1",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    226.4,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.0.address",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/address",
+   "preuve_valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Date on which the person became “Controlling Person”:",
+   "option": null,
+   "zone": [
+    335.2,
+    240.5,
+    424.1,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.0.control_since",
+   "sujet": "personne_controlante",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "2020-01-15",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/control_since",
+   "preuve_valeur": "2020-01-15",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.4,
+    254.9,
+    568.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.name",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "Hugo Valcendre",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/name",
+   "preuve_valeur": "Hugo Valcendre",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    269.3,
+    238.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Aucune pièce recevable ne porte cette notion.",
+   "manquant": [
+    "people.#.control_basis"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    269.3,
+    245.7,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": 40,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/direct_pct",
+   "preuve_valeur": 40,
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    283.7,
+    267.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "1985-08-23",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/birth_date",
+   "preuve_valeur": "1985-08-23",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    283.7,
+    276.3,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.nationalities.0",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/nationalities/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    298.1,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.residences.0",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/residences/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    298.1,
+    151.0,
+    9.0
+   ],
+   "role": "donnee",
+   "notion": "people.1.id_number",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "SIM-ID-C2",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/id_number",
+   "preuve_valeur": "SIM-ID-C2",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    311.0,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.address",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/address",
+   "preuve_valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Date on which the person became “Controlling Person”:",
+   "option": null,
+   "zone": [
+    335.2,
+    325.4,
+    424.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.1.control_since",
+   "sujet": "personne_controlante",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "2020-01-15",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/control_since",
+   "preuve_valeur": "2020-01-15",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.4,
+    339.8,
+    568.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.2.name",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "Inès Rocheval",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Inès Rocheval",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    353.9,
+    238.1,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.2.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/control_basis",
+   "preuve_valeur": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes.",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    353.9,
+    245.7,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.2.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": 0,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/direct_pct",
+   "preuve_valeur": 0,
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    368.3,
+    267.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.2.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "1985-08-23",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/birth_date",
+   "preuve_valeur": "1985-08-23",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    368.3,
+    276.3,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.2.nationalities.0",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/nationalities/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    382.7,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.2.residences.0",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/residences/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    382.7,
+    151.0,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.2.id_number",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "SIM-ID-C3",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/id_number",
+   "preuve_valeur": "SIM-ID-C3",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    396.0,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.2.address",
+   "sujet": "personne_controlante",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/address",
+   "preuve_valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Date on which the person became “Controlling Person’:",
+   "option": null,
+   "zone": [
+    335.2,
+    410.0,
+    424.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_since",
+   "sujet": "personne_controlante",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "« people » compte 3 éléments et le champ n'en désigne aucun : on ne choisit pas.",
+   "manquant": [
+    "people.#.control_since"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "(1) Type of control",
+   "option": null,
+   "zone": [
+    173.9,
+    439.6,
+    653.8,
+    9.4
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Légende/note explicative de bas de tableau définissant le terme 'Type of control' (faible hauteur (9), numérotée '(1)', texte_dans_la_cellule vide, forme typique de note de renvoi). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 5,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.4,
+    127.1,
+    568.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.name",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    141.5,
+    238.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    141.5,
+    245.7,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    155.9,
+    267.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    155.9,
+    276.3,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.nationalities.#",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    169.9,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.residences.#",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    169.9,
+    151.0,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.id_number",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    183.2,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.address",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date on which the person became “Controlling Person”:",
+   "option": null,
+   "zone": [
+    335.2,
+    197.6,
+    424.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_since",
+   "sujet": "personne_controlante",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.6,
+    211.7,
+    568.6,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.#.name",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    226.1,
+    238.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    226.1,
+    245.7,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    240.5,
+    267.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    240.5,
+    276.3,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.nationalities.#",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    254.9,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.residences.#",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    254.9,
+    151.0,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.id_number",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    267.8,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.address",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date on which the person became “Controlling Person”:",
+   "option": null,
+   "zone": [
+    335.2,
+    282.2,
+    424.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_since",
+   "sujet": "personne_controlante",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.4,
+    296.6,
+    568.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.name",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    311.0,
+    238.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    311.0,
+    245.7,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    325.1,
+    267.5,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.#.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    325.4,
+    276.3,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.nationalities.#",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    339.5,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.residences.#",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    339.5,
+    151.0,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.id_number",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    352.8,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.address",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date on which the person became “Controlling Person”:",
+   "option": null,
+   "zone": [
+    335.2,
+    366.8,
+    424.1,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_since",
+   "sujet": "personne_controlante",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Name and Surname:",
+   "option": null,
+   "zone": [
+    190.6,
+    381.2,
+    568.6,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.name",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Type of control (1):",
+   "option": null,
+   "zone": [
+    181.3,
+    395.6,
+    238.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_basis",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Ownership % (2):",
+   "option": null,
+   "zone": [
+    513.5,
+    395.6,
+    245.7,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.direct_pct",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date of birth:",
+   "option": null,
+   "zone": [
+    151.9,
+    409.7,
+    267.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.birth_date",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Nationality:",
+   "option": null,
+   "zone": [
+    482.9,
+    410.0,
+    276.3,
+    10.1
+   ],
+   "role": "donnee",
+   "notion": "people.#.nationalities.#",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Country of residence:",
+   "option": null,
+   "zone": [
+    193.5,
+    424.1,
+    225.9,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.residences.#",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Passport or national ID card number:",
+   "option": null,
+   "zone": [
+    608.2,
+    424.1,
+    151.0,
+    9.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.id_number",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Address of residence:",
+   "option": null,
+   "zone": [
+    195.5,
+    437.4,
+    563.8,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.address",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "Date on which the person became “Controlling Person”:",
+   "option": null,
+   "zone": [
+    335.2,
+    451.4,
+    424.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "people.#.control_since",
+   "sujet": "personne_controlante",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+   "justification": "Le dossier ne compte que 3 élément(s) dans « people » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 5,
+   "libelle": "(1) Type of control",
+   "option": null,
+   "zone": [
+    177.5,
+    472.0,
+    650.2,
+    9.4
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Note/légende de bas de tableau expliquant la notion '(1) Type of control' (Libellé entre parenthèses typique d'une légende explicative, pas une question). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 6,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    211.3,
+    180.4,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.0.name",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "Nora Avelune",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name",
+   "preuve_valeur": "Nora Avelune",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    211.3,
+    87.5,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.0.birth_date",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "1980-04-12",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/birth_date",
+   "preuve_valeur": "1980-04-12",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    211.3,
+    118.1,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.0.nationalities.0",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/nationalities/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    211.3,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.0.residences.0",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/residences/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    211.3,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.0.id_number",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 1,
+   "valeur": "SIM-ID-C1",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/id_number",
+   "preuve_valeur": "SIM-ID-C1",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    231.1,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/residences",
+   "justification": "Le dossier ne compte que 1 élément(s) dans « representatives.0.residences » : la sous-ligne 2 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    231.1,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Sous-ligne 2 du bloc : cet attribut n'a qu'une valeur par élément au dossier ; la cellule est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    250.9,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/residences",
+   "justification": "Le dossier ne compte que 1 élément(s) dans « representatives.0.residences » : la sous-ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    250.9,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 1,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Sous-ligne 3 du bloc : cet attribut n'a qu'une valeur par élément au dossier ; la cellule est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    270.7,
+    180.0,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.1.name",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "Alex Fernel",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name",
+   "preuve_valeur": "Alex Fernel",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    270.7,
+    87.5,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.1.birth_date",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "1985-08-23",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/birth_date",
+   "preuve_valeur": "1985-08-23",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    270.7,
+    118.1,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.1.nationalities.0",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/nationalities/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    270.7,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.1.residences.0",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences/0",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    270.7,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.1.id_number",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/id_number",
+   "justification": "Valeur absente, sans déclaration explicite.",
+   "manquant": [
+    "representatives.#.id_number"
+   ]
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    290.5,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences",
+   "justification": "Le dossier ne compte que 1 élément(s) dans « representatives.1.residences » : la sous-ligne 2 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    290.5,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Sous-ligne 2 du bloc : cet attribut n'a qu'une valeur par élément au dossier ; la cellule est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    310.7,
+    163.1,
+    18.4
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences",
+   "justification": "Le dossier ne compte que 1 élément(s) dans « representatives.1.residences » : la sous-ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    310.7,
+    137.2,
+    18.4
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 2,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Sous-ligne 3 du bloc : cet attribut n'a qu'une valeur par élément au dossier ; la cellule est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    330.1,
+    180.0,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    330.1,
+    87.5,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    330.1,
+    118.1,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    330.1,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    330.1,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    350.3,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    350.3,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    370.1,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    370.1,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 3,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 3 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    389.9,
+    180.0,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    389.9,
+    87.5,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    389.9,
+    118.1,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    389.9,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    389.9,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    409.7,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    409.7,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    429.5,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    429.5,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 4,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 4 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    449.3,
+    180.0,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    449.3,
+    87.5,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    449.3,
+    118.1,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    449.3,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    449.3,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    469.4,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    469.4,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    489.2,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 6,
+   "libelle": "Passport or national ID card",
+   "option": null,
+   "zone": [
+    614.2,
+    489.2,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 5,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 5 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    254.5,
+    180.0,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    254.5,
+    87.5,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    254.5,
+    118.1,
+    58.3
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    254.5,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    254.5,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    274.0,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    274.0,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    294.1,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    294.1,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 6,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 6 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    313.9,
+    180.0,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    313.9,
+    87.5,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    313.9,
+    118.1,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    313.9,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    313.9,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    334.1,
+    163.1,
+    18.4
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    334.1,
+    137.2,
+    18.4
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    353.9,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    353.9,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 7,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 7 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    373.3,
+    180.4,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    373.3,
+    87.5,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    373.3,
+    118.1,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    373.3,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    373.3,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    393.5,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    393.5,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    413.3,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    413.3,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 8,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 8 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    433.1,
+    180.0,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    433.1,
+    87.5,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    433.1,
+    118.1,
+    58.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    433.1,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    433.1,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    452.9,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    452.9,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    472.7,
+    163.1,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    472.7,
+    137.2,
+    19.1
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 9,
+   "sous_rang": 3,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 9 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Name & Surname (1)",
+   "option": null,
+   "zone": [
+    61.6,
+    492.8,
+    180.0,
+    38.5
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Date of birth (2) |",
+   "option": null,
+   "zone": [
+    242.6,
+    492.8,
+    87.5,
+    38.5
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.birth_date",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "| Nationality (2)",
+   "option": null,
+   "zone": [
+    330.8,
+    492.8,
+    118.1,
+    38.5
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.nationalities.#",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    492.8,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    492.8,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 1,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Country (ies) of Residence (2)",
+   "option": null,
+   "zone": [
+    450.0,
+    512.6,
+    163.1,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.residences.#",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 7,
+   "libelle": "Passport or national ID car",
+   "option": null,
+   "zone": [
+    614.2,
+    512.6,
+    137.2,
+    18.7
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.id_number",
+   "sujet": "representant",
+   "rang": 10,
+   "sous_rang": 2,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "Le dossier ne compte que 2 élément(s) dans « representatives » : la ligne 10 du bloc est sans objet."
+  },
+  {
+   "page": 9,
+   "libelle": "ed in Date",
+   "option": null,
+   "zone": [
+    400.3,
+    374.8,
+    36.4,
+    20.2
+   ],
+   "role": "donnee",
+   "notion": "date",
+   "sujet": "client",
+   "valeur": "01/09/2026",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+   "preuve_valeur": "01/09/2026",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Date",
+   "option": null,
+   "zone": [
+    448.9,
+    374.8,
+    36.4,
+    20.2
+   ],
+   "role": "donnee",
+   "notion": "date",
+   "sujet": "client",
+   "valeur": "01/09/2026",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+   "preuve_valeur": "01/09/2026",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Date",
+   "option": null,
+   "zone": [
+    494.6,
+    374.8,
+    49.0,
+    20.2
+   ],
+   "role": "donnee",
+   "notion": "date",
+   "sujet": "client",
+   "valeur": "01/09/2026",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+   "preuve_valeur": "01/09/2026",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Name & Surname",
+   "option": null,
+   "zone": [
+    142.2,
+    413.3,
+    389.9,
+    20.5
+   ],
+   "role": "donnee",
+   "notion": "representatives.#.name",
+   "sujet": "representant",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+   "justification": "« representatives » compte 2 éléments et le champ n'en désigne aucun : on ne choisit pas.",
+   "manquant": [
+    "representatives.#.name"
+   ]
+  }
+ ]
+}

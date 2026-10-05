@@ -1,0 +1,1362 @@
+{
+ "exercice": "form_02",
+ "entreprise": "Belorive Patrimoine SAS",
+ "langue": "Français",
+ "situation_au": "2026-09-01",
+ "zones": 66,
+ "comptes_par_etat": {
+  "answer": 39,
+  "missing_information": 12,
+  "not_applicable": 13,
+  "bank_reserved": 1,
+  "human_action": 1
+ },
+ "preuves_retrogradees_a_la_relecture": 0,
+ "pieces_ecartees_pour_irrecevabilite": [
+  {
+   "fichier": "sources/companies/sim-hackathon-b-client/office_supplies_invoice.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'office_supplies_invoice' : ne porte aucune donnee reglementee (admissibility.md)"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-b-client/registered_office_archive.json",
+   "test": "4 — pièce remplacée",
+   "preuve": "record_status = 'superseded'"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-b-client/staff_training_plan.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'staff_training_plan' : ne porte aucune donnee reglementee (admissibility.md)"
+  }
+ ],
+ "faits_bruts": 545,
+ "faits_apres_deduplication": 324,
+ "notions_du_vocabulaire": 174,
+ "incidents": [],
+ "conflits_de_modalite_retires": 0,
+ "mesure": {
+  "appels": 0,
+  "cache": 66,
+  "secondes": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "rattrapage_hors_perimetre_matrice": 12,
+  "rattrapage_familles": 23,
+  "rattrapage_cellules": 29,
+  "rattrapage_cache": 23,
+  "rattrapage_cout_usd": 0.0,
+  "rattrapage_rendus": 9,
+  "rattrapage_rejets": {
+   "inconnu assume par le modele": 13
+  },
+  "rattrapages_rejetes": 0,
+  "rattrapes": 10,
+  "cout_usd": 0.0,
+  "duree_totale_s": 19.7
+ },
+ "reponses": [
+  {
+   "page": 1,
+   "libelle": "Dénomination Sociale*",
+   "option": null,
+   "zone": [
+    115.9,
+    279.4,
+    454.0,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "name",
+   "sujet": "client",
+   "valeur": "Belorive Patrimoine SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name",
+   "preuve_valeur": "Belorive Patrimoine SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-b-client/mandate.md",
+    "sources/companies/sim-hackathon-b-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Forme Juridique",
+   "option": null,
+   "zone": [
+    96.1,
+    294.5,
+    473.8,
+    10.8
+   ],
+   "role": "donnee",
+   "notion": "legal_form",
+   "sujet": "client",
+   "valeur": "SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/legal_form",
+   "preuve_valeur": "SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Adresse du siège social*",
+   "option": null,
+   "zone": [
+    120.6,
+    310.0,
+    449.6,
+    13.0
+   ],
+   "role": "donnee",
+   "notion": "address",
+   "sujet": "client",
+   "valeur": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/address",
+   "preuve_valeur": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Code postal*",
+   "option": null,
+   "zone": [
+    173.9,
+    327.6,
+    41.0,
+    12.6
+   ],
+   "role": "donnee",
+   "notion": "postcode",
+   "sujet": "client",
+   "valeur": "69000",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/postcode",
+   "preuve_valeur": "69000",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Ville*",
+   "option": null,
+   "zone": [
+    255.2,
+    327.6,
+    155.9,
+    12.6
+   ],
+   "role": "donnee",
+   "notion": "city",
+   "sujet": "client",
+   "valeur": "Lyon",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/city",
+   "preuve_valeur": "Lyon",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "memes. el Pays *",
+   "option": null,
+   "zone": [
+    443.2,
+    327.6,
+    126.7,
+    12.6
+   ],
+   "role": "donnee",
+   "notion": "country",
+   "sujet": "client",
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Adresse de l'établissement (si différent du siège social)",
+   "option": null,
+   "zone": [
+    230.8,
+    344.9,
+    339.1,
+    12.2
+   ],
+   "role": "donnee",
+   "notion": "establishment",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/establishment",
+   "justification": "Le dossier déclare cette valeur explicitement inconnue, sans assertion positive.",
+   "manquant": [
+    "establishment"
+   ]
+  },
+  {
+   "page": 1,
+   "libelle": "N° RCS*",
+   "option": null,
+   "zone": [
+    88.2,
+    361.8,
+    249.1,
+    13.0
+   ],
+   "role": "donnee",
+   "notion": "registration",
+   "sujet": "client",
+   "valeur": "SIM-RCS-B-001",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registration",
+   "preuve_valeur": "SIM-RCS-B-001",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Lieu d'enregistrement",
+   "option": null,
+   "zone": [
+    434.9,
+    361.8,
+    135.0,
+    13.0
+   ],
+   "role": "donnee",
+   "notion": "registry_place",
+   "sujet": "client",
+   "valeur": "Lyon",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registry_place",
+   "preuve_valeur": "Lyon",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Autres numéros d'identification",
+   "option": null,
+   "zone": [
+    149.0,
+    379.4,
+    420.8,
+    12.2
+   ],
+   "role": "donnee",
+   "notion": "other_ids",
+   "sujet": "client",
+   "valeur": "SIM-INTERNAL-B-001",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/other_ids",
+   "preuve_valeur": "SIM-INTERNAL-B-001",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Code NACE",
+   "option": null,
+   "zone": [
+    83.9,
+    396.4,
+    486.0,
+    11.9
+   ],
+   "role": "donnee",
+   "notion": "nace",
+   "sujet": "client",
+   "valeur": "68.20",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/nace",
+   "preuve_valeur": "68.20",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "l'ensemble des banques présentes sur le territoire français",
+   "option": null,
+   "zone": [
+    278.3,
+    119.5,
+    302.4,
+    9.4
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Fragment de texte imprimé explicatif, pas une question (texte_dans_la_cellule vide, libellé = phrase explicative continue du contexte réglementaire). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 1,
+   "libelle": "3",
+   "option": null,
+   "zone": [
+    40.3,
+    531.4,
+    540.4,
+    6.1
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Bande gauche étroite, hauteur minime, texte OCR corrompu : fragment de ligne/numéro, non un champ (bande 1/11, hauteur 6px, texte_dans_la_cellule illisible 'EL À!' typique d'un artefact OCR). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 2,
+   "libelle": null,
+   "option": "Non",
+   "zone": [
+    69.8,
+    114.1,
+    5.0,
+    5.8
+   ],
+   "role": "donnee",
+   "notion": "tax_category",
+   "sujet": "client",
+   "valeur": "Passive non-financial entity",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+   "preuve_valeur": "Passive non-financial entity",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/tax_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": null,
+   "option": "Oui",
+   "zone": [
+    113.4,
+    391.3,
+    4.3,
+    4.7
+   ],
+   "role": "donnee",
+   "notion": "tax_category",
+   "sujet": "client",
+   "valeur": "Passive non-financial entity",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+   "preuve_valeur": "Passive non-financial entity",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/tax_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "Entité exclue au sens de la règlementation FATCA et NCD ou DAC",
+   "option": "Entité exclue au sens de la règlementation FATCA et NCD ou DAC",
+   "zone": [
+    95.8,
+    504.7,
+    9.4,
+    10.1
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "Banque centrale",
+   "option": "Banque centrale",
+   "zone": [
+    95.8,
+    491.4,
+    9.4,
+    10.4
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/entity_category",
+   "preuve_valeur": "Mere Asset Holding Company",
+   "justification": "Case d'une liste de classification exclusive (Case à cocher le statut d'entité correspondant (Banque centrale) parmi une liste de catégories). Le dossier déclare « entity_category » = « Mere Asset Holding Company » : cette modalité n'est pas celle du client, la condition n'est pas déclenchée.",
+   "manquant": []
+  },
+  {
+   "page": 2,
+   "libelle": "Organisation internationale",
+   "option": "Organisation internationale",
+   "zone": [
+    95.8,
+    479.2,
+    9.4,
+    10.1
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "Entité publique",
+   "option": "Entité publique",
+   "zone": [
+    95.8,
+    466.6,
+    9.4,
+    10.1
+   ],
+   "role": "donnee",
+   "notion": "government",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/compliance.md#/government",
+   "justification": "Le dossier déclare cette valeur explicitement inconnue, sans assertion positive.",
+   "manquant": [
+    "government"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+   "option": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+   "zone": [
+    95.8,
+    453.6,
+    9.4,
+    10.1
+   ],
+   "role": "donnee",
+   "notion": "listed",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/listed",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "Autre \"ENF Active”",
+   "option": "Autre \"ENF Active”",
+   "zone": [
+    95.8,
+    173.2,
+    9.4,
+    10.1
+   ],
+   "role": "donnee",
+   "notion": "active_subtype",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/tax.md#/active_subtype",
+   "justification": "Le dossier déclare cette valeur explicitement inconnue, sans assertion positive.",
+   "manquant": [
+    "active_subtype"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "Organisme sans but lucratif",
+   "option": "Organisme sans but lucratif",
+   "zone": [
+    95.8,
+    155.5,
+    9.4,
+    9.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+   "option": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+   "zone": [
+    95.8,
+    137.2,
+    9.4,
+    10.1
+   ],
+   "role": "donnee",
+   "notion": "passive_income_pct",
+   "sujet": "client",
+   "valeur": 80,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/tax.md#/passive_income_pct",
+   "preuve_valeur": 80,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/tax_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "Veuillez préciser la sous-catégorie associée",
+   "option": null,
+   "zone": [
+    204.8,
+    124.9,
+    364.7,
+    8.3
+   ],
+   "role": "donnee",
+   "notion": "active_subtype",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/tax.md#/active_subtype",
+   "justification": "Le dossier déclare cette valeur explicitement inconnue, sans assertion positive.",
+   "manquant": [
+    "active_subtype"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "> En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant",
+   "option": null,
+   "zone": [
+    398.2,
+    335.2,
+    171.4,
+    7.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "Veuillez cocher le statut correspondant",
+   "option": null,
+   "zone": [
+    190.4,
+    435.6,
+    379.1,
+    7.6
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Instruction introductive précédant des cases à cocher, pas une réponse en soi (Texte 'Veuillez cocher le statut correspondant' est une consigne, la réponse se donne dans les cases suivantes). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "ÂA Un bénéficiaire effectif ne peut être qu'une personne physique.",
+   "option": null,
+   "zone": [
+    23.4,
+    140.0,
+    301.3,
+    7.6
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": null,
+   "justification": "Cette zone n'est pas un champ à remplir : Fragment de texte imprimé explicatif sur la définition d'un bénéficiaire effectif (Texte continu explicatif ('Toutes les informations ci-desso...'), pas un champ à remplir). Rien n'y est attendu — « sans objet » et non « information manquante ».",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+   "option": "Non",
+   "zone": [
+    348.1,
+    186.5,
+    4.7,
+    4.7
+   ],
+   "role": "donnee",
+   "notion": "people.#.tax_residences.#",
+   "sujet": "personne_controlante",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people",
+   "justification": "« people » compte 3 éléments et le champ n'en désigne aucun : on ne choisit pas.",
+   "manquant": [
+    "people.#.tax_residences.#"
+   ]
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4): (5): CP (6):",
+   "option": null,
+   "zone": [
+    227.5,
+    219.2,
+    96.8,
+    94.3
+   ],
+   "role": "bloc_personne",
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/tax_residences/0",
+   "preuve_valeur": "France",
+   "justification": "Bloc 1 (Camille Orvaux). TOUS les pays de domiciliation fiscale du registre : France [/people/0/tax_residences].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4): (5): CP (6):",
+   "option": null,
+   "zone": [
+    325.4,
+    219.2,
+    84.6,
+    94.3
+   ],
+   "role": "bloc_personne",
+   "valeur": "SIM-TIN-B1-FR",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/tins/France",
+   "preuve_valeur": "SIM-TIN-B1-FR",
+   "justification": "Bloc 1 (Camille Orvaux). NIF du pays de résidence fiscale France [/people/0/tins/France].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4): (5): CP (6):",
+   "option": null,
+   "zone": [
+    411.5,
+    219.2,
+    51.5,
+    94.3
+   ],
+   "role": "bloc_personne",
+   "valeur": "0 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/direct_pct",
+   "preuve_valeur": 0,
+   "justification": "Bloc 1 (Camille Orvaux) : 0 % du capital détenu EN DIRECT, tel que déclaré au registre [/people/0/direct_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4): (5): CP (6):",
+   "option": null,
+   "zone": [
+    464.0,
+    219.2,
+    52.2,
+    94.3
+   ],
+   "role": "bloc_personne",
+   "valeur": "42 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/indirect_pct",
+   "preuve_valeur": 42,
+   "justification": "Bloc 1 (Camille Orvaux) : 42 % du capital détenu EN INDIRECT (par transparence de la société mère), tel que déclaré au registre [/people/0/indirect_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4): (5): CP (6):",
+   "option": null,
+   "zone": [
+    517.0,
+    219.2,
+    52.2,
+    94.3
+   ],
+   "role": "bloc_personne",
+   "valeur": "42 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/votes_pct",
+   "preuve_valeur": 42,
+   "justification": "Bloc 1 (Camille Orvaux) : 42 % des droits de vote, tel que déclaré au registre [/people/0/votes_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "nssaomannsnaoeueucsusass (3) et (4) :",
+   "option": null,
+   "zone": [
+    227.5,
+    314.3,
+    96.8,
+    100.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/tax_residences/0",
+   "preuve_valeur": "France",
+   "justification": "Bloc 2 (Samir Dervelle). TOUS les pays de domiciliation fiscale du registre : France [/people/1/tax_residences].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "nssaomannsnaoeueucsusass (3) et (4) :",
+   "option": null,
+   "zone": [
+    325.4,
+    314.3,
+    84.6,
+    100.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "SIM-TIN-B2-FR",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/tins/France",
+   "preuve_valeur": "SIM-TIN-B2-FR",
+   "justification": "Bloc 2 (Samir Dervelle). NIF du pays de résidence fiscale France [/people/1/tins/France].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "nssaomannsnaoeueucsusass (3) et (4) :",
+   "option": null,
+   "zone": [
+    411.5,
+    314.3,
+    51.5,
+    100.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "0 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/direct_pct",
+   "preuve_valeur": 0,
+   "justification": "Bloc 2 (Samir Dervelle) : 0 % du capital détenu EN DIRECT, tel que déclaré au registre [/people/1/direct_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "nssaomannsnaoeueucsusass (3) et (4) :",
+   "option": null,
+   "zone": [
+    464.0,
+    314.3,
+    51.8,
+    100.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "28 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/indirect_pct",
+   "preuve_valeur": 28,
+   "justification": "Bloc 2 (Samir Dervelle) : 28 % du capital détenu EN INDIRECT (par transparence de la société mère), tel que déclaré au registre [/people/1/indirect_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "nssaomannsnaoeueucsusass (3) et (4) :",
+   "option": null,
+   "zone": [
+    517.0,
+    314.3,
+    52.2,
+    100.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "28 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/votes_pct",
+   "preuve_valeur": 28,
+   "justification": "Bloc 2 (Samir Dervelle) : 28 % des droits de vote, tel que déclaré au registre [/people/1/votes_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+   "option": null,
+   "zone": [
+    227.5,
+    415.1,
+    96.8,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": "France, Etats-Unis d'Amérique",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tax_residences/0",
+   "preuve_valeur": "France",
+   "justification": "Bloc 3 (Léa Montelac). TOUS les pays de domiciliation fiscale du registre : France, United States [/people/2/tax_residences].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale",
+   "option": null,
+   "zone": [
+    325.4,
+    415.1,
+    84.6,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tins/United States",
+   "preuve_valeur": null,
+   "justification": "Bloc 3 (Léa Montelac) — NIF non renseigné pour Etats-Unis d'Amérique ; le registre précise : « US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required. ». « NA » n'est pas écrit : le dossier ne dit pas que le numéro n'a pas été délivré, il dit qu'il n'a pas été fourni. NIF connus : France = SIM-TIN-B3-FR.",
+   "manquant": [
+    "NIF Etats-Unis d'Amérique de Léa Montelac"
+   ]
+  },
+  {
+   "page": 3,
+   "libelle": "Du capital en direct",
+   "option": null,
+   "zone": [
+    411.5,
+    415.1,
+    51.5,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": "30 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/direct_pct",
+   "preuve_valeur": 30,
+   "justification": "Bloc 3 (Léa Montelac) : 30 % du capital détenu EN DIRECT, tel que déclaré au registre [/people/2/direct_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "Du capital en indirect",
+   "option": null,
+   "zone": [
+    464.0,
+    415.1,
+    51.8,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": "0 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/indirect_pct",
+   "preuve_valeur": 0,
+   "justification": "Bloc 3 (Léa Montelac) : 0 % du capital détenu EN INDIRECT (par transparence de la société mère), tel que déclaré au registre [/people/2/indirect_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "Des droits de vote ?",
+   "option": null,
+   "zone": [
+    517.3,
+    415.1,
+    51.8,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": "30 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/votes_pct",
+   "preuve_valeur": 30,
+   "justification": "Bloc 3 (Léa Montelac) : 30 % des droits de vote, tel que déclaré au registre [/people/2/votes_pct] (pourcentages rapportés au client, après transparence de la mère).",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(2) et (2) TR ne (5): (6): MENU",
+   "option": null,
+   "zone": [
+    227.5,
+    520.2,
+    96.8,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(2) et (2) TR ne (5): (6): MENU",
+   "option": null,
+   "zone": [
+    325.4,
+    520.2,
+    84.6,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(2) et (2) TR ne (5): (6): MENU",
+   "option": null,
+   "zone": [
+    411.5,
+    520.2,
+    51.5,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(2) et (2) TR ne (5): (6): MENU",
+   "option": null,
+   "zone": [
+    464.0,
+    520.2,
+    51.8,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(2) et (2) TR ne (5): (6): MENU",
+   "option": null,
+   "zone": [
+    517.0,
+    520.2,
+    52.2,
+    104.0
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE",
+   "option": null,
+   "zone": [
+    113.4,
+    669.6,
+    439.2,
+    54.7
+   ],
+   "role": "banque",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "bank_reserved",
+   "source": null,
+   "justification": "Cadre réservé à l'établissement."
+  },
+  {
+   "page": 3,
+   "libelle": "(1) et (2)",
+   "option": null,
+   "zone": [
+    59.8,
+    229.3,
+    167.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "Orvaux Camille",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/surname",
+   "preuve_valeur": "Orvaux",
+   "justification": "Bloc 1 = 1e bénéficiaire effectif du registre. Nom (1) = Orvaux [/people/0/surname], prénom (2) = Camille [/people/0/given].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4)",
+   "option": null,
+   "zone": [
+    59.8,
+    248.0,
+    167.0,
+    6.5
+   ],
+   "role": "bloc_personne",
+   "valeur": "12/04/1980 - France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/birth_date",
+   "preuve_valeur": "1980-04-12",
+   "justification": "Bloc 1 (Camille Orvaux). Date de naissance (3) = 1980-04-12 [/people/0/birth_date], pays de naissance (4) = France [/people/0/birth_country].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(6)",
+   "option": null,
+   "zone": [
+    41.8,
+    285.8,
+    185.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/address",
+   "preuve_valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "justification": "Bloc 1 (Camille Orvaux). Adresse complète de résidence actuelle (6) telle qu'elle est déclarée au registre [/people/0/address].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4)",
+   "option": null,
+   "zone": [
+    59.8,
+    343.4,
+    167.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "23/08/1985 - France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/birth_date",
+   "preuve_valeur": "1985-08-23",
+   "justification": "Bloc 2 (Samir Dervelle). Date de naissance (3) = 1985-08-23 [/people/1/birth_date], pays de naissance (4) = France [/people/1/birth_country].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(6)",
+   "option": null,
+   "zone": [
+    41.8,
+    380.9,
+    185.0,
+    6.5
+   ],
+   "role": "bloc_personne",
+   "valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/address",
+   "preuve_valeur": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+   "justification": "Bloc 2 (Samir Dervelle). Adresse complète de résidence actuelle (6) telle qu'elle est déclarée au registre [/people/1/address].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4)",
+   "option": null,
+   "zone": [
+    59.8,
+    444.2,
+    167.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "23/08/1985 - France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/birth_date",
+   "preuve_valeur": "1985-08-23",
+   "justification": "Bloc 3 (Léa Montelac). Date de naissance (3) = 1985-08-23 [/people/2/birth_date], pays de naissance (4) = France [/people/2/birth_country].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(5)",
+   "option": null,
+   "zone": [
+    41.8,
+    463.0,
+    185.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": "France, Etats-Unis d'Amérique",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/0",
+   "preuve_valeur": "France",
+   "justification": "Bloc 3 (Léa Montelac). Toutes les nationalités du registre, dans l'ordre : France, United States [/people/2/nationalities].",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(1) et (2)",
+   "option": null,
+   "zone": [
+    59.8,
+    530.3,
+    167.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(3) et (4)",
+   "option": null,
+   "zone": [
+    59.8,
+    549.0,
+    167.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 3,
+   "libelle": "(6)",
+   "option": null,
+   "zone": [
+    41.8,
+    586.8,
+    185.0,
+    6.1
+   ],
+   "role": "bloc_personne",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/name",
+   "preuve_valeur": "Léa Montelac",
+   "justification": "Le tableau offre 4 blocs ; le registre des bénéficiaires effectifs du client en compte 3 (Camille Orvaux, Samir Dervelle, Léa Montelac) et s'arrête à /people/2 — il n'y a pas de /people/3. Le bloc 4 est sans objet : aucune personne n'est inventée pour le remplir.",
+   "manquant": []
+  },
+  {
+   "page": 4,
+   "libelle": "Nom",
+   "option": null,
+   "zone": [
+    71.6,
+    346.7,
+    114.8,
+    14.8
+   ],
+   "role": "donnee",
+   "notion": "name",
+   "sujet": "client",
+   "valeur": "Belorive Patrimoine SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name",
+   "preuve_valeur": "Belorive Patrimoine SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-b-client/mandate.md",
+    "sources/companies/sim-hackathon-b-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "de Prénom",
+   "option": null,
+   "zone": [
+    243.4,
+    346.7,
+    114.5,
+    14.8
+   ],
+   "role": "donnee",
+   "notion": "people.#.given",
+   "sujet": "personne_controlante",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people",
+   "justification": "« people » compte 3 éléments et le champ n'en désigne aucun : on ne choisit pas.",
+   "manquant": [
+    "people.#.given"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "Fonction au sein de l'entité cliente*",
+   "option": null,
+   "zone": [
+    202.3,
+    365.8,
+    175.7,
+    14.0
+   ],
+   "role": "donnee",
+   "notion": "signer_role",
+   "sujet": "representant",
+   "valeur": "Présidente",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+   "preuve_valeur": "Présidente",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Fait à* : le* : Signature*",
+   "option": null,
+   "zone": [
+    414.4,
+    315.7,
+    166.3,
+    9.7
+   ],
+   "role": "signature",
+   "notion": null,
+   "sujet": "representant",
+   "valeur": null,
+   "etat": "human_action",
+   "source": null,
+   "justification": "Signature non exécutée : le dossier précise qu'aucune signature n'est fournie."
+  },
+  {
+   "page": 4,
+   "libelle": "Représentant légal*",
+   "option": null,
+   "zone": [
+    122.8,
+    331.9,
+    457.9,
+    9.7
+   ],
+   "role": "donnee",
+   "notion": "signer.name",
+   "sujet": "representant",
+   "valeur": "Camille Orvaux",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/name",
+   "preuve_valeur": "Camille Orvaux",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "Nom“",
+   "option": null,
+   "zone": [
+    235.4,
+    349.9,
+    345.2,
+    7.2
+   ],
+   "role": "donnee",
+   "notion": "people.#.surname",
+   "sujet": "personne_controlante",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people",
+   "justification": "« people » compte 3 éléments et le champ n'en désigne aucun : on ne choisit pas.",
+   "manquant": [
+    "people.#.surname"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "Fonction au sein de l'entité cliente*",
+   "option": null,
+   "zone": [
+    189.0,
+    368.3,
+    391.7,
+    7.6
+   ],
+   "role": "donnee",
+   "notion": "signer_role",
+   "sujet": "representant",
+   "valeur": "Présidente",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+   "preuve_valeur": "Présidente",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-b-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  }
+ ]
+}

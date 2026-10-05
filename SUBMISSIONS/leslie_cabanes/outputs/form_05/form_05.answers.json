@@ -1,0 +1,3875 @@
+{
+ "exercice": "form_05",
+ "entreprise": "Cendrelis Instruments SAS",
+ "langue": "Polonais / anglais",
+ "situation_au": "2026-09-01",
+ "zones": 186,
+ "comptes_par_etat": {
+  "answer": 72,
+  "missing_information": 114
+ },
+ "preuves_retrogradees_a_la_relecture": 0,
+ "pieces_ecartees_pour_irrecevabilite": [
+  {
+   "fichier": "sources/companies/sim-hackathon-c-client/office_supplies_invoice.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'office_supplies_invoice' : ne porte aucune donnee reglementee (admissibility.md)"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-c-client/registered_office_archive.json",
+   "test": "4 — pièce remplacée",
+   "preuve": "record_status = 'superseded'"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-c-client/staff_training_plan.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'staff_training_plan' : ne porte aucune donnee reglementee (admissibility.md)"
+  }
+ ],
+ "faits_bruts": 568,
+ "faits_apres_deduplication": 310,
+ "notions_du_vocabulaire": 171,
+ "incidents": [],
+ "conflits_de_modalite_retires": 0,
+ "mesure": {
+  "appels": 0,
+  "cache": 167,
+  "secondes": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "familles": 4,
+  "membres_groupes": 16,
+  "rattrapage_hors_perimetre_matrice": 99,
+  "rattrapage_familles": 29,
+  "rattrapage_cellules": 34,
+  "rattrapage_cache": 29,
+  "rattrapage_cout_usd": 0.0,
+  "rattrapage_rendus": 12,
+  "rattrapage_rejets": {
+   "notion en texte libre sur une question fermee": 8,
+   "confiance basse declaree": 5,
+   "inconnu assume par le modele": 4
+  },
+  "rattrapages_rejetes": 0,
+  "rattrapes": 15,
+  "cout_usd": 0.0,
+  "duree_totale_s": 1.3
+ },
+ "reponses": [
+  {
+   "page": 1,
+   "libelle": "Nazwa Klienta Legal Entity Name",
+   "option": null,
+   "zone": [
+    308.2,
+    425.9,
+    267.5,
+    21.2
+   ],
+   "role": "donnee",
+   "notion": "name",
+   "sujet": "client",
+   "valeur": "Cendrelis Instruments SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/name",
+   "preuve_valeur": "Cendrelis Instruments SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-c-client/mandate.md",
+    "sources/companies/sim-hackathon-c-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz Full Name and Job Title of Client Contact Completing the Form",
+   "option": null,
+   "zone": [
+    308.2,
+    447.8,
+    267.5,
+    31.7
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 1,
+   "libelle": "Data Date",
+   "option": null,
+   "zone": [
+    308.2,
+    480.2,
+    267.5,
+    21.6
+   ],
+   "role": "donnee",
+   "notion": "as_of",
+   "sujet": "client",
+   "valeur": "2026-09-01",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/corporate.md#/as_of",
+   "preuve_valeur": "2026-09-01",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": null,
+   "option": "Nie",
+   "zone": [
+    73.4,
+    528.1,
+    5.8,
+    6.1
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 1,
+   "libelle": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziaty/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+   "option": "Tak",
+   "zone": [
+    521.3,
+    520.6,
+    5.0,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 1,
+   "libelle": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziaty/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+   "option": "Nie",
+   "zone": [
+    521.6,
+    536.4,
+    5.0,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? Działalność obejmuje wszelkie bezpośrednie lub pośrednie zaangażowanie, w tym m.in. transakcje biznesowe, rozliczenia finansowe, łańcuchy dostaw, inwestycje, dostarczanie towarów lub usług profesjonalnych, partnerstwa lub inne rodzaje relacji, import lub eksport towarów, oprogramowania lub technologii. W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties? Activity includes any direct or indirect involvement but is not limited to, business transactions, financial dealings, supply chains, investments, provision of goods or professional services, partnerships, or any other connection, imports or exports of goods, software, or technology. If “Yes” is selected, please provide further details in Section C.",
+   "option": "Tak",
+   "zone": [
+    521.3,
+    198.7,
+    5.0,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? Działalność obejmuje wszelkie bezpośrednie lub pośrednie zaangażowanie, w tym m.in. transakcje biznesowe, rozliczenia finansowe, łańcuchy dostaw, inwestycje, dostarczanie towarów lub usług profesjonalnych, partnerstwa lub inne rodzaje relacji, import lub eksport towarów, oprogramowania lub technologii. W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties? Activity includes any direct or indirect involvement but is not limited to, business transactions, financial dealings, supply chains, investments, provision of goods or professional services, partnerships, or any other connection, imports or exports of goods, software, or technology. If “Yes” is selected, please provide further details in Section C.",
+   "option": "Nie",
+   "zone": [
+    521.6,
+    214.6,
+    5.0,
+    5.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w zakup, sprzedaż lub transport morski ropy naftowej i/lub produktów rafinacji ropy naftowej pochodzących z Rosji? W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 2. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin? If “Yes” is selected, please provide further details in Section C.",
+   "option": "Nie",
+   "zone": [
+    521.6,
+    306.0,
+    5.0,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 2,
+   "libelle": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus? If “Yes” is selected, please provide further details in Section C.",
+   "option": "Tak",
+   "zone": [
+    521.3,
+    425.2,
+    5.0,
+    5.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus? If “Yes” is selected, please provide further details in Section C.",
+   "option": "Nie",
+   "zone": [
+    521.6,
+    441.0,
+    5.0,
+    5.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 3,
+   "libelle": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został zawiązany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi 2. bezpośrednio lub pośrednio w co najmniej 40% należy do: a) osoby prawnej, podmiotu lub organu z siedzibą w Rosji lub Białorusi; b) obywatela rosyjskiego lub białoruskiego; lub c) osoby fizycznej zamieszkałej w Rosji lub Białorusi, 3. ma beneficjenta rzeczywistego”, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi. *W przypadku odpowiedzi „Tak” na którekolwiek z powyższych pytań należy podać nazwę podmiotu, który może spełniać wskazane kryteria i wskazać, która z sytuacji opisanych wyżej ma miejsce, a także podać szczegółowe informacje dla każdej odpowiedzi. 5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1. incorporated, domiciled, constituted, or otherwise established under the laws of Russia or Belarus 2. directly or indirectly owned for 40% or more by: (a) a legal person, entity or body established in Russia or Belarus; (b) a Russian or Belarusian national; or (c) a natural person residing in Russia or Belarus, 3. an entity for which a beneficial owner6 with Russian or Belarusian nationality or domiciled in Russia or Belarus has been established. \"If “Yes” to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and provide additional detail for each response.",
+   "option": "Tak",
+   "zone": [
+    520.2,
+    114.8,
+    5.0,
+    5.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 3,
+   "libelle": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został zawiązany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi 2. bezpośrednio lub pośrednio w co najmniej 40% należy do: a) osoby prawnej, podmiotu lub organu z siedzibą w Rosji lub Białorusi; b) obywatela rosyjskiego lub białoruskiego; lub c) osoby fizycznej zamieszkałej w Rosji lub Białorusi, 3. ma beneficjenta rzeczywistego”, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi. *W przypadku odpowiedzi „Tak” na którekolwiek z powyższych pytań należy podać nazwę podmiotu, który może spełniać wskazane kryteria i wskazać, która z sytuacji opisanych wyżej ma miejsce, a także podać szczegółowe informacje dla każdej odpowiedzi. 5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1. incorporated, domiciled, constituted, or otherwise established under the laws of Russia or Belarus 2. directly or indirectly owned for 40% or more by: (a) a legal person, entity or body established in Russia or Belarus; (b) a Russian or Belarusian national; or (c) a natural person residing in Russia or Belarus, 3. an entity for which a beneficial owner6 with Russian or Belarusian nationality or domiciled in Russia or Belarus has been established. \"If “Yes” to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and provide additional detail for each response.",
+   "option": null,
+   "zone": [
+    37.1,
+    302.0,
+    452.5,
+    38.9
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 3,
+   "libelle": null,
+   "option": "Tak",
+   "zone": [
+    307.1,
+    392.4,
+    6.5,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 3,
+   "libelle": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadająca/y co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem w sposób bezpośredni lub pośredni, która/y 1) jest podmiotem sankcjonowanym; lub 2) jest obywatelem jurysdykcji sankcjonowanej lub jest zlokalizowana, zorganizowana lub zamieszkała/zarejestrowana w jurysdykcji sankcjonowanej; lub 3) jest zatrudniona w agencji rządowej lub organie władzy jurysdykcji sankcjonowanej lub taką agencję rządową lub organ władzy reprezentuje? W przypadku odpowiedzi „Tak” należy podać imię i nazwisko takiej osoby lub nazwę podmiotu, wskazać jurysdykcję sankcjonowaną oraz podać szczegółowe informacje. 6. Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder, or a person having direct or indirect control over the entity who is either 1) a Sanctioned Party; or 2) a national of a sanctioned jurisdiction or is located, organized, or resident in a Sanctioned Jurisdiction; 3) or is employed in, or represents a governmental agency or authority of a Sanctioned Jurisdiction? \"If “Yes” is selected, please provide the name of such person or entity, and indicate the relevant Sanctioned Jurisdiction, and provide additional details.",
+   "option": null,
+   "zone": [
+    37.1,
+    464.0,
+    452.5,
+    39.2
+   ],
+   "role": "donnee",
+   "notion": "government.sanctions_program",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/government/sanctions_program",
+   "justification": "Le dossier porte cette notion pour un autre sujet (filiale), pas pour « client » : une pièce d'une autre entité ne justifie pas cette donnée (test 2, bonne entité).",
+   "manquant": [
+    "government.sanctions_program"
+   ]
+  },
+  {
+   "page": 3,
+   "libelle": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną? *W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności). 7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets? *1f “Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+   "option": "Tak",
+   "zone": [
+    520.2,
+    535.0,
+    5.0,
+    5.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 3,
+   "libelle": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną? *W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności). 7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets? *1f “Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+   "option": "Nie",
+   "zone": [
+    520.2,
+    550.8,
+    5.4,
+    5.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 3,
+   "libelle": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną? *W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności). 7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets? *1f “Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+   "option": null,
+   "zone": [
+    37.1,
+    607.0,
+    452.5,
+    46.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 3,
+   "libelle": "2. bezpośrednio lub pośrednio w co najmniej 40% należy do",
+   "option": null,
+   "zone": [
+    270.0,
+    136.4,
+    224.6,
+    7.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziatom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzenia działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej (wskazanej na stronie 1, w tym wszelkich działań, na które uzyskano szczegółowe zezwolenie, lub które nie są zakazane)? *W przypadku odpowiedzi „Tak” należy wskazać numer rachunku prowadzonego przez La Banque des Entreprises oraz osobę lub podmiot objęte sankcjami lub jurysdykcję sankcjonowaną. *W przypadku odpowiedzi „Nie” należy opisać mechanizmy kontrolne wdrożone w celu zapewnienia, że produkty i usługi oferowane przez La Banque des Entreprises nie będą wykorzystywane do prowadzenia działalności w jurysdykcjach sankcjonowanych lub w odniesieniu do osób lub podmiotów objętych sankcjami oraz że La Banque des Entreprises nie będzie bezpośrednio i pośrednio zaangażowany w takie działania. Jeżeli tajemnica przedsiębiorstwa nie pozwala na przedstawienie szczegółowych informacji, należy wskazać, czy stosowne mechanizmy kontrolne zostały wdrożone, czy nie — „Wdrożono mechanizmy kontrolne.” / ,Brak mechanizmów kontrolnych.” 8. Do you currently use or intend to use or make available to your branches/offices, subsidiaries or any other third person, any La Banque des Entreprises products, services, systems, or platforms, directly or indirectly, to conduct any activity with or involving Sanctioned Parties or Sanctioned Taraets (as listed on paae 1. includina any activities that are specifically authorized or not prohibited)? \"If “Yes” is selected, please provide the number of the account maintained by La Banque des Entreprises, and the Sanctioned Parties or Sanctioned Targets. \"If “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity in the Sanctioned Targets or in respect of Sanctioned Parties, and is not involved, directly or indirectly, in any such activities. If business secrecy prevents you from providing detailed information, please declare whether relevant controls have been implemented or not — “The relevant controls have been implemented.” / “No controls have been implemented.\"",
+   "option": "Tak",
+   "zone": [
+    520.2,
+    114.8,
+    5.0,
+    5.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel (w szczególności wprowadzonymi przez Polskę, OFAC, ONZ, Wielkiej Brytanii, UE), wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych? *W przypadku odpowiedzi „Tak” należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych, w tym wskazać objęte screeningiem osoby/ podmioty (klienci, użytkownicy końcowi, dostawcy itp.) oraz listy sankcyjne wykorzystywane w procesie screeningu sankcyjnego. 9. Do you have policies and procedures in place designed to comply with all sanctions or trade restrictive measures in force (in particular those introduced by Poland, OFAC, UN, UK, EU) that are globally applicable to all branches/offices and subsidiaries? “If “Yes” is selected, please provide a brief overview of your sanctions policies/procedures including information on the parties (customers, end-users, vendors, etc.) that are screened and the sanctions lists utilized in the sanctions screening process.",
+   "option": null,
+   "zone": [
+    37.1,
+    432.7,
+    452.5,
+    46.8
+   ],
+   "role": "donnee",
+   "notion": "policy",
+   "sujet": "client",
+   "valeur": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/policy",
+   "preuve_valeur": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/compliance_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 4,
+   "libelle": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821? \"if “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+   "option": "Tak",
+   "zone": [
+    520.2,
+    503.6,
+    5.0,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821? \"if “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+   "option": "Nie",
+   "zone": [
+    520.2,
+    519.5,
+    5.4,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 4,
+   "libelle": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821? \"if “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+   "option": null,
+   "zone": [
+    37.1,
+    567.0,
+    452.5,
+    39.2
+   ],
+   "role": "donnee",
+   "notion": "dual_use.classification",
+   "sujet": "client",
+   "valeur": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/classification",
+   "preuve_valeur": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/compliance_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zakazów. 11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity? \"If “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which territory transit/transfer takes place, harmonization system codes, licenses/authorizations, clauses prohibiting re-exportation to Russia/for use in Russia and relevant measures ensuring enforcement of such prohibitions.",
+   "option": "Tak",
+   "zone": [
+    520.2,
+    114.8,
+    5.0,
+    5.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 5,
+   "libelle": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zakazów. 11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity? \"If “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which territory transit/transfer takes place, harmonization system codes, licenses/authorizations, clauses prohibiting re-exportation to Russia/for use in Russia and relevant measures ensuring enforcement of such prohibitions.",
+   "option": null,
+   "zone": [
+    37.1,
+    214.6,
+    452.5,
+    39.2
+   ],
+   "role": "donnee",
+   "notion": "dual_use.classification",
+   "sujet": "client",
+   "valeur": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/classification",
+   "preuve_valeur": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/compliance_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach? 3. Do you have branches/offices and other entities operating in the specified regions?",
+   "option": "Tak",
+   "zone": [
+    519.5,
+    416.5,
+    5.0,
+    5.4
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię” lub w działalność turystyczną w tych obszarach? 4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions* , or in Tourism activities in EUSR?",
+   "option": "Tak",
+   "zone": [
+    519.1,
+    449.6,
+    5.4,
+    5.0
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię” lub w działalność turystyczną w tych obszarach? 4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions* , or in Tourism activities in EUSR?",
+   "option": "Nie",
+   "zone": [
+    519.8,
+    465.5,
+    5.0,
+    5.0
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów? 6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?",
+   "option": "Tak",
+   "zone": [
+    519.1,
+    531.7,
+    5.4,
+    5.0
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię? 8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?",
+   "option": "Tak",
+   "zone": [
+    519.5,
+    598.3,
+    5.0,
+    5.4
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 5,
+   "libelle": null,
+   "option": "Tak",
+   "zone": [
+    115.6,
+    626.0,
+    4.7,
+    5.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Kuba Cuba",
+   "option": null,
+   "zone": [
+    106.6,
+    294.8,
+    43.6,
+    41.4
+   ],
+   "role": "calcul",
+   "valeur": "1,0 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/revenue",
+   "preuve_valeur": 600000,
+   "justification": "600 000 / 60 000 000 = 1,0 % (revenu Cuba / revenu total du groupe (sources/companies/sim-hackathon-c-client/finance.md#/group_totals/revenue), FY2025)."
+  },
+  {
+   "page": 8,
+   "libelle": "Kuba Cuba",
+   "option": null,
+   "zone": [
+    151.2,
+    294.8,
+    116.6,
+    41.4
+   ],
+   "role": "calcul",
+   "valeur": "Cendrelis Export SAS - Export and support of simulated measurement instruments under the fictional export authorization.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/entity",
+   "preuve_valeur": "Cendrelis Export SAS",
+   "justification": "Entité(s) portant l'activité en Cuba, lue(s) telle(s) quelle(s) dans le registre d'activité (sources/companies/sim-hackathon-c-client/activities.md#/activities/0/entity) — aucun calcul : la colonne demande un nom."
+  },
+  {
+   "page": 8,
+   "libelle": "Kuba Cuba",
+   "option": null,
+   "zone": [
+    268.9,
+    294.8,
+    43.6,
+    41.4
+   ],
+   "role": "calcul",
+   "valeur": "0,2 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/expenses",
+   "preuve_valeur": 80000,
+   "justification": "80 000 / 40 000 000 = 0,2 % (charges Cuba / charges totales du groupe (sources/companies/sim-hackathon-c-client/finance.md#/group_totals/expenses), FY2025)."
+  },
+  {
+   "page": 8,
+   "libelle": "Kuba Cuba",
+   "option": null,
+   "zone": [
+    313.2,
+    294.8,
+    112.3,
+    41.4
+   ],
+   "role": "calcul",
+   "valeur": "Cendrelis Export SAS - Export and support of simulated measurement instruments under the fictional export authorization.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/entity",
+   "preuve_valeur": "Cendrelis Export SAS",
+   "justification": "Entité(s) portant l'activité en Cuba, lue(s) telle(s) quelle(s) dans le registre d'activité (sources/companies/sim-hackathon-c-client/activities.md#/activities/0/entity) — aucun calcul : la colonne demande un nom."
+  },
+  {
+   "page": 8,
+   "libelle": "Kuba Cuba",
+   "option": null,
+   "zone": [
+    426.2,
+    294.8,
+    43.2,
+    41.4
+   ],
+   "role": "calcul",
+   "valeur": "0,5 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/assets",
+   "preuve_valeur": 150000,
+   "justification": "150 000 / 30 000 000 = 0,5 % (actifs Cuba / actifs totaux du groupe (sources/companies/sim-hackathon-c-client/finance.md#/group_totals/assets), FY2025)."
+  },
+  {
+   "page": 8,
+   "libelle": "Kuba Cuba",
+   "option": null,
+   "zone": [
+    470.5,
+    294.8,
+    105.1,
+    41.4
+   ],
+   "role": "calcul",
+   "valeur": "Cendrelis Export SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/entity",
+   "preuve_valeur": "Cendrelis Export SAS",
+   "justification": "Entité(s) portant l'activité en Cuba, lue(s) telle(s) quelle(s) dans le registre d'activité (sources/companies/sim-hackathon-c-client/activities.md#/activities/0/entity) — aucun calcul : la colonne demande un nom."
+  },
+  {
+   "page": 8,
+   "libelle": "Iran iran",
+   "option": null,
+   "zone": [
+    106.6,
+    337.3,
+    43.6,
+    41.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Iran iran",
+   "option": null,
+   "zone": [
+    151.2,
+    337.3,
+    116.6,
+    41.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Iran iran",
+   "option": null,
+   "zone": [
+    268.9,
+    337.3,
+    43.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Iran iran",
+   "option": null,
+   "zone": [
+    313.2,
+    337.3,
+    112.0,
+    41.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Iran iran",
+   "option": null,
+   "zone": [
+    426.2,
+    337.3,
+    43.2,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Iran iran",
+   "option": null,
+   "zone": [
+    470.5,
+    337.3,
+    105.1,
+    41.4
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    106.6,
+    379.4,
+    43.6,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    151.2,
+    379.4,
+    116.6,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    268.9,
+    379.4,
+    43.6,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    313.2,
+    379.4,
+    112.0,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    426.2,
+    379.4,
+    43.2,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    470.5,
+    379.4,
+    105.1,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    106.6,
+    422.3,
+    43.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    151.2,
+    422.3,
+    116.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    268.9,
+    422.3,
+    43.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    313.2,
+    422.3,
+    112.0,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    426.2,
+    422.3,
+    43.2,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    470.5,
+    422.3,
+    105.1,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    106.6,
+    464.4,
+    43.6,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    151.2,
+    464.4,
+    116.6,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    268.9,
+    464.4,
+    43.6,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    313.2,
+    464.4,
+    112.0,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    426.2,
+    464.4,
+    43.2,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    470.5,
+    464.4,
+    105.1,
+    41.8
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 8,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    106.6,
+    507.2,
+    43.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    151.2,
+    507.2,
+    116.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    268.9,
+    507.2,
+    43.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    313.2,
+    507.2,
+    112.0,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    426.2,
+    507.2,
+    43.2,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    470.5,
+    507.2,
+    105.1,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Krym Crimea",
+   "option": null,
+   "zone": [
+    106.6,
+    549.4,
+    43.6,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Krym Crimea",
+   "option": null,
+   "zone": [
+    151.2,
+    549.4,
+    116.6,
+    41.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Krym Crimea",
+   "option": null,
+   "zone": [
+    268.9,
+    549.4,
+    43.6,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Krym Crimea",
+   "option": null,
+   "zone": [
+    313.2,
+    549.4,
+    112.0,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Krym Crimea",
+   "option": null,
+   "zone": [
+    426.2,
+    549.4,
+    43.2,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "Krym Crimea",
+   "option": null,
+   "zone": [
+    470.5,
+    549.4,
+    105.1,
+    41.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+   "option": null,
+   "zone": [
+    106.6,
+    591.8,
+    43.6,
+    76.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "filiale",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Absent du registre, et aucune déclaration négative ne couvre cette absence : un registre vide ne prouve rien.",
+   "manquant": [
+    "Venezuela"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+   "option": null,
+   "zone": [
+    151.2,
+    592.2,
+    116.6,
+    75.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+   "option": null,
+   "zone": [
+    268.9,
+    592.2,
+    43.6,
+    75.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+   "option": null,
+   "zone": [
+    313.2,
+    592.2,
+    112.0,
+    75.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+   "option": null,
+   "zone": [
+    426.2,
+    592.2,
+    43.2,
+    75.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 8,
+   "libelle": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+   "option": null,
+   "zone": [
+    470.5,
+    592.2,
+    105.1,
+    75.6
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+   "option": null,
+   "zone": [
+    106.6,
+    92.9,
+    43.6,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+   "option": null,
+   "zone": [
+    151.2,
+    92.9,
+    116.6,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+   "option": null,
+   "zone": [
+    268.9,
+    92.9,
+    43.6,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+   "option": null,
+   "zone": [
+    313.2,
+    92.9,
+    112.0,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+   "option": null,
+   "zone": [
+    426.2,
+    92.9,
+    43.2,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+   "option": null,
+   "zone": [
+    470.5,
+    92.9,
+    105.1,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+   "option": null,
+   "zone": [
+    106.6,
+    160.9,
+    43.6,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+   "option": null,
+   "zone": [
+    151.2,
+    160.9,
+    116.6,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+   "option": null,
+   "zone": [
+    268.9,
+    160.9,
+    43.6,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+   "option": null,
+   "zone": [
+    313.2,
+    160.9,
+    112.0,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+   "option": null,
+   "zone": [
+    426.2,
+    160.9,
+    43.2,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+   "option": null,
+   "zone": [
+    470.5,
+    160.9,
+    105.1,
+    67.0
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+   "option": null,
+   "zone": [
+    106.6,
+    229.0,
+    43.6,
+    67.7
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+   "option": null,
+   "zone": [
+    151.2,
+    229.0,
+    116.6,
+    67.7
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+   "option": null,
+   "zone": [
+    268.9,
+    229.0,
+    43.6,
+    67.7
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+   "option": null,
+   "zone": [
+    313.2,
+    229.0,
+    112.0,
+    67.7
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+   "option": null,
+   "zone": [
+    426.2,
+    229.0,
+    43.2,
+    67.7
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+   "option": null,
+   "zone": [
+    470.5,
+    229.0,
+    105.1,
+    67.7
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+   "option": null,
+   "zone": [
+    106.6,
+    297.4,
+    43.6,
+    67.3
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+   "option": null,
+   "zone": [
+    151.2,
+    297.4,
+    116.6,
+    67.3
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+   "option": null,
+   "zone": [
+    268.9,
+    297.4,
+    43.6,
+    67.3
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+   "option": null,
+   "zone": [
+    313.2,
+    297.4,
+    112.0,
+    67.3
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+   "option": null,
+   "zone": [
+    426.2,
+    297.4,
+    43.2,
+    67.3
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+   "option": null,
+   "zone": [
+    470.5,
+    297.7,
+    105.1,
+    67.0
+   ],
+   "role": "donnee",
+   "notion": "ukraine_regions_activity",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/activities_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 9,
+   "libelle": "Suma Total",
+   "option": null,
+   "zone": [
+    106.6,
+    365.8,
+    43.6,
+    41.0
+   ],
+   "role": "calcul",
+   "valeur": "1,0 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/revenue",
+   "preuve_valeur": 600000,
+   "justification": "600 000 / 60 000 000 = 1,0 % (somme des revenus des juridictions listées dans ce tableau (Cuba 600 000 [sources/companies/sim-hackathon-c-client/activities.md#/activities/0/revenue]) / revenu total du groupe (sources/companies/sim-hackathon-c-client/finance.md#/group_totals/revenue), FY2025)."
+  },
+  {
+   "page": 9,
+   "libelle": "Suma Total",
+   "option": null,
+   "zone": [
+    151.2,
+    365.8,
+    116.6,
+    41.0
+   ],
+   "role": "donnee",
+   "notion": "gross_total",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Aucune pièce recevable ne porte cette notion.",
+   "manquant": [
+    "gross_total"
+   ]
+  },
+  {
+   "page": 9,
+   "libelle": "Suma Total",
+   "option": null,
+   "zone": [
+    268.9,
+    365.8,
+    43.6,
+    41.0
+   ],
+   "role": "calcul",
+   "valeur": "0,2 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/expenses",
+   "preuve_valeur": 80000,
+   "justification": "80 000 / 40 000 000 = 0,2 % (somme des charges des juridictions listées dans ce tableau (Cuba 80 000 [sources/companies/sim-hackathon-c-client/activities.md#/activities/0/expenses]) / charges totales du groupe (sources/companies/sim-hackathon-c-client/finance.md#/group_totals/expenses), FY2025)."
+  },
+  {
+   "page": 9,
+   "libelle": "Suma Total",
+   "option": null,
+   "zone": [
+    313.2,
+    365.8,
+    112.0,
+    41.0
+   ],
+   "role": "donnee",
+   "notion": "gross_total",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Aucune pièce recevable ne porte cette notion.",
+   "manquant": [
+    "gross_total"
+   ]
+  },
+  {
+   "page": 9,
+   "libelle": "Suma Total",
+   "option": null,
+   "zone": [
+    426.2,
+    365.8,
+    43.2,
+    41.0
+   ],
+   "role": "calcul",
+   "valeur": "0,5 %",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/assets",
+   "preuve_valeur": 150000,
+   "justification": "150 000 / 30 000 000 = 0,5 % (somme des actifs des juridictions listées dans ce tableau (Cuba 150 000 [sources/companies/sim-hackathon-c-client/activities.md#/activities/0/assets]) / actifs totaux du groupe (sources/companies/sim-hackathon-c-client/finance.md#/group_totals/assets), FY2025)."
+  },
+  {
+   "page": 9,
+   "libelle": "Suma Total",
+   "option": null,
+   "zone": [
+    470.5,
+    365.8,
+    105.1,
+    41.0
+   ],
+   "role": "donnee",
+   "notion": "gross_total",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Aucune pièce recevable ne porte cette notion.",
+   "manquant": [
+    "gross_total"
+   ]
+  },
+  {
+   "page": 9,
+   "libelle": null,
+   "option": "Nie",
+   "zone": [
+    270.7,
+    603.4,
+    5.4,
+    6.1
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Afganistan Afghanistan",
+   "option": null,
+   "zone": [
+    179.6,
+    216.0,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Afganistan Afghanistan",
+   "option": null,
+   "zone": [
+    280.8,
+    216.0,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Afganistan Afghanistan",
+   "option": null,
+   "zone": [
+    410.8,
+    216.0,
+    164.5,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Angola Angola",
+   "option": null,
+   "zone": [
+    179.6,
+    238.0,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Angola Angola",
+   "option": null,
+   "zone": [
+    280.8,
+    238.0,
+    128.9,
+    20.9
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 10,
+   "libelle": "Angola Angola",
+   "option": null,
+   "zone": [
+    410.8,
+    238.0,
+    164.5,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    179.6,
+    259.9,
+    100.1,
+    43.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    280.8,
+    259.9,
+    128.9,
+    43.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 10,
+   "libelle": "Białoruś Belarus",
+   "option": null,
+   "zone": [
+    410.8,
+    259.9,
+    164.5,
+    43.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Republika Srodkowoafrykanska Central African Republic",
+   "option": null,
+   "zone": [
+    179.6,
+    304.2,
+    100.1,
+    20.9
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 10,
+   "libelle": "Republika Srodkowoafrykanska Central African Republic",
+   "option": null,
+   "zone": [
+    280.8,
+    304.2,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Republika Srodkowoafrykanska Central African Republic",
+   "option": null,
+   "zone": [
+    410.4,
+    304.2,
+    165.2,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    179.6,
+    325.8,
+    100.1,
+    21.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 10,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    280.8,
+    325.8,
+    128.9,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Korea Północna North Korea",
+   "option": null,
+   "zone": [
+    410.4,
+    325.8,
+    165.2,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Demokratyczna Republika Kongo Democratic Republic of Congo",
+   "option": null,
+   "zone": [
+    179.6,
+    348.1,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Demokratyczna Republika Kongo Democratic Republic of Congo",
+   "option": null,
+   "zone": [
+    280.8,
+    348.1,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Demokratyczna Republika Kongo Democratic Republic of Congo",
+   "option": null,
+   "zone": [
+    410.4,
+    348.1,
+    165.2,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Haiti Haiti",
+   "option": null,
+   "zone": [
+    179.6,
+    370.1,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Haiti Haiti",
+   "option": null,
+   "zone": [
+    280.8,
+    370.1,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Haiti Haiti",
+   "option": null,
+   "zone": [
+    410.4,
+    370.1,
+    164.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Iran Iran",
+   "option": null,
+   "zone": [
+    179.6,
+    392.0,
+    100.1,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Iran Iran",
+   "option": null,
+   "zone": [
+    280.8,
+    392.0,
+    128.9,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Iran Iran",
+   "option": null,
+   "zone": [
+    410.4,
+    392.0,
+    164.9,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Irak Iraq",
+   "option": null,
+   "zone": [
+    179.6,
+    425.5,
+    100.1,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Irak Iraq",
+   "option": null,
+   "zone": [
+    280.8,
+    425.5,
+    128.9,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Irak Iraq",
+   "option": null,
+   "zone": [
+    410.4,
+    425.5,
+    164.9,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Wybrzeże Kości Słoniowej Ivory Coast",
+   "option": null,
+   "zone": [
+    179.6,
+    447.8,
+    100.1,
+    53.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Wybrzeże Kości Słoniowej Ivory Coast",
+   "option": null,
+   "zone": [
+    280.8,
+    447.8,
+    128.9,
+    53.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Wybrzeże Kości Słoniowej Ivory Coast",
+   "option": null,
+   "zone": [
+    410.4,
+    447.8,
+    164.9,
+    53.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Liban Lebanon",
+   "option": null,
+   "zone": [
+    179.6,
+    502.6,
+    100.1,
+    32.8
+   ],
+   "role": "dernier_recours",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Support of measurement instruments",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/government/activity",
+   "preuve_valeur": "Support of measurement instruments",
+   "justification": "Champ muet ou mal OCRisé, situé par son voisinage : Nature de l'activité exercée au Liban (import/export) (Ligne = 'Liban Lebanon', colonne = nature de l'activité ; dossier a government.country=Lebanon avec government.activity). Valeur lue dans une pièce recevable.",
+   "manquant": []
+  },
+  {
+   "page": 10,
+   "libelle": "Liban Lebanon",
+   "option": null,
+   "zone": [
+    280.8,
+    502.6,
+    128.9,
+    32.8
+   ],
+   "role": "calcul",
+   "valeur": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/1/entity",
+   "preuve_valeur": "Cendrelis Export SAS",
+   "justification": "Entité(s) portant l'activité en Lebanon, lue(s) telle(s) quelle(s) dans le registre d'activité (sources/companies/sim-hackathon-c-client/activities.md#/activities/1/entity) — aucun calcul : la colonne demande un nom."
+  },
+  {
+   "page": 10,
+   "libelle": "Liban Lebanon",
+   "option": null,
+   "zone": [
+    410.8,
+    502.6,
+    164.5,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Liberia Liberia",
+   "option": null,
+   "zone": [
+    179.6,
+    536.4,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Liberia Liberia",
+   "option": null,
+   "zone": [
+    280.8,
+    536.4,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Liberia Liberia",
+   "option": null,
+   "zone": [
+    410.4,
+    536.4,
+    164.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Libia Libya",
+   "option": null,
+   "zone": [
+    179.6,
+    558.0,
+    100.1,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Libia Libya",
+   "option": null,
+   "zone": [
+    280.8,
+    558.0,
+    128.9,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Libia Libya",
+   "option": null,
+   "zone": [
+    410.4,
+    558.0,
+    165.2,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Mjanma (Birma) Myanmar",
+   "option": null,
+   "zone": [
+    179.6,
+    580.0,
+    100.1,
+    21.2
+   ],
+   "role": "appartenance",
+   "notion": null,
+   "sujet": null,
+   "valeur": "Oui",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/2/country",
+   "preuve_valeur": "Myanmar",
+   "justification": "Myanmar figure dans le registre."
+  },
+  {
+   "page": 10,
+   "libelle": "Mjanma (Birma) Myanmar",
+   "option": null,
+   "zone": [
+    280.8,
+    580.0,
+    128.9,
+    21.2
+   ],
+   "role": "calcul",
+   "valeur": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France (activite ENVISAGEE, non courante : aucune operation executee)",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/2/entity",
+   "preuve_valeur": "Cendrelis Export SAS",
+   "justification": "Entité(s) portant l'activité en Myanmar, lue(s) telle(s) quelle(s) dans le registre d'activité (sources/companies/sim-hackathon-c-client/activities.md#/activities/2/entity) — aucun calcul : la colonne demande un nom."
+  },
+  {
+   "page": 10,
+   "libelle": "Mjanma (Birma) Myanmar",
+   "option": null,
+   "zone": [
+    410.4,
+    580.0,
+    165.2,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    179.6,
+    602.3,
+    100.1,
+    53.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    280.8,
+    602.3,
+    128.9,
+    53.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Rosja Russia",
+   "option": null,
+   "zone": [
+    410.8,
+    602.3,
+    164.9,
+    53.6
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Sierra Leone Sierra Leone",
+   "option": null,
+   "zone": [
+    179.6,
+    657.0,
+    100.1,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Sierra Leone Sierra Leone",
+   "option": null,
+   "zone": [
+    280.8,
+    657.0,
+    128.9,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Sierra Leone Sierra Leone",
+   "option": null,
+   "zone": [
+    410.4,
+    657.0,
+    165.2,
+    32.8
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Somalia Somalia",
+   "option": null,
+   "zone": [
+    179.6,
+    690.5,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Somalia Somalia",
+   "option": null,
+   "zone": [
+    280.8,
+    690.5,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 10,
+   "libelle": "Somalia Somalia",
+   "option": null,
+   "zone": [
+    410.4,
+    690.5,
+    165.2,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Sudan Południowy South Sudan",
+   "option": null,
+   "zone": [
+    179.6,
+    92.9,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Sudan Południowy South Sudan",
+   "option": null,
+   "zone": [
+    280.8,
+    92.9,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Sudan Południowy South Sudan",
+   "option": null,
+   "zone": [
+    410.4,
+    92.9,
+    164.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Sudan Sudan",
+   "option": null,
+   "zone": [
+    179.6,
+    114.8,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Sudan Sudan",
+   "option": null,
+   "zone": [
+    280.8,
+    114.8,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Sudan Sudan",
+   "option": null,
+   "zone": [
+    410.4,
+    114.8,
+    164.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    179.6,
+    136.8,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    280.8,
+    136.8,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Syria Syria",
+   "option": null,
+   "zone": [
+    410.4,
+    136.8,
+    164.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Wenezuela Venezuela",
+   "option": null,
+   "zone": [
+    179.6,
+    158.8,
+    100.1,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Wenezuela Venezuela",
+   "option": null,
+   "zone": [
+    280.8,
+    158.8,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Wenezuela Venezuela",
+   "option": null,
+   "zone": [
+    410.8,
+    158.8,
+    164.5,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Jemen Yemen",
+   "option": null,
+   "zone": [
+    179.6,
+    180.7,
+    100.1,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Jemen Yemen",
+   "option": null,
+   "zone": [
+    280.8,
+    180.7,
+    128.9,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Jemen Yemen",
+   "option": null,
+   "zone": [
+    410.4,
+    180.7,
+    164.9,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Zimbabwe Zimbabwe",
+   "option": null,
+   "zone": [
+    179.6,
+    202.7,
+    100.1,
+    21.2
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Zimbabwe Zimbabwe",
+   "option": null,
+   "zone": [
+    280.8,
+    202.7,
+    128.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "Zimbabwe Zimbabwe",
+   "option": null,
+   "zone": [
+    410.4,
+    202.7,
+    164.9,
+    20.9
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": null,
+   "option": "Tak",
+   "zone": [
+    520.9,
+    232.2,
+    5.0,
+    5.4
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": null,
+   "option": "Nie",
+   "zone": [
+    521.3,
+    247.7,
+    5.0,
+    5.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?",
+   "option": null,
+   "zone": [
+    37.1,
+    444.6,
+    452.5,
+    55.8
+   ],
+   "role": "donnee",
+   "notion": "dual_use.anti_diversion",
+   "sujet": "client",
+   "valeur": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/anti_diversion",
+   "preuve_valeur": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/compliance_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 11,
+   "libelle": null,
+   "option": "Tak",
+   "zone": [
+    520.6,
+    502.9,
+    5.4,
+    5.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": null,
+   "option": "Nie",
+   "zone": [
+    521.3,
+    518.8,
+    5.0,
+    5.0
+   ],
+   "role": "inconnu",
+   "notion": null,
+   "sujet": null,
+   "valeur": null,
+   "etat": "missing_information",
+   "source": null,
+   "justification": "Le champ n'a pas pu être rattaché à une notion du dossier.",
+   "manquant": [
+    "libellé non résolu"
+   ]
+  },
+  {
+   "page": 11,
+   "libelle": "If \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.",
+   "option": null,
+   "zone": [
+    37.1,
+    584.3,
+    452.5,
+    104.8
+   ],
+   "role": "donnee",
+   "notion": "policy",
+   "sujet": "client",
+   "valeur": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-c-client/compliance.md#/policy",
+   "preuve_valeur": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-c-client/compliance_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  }
+ ]
+}

@@ -1,0 +1,2727 @@
+{
+ "exercice": "form_05",
+ "entreprise": "Cendrelis Instruments SAS",
+ "questionnaire": "questionnaires/05_cendrelis_instruments.pdf",
+ "pages": [
+  {
+   "page": 1,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      308.2,
+      425.9,
+      267.5,
+      21.2
+     ],
+     "label": "Nazwa Klienta Legal Entity Name",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      308.2,
+      447.8,
+      267.5,
+      31.7
+     ],
+     "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz Full Name and Job Title of Client Contact Completing the Form",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      308.2,
+      480.2,
+      267.5,
+      21.6
+     ],
+     "label": "Data Date",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      73.4,
+      528.1,
+      5.8,
+      6.1
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "rachunków/nie",
+     "label": null,
+     "section": null,
+     "row": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obej"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.3,
+      520.6,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziaty/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.6,
+      536.4,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziaty/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.3,
+      198.7,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? Działalność obejmuje wszelkie bezpośrednie lub pośrednie zaangażowanie, w tym m.in. transakcje biznesowe, rozliczenia finansowe, łańcuchy dostaw, inwestycje, dostarczanie towarów lub usług profesjonalnych, partnerstwa lub inne rodzaje relacji, import lub eksport towarów, oprogramowania lub technologii. W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties? Activity includes any direct or indirect involvement but is not limited to, business transactions, financial dealings, supply chains, investments, provision of goods or professional services, partnerships, or any other connection, imports or exports of goods, software, or technology. If “Yes” is selected, please provide further details in Section C.",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.6,
+      214.6,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? Działalność obejmuje wszelkie bezpośrednie lub pośrednie zaangażowanie, w tym m.in. transakcje biznesowe, rozliczenia finansowe, łańcuchy dostaw, inwestycje, dostarczanie towarów lub usług profesjonalnych, partnerstwa lub inne rodzaje relacji, import lub eksport towarów, oprogramowania lub technologii. W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties? Activity includes any direct or indirect involvement but is not limited to, business transactions, financial dealings, supply chains, investments, provision of goods or professional services, partnerships, or any other connection, imports or exports of goods, software, or technology. If “Yes” is selected, please provide further details in Section C.",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.6,
+      306.0,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w zakup, sprzedaż lub transport morski ropy naftowej i/lub produktów rafinacji ropy naftowej pochodzących z Rosji? W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 2. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin? If “Yes” is selected, please provide further details in Section C.",
+     "section": null,
+     "row": "Z] Tak/Yes O Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.3,
+      425.2,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus? If “Yes” is selected, please provide further details in Section C.",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.6,
+      441.0,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. 4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus? If “Yes” is selected, please provide further details in Section C.",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      114.8,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został zawiązany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi 2. bezpośrednio lub pośrednio w co najmniej 40% należy do: a) osoby prawnej, podmiotu lub organu z siedzibą w Rosji lub Białorusi; b) obywatela rosyjskiego lub białoruskiego; lub c) osoby fizycznej zamieszkałej w Rosji lub Białorusi, 3. ma beneficjenta rzeczywistego”, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi. *W przypadku odpowiedzi „Tak” na którekolwiek z powyższych pytań należy podać nazwę podmiotu, który może spełniać wskazane kryteria i wskazać, która z sytuacji opisanych wyżej ma miejsce, a także podać szczegółowe informacje dla każdej odpowiedzi. 5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1. incorporated, domiciled, constituted, or otherwise established under the laws of Russia or Belarus 2. directly or indirectly owned for 40% or more by: (a) a legal person, entity or body established in Russia or Belarus; (b) a Russian or Belarusian national; or (c) a natural person residing in Russia or Belarus, 3. an entity for which a beneficial owner6 with Russian or Belarusian nationality or domiciled in Russia or Belarus has been established. \"If “Yes” to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and provide additional detail for each response.",
+     "section": null,
+     "row": "2 Tak/Yes Z] Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      302.0,
+      452.5,
+      38.9
+     ],
+     "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został zawiązany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi 2. bezpośrednio lub pośrednio w co najmniej 40% należy do: a) osoby prawnej, podmiotu lub organu z siedzibą w Rosji lub Białorusi; b) obywatela rosyjskiego lub białoruskiego; lub c) osoby fizycznej zamieszkałej w Rosji lub Białorusi, 3. ma beneficjenta rzeczywistego”, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi. *W przypadku odpowiedzi „Tak” na którekolwiek z powyższych pytań należy podać nazwę podmiotu, który może spełniać wskazane kryteria i wskazać, która z sytuacji opisanych wyżej ma miejsce, a także podać szczegółowe informacje dla każdej odpowiedzi. 5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1. incorporated, domiciled, constituted, or otherwise established under the laws of Russia or Belarus 2. directly or indirectly owned for 40% or more by: (a) a legal person, entity or body established in Russia or Belarus; (b) a Russian or Belarusian national; or (c) a natural person residing in Russia or Belarus, 3. an entity for which a beneficial owner6 with Russian or Belarusian nationality or domiciled in Russia or Belarus has been established. \"If “Yes” to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and provide additional detail for each response.",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      307.1,
+      392.4,
+      6.5,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "taką",
+     "label": null,
+     "section": null,
+     "row": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego od"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      464.0,
+      452.5,
+      39.2
+     ],
+     "label": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadająca/y co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem w sposób bezpośredni lub pośredni, która/y 1) jest podmiotem sankcjonowanym; lub 2) jest obywatelem jurysdykcji sankcjonowanej lub jest zlokalizowana, zorganizowana lub zamieszkała/zarejestrowana w jurysdykcji sankcjonowanej; lub 3) jest zatrudniona w agencji rządowej lub organie władzy jurysdykcji sankcjonowanej lub taką agencję rządową lub organ władzy reprezentuje? W przypadku odpowiedzi „Tak” należy podać imię i nazwisko takiej osoby lub nazwę podmiotu, wskazać jurysdykcję sankcjonowaną oraz podać szczegółowe informacje. 6. Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder, or a person having direct or indirect control over the entity who is either 1) a Sanctioned Party; or 2) a national of a sanctioned jurisdiction or is located, organized, or resident in a Sanctioned Jurisdiction; 3) or is employed in, or represents a governmental agency or authority of a Sanctioned Jurisdiction? \"If “Yes” is selected, please provide the name of such person or entity, and indicate the relevant Sanctioned Jurisdiction, and provide additional details.",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      535.0,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną? *W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności). 7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets? *1f “Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      550.8,
+      5.4,
+      5.4
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną? *W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności). 7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets? *1f “Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      607.0,
+      452.5,
+      46.4
+     ],
+     "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną? *W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności). 7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets? *1f “Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      270.0,
+      136.4,
+      224.6,
+      7.2
+     ],
+     "label": "2. bezpośrednio lub pośrednio w co najmniej 40% należy do",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      114.8,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziatom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzenia działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej (wskazanej na stronie 1, w tym wszelkich działań, na które uzyskano szczegółowe zezwolenie, lub które nie są zakazane)? *W przypadku odpowiedzi „Tak” należy wskazać numer rachunku prowadzonego przez La Banque des Entreprises oraz osobę lub podmiot objęte sankcjami lub jurysdykcję sankcjonowaną. *W przypadku odpowiedzi „Nie” należy opisać mechanizmy kontrolne wdrożone w celu zapewnienia, że produkty i usługi oferowane przez La Banque des Entreprises nie będą wykorzystywane do prowadzenia działalności w jurysdykcjach sankcjonowanych lub w odniesieniu do osób lub podmiotów objętych sankcjami oraz że La Banque des Entreprises nie będzie bezpośrednio i pośrednio zaangażowany w takie działania. Jeżeli tajemnica przedsiębiorstwa nie pozwala na przedstawienie szczegółowych informacji, należy wskazać, czy stosowne mechanizmy kontrolne zostały wdrożone, czy nie — „Wdrożono mechanizmy kontrolne.” / ,Brak mechanizmów kontrolnych.” 8. Do you currently use or intend to use or make available to your branches/offices, subsidiaries or any other third person, any La Banque des Entreprises products, services, systems, or platforms, directly or indirectly, to conduct any activity with or involving Sanctioned Parties or Sanctioned Taraets (as listed on paae 1. includina any activities that are specifically authorized or not prohibited)? \"If “Yes” is selected, please provide the number of the account maintained by La Banque des Entreprises, and the Sanctioned Parties or Sanctioned Targets. \"If “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity in the Sanctioned Targets or in respect of Sanctioned Parties, and is not involved, directly or indirectly, in any such activities. If business secrecy prevents you from providing detailed information, please declare whether relevant controls have been implemented or not — “The relevant controls have been implemented.” / “No controls have been implemented.\"",
+     "section": null,
+     "row": "2 Tak/Yes LJ Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      432.7,
+      452.5,
+      46.8
+     ],
+     "label": "9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel (w szczególności wprowadzonymi przez Polskę, OFAC, ONZ, Wielkiej Brytanii, UE), wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych? *W przypadku odpowiedzi „Tak” należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych, w tym wskazać objęte screeningiem osoby/ podmioty (klienci, użytkownicy końcowi, dostawcy itp.) oraz listy sankcyjne wykorzystywane w procesie screeningu sankcyjnego. 9. Do you have policies and procedures in place designed to comply with all sanctions or trade restrictive measures in force (in particular those introduced by Poland, OFAC, UN, UK, EU) that are globally applicable to all branches/offices and subsidiaries? “If “Yes” is selected, please provide a brief overview of your sanctions policies/procedures including information on the parties (customers, end-users, vendors, etc.) that are screened and the sanctions lists utilized in the sanctions screening process.",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      503.6,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821? \"if “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+     "section": null,
+     "row": "0 Tak/Yes Z] Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      519.5,
+      5.4,
+      5.4
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821? \"if “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+     "section": null,
+     "row": "0 Tak/Yes Z] Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      567.0,
+      452.5,
+      39.2
+     ],
+     "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821? \"if “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.2,
+      114.8,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zakazów. 11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity? \"If “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which territory transit/transfer takes place, harmonization system codes, licenses/authorizations, clauses prohibiting re-exportation to Russia/for use in Russia and relevant measures ensuring enforcement of such prohibitions.",
+     "section": null,
+     "row": "2 Tak/Yes LJ Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      214.6,
+      452.5,
+      39.2
+     ],
+     "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością? *W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zakazów. 11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity? \"If “Yes” is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which territory transit/transfer takes place, harmonization system codes, licenses/authorizations, clauses prohibiting re-exportation to Russia/for use in Russia and relevant measures ensuring enforcement of such prohibitions.",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      519.5,
+      416.5,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach? 3. Do you have branches/offices and other entities operating in the specified regions?",
+     "section": null,
+     "row": "0 Tak/Yes Z! Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      519.1,
+      449.6,
+      5.4,
+      5.0
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię” lub w działalność turystyczną w tych obszarach? 4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions* , or in Tourism activities in EUSR?",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      519.8,
+      465.5,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię” lub w działalność turystyczną w tych obszarach? 4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions* , or in Tourism activities in EUSR?",
+     "section": null,
+     "row": "0 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      519.1,
+      531.7,
+      5.4,
+      5.0
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów? 6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?",
+     "section": null,
+     "row": "0 Tak/Yes 0) Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      519.5,
+      598.3,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię? 8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?",
+     "section": null,
+     "row": "0 Tak/Yes ZI Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      115.6,
+      626.0,
+      4.7,
+      5.8
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "\"Tak\"",
+     "label": null,
+     "section": null,
+     "row": "W przypadku odpowiedzi \"Tak\" na którekolwiek z pytań w tej s"
+    }
+   ]
+  },
+  {
+   "page": 6,
+   "lang": "pol+eng",
+   "zones": []
+  },
+  {
+   "page": 7,
+   "lang": "pol+eng",
+   "zones": []
+  },
+  {
+   "page": 8,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      294.8,
+      43.6,
+      41.4
+     ],
+     "label": "Kuba Cuba",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      294.8,
+      116.6,
+      41.4
+     ],
+     "label": "Kuba Cuba",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      294.8,
+      43.6,
+      41.4
+     ],
+     "label": "Kuba Cuba",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      294.8,
+      112.3,
+      41.4
+     ],
+     "label": "Kuba Cuba",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      294.8,
+      43.2,
+      41.4
+     ],
+     "label": "Kuba Cuba",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      294.8,
+      105.1,
+      41.4
+     ],
+     "label": "Kuba Cuba",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      337.3,
+      43.6,
+      41.4
+     ],
+     "label": "Iran iran",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      337.3,
+      116.6,
+      41.4
+     ],
+     "label": "Iran iran",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      337.3,
+      43.6,
+      41.4
+     ],
+     "label": "Iran iran",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      337.3,
+      112.0,
+      41.4
+     ],
+     "label": "Iran iran",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      337.3,
+      43.2,
+      41.4
+     ],
+     "label": "Iran iran",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      337.3,
+      105.1,
+      41.4
+     ],
+     "label": "Iran iran",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      379.4,
+      43.6,
+      41.8
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      379.4,
+      116.6,
+      41.8
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      379.4,
+      43.6,
+      41.8
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      379.4,
+      112.0,
+      41.8
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      379.4,
+      43.2,
+      41.8
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      379.4,
+      105.1,
+      41.8
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      422.3,
+      43.6,
+      41.4
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      422.3,
+      116.6,
+      41.4
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      422.3,
+      43.6,
+      41.4
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      422.3,
+      112.0,
+      41.4
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      422.3,
+      43.2,
+      41.4
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      422.3,
+      105.1,
+      41.4
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      464.4,
+      43.6,
+      41.8
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      464.4,
+      116.6,
+      41.8
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      464.4,
+      43.6,
+      41.8
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      464.4,
+      112.0,
+      41.8
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      464.4,
+      43.2,
+      41.8
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      464.4,
+      105.1,
+      41.8
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      507.2,
+      43.6,
+      41.4
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      507.2,
+      116.6,
+      41.4
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      507.2,
+      43.6,
+      41.4
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      507.2,
+      112.0,
+      41.4
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      507.2,
+      43.2,
+      41.4
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      507.2,
+      105.1,
+      41.4
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      549.4,
+      43.6,
+      41.8
+     ],
+     "label": "Krym Crimea",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      549.4,
+      116.6,
+      41.8
+     ],
+     "label": "Krym Crimea",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      549.4,
+      43.6,
+      41.4
+     ],
+     "label": "Krym Crimea",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      549.4,
+      112.0,
+      41.4
+     ],
+     "label": "Krym Crimea",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      549.4,
+      43.2,
+      41.4
+     ],
+     "label": "Krym Crimea",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      549.4,
+      105.1,
+      41.4
+     ],
+     "label": "Krym Crimea",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      591.8,
+      43.6,
+      76.0
+     ],
+     "label": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+     "section": null,
+     "column": "% całkowitych przychodó w % of total Revenue",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      592.2,
+      116.6,
+      75.6
+     ],
+     "label": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      592.2,
+      43.6,
+      75.6
+     ],
+     "label": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+     "section": null,
+     "column": "% całkowitych kosztów % of total expenses",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      592.2,
+      112.0,
+      75.6
+     ],
+     "label": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+     "section": null,
+     "column": "Nazwa podmiotu i charakter działalności Name of the entity and Nature of the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      592.2,
+      43.2,
+      75.6
+     ],
+     "label": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+     "section": null,
+     "column": "% całkowitych aktywów % of total assets",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      592.2,
+      105.1,
+      75.6
+     ],
+     "label": "*Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+     "section": null,
+     "column": "Nazwa podmiotu i przeznaczenie aktywów Name of the entity and Purpose of the asset(s)",
+     "ink": 0.0
+    }
+   ]
+  },
+  {
+   "page": 9,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      92.9,
+      43.6,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      92.9,
+      116.6,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      92.9,
+      43.6,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      92.9,
+      112.0,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      92.9,
+      43.2,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      92.9,
+      105.1,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non- government controlled territories of Donetsk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      160.9,
+      43.6,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      160.9,
+      116.6,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      160.9,
+      43.6,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      160.9,
+      112.0,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      160.9,
+      43.2,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      160.9,
+      105.1,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non- government controlled territories of Luhansk Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      229.0,
+      43.6,
+      67.7
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      229.0,
+      116.6,
+      67.7
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      229.0,
+      43.6,
+      67.7
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      229.0,
+      112.0,
+      67.7
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      229.0,
+      43.2,
+      67.7
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      229.0,
+      105.1,
+      67.7
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non- government controlled territories of Kherson Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      297.4,
+      43.6,
+      67.3
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      297.4,
+      116.6,
+      67.3
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      297.4,
+      43.6,
+      67.3
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      297.4,
+      112.0,
+      67.3
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      297.4,
+      43.2,
+      67.3
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      297.7,
+      105.1,
+      67.0
+     ],
+     "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non- government controlled territories of Zaporizhzhia Region",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      106.6,
+      365.8,
+      43.6,
+      41.0
+     ],
+     "label": "Suma Total",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      151.2,
+      365.8,
+      116.6,
+      41.0
+     ],
+     "label": "Suma Total",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      268.9,
+      365.8,
+      43.6,
+      41.0
+     ],
+     "label": "Suma Total",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      313.2,
+      365.8,
+      112.0,
+      41.0
+     ],
+     "label": "Suma Total",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      426.2,
+      365.8,
+      43.2,
+      41.0
+     ],
+     "label": "Suma Total",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      470.5,
+      365.8,
+      105.1,
+      41.0
+     ],
+     "label": "Suma Total",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      270.7,
+      603.4,
+      5.4,
+      6.1
+     ],
+     "glued": false,
+     "option": "Nie",
+     "option_raw": "nie",
+     "label": null,
+     "section": null,
+     "row": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział"
+    }
+   ]
+  },
+  {
+   "page": 10,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      216.0,
+      100.1,
+      20.9
+     ],
+     "label": "Afganistan Afghanistan",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      216.0,
+      128.9,
+      20.9
+     ],
+     "label": "Afganistan Afghanistan",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.8,
+      216.0,
+      164.5,
+      20.9
+     ],
+     "label": "Afganistan Afghanistan",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      238.0,
+      100.1,
+      20.9
+     ],
+     "label": "Angola Angola",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      238.0,
+      128.9,
+      20.9
+     ],
+     "label": "Angola Angola",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.8,
+      238.0,
+      164.5,
+      20.9
+     ],
+     "label": "Angola Angola",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      259.9,
+      100.1,
+      43.2
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      259.9,
+      128.9,
+      43.2
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.8,
+      259.9,
+      164.5,
+      43.2
+     ],
+     "label": "Białoruś Belarus",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      304.2,
+      100.1,
+      20.9
+     ],
+     "label": "Republika Srodkowoafrykanska Central African Republic",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      304.2,
+      128.9,
+      20.9
+     ],
+     "label": "Republika Srodkowoafrykanska Central African Republic",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      304.2,
+      165.2,
+      20.9
+     ],
+     "label": "Republika Srodkowoafrykanska Central African Republic",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      325.8,
+      100.1,
+      21.2
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      325.8,
+      128.9,
+      21.2
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      325.8,
+      165.2,
+      21.2
+     ],
+     "label": "Korea Północna North Korea",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      348.1,
+      100.1,
+      20.9
+     ],
+     "label": "Demokratyczna Republika Kongo Democratic Republic of Congo",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      348.1,
+      128.9,
+      20.9
+     ],
+     "label": "Demokratyczna Republika Kongo Democratic Republic of Congo",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      348.1,
+      165.2,
+      20.9
+     ],
+     "label": "Demokratyczna Republika Kongo Democratic Republic of Congo",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      370.1,
+      100.1,
+      20.9
+     ],
+     "label": "Haiti Haiti",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      370.1,
+      128.9,
+      20.9
+     ],
+     "label": "Haiti Haiti",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      370.1,
+      164.9,
+      20.9
+     ],
+     "label": "Haiti Haiti",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      392.0,
+      100.1,
+      32.8
+     ],
+     "label": "Iran Iran",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      392.0,
+      128.9,
+      32.8
+     ],
+     "label": "Iran Iran",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      392.0,
+      164.9,
+      32.8
+     ],
+     "label": "Iran Iran",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      425.5,
+      100.1,
+      21.2
+     ],
+     "label": "Irak Iraq",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      425.5,
+      128.9,
+      21.2
+     ],
+     "label": "Irak Iraq",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      425.5,
+      164.9,
+      21.2
+     ],
+     "label": "Irak Iraq",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      447.8,
+      100.1,
+      53.6
+     ],
+     "label": "Wybrzeże Kości Słoniowej Ivory Coast",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      447.8,
+      128.9,
+      53.6
+     ],
+     "label": "Wybrzeże Kości Słoniowej Ivory Coast",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      447.8,
+      164.9,
+      53.6
+     ],
+     "label": "Wybrzeże Kości Słoniowej Ivory Coast",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      502.6,
+      100.1,
+      32.8
+     ],
+     "label": "Liban Lebanon",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      502.6,
+      128.9,
+      32.8
+     ],
+     "label": "Liban Lebanon",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.8,
+      502.6,
+      164.5,
+      32.8
+     ],
+     "label": "Liban Lebanon",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      536.4,
+      100.1,
+      20.9
+     ],
+     "label": "Liberia Liberia",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      536.4,
+      128.9,
+      20.9
+     ],
+     "label": "Liberia Liberia",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      536.4,
+      164.9,
+      20.9
+     ],
+     "label": "Liberia Liberia",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      558.0,
+      100.1,
+      21.2
+     ],
+     "label": "Libia Libya",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      558.0,
+      128.9,
+      21.2
+     ],
+     "label": "Libia Libya",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      558.0,
+      165.2,
+      21.2
+     ],
+     "label": "Libia Libya",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      580.0,
+      100.1,
+      21.2
+     ],
+     "label": "Mjanma (Birma) Myanmar",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      580.0,
+      128.9,
+      21.2
+     ],
+     "label": "Mjanma (Birma) Myanmar",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      580.0,
+      165.2,
+      21.2
+     ],
+     "label": "Mjanma (Birma) Myanmar",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      602.3,
+      100.1,
+      53.6
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      602.3,
+      128.9,
+      53.6
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.8,
+      602.3,
+      164.9,
+      53.6
+     ],
+     "label": "Rosja Russia",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      657.0,
+      100.1,
+      32.8
+     ],
+     "label": "Sierra Leone Sierra Leone",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      657.0,
+      128.9,
+      32.8
+     ],
+     "label": "Sierra Leone Sierra Leone",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      657.0,
+      165.2,
+      32.8
+     ],
+     "label": "Sierra Leone Sierra Leone",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      690.5,
+      100.1,
+      20.9
+     ],
+     "label": "Somalia Somalia",
+     "section": null,
+     "column": "Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      690.5,
+      128.9,
+      20.9
+     ],
+     "label": "Somalia Somalia",
+     "section": null,
+     "column": "Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged in the activity",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      690.5,
+      165.2,
+      20.9
+     ],
+     "label": "Somalia Somalia",
+     "section": null,
+     "column": "Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+     "ink": 0.0
+    }
+   ]
+  },
+  {
+   "page": 11,
+   "lang": "pol+eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      92.9,
+      100.1,
+      20.9
+     ],
+     "label": "Sudan Południowy South Sudan",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      92.9,
+      128.9,
+      20.9
+     ],
+     "label": "Sudan Południowy South Sudan",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      92.9,
+      164.9,
+      20.9
+     ],
+     "label": "Sudan Południowy South Sudan",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      114.8,
+      100.1,
+      20.9
+     ],
+     "label": "Sudan Sudan",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      114.8,
+      128.9,
+      20.9
+     ],
+     "label": "Sudan Sudan",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      114.8,
+      164.9,
+      20.9
+     ],
+     "label": "Sudan Sudan",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      136.8,
+      100.1,
+      20.9
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      136.8,
+      128.9,
+      20.9
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      136.8,
+      164.9,
+      20.9
+     ],
+     "label": "Syria Syria",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      158.8,
+      100.1,
+      20.9
+     ],
+     "label": "Wenezuela Venezuela",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      158.8,
+      128.9,
+      20.9
+     ],
+     "label": "Wenezuela Venezuela",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.8,
+      158.8,
+      164.5,
+      20.9
+     ],
+     "label": "Wenezuela Venezuela",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      180.7,
+      100.1,
+      21.2
+     ],
+     "label": "Jemen Yemen",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      180.7,
+      128.9,
+      21.2
+     ],
+     "label": "Jemen Yemen",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      180.7,
+      164.9,
+      21.2
+     ],
+     "label": "Jemen Yemen",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      179.6,
+      202.7,
+      100.1,
+      21.2
+     ],
+     "label": "Zimbabwe Zimbabwe",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      280.8,
+      202.7,
+      128.9,
+      20.9
+     ],
+     "label": "Zimbabwe Zimbabwe",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      410.4,
+      202.7,
+      164.9,
+      20.9
+     ],
+     "label": "Zimbabwe Zimbabwe",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.9,
+      232.2,
+      5.0,
+      5.4
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": null,
+     "section": null,
+     "row": "C] Tak/Yes 2 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.3,
+      247.7,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": null,
+     "section": null,
+     "row": "C] Tak/Yes 2 Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      444.6,
+      452.5,
+      55.8
+     ],
+     "label": null,
+     "section": null,
+     "column": "provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?",
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      520.6,
+      502.9,
+      5.4,
+      5.0
+     ],
+     "glued": true,
+     "option": "Tak",
+     "option_raw": "Tak/Yes",
+     "label": null,
+     "section": null,
+     "row": "1 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      521.3,
+      518.8,
+      5.0,
+      5.0
+     ],
+     "glued": true,
+     "option": "Nie",
+     "option_raw": "Nie/No",
+     "label": null,
+     "section": null,
+     "row": "1 Tak/Yes 0 Nie/No"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      37.1,
+      584.3,
+      452.5,
+      104.8
+     ],
+     "label": null,
+     "section": null,
+     "column": "If \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.",
+     "ink": 0.0
+    }
+   ]
+  }
+ ]
+}

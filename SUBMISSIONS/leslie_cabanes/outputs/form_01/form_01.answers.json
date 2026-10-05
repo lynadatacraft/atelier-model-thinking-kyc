@@ -1,0 +1,938 @@
+{
+ "exercice": "form_01",
+ "entreprise": "Asterive Services SAS",
+ "langue": "Français",
+ "situation_au": "2026-09-01",
+ "zones": 45,
+ "comptes_par_etat": {
+  "answer": 43,
+  "missing_information": 1,
+  "not_applicable": 1
+ },
+ "preuves_retrogradees_a_la_relecture": 0,
+ "pieces_ecartees_pour_irrecevabilite": [
+  {
+   "fichier": "sources/companies/sim-hackathon-a-client/office_supplies_invoice.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'office_supplies_invoice' : ne porte aucune donnee reglementee (admissibility.md)"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-a-client/registered_office_archive.json",
+   "test": "4 — pièce remplacée",
+   "preuve": "record_status = 'superseded'"
+  },
+  {
+   "fichier": "sources/companies/sim-hackathon-a-client/staff_training_plan.json",
+   "test": "1 — nature probante",
+   "preuve": "document_type = 'staff_training_plan' : ne porte aucune donnee reglementee (admissibility.md)"
+  }
+ ],
+ "faits_bruts": 309,
+ "faits_apres_deduplication": 212,
+ "notions_du_vocabulaire": 140,
+ "incidents": [],
+ "conflits_de_modalite_retires": 0,
+ "mesure": {
+  "appels": 0,
+  "cache": 15,
+  "secondes": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "familles": 3,
+  "membres_groupes": 30,
+  "cout_usd": 0.0,
+  "duree_totale_s": 2.1
+ },
+ "reponses": [
+  {
+   "page": 1,
+   "libelle": "Dénomination sociale",
+   "option": null,
+   "zone": [
+    355.7,
+    151.9,
+    204.8,
+    25.9
+   ],
+   "role": "donnee",
+   "notion": "name",
+   "sujet": "client",
+   "valeur": "Asterive Services SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/name",
+   "preuve_valeur": "Asterive Services SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-a-client/mandate.md",
+    "sources/companies/sim-hackathon-a-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Code SIREN / n° d enregistrement",
+   "option": null,
+   "zone": [
+    355.7,
+    178.9,
+    204.8,
+    25.9
+   ],
+   "role": "donnee",
+   "notion": "registration",
+   "sujet": "client",
+   "valeur": "SIM-RCS-A-001",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/registration",
+   "preuve_valeur": "SIM-RCS-A-001",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Société cotée",
+   "option": "Oui",
+   "zone": [
+    361.1,
+    214.6,
+    7.9,
+    7.6
+   ],
+   "role": "donnee",
+   "notion": "listed",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Société cotée",
+   "option": "Non",
+   "zone": [
+    389.5,
+    214.6,
+    7.9,
+    7.6
+   ],
+   "role": "donnee",
+   "notion": "listed",
+   "sujet": "client",
+   "valeur": false,
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+   "preuve_valeur": false,
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Nom de la maison mere",
+   "option": null,
+   "zone": [
+    355.7,
+    293.4,
+    204.8,
+    25.9
+   ],
+   "role": "donnee",
+   "notion": "parent.name",
+   "sujet": "maison_mere",
+   "valeur": "Asterive Participations SAS",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/name",
+   "preuve_valeur": "Asterive Participations SAS",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-a-client/ownership.md"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Pays da immatriculation",
+   "option": null,
+   "zone": [
+    355.7,
+    320.4,
+    204.8,
+    25.9
+   ],
+   "role": "donnee",
+   "notion": "parent.incorporation",
+   "sujet": "maison_mere",
+   "valeur": "France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/incorporation",
+   "preuve_valeur": "France",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-a-client/ownership.md"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Pays de résidence fiscale",
+   "option": null,
+   "zone": [
+    355.7,
+    347.4,
+    204.8,
+    26.3
+   ],
+   "role": "donnee",
+   "notion": "parent.tax_residence",
+   "sujet": "maison_mere",
+   "valeur": null,
+   "etat": "missing_information",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence",
+   "justification": "Le dossier déclare cette valeur explicitement inconnue, sans assertion positive, et l'explique : « Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence. »",
+   "manquant": [
+    "parent.tax_residence"
+   ]
+  },
+  {
+   "page": 1,
+   "libelle": "Adresse de la maison mere",
+   "option": null,
+   "zone": [
+    355.7,
+    374.4,
+    204.8,
+    25.9
+   ],
+   "role": "donnee",
+   "notion": "parent.address",
+   "sujet": "maison_mere",
+   "valeur": "40 place du Groupe Fictif, 69000 Lyon, France",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/address",
+   "preuve_valeur": "40 place du Groupe Fictif, 69000 Lyon, France",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+    "sources/companies/sim-hackathon-a-client/ownership.md"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 1,
+   "libelle": "Corée du nord",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    503.6,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Corée du nord",
+   "option": "Non",
+   "zone": [
+    275.0,
+    503.6,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Corée du nord",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    503.6,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Crimée",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    537.8,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Crimée",
+   "option": "Non",
+   "zone": [
+    275.0,
+    537.8,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Crimée",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    537.8,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Cuba",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    572.0,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Cuba",
+   "option": "Non",
+   "zone": [
+    275.0,
+    572.0,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Cuba",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    572.0,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Irak",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    606.2,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Irak",
+   "option": "Non",
+   "zone": [
+    275.0,
+    606.2,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Irak",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    606.2,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "iran",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    640.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "iran",
+   "option": "Non",
+   "zone": [
+    275.0,
+    640.8,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "iran",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    640.8,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Myanmar",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    675.0,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Myanmar",
+   "option": "Non",
+   "zone": [
+    275.0,
+    675.0,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Myanmar",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    675.0,
+    7.6,
+    7.9
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Russie",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    709.2,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Russie",
+   "option": "Non",
+   "zone": [
+    275.0,
+    709.2,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Russie",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    709.2,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Soudan",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    743.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Soudan",
+   "option": "Non",
+   "zone": [
+    275.0,
+    743.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Soudan",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    743.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Sud-Soudan",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    778.0,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Sud-Soudan",
+   "option": "Non",
+   "zone": [
+    275.0,
+    778.0,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Sud-Soudan",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    778.0,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 1,
+   "libelle": "Marché de cotation",
+   "option": null,
+   "zone": [
+    463.7,
+    241.6,
+    96.8,
+    8.6
+   ],
+   "role": "donnee",
+   "notion": "market",
+   "sujet": "client",
+   "valeur": null,
+   "etat": "not_applicable",
+   "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+   "preuve_valeur": false,
+   "justification": "Condition non déclenchée : listed = False (attendu True)"
+  },
+  {
+   "page": 2,
+   "libelle": "Syrie",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    68.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Syrie",
+   "option": "Non",
+   "zone": [
+    275.0,
+    68.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Syrie",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    68.8,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Venezuela",
+   "option": "Oui",
+   "zone": [
+    169.9,
+    103.3,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Venezuela",
+   "option": "Non",
+   "zone": [
+    275.0,
+    103.3,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Venezuela",
+   "option": "Envisagée",
+   "zone": [
+    361.1,
+    103.3,
+    7.6,
+    7.6
+   ],
+   "role": "appartenance",
+   "notion": "activities",
+   "sujet": "client",
+   "valeur": "Non",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+   "preuve_valeur": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+   "justification": "Déclaration négative du dossier, dont le périmètre revu est déclaré complet : « Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiarie… »"
+  },
+  {
+   "page": 2,
+   "libelle": "Représenté par",
+   "option": null,
+   "zone": [
+    118.1,
+    218.2,
+    463.0,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "signer.name",
+   "sujet": "representant",
+   "valeur": "Élodie Varenne",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer/name",
+   "preuve_valeur": "Élodie Varenne",
+   "copies_non_independantes": [],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "En qualité de",
+   "option": null,
+   "zone": [
+    106.9,
+    242.6,
+    474.1,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "signer_role",
+   "sujet": "client",
+   "valeur": "Présidente",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer_role",
+   "preuve_valeur": "Présidente",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  },
+  {
+   "page": 2,
+   "libelle": "Signé le",
+   "option": null,
+   "zone": [
+    75.6,
+    267.5,
+    33.5,
+    10.4
+   ],
+   "role": "donnee",
+   "notion": "date",
+   "sujet": "client",
+   "valeur": "01/09/2026",
+   "etat": "answer",
+   "source": "sources/companies/sim-hackathon-a-client/mandate.md#/date",
+   "preuve_valeur": "01/09/2026",
+   "copies_non_independantes": [
+    "sources/companies/sim-hackathon-a-client/mandate_facts.json"
+   ],
+   "justification": "Valeur lue dans une pièce recevable."
+  }
+ ]
+}

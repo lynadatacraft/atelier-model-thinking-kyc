@@ -1,0 +1,879 @@
+{
+ "exercice": "form_02",
+ "entreprise": "Belorive Patrimoine SAS",
+ "questionnaire": "questionnaires/02_belorive_patrimoine.pdf",
+ "pages": [
+  {
+   "page": 1,
+   "lang": "fra",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      115.9,
+      279.4,
+      454.0,
+      10.8
+     ],
+     "label": "Dénomination Sociale*",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      96.1,
+      294.5,
+      473.8,
+      10.8
+     ],
+     "label": "Forme Juridique",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      120.6,
+      310.0,
+      449.6,
+      13.0
+     ],
+     "label": "Adresse du siège social*",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      173.9,
+      327.6,
+      41.0,
+      12.6
+     ],
+     "label": "Code postal*",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      255.2,
+      327.6,
+      155.9,
+      12.6
+     ],
+     "label": "Ville*",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      443.2,
+      327.6,
+      126.7,
+      12.6
+     ],
+     "label": "memes. el Pays *",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      230.8,
+      344.9,
+      339.1,
+      12.2
+     ],
+     "label": "Adresse de l'établissement (si différent du siège social)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      88.2,
+      361.8,
+      249.1,
+      13.0
+     ],
+     "label": "N° RCS*",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      434.9,
+      361.8,
+      135.0,
+      13.0
+     ],
+     "label": "Lieu d'enregistrement",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      149.0,
+      379.4,
+      420.8,
+      12.2
+     ],
+     "label": "Autres numéros d'identification",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      83.9,
+      396.4,
+      486.0,
+      11.9
+     ],
+     "label": "Code NACE",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      278.3,
+      119.5,
+      302.4,
+      9.4
+     ],
+     "label": "l'ensemble des banques présentes sur le territoire français",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      40.3,
+      531.4,
+      540.4,
+      6.1
+     ],
+     "label": "3",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "lang": "fra",
+   "zones": [
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      69.8,
+      114.1,
+      5.0,
+      5.8
+     ],
+     "glued": false,
+     "option": "Non",
+     "option_raw": "Non",
+     "label": null,
+     "section": null,
+     "row": "[] A. Entité Non Financière Active (Activité non financière "
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      113.4,
+      391.3,
+      4.3,
+      4.7
+     ],
+     "glued": true,
+     "option": "Oui",
+     "option_raw": "oui,",
+     "label": null,
+     "section": null,
+     "row": "CL] C. Institution financière > Veuillez indiquer, si applic"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      504.7,
+      9.4,
+      10.1
+     ],
+     "option": "Entité exclue au sens de la règlementation FATCA et NCD ou DAC",
+     "label": "Entité exclue au sens de la règlementation FATCA et NCD ou DAC"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      491.4,
+      9.4,
+      10.4
+     ],
+     "option": "Banque centrale",
+     "label": "Banque centrale"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      479.2,
+      9.4,
+      10.1
+     ],
+     "option": "Organisation internationale",
+     "label": "Organisation internationale"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      466.6,
+      9.4,
+      10.1
+     ],
+     "option": "Entité publique",
+     "label": "Entité publique"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      453.6,
+      9.4,
+      10.1
+     ],
+     "option": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+     "label": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      173.2,
+      9.4,
+      10.1
+     ],
+     "option": "Autre \"ENF Active”",
+     "label": "Autre \"ENF Active”"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      155.5,
+      9.4,
+      9.4
+     ],
+     "option": "Organisme sans but lucratif",
+     "label": "Organisme sans but lucratif"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      95.8,
+      137.2,
+      9.4,
+      10.1
+     ],
+     "option": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+     "label": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus"
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      204.8,
+      124.9,
+      364.7,
+      8.3
+     ],
+     "label": "Veuillez préciser la sous-catégorie associée",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      398.2,
+      335.2,
+      171.4,
+      7.6
+     ],
+     "label": "> En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      190.4,
+      435.6,
+      379.1,
+      7.6
+     ],
+     "label": "Veuillez cocher le statut correspondant",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "lang": "fra",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      23.4,
+      140.0,
+      301.3,
+      7.6
+     ],
+     "label": null,
+     "section": null,
+     "column": "ÂA Un bénéficiaire effectif ne peut être qu'une personne physique.",
+     "ink": 0.0
+    },
+    {
+     "kind": "checkbox",
+     "mode": "grid",
+     "bbox_pt": [
+      348.1,
+      186.5,
+      4.7,
+      4.7
+     ],
+     "glued": false,
+     "option": "Non",
+     "option_raw": "Non",
+     "label": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+     "section": "Nom* (1) et Prénom* (2) Date de Naissance* (3) et Pays de Naissance* (4) Nationalité(s)*(5) Veuillez indiquer toutes vos nationalités Adresse complète de Résidence actuelle*(6)",
+     "row": "Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Appli"
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      227.5,
+      219.2,
+      96.8,
+      94.3
+     ],
+     "label": "(3) et (4): (5): CP (6):",
+     "section": null,
+     "column": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      325.4,
+      219.2,
+      84.6,
+      94.3
+     ],
+     "label": "(3) et (4): (5): CP (6):",
+     "section": null,
+     "column": "Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale",
+     "ink": 0.0013
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      411.5,
+      219.2,
+      51.5,
+      94.3
+     ],
+     "label": "(3) et (4): (5): CP (6):",
+     "section": null,
+     "column": "Du capital en direct",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      464.0,
+      219.2,
+      52.2,
+      94.3
+     ],
+     "label": "(3) et (4): (5): CP (6):",
+     "section": null,
+     "column": "Du capital en indirect",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      517.0,
+      219.2,
+      52.2,
+      94.3
+     ],
+     "label": "(3) et (4): (5): CP (6):",
+     "section": null,
+     "column": "Des droits de vote ?",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      227.5,
+      314.3,
+      96.8,
+      100.1
+     ],
+     "label": "nssaomannsnaoeueucsusass (3) et (4) :",
+     "section": null,
+     "column": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      325.4,
+      314.3,
+      84.6,
+      100.1
+     ],
+     "label": "nssaomannsnaoeueucsusass (3) et (4) :",
+     "section": null,
+     "column": "Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale",
+     "ink": 0.0017
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      411.5,
+      314.3,
+      51.5,
+      100.1
+     ],
+     "label": "nssaomannsnaoeueucsusass (3) et (4) :",
+     "section": null,
+     "column": "Du capital en direct",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      464.0,
+      314.3,
+      51.8,
+      100.1
+     ],
+     "label": "nssaomannsnaoeueucsusass (3) et (4) :",
+     "section": null,
+     "column": "Du capital en indirect",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      517.0,
+      314.3,
+      52.2,
+      100.1
+     ],
+     "label": "nssaomannsnaoeueucsusass (3) et (4) :",
+     "section": null,
+     "column": "Des droits de vote ?",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      227.5,
+      415.1,
+      96.8,
+      104.0
+     ],
+     "label": null,
+     "section": null,
+     "column": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      325.4,
+      415.1,
+      84.6,
+      104.0
+     ],
+     "label": null,
+     "section": null,
+     "column": "Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale",
+     "ink": 0.002
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      411.5,
+      415.1,
+      51.5,
+      104.0
+     ],
+     "label": null,
+     "section": null,
+     "column": "Du capital en direct",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      464.0,
+      415.1,
+      51.8,
+      104.0
+     ],
+     "label": null,
+     "section": null,
+     "column": "Du capital en indirect",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      517.3,
+      415.1,
+      51.8,
+      104.0
+     ],
+     "label": null,
+     "section": null,
+     "column": "Des droits de vote ?",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      227.5,
+      520.2,
+      96.8,
+      104.0
+     ],
+     "label": "(2) et (2) TR ne (5): (6): MENU",
+     "section": null,
+     "column": "Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      325.4,
+      520.2,
+      84.6,
+      104.0
+     ],
+     "label": "(2) et (2) TR ne (5): (6): MENU",
+     "section": null,
+     "column": "Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale",
+     "ink": 0.0004
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      411.5,
+      520.2,
+      51.5,
+      104.0
+     ],
+     "label": "(2) et (2) TR ne (5): (6): MENU",
+     "section": null,
+     "column": "Du capital en direct",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      464.0,
+      520.2,
+      51.8,
+      104.0
+     ],
+     "label": "(2) et (2) TR ne (5): (6): MENU",
+     "section": null,
+     "column": "Du capital en indirect",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      517.0,
+      520.2,
+      52.2,
+      104.0
+     ],
+     "label": "(2) et (2) TR ne (5): (6): MENU",
+     "section": null,
+     "column": "Des droits de vote ?",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      113.4,
+      669.6,
+      439.2,
+      54.7
+     ],
+     "label": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE",
+     "section": null,
+     "column": null,
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      59.8,
+      229.3,
+      167.0,
+      6.1
+     ],
+     "label": "(1) et (2)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      59.8,
+      248.0,
+      167.0,
+      6.5
+     ],
+     "label": "(3) et (4)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      41.8,
+      285.8,
+      185.0,
+      6.1
+     ],
+     "label": "(6)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      59.8,
+      343.4,
+      167.0,
+      6.1
+     ],
+     "label": "(3) et (4)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      41.8,
+      380.9,
+      185.0,
+      6.5
+     ],
+     "label": "(6)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      59.8,
+      444.2,
+      167.0,
+      6.1
+     ],
+     "label": "(3) et (4)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      41.8,
+      463.0,
+      185.0,
+      6.1
+     ],
+     "label": "(5)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      59.8,
+      530.3,
+      167.0,
+      6.1
+     ],
+     "label": "(1) et (2)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      59.8,
+      549.0,
+      167.0,
+      6.1
+     ],
+     "label": "(3) et (4)",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      41.8,
+      586.8,
+      185.0,
+      6.1
+     ],
+     "label": "(6)",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "lang": "fra",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      71.6,
+      346.7,
+      114.8,
+      14.8
+     ],
+     "label": "Nom",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      243.4,
+      346.7,
+      114.5,
+      14.8
+     ],
+     "label": "de Prénom",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      202.3,
+      365.8,
+      175.7,
+      14.0
+     ],
+     "label": "Fonction au sein de l'entité cliente*",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      414.4,
+      315.7,
+      166.3,
+      9.7
+     ],
+     "label": "Fait à* : le* : Signature*",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      122.8,
+      331.9,
+      457.9,
+      9.7
+     ],
+     "label": "Représentant légal*",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      235.4,
+      349.9,
+      345.2,
+      7.2
+     ],
+     "label": "Nom“",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      189.0,
+      368.3,
+      391.7,
+      7.6
+     ],
+     "label": "Fonction au sein de l'entité cliente*",
+     "trailing": ""
+    }
+   ]
+  }
+ ]
+}
