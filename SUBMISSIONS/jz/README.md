@@ -123,8 +123,12 @@ report: `python cost_log.py`.
 | 1b OCR (30 pages) | 5 | — | — | not logged | $0.045 |
 | 3 Fields (last run per form) | 41 | 214k | 117k | 5 min | $0.10 |
 | 4 Answers, reasoning medium | 23 | 321k | 88k | 4 min | $0.10 |
-| 4 Answers, reasoning high | _to be filled_ | | | | |
-| **One full run** (1–6, high) | | | | | _to be filled_ |
+| 4 Answers, reasoning high (used for `submission/`) | 110, of which 16 cut off at the 40k-token output limit and split | 1.37M | 1.32M | ~35 min (forms partly in parallel) | $1.00, of which $0.42 for the cut-off calls |
+| **One full run** (1–6, high) | | | | | ~$1.45 (~$0.55 with reasoning medium) |
+
+Reasoning "high" costs about 10× "medium" here: longer reasoning, smaller batches (5 fields, so the
+dossier is sent more often), and requests whose output is cut off at the limit are billed without a
+usable answer (`run_all.sh` resumes from per-batch checkpoints if a run is interrupted).
 
 Per company (one full run): see `python cost_log.py`, which groups every call by company, form and
 step. Development runs (iterations on steps 3 and 4) are in the log too: about $1.17 in total on
