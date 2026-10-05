@@ -5,7 +5,7 @@
   "value": "Belorive Patrimoine SAS",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name (= sources/companies/sim-hackathon-b-client/mandate.md#/name)",
-  "justification": "The corporate register lists the company name as Belorive Patrimoine SAS.",
+  "justification": "The corporate register lists the company name as \"Belorive Patrimoine SAS\".",
   "missing": [],
   "group": null,
   "field_id": "04_p1_f1",
@@ -34,7 +34,7 @@
   "value": "France",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/incorporation",
-  "justification": "The corporate register states the country of incorporation is France.",
+  "justification": "The corporate register indicates the country of incorporation is France.",
   "missing": [],
   "group": null,
   "field_id": "04_p1_f2",
@@ -56,7 +56,7 @@
   "value": null,
   "state": "bank_reserved",
   "source": null,
-  "justification": "Field is reserved for the bank.",
+  "justification": "Bank reserved field, left empty.",
   "missing": [],
   "group": null,
   "field_id": "04_p1_f3",
@@ -69,10 +69,10 @@
   "label": "La Banque des Entreprises Relationship Manager",
   "value": null,
   "state": "missing_information",
-  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name (= sources/companies/sim-hackathon-b-client/mandate.md#/name)",
-  "justification": "No relationship‑manager name is provided in any source.",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#/header/4",
+  "justification": "No source provides the name of the bank's relationship manager; the registers only contain client information and unknown attributes remain unknown.",
   "missing": [
-   "Relationship manager name"
+   "relationship manager name"
   ],
   "group": null,
   "field_id": "04_p1_f4",
@@ -80,17 +80,10 @@
   "independent_sources": 1,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
-    "pointer": "/name",
-    "quote": "Belorive Patrimoine SAS",
-    "role": "cited",
-    "evidence": 1
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/mandate.md",
-    "pointer": "/name",
-    "quote": "Belorive Patrimoine SAS",
-    "role": "corroborating",
+    "pointer": "/header/4",
+    "quote": "The register covers its stated population; individual attributes explicitly marked unknown remain unknown.",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -100,13 +93,13 @@
   "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
   "value": "Yes",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/country (= sources/companies/sim-hackathon-b-client/activities.md#/activities/1/country, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/country, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/country)",
-  "justification": "The activity register shows current activities in Belarus and Russia, both listed as Sanctioned Jurisdictions.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/country (= sources/companies/sim-hackathon-b-client/activities.md#/activities/1/country, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/country, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/country); sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration",
+  "justification": "The activity register shows current activity in Belarus and Russia, both listed as Sanctioned Jurisdictions, therefore the client has activity in a sanctioned jurisdiction.",
   "missing": [],
   "group": null,
   "field_id": "04_p1_f5",
   "label_short": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -121,6 +114,13 @@
     "quote": "Russia",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/negative_declaration",
+    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/finance.md",
@@ -143,19 +143,33 @@
   "label": "Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry?",
   "value": "No",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/header/8",
-  "justification": "The compliance register explicitly states there is no activity in the sanctioned Russian sectors.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/description (= sources/companies/sim-hackathon-b-client/finance.md#/activities/1/description); sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/activity",
+  "justification": "No, the Russian subsidiary is only winding down and does not engage in any of the listed sanctioned sectors.",
   "missing": [],
   "group": null,
   "field_id": "04_p1_f6",
   "label_short": "Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry?",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
-    "pointer": "/header/8",
-    "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment.",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/description",
+    "quote": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
     "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/licenses/0/activity",
+    "quote": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/description",
+    "quote": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+    "role": "corroborating",
     "evidence": 1
    }
   ]
@@ -165,8 +179,8 @@
   "label": "Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
   "value": "Yes",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/type",
-  "justification": "A licence/authorization is listed in the compliance register.",
+  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/type (= sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/authority)",
+  "justification": "Yes, the client holds a fictional sanctions wind-down authorization issued by the Simulation Authorization Office for the Russian subsidiary.",
   "missing": [],
   "group": null,
   "field_id": "04_p2_f7",
@@ -179,6 +193,13 @@
     "quote": "Fictional sanctions wind-down authorization",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/licenses/0/authority",
+    "quote": "Simulation Authorization Office",
+    "role": "cited",
+    "evidence": 1
    }
   ]
  },
@@ -187,8 +208,8 @@
   "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively \"Government\")?",
   "value": "No",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The negative declaration confirms no activity with the listed governments.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/government (= sources/companies/sim-hackathon-b-client/activities.md#/activities/1/government, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/government, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/government)",
+  "justification": "No, the activity register shows no government involvement for any of the client’s activities.",
   "missing": [],
   "group": null,
   "field_id": "04_p2_f8",
@@ -197,15 +218,29 @@
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/negative_declaration",
-    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "pointer": "/activities/0/government",
+    "quote": "false",
     "role": "cited",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
-    "pointer": "/negative_declaration",
-    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/government",
+    "quote": "false",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/0/government",
+    "quote": "false",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/government",
+    "quote": "false",
     "role": "corroborating",
     "evidence": 1
    }
@@ -216,13 +251,13 @@
   "label": "Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a Sanctioned Party, a Sanctioned Jurisdiction or the Government of any country listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
   "value": "No",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/bank_use",
-  "justification": "The compliance register indicates the client does not use bank products for such activities.",
+  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/bank_use; sources/companies/sim-hackathon-b-client/activities.md#/activities/0/bank_use (= sources/companies/sim-hackathon-b-client/activities.md#/activities/1/bank_use, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/bank_use, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/bank_use)",
+  "justification": "No, the client does not intend to use bank accounts for sanctioned activities, as indicated by bank_use = false in the compliance and activity registers.",
   "missing": [],
   "group": null,
   "field_id": "04_p2_f9",
   "label_short": "Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a Sanctioned Party, a Sanctioned Jurisdiction or the Government of any country listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -230,6 +265,34 @@
     "quote": "false",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/bank_use",
+    "quote": "false",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/bank_use",
+    "quote": "false",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/0/bank_use",
+    "quote": "false",
+    "role": "corroborating",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/bank_use",
+    "quote": "false",
+    "role": "corroborating",
+    "evidence": 2
    }
   ]
  },
@@ -238,33 +301,103 @@
   "label": "Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity who is either: a) a Sanctioned Party; b) located, organized, registered in, or operating from a Sanctioned Jurisdiction; c) employed in a Sanctioned Jurisdiction; d) representing a governmental agency or authority of a Sanctioned Jurisdiction or any country listed in Question 4?",
   "value": "No",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/nationalities/0 (= sources/companies/sim-hackathon-b-client/ownership.md#/people/1/nationalities/0, sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/0)",
-  "justification": "All listed controlling persons are French nationals and no sanctions flags are present.",
+  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/name (= sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/residence, sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/listed, sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration, sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration); sources/companies/sim-hackathon-b-client/ownership.md#/people/0/nationalities/0 (= sources/companies/sim-hackathon-b-client/ownership.md#/people/0/residences/0, sources/companies/sim-hackathon-b-client/ownership.md#/people/1/nationalities/0, sources/companies/sim-hackathon-b-client/ownership.md#/people/1/residences/0, sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/0, sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/1, sources/companies/sim-hackathon-b-client/ownership.md#/people/2/residences/0); sources/persons/0cd724dc-b507-56d2-ae8d-2f35ff747f6d/personal_facts.json#/name",
+  "justification": "No, because the only director is Julien Valsenne who resides in Russia, which is not among the listed sanctioned jurisdictions, and none of the shareholders or controlling persons are from those jurisdictions or listed as sanctioned parties.",
   "missing": [],
   "group": null,
   "field_id": "04_p2_f10",
   "label_short": "Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity who is either: a) a Sanctioned Party; b) located, organized, registered in, or operating from a Sanctioned Jurisdiction; c) employed in a Sanctioned Jurisdiction; d) representing a governmental agency or authority of a Sanctioned Jurisdiction or any country listed in Question 4?",
-  "independent_sources": 1,
+  "independent_sources": 3,
   "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/governance_nexus/name",
+    "quote": "Julien Valsenne",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/governance_nexus/residence",
+    "quote": "Russia",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/governance_nexus/listed",
+    "quote": "false",
+    "role": "cited",
+    "evidence": 1
+   },
    {
     "document": "sources/companies/sim-hackathon-b-client/ownership.md",
     "pointer": "/people/0/nationalities/0",
     "quote": "France",
     "role": "cited",
-    "evidence": 1
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/0/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/ownership.md",
     "pointer": "/people/1/nationalities/0",
     "quote": "France",
     "role": "cited",
-    "evidence": 1
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/1/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/ownership.md",
     "pointer": "/people/2/nationalities/0",
     "quote": "France",
     "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/nationalities/1",
+    "quote": "United States",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/negative_declaration",
+    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/0cd724dc-b507-56d2-ae8d-2f35ff747f6d/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Julien Valsenne",
+    "role": "corroborating",
+    "evidence": 3
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/negative_declaration",
+    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "role": "corroborating",
     "evidence": 1
    }
   ]
@@ -272,10 +405,10 @@
  {
   "page": 3,
   "label": "If \"Yes\" is selected please provide further details of the policy and/or program",
-  "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end‑users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+  "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end‑users and intermediaries at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained. Additionally, the company holds a fictional sanctions wind‑down authorization (SIM‑AUTH‑B‑01) issued by the Simulation Authorization Office, authorising the wind‑down of Belorive Clôture Russia LLC activities, valid until 2026‑12‑31.",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
-  "justification": "The compliance register contains a detailed sanctions‑compliance policy.",
+  "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy (= sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/reference, sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/type, sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/authority, sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/expiry)",
+  "justification": "Compliance register shows a formal group policy covering sanctions screening, periodic audit and a specific sanctions wind‑down authorization, thus a formal policy exists.",
   "missing": [],
   "group": null,
   "field_id": "04_p3_f11",
@@ -288,6 +421,34 @@
     "quote": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/licenses/0/reference",
+    "quote": "SIM-AUTH-B-01",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/licenses/0/type",
+    "quote": "Fictional sanctions wind-down authorization",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/licenses/0/authority",
+    "quote": "Simulation Authorization Office",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+    "pointer": "/licenses/0/expiry",
+    "quote": "2026-12-31",
+    "role": "cited",
+    "evidence": 1
    }
   ]
  },
@@ -297,7 +458,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
-  "justification": "A formal sanctions compliance policy is declared in the compliance register, so question 7 is answered Yes and the conditional field is not applicable.",
+  "justification": "Question 7 was answered Yes, so the No‑branch is not applicable.",
   "missing": [],
   "group": null,
   "field_id": "04_p3_f12",
@@ -318,16 +479,16 @@
   "label": "Belarus | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "1%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/revenue (= sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/revenue)",
-  "justification": "Revenue from Belarus (200,000) divided by group revenue (20,000,000) equals 1 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/revenue; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue",
+  "justification": "Belarus activity revenue is 200,000 (activities register) and group total revenue is 20,000,000 (finance register); 200,000/20,000,000 = 1 %.",
   "missing": [],
   "group": "Belarus",
   "field_id": "04_p3_f13",
   "label_short": "Belarus | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/0/revenue",
     "quote": "200000",
     "role": "cited",
@@ -338,14 +499,7 @@
     "pointer": "/group_totals/revenue",
     "quote": "20000000",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/0/revenue",
-    "quote": "200000",
-    "role": "corroborating",
-    "evidence": 1
+    "evidence": 2
    }
   ]
  },
@@ -354,10 +508,10 @@
   "label": "Belarus | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": null,
   "state": "missing_information",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/group_assets_note (= sources/companies/sim-hackathon-b-client/finance.md#/activities/0/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/assets)",
-  "justification": "Group‑level assets total is not supplied, so the percentage cannot be calculated.",
+  "source": "sources/companies/sim-hackathon-b-client/finance.md#/group_totals/assets (= sources/companies/sim-hackathon-b-client/finance.md#/group_assets_note)",
+  "justification": "Group assets total is not supplied (null) in the finance register, so the percentage cannot be calculated.",
   "missing": [
-   "Group assets total"
+   "group assets total unknown"
   ],
   "group": "Belarus",
   "field_id": "04_p3_f14",
@@ -366,23 +520,16 @@
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/finance.md",
-    "pointer": "/group_assets_note",
-    "quote": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+    "pointer": "/group_totals/assets",
+    "quote": "null",
     "role": "cited",
     "evidence": 1
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/finance.md",
-    "pointer": "/activities/0/assets",
-    "quote": "500000",
+    "pointer": "/group_assets_note",
+    "quote": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/0/assets",
-    "quote": "500000",
-    "role": "corroborating",
     "evidence": 1
    }
   ]
@@ -392,16 +539,16 @@
   "label": "Belarus | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0.5%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/expenses (= sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/expenses)",
-  "justification": "Expenses from Belarus (60,000) divided by group expenses (12,000,000) equals 0.5 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/expenses; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses",
+  "justification": "Belarus activity expenses are 60,000 (activities register) and group total expenses are 12,000,000 (finance register); 60,000/12,000,000 = 0.5 %.",
   "missing": [],
   "group": "Belarus",
   "field_id": "04_p3_f15",
   "label_short": "Belarus | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/0/expenses",
     "quote": "60000",
     "role": "cited",
@@ -412,92 +559,106 @@
     "pointer": "/group_totals/expenses",
     "quote": "12000000",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/0/expenses",
-    "quote": "60000",
-    "role": "corroborating",
-    "evidence": 1
+    "evidence": 2
    }
   ]
  },
  {
   "page": 3,
   "label": "Belarus | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level.",
-  "value": "Belorive Immobilier Belarus LLC – revenue 10 %, assets 10 %, expenses 6 %",
+  "value": "Belorive Immobilier Belarus LLC – revenue 10 %, assets 10 %, expenses 6 %.",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-entity-1/entity_facts.json#/financial_totals/revenue (= sources/companies/sim-hackathon-b-entity-1/entity_facts.json#/financial_totals/assets, sources/companies/sim-hackathon-b-entity-1/entity_facts.json#/financial_totals/expenses); sources/companies/sim-hackathon-b-client/finance.md#/activities/0/revenue (= sources/companies/sim-hackathon-b-client/finance.md#/activities/0/assets, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/expenses)",
-  "justification": "Entity totals are from the Belarus subsidiary facts; activity amounts are from the finance schedule. Percentages are calculated as activity ÷ entity total (revenue 200,000/2,000,000 = 10 %; assets 500,000/5,000,000 = 10 %; expenses 60,000/1,000,000 = 6 %).",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/revenue (= sources/companies/sim-hackathon-b-client/activities.md#/activities/0/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity_totals/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity_totals/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity_totals/assets, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/revenue, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/expenses, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/assets, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/entity_totals/revenue, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/entity_totals/expenses, sources/companies/sim-hackathon-b-client/finance.md#/activities/0/entity_totals/assets)",
+  "justification": "Entity totals for Belorive Immobilier Belarus LLC are revenue 2,000,000, expenses 1,000,000, assets 5,000,000 (activities register). The Belarus activity amounts are revenue 200,000, expenses 60,000, assets 500,000. Percentages are 200,000/2,000,000 = 10 % revenue, 60,000/1,000,000 = 6 % expenses, 500,000/5,000,000 = 10 % assets.",
   "missing": [],
   "group": "Belarus",
   "field_id": "04_p3_f16",
   "label_short": "Belarus | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-entity-1/entity_facts.json",
-    "pointer": "/financial_totals/revenue",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/revenue",
+    "quote": "200000",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/expenses",
+    "quote": "60000",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/assets",
+    "quote": "500000",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/entity_totals/revenue",
     "quote": "2000000",
     "role": "cited",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-entity-1/entity_facts.json",
-    "pointer": "/financial_totals/assets",
-    "quote": "5000000",
-    "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-entity-1/entity_facts.json",
-    "pointer": "/financial_totals/expenses",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/entity_totals/expenses",
     "quote": "1000000",
     "role": "cited",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
-    "pointer": "/activities/0/revenue",
-    "quote": "200000",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/0/entity_totals/assets",
+    "quote": "5000000",
     "role": "cited",
-    "evidence": 2
+    "evidence": 1
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/finance.md",
-    "pointer": "/activities/0/assets",
-    "quote": "500000",
-    "role": "cited",
-    "evidence": 2
+    "pointer": "/activities/0/revenue",
+    "quote": "200000",
+    "role": "corroborating",
+    "evidence": 1
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/finance.md",
     "pointer": "/activities/0/expenses",
     "quote": "60000",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/0/revenue",
-    "quote": "200000",
     "role": "corroborating",
-    "evidence": 2
+    "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
     "pointer": "/activities/0/assets",
     "quote": "500000",
     "role": "corroborating",
-    "evidence": 2
+    "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/0/expenses",
-    "quote": "60000",
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/0/entity_totals/revenue",
+    "quote": "2000000",
     "role": "corroborating",
-    "evidence": 2
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/0/entity_totals/expenses",
+    "quote": "1000000",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/0/entity_totals/assets",
+    "quote": "5000000",
+    "role": "corroborating",
+    "evidence": 1
    }
   ]
  },
@@ -506,13 +667,13 @@
   "label": "Crimea | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The negative declaration confirms no activity in Crimea; therefore revenue share is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue",
+  "justification": "The negative declaration confirms no activity in Crimea, so revenue from Crimea is zero; the group revenue total is 20,000,000 EUR, giving 0 %.",
   "missing": [],
   "group": "Crimea",
   "field_id": "04_p3_f17",
   "label_short": "Crimea | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -520,6 +681,13 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/revenue",
+    "quote": "20000000",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -535,13 +703,13 @@
   "label": "Crimea | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Crimea, so asset share is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_assets_note",
+  "justification": "The negative declaration confirms no activity in Crimea, so assets from Crimea are zero; per rule a zero numerator yields 0 % even though the group assets total is not supplied.",
   "missing": [],
   "group": "Crimea",
   "field_id": "04_p3_f18",
   "label_short": "Crimea | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -549,6 +717,13 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_assets_note",
+    "quote": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -564,13 +739,13 @@
   "label": "Crimea | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Crimea, so expense share is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses",
+  "justification": "The negative declaration confirms no activity in Crimea, so expenses from Crimea are zero; the group expenses total is 12,000,000 EUR, giving 0 %.",
   "missing": [],
   "group": "Crimea",
   "field_id": "04_p3_f19",
   "label_short": "Crimea | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -578,6 +753,13 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/expenses",
+    "quote": "12000000",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -594,7 +776,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The activity register confirms there is no activity in Crimea, so no entities to list.",
+  "justification": "No activity in Crimea, therefore no entity to list.",
   "missing": [],
   "group": "Crimea",
   "field_id": "04_p3_f20",
@@ -622,13 +804,13 @@
   "label": "Cuba | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Cuba, so revenue percentage is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue",
+  "justification": "The negative declaration confirms no activity in Cuba, so revenue from Cuba is zero; the group revenue total is 20,000,000 EUR, giving 0 %.",
   "missing": [],
   "group": "Cuba",
   "field_id": "04_p4_f21",
   "label_short": "Cuba | Revenue %",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -636,6 +818,13 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/revenue",
+    "quote": "20000000",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -651,13 +840,13 @@
   "label": "Cuba | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Cuba, so assets percentage is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_assets_note",
+  "justification": "The negative declaration confirms no activity in Cuba, so assets from Cuba are zero; per rule a zero numerator yields 0 % even though the group assets total is not supplied.",
   "missing": [],
   "group": "Cuba",
   "field_id": "04_p4_f22",
   "label_short": "Cuba | Assets %",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -665,6 +854,13 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_assets_note",
+    "quote": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -680,13 +876,13 @@
   "label": "Cuba | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Cuba, so expenses percentage is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses",
+  "justification": "The negative declaration confirms no activity in Cuba, so expenses from Cuba are zero; the group expenses total is 12,000,000 EUR, giving 0 %.",
   "missing": [],
   "group": "Cuba",
   "field_id": "04_p4_f23",
   "label_short": "Cuba | Expenses %",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -694,6 +890,13 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/expenses",
+    "quote": "12000000",
+    "role": "cited",
+    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -710,7 +913,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The activity register states there is no activity in Cuba, so no entities to list.",
+  "justification": "No activity in Cuba, therefore no entity to list.",
   "missing": [],
   "group": "Cuba",
   "field_id": "04_p4_f24",
@@ -738,13 +941,13 @@
   "label": "Iran | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Iran, so revenue percentage is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue; sources/companies/sim-hackathon-b-client/exposure.csv#/0/country (= sources/companies/sim-hackathon-b-client/exposure.csv#/1/country)",
+  "justification": "No revenue is reported from Iran; the negative declaration confirms no activity in Iran and the group total revenue is 20,000,000 EUR, so the share is 0%.",
   "missing": [],
   "group": "Iran",
   "field_id": "04_p4_f25",
   "label_short": "Iran | Revenue %",
-  "independent_sources": 1,
+  "independent_sources": 3,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -752,6 +955,27 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/revenue",
+    "quote": "20000000",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
+    "pointer": "/0/country",
+    "quote": "Belarus",
+    "role": "cited",
+    "evidence": 3
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
+    "pointer": "/1/country",
+    "quote": "Russia",
+    "role": "cited",
+    "evidence": 3
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -765,28 +989,23 @@
  {
   "page": 4,
   "label": "Iran | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
-  "value": "0%",
-  "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Iran, so assets percentage is 0 %.",
-  "missing": [],
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/companies/sim-hackathon-b-client/finance.md#/group_totals/assets",
+  "justification": "Group total assets are not provided (null), therefore the assets share for Iran cannot be calculated.",
+  "missing": [
+   "group total assets"
+  ],
   "group": "Iran",
   "field_id": "04_p4_f26",
   "label_short": "Iran | Assets %",
   "independent_sources": 1,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/negative_declaration",
-    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/assets",
+    "quote": "null",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
-    "pointer": "/negative_declaration",
-    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
     "evidence": 1
    }
   ]
@@ -796,13 +1015,13 @@
   "label": "Iran | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No activity in Iran, so expenses percentage is 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses; sources/companies/sim-hackathon-b-client/exposure.csv#/0/country (= sources/companies/sim-hackathon-b-client/exposure.csv#/1/country)",
+  "justification": "No expenses are linked to Iran; the negative declaration confirms no activity in Iran and the group total expenses are 12,000,000 EUR, giving a 0% share.",
   "missing": [],
   "group": "Iran",
   "field_id": "04_p4_f27",
   "label_short": "Iran | Expenses %",
-  "independent_sources": 1,
+  "independent_sources": 3,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -810,6 +1029,27 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/expenses",
+    "quote": "12000000",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
+    "pointer": "/0/country",
+    "quote": "Belarus",
+    "role": "cited",
+    "evidence": 3
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
+    "pointer": "/1/country",
+    "quote": "Russia",
+    "role": "cited",
+    "evidence": 3
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -826,7 +1066,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The activity register confirms there is no activity in Iran, so no entities to list.",
+  "justification": "The negative declaration confirms there is no activity in Iran, so no entities operate there.",
   "missing": [],
   "group": "Iran",
   "field_id": "04_p4_f28",
@@ -844,7 +1084,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -854,13 +1094,13 @@
   "label": "North Korea | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "The negative declaration confirms no activity in North Korea, so revenue is zero.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue; sources/companies/sim-hackathon-b-client/exposure.csv#/0/country (= sources/companies/sim-hackathon-b-client/exposure.csv#/1/country)",
+  "justification": "No revenue is reported from North Korea; the negative declaration confirms no activity in North Korea and the group total revenue is 20,000,000 EUR, so the share is 0%.",
   "missing": [],
   "group": "North Korea",
   "field_id": "04_p4_f29",
   "label_short": "North Korea | Revenue %",
-  "independent_sources": 2,
+  "independent_sources": 3,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -870,11 +1110,25 @@
     "evidence": 1
    },
    {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/revenue",
+    "quote": "20000000",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
     "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
     "pointer": "/0/country",
     "quote": "Belarus",
     "role": "cited",
-    "evidence": 2
+    "evidence": 3
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
+    "pointer": "/1/country",
+    "quote": "Russia",
+    "role": "cited",
+    "evidence": 3
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -888,35 +1142,23 @@
  {
   "page": 4,
   "label": "North Korea | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
-  "value": "0%",
-  "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No assets are linked to North Korea as the register states no activity there.",
-  "missing": [],
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/companies/sim-hackathon-b-client/finance.md#/group_totals/assets",
+  "justification": "Group total assets are not provided (null), therefore the assets share for North Korea cannot be calculated.",
+  "missing": [
+   "group total assets"
+  ],
   "group": "North Korea",
   "field_id": "04_p4_f30",
   "label_short": "North Korea | Assets %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/negative_declaration",
-    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/assets",
+    "quote": "null",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/compliance.md",
-    "pointer": "/negative_declaration",
-    "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
     "evidence": 1
    }
   ]
@@ -926,13 +1168,13 @@
   "label": "North Korea | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No expenses are related to North Korea because there is no activity in that jurisdiction.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses; sources/companies/sim-hackathon-b-client/exposure.csv#/0/country (= sources/companies/sim-hackathon-b-client/exposure.csv#/1/country)",
+  "justification": "No expenses are linked to North Korea; the negative declaration confirms no activity in North Korea and the group total expenses are 12,000,000 EUR, giving a 0% share.",
   "missing": [],
   "group": "North Korea",
   "field_id": "04_p4_f31",
   "label_short": "North Korea | Expenses %",
-  "independent_sources": 2,
+  "independent_sources": 3,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -942,11 +1184,25 @@
     "evidence": 1
    },
    {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/expenses",
+    "quote": "12000000",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
     "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
     "pointer": "/0/country",
     "quote": "Belarus",
     "role": "cited",
-    "evidence": 2
+    "evidence": 3
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
+    "pointer": "/1/country",
+    "quote": "Russia",
+    "role": "cited",
+    "evidence": 3
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -963,7 +1219,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "There are no entities undertaking activity in North Korea according to the negative declaration.",
+  "justification": "The negative declaration confirms there is no activity in North Korea, so no entities operate there.",
   "missing": [],
   "group": "North Korea",
   "field_id": "04_p4_f32",
@@ -981,7 +1237,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -991,16 +1247,16 @@
   "label": "Russia | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/revenue (= sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/revenue)",
-  "justification": "Russia revenue is 0 (finance register) and group total revenue is 20,000,000, giving 0 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/revenue; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue",
+  "justification": "The Russian entity generated €0 revenue (activities.md) and the group total revenue is €20,000,000 (finance.md); 0/20,000,000 = 0 %.",
   "missing": [],
   "group": "Russia",
   "field_id": "04_p4_f33",
   "label_short": "Russia | Revenue %",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/1/revenue",
     "quote": "0",
     "role": "cited",
@@ -1011,14 +1267,7 @@
     "pointer": "/group_totals/revenue",
     "quote": "20000000",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/1/revenue",
-    "quote": "0",
-    "role": "corroborating",
-    "evidence": 1
+    "evidence": 2
    }
   ]
  },
@@ -1027,36 +1276,29 @@
   "label": "Russia | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": null,
   "state": "missing_information",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/group_assets_note (= sources/companies/sim-hackathon-b-client/finance.md#/activities/1/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/assets)",
-  "justification": "Russia‑linked assets are 100,000 EUR (finance.md), but the consolidated group‑level total assets are not provided, so the percentage cannot be calculated.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/assets; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/assets",
+  "justification": "The Russian entity holds €100,000 assets (activities.md) but the group total assets are not supplied (finance.md), so the percentage cannot be calculated.",
   "missing": [
    "group total assets"
   ],
   "group": "Russia",
   "field_id": "04_p4_f34",
   "label_short": "Russia | Assets %",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
-   {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
-    "pointer": "/group_assets_note",
-    "quote": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
-    "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
-    "pointer": "/activities/1/assets",
-    "quote": "100000",
-    "role": "cited",
-    "evidence": 1
-   },
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/1/assets",
     "quote": "100000",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/group_totals/assets",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 2
    }
   ]
  },
@@ -1065,16 +1307,16 @@
   "label": "Russia | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0.2%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/expenses (= sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/expenses)",
-  "justification": "Russia expenses are 24,000 and group expenses are 12,000,000; 24,000 / 12,000,000 = 0.2 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/expenses; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses",
+  "justification": "The Russian entity incurred €24,000 expenses (activities.md) and the group total expenses are €12,000,000 (finance.md); 24,000/12,000,000 = 0.2 %.",
   "missing": [],
   "group": "Russia",
   "field_id": "04_p4_f35",
   "label_short": "Russia | Expenses %",
-  "independent_sources": 1,
+  "independent_sources": 2,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/1/expenses",
     "quote": "24000",
     "role": "cited",
@@ -1085,24 +1327,17 @@
     "pointer": "/group_totals/expenses",
     "quote": "12000000",
     "role": "cited",
-    "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
-    "pointer": "/activities/1/expenses",
-    "quote": "24000",
-    "role": "corroborating",
-    "evidence": 1
+    "evidence": 2
    }
   ]
  },
  {
   "page": 4,
   "label": "Russia | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level.",
-  "value": "Belorive Clôture Russia LLC – revenue 0 %, assets 20 %, expenses 20 %",
+  "value": "Belorive Clôture Russia LLC – revenue N/A, assets 20 %, expenses 20 %",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/revenue (= sources/companies/sim-hackathon-b-client/finance.md#/activities/1/assets, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/expenses); sources/companies/sim-hackathon-b-entity-2/entity_facts.json#/financial_totals/revenue (= sources/companies/sim-hackathon-b-entity-2/entity_facts.json#/financial_totals/assets, sources/companies/sim-hackathon-b-entity-2/entity_facts.json#/financial_totals/expenses)",
-  "justification": "The only Russian entity is Belorive Clôture Russia LLC; its revenue is 0 % of its own revenue (denominator zero), assets 100,000 / 500,000 = 20 %, expenses 24,000 / 120,000 = 20 %.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity (= sources/companies/sim-hackathon-b-client/activities.md#/activities/1/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/expenses, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity_totals/revenue, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity_totals/assets, sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity_totals/expenses, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/entity, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/revenue, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/assets, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/expenses, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/entity_totals/revenue, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/entity_totals/assets, sources/companies/sim-hackathon-b-client/finance.md#/activities/1/entity_totals/expenses); sources/companies/sim-hackathon-b-entity-2/entity_facts.json#/subsidiary_name",
+  "justification": "The only Russian entity is Belorive Clôture Russia LLC (activities.md). Its revenue is €0 with entity total revenue €0, so revenue % is N/A; assets €100,000 of €500,000 total give 20 %; expenses €24,000 of €120,000 total give 20 %.",
   "missing": [],
   "group": "Russia",
   "field_id": "04_p4_f36",
@@ -1110,65 +1345,107 @@
   "independent_sources": 2,
   "sources": [
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/entity",
+    "quote": "Belorive Clôture Russia LLC",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/1/revenue",
     "quote": "0",
     "role": "cited",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/1/assets",
     "quote": "100000",
     "role": "cited",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
     "pointer": "/activities/1/expenses",
     "quote": "24000",
     "role": "cited",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-entity-2/entity_facts.json",
-    "pointer": "/financial_totals/revenue",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/entity_totals/revenue",
     "quote": "0",
     "role": "cited",
-    "evidence": 2
+    "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-entity-2/entity_facts.json",
-    "pointer": "/financial_totals/assets",
+    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/entity_totals/assets",
     "quote": "500000",
     "role": "cited",
-    "evidence": 2
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-entity-2/entity_facts.json",
-    "pointer": "/financial_totals/expenses",
-    "quote": "120000",
-    "role": "cited",
-    "evidence": 2
+    "evidence": 1
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "pointer": "/activities/1/entity_totals/expenses",
+    "quote": "120000",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/entity",
+    "quote": "Belorive Clôture Russia LLC",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-entity-2/entity_facts.json",
+    "pointer": "/subsidiary_name",
+    "quote": "Belorive Clôture Russia LLC",
+    "role": "corroborating",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
     "pointer": "/activities/1/revenue",
     "quote": "0",
     "role": "corroborating",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
     "pointer": "/activities/1/assets",
     "quote": "100000",
     "role": "corroborating",
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/activities.md",
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
     "pointer": "/activities/1/expenses",
     "quote": "24000",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/entity_totals/revenue",
+    "quote": "0",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/entity_totals/assets",
+    "quote": "500000",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/finance.md",
+    "pointer": "/activities/1/entity_totals/expenses",
+    "quote": "120000",
     "role": "corroborating",
     "evidence": 1
    }
@@ -1179,13 +1456,13 @@
   "label": "Sudan | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "The negative declaration confirms no activity in Sudan, so revenue is zero.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm there is no activity in Sudan, so revenue from Sudan is zero.",
   "missing": [],
   "group": "Sudan",
   "field_id": "04_p4_f37",
   "label_short": "Sudan | Revenue %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1195,17 +1472,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1215,13 +1485,13 @@
   "label": "Sudan | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No assets are linked to Sudan because there is no activity there.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm there is no activity in Sudan, so assets linked to Sudan are zero.",
   "missing": [],
   "group": "Sudan",
   "field_id": "04_p4_f38",
   "label_short": "Sudan | Assets %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1231,17 +1501,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1251,13 +1514,13 @@
   "label": "Sudan | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No expenses are related to Sudan as the register shows no Sudan activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm there is no activity in Sudan, so expenses related to Sudan are zero.",
   "missing": [],
   "group": "Sudan",
   "field_id": "04_p4_f39",
   "label_short": "Sudan | Expenses %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1267,17 +1530,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1288,7 +1544,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No entities operate in Sudan according to the negative declaration.",
+  "justification": "No entities operate in Sudan as confirmed by the negative declarations, so the entity list is not applicable.",
   "missing": [],
   "group": "Sudan",
   "field_id": "04_p4_f40",
@@ -1306,7 +1562,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1316,13 +1572,13 @@
   "label": "Syria | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
   "justification": "The negative declaration confirms no activity in Syria, so revenue is zero.",
   "missing": [],
   "group": "Syria",
   "field_id": "04_p4_f41",
   "label_short": "Syria | Revenue %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1330,13 +1586,6 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -1352,13 +1601,13 @@
   "label": "Syria | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No assets are linked to Syria because there is no Syrian activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declaration confirms no activity in Syria, so assets are zero.",
   "missing": [],
   "group": "Syria",
   "field_id": "04_p4_f42",
   "label_short": "Syria | Assets %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1366,13 +1615,6 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -1388,13 +1630,13 @@
   "label": "Syria | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No expenses are related to Syria as the register shows no Syrian activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declaration confirms no activity in Syria, so expenses are zero.",
   "missing": [],
   "group": "Syria",
   "field_id": "04_p4_f43",
   "label_short": "Syria | Expenses %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1402,13 +1644,6 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -1425,7 +1660,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No entities operate in Syria according to the negative declaration.",
+  "justification": "No entities operate in Syria as per the negative declaration.",
   "missing": [],
   "group": "Syria",
   "field_id": "04_p4_f44",
@@ -1453,13 +1688,13 @@
   "label": "Zaporizhzhia | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "Zaporizhzhia is not listed in the activity register; the negative declaration confirms no activity, so revenue is zero.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declaration confirms no activity in Zaporizhzhia, so revenue is zero.",
   "missing": [],
   "group": "Zaporizhzhia",
   "field_id": "04_p4_f45",
   "label_short": "Zaporizhzhia | Revenue %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1467,13 +1702,6 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -1489,13 +1717,13 @@
   "label": "Zaporizhzhia | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No assets are linked to Zaporizhzhia because there is no activity there.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declaration confirms no activity in Zaporizhzhia, so assets are zero.",
   "missing": [],
   "group": "Zaporizhzhia",
   "field_id": "04_p4_f46",
   "label_short": "Zaporizhzhia | Assets %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1503,13 +1731,6 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -1525,13 +1746,13 @@
   "label": "Zaporizhzhia | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No expenses are related to Zaporizhzhia as the register shows no activity there.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declaration confirms no activity in Zaporizhzhia, so expenses are zero.",
   "missing": [],
   "group": "Zaporizhzhia",
   "field_id": "04_p4_f47",
   "label_short": "Zaporizhzhia | Expenses %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1539,13 +1760,6 @@
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
     "role": "cited",
     "evidence": 1
-   },
-   {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
    },
    {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
@@ -1562,7 +1776,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No entities undertake activity in Zaporizhzhia according to the negative declaration.",
+  "justification": "No entities operate in Zaporizhzhia as per the negative declaration.",
   "missing": [],
   "group": "Zaporizhzhia",
   "field_id": "04_p4_f48",
@@ -1590,13 +1804,13 @@
   "label": "Kherson | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "Kherson is not present in the activity register; the negative declaration confirms no activity, so revenue is zero.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations state there is no activity in Kherson, so revenue from Kherson is zero.",
   "missing": [],
   "group": "Kherson",
   "field_id": "04_p4_f49",
   "label_short": "Kherson | Revenue %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1606,17 +1820,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1626,13 +1833,13 @@
   "label": "Kherson | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No assets are linked to Kherson because there is no Kherson activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm no assets linked to Kherson, so assets % is zero.",
   "missing": [],
   "group": "Kherson",
   "field_id": "04_p4_f50",
   "label_short": "Kherson | Assets %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1642,17 +1849,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1662,13 +1862,13 @@
   "label": "Kherson | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No expenses are related to Kherson as the register shows no Kherson activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm no expenses related to Kherson, so expenses % is zero.",
   "missing": [],
   "group": "Kherson",
   "field_id": "04_p4_f51",
   "label_short": "Kherson | Expenses %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1678,17 +1878,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1699,7 +1892,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No entities operate in Kherson according to the negative declaration.",
+  "justification": "No entities operate in Kherson, so the entity list is not applicable.",
   "missing": [],
   "group": "Kherson",
   "field_id": "04_p4_f52",
@@ -1727,13 +1920,13 @@
   "label": "Donetsk | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "Donetsk is not listed in the activity register; the negative declaration confirms no activity, so revenue is zero.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations state there is no activity in Donetsk, so revenue % is zero.",
   "missing": [],
   "group": "Donetsk",
   "field_id": "04_p4_f53",
   "label_short": "Donetsk | Revenue %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1743,17 +1936,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1763,13 +1949,13 @@
   "label": "Donetsk | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4.",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No assets are linked to Donetsk because there is no Donetsk activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm no assets linked to Donetsk, so assets % is zero.",
   "missing": [],
   "group": "Donetsk",
   "field_id": "04_p4_f54",
   "label_short": "Donetsk | Assets %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1779,17 +1965,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1799,13 +1978,13 @@
   "label": "Donetsk | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4",
   "value": "0%",
   "state": "answer",
-  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration); sources/companies/sim-hackathon-b-client/exposure.csv#/0/country",
-  "justification": "No expenses are related to Donetsk as the register shows no Donetsk activity.",
+  "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
+  "justification": "The negative declarations confirm no expenses related to Donetsk, so expenses % is zero.",
   "missing": [],
   "group": "Donetsk",
   "field_id": "04_p4_f55",
   "label_short": "Donetsk | Expenses %",
-  "independent_sources": 2,
+  "independent_sources": 1,
   "sources": [
    {
     "document": "sources/companies/sim-hackathon-b-client/activities.md",
@@ -1815,17 +1994,10 @@
     "evidence": 1
    },
    {
-    "document": "sources/companies/sim-hackathon-b-client/exposure.csv",
-    "pointer": "/0/country",
-    "quote": "Belarus",
-    "role": "cited",
-    "evidence": 2
-   },
-   {
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1836,7 +2008,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No entities operate in Donetsk according to the negative declaration.",
+  "justification": "No entities operate in Donetsk, so the entity list is not applicable.",
   "missing": [],
   "group": "Donetsk",
   "field_id": "04_p4_f56",
@@ -1865,7 +2037,7 @@
   "value": "0%",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The negative declaration confirms no activity in Luhansk, so revenue share is zero.",
+  "justification": "The negative declarations state there is no activity in any Ukraine specified‑region, including Luhansk, so revenue from Luhansk is zero.",
   "missing": [],
   "group": "Luhansk",
   "field_id": "04_p4_f57",
@@ -1883,7 +2055,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1894,7 +2066,7 @@
   "value": "0%",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The negative declaration confirms no assets linked to Luhansk, giving a 0 % share.",
+  "justification": "The negative declarations confirm no assets linked to Luhansk, so assets % is zero.",
   "missing": [],
   "group": "Luhansk",
   "field_id": "04_p4_f58",
@@ -1912,7 +2084,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1923,7 +2095,7 @@
   "value": "0%",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "The negative declaration confirms no expenses in Luhansk, so the percentage is 0 %.",
+  "justification": "The negative declarations state there are no activities in Ukraine specified‑regions such as Luhansk, so expenses related to Luhansk are 0 % of group expenses.",
   "missing": [],
   "group": "Luhansk",
   "field_id": "04_p4_f59",
@@ -1941,7 +2113,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1952,7 +2124,7 @@
   "value": null,
   "state": "not_applicable",
   "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration (= sources/companies/sim-hackathon-b-client/compliance.md#/negative_declaration)",
-  "justification": "No entity operates in Luhansk according to the negative declaration, so the entity list is not applicable.",
+  "justification": "Since no activity occurs in Luhansk, there are no entities undertaking such activity, so the entity list is not applicable.",
   "missing": [],
   "group": "Luhansk",
   "field_id": "04_p4_f60",
@@ -1970,7 +2142,7 @@
     "document": "sources/companies/sim-hackathon-b-client/compliance.md",
     "pointer": "/negative_declaration",
     "quote": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.",
-    "role": "corroborating",
+    "role": "cited",
     "evidence": 1
    }
   ]
@@ -1981,7 +2153,7 @@
   "value": "Camille Orvaux",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/name; sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/name",
-  "justification": "The mandate register lists Camille Orvaux as the signatory.",
+  "justification": "The board mandate lists Camille Orvaux as the signatory, which is the person submitting the questionnaire.",
   "missing": [],
   "group": null,
   "field_id": "04_p4_f61",
@@ -2010,7 +2182,7 @@
   "value": "Belorive Patrimoine SAS",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name (= sources/companies/sim-hackathon-b-client/mandate.md#/name)",
-  "justification": "Corporate register provides the full legal name.",
+  "justification": "The corporate register lists the full legal name as Belorive Patrimoine SAS.",
   "missing": [],
   "group": null,
   "field_id": "04_p4_f62",
@@ -2036,10 +2208,10 @@
  {
   "page": 4,
   "label": "Position within company",
-  "value": "Présidente",
+  "value": "President",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
-  "justification": "The mandate specifies the submitter’s role as Présidente.",
+  "justification": "The board mandate records the signer's role as \"Présidente\", which translates to President in English.",
   "missing": [],
   "group": null,
   "field_id": "04_p4_f63",
@@ -2058,10 +2230,10 @@
  {
   "page": 4,
   "label": "Date",
-  "value": "01/09/2026",
+  "value": "01-09-2026",
   "state": "answer",
   "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date",
-  "justification": "The mandate date is the fixed exercise completion date to be used.",
+  "justification": "The mandate specifies the date as 01/09/2026, formatted as DD-MM-YYYY for the submission date.",
   "missing": [],
   "group": null,
   "field_id": "04_p4_f64",
