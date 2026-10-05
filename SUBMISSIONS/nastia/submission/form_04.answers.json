@@ -1,0 +1,1285 @@
+[
+  {
+    "page": 1,
+    "label": "Company name",
+    "value": "Belorive Patrimoine SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name; sources/companies/sim-hackathon-b-client/mandate.md#/name",
+    "justification": "2 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-01",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/name",
+        "excerpt": "Belorive Patrimoine SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/name",
+        "excerpt": "Belorive Patrimoine SAS"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Country of Incorporation",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/incorporation",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-02",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/incorporation",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Grid",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "Champ réservé à la banque : laissé vide.",
+    "missing": [],
+    "id": "p1-03",
+    "engine": "règles",
+    "evidence": []
+  },
+  {
+    "page": 1,
+    "label": "La Banque des Entreprises booking location(s)",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "Champ réservé à la banque : laissé vide.",
+    "missing": [],
+    "id": "p1-04",
+    "engine": "règles",
+    "evidence": []
+  },
+  {
+    "page": 1,
+    "label": "La Banque des Entreprises Relationship Manager",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "Champ réservé à la banque : laissé vide.",
+    "missing": [],
+    "id": "p1-05",
+    "engine": "règles",
+    "evidence": []
+  },
+  {
+    "page": 1,
+    "label": "1. Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
+    "value": "Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/country; sources/companies/sim-hackathon-b-client/activities.md#/activities/0/current; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/country; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/current; sources/companies/sim-hackathon-b-client/corporate.md#/perimeter/1/name; sources/companies/sim-hackathon-b-client/corporate.md#/perimeter/2/name",
+    "justification": "Two wholly owned subsidiaries in the reporting perimeter have current activity in Sanctioned Jurisdictions: Belorive Immobilier Belarus LLC (property leases, Belarus) and Belorive Clôture Russia LLC (wind-down, Russia). Details in Part 2.",
+    "missing": [],
+    "id": "p1-06",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/country",
+        "excerpt": "Belarus"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/current",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/country",
+        "excerpt": "Russia"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/current",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/perimeter/1/name",
+        "excerpt": "Belorive Immobilier Belarus LLC"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/perimeter/2/name",
+        "excerpt": "Belorive Clôture Russia LLC"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "2. Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions?",
+    "value": "No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#(en-tête); sources/companies/sim-hackathon-b-client/activities.md#/activities/1/description",
+    "justification": "The only Russian activity is the wind-down of Belorive Clôture Russia LLC (recovery of existing receivables, closure expenses, no new sales or investment); the compliance register states there is no Russian-sector service business.",
+    "missing": [],
+    "id": "p1-07",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/description",
+        "excerpt": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "2. Current/contemplated activities and names of the entities involved",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "Question 2 is answered No: no details required.",
+    "missing": [],
+    "id": "p1-08",
+    "engine": "session (hors API)",
+    "evidence": []
+  },
+  {
+    "page": 2,
+    "label": "3. Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
+    "value": "Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/type; sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/recipient",
+    "justification": "Belorive Clôture Russia LLC relies on the wind-down authorization SIM-AUTH-B-01 for its Russian closure activity.",
+    "missing": [],
+    "id": "p2-01",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/type",
+        "excerpt": "Fictional sanctions wind-down authorization"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/recipient",
+        "excerpt": "Belorive Clôture Russia LLC"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "3. Type of authorization, recipients, activities covered, issuing authority and expiration date",
+    "value": "SIM-AUTH-B-01, fictional sanctions wind-down authorization. Recipient: Belorive Clôture Russia LLC. Activity covered: administrative closure and recovery of existing receivables only; no new sales or investment. Issued by the Simulation Authorization Office; expires 2026-12-31.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/reference; sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/type; sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/recipient; sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/activity; sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/authority; sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/expiry",
+    "justification": "Copied from the compliance register's licence entry (simulated reliance for the exercise).",
+    "missing": [],
+    "id": "p2-02",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/reference",
+        "excerpt": "SIM-AUTH-B-01"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/type",
+        "excerpt": "Fictional sanctions wind-down authorization"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/recipient",
+        "excerpt": "Belorive Clôture Russia LLC"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/activity",
+        "excerpt": "Administrative closure and recovery of existing receivables only; no new sales/investment"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/authority",
+        "excerpt": "Simulation Authorization Office"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/licenses/0/expiry",
+        "excerpt": "2026-12-31"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "4. Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?",
+    "value": "No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/government; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/government; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Neither registered activity involves a government, and the complete negative declaration excludes any other government involvement. The compliance register's own government field is empty (no positive assertion).",
+    "missing": [],
+    "id": "p2-03",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/government",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/government",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "4. Details on the activity with the Government",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "Question 4 is answered No: no details required.",
+    "missing": [],
+    "id": "p2-04",
+    "engine": "session (hors API)",
+    "evidence": []
+  },
+  {
+    "page": 2,
+    "label": "5. Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products, services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or the Government of any country as listed in Question 4?",
+    "value": "No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/bank_use; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/bank_use",
+    "justification": "No La Banque des Entreprises account, product or platform is used or intended for the Belarus or Russia activities.",
+    "missing": [],
+    "id": "p2-05",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/bank_use",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "5. Product contemplated (if Yes) or controls insulating La Banque des Entreprises (if No)",
+    "value": "Controls: La Banque des Entreprises accounts, lending, guarantees, payment routes and platforms are excluded from the covered activities; segregated ledgers and separate banking channels are used; treasury blocks covered payments and cash-pool transfers; compliance approves routing and reconciles monthly; no indirect financing or settlement through La Banque des Entreprises. Activity in Sanctioned Jurisdictions (Belarus, Russia): see Part 2.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "Question 5 is answered No, so the form asks for the insulation controls: taken from the compliance register.",
+    "missing": [],
+    "id": "p2-06",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "6. Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either a Sanctioned Party, located, organized, registered in, or operating from a Sanctioned Jurisdiction, employed in a Sanctioned Jurisdiction, or represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?",
+    "value": "Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/name; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/role; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/residence",
+    "justification": "The director of the Russian subsidiary resides in Russia (criteria b and c).",
+    "missing": [],
+    "id": "p2-07",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/name",
+        "excerpt": "Julien Valsenne"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/role",
+        "excerpt": "Director of Belorive Clôture Russia LLC"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/residence",
+        "excerpt": "Russia"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "6. Names of the entities involved and details, including percentage of ownership",
+    "value": "Belorive Clôture Russia LLC: director Julien Valsenne, French national resident in Russia (criteria b and c). Ownership 0 %; not a Sanctioned Party; no governmental role.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/name; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/nationality; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/residence; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/ownership_pct; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/listed; sources/companies/sim-hackathon-b-client/compliance.md#/governance_nexus/government_role",
+    "justification": "From the governance nexus entry of the compliance register.",
+    "missing": [],
+    "id": "p3-01",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/name",
+        "excerpt": "Julien Valsenne"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/nationality",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/residence",
+        "excerpt": "Russia"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/ownership_pct",
+        "excerpt": "0"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/listed",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/governance_nexus/government_role",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "7. Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?",
+    "value": "Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
+    "justification": "Question 7 applies because questions 1, 3 and 6 are answered Yes; a group sanctions policy exists.",
+    "missing": [],
+    "id": "p3-02",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "7. Details of the policy and/or program",
+    "value": "Group policy covering all controlled entities, branches and joint ventures. Customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions are screened at onboarding, daily and before payment/shipment against the Poland, EU, UN, UK and OFAC lists (scenario versions). Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy; sources/companies/sim-hackathon-b-client/compliance.md#/policy",
+    "justification": "Summary of the compliance register's policy entry.",
+    "missing": [],
+    "id": "p3-03",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 1 (revenue), a) percentage",
+    "value": "1.0 % (EUR 200k / 20m)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/revenue; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue",
+    "justification": "FY2025 revenue in Belarus: EUR 200,000 / group EUR 20,000,000 = 1.0%.",
+    "missing": [],
+    "id": "p3-bel1a",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/activities/0/revenue",
+        "excerpt": "200000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/group_totals/revenue",
+        "excerpt": "20000000"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 1 (revenue), b) nature of the activity",
+    "value": "Leases to private tenants",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/description",
+    "justification": "From the activity register.",
+    "missing": [],
+    "id": "p3-bel1b",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/description",
+        "excerpt": "Existing property leases to private commercial tenants; no new investments contemplated."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 1 (revenue), c) third parties",
+    "value": "Locataire Boréal SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/third_parties/0",
+    "justification": "Third party named in the activity register.",
+    "missing": [],
+    "id": "p3-bel1c",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/third_parties/0",
+        "excerpt": "Locataire Boréal SIM LLC"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 1 (revenue), d) La Banque des Entreprises involvement",
+    "value": "Not involved (no bank use)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No La Banque des Entreprises product is used; controls described in question 5.",
+    "missing": [],
+    "id": "p3-bel1d",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 2 (assets), a) percentage",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/assets; sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "Belarus assets are EUR 500,000 at 2025-12-31, but the group's consolidated total assets are not supplied (finance register: the total cannot be reconstructed), so the percentage cannot be computed.",
+    "missing": [
+      "group consolidated total assets at 2025-12-31"
+    ],
+    "id": "p3-bel2a",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/activities/0/assets",
+        "excerpt": "500000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 2 (assets), b) nature of the activity",
+    "value": "Leases to private tenants",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/description",
+    "justification": "From the activity register.",
+    "missing": [],
+    "id": "p3-bel2b",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/description",
+        "excerpt": "Existing property leases to private commercial tenants; no new investments contemplated."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 2 (assets), c) third parties",
+    "value": "Locataire Boréal SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/third_parties/0",
+    "justification": "Third party named in the activity register.",
+    "missing": [],
+    "id": "p3-bel2c",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/third_parties/0",
+        "excerpt": "Locataire Boréal SIM LLC"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 2 (assets), d) La Banque des Entreprises involvement",
+    "value": "Not involved (no bank use)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No La Banque des Entreprises product is used; controls described in question 5.",
+    "missing": [],
+    "id": "p3-bel2d",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 3 (expenses), a) percentage",
+    "value": "0.5 % (EUR 60k / 12m)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/expenses; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses",
+    "justification": "FY2025 expenses in Belarus: EUR 60,000 / group EUR 12,000,000 = 0.5%.",
+    "missing": [],
+    "id": "p3-bel3a",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/activities/0/expenses",
+        "excerpt": "60000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/group_totals/expenses",
+        "excerpt": "12000000"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 3 (expenses), b) nature of the activity",
+    "value": "Leases to private tenants",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/description",
+    "justification": "From the activity register.",
+    "missing": [],
+    "id": "p3-bel3b",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/description",
+        "excerpt": "Existing property leases to private commercial tenants; no new investments contemplated."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 3 (expenses), c) third parties",
+    "value": "Locataire Boréal SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/third_parties/0",
+    "justification": "Third party named in the activity register.",
+    "missing": [],
+    "id": "p3-bel3c",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/third_parties/0",
+        "excerpt": "Locataire Boréal SIM LLC"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 3 (expenses), d) La Banque des Entreprises involvement",
+    "value": "Not involved (no bank use)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No La Banque des Entreprises product is used; controls described in question 5.",
+    "missing": [],
+    "id": "p3-bel3d",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus, column 4, entities and entity-level percentages",
+    "value": "Belorive Immobilier Belarus LLC: revenue 10 %, assets 10 %, expenses 6 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity; sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity_totals/revenue; sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity_totals/assets; sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity_totals/expenses",
+    "justification": "Entity level: revenue 200,000/2,000,000, assets 500,000/5,000,000, expenses 60,000/1,000,000 (EUR).",
+    "missing": [],
+    "id": "p3-bel4",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/entity",
+        "excerpt": "Belorive Immobilier Belarus LLC"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/entity_totals/revenue",
+        "excerpt": "2000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/entity_totals/assets",
+        "excerpt": "5000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/0/entity_totals/expenses",
+        "excerpt": "1000000"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Crimea, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Crimea: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p3-cri",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Cuba, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "No activity in Cuba: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-cub",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Iran, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "No activity in Iran: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-ira",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "North Korea, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "No activity in North Korea: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-nor",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 1 (revenue), a) percentage",
+    "value": "0 % (no FY2025 revenue)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/revenue; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue",
+    "justification": "FY2025 revenue in Russia: EUR 0 / group EUR 20,000,000 = 0.0%.",
+    "missing": [],
+    "id": "p4-rus1a",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/activities/1/revenue",
+        "excerpt": "0"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/group_totals/revenue",
+        "excerpt": "20000000"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 1 (revenue), b) nature of the activity",
+    "value": "Wind-down, receivables only",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/description",
+    "justification": "From the activity register.",
+    "missing": [],
+    "id": "p4-rus1b",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/description",
+        "excerpt": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 1 (revenue), c) third parties",
+    "value": "Archivage Nord SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/third_parties/0",
+    "justification": "Third party named in the activity register.",
+    "missing": [],
+    "id": "p4-rus1c",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/third_parties/0",
+        "excerpt": "Archivage Nord SIM LLC"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 1 (revenue), d) La Banque des Entreprises involvement",
+    "value": "Not involved (no bank use)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No La Banque des Entreprises product is used; controls described in question 5.",
+    "missing": [],
+    "id": "p4-rus1d",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 2 (assets), a) percentage",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/assets; sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "Russia assets are EUR 100,000 at 2025-12-31, but the group's consolidated total assets are not supplied (finance register: the total cannot be reconstructed), so the percentage cannot be computed.",
+    "missing": [
+      "group consolidated total assets at 2025-12-31"
+    ],
+    "id": "p4-rus2a",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/activities/1/assets",
+        "excerpt": "100000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 2 (assets), b) nature of the activity",
+    "value": "Wind-down, receivables only",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/description",
+    "justification": "From the activity register.",
+    "missing": [],
+    "id": "p4-rus2b",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/description",
+        "excerpt": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 2 (assets), c) third parties",
+    "value": "Archivage Nord SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/third_parties/0",
+    "justification": "Third party named in the activity register.",
+    "missing": [],
+    "id": "p4-rus2c",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/third_parties/0",
+        "excerpt": "Archivage Nord SIM LLC"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 2 (assets), d) La Banque des Entreprises involvement",
+    "value": "Not involved (no bank use)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No La Banque des Entreprises product is used; controls described in question 5.",
+    "missing": [],
+    "id": "p4-rus2d",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 3 (expenses), a) percentage",
+    "value": "0.2 % (EUR 24k / 12m)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/expenses; sources/companies/sim-hackathon-b-client/finance.md#/group_totals/expenses",
+    "justification": "FY2025 expenses in Russia: EUR 24,000 / group EUR 12,000,000 = 0.2%.",
+    "missing": [],
+    "id": "p4-rus3a",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/activities/1/expenses",
+        "excerpt": "24000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "/group_totals/expenses",
+        "excerpt": "12000000"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 3 (expenses), b) nature of the activity",
+    "value": "Wind-down, receivables only",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/description",
+    "justification": "From the activity register.",
+    "missing": [],
+    "id": "p4-rus3b",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/description",
+        "excerpt": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 3 (expenses), c) third parties",
+    "value": "Archivage Nord SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/third_parties/0",
+    "justification": "Third party named in the activity register.",
+    "missing": [],
+    "id": "p4-rus3c",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/third_parties/0",
+        "excerpt": "Archivage Nord SIM LLC"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 3 (expenses), d) La Banque des Entreprises involvement",
+    "value": "Not involved (no bank use)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/bank_use; sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No La Banque des Entreprises product is used; controls described in question 5.",
+    "missing": [],
+    "id": "p4-rus3d",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/bank_use",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia, column 4, entities and entity-level percentages",
+    "value": "Belorive Clôture Russia LLC: revenue N/A (no entity revenue), assets 20 %, expenses 20 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity_totals/revenue; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity_totals/assets; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity_totals/expenses; sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "Entity level: revenue 0/0, assets 100,000/500,000, expenses 24,000/120,000 (EUR).",
+    "missing": [],
+    "id": "p4-rus4",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/entity",
+        "excerpt": "Belorive Clôture Russia LLC"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/entity_totals/revenue",
+        "excerpt": "0"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/entity_totals/assets",
+        "excerpt": "500000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/activities/1/entity_totals/expenses",
+        "excerpt": "120000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "A zero entity denominator makes its percentage N/A."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Sudan, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "No activity in Sudan: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-sud",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Syria, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête)",
+    "justification": "No activity in Syria: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-syr",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Zaporizhzhia, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Zaporizhzhia: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-zap",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Kherson, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Kherson: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-khe",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Donetsk, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Donetsk: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-don",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Luhansk, columns 1 to 4",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Luhansk: not in the activity register, and unlisted jurisdictions have zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p4-luh",
+    "engine": "session (hors API)",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Name of submitter",
+    "value": "Camille Orvaux",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/name",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-submitter",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/signer/name",
+        "excerpt": "Camille Orvaux"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Name of company (including corp. suffix)",
+    "value": "Belorive Patrimoine SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name; sources/companies/sim-hackathon-b-client/mandate.md#/name",
+    "justification": "2 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-company",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/name",
+        "excerpt": "Belorive Patrimoine SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/name",
+        "excerpt": "Belorive Patrimoine SAS"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Position within company",
+    "value": "Présidente",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-position",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/signer_role",
+        "excerpt": "Présidente"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Date",
+    "value": null,
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date; sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+    "justification": "Date de signature inconnue ; date de complétion de l'exercice : 01/09/2026.",
+    "missing": [],
+    "id": "p4-date",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/date",
+        "excerpt": "01/09/2026"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No signature is supplied."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The date is the fixed exercise completion date, not an actual executed signature."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/authority",
+        "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+      }
+    ]
+  }
+]

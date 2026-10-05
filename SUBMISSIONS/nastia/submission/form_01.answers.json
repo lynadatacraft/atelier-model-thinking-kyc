@@ -1,0 +1,658 @@
+[
+  {
+    "page": 1,
+    "label": "Dénomination sociale",
+    "value": "Asterive Services SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/name; sources/companies/sim-hackathon-a-client/mandate.md#/name",
+    "justification": "2 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-01",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/name",
+        "excerpt": "Asterive Services SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "/name",
+        "excerpt": "Asterive Services SAS"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Code SIREN / n° d'enregistrement",
+    "value": "SIM-RCS-A-001",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/registration",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-02",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/registration",
+        "excerpt": "SIM-RCS-A-001"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Société cotée",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-03",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/listed",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Marché de cotation",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+    "justification": "Champ conditionnel : la société n'est pas cotée.",
+    "missing": [],
+    "id": "p1-04",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/listed",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Nom de la maison mère",
+    "value": "Asterive Participations SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/name; sources/companies/sim-hackathon-a-client/ownership.md#/parent/name; sources/companies/sim-hackathon-a-parent/entity_facts.json#/subsidiary_name",
+    "justification": "3 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-05",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/parent/name",
+        "excerpt": "Asterive Participations SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/ownership.md",
+        "pointer": "/parent/name",
+        "excerpt": "Asterive Participations SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-parent/entity_facts.json",
+        "pointer": "/subsidiary_name",
+        "excerpt": "Asterive Participations SAS"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Pays d'immatriculation",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/incorporation; sources/companies/sim-hackathon-a-client/ownership.md#/parent/incorporation; sources/companies/sim-hackathon-a-parent/entity_registry_extract.json#/incorporation_country",
+    "justification": "3 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-06",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/parent/incorporation",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/ownership.md",
+        "pointer": "/parent/incorporation",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-parent/entity_registry_extract.json",
+        "pointer": "/incorporation_country",
+        "excerpt": "FR"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Pays de résidence fiscale",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence; sources/companies/sim-hackathon-a-client/ownership.md#/parent/tax_residence; sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence_note",
+    "justification": "Information non fournie : Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+    "missing": [
+      "Pays de résidence fiscale"
+    ],
+    "id": "p1-07",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/parent/tax_residence",
+        "excerpt": "null"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/ownership.md",
+        "pointer": "/parent/tax_residence",
+        "excerpt": "null"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/parent/tax_residence_note",
+        "excerpt": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Adresse de la maison mère",
+    "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/address; sources/companies/sim-hackathon-a-client/ownership.md#/parent/address; sources/companies/sim-hackathon-a-parent/entity_registry_extract.json#/registered_office; sources/companies/sim-hackathon-a-parent/entity_facts.json#/address",
+    "justification": "4 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-08",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "/parent/address",
+        "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/ownership.md",
+        "pointer": "/parent/address",
+        "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-parent/entity_registry_extract.json",
+        "pointer": "/registered_office",
+        "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-parent/entity_facts.json",
+        "pointer": "/address",
+        "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Corée du nord",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-09",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Crimée",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-10",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Cuba",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-11",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Irak",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-12",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Iran",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-13",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Myanmar",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-14",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Russie",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-15",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Soudan",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-16",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Sud-Soudan",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p1-17",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Syrie",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p2-01",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Venezuela",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p2-02",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Représenté par",
+    "value": "Élodie Varenne",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer/name",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p2-03",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "/signer/name",
+        "excerpt": "Élodie Varenne"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "En qualité de",
+    "value": "Présidente",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer_role",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p2-04",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "/signer_role",
+        "excerpt": "Présidente"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Signé le",
+    "value": null,
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#/date; sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#/authority",
+    "justification": "Date de signature inconnue ; date de complétion de l'exercice : 01/09/2026.",
+    "missing": [],
+    "id": "p2-05",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "/date",
+        "excerpt": "01/09/2026"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No signature is supplied."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The date is the fixed exercise completion date, not an actual executed signature."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "/authority",
+        "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Signature",
+    "value": null,
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#/authority",
+    "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+    "missing": [],
+    "id": "p2-06",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No signature is supplied."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The date is the fixed exercise completion date, not an actual executed signature."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-a-client/mandate.md",
+        "pointer": "/authority",
+        "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+      }
+    ]
+  }
+]
