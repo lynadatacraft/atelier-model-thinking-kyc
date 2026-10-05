@@ -1,0 +1,53 @@
+{
+  "pipeline": "artcb_r575_kyc_pipeline",
+  "run_at": "2026-10-05T14:00:35.578469Z",
+  "ollama_model": "phi3:mini",
+  "completion_date": "2026-10-06",
+  "exercises": [
+    {
+      "exercice": "form_01",
+      "entreprise": "Asterive Services SAS",
+      "answers_count": 25,
+      "json_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/answers_form_01.json",
+      "pdf_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/completed_form_01.pdf",
+      "elapsed_s": 0.14,
+      "status": "OK"
+    },
+    {
+      "exercice": "form_02",
+      "entreprise": "Belorive Patrimoine SAS",
+      "answers_count": 25,
+      "json_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/answers_form_02.json",
+      "pdf_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/completed_form_02.pdf",
+      "elapsed_s": 0.2,
+      "status": "OK"
+    },
+    {
+      "exercice": "form_03",
+      "entreprise": "Cendrelis Instruments SAS",
+      "answers_count": 26,
+      "json_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/answers_form_03.json",
+      "pdf_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/completed_form_03.pdf",
+      "elapsed_s": 0.15,
+      "status": "OK"
+    },
+    {
+      "exercice": "form_04",
+      "entreprise": "Belorive Patrimoine SAS",
+      "answers_count": 19,
+      "json_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/answers_form_04.json",
+      "pdf_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/completed_form_04.pdf",
+      "elapsed_s": 0.19,
+      "status": "OK"
+    },
+    {
+      "exercice": "form_05",
+      "entreprise": "Cendrelis Instruments SAS",
+      "answers_count": 29,
+      "json_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/answers_form_05.json",
+      "pdf_output": "/Users/deyi/.bob/playground/atelier-model-thinking-kyc/scripts/../outputs/completed_form_05.pdf",
+      "elapsed_s": 0.22,
+      "status": "OK"
+    }
+  ]
+}
