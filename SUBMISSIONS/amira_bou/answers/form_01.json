@@ -1,0 +1,348 @@
+{
+  "exercice": "form_01",
+  "company": "asterive_services",
+  "as_of": "2026-09-01",
+  "method": "fact_store_lookup",
+  "elapsed_seconds": 1.26,
+  "format_problems": [],
+  "fields": [
+    {
+      "page": 1,
+      "label": "Dénomination sociale",
+      "value": "Asterive Services SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/name; sources/companies/sim-hackathon-a-client/mandate.md#/name",
+      "justification": "2 source(s) concordante(s).",
+      "missing": [],
+      "concept": "legal_name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.15
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Code SIREN / n° d'enregistrement",
+      "value": "SIM-RCS-A-001",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/registration",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "registration",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Société cotée",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "listed",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Marché de cotation",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+      "justification": "Champ conditionnel : la société n'est pas cotée.",
+      "missing": [],
+      "concept": "market",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Nom de la maison mère",
+      "value": "Asterive Participations SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/name; sources/companies/sim-hackathon-a-client/ownership.md#/parent/name; sources/companies/sim-hackathon-a-parent/entity_facts.json#/subsidiary_name",
+      "justification": "3 source(s) concordante(s).",
+      "missing": [],
+      "concept": "parent.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.55
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Pays d'immatriculation",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/incorporation; sources/companies/sim-hackathon-a-client/ownership.md#/parent/incorporation; sources/companies/sim-hackathon-a-parent/entity_registry_extract.json#/incorporation_country",
+      "justification": "3 source(s) concordante(s).",
+      "missing": [],
+      "concept": "parent.incorporation",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Pays de résidence fiscale",
+      "value": null,
+      "state": "missing_information",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence; sources/companies/sim-hackathon-a-client/ownership.md#/parent/tax_residence; sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence_note",
+      "justification": "Information non fournie : Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+      "missing": [
+        "Pays de résidence fiscale"
+      ],
+      "concept": "parent.tax_residence",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Adresse de la maison mère",
+      "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/address; sources/companies/sim-hackathon-a-client/ownership.md#/parent/address; sources/companies/sim-hackathon-a-parent/entity_registry_extract.json#/registered_office; sources/companies/sim-hackathon-a-parent/entity_facts.json#/address",
+      "justification": "4 source(s) concordante(s).",
+      "missing": [],
+      "concept": "parent.address",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Corée du nord",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Crimée",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Cuba",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Irak",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Iran",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Myanmar",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Russie",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Soudan",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 1,
+      "label": "Sud-Soudan",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 2,
+      "label": "Syrie",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.25
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Venezuela",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-a-client/finance.md#(en-tête); sources/companies/sim-hackathon-a-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Représenté par",
+      "value": "Élodie Varenne",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer/name",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.5,
+        0.4,
+        0.55
+      ]
+    },
+    {
+      "page": 2,
+      "label": "En qualité de",
+      "value": "Présidente",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer_role",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.role",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.6,
+        0.4,
+        0.65
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Signé le",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#/date; sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#/authority",
+      "justification": "Date de complétion de l'exercice au mandat. La signature elle-même n'est pas exécutée.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "signature",
+      "bbox": null
+    },
+    {
+      "page": 2,
+      "label": "Signature",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#(en-tête); sources/companies/sim-hackathon-a-client/mandate.md#/authority",
+      "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+      "missing": [],
+      "concept": "signature",
+      "field_type": "signature",
+      "bbox": null
+    }
+  ]
+}
