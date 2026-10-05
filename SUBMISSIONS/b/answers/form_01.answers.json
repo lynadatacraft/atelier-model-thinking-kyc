@@ -1,0 +1,297 @@
+{
+  "exercice": "form_01",
+  "entreprise": "Asterive Services SAS",
+  "model": "qwen/qwen3.8-27b:free",
+  "requests": [
+    {
+      "section": "form_01_S1",
+      "seconds": 256.6,
+      "tokens": {
+        "prompt": 8032,
+        "completion": 9883,
+        "reasoning": 6390,
+        "total": 17915
+      }
+    }
+  ],
+  "answers": [
+    {
+      "page": 1,
+      "section": "Votre établissement",
+      "label": "Dénomination sociale",
+      "field_type": "text",
+      "value": "Asterive Services SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/name",
+      "justification": "Le registre corporate au 01/09/2026 indique la dénomination sociale de l'entité cliente.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre établissement",
+      "label": "Code SIREN / n° d'enregistrement",
+      "field_type": "text",
+      "value": "SIM-RCS-A-001",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/registration",
+      "justification": "Le registre corporate fournit le numéro d'enregistrement SIM-RCS-A-001 ; aucun SIREN distinct n'est fourni, le champ acceptant le n° d'enregistrement.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre établissement",
+      "label": "Société cotée",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/listed",
+      "justification": "Le registre corporate indique listed=false, donc la société n'est pas cotée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre établissement",
+      "label": "Marché de cotation :",
+      "field_type": "text",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Le champ n'est requis que si 'Société cotée' = Oui ; la réponse est Non.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre maison mère (si filiale)",
+      "label": "Nom de la maison mère",
+      "field_type": "text",
+      "value": "Asterive Participations SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/name",
+      "justification": "Le registre corporate identifie la maison mère comme Asterive Participations SAS.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre maison mère (si filiale)",
+      "label": "Pays d'immatriculation",
+      "field_type": "text",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/incorporation",
+      "justification": "Le registre corporate indique le pays d'immatriculation de la maison mère : France.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre maison mère (si filiale)",
+      "label": "Pays de résidence fiscale",
+      "field_type": "text",
+      "value": null,
+      "state": "missing_information",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence; sources/companies/sim-hackathon-a-client/corporate.md#/parent/tax_residence_note",
+      "justification": "La résidence fiscale de la maison mère est null et la note précise qu'aucune confirmation n'a été fournie ; l'immatriculation française et l'adresse ne suffisent pas à l'établir.",
+      "missing": [
+        "Pays de résidence fiscale de la maison mère"
+      ],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Votre maison mère (si filiale)",
+      "label": "Adresse de la maison mère",
+      "field_type": "text",
+      "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/corporate.md#/parent/address",
+      "justification": "Le registre corporate indique l'adresse de la maison mère.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Corée du nord",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour la Corée du nord.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Crimée",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour la Crimée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Cuba",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour Cuba.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Irak",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour l'Irak.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Iran",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour l'Iran.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Myanmar",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour le Myanmar.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Russie",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour la Russie.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Soudan",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour le Soudan.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "Vos activités internationales",
+      "label": "Sud-Soudan",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour le Sud-Soudan.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "Vos activités internationales :",
+      "label": "Syrie",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour la Syrie.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "Vos activités internationales :",
+      "label": "Venezuela",
+      "field_type": "checkbox",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/activities.md#/activities; sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+      "justification": "Le registre d'activités est vide et la déclaration négative couvre l'ensemble du périmètre (clients/fournisseurs directs et indirects, agences, participations, succursales, co-entreprises et filiales contrôlées) ; aucune activité actuelle, FY2025 ou envisagée n'est mentionnée pour le Venezuela.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "Déclaration",
+      "label": "Représenté par :",
+      "field_type": "text",
+      "value": "Élodie Varenne",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer/name",
+      "justification": "Le mandat du conseil désigne Élodie Varenne comme signataire/représentante pour préparer le questionnaire.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "Déclaration",
+      "label": "En qualité de :",
+      "field_type": "text",
+      "value": "Présidente",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer_role",
+      "justification": "Le mandat indique la qualité de la signataire : Présidente.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "Déclaration",
+      "label": "Signé le",
+      "field_type": "date",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-a-client/mandate.md#/date",
+      "justification": "La date du mandat est la date fixe d'achèvement de l'exercice ; aucune signature n'est exécutée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "Déclaration",
+      "label": "Signature",
+      "field_type": "signature",
+      "value": null,
+      "state": "human_action",
+      "source": null,
+      "missing": [],
+      "check": "rule",
+      "justification": "Signature non exécutée : signature humaine requise."
+    }
+  ]
+}

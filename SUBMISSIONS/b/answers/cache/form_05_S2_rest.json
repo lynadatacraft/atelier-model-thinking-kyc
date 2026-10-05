@@ -1,0 +1,422 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "provider": "ModelRun",
+  "reasoning_effort": "medium",
+  "seconds": 71.8,
+  "tokens": {
+    "prompt": 11849,
+    "completion": 7506,
+    "reasoning": 3408,
+    "total": 19355
+  },
+  "partial": false,
+  "answers": [
+    {
+      "id": "p10-4",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in North Korea.",
+      "missing": []
+    },
+    {
+      "id": "p10-5",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in the Democratic Republic of Congo.",
+      "missing": []
+    },
+    {
+      "id": "p10-6",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Haiti.",
+      "missing": []
+    },
+    {
+      "id": "p10-7",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Iran.",
+      "missing": []
+    },
+    {
+      "id": "p10-8",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Iraq.",
+      "missing": []
+    },
+    {
+      "id": "p10-9",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Ivory Coast.",
+      "missing": []
+    },
+    {
+      "id": "p10-10",
+      "value": [
+        {
+          "Nature of the activity": "Export and support of measurement instruments (current, FY2025 revenue EUR 300,000)",
+          "Name AND domicile of the legal entity engaged in the activity": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+          "Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority": "SIM-X1 measurement instruments; HS code SIM-HS-X1; dual-use control code SIM-DUAL-X1; covered by licence SIM-EXPORT-C-01 issued by Simulation Export Review Office; expiry not supplied"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use"
+        }
+      ],
+      "justification": "Activity register entry for Lebanon: current support contract with a wholly government-owned laboratory (Laboratoire Public Levant SIM). Entity is Cendrelis Export SAS domiciled in Lyon. Goods are SIM-X1 dual-use instruments (HS SIM-HS-X1, control code SIM-DUAL-X1) under licence SIM-EXPORT-C-01 from Simulation Export Review Office; expiry not supplied.",
+      "missing": []
+    },
+    {
+      "id": "p10-11",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Liberia.",
+      "missing": []
+    },
+    {
+      "id": "p10-12",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Libya.",
+      "missing": []
+    },
+    {
+      "id": "p10-13",
+      "value": [
+        {
+          "Nature of the activity": "Proposed (planned) private-sector instrument support project; no executed transaction, no FY2025 amounts",
+          "Name AND domicile of the legal entity engaged in the activity": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+          "Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority": "SIM-X1 measurement instruments; HS code SIM-HS-X1; dual-use control code SIM-DUAL-X1; no authorization issued for Myanmar; compliance hold"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/2"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use"
+        }
+      ],
+      "justification": "Activity register entry for Myanmar: proposed private-sector project (planned=true, current=false), no 2025 amounts, no executed transaction. Entity is Cendrelis Export SAS domiciled in Lyon. Goods are SIM-X1 dual-use instruments (HS SIM-HS-X1, control code SIM-DUAL-X1). No authorization issued for Myanmar; project is on compliance hold.",
+      "missing": []
+    },
+    {
+      "id": "p10-14",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/policy"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. Compliance document explicitly states: 'There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment.' No activity in Russia.",
+      "missing": []
+    },
+    {
+      "id": "p10-15",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Sierra Leone.",
+      "missing": []
+    },
+    {
+      "id": "p10-16",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Somalia.",
+      "missing": []
+    },
+    {
+      "id": "p11-0",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in South Sudan.",
+      "missing": []
+    },
+    {
+      "id": "p11-1",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Sudan.",
+      "missing": []
+    },
+    {
+      "id": "p11-2",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Syria.",
+      "missing": []
+    },
+    {
+      "id": "p11-3",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Venezuela.",
+      "missing": []
+    },
+    {
+      "id": "p11-4",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Yemen.",
+      "missing": []
+    },
+    {
+      "id": "p11-5",
+      "value": null,
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon and Myanmar. The negative declaration confirms no other current, FY2025 or contemplated country activities. No activity in Zimbabwe.",
+      "missing": []
+    },
+    {
+      "id": "p11-6",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/chpl"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/classification"
+        }
+      ],
+      "justification": "Compliance document explicitly states chpl: true and that 'SIM-X1 is treated as dual-use and on the simulated CHPL.' The group has current (Cuba, Lebanon) and planned (Myanmar) activity involving SIM-X1 instruments on the CHPL.",
+      "missing": []
+    },
+    {
+      "id": "p11-7",
+      "value": "Anti-diversion controls: contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition. Screening: customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions are screened at onboarding, daily and before payment/shipment against scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/anti_diversion"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/policy"
+        }
+      ],
+      "justification": "The compliance document details anti-diversion measures specific to CHPL items (contracts, end-user certificates, serial tracking, destination checks, no-resale, shipment holds, post-delivery reviews) and the broader screening and monitoring policy applied to all controlled entities.",
+      "missing": []
+    },
+    {
+      "id": "p11-8",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/policy"
+        }
+      ],
+      "justification": "The compliance document describes a group-wide policy applying to all controlled entities, branches and joint ventures, with screening against Poland, EU, UN, UK and OFAC lists, alert investigation, transaction holds, quarterly risk review, annual audit, annual training, and escalation procedures.",
+      "missing": []
+    },
+    {
+      "id": "p11-9",
+      "value": "Group policy applies to all controlled entities, branches and joint ventures. Customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions are screened at onboarding, daily and before payment/shipment against scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained. Anti-diversion controls for dual-use/CHPL items include: contracts prohibiting re-export to or use in Russia, verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews.",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/policy"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/anti_diversion"
+        }
+      ],
+      "justification": "Brief overview drawn from the compliance policy field and the anti-diversion controls described in the dual-use section of the compliance document.",
+      "missing": []
+    }
+  ]
+}

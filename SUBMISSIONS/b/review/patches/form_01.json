@@ -1,0 +1,86 @@
+{
+ "1": [
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "instructions": "Conditional: only relevant if 'Société cotée' = Oui (same cell as the Oui/Non boxes)."
+   },
+   "why": "Model missed that 'Marché de cotation' depends on 'Société cotée'; it sits in the same cell, under the Oui/Non boxes."
+  }
+ ],
+ "2": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Vos activités internationales :",
+    "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?"
+   },
+   "why": "Row continues the country table of page 1; model lost the section and the question on the page break."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Vos activités internationales :",
+    "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?"
+   },
+   "why": "Row continues the country table of page 1; model lost the section and the question on the page break."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Déclaration",
+    "answer_bbox": [
+     200,
+     255,
+     900,
+     275
+    ]
+   },
+   "why": "Answer zone started on top of the printed label 'Représenté par :' (x 160); moved right of the colon."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Déclaration",
+    "answer_bbox": [
+     185,
+     280,
+     900,
+     300
+    ]
+   },
+   "why": "Answer zone started on top of the printed label 'En qualité de :'; moved right of the colon."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Déclaration",
+    "instructions": "Printed as '__ / __ / __' (day / month / year)."
+   },
+   "why": "Model did not note the printed date layout."
+  },
+  {
+   "op": "add",
+   "after": 4,
+   "field": {
+    "section": "Déclaration",
+    "label": "Signature",
+    "field_type": "signature",
+    "answer_bbox": [
+     60,
+     345,
+     500,
+     420
+    ],
+    "instructions": "No signature box is printed, but the header requires the form to be returned 'RENSEIGNÉE et SIGNÉE'."
+   },
+   "why": "Model listed no signature field. There is no printed box, but the form must be signed, so the deliverable needs a 'Signature' entry (left unsigned = human_action)."
+  }
+ ]
+}

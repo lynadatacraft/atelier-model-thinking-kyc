@@ -1,0 +1,174 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 55.7,
+  "usage": {
+    "prompt_tokens": 2599,
+    "completion_tokens": 3067,
+    "total_tokens": 5666,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 620,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "wersja: 08.04.2025\n\n# La Banque des Entreprises\n\n5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został zawiązany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi\n\n2. bezpośrednio lub pośrednio w co najmniej 40% należy do:\n\na) osoby prawnej, podmiotu lub organu z siedzibą w Rosji lub Białorusi;\n\nb) obywatela rosyjskiego lub białoruskiego; lub\n\nc) osoby fizycznej zamieszkałej w Rosji lub Białorusi,\n\n3. ma beneficjenta rzeczywistego⁵, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi.\n\n*W przypadku odpowiedzi „Tak” na którekolwiek z powyższych pytań należy podać nazwę podmiotu, który może spełniać wskazane kryteria i wskazać, która z sytuacji opisanych wyżej ma miejsce, a także podać szczegółowe informacje dla każdej odpowiedzi.*\n\n5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1. incorporated, domiciled, constituted, or otherwise established under the laws of Russia or Belarus 2. directly or indirectly owned for 40% or more by: (a) a legal person, entity or body established in Russia or Belarus; (b) a Russian or Belarusian national; or (c) a natural person residing in Russia or Belarus. 3. an entity for which a beneficial owner⁶ with Russian or Belarusian nationality or domiciled in Russia or Belarus has been established.\n\n*If \"Yes\" to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and provide additional detail for each response.*\n\n[empty box]\n\n☐ Tak/Yes\n☐ Nie/No\n\n6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadająca/y co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem w sposób bezpośredni lub pośredni, która/y 1) jest podmiotem sankcjonowanym; lub 2) jest obywatelem jurysdykcji sankcjonowanej lub jest zlokalizowana, zorganizowana lub zamieszkała/zarejestrowana w jurysdykcji sankcjonowanej; lub 3) jest zatrudniona w agencji rządowej lub organie władzy jurysdykcji sankcjonowanej lub taką agencję rządową lub organ władzy reprezentuje?\nW przypadku odpowiedzi „Tak”, należy podać imię i nazwisko takiej osoby lub nazwę podmiotu, wskazując jurysdykcję sankcjonowaną oraz podać szczegółowe informacje.\n\n6. Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder, or a person having direct or indirect control over the entity who is either 1) a Sanctioned Party; or 2) a national of a sanctioned jurisdiction or is located, organized, or resident in a Sanctioned Jurisdiction; 3) or is employed in, or represents a governmental agency or authority of a Sanctioned Jurisdiction?\n*If \"Yes\" is selected, please provide the name of such person or entity, and indicate the relevant Sanctioned Jurisdiction, and provide additional details.*\n\n[empty box]\n\n☐ Tak/Yes\n☐ Nie/No\n\n7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną?\n*W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności).*\n\n7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets?\n*If \"Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)*\n\n[empty box]\n\n☐ Tak/Yes\n☐ Nie/No\n\n⁵ Beneficjent rzeczywisty w rozumieniu ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (Dz. U. z 2018 r., poz. 723, ze zm.).\n⁶ Beneficial owner as defined by the Polish Act of 1 March 2018 on Counteracting Money Laundering and Financing of Terrorism (Polish Journal of Laws Dziennik Ustaw of 2018, item 723 as amended)\n\nStrona 3 z 11",
+    "fields": [
+      {
+        "section": "5. Czy reprezentowany przez Państwa podmiot... / 5. Are you or any of your branches/offices or subsidiaries...",
+        "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises / Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              143,
+              862,
+              155
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              166,
+              862,
+              178
+            ]
+          }
+        ],
+        "instructions": "if Yes, provide name of entity(ies), which criteria apply, and additional detail",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          130,
+          940,
+          190
+        ]
+      },
+      {
+        "section": "5. Czy reprezentowany przez Państwa podmiot... / 5. Are you or any of your branches/offices or subsidiaries...",
+        "label": "*W przypadku odpowiedzi „Tak”... / If \"Yes\" to any of the above, please provide the name of the entity(ies)...*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "if Yes",
+        "bank_reserved": false,
+        "answer_bbox": [
+          60,
+          383,
+          795,
+          432
+        ]
+      },
+      {
+        "section": "6. Czy w reprezentowanym przez Państwa podmiocie... / 6. Do you or any of your branches/offices or subsidiaries have a director...",
+        "label": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla... / Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder...",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              468,
+              862,
+              480
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              491,
+              862,
+              503
+            ]
+          }
+        ],
+        "instructions": "if Yes, provide name of person or entity, relevant Sanctioned Jurisdiction, and additional details",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          455,
+          940,
+          515
+        ]
+      },
+      {
+        "section": "6. Czy w reprezentowanym przez Państwa podmiocie... / 6. Do you or any of your branches/offices or subsidiaries have a director...",
+        "label": "W przypadku odpowiedzi „Tak”, należy podać imię i nazwisko... / If \"Yes\" is selected, please provide the name of such person or entity...",
+        "field_type": "text",
+        "options": [],
+        "instructions": "if Yes",
+        "bank_reserved": false,
+        "answer_bbox": [
+          60,
+          585,
+          795,
+          634
+        ]
+      },
+      {
+        "section": "7. Czy reprezentowany przez Państwa podmiot... / 7. Do you or any of your branches/offices or subsidiaries rely on authorization...",
+        "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora... / Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority...",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              688,
+              862,
+              700
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              711,
+              862,
+              723
+            ]
+          }
+        ],
+        "instructions": "if Yes, provide type of authorization, recipients, activities covered, regulatory authority, expiration date",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          675,
+          940,
+          735
+        ]
+      },
+      {
+        "section": "7. Czy reprezentowany przez Państwa podmiot... / 7. Do you or any of your branches/offices or subsidiaries rely on authorization...",
+        "label": "W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje... / If \"Yes\" is selected, please provide further details below...",
+        "field_type": "text",
+        "options": [],
+        "instructions": "if Yes",
+        "bank_reserved": false,
+        "answer_bbox": [
+          60,
+          763,
+          795,
+          812
+        ]
+      }
+    ]
+  }
+}

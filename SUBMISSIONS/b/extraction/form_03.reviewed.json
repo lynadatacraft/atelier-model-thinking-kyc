@@ -1,0 +1,1929 @@
+{
+  "exercice": "form_03",
+  "entreprise": "Cendrelis Instruments SAS",
+  "questionnaire": "questionnaires/03_cendrelis_instruments.pdf",
+  "langue": "Anglais",
+  "page_size_pt": [
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "cover",
+      "text": "La Banque\ndes Entreprises\nKnow Your Customer",
+      "review_notes": [],
+      "fields": [],
+      "removed_fields": []
+    },
+    {
+      "page": 2,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "form",
+      "text": "La Banque des Entreprises - CUSTOMER INFORMATION FORM\n\nStep 1: Entity Identification\n\nLegal Name\nTax Identification Number\n(Optional) LEI\n\nStep 2: Business activity and regulatory authorities\n\nNACE Code of the company:\nEntity's Type:\n(Read carefully the instructions in the Annex to have a clear understanding about the meaning of certain types)\n\nNone of the indicated below\nMoney transmitters, currency trading and similar entities\nOn-line gambling and casinos\nMere Asset Holding Companies (EMTAs)\nHolding entities\nCrowdfunding\nNon-Financial Asset Manager\nCannabis Business\nSpecial Purpose Vehicle (SPV)\nVirtual asset service provider (VASP)\n\nResponsible Financial Supervisory Authority:\n(Only to be informed in the case of financial entities)\nName of authority\nCompany is not supervised by a regulatory authority\n\nPlease indicate the source of funds:\nOwn activity\nInvestors\nDeposits\nOthers*\n\nKnow Your Customer\n2",
+      "review_notes": [
+        "'(Optional)' is printed above LEI, not after the Tax Identification Number."
+      ],
+      "fields": [
+        {
+          "section": "Step 1: Entity Identification",
+          "label": "Legal Name",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            199,
+            196,
+            912,
+            216
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "nemotron zone was in the page title band (y 106); moved to the measured blue input cell."
+            ]
+          }
+        },
+        {
+          "section": "Step 1: Entity Identification",
+          "label": "Tax Identification Number",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            352,
+            223,
+            915,
+            248
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone misplaced (y 140); moved to the blue cell. '(Optional)' is printed above LEI, not for the TIN."
+            ]
+          }
+        },
+        {
+          "section": "Step 1: Entity Identification",
+          "label": "LEI",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(Optional)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            251,
+            915,
+            274
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone misplaced (y 175); moved to the blue cell."
+            ]
+          }
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "NACE Code of the company:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            350,
+            325,
+            462,
+            346
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone misplaced (y 209); moved to the blue cell."
+            ]
+          }
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Entity's Type",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "None of the indicated below",
+              "box_bbox": [
+                122,
+                409,
+                135,
+                418
+              ]
+            },
+            {
+              "label": "Money transmitters, currency trading and similar entities",
+              "box_bbox": [
+                122,
+                438,
+                135,
+                447
+              ]
+            },
+            {
+              "label": "On-line gambling and casinos",
+              "box_bbox": [
+                122,
+                468,
+                135,
+                476
+              ]
+            },
+            {
+              "label": "Mere Asset Holding Companies (EMTAs)",
+              "box_bbox": [
+                122,
+                497,
+                135,
+                505
+              ]
+            },
+            {
+              "label": "Holding entities",
+              "box_bbox": [
+                122,
+                526,
+                135,
+                534
+              ]
+            },
+            {
+              "label": "Crowdfunding",
+              "box_bbox": [
+                122,
+                556,
+                135,
+                564
+              ]
+            },
+            {
+              "label": "Non-Financial Asset Manager",
+              "box_bbox": [
+                122,
+                585,
+                135,
+                593
+              ]
+            },
+            {
+              "label": "Cannabis Business",
+              "box_bbox": [
+                122,
+                614,
+                135,
+                623
+              ]
+            },
+            {
+              "label": "Special Purpose Vehicle (SPV)",
+              "box_bbox": [
+                122,
+                644,
+                135,
+                652
+              ]
+            },
+            {
+              "label": "Virtual asset service provider (VASP)",
+              "box_bbox": [
+                122,
+                673,
+                135,
+                681
+              ]
+            }
+          ],
+          "instructions": "Read the Annex for the meaning of each type.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            120,
+            400,
+            700,
+            685
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "nemotron split one question into 10 checkbox fields with no option boxes and zones in the wrong place; merged into one 'Entity's Type' field with the 10 detected squares."
+            ]
+          }
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities / Responsible Financial Supervisory Authority",
+          "label": "Name of authority",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Only to be informed in the case of financial entities.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            301,
+            751,
+            890,
+            779
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone misplaced (y 235, in Step 1); moved to the blue cell. Condition 'only for financial entities' was missing."
+            ]
+          }
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities / Responsible Financial Supervisory Authority",
+          "label": "Company is not supervised by a regulatory authority",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Company is not supervised by a regulatory authority",
+              "box_bbox": [
+                593,
+                806,
+                605,
+                814
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            130,
+            800,
+            610,
+            820
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Checkbox had no option box and its zone was in Step 1; set to the detected square."
+            ]
+          }
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Please indicate the source of funds",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Own activity",
+              "box_bbox": [
+                193,
+                881,
+                204,
+                889
+              ]
+            },
+            {
+              "label": "Investors",
+              "box_bbox": [
+                352,
+                881,
+                363,
+                889
+              ]
+            },
+            {
+              "label": "Deposits",
+              "box_bbox": [
+                498,
+                881,
+                508,
+                889
+              ]
+            },
+            {
+              "label": "Others*",
+              "box_bbox": [
+                629,
+                881,
+                640,
+                889
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            85,
+            870,
+            650,
+            900
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "nemotron split one question into 4 checkbox fields with misplaced zones; merged into one field with the 4 detected squares."
+            ]
+          }
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Others* - Please explain",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Only if 'Others*' is ticked as source of funds. *Please explain: (label printed at the top of page 3)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            234,
+            904,
+            824,
+            932
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone misplaced (y 540); moved to the blue cell under the source-of-funds row. Its label '*Please explain:' is printed at the top of page 3."
+            ]
+          }
+        }
+      ],
+      "removed_fields": [
+        {
+          "field": "Money transmitters, currency trading and similar entities",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "On-line gambling and casinos",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Mere Asset Holding Companies (EMTAs)",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Holding entities",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Crowdfunding",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Non-Financial Asset Manager",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Cannabis Business",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Special Purpose Vehicle (SPV)",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Virtual asset service provider (VASP)",
+          "why": "Merged into the single 'Entity's Type' field."
+        },
+        {
+          "field": "Investors",
+          "why": "Merged into the single 'source of funds' field."
+        },
+        {
+          "field": "Deposits",
+          "why": "Merged into the single 'source of funds' field."
+        },
+        {
+          "field": "Others*",
+          "why": "Merged into the single 'source of funds' field."
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\n*Please explain:\n\nCan the corporation issue bearer shares? ☐ Yes  ☐ No\n\nKnow Your Customer\n3",
+      "review_notes": [
+        "'*Please explain:' at the top of this page is the label of the 'Others*' box at the bottom of page 2."
+      ],
+      "fields": [
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Can the corporation issue bearer shares?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                506,
+                140,
+                517,
+                148
+              ],
+              "snap": {
+                "model_bbox": [
+                  500,
+                  130,
+                  520,
+                  152
+                ],
+                "distance": 3.4
+              }
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                578,
+                140,
+                590,
+                148
+              ],
+              "snap": {
+                "model_bbox": [
+                  577,
+                  130,
+                  597,
+                  152
+                ],
+                "distance": 4.2
+              }
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            132,
+            640,
+            152
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen attached '*Please explain:' to this question; that line belongs to the 'Others*' source of funds on page 2 (footnote marker *). Section was empty."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 4,
+      "model": "dots-studio/dots-3-note-preview:free",
+      "page_type": "form",
+      "text": "La Banque des Entreprises\n\nStep 3: Controlling Persons\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the beneficial ownership of our clients, including the details of the beneficial interests held.\n\nPlease, read carefully the instructions in the Annex to understand the term “Controlling Person”.\n\n1   Name and Surname:\n    Type of control (1):                  Ownership % (2):\n    Date of birth:                       Nationality:\n    Country of residence:                Passport or national ID card number:\n    Address of residence:\n    Date on which the person became “Controlling Person”:\n\n2   Name and Surname:\n    Type of control (1):                  Ownership % (2):\n    Date of birth:                       Nationality:\n    Country of residence:                Passport or national ID card number:\n    Address of residence:\n    Date on which the person became “Controlling Person”:\n\n3   Name and Surname:\n    Type of control (1):                  Ownership % (2):\n    Date of birth:                       Nationality:\n    Country of residence:                Passport or national ID card number:\n    Address of residence:\n    Date on which the person became “Controlling Person”:\n\n(1) Type of control:\nA. It is a natural person who owns (directly or indirectly) more than 25% of the shares in the company or more than 25% of the voting rights in the company.\nB. It is a natural person who exercises, by other means, control over the company. This includes individuals who hold the right to appoint or remove the majority of the board of directors of the company or have the right to exercise, or actually exercise, significant influence or control over the company.\nC. In the absence of identification of a natural person(s) according to the two preceding criteria, the legal representative(s) of the company\n(2) In case you select Type of control A. Please specify the Ownership (%)\n\nKnow Your Customer                                                 4",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            284,
+            902,
+            304
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            308,
+            503,
+            328
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            308,
+            902,
+            328
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            332,
+            503,
+            353
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            332,
+            902,
+            353
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            357,
+            503,
+            375
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            357,
+            902,
+            375
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            379,
+            902,
+            398
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 1",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            402,
+            902,
+            423
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            427,
+            902,
+            447
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            451,
+            503,
+            471
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            451,
+            902,
+            471
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            475,
+            503,
+            495
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            475,
+            902,
+            495
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            499,
+            503,
+            517
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            499,
+            902,
+            517
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            521,
+            902,
+            541
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 2",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            545,
+            902,
+            565
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            569,
+            902,
+            589
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            593,
+            503,
+            613
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            593,
+            902,
+            613
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            617,
+            503,
+            637
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            617,
+            902,
+            637
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            641,
+            503,
+            659
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            641,
+            902,
+            659
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            663,
+            902,
+            683
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 3",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            687,
+            902,
+            707
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 5,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\nStep 3: Controlling Persons\n\n| 4 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 5 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 6 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 7 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n\n(1) Type of control:\nA. It is a natural person who owns (directly or indirectly) more than 25% of the shares in the company or more than 25% of the voting rights in the company.\nB. It is a natural person who exercises, by other means, control over the company. This includes individuals who hold the right to appoint or remove the majority of the board of directors of the company or have the right to exercise, or actually exercise, significant influence or control over the company.\nC. In the absence of identification of a natural person(s) according to the two preceding criteria, the legal representative(s) of the company\n\nKnow Your Customer\n5",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            212,
+            902,
+            232
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            236,
+            503,
+            256
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            236,
+            902,
+            256
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            260,
+            503,
+            280
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            260,
+            902,
+            280
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            284,
+            503,
+            302
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            284,
+            902,
+            302
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            306,
+            902,
+            326
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 4",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            330,
+            902,
+            350
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            354,
+            902,
+            374
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            378,
+            503,
+            398
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            378,
+            902,
+            398
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            402,
+            503,
+            422
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            402,
+            902,
+            422
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            426,
+            503,
+            444
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            426,
+            902,
+            444
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            448,
+            902,
+            469
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 5",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            473,
+            902,
+            492
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            496,
+            902,
+            517
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            521,
+            503,
+            540
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            521,
+            902,
+            540
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            544,
+            503,
+            564
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            544,
+            902,
+            564
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            568,
+            503,
+            587
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            568,
+            902,
+            587
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            591,
+            902,
+            611
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 6",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            615,
+            902,
+            635
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            639,
+            902,
+            659
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            663,
+            503,
+            683
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) Only if Type of control = A: specify the ownership %.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            663,
+            902,
+            683
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            687,
+            503,
+            707
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            687,
+            902,
+            707
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            711,
+            503,
+            729
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            711,
+            902,
+            729
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            733,
+            902,
+            753
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        },
+        {
+          "section": "Step 3: Controlling Persons / Person 7",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            757,
+            902,
+            777
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 6,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "form",
+      "text": "(2) In case you select Type of control A. Please specify the Ownership (%)\n\nStep 4: Details of Authorized Representatives\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the full names of the persons authorized to act on the customer’s behalf in its relationship with La Banque des Entreprises.\n\nName & Surname (1) Date of birth (2) Nationality (2) Country (ies) of Residence (2) Passport or national ID card number (2)\n\nKnow Your Customer 6",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Step 4: Details of Authorized Representatives",
+          "label": "Details of Authorized Representatives",
+          "field_type": "table",
+          "options": [],
+          "instructions": "5 person rows (3 sub-lines for country/passport). Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2). (1) Provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list. (2) If the representative's details are already given in Step 3, only Name & Surname is required.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            72,
+            352,
+            893,
+            855
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone included the header row; set to the 5 empty person rows. Footnotes (1)/(2) printed on page 7 were missing."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 7,
+      "model": "dots-studio/dots-3-note-preview:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\n(1) Please provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list for conferring authority on those who will sign the relevant account opening documents / agreements and transactions, etc.\n(2) In the event the authorized representative's details have already been provided in Step 3, only Name & Surname is required in Step 4.\n\nStep 4: Details of Authorized Representatives\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the full names of the persons authorized to act on the customer's behalf in its relationship with La Banque des Entreprises.\n\n| Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2) |\n| --- | --- | --- | --- | --- |\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n\nKnow Your Customer 7",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Step 4: Details of Authorized Representatives",
+          "label": "Details of Authorized Representatives",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Same table printed a second time (page 6 has an identical one). Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2). (1) Provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list. (2) If the representative's details are already given in Step 3, only Name & Surname is required. Last row continues on page 8.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            72,
+            425,
+            893,
+            890
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Model did not notice this table repeats page 6 and continues on page 8."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 8,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "# La Banque des Entreprises\n\n|  |  |  |  |  |\n\n(1) Please provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list for conferring authority on those who will sign the relevant account opening documents / agreements and transactions, etc.\n(2) In the event the authorized representative's details have already been provided in Step 3, only Name & Surname is required in Step 4.\n\nKnow Your Customer\n\n8",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Step 4: Details of Authorized Representatives",
+          "label": "Details of Authorized Representatives (continued)",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2). (1) Provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list. (2) If the representative's details are already given in Step 3, only Name & Surname is required.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            70,
+            100,
+            893,
+            135
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Empty label and section; this row is the end of the page 7 table."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 9,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\nStep 4: Certification\n\nThe requirements of the relevant anti money laundering legislation require institutions to gather client's information of their professional or business activity. The client subscribes to this Declaration and assumes the responsibility of the provided data listed on this declaration. Additionally, the client commits itself to communicate La Banque des Entreprises (La Banque des Entreprises) any data amendment during its relationship with La Banque des Entreprises. The lack of veracity or updates in the mentioned data and/or documents authorizes La Banque des Entreprises to terminate any or all the contracts formalized with the client.\n\nWithout prejudice to the provisions of article L.511-33 of the French Code monétaire et financier, and in accordance with them, the client expressly agrees that in addition to the cases provided for in this article, we may disclose to any entities belonging to the same group as La Banque des Entreprises, information about it protected by professional secrecy, if the persons to whom this information is disclosed are informed that it must be kept confidential to the extent legally permitted, or are legally or professionally bound by professional secrecy, and if this information is necessary for them for the following purposes and in the following cases: business development, development and management of the services and products offered, business relationships management with the client and with companies belonging to the same group if any, revenues and financial and operational risks management, fulfillment of their obligations or for auditing purposes or with respect to regulatory or supervisory authorities, and fraud prevention.\n\nCommunications made on this basis and treatment by their recipient of such disclosed information must comply with applicable personal data protection regulation.\n\nThis declaration is signed in  Date\nMonth Day Year\n\nName & Surname\n\nSignature\n\nPlease, print and sign the document.\n\nKnow Your Customer\n9",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Step 4: Certification",
+          "label": "This declaration is signed in",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            309,
+            444,
+            558,
+            474
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Snapped to the measured blue cell."
+            ]
+          }
+        },
+        {
+          "section": "Step 4: Certification",
+          "label": "Date",
+          "field_type": "date",
+          "options": [],
+          "instructions": "Three boxes in US order: Month | Day | Year.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            671,
+            444,
+            914,
+            470
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Model listed the sub-labels but not that the order is month-first (risk of writing DD/MM)."
+            ]
+          }
+        },
+        {
+          "section": "Step 4: Certification",
+          "label": "Name & Surname",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            236,
+            489,
+            896,
+            517
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Snapped to the measured blue cell."
+            ]
+          }
+        },
+        {
+          "section": "Step 4: Certification",
+          "label": "Signature",
+          "field_type": "signature",
+          "options": [],
+          "instructions": "Please, print and sign the document.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            160,
+            525,
+            900,
+            640
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone started on the printed word 'Signature'; moved to the free space beside and below it."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    }
+  ]
+}

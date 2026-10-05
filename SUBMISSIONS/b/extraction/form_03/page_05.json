@@ -1,0 +1,537 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 30.5,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 5031,
+    "total_tokens": 7691,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1974,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "La Banque\ndes Entreprises\n\nStep 3: Controlling Persons\n\n| 4 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 5 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 6 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 7 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n\n(1) Type of control:\nA. It is a natural person who owns (directly or indirectly) more than 25% of the shares in the company or more than 25% of the voting rights in the company.\nB. It is a natural person who exercises, by other means, control over the company. This includes individuals who hold the right to appoint or remove the majority of the board of directors of the company or have the right to exercise, or actually exercise, significant influence or control over the company.\nC. In the absence of identification of a natural person(s) according to the two preceding criteria, the legal representative(s) of the company\n\nKnow Your Customer\n5",
+    "fields": [
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Name and Surname:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          222,
+          222,
+          902,
+          243
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Type of control (1):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          218,
+          243,
+          503,
+          262
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Ownership % (2):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          612,
+          243,
+          902,
+          262
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Date of birth:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          184,
+          262,
+          503,
+          281
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Nationality:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          578,
+          262,
+          902,
+          281
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Country of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          281,
+          503,
+          300
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Passport or national ID card number:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          719,
+          281,
+          902,
+          300
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Address of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          300,
+          902,
+          319
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (4)",
+        "label": "Date on which the person became “Controlling Person”:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          402,
+          319,
+          902,
+          347
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Name and Surname:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          222,
+          372,
+          902,
+          393
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Type of control (1):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          218,
+          393,
+          503,
+          412
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Ownership % (2):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          612,
+          393,
+          902,
+          412
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Date of birth:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          184,
+          412,
+          503,
+          431
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Nationality:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          578,
+          412,
+          902,
+          431
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Country of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          431,
+          503,
+          450
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Passport or national ID card number:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          719,
+          431,
+          902,
+          450
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Address of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          450,
+          902,
+          469
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (5)",
+        "label": "Date on which the person became “Controlling Person”:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          402,
+          469,
+          902,
+          497
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Name and Surname:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          222,
+          522,
+          902,
+          543
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Type of control (1):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          218,
+          543,
+          503,
+          562
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Ownership % (2):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          612,
+          543,
+          902,
+          562
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Date of birth:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          184,
+          562,
+          503,
+          581
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Nationality:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          578,
+          562,
+          902,
+          581
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Country of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          581,
+          503,
+          600
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Passport or national ID card number:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          719,
+          581,
+          902,
+          600
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Address of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          600,
+          902,
+          619
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (6)",
+        "label": "Date on which the person became “Controlling Person”:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          402,
+          619,
+          902,
+          647
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Name and Surname:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          222,
+          672,
+          902,
+          693
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Type of control (1):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          218,
+          693,
+          503,
+          712
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Ownership % (2):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          612,
+          693,
+          902,
+          712
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Date of birth:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          184,
+          712,
+          503,
+          731
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Nationality:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          578,
+          712,
+          902,
+          731
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Country of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          731,
+          503,
+          750
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Passport or national ID card number:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          719,
+          731,
+          902,
+          750
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Address of residence:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          231,
+          750,
+          902,
+          769
+        ]
+      },
+      {
+        "section": "Step 3: Controlling Persons (7)",
+        "label": "Date on which the person became “Controlling Person”:",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          402,
+          769,
+          902,
+          797
+        ]
+      }
+    ]
+  }
+}

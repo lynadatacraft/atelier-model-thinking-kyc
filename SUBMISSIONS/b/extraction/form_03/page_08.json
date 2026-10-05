@@ -1,0 +1,47 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 10.8,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 1530,
+    "total_tokens": 4190,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1324,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "# La Banque des Entreprises\n\n|  |  |  |  |  |\n\n(1) Please provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list for conferring authority on those who will sign the relevant account opening documents / agreements and transactions, etc.\n(2) In the event the authorized representative's details have already been provided in Step 3, only Name & Surname is required in Step 4.\n\nKnow Your Customer\n\n8",
+    "fields": [
+      {
+        "section": "",
+        "label": "",
+        "field_type": "table",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          70,
+          100,
+          893,
+          135
+        ]
+      }
+    ]
+  }
+}

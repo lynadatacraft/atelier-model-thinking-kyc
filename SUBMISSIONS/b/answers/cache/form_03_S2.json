@@ -1,0 +1,937 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "provider": "ModelRun",
+  "reasoning_effort": "medium",
+  "seconds": 102.9,
+  "tokens": {
+    "prompt": 12075,
+    "completion": 9647,
+    "reasoning": 1948,
+    "total": 21722
+  },
+  "answers": [
+    {
+      "id": "p4-0",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/name"
+        },
+        {
+          "doc": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+          "pointer": "/name"
+        }
+      ],
+      "justification": "Nora Avelune is listed as the first controlling person in the ownership register with 60% direct ownership.",
+      "missing": []
+    },
+    {
+      "id": "p4-1",
+      "value": "A",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/direct_pct"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/votes_pct"
+        }
+      ],
+      "justification": "Nora Avelune owns 60% of shares and 60% of voting rights directly, which exceeds the 25% threshold for Type A control.",
+      "missing": []
+    },
+    {
+      "id": "p4-2",
+      "value": "60%",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/direct_pct"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/indirect_pct"
+        }
+      ],
+      "justification": "Direct ownership 60% + indirect ownership 0% = 60% total ownership. Calculation: 60 + 0 = 60.",
+      "missing": []
+    },
+    {
+      "id": "p4-3",
+      "value": "1980-04-12",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+          "pointer": "/birth_date"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/birth_date"
+        }
+      ],
+      "justification": "Date of birth recorded consistently in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-4",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+          "pointer": "/nationalities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/nationalities/0"
+        }
+      ],
+      "justification": "Nationality listed as France in both personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-5",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+          "pointer": "/residences/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/residences/0"
+        }
+      ],
+      "justification": "Country of residence listed as France in both personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-6",
+      "value": "SIM-ID-C1",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+          "pointer": "/id_number"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/id_number"
+        }
+      ],
+      "justification": "National ID card number recorded in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-7",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+          "pointer": "/address"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/address"
+        }
+      ],
+      "justification": "Address of residence recorded in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-8",
+      "value": "2020-01-15",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/control_since"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/person_relationships.json",
+          "pointer": "/0/effective_from"
+        }
+      ],
+      "justification": "Control since 2020-01-15 as recorded in ownership register and person relationships.",
+      "missing": []
+    },
+    {
+      "id": "p4-9",
+      "value": "Hugo Valcendre",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/name"
+        },
+        {
+          "doc": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+          "pointer": "/name"
+        }
+      ],
+      "justification": "Hugo Valcendre is listed as the second controlling person in the ownership register with 40% direct ownership.",
+      "missing": []
+    },
+    {
+      "id": "p4-10",
+      "value": "A",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/direct_pct"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/votes_pct"
+        }
+      ],
+      "justification": "Hugo Valcendre owns 40% of shares and 40% of voting rights directly, which exceeds the 25% threshold for Type A control.",
+      "missing": []
+    },
+    {
+      "id": "p4-11",
+      "value": "40%",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/direct_pct"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/indirect_pct"
+        }
+      ],
+      "justification": "Direct ownership 40% + indirect ownership 0% = 40% total ownership. Calculation: 40 + 0 = 40.",
+      "missing": []
+    },
+    {
+      "id": "p4-12",
+      "value": "1985-08-23",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+          "pointer": "/birth_date"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/birth_date"
+        }
+      ],
+      "justification": "Date of birth recorded consistently in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-13",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+          "pointer": "/nationalities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/nationalities/0"
+        }
+      ],
+      "justification": "Nationality listed as France in both personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-14",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+          "pointer": "/residences/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/residences/0"
+        }
+      ],
+      "justification": "Country of residence listed as France in both personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-15",
+      "value": "SIM-ID-C2",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+          "pointer": "/id_number"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/id_number"
+        }
+      ],
+      "justification": "National ID card number recorded in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-16",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+          "pointer": "/address"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/address"
+        }
+      ],
+      "justification": "Address of residence recorded in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-17",
+      "value": "2020-01-15",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/control_since"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/person_relationships.json",
+          "pointer": "/2/effective_from"
+        }
+      ],
+      "justification": "Control since 2020-01-15 as recorded in ownership register and person relationships.",
+      "missing": []
+    },
+    {
+      "id": "p4-18",
+      "value": "Inès Rocheval",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/name"
+        },
+        {
+          "doc": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+          "pointer": "/name"
+        }
+      ],
+      "justification": "Inès Rocheval is listed as the third controlling person in the ownership register with contractual board control rights.",
+      "missing": []
+    },
+    {
+      "id": "p4-19",
+      "value": "B",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/control_basis"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/person_relationships.json",
+          "pointer": "/3/control_basis"
+        }
+      ],
+      "justification": "Inès Rocheval has 0% ownership and 0% voting rights but holds a contractual right to appoint/remove a majority of the board, which constitutes control by other means (Type B).",
+      "missing": []
+    },
+    {
+      "id": "p4-20",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/direct_pct"
+        }
+      ],
+      "justification": "Ownership percentage is only required for Type A control. Inès Rocheval is Type B (contractual board control), so this field is not applicable.",
+      "missing": []
+    },
+    {
+      "id": "p4-21",
+      "value": "1985-08-23",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+          "pointer": "/birth_date"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/birth_date"
+        }
+      ],
+      "justification": "Date of birth recorded consistently in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-22",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+          "pointer": "/nationalities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/nationalities/0"
+        }
+      ],
+      "justification": "Nationality listed as France in both personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-23",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+          "pointer": "/residences/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/residences/0"
+        }
+      ],
+      "justification": "Country of residence listed as France in both personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-24",
+      "value": "SIM-ID-C3",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+          "pointer": "/id_number"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/id_number"
+        }
+      ],
+      "justification": "National ID card number recorded in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-25",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+          "pointer": "/address"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/address"
+        }
+      ],
+      "justification": "Address of residence recorded in personal facts and ownership register.",
+      "missing": []
+    },
+    {
+      "id": "p4-26",
+      "value": "2020-01-15",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/control_since"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/person_relationships.json",
+          "pointer": "/3/effective_from"
+        }
+      ],
+      "justification": "Control since 2020-01-15 as recorded in ownership register and person relationships; the contractual right is stated as effective 2020-01-15.",
+      "missing": []
+    },
+    {
+      "id": "p5-0",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "The ownership register explicitly states the listed controlling persons are complete and no other person exercises control. Only three controlling persons are identified (Nora Avelune, Hugo Valcendre, Inès Rocheval). Person 4 does not exist.",
+      "missing": []
+    },
+    {
+      "id": "p5-1",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists; the ownership register confirms completeness of the three listed persons.",
+      "missing": []
+    },
+    {
+      "id": "p5-2",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-3",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-4",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-5",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-6",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-7",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-8",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fourth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-9",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-10",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-11",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-12",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-13",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-14",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-15",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-16",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-17",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No fifth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-18",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-19",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-20",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-21",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-22",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-23",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-24",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-25",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-26",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No sixth controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-27",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-28",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-29",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-30",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-31",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-32",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-33",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-34",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    },
+    {
+      "id": "p5-35",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "quote": "The listed controlling persons are complete."
+        }
+      ],
+      "justification": "No seventh controlling person exists.",
+      "missing": []
+    }
+  ]
+}

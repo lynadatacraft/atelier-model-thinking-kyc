@@ -1,0 +1,108 @@
+{
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "seconds": 310.1,
+  "usage": {
+    "prompt_tokens": 2555,
+    "completion_tokens": 10862,
+    "total_tokens": 13417,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9165,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "cover",
+    "text": "wersja: 08.04.2025\nLa Banque des Entreprises\nKwestionariusz dotyczący sankcji i organiń ceń handlu¹\nSanctions & Trade Restrictions Questionnaire²\n\nLa Banque des Entreprises (La Banque des Entreprises) jest zobowiązany do przestrzegania krajowych i międzynarodowych przepisów sankcyjnych i organiń ceń handlu. Jako klienci La Banque des Entreprises są Państwo (reprezentujący przez Państwa podmiot, jego oddziały/ filie i podmioty zależne) zobowiązani do niewykorystywania produktów, funduszy, rachunków i usług dostarczanych przez La Banque des Entreprises do przygotowadzania transakcji lub innych działań bezpośrednio lub pośrednio związanych z sankcjonowanymi osobami, podmiotami, rzadami, statkami powietrznymi i wodnymi („podmioty sankcjonowane”), obszarami geograficznymi („jurysdykcyjami sankcjonowanymi” wskazanymi poniżej), określonymi towarami, oprogramowaniem czy usługami profesjonalnymi objętymi organiacją, także w sytuacji, gdy taka transakcja lub inne działania byłyby zakazane dla La Banque des Entreprises i/lub skutkowałyby naruszeniem sankcji przez La Banque des Entreprises. Niniejszy kwestionariusz służy zebraniu informacji na temat Państwa zaangażowania we współpracę z podmiotami sankcjonowanymi, jurysdykcyami sankcjonowanymi lub w inna działalność podlegającą wybranym organiacznom prawnym, w tym działania realizowane bez wykorzystywaniem produktów i usług dostarczanych przez La Banque des Entreprises. Pojęcie „jurysdykcyja sankcjonowana” w rozumieniu niniejszego kwestionariusza odnosi się do najmniej jednego z następujących terytoriów: Kuby, Iranu, Korei Północnej, Syrii, Białorusi, Rosji, Wenezueli (transakcje powiązane z rzadem Wenezueli lub wenezuelańskim sektorem energetycznym lub złota), Krymu oraz niezkontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, chersońskiego, tuzhańskiego i zaporiskiego. Prosimy o udzielenie odpowiedzi we wszystkich sekjach formularza. Odpowiedzi powinny być szczegółowe i odnosić się do Państwa biegłej i planowanej działalności. Dziękujemy.\n\nLa Banque des Entreprises (La Banque des Entreprises) is obliged to abide by local and international sanctions and trade restrictions. As a La Banque des Entreprises Client, you (the entity you represent, their branches/offices and subsidiaries) are obliged to refrain from using products, funds, accounts, and services provided by La Banque des Entreprises to perform transactions or any other activity directly or indirectly involving individuals, entities, governments, aircraft or vessels (“Sanctioned Parties”), locations (“Sanctioned Targets” as defined below), specific restricted goods, software and professional services, also where such transaction or activity would be prohibited for La Banque des Entreprises and/or would result in a violation of sanctions by La Banque des Entreprises. The aim of this questionnaire is to collect information on the extent of your activities with Sanctioned Parties, Sanctioned Targets or other restricted activity, including those activities that do not use La Banque des Entreprises products and services. The term “Sanctioned Target”, as used in this questionnaire, shall mean one or more of the following territories: Cuba, Iran, North Korea, Syria, Belarus, Russia, Venezuela (transactions with the nexus to the Government of Venezuela or Venezuelan energy or gold sector), Crimea and non-government controlled areas of Ukraine in the oblasts of Donetsk, Kherson, Luhansk and Zaporizhzhia. Please provide answers to all sections of this questionnaire. Please ensure that the information you submit in this document is as detailed as possible and relates to your current or contemplated activities. Thank you.\n\nNazwa Klienta\nLegal Entity Name\nImię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz\nFull Name and Job Title of Client Contact Completing the Form\nData\nDate\nCzy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/fille i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?\nTak/Yes\nNie/No",
+    "fields": [
+      {
+        "section": "Nazwa Klienta",
+        "label": "Legal Entity Name",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          520,
+          150,
+          980,
+          180
+        ]
+      },
+      {
+        "section": "Nazwa Klienta",
+        "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          520,
+          200,
+          980,
+          230
+        ]
+      },
+      {
+        "section": "Nazwa Klienta",
+        "label": "Data",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          520,
+          250,
+          980,
+          280
+        ]
+      },
+      {
+        "section": "Nazwa Klienta",
+        "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/fille i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              850,
+              350,
+              900,
+              370
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              850,
+              380,
+              900,
+              400
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          520,
+          350,
+          980,
+          400
+        ]
+      }
+    ]
+  }
+}

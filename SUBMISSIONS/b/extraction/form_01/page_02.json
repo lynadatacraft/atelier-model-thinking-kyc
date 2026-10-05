@@ -1,0 +1,159 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 42.8,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 2605,
+    "total_tokens": 5265,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1874,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "La Banque\ndes Entreprises\n\n| Syrie | ☐ Oui | ☐ Non | ☐ Envisagée |\n|---|---|---|---|\n| Venezuela | ☐ Oui | ☐ Non | ☐ Envisagée |\n\nJe confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs délais.\n\nReprésenté par :\n\nEn qualité de :\n\nSigné le  /  /",
+    "fields": [
+      {
+        "section": "Pays (tableau)",
+        "label": "Syrie",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Oui",
+            "box_bbox": [
+              280,
+              78,
+              298,
+              92
+            ]
+          },
+          {
+            "label": "Non",
+            "box_bbox": [
+              465,
+              78,
+              483,
+              92
+            ]
+          },
+          {
+            "label": "Envisagée",
+            "box_bbox": [
+              610,
+              78,
+              628,
+              92
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          274,
+          70,
+          944,
+          112
+        ]
+      },
+      {
+        "section": "Pays (tableau)",
+        "label": "Venezuela",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Oui",
+            "box_bbox": [
+              280,
+              120,
+              298,
+              134
+            ]
+          },
+          {
+            "label": "Non",
+            "box_bbox": [
+              465,
+              120,
+              483,
+              134
+            ]
+          },
+          {
+            "label": "Envisagée",
+            "box_bbox": [
+              610,
+              120,
+              628,
+              134
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          274,
+          112,
+          944,
+          152
+        ]
+      },
+      {
+        "section": "Signature",
+        "label": "Représenté par :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          160,
+          255,
+          900,
+          275
+        ]
+      },
+      {
+        "section": "Signature",
+        "label": "En qualité de :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          160,
+          280,
+          900,
+          300
+        ]
+      },
+      {
+        "section": "Signature",
+        "label": "Signé le",
+        "field_type": "date",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          140,
+          315,
+          300,
+          335
+        ]
+      }
+    ]
+  }
+}

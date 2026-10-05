@@ -1,0 +1,261 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 101.8,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 7229,
+    "total_tokens": 9889,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5168,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "# III - STATUT DU CLIENT (2)\n\n**Veuillez cocher une des catégories (A), (B), (C) ou (D)\\*** ci-dessous correspondant au client Personne Morale ou entité, **et préciser la sous-catégorie associée\\*** pour déterminer sa classification au regard des réglementations fiscales.\n\nPour tout complément relatif aux statuts présentés ci-dessous, vous pouvez vous reporter à la Note d'Information relative aux Personnes Morales et autres entités.\n\n- **A. Entité Non Financière Active** (Activité non financière dont activité industrielle, activité commerciale, activité de service,....)\n  Veuillez préciser la sous-catégorie associée :\n  - Entité dont la part des revenus passifs représente moins de 50% du total des revenus\n  - Organisme sans but lucratif\n  - Autre \"ENF Active\" ____________________________\n\n- **B. Entité Non Financière Passive** : : entité dont la part des revenus passifs^(6) représente plus de 50% du total des revenus (comprend notamment une activité patrimoniale ou de placement, dont les actifs sont détenus pour produire des revenus passifs (loyers, rentes, redevances...) ainsi que toute ENF qui n'est pas active.\n  Si vous avez coché cette catégorie, veuillez indiquer la liste et les informations des Personnes détenant le contrôle (ci-après les « Bénéficiaires effectifs ») du client en partie III bis*\n\n- **C. Institution financière**\n  > Veuillez indiquer, si applicable, le numéro GIIN (Global Intermediary Identification Number) du client obtenu dans le cadre de la loi FATCA :\n  [ ] [ ] [ ] [ ]    [ ] [ ] [ ] [ ]    [ ] [ ]    [ ] [ ] [ ]\n  > En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant : ____________________________\n  > En cas de résidence fiscale dans un pays non-partie à l'échange automatique d'informations, veuillez indiquer si le client est une entité d'investissement dont 50% des revenus bruts proviennent d'une activité d'investissement, de réinvestissement ou de négociation d'actifs financiers et qui est gérée par une institution      [ ] Oui      [ ] Non\n  Si vous avez répondu oui, veuillez indiquer la liste et les informations des Personnes détenant le contrôle du client (ci-après les « Bénéficiaires effectifs ») en partie III bis*\n\n- **D. Entités exemptées de la déclaration**\n  Veuillez cocher le statut correspondant :\n  - Société cotée en bourse ou filiale contrôlée par une société cotée en bourse\n  - Entité publique\n  - Organisation internationale\n  - Banque centrale\n  - Entité exclue au sens de la réglementation FATCA et NCD ou DAC\n\n(6) Les revenus passifs s'entendent généralement des revenus tels que les dividendes, intérêts, loyers etc.",
+    "fields": [
+      {
+        "section": "III - STATUT DU CLIENT",
+        "label": "Veuillez cocher une des catégories (A), (B), (C) ou (D)* ci-dessous correspondant au client Personne Morale ou entité",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "A. Entité Non Financière Active",
+            "box_bbox": [
+              48,
+              134,
+              68,
+              148
+            ]
+          },
+          {
+            "label": "B. Entité Non Financière Passive",
+            "box_bbox": [
+              48,
+              248,
+              68,
+              261
+            ]
+          },
+          {
+            "label": "C. Institution financière",
+            "box_bbox": [
+              48,
+              336,
+              68,
+              348
+            ]
+          },
+          {
+            "label": "D. Entités exemptées de la déclaration",
+            "box_bbox": [
+              48,
+              505,
+              68,
+              516
+            ]
+          }
+        ],
+        "instructions": "et préciser la sous-catégorie associée pour déterminer sa classification au regard des réglementations fiscales",
+        "bank_reserved": false,
+        "answer_bbox": [
+          48,
+          134,
+          951,
+          516
+        ]
+      },
+      {
+        "section": "A. Entité Non Financière Active",
+        "label": "Veuillez préciser la sous-catégorie associée :",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+            "box_bbox": [
+              161,
+              168,
+              176,
+              178
+            ]
+          },
+          {
+            "label": "Organisme sans but lucratif",
+            "box_bbox": [
+              161,
+              185,
+              176,
+              195
+            ]
+          },
+          {
+            "label": "Autre \"ENF Active\"",
+            "box_bbox": [
+              161,
+              203,
+              176,
+              213
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          161,
+          168,
+          790,
+          213
+        ]
+      },
+      {
+        "section": "A. Entité Non Financière Active",
+        "label": "Autre \"ENF Active\"",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          363,
+          205,
+          790,
+          212
+        ]
+      },
+      {
+        "section": "C. Institution financière",
+        "label": "Veuillez indiquer, si applicable, le numéro GIIN (Global Intermediary Identification Number) du client obtenu dans le cadre de la loi FATCA :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          149,
+          368,
+          576,
+          391
+        ]
+      },
+      {
+        "section": "C. Institution financière",
+        "label": "En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          580,
+          406,
+          951,
+          411
+        ]
+      },
+      {
+        "section": "C. Institution financière",
+        "label": "En cas de résidence fiscale dans un pays non-partie à l'échange automatique d'informations, veuillez indiquer si le client est une entité d'investissement dont 50% des revenus bruts proviennent d'une activité d'investissement, de réinvestissement ou de négociation d'actifs financiers et qui est gérée par une institution",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Oui",
+            "box_bbox": [
+              802,
+              445,
+              818,
+              456
+            ]
+          },
+          {
+            "label": "Non",
+            "box_bbox": [
+              887,
+              445,
+              903,
+              456
+            ]
+          }
+        ],
+        "instructions": "Si vous avez répondu oui, veuillez indiquer la liste et les informations des Personnes détenant le contrôle du client (ci-après les « Bénéficiaires effectifs ») en partie III bis*",
+        "bank_reserved": false,
+        "answer_bbox": [
+          802,
+          445,
+          951,
+          456
+        ]
+      },
+      {
+        "section": "D. Entités exemptées de la déclaration",
+        "label": "Veuillez cocher le statut correspondant :",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+            "box_bbox": [
+              161,
+              539,
+              176,
+              548
+            ]
+          },
+          {
+            "label": "Entité publique",
+            "box_bbox": [
+              161,
+              555,
+              176,
+              565
+            ]
+          },
+          {
+            "label": "Organisation internationale",
+            "box_bbox": [
+              161,
+              570,
+              176,
+              580
+            ]
+          },
+          {
+            "label": "Banque centrale",
+            "box_bbox": [
+              161,
+              586,
+              176,
+              595
+            ]
+          },
+          {
+            "label": "Entité exclue au sens de la réglementation FATCA et NCD ou DAC",
+            "box_bbox": [
+              161,
+              601,
+              176,
+              611
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          161,
+          539,
+          790,
+          611
+        ]
+      }
+    ]
+  }
+}

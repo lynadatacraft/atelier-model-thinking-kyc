@@ -1,0 +1,47 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 20.8,
+  "usage": {
+    "prompt_tokens": 2600,
+    "completion_tokens": 2275,
+    "total_tokens": 4875,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1515,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n| Kraj / Country | Rodzaj działalności (np. import lub eksport) / Nature of the activity (e.g. import or export) | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność / Name AND domicile of the legal entity engaged in the activity | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. / Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority. |\n| --- | --- | --- | --- |\n| Afganistan / Afghanistan |  |  |  |\n| Angola / Angola |  |  |  |\n| Białoruś / Belarus |  |  |  |\n| Republika Środkowoafrykańska / Central African Republic |  |  |  |\n| Korea Północna / North Korea |  |  |  |\n| Demokratyczna Republika Kongo / Democratic Republic of Congo |  |  |  |\n| Haiti / Haiti |  |  |  |\n| Iran / Iran |  |  |  |\n| Irak / Iraq |  |  |  |\n| Wybrzeże Kości Słoniowej / Ivory Coast |  |  |  |\n| Liban / Lebanon |  |  |  |\n| Liberia / Liberia |  |  |  |\n| Libia / Libya |  |  |  |\n| Mjanma (Birma) / Myanmar |  |  |  |\n| Rosja / Russia |  |  |  |\n| Sierra Leone / Sierra Leone |  |  |  |\n| Somalia / Somalia |  |  |  |\n\nStrona 10 z 11",
+    "fields": [
+      {
+        "section": "Tabela krajów / Country table",
+        "label": "Kraj / Country",
+        "field_type": "table",
+        "options": [],
+        "instructions": "Rodzaj działalności (np. import lub eksport) / Nature of the activity (e.g. import or export) | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność / Name AND domicile of the legal entity engaged in the activity | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. / Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          293,
+          272,
+          942,
+          898
+        ]
+      }
+    ]
+  }
+}

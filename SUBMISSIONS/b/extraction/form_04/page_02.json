@@ -1,0 +1,89 @@
+{
+  "model": "dots-studio/dots-3-note-preview:free",
+  "seconds": 129.9,
+  "usage": {
+    "prompt_tokens": 1718,
+    "completion_tokens": 12800,
+    "total_tokens": 14518,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 12013,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "3\nDo you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?\nIf “Yes” is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)\n\n4\nDo you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?\nIf “Yes” is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises’s involvement).\n\n5\nDo you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) Government of any of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?\nIf “Yes” is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.\nIf “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is isolated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities. Further, in case you, your branches/offices, subsidiaries, joint ventures conduct business activity with a Sanctioned Party or Sanctioned Government, but do not use any La Banque des Entreprises accounts/products/services for this, please indicate the name of the Sanctioned Party or Government, the sanctions program under which such party is listed and the percentages of revenue accumulated through the activity at group level and at entity level.\n(For Sanctioned Jurisdictions please provide the same information in Part 2 below)\n\n6\nDo you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either:\na. a Sanctioned Party\nb. located, organized, registered in, or operating from a Sanctioned Jurisdiction\nc. employed in a Sanctioned Jurisdiction, or\nd. who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?\nIf “Yes” is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.\n\n2 | Page",
+    "fields": [
+      {
+        "section": "Question 3",
+        "label": "Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
+        "field_type": "text",
+        "options": [],
+        "instructions": "If “Yes” is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          110,
+          180,
+          780,
+          260
+        ]
+      },
+      {
+        "section": "Question 4",
+        "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?",
+        "field_type": "text",
+        "options": [],
+        "instructions": "If “Yes” is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises’s involvement).",
+        "bank_reserved": false,
+        "answer_bbox": [
+          110,
+          360,
+          780,
+          440
+        ]
+      },
+      {
+        "section": "Question 5",
+        "label": "Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) Government of any of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
+        "field_type": "text",
+        "options": [],
+        "instructions": "If “Yes” is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used. If “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is isolated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities. Further, in case you, your branches/offices, subsidiaries, joint ventures conduct business activity with a Sanctioned Party or Sanctioned Government, but do not use any La Banque des Entreprises accounts/products/services for this, please indicate the name of the Sanctioned Party or Government, the sanctions program under which such party is listed and the percentages of revenue accumulated through the activity at group level and at entity level. (For Sanctioned Jurisdictions please provide the same information in Part 2 below)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          110,
+          670,
+          780,
+          750
+        ]
+      },
+      {
+        "section": "Question 6",
+        "label": "Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either: a. a Sanctioned Party b. located, organized, registered in, or operating from a Sanctioned Jurisdiction c. employed in a Sanctioned Jurisdiction, or d. who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?",
+        "field_type": "text",
+        "options": [],
+        "instructions": "If “Yes” is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          110,
+          900,
+          780,
+          905
+        ]
+      }
+    ]
+  }
+}

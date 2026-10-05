@@ -1,0 +1,390 @@
+{
+  "exercice": "form_02",
+  "entreprise": "Belorive Patrimoine SAS",
+  "model": "qwen/qwen3.8-27b:free",
+  "requests": [
+    {
+      "section": "form_02_S1",
+      "seconds": 138.1,
+      "tokens": {
+        "prompt": 10668,
+        "completion": 8289,
+        "reasoning": 4928,
+        "total": 18957
+      }
+    }
+  ],
+  "answers": [
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Dénomination Sociale*",
+      "field_type": "text",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name",
+      "justification": "Dénomination sociale telle qu'enregistrée dans le registre corporate au 01/09/2026.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Forme Juridique :",
+      "field_type": "text",
+      "value": "SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/legal_form",
+      "justification": "Forme juridique indiquée dans le registre corporate.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Adresse du siège social* :",
+      "field_type": "text",
+      "value": "11 rue des Sociétés Fictives",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/street",
+      "justification": "Adresse du siège social (voie) selon le registre corporate au 01/09/2026. L'archive historique (Bordeaux) est obsolète (superseded).",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Code postal* :",
+      "field_type": "text",
+      "value": "69000",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/postcode",
+      "justification": "Code postal du siège social selon le registre corporate.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Ville* :",
+      "field_type": "text",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/city",
+      "justification": "Ville du siège social selon le registre corporate.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Pays * :",
+      "field_type": "text",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country",
+      "justification": "Pays du siège social selon le registre corporate.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Adresse de l'établissement (si différent du siège social) :",
+      "field_type": "text",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/establishment",
+      "justification": "Le champ « établissement » est null dans le registre corporate ; aucune adresse d'établissement distincte du siège social n'est documentée. La condition « si différent du siège social » n'est pas déclenchée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "N° RCS* :",
+      "field_type": "text",
+      "value": "SIM-RCS-B-001",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registration",
+      "justification": "Numéro RCS tel qu'enregistré dans le registre corporate au 01/09/2026.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Lieu d'enregistrement :",
+      "field_type": "text",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registry_place",
+      "justification": "Lieu d'enregistrement (greffe) selon le registre corporate.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Autres numéros d'identification :",
+      "field_type": "text",
+      "value": "SIM-INTERNAL-B-001",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/other_ids",
+      "justification": "Autre numéro d'identification interne. Le LEI est null (non documenté). Le NIF (SIM-TIN-B-FR) est reporté en p1-11.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "label": "Code NACE :",
+      "field_type": "text",
+      "value": "68.20",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/nace",
+      "justification": "Code NACE stipulé dans le registre corporate.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 1,
+      "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+      "label": "Pays de résidence fiscale* / Numéro d'Identification Fiscale (NIF)*",
+      "field_type": "table",
+      "value": [
+        {
+          "Pays de résidence fiscale": "France",
+          "NIF": "SIM-TIN-B-FR"
+        }
+      ],
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0",
+      "justification": "Une seule résidence fiscale de l'entité : France, NIF SIM-TIN-B-FR. Les lignes 2 et 3 sont vides car aucune autre résidence fiscale n'est documentée. Le NIF français n'est pas obligatoire (résidence fiscale = France) mais est fourni.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "III - STATUT DU CLIENT",
+      "label": "Catégorie du client (A, B, C ou D)*",
+      "field_type": "checkbox",
+      "value": "B. Entité Non Financière Passive",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category; sources/companies/sim-hackathon-b-client/corporate.md#/entity_category",
+      "justification": "La note fiscale qualifie l'entité de « Passive non-financial entity » (revenus passifs 80 %, actifs passifs 75 %). Le registre corporate confirme : « Mere Asset Holding Company ». Catégorie B.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "A. Entité Non Financière Active",
+      "label": "A. Entité Non Financière Active - sous-catégorie*",
+      "field_type": "checkbox",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Condition non déclenchée : la catégorie A n'est pas cochée (catégorie B retenue).",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "A. Entité Non Financière Active",
+      "label": "Autre \"ENF Active\" (précision)",
+      "field_type": "text",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Condition non déclenchée : la sous-catégorie « Autre ENF Active » n'est pas cochée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "C. Institution financière",
+      "label": "C. Numéro GIIN",
+      "field_type": "text",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Condition non déclenchée : la catégorie C n'est pas cochée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "C. Institution financière",
+      "label": "C. Statut si GIIN non exigé",
+      "field_type": "text",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Condition non déclenchée : la catégorie C n'est pas cochée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "C. Institution financière",
+      "label": "C. Entité d'investissement gérée par une institution financière (pays non-partie à l'échange automatique)",
+      "field_type": "checkbox",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Condition non déclenchée : la catégorie C n'est pas cochée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 2,
+      "section": "D. Entités exemptées de la déclaration",
+      "label": "D. Entités exemptées - statut",
+      "field_type": "checkbox",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Condition non déclenchée : la catégorie D n'est pas cochée.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 3,
+      "section": "III bis - INFORMATIONS RELATIVES AUX BÉNÉFICIAIRES EFFECTIFS",
+      "label": "Bénéficiaires effectifs",
+      "field_type": "table",
+      "value": [
+        {
+          "Nom": "Orvaux",
+          "Prénom": "Camille",
+          "Date de naissance": "1980-04-12",
+          "Pays de naissance": "France",
+          "Nationalité(s)": "France",
+          "Adresse complète de résidence actuelle": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "Pays de résidence fiscale": "France",
+          "NIF": "SIM-TIN-B1-FR",
+          "% capital direct": "0",
+          "% capital indirect": "42",
+          "% droits de vote (si différent)": "42"
+        },
+        {
+          "Nom": "Dervelle",
+          "Prénom": "Samir",
+          "Date de naissance": "1985-08-23",
+          "Pays de naissance": "France",
+          "Nationalité(s)": "France",
+          "Adresse complète de résidence actuelle": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "Pays de résidence fiscale": "France",
+          "NIF": "SIM-TIN-B2-FR",
+          "% capital direct": "0",
+          "% capital indirect": "28",
+          "% droits de vote (si différent)": "28"
+        },
+        {
+          "Nom": "Montelac",
+          "Prénom": "Léa",
+          "Date de naissance": "1985-08-23",
+          "Pays de naissance": "France",
+          "Nationalité(s)": "France, États-Unis",
+          "Adresse complète de résidence actuelle": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "Pays de résidence fiscale": "France, États-Unis",
+          "NIF": "SIM-TIN-B3-FR (France) ; États-Unis d'Amérique : [non fourni]",
+          "% capital direct": "30",
+          "% capital indirect": "0",
+          "% droits de vote (si différent)": "30"
+        }
+      ],
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0; sources/companies/sim-hackathon-b-client/ownership.md#/people/1; sources/companies/sim-hackathon-b-client/ownership.md#/people/2; sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/; sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json#/; sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/",
+      "justification": "Trois bénéficiaires effectifs identifiés dans le registre de propriété : Camille Orvaux (42 % indirect via Belorive Participations SAS), Samir Dervelle (28 % indirect via Belorive Participations SAS), Léa Montelac (30 % direct). Léa Montelac est citoyenne américaine : le TIN US est requis mais non fourni dans les sources (null, gap documenté).",
+      "missing": [
+        "TIN (NIF) États-Unis de Léa Montelac : valeur null dans les sources, non fournie"
+      ],
+      "check": "ok"
+    },
+    {
+      "page": 3,
+      "section": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE",
+      "label": "Cadre réservé - justification des incohérences/contradictions",
+      "field_type": "text",
+      "value": null,
+      "state": "bank_reserved",
+      "source": null,
+      "missing": [],
+      "check": "rule",
+      "justification": "Champ réservé à la banque."
+    },
+    {
+      "page": 4,
+      "section": "IV - DÉCLARATION",
+      "label": "Fait à*",
+      "field_type": "text",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/place",
+      "justification": "Lieu de la date de complétion du mandat (date fixe de l'exercice), non une signature.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 4,
+      "section": "IV - DÉCLARATION",
+      "label": "le*",
+      "field_type": "text",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date",
+      "justification": "Date de complétion du mandat (date fixe de l'exercice), non une signature.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 4,
+      "section": "IV - DÉCLARATION",
+      "label": "Signature*",
+      "field_type": "signature",
+      "value": null,
+      "state": "human_action",
+      "source": null,
+      "missing": [],
+      "check": "rule",
+      "justification": "Signature non exécutée : signature humaine requise."
+    },
+    {
+      "page": 4,
+      "section": "IV - DÉCLARATION / Représentant légal*",
+      "label": "Nom*",
+      "field_type": "text",
+      "value": "Orvaux",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/surname",
+      "justification": "Nom du signataire désigné par le mandat du conseil d'administration du 20/08/2026.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 4,
+      "section": "IV - DÉCLARATION / Représentant légal*",
+      "label": "Prénom*",
+      "field_type": "text",
+      "value": "Camille",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/given",
+      "justification": "Prénom du signataire désigné par le mandat du conseil d'administration du 20/08/2026.",
+      "missing": [],
+      "check": "ok"
+    },
+    {
+      "page": 4,
+      "section": "IV - DÉCLARATION / Représentant légal*",
+      "label": "Fonction au sein de l'entité cliente*",
+      "field_type": "text",
+      "value": "Présidente",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+      "justification": "Fonction du représentant légal telle qu'indiquée dans le registre de mandat.",
+      "missing": [],
+      "check": "ok"
+    }
+  ]
+}

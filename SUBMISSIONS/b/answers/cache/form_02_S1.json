@@ -1,0 +1,388 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "provider": "ModelRun",
+  "reasoning_effort": "medium",
+  "seconds": 138.1,
+  "tokens": {
+    "prompt": 10668,
+    "completion": 8289,
+    "reasoning": 4928,
+    "total": 18957
+  },
+  "answers": [
+    {
+      "id": "p1-0",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/name"
+        }
+      ],
+      "justification": "Dénomination sociale telle qu'enregistrée dans le registre corporate au 01/09/2026.",
+      "missing": []
+    },
+    {
+      "id": "p1-1",
+      "value": "SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/legal_form"
+        }
+      ],
+      "justification": "Forme juridique indiquée dans le registre corporate.",
+      "missing": []
+    },
+    {
+      "id": "p1-2",
+      "value": "11 rue des Sociétés Fictives",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/street"
+        }
+      ],
+      "justification": "Adresse du siège social (voie) selon le registre corporate au 01/09/2026. L'archive historique (Bordeaux) est obsolète (superseded).",
+      "missing": []
+    },
+    {
+      "id": "p1-3",
+      "value": "69000",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/postcode"
+        }
+      ],
+      "justification": "Code postal du siège social selon le registre corporate.",
+      "missing": []
+    },
+    {
+      "id": "p1-4",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/city"
+        }
+      ],
+      "justification": "Ville du siège social selon le registre corporate.",
+      "missing": []
+    },
+    {
+      "id": "p1-5",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/country"
+        }
+      ],
+      "justification": "Pays du siège social selon le registre corporate.",
+      "missing": []
+    },
+    {
+      "id": "p1-6",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/establishment"
+        }
+      ],
+      "justification": "Le champ « établissement » est null dans le registre corporate ; aucune adresse d'établissement distincte du siège social n'est documentée. La condition « si différent du siège social » n'est pas déclenchée.",
+      "missing": []
+    },
+    {
+      "id": "p1-7",
+      "value": "SIM-RCS-B-001",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/registration"
+        }
+      ],
+      "justification": "Numéro RCS tel qu'enregistré dans le registre corporate au 01/09/2026.",
+      "missing": []
+    },
+    {
+      "id": "p1-8",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/registry_place"
+        }
+      ],
+      "justification": "Lieu d'enregistrement (greffe) selon le registre corporate.",
+      "missing": []
+    },
+    {
+      "id": "p1-9",
+      "value": "SIM-INTERNAL-B-001",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/other_ids"
+        }
+      ],
+      "justification": "Autre numéro d'identification interne. Le LEI est null (non documenté). Le NIF (SIM-TIN-B-FR) est reporté en p1-11.",
+      "missing": []
+    },
+    {
+      "id": "p1-10",
+      "value": "68.20",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/nace"
+        }
+      ],
+      "justification": "Code NACE stipulé dans le registre corporate.",
+      "missing": []
+    },
+    {
+      "id": "p1-11",
+      "value": [
+        {
+          "Pays de résidence fiscale": "France",
+          "NIF": "SIM-TIN-B-FR"
+        },
+        {
+          "Pays de résidence fiscale": null,
+          "NIF": null
+        },
+        {
+          "Pays de résidence fiscale": null,
+          "NIF": null
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/tax.md",
+          "pointer": "/tax_residences/0"
+        }
+      ],
+      "justification": "Une seule résidence fiscale de l'entité : France, NIF SIM-TIN-B-FR. Les lignes 2 et 3 sont vides car aucune autre résidence fiscale n'est documentée. Le NIF français n'est pas obligatoire (résidence fiscale = France) mais est fourni.",
+      "missing": []
+    },
+    {
+      "id": "p2-0",
+      "value": "B. Entité Non Financière Passive",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/tax.md",
+          "pointer": "/tax_category"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/corporate.md",
+          "pointer": "/entity_category"
+        }
+      ],
+      "justification": "La note fiscale qualifie l'entité de « Passive non-financial entity » (revenus passifs 80 %, actifs passifs 75 %). Le registre corporate confirme : « Mere Asset Holding Company ». Catégorie B.",
+      "missing": []
+    },
+    {
+      "id": "p2-1",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "Condition non déclenchée : la catégorie A n'est pas cochée (catégorie B retenue).",
+      "missing": []
+    },
+    {
+      "id": "p2-2",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "Condition non déclenchée : la sous-catégorie « Autre ENF Active » n'est pas cochée.",
+      "missing": []
+    },
+    {
+      "id": "p2-3",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "Condition non déclenchée : la catégorie C n'est pas cochée.",
+      "missing": []
+    },
+    {
+      "id": "p2-4",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "Condition non déclenchée : la catégorie C n'est pas cochée.",
+      "missing": []
+    },
+    {
+      "id": "p2-5",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "Condition non déclenchée : la catégorie C n'est pas cochée.",
+      "missing": []
+    },
+    {
+      "id": "p2-6",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "Condition non déclenchée : la catégorie D n'est pas cochée.",
+      "missing": []
+    },
+    {
+      "id": "p3-0",
+      "value": [
+        {
+          "Nom": "Orvaux",
+          "Prénom": "Camille",
+          "Date de naissance": "1980-04-12",
+          "Pays de naissance": "France",
+          "Nationalité(s)": "France",
+          "Adresse complète de résidence actuelle": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "Pays de résidence fiscale": "France",
+          "NIF": "SIM-TIN-B1-FR",
+          "% capital direct": "0",
+          "% capital indirect": "42",
+          "% droits de vote (si différent)": "42"
+        },
+        {
+          "Nom": "Dervelle",
+          "Prénom": "Samir",
+          "Date de naissance": "1985-08-23",
+          "Pays de naissance": "France",
+          "Nationalité(s)": "France",
+          "Adresse complète de résidence actuelle": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "Pays de résidence fiscale": "France",
+          "NIF": "SIM-TIN-B2-FR",
+          "% capital direct": "0",
+          "% capital indirect": "28",
+          "% droits de vote (si différent)": "28"
+        },
+        {
+          "Nom": "Montelac",
+          "Prénom": "Léa",
+          "Date de naissance": "1985-08-23",
+          "Pays de naissance": "France",
+          "Nationalité(s)": "France, États-Unis",
+          "Adresse complète de résidence actuelle": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "Pays de résidence fiscale": "France, États-Unis",
+          "NIF": "SIM-TIN-B3-FR (France) ; États-Unis d'Amérique : [non fourni]",
+          "% capital direct": "30",
+          "% capital indirect": "0",
+          "% droits de vote (si différent)": "30"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "pointer": "/people/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "pointer": "/people/1"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "pointer": "/people/2"
+        },
+        {
+          "doc": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+          "pointer": "/"
+        },
+        {
+          "doc": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+          "pointer": "/"
+        },
+        {
+          "doc": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+          "pointer": "/"
+        }
+      ],
+      "justification": "Trois bénéficiaires effectifs identifiés dans le registre de propriété : Camille Orvaux (42 % indirect via Belorive Participations SAS), Samir Dervelle (28 % indirect via Belorive Participations SAS), Léa Montelac (30 % direct). Léa Montelac est citoyenne américaine : le TIN US est requis mais non fourni dans les sources (null, gap documenté).",
+      "missing": [
+        "TIN (NIF) États-Unis de Léa Montelac : valeur null dans les sources, non fournie"
+      ]
+    },
+    {
+      "id": "p4-0",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "pointer": "/place"
+        }
+      ],
+      "justification": "Lieu de la date de complétion du mandat (date fixe de l'exercice), non une signature.",
+      "missing": []
+    },
+    {
+      "id": "p4-1",
+      "value": "01/09/2026",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "pointer": "/date"
+        }
+      ],
+      "justification": "Date de complétion du mandat (date fixe de l'exercice), non une signature.",
+      "missing": []
+    },
+    {
+      "id": "p4-3",
+      "value": "Orvaux",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "pointer": "/signer/surname"
+        }
+      ],
+      "justification": "Nom du signataire désigné par le mandat du conseil d'administration du 20/08/2026.",
+      "missing": []
+    },
+    {
+      "id": "p4-4",
+      "value": "Camille",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "pointer": "/signer/given"
+        }
+      ],
+      "justification": "Prénom du signataire désigné par le mandat du conseil d'administration du 20/08/2026.",
+      "missing": []
+    },
+    {
+      "id": "p4-5",
+      "value": "Présidente",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "pointer": "/signer_role"
+        }
+      ],
+      "justification": "Fonction du représentant légal telle qu'indiquée dans le registre de mandat.",
+      "missing": []
+    }
+  ]
+}

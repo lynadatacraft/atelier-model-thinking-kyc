@@ -1,0 +1,47 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 69.0,
+  "usage": {
+    "prompt_tokens": 2599,
+    "completion_tokens": 4033,
+    "total_tokens": 6632,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3109,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n# Sekcja C: Ekspozycja na sankcje – szczegółowe informacje\n*Jeśli w sekcji A udzielono odpowiedzi \"Tak\" na pytania 1, 2, 3 lub 4, należy poniżej podać szczegóły.*\n\n# Section C: Sanctions Related Exposure Further Details\n*If \"Yes\" to questions 1, 2, 3, or 4 in Section A are selected, please provide the details below.*\n\n| Jurysdykcje sankcjonowane / Sanctioned Targets | Udział przychodów (dochodów, sprzedaży) z jurysdykcji sankcjonowanej w całkowitych przychodach (dochodach, sprzedaży) oraz szczegółowy opis działalności / Percentage of total revenue (income, sales) derived from Sanctioned Targets and describe in detail the nature of activity |  | Udział kosztów (zakupów, importu) z jurysdykcji sankcjonowanej w całkowitych kosztach (zakupach, imporcie) oraz szczegółowy opis działalności / Percentage of total expenses (purchases, imports) derived from Sanctioned Targets and describe in detail the nature of activity |  | Udział aktywów (nieruchomości, inwestycje) posiadanych w jurysdykcji sankcjonowanej w całkowitych aktywach (nieruchomościach, inwestycjach) oraz szczegółowe przeznaczenie aktywów / Percentage of total assets (real estate/property, investments) held in Sanctioned Targets and describe in detail the purpose of asset(s) |  |\n|---|---|---|---|---|---|---|\n|  | % całkowitych przychodów w / % of total Revenue | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych kosztów / % of total expenses | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych aktywów / % of total assets | Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) |\n| Kuba / Cuba |  |  |  |  |  |  |\n| Iran / Iran |  |  |  |  |  |  |\n| Korea Północna / North Korea |  |  |  |  |  |  |\n| Syria / Syria |  |  |  |  |  |  |\n| Białoruś / Belarus |  |  |  |  |  |  |\n| Rosja / Russia |  |  |  |  |  |  |\n| Krym / Crimea |  |  |  |  |  |  |\n| *Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) / Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector) |  |  |  |  |  |  |\n\nStrona 8 z 11",
+    "fields": [
+      {
+        "section": "Section C: Sanctions Related Exposure Further Details",
+        "label": "Jurysdykcje sankcjonowane / Sanctioned Targets",
+        "field_type": "table",
+        "options": [],
+        "instructions": "Jurysdykcje sankcjonowane / Sanctioned Targets | % całkowitych przychodów w / % of total Revenue | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych kosztów / % of total expenses | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych aktywów / % of total assets | Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          175,
+          290,
+          940,
+          680
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "exercice": "form_01",
+  "entreprise": "Asterive Services SAS",
+  "questionnaire": "questionnaires/01_asterive_services.pdf",
+  "langue": "Français",
+  "page_size_pt": [
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque des Entreprises\n\n**FICHE CONNAISSANCE CLIENT**\n\n**A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises**\n\n| Votre établissement | Dénomination sociale |  |\n| --- | --- | --- |\n|  | Code SIREN / n° d'enregistrement |  |\n|  | Société cotée | ☐ Oui ☐ Non<br>Marché de cotation : |\n\n| Votre maison mère (si filiale) | Nom de la maison mère |  |\n| --- | --- | --- |\n|  | Pays d'immatriculation |  |\n|  | Pays de résidence fiscale |  |\n|  | Adresse de la maison mère |  |\n\n**Vos activités internationales :**\n\n| Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ? |  |  |\n| --- | --- | --- |\n| Corée du nord | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Crimée | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Cuba | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Irak | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Iran | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Myanmar | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Russie | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Soudan | ☐ Oui | ☐ Non | ☐ Envisagée |\n| Sud-Soudan | ☐ Oui | ☐ Non | ☐ Envisagée |\n",
+      "fields": [
+        {
+          "section": "Votre établissement",
+          "label": "Dénomination sociale",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            182,
+            940,
+            210
+          ]
+        },
+        {
+          "section": "Votre établissement",
+          "label": "Code SIREN / n° d'enregistrement",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            210,
+            940,
+            240
+          ]
+        },
+        {
+          "section": "Votre établissement",
+          "label": "Société cotée",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                605,
+                253,
+                622,
+                268
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                653,
+                253,
+                670,
+                268
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            245,
+            940,
+            275
+          ]
+        },
+        {
+          "section": "Votre établissement",
+          "label": "Marché de cotation :",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            275,
+            940,
+            318
+          ]
+        },
+        {
+          "section": "Votre maison mère (si filiale)",
+          "label": "Nom de la maison mère",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            348,
+            940,
+            378
+          ]
+        },
+        {
+          "section": "Votre maison mère (si filiale)",
+          "label": "Pays d'immatriculation",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            378,
+            940,
+            408
+          ]
+        },
+        {
+          "section": "Votre maison mère (si filiale)",
+          "label": "Pays de résidence fiscale",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            408,
+            940,
+            438
+          ]
+        },
+        {
+          "section": "Votre maison mère (si filiale)",
+          "label": "Adresse de la maison mère",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            595,
+            438,
+            940,
+            478
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Corée du nord",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                597,
+                302,
+                612
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                597,
+                479,
+                612
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                597,
+                624,
+                612
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            588,
+            940,
+            628
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Crimée",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                637,
+                302,
+                652
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                637,
+                479,
+                652
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                637,
+                624,
+                652
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            628,
+            940,
+            668
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Cuba",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                677,
+                302,
+                692
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                677,
+                479,
+                692
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                677,
+                624,
+                692
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            668,
+            940,
+            708
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Irak",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                717,
+                302,
+                732
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                717,
+                479,
+                732
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                717,
+                624,
+                732
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            708,
+            940,
+            748
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Iran",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                757,
+                302,
+                772
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                757,
+                479,
+                772
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                757,
+                624,
+                772
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            748,
+            940,
+            788
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Myanmar",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                797,
+                302,
+                812
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                797,
+                479,
+                812
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                797,
+                624,
+                812
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            788,
+            940,
+            828
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Russie",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                837,
+                302,
+                852
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                837,
+                479,
+                852
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                837,
+                624,
+                852
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            828,
+            940,
+            868
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Soudan",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                877,
+                302,
+                892
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                877,
+                479,
+                892
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                877,
+                624,
+                892
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            868,
+            940,
+            908
+          ]
+        },
+        {
+          "section": "Vos activités internationales",
+          "label": "Sud-Soudan",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                285,
+                917,
+                302,
+                932
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                462,
+                917,
+                479,
+                932
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                607,
+                917,
+                624,
+                932
+              ]
+            }
+          ],
+          "instructions": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            275,
+            908,
+            940,
+            950
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\n| Syrie | ☐ Oui | ☐ Non | ☐ Envisagée |\n|---|---|---|---|\n| Venezuela | ☐ Oui | ☐ Non | ☐ Envisagée |\n\nJe confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs délais.\n\nReprésenté par :\n\nEn qualité de :\n\nSigné le  /  /",
+      "fields": [
+        {
+          "section": "Pays (tableau)",
+          "label": "Syrie",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                280,
+                78,
+                298,
+                92
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                465,
+                78,
+                483,
+                92
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                610,
+                78,
+                628,
+                92
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            274,
+            70,
+            944,
+            112
+          ]
+        },
+        {
+          "section": "Pays (tableau)",
+          "label": "Venezuela",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Oui",
+              "box_bbox": [
+                280,
+                120,
+                298,
+                134
+              ]
+            },
+            {
+              "label": "Non",
+              "box_bbox": [
+                465,
+                120,
+                483,
+                134
+              ]
+            },
+            {
+              "label": "Envisagée",
+              "box_bbox": [
+                610,
+                120,
+                628,
+                134
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            274,
+            112,
+            944,
+            152
+          ]
+        },
+        {
+          "section": "Signature",
+          "label": "Représenté par :",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            160,
+            255,
+            900,
+            275
+          ]
+        },
+        {
+          "section": "Signature",
+          "label": "En qualité de :",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            160,
+            280,
+            900,
+            300
+          ]
+        },
+        {
+          "section": "Signature",
+          "label": "Signé le",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            140,
+            315,
+            300,
+            335
+          ]
+        }
+      ]
+    }
+  ]
+}

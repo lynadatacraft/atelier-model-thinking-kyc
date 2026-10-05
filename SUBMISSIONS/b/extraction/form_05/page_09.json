@@ -1,0 +1,136 @@
+{
+  "model": "google/gemma-4-31b-it:free",
+  "seconds": 53.0,
+  "usage": {
+    "prompt_tokens": 738,
+    "completion_tokens": 1723,
+    "total_tokens": 2461,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n| Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non-government controlled territories of Donetsk Region | | | | |\n| Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non-government controlled territories of Luhansk Region | | | | |\n| Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non-government controlled territories of Kherson Region | | | | |\n| Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non-government controlled territories of Zaporizhzhia Region | | | | |\n| Suma Total | | | | |\n\nSekcja D: Środki ograniczające handel / sankcje handlowe (przepisy polskie, Unii Europejskiej, Wielkiej Brytanii, Stanów Zjednoczonych Ameryki)\nŚrodki ograniczające handel (nazywane także sankcjami handlowymi) to ograniczenia dotyczące ruchu określonych towarów z/do jurysdykcji wymienionych w poniższej tabeli lub przez ich terytorium (np. zakaz eksportu sprzętu wojskowego do Rosji).\nLista towarów, usług, oprogramowania i technologii oraz sektorów przemysłu objętych takimi środkami ograniczającymi jest długa i ulega ciągłym zmianom. Zwracamy Państwa uwagę na potrzebę przeprowadzenia własnych konsultacji z Państwa doradcami ds. zgodności i/lub prawnymi w celu potwierdzenia, czy towary lub technologia, które są przedmiotem Państwa działalności, są objęte ograniczeniami.\nJeżeli w pytaniu 1 w sekcji A udzielili Państwo odpowiedzi „Tak”, prosimy o wypełnienie również tej sekcji w pełnym zakresie. Jeżeli w pytaniu 1 w sekcji A udzielili Państwo odpowiedzi twierdzącej, ale uważają Państwo, że sekcja D nie ma zastosowania, prosimy o przedstawienie uzasadnienia poniżej.\n\nSection D: Trade Restrictive Measures/Trade Sanctions (Poland, EU, UK and US Trade Sanctions Laws)\nTrade Restrictive Measures (TRM) (also known as trade sanctions) are restrictions imposed on the movement of certain goods to/from or through the sanctioned jurisdictions in the chart below (e.g. the ban on exporting military goods to Russia). The list of goods, professional services, software and technology, and industry sectors subject to TRM is broad and everchanging. Please ensure your compliance and/or legal advisors confirm whether the goods or technology you trade in is subject to these restrictions.\nPlease note if you provided a positive response to Section A, Question 1, we expect that you will also complete this section in full. If you have completed Section A, Q1 positively, but think Section D is not applicable, please provide rationale below.\n\n1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z krajami wymienionymi w poniższej tabeli?\nDziałalność obejmuje wszelkie bezpośrednie lub pośrednie zaangażowanie, nie tylko import, eksport, tranzyt towarów, transakcje biznesowe, łańcuchy dostaw, dostarczanie towarów, oprogramowania lub usług profesjonalnych.\nW przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w poniższej tabeli.\n\n1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the chart below?\nActivity includes any direct or indirect involvement but is not limited to, imports, exports, transit of goods; business transactions, supply chains,provision of goods, software, technology, or professional services.\nIf yes, please provide details in the chart below.\n\n☐ Tak/Yes\n☐ Nie/No\n\nStrona 9 Z 11",
+    "fields": [
+      {
+        "section": "Trade Sanctions Table",
+        "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non-government controlled territories of Donetsk Region",
+        "field_type": "table",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          173,
+          115,
+          947,
+          201
+        ]
+      },
+      {
+        "section": "Trade Sanctions Table",
+        "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non-government controlled territories of Luhansk Region",
+        "field_type": "table",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          201,
+          115,
+          947,
+          287
+        ]
+      },
+      {
+        "section": "Trade Sanctions Table",
+        "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non-government controlled territories of Kherson Region",
+        "field_type": "table",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          287,
+          115,
+          947,
+          376
+        ]
+      },
+      {
+        "section": "Trade Sanctions Table",
+        "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non-government controlled territories of Zaporizhzhia Region",
+        "field_type": "table",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          376,
+          115,
+          947,
+          466
+        ]
+      },
+      {
+        "section": "Trade Sanctions Table",
+        "label": "Suma Total",
+        "field_type": "table",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          466,
+          115,
+          947,
+          504
+        ]
+      },
+      {
+        "section": "Sekcja D",
+        "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z krajami wymienionymi w poniższej tabeli? / 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the chart below?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              852,
+              738,
+              862,
+              748
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              852,
+              757,
+              862,
+              767
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          852,
+          738,
+          915,
+          767
+        ]
+      }
+    ]
+  }
+}

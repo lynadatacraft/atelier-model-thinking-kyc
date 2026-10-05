@@ -1,0 +1,879 @@
+{
+  "exercice": "form_04",
+  "entreprise": "Belorive Patrimoine SAS",
+  "questionnaire": "questionnaires/04_belorive_patrimoine.pdf",
+  "langue": "Anglais",
+  "page_size_pt": [
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "mixed",
+      "text": "# La Banque des Entreprises WB Sanctions Questionnaire\n\nLa Banque des Entreprises, its subsidiaries and affiliates (collectively \"La Banque des Entreprises\") are required to comply with applicable sanctions law and regulations¹ imposed by the Netherlands, the European Union, as well as other sanctions authority of each jurisdiction where La Banque des Entreprises has operations, such as for example the United States (\"Sanctions\"). As an La Banque des Entreprises client, you and your branches/offices and subsidiaries are expected to refrain from directing transactions to or through La Banque des Entreprises and otherwise using La Banque des Entreprises products, funds, accounts or services in connection with any transaction or activity, directly or indirectly involving individuals, entities, aircraft or vessels that are the subject of Sanctions (\"Sanctioned Parties\") as well as Sanctioned Jurisdictions (as defined below) or where a transaction or activity would be prohibited for La Banque des Entreprises, and/or would result in a violation of Sanctions by La Banque des Entreprises.\n\nThis questionnaire is one of the means through which La Banque des Entreprises aims to identify the extent of our clients' activities with certain entities, jurisdictions and territories and their direct or indirect engagements with targets of sanctions regimes. We kindly refer you to La Banque des Entreprises's FEC statement published on our website.\n\nClients are required to provide information about their business activities in or with the countries (or regions as the case may be): **Belarus, Crimea, Cuba, Iran, North Korea, Russia, Sudan, Syria, or the illegally annexed regions of Zaporizhzhia, Kherson, Donetsk and Luhansk in Ukraine** (\"Sanctioned Jurisdictions\"²) and Sanctioned Parties. In this questionnaire Sanctioned Parties shall be understood to include any individual, entity, vessel or aircraft that is, or is owned by 50% or more or controlled (irrespective of ownership) by one or more persons that are listed on a Sanctions list or is otherwise target of any Sanctions.\n\nTo enable La Banque des Entreprises to document your sanctions exposure, the Sanctions Questionnaire is requested to be completed by an appropriate and authorised representative of your company. The responses provided should encompass and be fully applicable to and reflective of all subsidiaries, investments, joint-ventures, branches and representative offices, incorporated and/or based anywhere in the world, which are owned, controlled and/or managed by you. For the avoidance of doubt this would include subsidiary / subordinate entities which do not have any relationship with La Banque des Entreprises.\n\nPlease answer all questions of this document and complete the Sanctions Exposure Confirmation at the end of this document.\n\n## Customer Information\n\n| Company name: | Country of Incorporation: |\n|---|---|\n| **La Banque des Entreprises internal use** |\n| Grid: | La Banque des Entreprises booking location(s): |\n| La Banque des Entreprises Relationship Manager: |\n\n## Part 1\n\n| | Questions | Yes | No |\n|---|---|---|---|\n| 1 | Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction? *For the purpose of this Questionnaire, activity includes, but is not limited to:* a. *deriving revenue by selling goods, services to a party in, or otherwise receiving income from a Sanctioned Jurisdiction;* b. *incurring expenses by purchasing goods or services from, or providing humanitarian aid to a party in Sanctioned Jurisdiction;* c. *maintaining assets by physical presence, registration, operations, or investments in a Sanctioned Jurisdiction; or* d. *otherwise interacting or dealing with a Sanctioned Jurisdiction including, without limitation, through transfer, transport, transshipment;* *and in each case including, without limitation, through third parties or agents.* Please select \"Yes\" for any activity, including those activities that are not prohibited by Sanctions, or specifically authorized by a relevant sanctions authority. *If \"Yes\" is selected, please provide further details in Part 2.* |  |  |\n| 2 | Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry? *If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.* |  |  |\n\n¹ Including, without limitation, any type of trade embargoes, export restrictions and sectoral sanctions laws or regulations.\n² Due to the evolving nature Russia/Ukraine sanctions regimes this questionnaire includes Russia, Belarus, and the illegally annexed regions of Ukraine Zaporizhzhia, Kherson, Donetsk and Luhansk in the definition of \"Sanctioned Jurisdictions\" and requires the information on activities in these countries and territories.\n\n1 | Page",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Customer Information",
+          "label": "Company name:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            393,
+            318,
+            412
+          ],
+          "review": {
+            "status": "confirmed",
+            "notes": []
+          }
+        },
+        {
+          "section": "Customer Information",
+          "label": "Country of Incorporation:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            480,
+            393,
+            950,
+            412
+          ],
+          "review": {
+            "status": "confirmed",
+            "notes": []
+          }
+        },
+        {
+          "section": "La Banque des Entreprises internal use",
+          "label": "Grid:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": true,
+          "answer_bbox": [
+            80,
+            433,
+            318,
+            450
+          ],
+          "review": {
+            "status": "confirmed",
+            "notes": []
+          }
+        },
+        {
+          "section": "La Banque des Entreprises internal use",
+          "label": "La Banque des Entreprises booking location(s):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": true,
+          "answer_bbox": [
+            615,
+            430,
+            952,
+            447
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone started on the printed label 'booking location(s):'; moved right of the colon."
+            ]
+          }
+        },
+        {
+          "section": "La Banque des Entreprises internal use",
+          "label": "La Banque des Entreprises Relationship Manager:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": true,
+          "answer_bbox": [
+            360,
+            450,
+            952,
+            465
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone was 5/1000 below the row and started on the label; aligned to the grey row."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "1 Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                521,
+                869,
+                740
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                521,
+                952,
+                740
+              ]
+            }
+          ],
+          "instructions": "If \"Yes\" is selected, please provide further details in Part 2.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            790,
+            515,
+            945,
+            740
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Yes/No are table cells, not printed squares; aligned the cells to the measured row (521-740) and columns (777/869/952)."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "2 Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                740,
+                869,
+                944
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                740,
+                952,
+                944
+              ]
+            }
+          ],
+          "instructions": "If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            790,
+            745,
+            945,
+            855
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Yes/No cells stopped at y 855; the question row runs to 944."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "2 - details (if Yes)",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If 'Yes' to question 2: describe the activities and name the group entities involved. The grey box continues at the top of page 2.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            118,
+            862,
+            777,
+            885
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Label was the instruction sentence; added that the box continues on page 2."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 2,
+      "model": "dots-studio/dots-3-note-preview:free",
+      "page_type": "form",
+      "text": "3\nDo you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?\nIf “Yes” is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)\n\n4\nDo you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?\nIf “Yes” is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises’s involvement).\n\n5\nDo you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) Government of any of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?\nIf “Yes” is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.\nIf “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is isolated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities. Further, in case you, your branches/offices, subsidiaries, joint ventures conduct business activity with a Sanctioned Party or Sanctioned Government, but do not use any La Banque des Entreprises accounts/products/services for this, please indicate the name of the Sanctioned Party or Government, the sanctions program under which such party is listed and the percentages of revenue accumulated through the activity at group level and at entity level.\n(For Sanctioned Jurisdictions please provide the same information in Part 2 below)\n\n6\nDo you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either:\na. a Sanctioned Party\nb. located, organized, registered in, or operating from a Sanctioned Jurisdiction\nc. employed in a Sanctioned Jurisdiction, or\nd. who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?\nIf “Yes” is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.\n\n2 | Page",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Part 1",
+          "label": "2 - details (continued)",
+          "field_type": "text",
+          "answer_bbox": [
+            118,
+            43,
+            777,
+            91
+          ],
+          "instructions": "Continuation of the question 2 details box from page 1.",
+          "review": {
+            "status": "added",
+            "notes": [
+              "Model missed the top grey box, which continues question 2 from page 1."
+            ]
+          },
+          "options": [],
+          "bank_reserved": false
+        },
+        {
+          "section": "Part 1",
+          "label": "3 Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                91,
+                869,
+                237
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                91,
+                952,
+                237
+              ]
+            }
+          ],
+          "instructions": "If “Yes” is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            777,
+            91,
+            952,
+            237
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Question 3 was typed as text with no Yes/No cells; restored the Yes/No columns of the row."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "3 - details",
+          "field_type": "text",
+          "answer_bbox": [
+            118,
+            177,
+            777,
+            237
+          ],
+          "instructions": "If Yes: type of authorization, recipients, activities covered, issuing authority, expiration date.",
+          "review": {
+            "status": "added",
+            "notes": [
+              "Details box of question 3 was used as the zone of the question itself (and was offset); split into its own field at the measured grey box."
+            ]
+          },
+          "options": [],
+          "bank_reserved": false
+        },
+        {
+          "section": "Part 1",
+          "label": "4 Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                237,
+                869,
+                444
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                237,
+                952,
+                444
+              ]
+            }
+          ],
+          "instructions": "If “Yes” is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises’s involvement).",
+          "bank_reserved": false,
+          "answer_bbox": [
+            777,
+            237,
+            952,
+            444
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Question 4 was typed as text with no Yes/No cells; restored the Yes/No columns of the row."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "4 - details",
+          "field_type": "text",
+          "answer_bbox": [
+            118,
+            360,
+            777,
+            443
+          ],
+          "instructions": "If Yes: government/government-owned entity, activities, legal obligations or exposures, third parties, extent of La Banque des Entreprises' involvement.",
+          "review": {
+            "status": "added",
+            "notes": [
+              "Details box of question 4 was used as the zone of the question itself (and was offset); split into its own field at the measured grey box."
+            ]
+          },
+          "options": [],
+          "bank_reserved": false
+        },
+        {
+          "section": "Part 1",
+          "label": "5 Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) Government of any of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                444,
+                869,
+                760
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                444,
+                952,
+                760
+              ]
+            }
+          ],
+          "instructions": "If “Yes” is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used. If “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is isolated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities. Further, in case you, your branches/offices, subsidiaries, joint ventures conduct business activity with a Sanctioned Party or Sanctioned Government, but do not use any La Banque des Entreprises accounts/products/services for this, please indicate the name of the Sanctioned Party or Government, the sanctions program under which such party is listed and the percentages of revenue accumulated through the activity at group level and at entity level. (For Sanctioned Jurisdictions please provide the same information in Part 2 below)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            777,
+            444,
+            952,
+            760
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Question 5 was typed as text with no Yes/No cells; restored the Yes/No columns of the row."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "5 - details",
+          "field_type": "text",
+          "answer_bbox": [
+            118,
+            675,
+            777,
+            760
+          ],
+          "instructions": "If Yes: account/product/service or platform to be used and how. If No: controls ensuring the bank is insulated; if business with a Sanctioned Party/Government without using the bank, name it, the sanctions program and % of revenue at group and entity level. For Sanctioned Jurisdictions give the details in Part 2.",
+          "review": {
+            "status": "added",
+            "notes": [
+              "Details box of question 5 was used as the zone of the question itself (and was offset); split into its own field at the measured grey box."
+            ]
+          },
+          "options": [],
+          "bank_reserved": false
+        },
+        {
+          "section": "Part 1",
+          "label": "6 Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either: a. a Sanctioned Party b. located, organized, registered in, or operating from a Sanctioned Jurisdiction c. employed in a Sanctioned Jurisdiction, or d. who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                760,
+                869,
+                906
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                760,
+                952,
+                906
+              ]
+            }
+          ],
+          "instructions": "If “Yes” is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            777,
+            760,
+            952,
+            906
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Question 6 was typed as text with no Yes/No cells; restored the Yes/No columns of the row."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 3,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "If \"Yes\" was selected for any question above, then please answer question 7 below:\n\n7 Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?\n\n*If \"Yes\" is selected please provide further details of the policy and/or program below, including an overview of sanctions programs that you comply with (EU, UN, US, UK etc.) and whether the program includes a periodical assessment or audit.*\n\n*If \"No\" is selected – please provide further details on how you manage compliance with Sanctions otherwise, including without limitation details on screening and due diligence of clients, business partners and transactions on the potential involvement of sanctioned parties, jurisdictions and goods.*\n\n# Part 2\n\nIf \"Yes\" to question 1 of Part 1 is selected, please describe in detail any direct or indirect activity in or with Sanctioned Jurisdictions in Columns 1, 2 and/or 3 in the table below, as applicable.\nFor the avoidance of doubt, please also do so with respect to activities involving Sanctioned Jurisdictions that are not prohibited by Sanctions, or that are specifically authorized by a relevant sanctions authority.\n\nIf \"Yes\" is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.\n\nIn respect of each activity, please include in Columns 1, 2 and/or 3 (as the case may be): a) The percentage of revenue, assets or expenses from the Sanctioned Jurisdiction at group level b) A detailed description of the nature of the activity, legal obligations and exposures to the relevant Sanctioned Jurisdiction c) Third parties, such as customers, representatives, distributors, brokers, agents involved in the relevant activity d) The extent of La Banque des Entreprises's involvement in the activity. If La Banque des Entreprises is not involved, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity involving the Sanctioned Jurisdiction, and is not involved, directly or indirectly, in any such activities.\n\nIf any of the Column 1, 2 or 3 is completed, please include in **Column 4** the name or names of the legal entities involved in the activity and the percentage of exposure at entity level.\n\n| Sanctioned Jurisdiction | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n|  | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4. | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4. | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4 | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level. |\n| Belarus | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Crimea | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n\n3 \\| Page",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Part 1",
+          "label": "6 - details (if Yes)",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If 'Yes' to question 6: name the group entities involved and detail the activity (incl. % of ownership for a shareholding). Continues from page 2.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            118,
+            43,
+            777,
+            139
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Empty label: this grey box is the question 6 details box, continued from page 2."
+            ]
+          }
+        },
+        {
+          "section": "Question 7",
+          "label": "7 Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                777,
+                162,
+                869,
+                410
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                869,
+                162,
+                952,
+                410
+              ]
+            }
+          ],
+          "instructions": "Only if 'Yes' was selected for any question above (printed banner).",
+          "bank_reserved": false,
+          "answer_bbox": [
+            777,
+            162,
+            952,
+            410
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Typed as text without Yes/No; the conditional banner 'If Yes was selected for any question above' was missing."
+            ]
+          }
+        },
+        {
+          "section": "Part 1",
+          "label": "7 - details",
+          "field_type": "text",
+          "answer_bbox": [
+            118,
+            327,
+            777,
+            410
+          ],
+          "instructions": "If Yes: policy/program, sanctions programs complied with (EU, UN, US, UK...), periodic assessment/audit. If No: how sanctions compliance is otherwise managed (screening, due diligence).",
+          "review": {
+            "status": "added",
+            "notes": [
+              "Details box of question 7 was merged into the question; split so the Yes/No and the text can be filled separately."
+            ]
+          },
+          "options": [],
+          "bank_reserved": false
+        },
+        {
+          "section": "Part 2",
+          "label": "Belarus",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            861,
+            952,
+            907
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "One table field for the whole Part 2; split into one row per jurisdiction (Belarus here)."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Crimea",
+          "field_type": "table",
+          "options": [],
+          "bank_reserved": false,
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "answer_bbox": [
+            182,
+            909,
+            952,
+            956
+          ],
+          "review": {
+            "status": "added",
+            "notes": [
+              "Second Part 2 row on this page (Crimea) was not a separate field."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    },
+    {
+      "page": 4,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "| Cuba | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Iran | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| North Korea | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Russia | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Sudan | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Syria | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Zaporizhzhia | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Kherson | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Donetsk | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Luhansk | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n\n**Sanctions Exposure Confirmation**\n\nThe submitter attests that they have completed this form to the best of their knowledge and they have the requisite authority to complete this questionnaire on behalf of the Company and all its subsidiaries, investments, joint-ventures, branches and representative offices, incorporated and/or based anywhere in the world, including for the avoidance of doubt any subsidiary / subordinate entities which do not have any relationship with La Banque des Entreprises.\n\n| Name of submitter |  |\n| Name of company (including corp. suffix) |  |\n| Position within company |  |\n| Date | *[DD -MM -YYYY]* |\n\n4 | Page",
+      "review_notes": [],
+      "fields": [
+        {
+          "section": "Part 2",
+          "label": "Cuba",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            43,
+            952,
+            90
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Iran",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            92,
+            952,
+            139
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "North Korea",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            141,
+            952,
+            188
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Russia",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            190,
+            952,
+            237
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Sudan",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            239,
+            952,
+            286
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Syria",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            288,
+            952,
+            335
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Zaporizhzhia",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            337,
+            952,
+            384
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Kherson",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            386,
+            952,
+            433
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Donetsk",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            435,
+            952,
+            482
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Part 2",
+          "label": "Luhansk",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Column 1: % of revenue from the jurisdiction / total group revenue | Column 2: % of assets / total group assets | Column 3: % of expenses / total group expenses | Column 4: entities involved and % of revenue/assets/expenses at entity level. In columns 1-3, lines a)-d): a) % at group level, b) nature of the activity, legal obligations and exposures, c) third parties involved, d) extent of La Banque des Entreprises' involvement (or controls if not involved). Only if 'Yes' to Part 1 question 1.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            182,
+            484,
+            952,
+            532
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "qwen read the a)/b)/c)/d) lines of each jurisdiction row as 12 checkboxes; they are text lines of 3 columns plus a 4th entity column. Retyped as one table row per jurisdiction."
+            ]
+          }
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Name of submitter",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            595,
+            952,
+            606
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Rows were offset by up to 3/1000; aligned to the table lines."
+            ]
+          }
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Name of company (including corp. suffix)",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            607,
+            952,
+            618
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Rows were offset by up to 3/1000; aligned to the table lines."
+            ]
+          }
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Position within company",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            620,
+            952,
+            630
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Rows were offset by up to 3/1000; aligned to the table lines."
+            ]
+          }
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Date",
+          "field_type": "date",
+          "options": [],
+          "instructions": "[DD -MM -YYYY]",
+          "bank_reserved": false,
+          "answer_bbox": [
+            430,
+            632,
+            952,
+            643
+          ],
+          "review": {
+            "status": "corrected",
+            "notes": [
+              "Zone spanned two rows (626-644); aligned to the Date row. Format [DD-MM-YYYY] is printed in the cell. Value written right of the printed placeholder [DD -MM-YYYY] (x 349-420)."
+            ]
+          }
+        }
+      ],
+      "removed_fields": []
+    }
+  ]
+}
