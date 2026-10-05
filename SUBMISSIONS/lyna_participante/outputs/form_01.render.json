@@ -1,0 +1,831 @@
+{
+  "form_id": "form_01",
+  "source_pdf": "/home/lyna/kyc/datacraft/data/challenge/questionnaires/01_asterive_services.pdf",
+  "output_pdf": "outputs/form_01.filled.pdf",
+  "fields": [
+    {
+      "field_id": "form01_001",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Asterive Services SAS",
+          "zone": [
+            356.5,
+            152.57,
+            559.93,
+            177.52
+          ],
+          "lines": [
+            "Asterive Services SAS"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              358.5,
+              168.5370002371073
+            ]
+          ],
+          "bbox": [
+            358.5,
+            158.86199980795385,
+            448.5269996523857,
+            171.22800019204618
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        356.5,
+        152.57,
+        559.93,
+        177.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_002",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-RCS-A-001",
+          "zone": [
+            356.5,
+            179.44,
+            559.93,
+            204.39
+          ],
+          "lines": [
+            "SIM-RCS-A-001"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              358.5,
+              195.40700023710727
+            ]
+          ],
+          "bbox": [
+            358.5,
+            185.73199980795383,
+            423.5069999098778,
+            198.09800019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        356.5,
+        179.44,
+        559.93,
+        204.39
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_003",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          389.6,
+          214.47,
+          397.28,
+          222.15
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          361.29,
+          214.47,
+          368.97,
+          222.15
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_004",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        467.97,
+        238.42,
+        555.93,
+        265.77
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form01_005",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Asterive Participations SAS",
+          "zone": [
+            356.5,
+            294.11,
+            559.93,
+            319.06
+          ],
+          "lines": [
+            "Asterive Participations SAS"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              358.5,
+              310.0770002371073
+            ]
+          ],
+          "bbox": [
+            358.5,
+            300.40199980795387,
+            468.0389994978905,
+            312.7680001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        356.5,
+        294.11,
+        559.93,
+        319.06
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_006",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            356.5,
+            320.98,
+            559.93,
+            345.93
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              358.5,
+              336.9470002371073
+            ]
+          ],
+          "bbox": [
+            358.5,
+            327.2719998079539,
+            386.5079998970032,
+            339.6380001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        356.5,
+        320.98,
+        559.93,
+        345.93
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_007",
+      "page": 1,
+      "status": "missing_information",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        356.5,
+        347.85,
+        559.93,
+        372.8
+      ],
+      "reason": "missing information: left blank"
+    },
+    {
+      "field_id": "form01_008",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "40 place du Groupe Fictif, 69000 Lyon, France",
+          "zone": [
+            356.02,
+            374.72,
+            559.93,
+            400.15
+          ],
+          "lines": [
+            "40 place du Groupe Fictif, 69000 Lyon, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              358.02,
+              390.9270002371073
+            ]
+          ],
+          "bbox": [
+            358.02,
+            381.25199980795384,
+            543.6179987382889,
+            393.61800019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        356.02,
+        374.72,
+        559.93,
+        400.15
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_009",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          503.78,
+          282.61,
+          511.46
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          503.78,
+          177.53,
+          511.46
+        ],
+        "planned": [
+          360.81,
+          503.78,
+          368.97,
+          511.46
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_010",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          537.85,
+          282.61,
+          545.53
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          537.85,
+          177.53,
+          545.53
+        ],
+        "planned": [
+          360.81,
+          537.85,
+          368.97,
+          545.53
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_011",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          571.92,
+          282.61,
+          579.59
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          571.92,
+          177.53,
+          579.59
+        ],
+        "planned": [
+          360.81,
+          571.92,
+          368.97,
+          579.59
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_012",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          606.46,
+          282.61,
+          614.14
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          606.46,
+          177.53,
+          614.14
+        ],
+        "planned": [
+          360.81,
+          606.46,
+          368.97,
+          614.14
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_013",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          641.01,
+          282.61,
+          648.68
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          641.01,
+          177.53,
+          648.68
+        ],
+        "planned": [
+          360.81,
+          641.01,
+          368.97,
+          648.68
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_014",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          675.07,
+          282.61,
+          682.75
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          675.07,
+          177.53,
+          682.75
+        ],
+        "planned": [
+          360.81,
+          675.07,
+          368.97,
+          682.75
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_015",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          709.14,
+          282.61,
+          716.81
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          709.14,
+          177.53,
+          716.81
+        ],
+        "planned": [
+          360.81,
+          709.14,
+          368.97,
+          716.81
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_016",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          743.68,
+          282.61,
+          751.36
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          743.68,
+          177.53,
+          751.36
+        ],
+        "planned": [
+          360.81,
+          743.68,
+          368.97,
+          751.36
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_017",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          777.75,
+          282.61,
+          785.9
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          778.23,
+          177.53,
+          785.9
+        ],
+        "planned": [
+          360.81,
+          777.75,
+          368.97,
+          785.9
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_018",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          68.61,
+          282.61,
+          76.29
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          68.61,
+          177.53,
+          76.29
+        ],
+        "planned": [
+          360.81,
+          68.61,
+          368.97,
+          76.29
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_019",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          274.93,
+          103.16,
+          282.61,
+          110.83
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          169.85,
+          103.16,
+          177.53,
+          110.83
+        ],
+        "planned": [
+          360.81,
+          103.16,
+          368.97,
+          110.83
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_020",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Élodie Varenne",
+          "zone": [
+            122.51,
+            214.95,
+            555.4400024414062,
+            230.78
+          ],
+          "lines": [
+            "Élodie Varenne"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              124.51,
+              226.3570002371073
+            ]
+          ],
+          "bbox": [
+            124.51,
+            216.68199980795384,
+            184.04499954938888,
+            229.04800019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        122.51,
+        214.95,
+        555.4400024414062,
+        230.78
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_021",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Présidente",
+          "zone": [
+            111.96,
+            239.9,
+            555.4400024414062,
+            253.81
+          ],
+          "lines": [
+            "Présidente"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              113.96,
+              250.3470002371073
+            ]
+          ],
+          "bbox": [
+            113.96,
+            240.67199980795385,
+            152.4799997425079,
+            253.03800019204618
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        111.96,
+        239.9,
+        555.4400024414062,
+        253.81
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_022",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "01",
+          "zone": [
+            80.29,
+            263.89,
+            106.92,
+            279.24
+          ],
+          "lines": [
+            "01"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              88.60100005149842,
+              275.0570002371073
+            ]
+          ],
+          "bbox": [
+            88.60100005149842,
+            265.38199980795383,
+            98.60899994850159,
+            277.74800019204616
+          ]
+        },
+        {
+          "text": "09",
+          "zone": [
+            115.71,
+            263.89,
+            141.46,
+            279.24
+          ],
+          "lines": [
+            "09"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              123.58100005149842,
+              275.0570002371073
+            ]
+          ],
+          "bbox": [
+            123.58100005149842,
+            265.38199980795383,
+            133.5889999485016,
+            277.74800019204616
+          ]
+        },
+        {
+          "text": "2026",
+          "zone": [
+            150.26,
+            263.89,
+            555.4400024414062,
+            279.24
+          ],
+          "lines": [
+            "2026"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              152.26,
+              275.0570002371073
+            ]
+          ],
+          "bbox": [
+            152.26,
+            265.38199980795383,
+            172.27599979400634,
+            277.74800019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        80.29,
+        263.89,
+        555.4400024414062,
+        279.24
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form01_023",
+      "page": 2,
+      "status": "human_action",
+      "zone_type": "signature",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        33.59,
+        283.24,
+        233.59,
+        343.24
+      ],
+      "reason": "signature left for a human"
+    }
+  ],
+  "check_errors": []
+}

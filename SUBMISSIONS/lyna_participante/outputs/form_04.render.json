@@ -1,0 +1,7581 @@
+{
+  "form_id": "form_04",
+  "source_pdf": "/home/lyna/kyc/datacraft/data/challenge/questionnaires/04_belorive_patrimoine.pdf",
+  "output_pdf": "outputs/form_04.filled.pdf",
+  "fields": [
+    {
+      "field_id": "form04_001",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Belorive Patrimoine SAS",
+          "zone": [
+            99.48,
+            331.02,
+            186.48,
+            344.93
+          ],
+          "lines": [
+            "Belorive Patrimoine SAS"
+          ],
+          "fontsize": 7.5,
+          "origins": [
+            [
+              101.48,
+              340.8850001975894
+            ]
+          ],
+          "bbox": [
+            101.48,
+            332.82249983996155,
+            183.58999965667726,
+            343.1275001600385
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        99.48,
+        331.02,
+        186.48,
+        344.93
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_002",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            292.84,
+            331.02,
+            562.17,
+            344.93
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              294.84,
+              341.4670002371073
+            ]
+          ],
+          "bbox": [
+            294.84,
+            331.79199980795386,
+            322.84799989700315,
+            344.1580001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        292.84,
+        331.02,
+        562.17,
+        344.93
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_003",
+      "page": 1,
+      "status": "bank_reserved",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        56.78,
+        359.81,
+        186.48,
+        374.68
+      ],
+      "reason": "bank reserved: left blank"
+    },
+    {
+      "field_id": "form04_004",
+      "page": 1,
+      "status": "bank_reserved",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        369.13,
+        360.77,
+        562.17,
+        374.68
+      ],
+      "reason": "bank reserved: left blank"
+    },
+    {
+      "field_id": "form04_005",
+      "page": 1,
+      "status": "bank_reserved",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        216.55,
+        376.12,
+        562.17,
+        390.03
+      ],
+      "reason": "bank reserved: left blank"
+    },
+    {
+      "field_id": "form04_006",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          463.97,
+          439.97,
+          516.75,
+          621.81
+        ]
+      },
+      "unchecked": {
+        "no": [
+          518.67,
+          439.97,
+          566.17,
+          621.81
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_007",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          518.67,
+          623.73,
+          566.17,
+          745.12
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          463.97,
+          623.73,
+          516.75,
+          745.12
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_008",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.01,
+        725.93,
+        462.05,
+        745.12
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_009",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          463.97,
+          78.21,
+          516.75,
+          199.11
+        ]
+      },
+      "unchecked": {
+        "no": [
+          518.67,
+          78.21,
+          566.17,
+          199.11
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_010",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-AUTH-B-01: Fictional sanctions wind-down authorization; recipient: Belorive Clôture Russia LLC; activities: Administrative closure and recovery of existing receivables only; no new sales/investment; authority: Simulation Authorization Office; expiry: 2026-12-31",
+          "zone": [
+            71.01,
+            149.7,
+            462.05,
+            199.11
+          ],
+          "lines": [
+            "SIM-AUTH-B-01: Fictional sanctions wind-down authorization; recipient: Belorive Clôture Russia",
+            "LLC; activities: Administrative closure and recovery of existing receivables only; no new",
+            "sales/investment; authority: Simulation Authorization Office; expiry: 2026-12-31"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              73.01,
+              164.29439981460573
+            ],
+            [
+              73.01,
+              177.89700023710728
+            ],
+            [
+              73.01,
+              191.49960065960886
+            ]
+          ],
+          "bbox": [
+            73.01,
+            154.61939938545228,
+            452.620998570919,
+            194.19060061454775
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.01,
+        149.7,
+        462.05,
+        199.11
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_011",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          518.67,
+          201.03,
+          566.17,
+          372.8
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          463.97,
+          201.03,
+          516.75,
+          373.28
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_012",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.01,
+        303.23,
+        462.05,
+        372.8
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_013",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          518.67,
+          375.2,
+          566.17,
+          639.09
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          463.97,
+          375.2,
+          516.75,
+          639.09
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_014",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+          "zone": [
+            71.01,
+            569.04,
+            462.05,
+            639.09
+          ],
+          "lines": [
+            "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered",
+            "activities; segregated ledgers and separate banking channels are used, treasury blocks covered",
+            "payments and cash-pool transfers, compliance approves routing and reconciles monthly. No",
+            "indirect issuer financing or settlement is permitted."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              73.01,
+              587.1530996033549
+            ],
+            [
+              73.01,
+              600.7557000258565
+            ],
+            [
+              73.01,
+              614.358300448358
+            ],
+            [
+              73.01,
+              627.9609008708596
+            ]
+          ],
+          "bbox": [
+            73.01,
+            577.4780991742015,
+            454.6909976696968,
+            630.6519008257985
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.01,
+        569.04,
+        462.05,
+        639.09
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_015",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          463.97,
+          641.01,
+          516.75,
+          761.91
+        ]
+      },
+      "unchecked": {
+        "no": [
+          518.67,
+          641.01,
+          566.17,
+          761.91
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_016",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Julien Valsenne, Director of Belorive Clôture Russia LLC: nationality France, residence Russia, ownership 0%, sanctions-listed: no, government role: no",
+          "zone": [
+            71.01,
+            36.46,
+            462.05,
+            116.59
+          ],
+          "lines": [
+            "Julien Valsenne, Director of Belorive Clôture Russia LLC: nationality France, residence Russia,",
+            "ownership 0%, sanctions-listed: no, government role: no"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              73.01,
+              73.21570002585649
+            ],
+            [
+              73.01,
+              86.81830044835806
+            ]
+          ],
+          "bbox": [
+            73.01,
+            63.54069959670305,
+            448.64299828767776,
+            89.50930040329695
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.01,
+        36.46,
+        462.05,
+        116.59
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_017",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          463.97,
+          137.7,
+          516.75,
+          346.41
+        ]
+      },
+      "unchecked": {
+        "no": [
+          518.67,
+          137.7,
+          566.17,
+          346.41
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_018",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+          "zone": [
+            71.01,
+            275.88,
+            462.05,
+            346.41
+          ],
+          "lines": [
+            "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial",
+            "owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and",
+            "before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance",
+            "investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit",
+            "(last 2026-06-30), annual staff training, escalation and incident records are maintained."
+          ],
+          "fontsize": 8.0,
+          "origins": [
+            [
+              73.01,
+              290.06659945964816
+            ],
+            [
+              73.01,
+              302.1577998352051
+            ],
+            [
+              73.01,
+              314.24900021076206
+            ],
+            [
+              73.01,
+              326.340200586319
+            ],
+            [
+              73.01,
+              338.43140096187597
+            ]
+          ],
+          "bbox": [
+            73.01,
+            281.46659907817843,
+            456.72199798583983,
+            340.82340092182164
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.01,
+        275.88,
+        462.05,
+        346.41
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_019",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "1%",
+          "zone": [
+            128.19,
+            724.49,
+            213.03,
+            734.325
+          ],
+          "lines": [
+            "1%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              130.19,
+              731.9295001712442
+            ]
+          ],
+          "bbox": [
+            130.19,
+            724.9419998613,
+            139.58249995350837,
+            733.8730001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        724.49,
+        213.03,
+        734.325
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_020",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        734.325,
+        213.03,
+        744.1600000000001
+      ],
+      "reason": "'Existing property leases to private commercial tenants; no new investments contemplated.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_021",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Locataire Boréal SIM LLC",
+          "zone": [
+            128.19,
+            744.1600000000001,
+            213.03,
+            753.995
+          ],
+          "lines": [
+            "Locataire Boréal SIM LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              130.19,
+              751.5995001712441
+            ]
+          ],
+          "bbox": [
+            130.19,
+            744.6119998613,
+            200.994499655962,
+            753.5430001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        744.1600000000001,
+        213.03,
+        753.995
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_022",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        753.995,
+        213.03,
+        763.83
+      ],
+      "reason": "'Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_023",
+      "page": 3,
+      "status": "missing_information",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        724.49,
+        326.75,
+        734.325
+      ],
+      "reason": "missing information: left blank"
+    },
+    {
+      "field_id": "form04_024",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        734.325,
+        326.75,
+        744.1600000000001
+      ],
+      "reason": "'Existing property leases to private commercial tenants; no new investments contemplated.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_025",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Locataire Boréal SIM LLC",
+          "zone": [
+            232.79,
+            744.1600000000001,
+            326.75,
+            753.995
+          ],
+          "lines": [
+            "Locataire Boréal SIM LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              751.5995001712441
+            ]
+          ],
+          "bbox": [
+            234.79,
+            744.6119998613,
+            305.59449965596195,
+            753.5430001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        744.1600000000001,
+        326.75,
+        753.995
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_026",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        753.995,
+        326.75,
+        763.83
+      ],
+      "reason": "'Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_027",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0.5%",
+          "zone": [
+            346.98,
+            724.49,
+            462.05,
+            734.325
+          ],
+          "lines": [
+            "0.5%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              348.98,
+              731.9295001712442
+            ]
+          ],
+          "bbox": [
+            348.98,
+            724.9419998613,
+            363.79349989771845,
+            733.8730001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        724.49,
+        462.05,
+        734.325
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_028",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        734.325,
+        462.05,
+        744.1600000000001
+      ],
+      "reason": "'Existing property leases to private commercial tenants; no new investments contemplated.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_029",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Locataire Boréal SIM LLC",
+          "zone": [
+            346.98,
+            744.1600000000001,
+            462.05,
+            753.995
+          ],
+          "lines": [
+            "Locataire Boréal SIM LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              348.98,
+              751.5995001712441
+            ]
+          ],
+          "bbox": [
+            348.98,
+            744.6119998613,
+            419.784499655962,
+            753.5430001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        744.1600000000001,
+        462.05,
+        753.995
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_030",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        753.995,
+        462.05,
+        763.83
+      ],
+      "reason": "'Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_031",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Belorive Immobilier Belarus LLC",
+          "zone": [
+            463.97,
+            724.49,
+            566.17,
+            734.325
+          ],
+          "lines": [
+            "Belorive Immobilier Belarus LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              731.9295001712442
+            ]
+          ],
+          "bbox": [
+            465.97,
+            724.9419998613,
+            558.7964997303486,
+            733.8730001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        724.49,
+        566.17,
+        734.325
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_032",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "10%",
+          "zone": [
+            463.97,
+            734.325,
+            566.17,
+            744.1600000000001
+          ],
+          "lines": [
+            "10%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              741.7645001712442
+            ]
+          ],
+          "bbox": [
+            465.97,
+            734.7769998613,
+            478.9764999163151,
+            743.7080001387001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        734.325,
+        566.17,
+        744.1600000000001
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_033",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "10%",
+          "zone": [
+            463.97,
+            744.1600000000001,
+            566.17,
+            753.995
+          ],
+          "lines": [
+            "10%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              751.5995001712441
+            ]
+          ],
+          "bbox": [
+            465.97,
+            744.6119998613,
+            478.9764999163151,
+            753.5430001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        744.1600000000001,
+        566.17,
+        753.995
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_034",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "6%",
+          "zone": [
+            463.97,
+            753.995,
+            566.17,
+            763.83
+          ],
+          "lines": [
+            "6%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              761.4345001712442
+            ]
+          ],
+          "bbox": [
+            465.97,
+            754.4469998613,
+            475.3624999535084,
+            763.3780001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        753.995,
+        566.17,
+        763.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_035",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            128.19,
+            765.75,
+            213.03,
+            775.5875
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              130.19,
+              773.1907501712441
+            ]
+          ],
+          "bbox": [
+            130.19,
+            766.2032498612999,
+            139.58249995350837,
+            775.1342501386999
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        765.75,
+        213.03,
+        775.5875
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_036",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            128.19,
+            775.5875,
+            213.03,
+            785.425
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              130.19,
+              782.4462501317262
+            ]
+          ],
+          "bbox": [
+            130.19,
+            777.0712498933076,
+            208.82999962806701,
+            783.9412501066922
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        775.5875,
+        213.03,
+        785.425
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_037",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            128.19,
+            785.425,
+            213.03,
+            795.2625
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              130.19,
+              792.2837501317263
+            ]
+          ],
+          "bbox": [
+            130.19,
+            786.9087498933077,
+            208.82999962806701,
+            793.7787501066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        785.425,
+        213.03,
+        795.2625
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_038",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            128.19,
+            795.2625,
+            213.03,
+            805.1
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              130.19,
+              802.1212501317262
+            ]
+          ],
+          "bbox": [
+            130.19,
+            796.7462498933077,
+            208.82999962806701,
+            803.6162501066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        128.19,
+        795.2625,
+        213.03,
+        805.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_039",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            765.75,
+            326.75,
+            775.5875
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              773.1907501712441
+            ]
+          ],
+          "bbox": [
+            234.79,
+            766.2032498612999,
+            244.18249995350837,
+            775.1342501386999
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        765.75,
+        326.75,
+        775.5875
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_040",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            775.5875,
+            326.75,
+            785.425
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              782.6402501448988
+            ]
+          ],
+          "bbox": [
+            234.79,
+            776.7277498826384,
+            321.2939995908737,
+            784.2847501173615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        775.5875,
+        326.75,
+        785.425
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_041",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            785.425,
+            326.75,
+            795.2625
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              792.4777501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            786.5652498826385,
+            321.2939995908737,
+            794.1222501173615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        785.425,
+        326.75,
+        795.2625
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_042",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            795.2625,
+            326.75,
+            805.1
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              802.3152501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            796.4027498826384,
+            321.2939995908737,
+            803.9597501173615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        795.2625,
+        326.75,
+        805.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_043",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            346.98,
+            765.75,
+            462.05,
+            775.5875
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              348.98,
+              773.1907501712441
+            ]
+          ],
+          "bbox": [
+            348.98,
+            766.2032498612999,
+            358.3724999535084,
+            775.1342501386999
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        765.75,
+        462.05,
+        775.5875
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_044",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            346.98,
+            775.5875,
+            462.05,
+            785.425
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              348.98,
+              783.028250171244
+            ]
+          ],
+          "bbox": [
+            348.98,
+            776.0407498612999,
+            451.21199951648714,
+            784.9717501386999
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        775.5875,
+        462.05,
+        785.425
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_045",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            346.98,
+            785.425,
+            462.05,
+            795.2625
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              348.98,
+              792.8657501712441
+            ]
+          ],
+          "bbox": [
+            348.98,
+            785.8782498613,
+            451.21199951648714,
+            794.8092501387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        785.425,
+        462.05,
+        795.2625
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_046",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            346.98,
+            795.2625,
+            462.05,
+            805.1
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              348.98,
+              802.7032501712441
+            ]
+          ],
+          "bbox": [
+            348.98,
+            795.7157498613,
+            451.21199951648714,
+            804.6467501387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        346.98,
+        795.2625,
+        462.05,
+        805.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_047",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        765.75,
+        566.17,
+        775.5875
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_048",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        775.5875,
+        566.17,
+        785.425
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_049",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        785.425,
+        566.17,
+        795.2625
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_050",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        795.2625,
+        566.17,
+        805.1
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_051",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            36.46,
+            213.03,
+            46.417500000000004
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              43.96075017124414
+            ]
+          ],
+          "bbox": [
+            131.15,
+            36.97324986129999,
+            140.54249995350838,
+            45.90425013870001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        36.46,
+        213.03,
+        46.417500000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_052",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            46.417500000000004,
+            213.03,
+            56.375
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              53.33625013172627
+            ]
+          ],
+          "bbox": [
+            131.15,
+            47.96124989330769,
+            209.78999962806702,
+            54.831250106692316
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        46.417500000000004,
+        213.03,
+        56.375
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_053",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            56.375,
+            213.03,
+            66.33250000000001
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              63.29375013172627
+            ]
+          ],
+          "bbox": [
+            131.15,
+            57.91874989330769,
+            209.78999962806702,
+            64.78875010669232
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        56.375,
+        213.03,
+        66.33250000000001
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_054",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            66.33250000000001,
+            213.03,
+            76.29
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              73.25125013172627
+            ]
+          ],
+          "bbox": [
+            131.15,
+            67.87624989330769,
+            209.78999962806702,
+            74.74625010669232
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        66.33250000000001,
+        213.03,
+        76.29
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_055",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            36.46,
+            326.75,
+            46.417500000000004
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              43.96075017124414
+            ]
+          ],
+          "bbox": [
+            234.79,
+            36.97324986129999,
+            244.18249995350837,
+            45.90425013870001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        36.46,
+        326.75,
+        46.417500000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_056",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            46.417500000000004,
+            326.75,
+            56.375
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              53.53025014489889
+            ]
+          ],
+          "bbox": [
+            234.79,
+            47.617749882638456,
+            321.2939995908737,
+            55.17475011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        46.417500000000004,
+        326.75,
+        56.375
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_057",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            56.375,
+            326.75,
+            66.33250000000001
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              63.4877501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            57.57524988263846,
+            321.2939995908737,
+            65.13225011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        56.375,
+        326.75,
+        66.33250000000001
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_058",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            66.33250000000001,
+            326.75,
+            76.29
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              73.44525014489889
+            ]
+          ],
+          "bbox": [
+            234.79,
+            67.53274988263846,
+            321.2939995908737,
+            75.08975011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        66.33250000000001,
+        326.75,
+        76.29
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_059",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            36.46,
+            462.05,
+            46.417500000000004
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              43.96075017124414
+            ]
+          ],
+          "bbox": [
+            349.46,
+            36.97324986129999,
+            358.85249995350836,
+            45.90425013870001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        36.46,
+        462.05,
+        46.417500000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_060",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            46.417500000000004,
+            462.05,
+            56.375
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              53.918250171244146
+            ]
+          ],
+          "bbox": [
+            349.46,
+            46.930749861299994,
+            451.6919995164871,
+            55.86175013870001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        46.417500000000004,
+        462.05,
+        56.375
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_061",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            56.375,
+            462.05,
+            66.33250000000001
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              63.87575017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            56.8882498613,
+            451.6919995164871,
+            65.81925013870001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        56.375,
+        462.05,
+        66.33250000000001
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_062",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            66.33250000000001,
+            462.05,
+            76.29
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              73.83325017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            66.84574986129999,
+            451.6919995164871,
+            75.77675013870001
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        66.33250000000001,
+        462.05,
+        76.29
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_063",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        36.46,
+        566.17,
+        46.2975
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_064",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        46.2975,
+        566.17,
+        56.135000000000005
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_065",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        56.135000000000005,
+        566.17,
+        65.9725
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_066",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        65.9725,
+        566.17,
+        75.81
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_067",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            78.21,
+            213.03,
+            87.925
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              85.58950017124414
+            ]
+          ],
+          "bbox": [
+            131.15,
+            78.60199986129999,
+            140.54249995350838,
+            87.5330001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        78.21,
+        213.03,
+        87.925
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_068",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            87.925,
+            213.03,
+            97.63999999999999
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              94.72250013172625
+            ]
+          ],
+          "bbox": [
+            131.15,
+            89.34749989330767,
+            209.78999962806702,
+            96.2175001066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        87.925,
+        213.03,
+        97.63999999999999
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_069",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            97.63999999999999,
+            213.03,
+            107.35499999999999
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              104.43750013172625
+            ]
+          ],
+          "bbox": [
+            131.15,
+            99.06249989330767,
+            209.78999962806702,
+            105.9325001066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        97.63999999999999,
+        213.03,
+        107.35499999999999
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_070",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            107.35499999999999,
+            213.03,
+            117.07
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              114.15250013172626
+            ]
+          ],
+          "bbox": [
+            131.15,
+            108.77749989330768,
+            209.78999962806702,
+            115.6475001066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        107.35499999999999,
+        213.03,
+        117.07
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_071",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            78.21,
+            326.75,
+            87.925
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              85.58950017124414
+            ]
+          ],
+          "bbox": [
+            234.79,
+            78.60199986129999,
+            244.18249995350837,
+            87.5330001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        78.21,
+        326.75,
+        87.925
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_072",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            87.925,
+            326.75,
+            97.63999999999999
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              94.91650014489888
+            ]
+          ],
+          "bbox": [
+            234.79,
+            89.00399988263844,
+            321.2939995908737,
+            96.56100011736153
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        87.925,
+        326.75,
+        97.63999999999999
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_073",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            97.63999999999999,
+            326.75,
+            107.35499999999999
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              104.63150014489888
+            ]
+          ],
+          "bbox": [
+            234.79,
+            98.71899988263844,
+            321.2939995908737,
+            106.27600011736153
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        97.63999999999999,
+        326.75,
+        107.35499999999999
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_074",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            107.35499999999999,
+            326.75,
+            117.07
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              114.34650014489888
+            ]
+          ],
+          "bbox": [
+            234.79,
+            108.43399988263845,
+            321.2939995908737,
+            115.99100011736154
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        107.35499999999999,
+        326.75,
+        117.07
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_075",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            78.21,
+            462.05,
+            87.925
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              85.58950017124414
+            ]
+          ],
+          "bbox": [
+            349.46,
+            78.60199986129999,
+            358.85249995350836,
+            87.5330001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        78.21,
+        462.05,
+        87.925
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_076",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            87.925,
+            462.05,
+            97.63999999999999
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              95.30450017124413
+            ]
+          ],
+          "bbox": [
+            349.46,
+            88.31699986129998,
+            451.6919995164871,
+            97.2480001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        87.925,
+        462.05,
+        97.63999999999999
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_077",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            97.63999999999999,
+            462.05,
+            107.35499999999999
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              105.01950017124413
+            ]
+          ],
+          "bbox": [
+            349.46,
+            98.03199986129998,
+            451.6919995164871,
+            106.9630001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        97.63999999999999,
+        462.05,
+        107.35499999999999
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_078",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            107.35499999999999,
+            462.05,
+            117.07
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              114.73450017124414
+            ]
+          ],
+          "bbox": [
+            349.46,
+            107.74699986129998,
+            451.6919995164871,
+            116.6780001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        107.35499999999999,
+        462.05,
+        117.07
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_079",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        78.21,
+        566.17,
+        87.925
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_080",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        87.925,
+        566.17,
+        97.63999999999999
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_081",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        97.63999999999999,
+        566.17,
+        107.35499999999999
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_082",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        107.35499999999999,
+        566.17,
+        117.07
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_083",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            118.99,
+            213.03,
+            128.825
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              126.42950017124413
+            ]
+          ],
+          "bbox": [
+            131.15,
+            119.44199986129998,
+            140.54249995350838,
+            128.37300013869998
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        118.99,
+        213.03,
+        128.825
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_084",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            128.825,
+            213.03,
+            138.66
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              135.68250013172627
+            ]
+          ],
+          "bbox": [
+            131.15,
+            130.3074998933077,
+            209.78999962806702,
+            137.17750010669232
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        128.825,
+        213.03,
+        138.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_085",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            138.66,
+            213.03,
+            148.495
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              145.51750013172628
+            ]
+          ],
+          "bbox": [
+            131.15,
+            140.1424998933077,
+            209.78999962806702,
+            147.01250010669233
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        138.66,
+        213.03,
+        148.495
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_086",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            148.495,
+            213.03,
+            158.33
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              155.3525001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            149.9774998933077,
+            209.78999962806702,
+            156.84750010669234
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        148.495,
+        213.03,
+        158.33
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_087",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            118.99,
+            326.75,
+            128.825
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              126.42950017124413
+            ]
+          ],
+          "bbox": [
+            234.79,
+            119.44199986129998,
+            244.18249995350837,
+            128.37300013869998
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        118.99,
+        326.75,
+        128.825
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_088",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            128.825,
+            326.75,
+            138.66
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              135.8765001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            129.96399988263846,
+            321.2939995908737,
+            137.52100011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        128.825,
+        326.75,
+        138.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_089",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            138.66,
+            326.75,
+            148.495
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              145.7115001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            139.79899988263847,
+            321.2939995908737,
+            147.35600011736156
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        138.66,
+        326.75,
+        148.495
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_090",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            148.495,
+            326.75,
+            158.33
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              155.5465001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            149.63399988263848,
+            321.2939995908737,
+            157.19100011736157
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        148.495,
+        326.75,
+        158.33
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_091",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            118.99,
+            462.05,
+            128.825
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              126.42950017124413
+            ]
+          ],
+          "bbox": [
+            349.46,
+            119.44199986129998,
+            358.85249995350836,
+            128.37300013869998
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        118.99,
+        462.05,
+        128.825
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_092",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            128.825,
+            462.05,
+            138.66
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              136.26450017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            129.2769998613,
+            451.6919995164871,
+            138.20800013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        128.825,
+        462.05,
+        138.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_093",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            138.66,
+            462.05,
+            148.495
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              146.09950017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            139.1119998613,
+            451.6919995164871,
+            148.04300013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        138.66,
+        462.05,
+        148.495
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_094",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            148.495,
+            462.05,
+            158.33
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              155.93450017124417
+            ]
+          ],
+          "bbox": [
+            349.46,
+            148.94699986130001,
+            451.6919995164871,
+            157.87800013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        148.495,
+        462.05,
+        158.33
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_095",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        118.99,
+        566.17,
+        128.825
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_096",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        128.825,
+        566.17,
+        138.66
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_097",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        138.66,
+        566.17,
+        148.495
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_098",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        148.495,
+        566.17,
+        158.33
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_099",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            160.25,
+            213.03,
+            170.085
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              167.68950017124416
+            ]
+          ],
+          "bbox": [
+            131.15,
+            160.7019998613,
+            140.54249995350838,
+            169.63300013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        160.25,
+        213.03,
+        170.085
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_100",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        170.085,
+        213.03,
+        179.92000000000002
+      ],
+      "reason": "'Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_101",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Archivage Nord SIM LLC",
+          "zone": [
+            129.15,
+            179.92000000000002,
+            213.03,
+            189.755
+          ],
+          "lines": [
+            "Archivage Nord SIM LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              187.35950017124415
+            ]
+          ],
+          "bbox": [
+            131.15,
+            180.3719998613,
+            203.03349971175194,
+            189.3030001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        179.92000000000002,
+        213.03,
+        189.755
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_102",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        189.755,
+        213.03,
+        199.59
+      ],
+      "reason": "'Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_103",
+      "page": 4,
+      "status": "missing_information",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        160.25,
+        326.75,
+        170.085
+      ],
+      "reason": "missing information: left blank"
+    },
+    {
+      "field_id": "form04_104",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        170.085,
+        326.75,
+        179.92000000000002
+      ],
+      "reason": "'Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_105",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Archivage Nord SIM LLC",
+          "zone": [
+            232.79,
+            179.92000000000002,
+            326.75,
+            189.755
+          ],
+          "lines": [
+            "Archivage Nord SIM LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              187.35950017124415
+            ]
+          ],
+          "bbox": [
+            234.79,
+            180.3719998613,
+            306.6734997117519,
+            189.3030001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        179.92000000000002,
+        326.75,
+        189.755
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_106",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        189.755,
+        326.75,
+        199.59
+      ],
+      "reason": "'Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_107",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0.2%",
+          "zone": [
+            347.46,
+            160.25,
+            462.05,
+            170.085
+          ],
+          "lines": [
+            "0.2%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              167.68950017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            160.7019998613,
+            364.2734998977184,
+            169.63300013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        160.25,
+        462.05,
+        170.085
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_108",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        170.085,
+        462.05,
+        179.92000000000002
+      ],
+      "reason": "'Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_109",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Archivage Nord SIM LLC",
+          "zone": [
+            347.46,
+            179.92000000000002,
+            462.05,
+            189.755
+          ],
+          "lines": [
+            "Archivage Nord SIM LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              187.35950017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            180.3719998613,
+            421.3434997117519,
+            189.3030001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        179.92000000000002,
+        462.05,
+        189.755
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_110",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        189.755,
+        462.05,
+        199.59
+      ],
+      "reason": "'Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form04_111",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Belorive Clôture Russia LLC",
+          "zone": [
+            463.97,
+            160.25,
+            566.17,
+            170.085
+          ],
+          "lines": [
+            "Belorive Clôture Russia LLC"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              167.68950017124416
+            ]
+          ],
+          "bbox": [
+            465.97,
+            160.7019998613,
+            545.7964997303486,
+            169.63300013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        160.25,
+        566.17,
+        170.085
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_112",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        170.085,
+        566.17,
+        179.92000000000002
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_113",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "20%",
+          "zone": [
+            463.97,
+            179.92000000000002,
+            566.17,
+            189.755
+          ],
+          "lines": [
+            "20%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              187.35950017124415
+            ]
+          ],
+          "bbox": [
+            465.97,
+            180.3719998613,
+            478.9764999163151,
+            189.3030001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        179.92000000000002,
+        566.17,
+        189.755
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_114",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "20%",
+          "zone": [
+            463.97,
+            189.755,
+            566.17,
+            199.59
+          ],
+          "lines": [
+            "20%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              465.97,
+              197.19450017124416
+            ]
+          ],
+          "bbox": [
+            465.97,
+            190.2069998613,
+            478.9764999163151,
+            199.13800013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        189.755,
+        566.17,
+        199.59
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_115",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            201.51,
+            213.03,
+            211.3475
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              208.95075017124415
+            ]
+          ],
+          "bbox": [
+            131.15,
+            201.9632498613,
+            140.54249995350838,
+            210.89425013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        201.51,
+        213.03,
+        211.3475
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_116",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            211.3475,
+            213.03,
+            221.185
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              218.20625013172628
+            ]
+          ],
+          "bbox": [
+            131.15,
+            212.8312498933077,
+            209.78999962806702,
+            219.70125010669233
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        211.3475,
+        213.03,
+        221.185
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_117",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            221.185,
+            213.03,
+            231.0225
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              228.04375013172628
+            ]
+          ],
+          "bbox": [
+            131.15,
+            222.6687498933077,
+            209.78999962806702,
+            229.53875010669233
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        221.185,
+        213.03,
+        231.0225
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_118",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            231.0225,
+            213.03,
+            240.86
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              237.8812501317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            232.5062498933077,
+            209.78999962806702,
+            239.37625010669234
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        231.0225,
+        213.03,
+        240.86
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_119",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            201.51,
+            326.75,
+            211.3475
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              208.95075017124415
+            ]
+          ],
+          "bbox": [
+            234.79,
+            201.9632498613,
+            244.18249995350837,
+            210.89425013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        201.51,
+        326.75,
+        211.3475
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_120",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            211.3475,
+            326.75,
+            221.185
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              218.4002501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            212.48774988263847,
+            321.2939995908737,
+            220.04475011736156
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        211.3475,
+        326.75,
+        221.185
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_121",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            221.185,
+            326.75,
+            231.0225
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              228.2377501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            222.32524988263847,
+            321.2939995908737,
+            229.88225011736156
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        221.185,
+        326.75,
+        231.0225
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_122",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            231.0225,
+            326.75,
+            240.86
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              238.07525014489892
+            ]
+          ],
+          "bbox": [
+            234.79,
+            232.16274988263848,
+            321.2939995908737,
+            239.71975011736157
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        231.0225,
+        326.75,
+        240.86
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_123",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            201.51,
+            462.05,
+            211.3475
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              208.95075017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            201.9632498613,
+            358.85249995350836,
+            210.89425013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        201.51,
+        462.05,
+        211.3475
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_124",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            211.3475,
+            462.05,
+            221.185
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              218.78825017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            211.8007498613,
+            451.6919995164871,
+            220.73175013870002
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        211.3475,
+        462.05,
+        221.185
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_125",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            221.185,
+            462.05,
+            231.0225
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              228.62575017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            221.6382498613,
+            451.6919995164871,
+            230.56925013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        221.185,
+        462.05,
+        231.0225
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_126",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            231.0225,
+            462.05,
+            240.86
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              238.46325017124417
+            ]
+          ],
+          "bbox": [
+            349.46,
+            231.47574986130002,
+            451.6919995164871,
+            240.40675013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        231.0225,
+        462.05,
+        240.86
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_127",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        201.51,
+        566.17,
+        211.3475
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_128",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        211.3475,
+        566.17,
+        221.185
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_129",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        221.185,
+        566.17,
+        231.0225
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_130",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        231.0225,
+        566.17,
+        240.86
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_131",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            242.78,
+            213.03,
+            252.615
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              250.21950017124416
+            ]
+          ],
+          "bbox": [
+            131.15,
+            243.2319998613,
+            140.54249995350838,
+            252.16300013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        242.78,
+        213.03,
+        252.615
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_132",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            252.615,
+            213.03,
+            262.45
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              259.4725001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            254.09749989330768,
+            209.78999962806702,
+            260.96750010669234
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        252.615,
+        213.03,
+        262.45
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_133",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            262.45,
+            213.03,
+            272.285
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              269.3075001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            263.9324998933077,
+            209.78999962806702,
+            270.8025001066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        262.45,
+        213.03,
+        272.285
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_134",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            272.285,
+            213.03,
+            282.12
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              279.1425001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            273.76749989330773,
+            209.78999962806702,
+            280.63750010669236
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        272.285,
+        213.03,
+        282.12
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_135",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            242.78,
+            326.75,
+            252.615
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              250.21950017124416
+            ]
+          ],
+          "bbox": [
+            234.79,
+            243.2319998613,
+            244.18249995350837,
+            252.16300013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        242.78,
+        326.75,
+        252.615
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_136",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            252.615,
+            326.75,
+            262.45
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              259.6665001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            253.75399988263845,
+            321.2939995908737,
+            261.3110001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        252.615,
+        326.75,
+        262.45
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_137",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            262.45,
+            326.75,
+            272.285
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              269.5015001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            263.58899988263846,
+            321.2939995908737,
+            271.14600011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        262.45,
+        326.75,
+        272.285
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_138",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            272.285,
+            326.75,
+            282.12
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              279.33650014489893
+            ]
+          ],
+          "bbox": [
+            234.79,
+            273.4239998826385,
+            321.2939995908737,
+            280.9810001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        272.285,
+        326.75,
+        282.12
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_139",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            242.78,
+            462.05,
+            252.615
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              250.21950017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            243.2319998613,
+            358.85249995350836,
+            252.16300013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        242.78,
+        462.05,
+        252.615
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_140",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            252.615,
+            462.05,
+            262.45
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              260.0545001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            253.0669998613,
+            451.6919995164871,
+            261.99800013870004
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        252.615,
+        462.05,
+        262.45
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_141",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            262.45,
+            462.05,
+            272.285
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              269.88950017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            262.9019998613,
+            451.6919995164871,
+            271.8330001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        262.45,
+        462.05,
+        272.285
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_142",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            272.285,
+            462.05,
+            282.12
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              279.7245001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            272.73699986130003,
+            451.6919995164871,
+            281.66800013870005
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        272.285,
+        462.05,
+        282.12
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_143",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        242.78,
+        566.17,
+        252.615
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_144",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        252.615,
+        566.17,
+        262.45
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_145",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        262.45,
+        566.17,
+        272.285
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_146",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        272.285,
+        566.17,
+        282.12
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_147",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            284.04,
+            213.03,
+            293.875
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              291.4795001712442
+            ]
+          ],
+          "bbox": [
+            131.15,
+            284.49199986130003,
+            140.54249995350838,
+            293.42300013870005
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        284.04,
+        213.03,
+        293.875
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_148",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            293.875,
+            213.03,
+            303.71000000000004
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              300.7325001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            295.3574998933077,
+            209.78999962806702,
+            302.22750010669233
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        293.875,
+        213.03,
+        303.71000000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_149",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            303.71000000000004,
+            213.03,
+            313.545
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              310.5675001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            305.19249989330774,
+            209.78999962806702,
+            312.06250010669237
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        303.71000000000004,
+        213.03,
+        313.545
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_150",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            313.545,
+            213.03,
+            323.38
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              320.4025001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            315.0274998933077,
+            209.78999962806702,
+            321.89750010669235
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        313.545,
+        213.03,
+        323.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_151",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            284.04,
+            326.75,
+            293.875
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              291.4795001712442
+            ]
+          ],
+          "bbox": [
+            234.79,
+            284.49199986130003,
+            244.18249995350837,
+            293.42300013870005
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        284.04,
+        326.75,
+        293.875
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_152",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            293.875,
+            326.75,
+            303.71000000000004
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              300.9265001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            295.0139998826385,
+            321.2939995908737,
+            302.57100011736156
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        293.875,
+        326.75,
+        303.71000000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_153",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            303.71000000000004,
+            326.75,
+            313.545
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              310.76150014489895
+            ]
+          ],
+          "bbox": [
+            234.79,
+            304.8489998826385,
+            321.2939995908737,
+            312.4060001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        303.71000000000004,
+        326.75,
+        313.545
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_154",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            313.545,
+            326.75,
+            323.38
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              320.5965001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            314.6839998826385,
+            321.2939995908737,
+            322.2410001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        313.545,
+        326.75,
+        323.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_155",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            284.04,
+            462.05,
+            293.875
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              291.4795001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            284.49199986130003,
+            358.85249995350836,
+            293.42300013870005
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        284.04,
+        462.05,
+        293.875
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_156",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            293.875,
+            462.05,
+            303.71000000000004
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              301.31450017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            294.3269998613,
+            451.6919995164871,
+            303.2580001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        293.875,
+        462.05,
+        303.71000000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_157",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            303.71000000000004,
+            462.05,
+            313.545
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              311.1495001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            304.16199986130005,
+            451.6919995164871,
+            313.09300013870006
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        303.71000000000004,
+        462.05,
+        313.545
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_158",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            313.545,
+            462.05,
+            323.38
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              320.9845001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            313.9969998613,
+            451.6919995164871,
+            322.92800013870004
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        313.545,
+        462.05,
+        323.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_159",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        284.04,
+        566.17,
+        293.875
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_160",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        293.875,
+        566.17,
+        303.71000000000004
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_161",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        303.71000000000004,
+        566.17,
+        313.545
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_162",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        313.545,
+        566.17,
+        323.38
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_163",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            325.3,
+            213.03,
+            335.135
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              332.7395001712442
+            ]
+          ],
+          "bbox": [
+            131.15,
+            325.7519998613,
+            140.54249995350838,
+            334.68300013870004
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        325.3,
+        213.03,
+        335.135
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_164",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            335.135,
+            213.03,
+            344.97
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              341.9925001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            336.6174998933077,
+            209.78999962806702,
+            343.4875001066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        335.135,
+        213.03,
+        344.97
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_165",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            344.97,
+            213.03,
+            354.805
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              351.8275001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            346.45249989330773,
+            209.78999962806702,
+            353.32250010669236
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        344.97,
+        213.03,
+        354.805
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_166",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            354.805,
+            213.03,
+            364.64
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              361.6625001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            356.2874998933077,
+            209.78999962806702,
+            363.15750010669234
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        354.805,
+        213.03,
+        364.64
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_167",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            325.3,
+            326.75,
+            335.135
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              332.7395001712442
+            ]
+          ],
+          "bbox": [
+            234.79,
+            325.7519998613,
+            244.18249995350837,
+            334.68300013870004
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        325.3,
+        326.75,
+        335.135
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_168",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            335.135,
+            326.75,
+            344.97
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              342.1865001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            336.27399988263846,
+            321.2939995908737,
+            343.83100011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        335.135,
+        326.75,
+        344.97
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_169",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            344.97,
+            326.75,
+            354.805
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              352.02150014489894
+            ]
+          ],
+          "bbox": [
+            234.79,
+            346.1089998826385,
+            321.2939995908737,
+            353.6660001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        344.97,
+        326.75,
+        354.805
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_170",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            354.805,
+            326.75,
+            364.64
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              361.8565001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            355.9439998826385,
+            321.2939995908737,
+            363.50100011736157
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        354.805,
+        326.75,
+        364.64
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_171",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            325.3,
+            462.05,
+            335.135
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              332.7395001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            325.7519998613,
+            358.85249995350836,
+            334.68300013870004
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        325.3,
+        462.05,
+        335.135
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_172",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            335.135,
+            462.05,
+            344.97
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              342.57450017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            335.5869998613,
+            451.6919995164871,
+            344.5180001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        335.135,
+        462.05,
+        344.97
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_173",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            344.97,
+            462.05,
+            354.805
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              352.4095001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            345.42199986130004,
+            451.6919995164871,
+            354.35300013870005
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        344.97,
+        462.05,
+        354.805
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_174",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            354.805,
+            462.05,
+            364.64
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              362.24450017124417
+            ]
+          ],
+          "bbox": [
+            349.46,
+            355.2569998613,
+            451.6919995164871,
+            364.18800013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        354.805,
+        462.05,
+        364.64
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_175",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        325.3,
+        566.17,
+        335.135
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_176",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        335.135,
+        566.17,
+        344.97
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_177",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        344.97,
+        566.17,
+        354.805
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_178",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        354.805,
+        566.17,
+        364.64
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_179",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            366.56,
+            213.03,
+            376.39750000000004
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              374.0007501712442
+            ]
+          ],
+          "bbox": [
+            131.15,
+            367.01324986130004,
+            140.54249995350838,
+            375.94425013870006
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        366.56,
+        213.03,
+        376.39750000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_180",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            376.39750000000004,
+            213.03,
+            386.235
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              383.2562501317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            377.8812498933077,
+            209.78999962806702,
+            384.75125010669234
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        376.39750000000004,
+        213.03,
+        386.235
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_181",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            386.235,
+            213.03,
+            396.0725
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              393.09375013172627
+            ]
+          ],
+          "bbox": [
+            131.15,
+            387.7187498933077,
+            209.78999962806702,
+            394.5887501066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        386.235,
+        213.03,
+        396.0725
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_182",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            396.0725,
+            213.03,
+            405.91
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              402.9312501317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            397.5562498933077,
+            209.78999962806702,
+            404.42625010669235
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        396.0725,
+        213.03,
+        405.91
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_183",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            366.56,
+            326.75,
+            376.39750000000004
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              374.0007501712442
+            ]
+          ],
+          "bbox": [
+            234.79,
+            367.01324986130004,
+            244.18249995350837,
+            375.94425013870006
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        366.56,
+        326.75,
+        376.39750000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_184",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            376.39750000000004,
+            326.75,
+            386.235
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              383.4502501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            377.5377498826385,
+            321.2939995908737,
+            385.09475011736157
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        376.39750000000004,
+        326.75,
+        386.235
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_185",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            386.235,
+            326.75,
+            396.0725
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              393.2877501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            387.37524988263846,
+            321.2939995908737,
+            394.93225011736155
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        386.235,
+        326.75,
+        396.0725
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_186",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            396.0725,
+            326.75,
+            405.91
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              403.1252501448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            397.2127498826385,
+            321.2939995908737,
+            404.7697501173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        396.0725,
+        326.75,
+        405.91
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_187",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            366.56,
+            462.05,
+            376.39750000000004
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              374.0007501712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            367.01324986130004,
+            358.85249995350836,
+            375.94425013870006
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        366.56,
+        462.05,
+        376.39750000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_188",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            376.39750000000004,
+            462.05,
+            386.235
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              383.83825017124417
+            ]
+          ],
+          "bbox": [
+            349.46,
+            376.8507498613,
+            451.6919995164871,
+            385.78175013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        376.39750000000004,
+        462.05,
+        386.235
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_189",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            386.235,
+            462.05,
+            396.0725
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              393.67575017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            386.6882498613,
+            451.6919995164871,
+            395.6192501387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        386.235,
+        462.05,
+        396.0725
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_190",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            396.0725,
+            462.05,
+            405.91
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              403.5132501712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            396.5257498613,
+            451.6919995164871,
+            405.45675013870004
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        396.0725,
+        462.05,
+        405.91
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_191",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        366.56,
+        566.17,
+        376.39750000000004
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_192",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        376.39750000000004,
+        566.17,
+        386.235
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_193",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        386.235,
+        566.17,
+        396.0725
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_194",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        396.0725,
+        566.17,
+        405.91
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_195",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            129.15,
+            407.83,
+            213.03,
+            417.66499999999996
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              131.15,
+              415.26950017124415
+            ]
+          ],
+          "bbox": [
+            131.15,
+            408.2819998613,
+            140.54249995350838,
+            417.2130001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        407.83,
+        213.03,
+        417.66499999999996
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_196",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            417.66499999999996,
+            213.03,
+            427.5
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              424.52250013172625
+            ]
+          ],
+          "bbox": [
+            131.15,
+            419.14749989330767,
+            209.78999962806702,
+            426.0175001066923
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        417.66499999999996,
+        213.03,
+        427.5
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_197",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            427.5,
+            213.03,
+            437.33500000000004
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              434.3575001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            428.9824998933077,
+            209.78999962806702,
+            435.85250010669233
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        427.5,
+        213.03,
+        437.33500000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_198",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            129.15,
+            437.33500000000004,
+            213.03,
+            447.17
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              131.15,
+              444.1925001317263
+            ]
+          ],
+          "bbox": [
+            131.15,
+            438.81749989330774,
+            209.78999962806702,
+            445.68750010669237
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        129.15,
+        437.33500000000004,
+        213.03,
+        447.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_199",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            232.79,
+            407.83,
+            326.75,
+            417.66499999999996
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              234.79,
+              415.26950017124415
+            ]
+          ],
+          "bbox": [
+            234.79,
+            408.2819998613,
+            244.18249995350837,
+            417.2130001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        407.83,
+        326.75,
+        417.66499999999996
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_200",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            417.66499999999996,
+            326.75,
+            427.5
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              424.7165001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            418.80399988263844,
+            321.2939995908737,
+            426.3610001173615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        417.66499999999996,
+        326.75,
+        427.5
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_201",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            427.5,
+            326.75,
+            437.33500000000004
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              434.5515001448989
+            ]
+          ],
+          "bbox": [
+            234.79,
+            428.6389998826385,
+            321.2939995908737,
+            436.19600011736156
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        427.5,
+        326.75,
+        437.33500000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_202",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            232.79,
+            437.33500000000004,
+            326.75,
+            447.17
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              234.79,
+              444.38650014489895
+            ]
+          ],
+          "bbox": [
+            234.79,
+            438.4739998826385,
+            321.2939995908737,
+            446.0310001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        232.79,
+        437.33500000000004,
+        326.75,
+        447.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_203",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            347.46,
+            407.83,
+            462.05,
+            417.66499999999996
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              415.26950017124415
+            ]
+          ],
+          "bbox": [
+            349.46,
+            408.2819998613,
+            358.85249995350836,
+            417.2130001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        407.83,
+        462.05,
+        417.66499999999996
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_204",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            417.66499999999996,
+            462.05,
+            427.5
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              425.1045001712441
+            ]
+          ],
+          "bbox": [
+            349.46,
+            418.1169998613,
+            451.6919995164871,
+            427.0480001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        417.66499999999996,
+        462.05,
+        427.5
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_205",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            427.5,
+            462.05,
+            437.33500000000004
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              434.93950017124416
+            ]
+          ],
+          "bbox": [
+            349.46,
+            427.9519998613,
+            451.6919995164871,
+            436.8830001387
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        427.5,
+        462.05,
+        437.33500000000004
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_206",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            347.46,
+            437.33500000000004,
+            462.05,
+            447.17
+          ],
+          "lines": [
+            "No current or contemplated activity."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              349.46,
+              444.7745001712442
+            ]
+          ],
+          "bbox": [
+            349.46,
+            437.78699986130005,
+            451.6919995164871,
+            446.71800013870006
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        347.46,
+        437.33500000000004,
+        462.05,
+        447.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_207",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        407.83,
+        566.17,
+        417.66499999999996
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_208",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        417.66499999999996,
+        566.17,
+        427.5
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_209",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        427.5,
+        566.17,
+        437.33500000000004
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_210",
+      "page": 4,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        463.97,
+        437.33500000000004,
+        566.17,
+        447.17
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form04_211",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Camille Orvaux",
+          "zone": [
+            107.64,
+            500.43,
+            555.4400024414062,
+            510.02
+          ],
+          "lines": [
+            "Camille Orvaux"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              109.64,
+              507.74700017124417
+            ]
+          ],
+          "bbox": [
+            109.64,
+            500.7594998613,
+            154.06099994421004,
+            509.69050013870003
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.64,
+        500.43,
+        555.4400024414062,
+        510.02
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_212",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Belorive Patrimoine SAS",
+          "zone": [
+            192.4,
+            511.46,
+            566.17,
+            520.1
+          ],
+          "lines": [
+            "Belorive Patrimoine SAS"
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              194.4,
+              517.9140001448989
+            ]
+          ],
+          "bbox": [
+            194.4,
+            512.0014998826384,
+            254.61399974823,
+            519.5585001173615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        192.4,
+        511.46,
+        566.17,
+        520.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_213",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Présidente",
+          "zone": [
+            192.4,
+            522.5,
+            566.17,
+            531.13
+          ],
+          "lines": [
+            "Présidente"
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              194.4,
+              528.9490001448988
+            ]
+          ],
+          "bbox": [
+            194.4,
+            523.0364998826384,
+            217.93999984264374,
+            530.5935001173615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        192.4,
+        522.5,
+        566.17,
+        531.13
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form04_214",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "01-09-2026",
+          "zone": [
+            252.94,
+            533.05,
+            566.17,
+            541.69
+          ],
+          "lines": [
+            "01-09-2026"
+          ],
+          "fontsize": 5.5,
+          "origins": [
+            [
+              254.94,
+              539.5040001448989
+            ]
+          ],
+          "bbox": [
+            254.94,
+            533.5914998826385,
+            283.06699979543686,
+            541.1485001173616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        192.4,
+        533.05,
+        566.17,
+        541.69
+      ],
+      "reason": "answer"
+    }
+  ],
+  "check_errors": []
+}

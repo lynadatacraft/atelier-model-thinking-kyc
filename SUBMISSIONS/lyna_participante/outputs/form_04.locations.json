@@ -1,0 +1,7297 @@
+{
+  "form_id": "form_04",
+  "source": "questionnaires/04_belorive_patrimoine.pdf",
+  "locations": [
+    {
+      "field_id": "form04_001",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Company name:",
+      "anchor_bbox": [
+        31.19,
+        332.02,
+        95.48,
+        343.53
+      ],
+      "answer_bbox": [
+        99.48,
+        331.02,
+        186.48,
+        344.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_002",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of Incorporation:",
+      "anchor_bbox": [
+        194.8,
+        332.02,
+        288.84,
+        343.05
+      ],
+      "answer_bbox": [
+        292.84,
+        331.02,
+        562.17,
+        344.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_003",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Grd:",
+      "anchor_bbox": [
+        30.71,
+        360.81,
+        52.78,
+        373.28
+      ],
+      "answer_bbox": [
+        56.78,
+        359.81,
+        186.48,
+        374.68
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 0.857,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_004",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "La Banque des Entreprises booking location(s):",
+      "anchor_bbox": [
+        194.32,
+        361.77,
+        365.13,
+        372.8
+      ],
+      "answer_bbox": [
+        369.13,
+        360.77,
+        562.17,
+        374.68
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_005",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "La Banque des Entreprises Relationship Manager:",
+      "anchor_bbox": [
+        31.19,
+        377.12,
+        212.55,
+        388.15
+      ],
+      "answer_bbox": [
+        216.55,
+        376.12,
+        562.17,
+        390.03
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_006",
+      "page": 1,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "1",
+      "anchor_bbox": [
+        30.71,
+        438.53,
+        41.74,
+        450.05
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          439.97,
+          516.75,
+          621.81
+        ],
+        "no": [
+          518.67,
+          439.97,
+          566.17,
+          621.81
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_007",
+      "page": 1,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "2",
+      "anchor_bbox": [
+        29.75,
+        621.81,
+        41.74,
+        634.77
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          623.73,
+          516.75,
+          745.12
+        ],
+        "no": [
+          518.67,
+          623.73,
+          566.17,
+          745.12
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_008",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities",
+      "anchor_bbox": [
+        73.41,
+        704.34,
+        445.74,
+        715.37
+      ],
+      "answer_bbox": [
+        71.01,
+        725.93,
+        462.05,
+        745.12
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_009",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "3",
+      "anchor_bbox": [
+        30.71,
+        76.77,
+        40.78,
+        87.8
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          78.21,
+          516.75,
+          199.11
+        ],
+        "no": [
+          518.67,
+          78.21,
+          566.17,
+          199.11
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_010",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "If \"Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its",
+      "anchor_bbox": [
+        73.41,
+        117.07,
+        436.14,
+        128.59
+      ],
+      "answer_bbox": [
+        71.01,
+        149.7,
+        462.05,
+        199.11
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_011",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "4",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        41.26,
+        211.11
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          201.03,
+          516.75,
+          373.28
+        ],
+        "no": [
+          518.67,
+          201.03,
+          566.17,
+          372.8
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_012",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "If “Yes” is selected, please provide further details on the activity (including, without limitation, the name of",
+      "anchor_bbox": [
+        74.37,
+        251.89,
+        444.78,
+        261.01
+      ],
+      "answer_bbox": [
+        71.01,
+        303.23,
+        462.05,
+        372.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_013",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "5",
+      "anchor_bbox": [
+        31.19,
+        374.24,
+        40.78,
+        385.28
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          375.2,
+          516.75,
+          639.09
+        ],
+        "no": [
+          518.67,
+          375.2,
+          566.17,
+          639.09
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_014",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(For Sanctioned Jurisdictions please provide the same information in Part 2 below)",
+      "anchor_bbox": [
+        74.85,
+        548.41,
+        363.69,
+        558.0
+      ],
+      "answer_bbox": [
+        71.01,
+        569.04,
+        462.05,
+        639.09
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_015",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "6",
+      "anchor_bbox": [
+        31.19,
+        640.05,
+        41.26,
+        651.08
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          641.01,
+          516.75,
+          761.91
+        ],
+        "no": [
+          518.67,
+          641.01,
+          566.17,
+          761.91
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_016",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "If \"Yes\" is selected, please provide the names of entities within your group which are involved in the above",
+      "anchor_bbox": [
+        73.41,
+        721.13,
+        448.14,
+        732.65
+      ],
+      "answer_bbox": [
+        71.01,
+        36.46,
+        462.05,
+        116.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below_next_page",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_017",
+      "page": 3,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "7",
+      "anchor_bbox": [
+        30.71,
+        136.26,
+        40.78,
+        147.78
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          463.97,
+          137.7,
+          516.75,
+          346.41
+        ],
+        "no": [
+          518.67,
+          137.7,
+          566.17,
+          346.41
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_choice:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_018",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "If \"No\" is selected - please provide further details on how you manage compliance with Sanctions",
+      "anchor_bbox": [
+        78.69,
+        212.07,
+        423.19,
+        223.1
+      ],
+      "answer_bbox": [
+        71.01,
+        275.88,
+        462.05,
+        346.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_019",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        128.19,
+        724.49,
+        213.03,
+        734.325
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          723.53,
+          126.19,
+          735.53
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_020",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        128.19,
+        734.325,
+        213.03,
+        744.1600000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          733.13,
+          125.71,
+          746.08
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_021",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        128.19,
+        744.1600000000001,
+        213.03,
+        753.995
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          743.2,
+          125.23,
+          756.16
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_022",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        128.19,
+        753.995,
+        213.03,
+        763.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          753.76,
+          126.19,
+          765.75
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_023",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        232.79,
+        724.49,
+        326.75,
+        734.325
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          723.53,
+          230.79,
+          736.01
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_024",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        232.79,
+        734.325,
+        326.75,
+        744.1600000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          215.91,
+          732.17,
+          230.79,
+          746.56
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_025",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        232.79,
+        744.1600000000001,
+        326.75,
+        753.995
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          743.2,
+          229.83,
+          756.16
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_026",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        232.79,
+        753.995,
+        326.75,
+        763.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          753.76,
+          230.79,
+          765.27
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_027",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        346.98,
+        724.49,
+        462.05,
+        734.325
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          723.53,
+          344.5,
+          736.01
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_028",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        346.98,
+        734.325,
+        462.05,
+        744.1600000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.63,
+          732.17,
+          344.98,
+          746.08
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_029",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        346.98,
+        744.1600000000001,
+        462.05,
+        753.995
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          743.2,
+          343.54,
+          756.16
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_030",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        346.98,
+        753.995,
+        462.05,
+        763.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          753.76,
+          344.5,
+          765.27
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_031",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        463.97,
+        724.49,
+        566.17,
+        734.325
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_032",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        463.97,
+        734.325,
+        566.17,
+        744.1600000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_033",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        463.97,
+        744.1600000000001,
+        566.17,
+        753.995
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_034",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        31.67,
+        723.53,
+        63.33,
+        735.05
+      ],
+      "answer_bbox": [
+        463.97,
+        753.995,
+        566.17,
+        763.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_035",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        128.19,
+        765.75,
+        213.03,
+        775.5875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          764.31,
+          126.19,
+          776.79
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_036",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        128.19,
+        775.5875,
+        213.03,
+        785.425
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          774.39,
+          126.19,
+          786.86
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_037",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        128.19,
+        785.425,
+        213.03,
+        795.2625
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          789.26,
+          118.03,
+          793.58
+        ],
+        [
+          118.51,
+          787.34,
+          120.43,
+          794.54
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_038",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        128.19,
+        795.2625,
+        213.03,
+        805.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          797.42,
+          118.51,
+          803.66
+        ],
+        [
+          118.99,
+          797.42,
+          120.91,
+          804.62
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_039",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        232.79,
+        765.75,
+        326.75,
+        775.5875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          764.31,
+          230.31,
+          776.31
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_040",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        232.79,
+        775.5875,
+        326.75,
+        785.425
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          774.39,
+          230.31,
+          786.86
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_041",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        232.79,
+        785.425,
+        326.75,
+        795.2625
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          784.94,
+          229.83,
+          797.42
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_042",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        232.79,
+        795.2625,
+        326.75,
+        805.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          793.58,
+          230.79,
+          806.54
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_043",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        346.98,
+        765.75,
+        462.05,
+        775.5875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          331.07,
+          764.31,
+          344.02,
+          776.31
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_044",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        346.98,
+        775.5875,
+        462.05,
+        785.425
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          774.39,
+          344.5,
+          786.86
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_045",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        346.98,
+        785.425,
+        462.05,
+        795.2625
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          784.94,
+          344.02,
+          797.42
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_046",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        346.98,
+        795.2625,
+        462.05,
+        805.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          794.06,
+          344.5,
+          807.01
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_047",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        463.97,
+        765.75,
+        566.17,
+        775.5875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_048",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        463.97,
+        775.5875,
+        566.17,
+        785.425
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_049",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        463.97,
+        785.425,
+        566.17,
+        795.2625
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_050",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        31.67,
+        764.31,
+        61.42,
+        775.83
+      ],
+      "answer_bbox": [
+        463.97,
+        795.2625,
+        566.17,
+        805.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_051",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        129.15,
+        36.46,
+        213.03,
+        46.417500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          35.5,
+          125.71,
+          47.98
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_052",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        129.15,
+        46.417500000000004,
+        213.03,
+        56.375
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          44.14,
+          126.19,
+          58.53
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_053",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        129.15,
+        56.375,
+        213.03,
+        66.33250000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          59.97,
+          118.03,
+          64.77
+        ],
+        [
+          118.03,
+          58.06,
+          120.43,
+          65.73
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_054",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        129.15,
+        66.33250000000001,
+        213.03,
+        76.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          68.13,
+          118.51,
+          74.85
+        ],
+        [
+          118.99,
+          68.13,
+          120.91,
+          75.81
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_055",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        232.79,
+        36.46,
+        326.75,
+        46.417500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          35.5,
+          230.31,
+          47.98
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_056",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        232.79,
+        46.417500000000004,
+        326.75,
+        56.375
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          44.62,
+          229.83,
+          58.53
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_057",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        232.79,
+        56.375,
+        326.75,
+        66.33250000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          59.97,
+          222.63,
+          64.77
+        ],
+        [
+          223.11,
+          58.06,
+          225.51,
+          65.73
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_058",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        232.79,
+        66.33250000000001,
+        326.75,
+        76.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          68.13,
+          223.59,
+          74.85
+        ],
+        [
+          223.59,
+          68.13,
+          225.99,
+          75.81
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_059",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        347.46,
+        36.46,
+        462.05,
+        46.417500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          35.5,
+          344.02,
+          47.98
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_060",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        347.46,
+        46.417500000000004,
+        462.05,
+        56.375
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.11,
+          42.7,
+          344.5,
+          59.01
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_061",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        347.46,
+        56.375,
+        462.05,
+        66.33250000000001
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          59.97,
+          336.82,
+          64.77
+        ],
+        [
+          336.82,
+          58.06,
+          339.22,
+          65.73
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_062",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        347.46,
+        66.33250000000001,
+        462.05,
+        76.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          68.13,
+          337.3,
+          74.85
+        ],
+        [
+          337.78,
+          68.13,
+          339.7,
+          75.81
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_063",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        463.97,
+        36.46,
+        566.17,
+        46.2975
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_064",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        463.97,
+        46.2975,
+        566.17,
+        56.135000000000005
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_065",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        463.97,
+        56.135000000000005,
+        566.17,
+        65.9725
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_066",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        31.19,
+        35.03,
+        54.22,
+        47.5
+      ],
+      "answer_bbox": [
+        463.97,
+        65.9725,
+        566.17,
+        75.81
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_067",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        129.15,
+        78.21,
+        213.03,
+        87.925
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          76.29,
+          125.71,
+          88.76
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_068",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        129.15,
+        87.925,
+        213.03,
+        97.63999999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          89.24,
+          118.51,
+          95.48
+        ],
+        [
+          118.99,
+          89.24,
+          120.91,
+          96.44
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_069",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        129.15,
+        97.63999999999999,
+        213.03,
+        107.35499999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          101.24,
+          118.03,
+          105.55
+        ],
+        [
+          118.03,
+          99.32,
+          120.43,
+          106.51
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_070",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        129.15,
+        107.35499999999999,
+        213.03,
+        117.07
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          109.39,
+          118.51,
+          115.63
+        ],
+        [
+          118.99,
+          109.39,
+          120.91,
+          116.59
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_071",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        232.79,
+        78.21,
+        326.75,
+        87.925
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          76.29,
+          229.83,
+          89.24
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_072",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        232.79,
+        87.925,
+        326.75,
+        97.63999999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          89.24,
+          223.59,
+          95.48
+        ],
+        [
+          223.59,
+          89.24,
+          225.99,
+          96.44
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_073",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        232.79,
+        97.63999999999999,
+        326.75,
+        107.35499999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          101.24,
+          222.63,
+          105.55
+        ],
+        [
+          223.11,
+          99.32,
+          225.51,
+          106.51
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_074",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        232.79,
+        107.35499999999999,
+        326.75,
+        117.07
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          105.08,
+          230.31,
+          118.51
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_075",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        347.46,
+        78.21,
+        462.05,
+        87.925
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          76.29,
+          344.02,
+          88.76
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_076",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        347.46,
+        87.925,
+        462.05,
+        97.63999999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.11,
+          84.92,
+          344.5,
+          99.8
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_077",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        347.46,
+        97.63999999999999,
+        462.05,
+        107.35499999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          95.48,
+          343.54,
+          109.39
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_078",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        347.46,
+        107.35499999999999,
+        462.05,
+        117.07
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          105.55,
+          344.02,
+          118.51
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_079",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        463.97,
+        78.21,
+        566.17,
+        87.925
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_080",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        463.97,
+        87.925,
+        566.17,
+        97.63999999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_081",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        463.97,
+        97.63999999999999,
+        566.17,
+        107.35499999999999
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_082",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        31.19,
+        77.73,
+        50.38,
+        88.28
+      ],
+      "answer_bbox": [
+        463.97,
+        107.35499999999999,
+        566.17,
+        117.07
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_083",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        129.15,
+        118.99,
+        213.03,
+        128.825
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          116.59,
+          126.19,
+          131.46
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_084",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        129.15,
+        128.825,
+        213.03,
+        138.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          126.19,
+          126.67,
+          141.54
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_085",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        129.15,
+        138.66,
+        213.03,
+        148.495
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          135.78,
+          125.71,
+          151.14
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_086",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        129.15,
+        148.495,
+        213.03,
+        158.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          146.34,
+          126.19,
+          161.21
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_087",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        232.79,
+        118.99,
+        326.75,
+        128.825
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          121.87,
+          223.11,
+          126.67
+        ],
+        [
+          223.59,
+          119.95,
+          225.99,
+          127.63
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_088",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        232.79,
+        128.825,
+        326.75,
+        138.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          130.02,
+          223.59,
+          136.74
+        ],
+        [
+          223.59,
+          130.02,
+          225.99,
+          137.7
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_089",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        232.79,
+        138.66,
+        326.75,
+        148.495
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          136.26,
+          230.31,
+          151.62
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_090",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        232.79,
+        148.495,
+        326.75,
+        158.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          145.86,
+          230.79,
+          161.21
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_091",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        347.46,
+        118.99,
+        462.05,
+        128.825
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_092",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        347.46,
+        128.825,
+        462.05,
+        138.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.15,
+          116.11,
+          345.46,
+          142.02
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_093",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        347.46,
+        138.66,
+        462.05,
+        148.495
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          136.74,
+          343.54,
+          150.66
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_094",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        347.46,
+        148.495,
+        462.05,
+        158.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          147.3,
+          344.5,
+          160.25
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_095",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        463.97,
+        118.99,
+        566.17,
+        128.825
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_096",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        463.97,
+        128.825,
+        566.17,
+        138.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_097",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        463.97,
+        138.66,
+        566.17,
+        148.495
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_098",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        31.67,
+        117.55,
+        80.13,
+        129.06
+      ],
+      "answer_bbox": [
+        463.97,
+        148.495,
+        566.17,
+        158.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_099",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        129.15,
+        160.25,
+        213.03,
+        170.085
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          158.33,
+          126.67,
+          172.25
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_100",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        129.15,
+        170.085,
+        213.03,
+        179.92000000000002
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          168.41,
+          125.71,
+          181.36
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_101",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        129.15,
+        179.92000000000002,
+        213.03,
+        189.755
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          178.0,
+          126.19,
+          192.88
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_102",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        129.15,
+        189.755,
+        213.03,
+        199.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          187.6,
+          126.67,
+          202.47
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_103",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        232.79,
+        160.25,
+        326.75,
+        170.085
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          158.81,
+          230.31,
+          171.77
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_104",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        232.79,
+        170.085,
+        326.75,
+        179.92000000000002
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          168.41,
+          230.31,
+          181.84
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_105",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        232.79,
+        179.92000000000002,
+        326.75,
+        189.755
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          178.48,
+          229.83,
+          192.4
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_106",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        232.79,
+        189.755,
+        326.75,
+        199.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          188.08,
+          230.31,
+          201.51
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_107",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        347.46,
+        160.25,
+        462.05,
+        170.085
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          158.81,
+          344.02,
+          171.77
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_108",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        347.46,
+        170.085,
+        462.05,
+        179.92000000000002
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.63,
+          167.45,
+          344.5,
+          181.84
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_109",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        347.46,
+        179.92000000000002,
+        462.05,
+        189.755
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          178.48,
+          344.02,
+          191.92
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_110",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        347.46,
+        189.755,
+        462.05,
+        199.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          188.56,
+          344.02,
+          201.51
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_111",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        463.97,
+        160.25,
+        566.17,
+        170.085
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_112",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        463.97,
+        170.085,
+        566.17,
+        179.92000000000002
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_113",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        463.97,
+        179.92000000000002,
+        566.17,
+        189.755
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_114",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        31.67,
+        159.29,
+        59.98,
+        170.81
+      ],
+      "answer_bbox": [
+        463.97,
+        189.755,
+        566.17,
+        199.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_115",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        129.15,
+        201.51,
+        213.03,
+        211.3475
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          200.07,
+          125.71,
+          212.55
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_116",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        129.15,
+        211.3475,
+        213.03,
+        221.185
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          209.19,
+          126.19,
+          224.06
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_117",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        129.15,
+        221.185,
+        213.03,
+        231.0225
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          225.02,
+          118.03,
+          229.34
+        ],
+        [
+          118.03,
+          223.1,
+          120.43,
+          230.78
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_118",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        129.15,
+        231.0225,
+        213.03,
+        240.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          233.18,
+          118.51,
+          239.42
+        ],
+        [
+          118.99,
+          233.18,
+          120.91,
+          240.86
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_119",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        232.79,
+        201.51,
+        326.75,
+        211.3475
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          200.07,
+          230.31,
+          213.03
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_120",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        232.79,
+        211.3475,
+        326.75,
+        221.185
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          209.67,
+          230.31,
+          223.1
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_121",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        232.79,
+        221.185,
+        326.75,
+        231.0225
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          225.02,
+          222.63,
+          229.34
+        ],
+        [
+          223.11,
+          223.1,
+          225.51,
+          230.78
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_122",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        232.79,
+        231.0225,
+        326.75,
+        240.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          233.18,
+          223.59,
+          239.42
+        ],
+        [
+          223.59,
+          233.18,
+          225.99,
+          240.38
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_123",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        347.46,
+        201.51,
+        462.05,
+        211.3475
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          200.07,
+          344.02,
+          212.55
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_124",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        347.46,
+        211.3475,
+        462.05,
+        221.185
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.63,
+          209.19,
+          344.5,
+          223.58
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_125",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        347.46,
+        221.185,
+        462.05,
+        231.0225
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          225.02,
+          336.82,
+          229.34
+        ],
+        [
+          336.82,
+          223.1,
+          339.22,
+          230.78
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_126",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        347.46,
+        231.0225,
+        462.05,
+        240.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          233.18,
+          337.3,
+          239.42
+        ],
+        [
+          337.78,
+          233.18,
+          339.7,
+          240.38
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_127",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        463.97,
+        201.51,
+        566.17,
+        211.3475
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_128",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        463.97,
+        211.3475,
+        566.17,
+        221.185
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_129",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        463.97,
+        221.185,
+        566.17,
+        231.0225
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_130",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        31.19,
+        200.07,
+        59.02,
+        212.07
+      ],
+      "answer_bbox": [
+        463.97,
+        231.0225,
+        566.17,
+        240.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_131",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        129.15,
+        242.78,
+        213.03,
+        252.615
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          240.86,
+          126.19,
+          254.77
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_132",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        129.15,
+        252.615,
+        213.03,
+        262.45
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          250.45,
+          126.19,
+          264.85
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_133",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        129.15,
+        262.45,
+        213.03,
+        272.285
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          260.05,
+          125.71,
+          275.4
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_134",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        129.15,
+        272.285,
+        213.03,
+        282.12
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          269.64,
+          126.67,
+          284.52
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_135",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        232.79,
+        242.78,
+        326.75,
+        252.615
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          241.82,
+          230.31,
+          254.29
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_136",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        232.79,
+        252.615,
+        326.75,
+        262.45
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          249.49,
+          230.79,
+          264.85
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_137",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        232.79,
+        262.45,
+        326.75,
+        272.285
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          265.81,
+          222.63,
+          270.6
+        ],
+        [
+          223.11,
+          264.37,
+          225.51,
+          271.56
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_138",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        232.79,
+        272.285,
+        326.75,
+        282.12
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          274.44,
+          223.59,
+          281.16
+        ],
+        [
+          223.59,
+          274.44,
+          225.99,
+          282.12
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_139",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        347.46,
+        242.78,
+        462.05,
+        252.615
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          241.82,
+          344.02,
+          254.29
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_140",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        347.46,
+        252.615,
+        462.05,
+        262.45
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.11,
+          249.49,
+          344.5,
+          264.85
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_141",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        347.46,
+        262.45,
+        462.05,
+        272.285
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          260.53,
+          343.54,
+          274.44
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_142",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        347.46,
+        272.285,
+        462.05,
+        282.12
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.11,
+          269.64,
+          344.5,
+          284.52
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_143",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        463.97,
+        242.78,
+        566.17,
+        252.615
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_144",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        463.97,
+        252.615,
+        566.17,
+        262.45
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_145",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        463.97,
+        262.45,
+        566.17,
+        272.285
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_146",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        30.71,
+        240.86,
+        55.18,
+        254.77
+      ],
+      "answer_bbox": [
+        463.97,
+        272.285,
+        566.17,
+        282.12
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_147",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        129.15,
+        284.04,
+        213.03,
+        293.875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          281.64,
+          126.67,
+          295.55
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_148",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        129.15,
+        293.875,
+        213.03,
+        303.71000000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          295.55,
+          118.51,
+          301.79
+        ],
+        [
+          118.99,
+          295.55,
+          120.91,
+          302.75
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_149",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        129.15,
+        303.71000000000004,
+        213.03,
+        313.545
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          307.55,
+          118.03,
+          311.87
+        ],
+        [
+          118.03,
+          305.63,
+          120.43,
+          312.83
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_150",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        129.15,
+        313.545,
+        213.03,
+        323.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          315.71,
+          118.51,
+          321.94
+        ],
+        [
+          118.99,
+          315.71,
+          120.91,
+          322.9
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_151",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        232.79,
+        284.04,
+        326.75,
+        293.875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          282.12,
+          230.31,
+          295.55
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_152",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        232.79,
+        293.875,
+        326.75,
+        303.71000000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          295.55,
+          223.59,
+          301.79
+        ],
+        [
+          223.59,
+          295.55,
+          225.99,
+          302.75
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_153",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        232.79,
+        303.71000000000004,
+        326.75,
+        313.545
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          223.11,
+          305.63,
+          225.51,
+          312.83
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_154",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        232.79,
+        313.545,
+        326.75,
+        323.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          310.43,
+          230.79,
+          325.78
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_155",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        347.46,
+        284.04,
+        462.05,
+        293.875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          282.12,
+          344.02,
+          295.55
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_156",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        347.46,
+        293.875,
+        462.05,
+        303.71000000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.11,
+          291.24,
+          344.5,
+          306.11
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_157",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        347.46,
+        303.71000000000004,
+        462.05,
+        313.545
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.11,
+          300.83,
+          344.02,
+          316.18
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_158",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        347.46,
+        313.545,
+        462.05,
+        323.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          312.35,
+          344.02,
+          325.3
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_159",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        463.97,
+        284.04,
+        566.17,
+        293.875
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_160",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        463.97,
+        293.875,
+        566.17,
+        303.71000000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_161",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        463.97,
+        303.71000000000004,
+        566.17,
+        313.545
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_162",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia",
+      "anchor_bbox": [
+        31.67,
+        282.6,
+        82.05,
+        294.11
+      ],
+      "answer_bbox": [
+        463.97,
+        313.545,
+        566.17,
+        323.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_163",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        129.15,
+        325.3,
+        213.03,
+        335.135
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          112.27,
+          323.86,
+          125.71,
+          336.82
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_164",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        129.15,
+        335.135,
+        213.03,
+        344.97
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          332.5,
+          126.19,
+          347.37
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_165",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        129.15,
+        344.97,
+        213.03,
+        354.805
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          348.33,
+          118.03,
+          353.13
+        ],
+        [
+          118.03,
+          346.41,
+          120.43,
+          354.09
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_166",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        129.15,
+        354.805,
+        213.03,
+        364.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          114.19,
+          356.97,
+          118.51,
+          363.2
+        ],
+        [
+          118.99,
+          356.97,
+          120.91,
+          364.64
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_167",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        232.79,
+        325.3,
+        326.75,
+        335.135
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          328.18,
+          223.11,
+          332.98
+        ],
+        [
+          223.59,
+          326.26,
+          225.99,
+          333.94
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_168",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        232.79,
+        335.135,
+        326.75,
+        344.97
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          336.34,
+          223.59,
+          343.05
+        ],
+        [
+          223.59,
+          336.34,
+          225.99,
+          344.01
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_169",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        232.79,
+        344.97,
+        326.75,
+        354.805
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          348.33,
+          223.11,
+          353.13
+        ],
+        [
+          223.11,
+          346.41,
+          225.03,
+          354.09
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_170",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        232.79,
+        354.805,
+        326.75,
+        364.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          356.97,
+          223.59,
+          363.2
+        ],
+        [
+          223.59,
+          356.97,
+          225.99,
+          364.64
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_171",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        347.46,
+        325.3,
+        462.05,
+        335.135
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.15,
+          322.42,
+          345.46,
+          347.85
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_172",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        347.46,
+        335.135,
+        462.05,
+        344.97
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.15,
+          322.42,
+          345.46,
+          347.85
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_173",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        347.46,
+        344.97,
+        462.05,
+        354.805
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          348.33,
+          336.82,
+          353.13
+        ],
+        [
+          336.82,
+          346.41,
+          339.22,
+          354.09
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_174",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        347.46,
+        354.805,
+        462.05,
+        364.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          356.97,
+          337.3,
+          363.68
+        ],
+        [
+          337.78,
+          356.97,
+          339.7,
+          364.64
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_175",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        463.97,
+        325.3,
+        566.17,
+        335.135
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_176",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        463.97,
+        335.135,
+        566.17,
+        344.97
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_177",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        463.97,
+        344.97,
+        566.17,
+        354.805
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_178",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson",
+      "anchor_bbox": [
+        30.71,
+        323.38,
+        65.73,
+        336.34
+      ],
+      "answer_bbox": [
+        463.97,
+        354.805,
+        566.17,
+        364.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_179",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        129.15,
+        366.56,
+        213.03,
+        376.39750000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          365.12,
+          126.19,
+          377.6
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_180",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        129.15,
+        376.39750000000004,
+        213.03,
+        386.235
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          374.24,
+          126.19,
+          388.63
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_181",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        129.15,
+        386.235,
+        213.03,
+        396.0725
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          384.8,
+          126.19,
+          399.19
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_182",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        129.15,
+        396.0725,
+        213.03,
+        405.91
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.32,
+          394.39,
+          126.67,
+          408.31
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_183",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        232.79,
+        366.56,
+        326.75,
+        376.39750000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          365.12,
+          230.31,
+          377.6
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_184",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        232.79,
+        376.39750000000004,
+        326.75,
+        386.235
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          215.91,
+          374.24,
+          230.79,
+          388.63
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_185",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        232.79,
+        386.235,
+        326.75,
+        396.0725
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          384.8,
+          229.83,
+          398.71
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_186",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        232.79,
+        396.0725,
+        326.75,
+        405.91
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          394.87,
+          230.31,
+          407.83
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_187",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        347.46,
+        366.56,
+        462.05,
+        376.39750000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          365.12,
+          344.5,
+          377.6
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_188",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        347.46,
+        376.39750000000004,
+        462.05,
+        386.235
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          329.63,
+          373.76,
+          344.5,
+          388.63
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_189",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        347.46,
+        386.235,
+        462.05,
+        396.0725
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          384.8,
+          344.02,
+          398.23
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_190",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        347.46,
+        396.0725,
+        462.05,
+        405.91
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          394.87,
+          344.5,
+          407.83
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_191",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        463.97,
+        366.56,
+        566.17,
+        376.39750000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_192",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        463.97,
+        376.39750000000004,
+        566.17,
+        386.235
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_193",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        463.97,
+        386.235,
+        566.17,
+        396.0725
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_194",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk",
+      "anchor_bbox": [
+        31.67,
+        365.12,
+        66.21,
+        376.64
+      ],
+      "answer_bbox": [
+        463.97,
+        396.0725,
+        566.17,
+        405.91
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_195",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        129.15,
+        407.83,
+        213.03,
+        417.66499999999996
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          406.39,
+          125.71,
+          418.86
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_196",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        129.15,
+        417.66499999999996,
+        213.03,
+        427.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          111.79,
+          416.46,
+          125.71,
+          428.94
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_197",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        129.15,
+        427.5,
+        213.03,
+        437.33500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          108.92,
+          424.14,
+          127.15,
+          450.05
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_198",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        129.15,
+        437.33500000000004,
+        213.03,
+        447.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_199",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        232.79,
+        407.83,
+        326.75,
+        417.66499999999996
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.87,
+          406.39,
+          230.31,
+          419.34
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_200",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        232.79,
+        417.66499999999996,
+        326.75,
+        427.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          216.39,
+          415.5,
+          230.79,
+          429.9
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_201",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        232.79,
+        427.5,
+        326.75,
+        437.33500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          431.34,
+          222.63,
+          435.65
+        ],
+        [
+          223.11,
+          429.42,
+          225.51,
+          436.61
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_202",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        232.79,
+        437.33500000000004,
+        326.75,
+        447.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          219.27,
+          439.49,
+          223.59,
+          445.73
+        ],
+        [
+          223.59,
+          439.49,
+          225.99,
+          447.17
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_203",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        347.46,
+        407.83,
+        462.05,
+        417.66499999999996
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          406.39,
+          344.02,
+          418.86
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_204",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        347.46,
+        417.66499999999996,
+        462.05,
+        427.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          330.59,
+          416.46,
+          344.02,
+          428.94
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_205",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        347.46,
+        427.5,
+        462.05,
+        437.33500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          431.34,
+          336.82,
+          435.65
+        ],
+        [
+          336.82,
+          429.42,
+          339.22,
+          436.61
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_206",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        347.46,
+        437.33500000000004,
+        462.05,
+        447.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [
+        [
+          332.99,
+          439.49,
+          337.3,
+          445.73
+        ],
+        [
+          337.78,
+          439.49,
+          339.7,
+          446.69
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "field_id": "form04_207",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        463.97,
+        407.83,
+        566.17,
+        417.66499999999996
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:1/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_208",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        463.97,
+        417.66499999999996,
+        566.17,
+        427.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:2/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_209",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        463.97,
+        427.5,
+        566.17,
+        437.33500000000004
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:3/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_210",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk",
+      "anchor_bbox": [
+        31.67,
+        406.39,
+        66.69,
+        417.9
+      ],
+      "answer_bbox": [
+        463.97,
+        437.33500000000004,
+        566.17,
+        447.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_band:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_211",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name of submitter",
+      "anchor_bbox": [
+        31.19,
+        500.43,
+        103.64,
+        510.02
+      ],
+      "answer_bbox": [
+        107.64,
+        500.43,
+        555.4400024414062,
+        510.02
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_to_margin",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_212",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name of company (including corp. suffix)",
+      "anchor_bbox": [
+        31.19,
+        510.5,
+        181.85,
+        521.54
+      ],
+      "answer_bbox": [
+        192.4,
+        511.46,
+        566.17,
+        520.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_213",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Position within company",
+      "anchor_bbox": [
+        31.19,
+        521.54,
+        123.79,
+        532.57
+      ],
+      "answer_bbox": [
+        192.4,
+        522.5,
+        566.17,
+        531.13
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form04_214",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "date",
+      "anchor_text": "Date",
+      "anchor_bbox": [
+        30.71,
+        531.61,
+        52.78,
+        544.09
+      ],
+      "answer_bbox": [
+        192.4,
+        533.05,
+        566.17,
+        541.69
+      ],
+      "option_boxes": {},
+      "slots": [
+        [
+          192.4,
+          533.05,
+          192.8,
+          541.69
+        ],
+        [
+          252.94,
+          533.05,
+          566.17,
+          541.69
+        ]
+      ],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [
+        "[DD-MM-YYYY]"
+      ],
+      "printed_marks": [],
+      "issues": []
+    }
+  ]
+}

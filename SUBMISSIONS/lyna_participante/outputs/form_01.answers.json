@@ -1,0 +1,1094 @@
+{
+  "form_id": "form_01",
+  "company": "Asterive Services SAS",
+  "as_of": "2026-09-01",
+  "answers": [
+    {
+      "field_id": "form01_001",
+      "page": 1,
+      "label": "Dénomination sociale",
+      "value": "Asterive Services SAS",
+      "normalized_value": "Asterive Services SAS",
+      "status": "answer",
+      "reason": "2 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Asterive Services SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Asterive Services SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_002",
+      "page": 1,
+      "label": "Code SIREN / n° d'enregistrement",
+      "value": "SIM-RCS-A-001",
+      "normalized_value": "SIM-RCS-A-001",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/registration",
+          "section": null,
+          "excerpt": "SIM-RCS-A-001",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_003",
+      "page": 1,
+      "label": "Société cotée",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/listed",
+          "section": null,
+          "excerpt": "false",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_004",
+      "page": 1,
+      "label": "Marché de cotation",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : company.listed = 'no' (1 source(s) concordante(s).).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/listed",
+          "section": null,
+          "excerpt": "false",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_005",
+      "page": 1,
+      "label": "Nom de la maison mère",
+      "value": "Asterive Participations SAS",
+      "normalized_value": "Asterive Participations SAS",
+      "status": "answer",
+      "reason": "3 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/parent/name",
+          "section": null,
+          "excerpt": "Asterive Participations SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/ownership.md",
+          "document_id": "A-OWNERSHIP-20260901",
+          "json_pointer": "/parent/name",
+          "section": null,
+          "excerpt": "Asterive Participations SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "438316ce6d87772b3b7c114158211ec7ae11c75e26660c9aa4495cc455b77111"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+          "document_id": null,
+          "json_pointer": "/subsidiary_name",
+          "section": null,
+          "excerpt": "Asterive Participations SAS",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "bd82b6e081aac7c5a6536129444efa0d7ac2775b1adb7c25ced695f1b776f8c3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_006",
+      "page": 1,
+      "label": "Pays d'immatriculation",
+      "value": "France",
+      "normalized_value": "France",
+      "status": "answer",
+      "reason": "3 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/parent/incorporation",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/ownership.md",
+          "document_id": "A-OWNERSHIP-20260901",
+          "json_pointer": "/parent/incorporation",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "438316ce6d87772b3b7c114158211ec7ae11c75e26660c9aa4495cc455b77111"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-parent/entity_registry_extract.json",
+          "document_id": "A-RELATED-REGISTRY-20260901",
+          "json_pointer": "/incorporation_country",
+          "section": null,
+          "excerpt": "FR",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "ef48c37c9b1fa77637043bb33a2dea337ce173361fe249763e22fea793abec66"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_007",
+      "page": 1,
+      "label": "Pays de résidence fiscale",
+      "value": null,
+      "normalized_value": null,
+      "status": "missing_information",
+      "reason": "Information non fournie : Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/parent/tax_residence",
+          "section": null,
+          "excerpt": "null",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/ownership.md",
+          "document_id": "A-OWNERSHIP-20260901",
+          "json_pointer": "/parent/tax_residence",
+          "section": null,
+          "excerpt": "null",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "438316ce6d87772b3b7c114158211ec7ae11c75e26660c9aa4495cc455b77111"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/parent/tax_residence_note",
+          "section": null,
+          "excerpt": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [
+        "pays de résidence fiscale de la maison mère"
+      ],
+      "calculation": null,
+      "rule": "null.documented_gap",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_008",
+      "page": 1,
+      "label": "Adresse de la maison mère",
+      "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+      "normalized_value": "40 place du Groupe Fictif, 69000 Lyon, France",
+      "status": "answer",
+      "reason": "4 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": "/parent/address",
+          "section": null,
+          "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/ownership.md",
+          "document_id": "A-OWNERSHIP-20260901",
+          "json_pointer": "/parent/address",
+          "section": null,
+          "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "438316ce6d87772b3b7c114158211ec7ae11c75e26660c9aa4495cc455b77111"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-parent/entity_registry_extract.json",
+          "document_id": "A-RELATED-REGISTRY-20260901",
+          "json_pointer": "/registered_office",
+          "section": null,
+          "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "ef48c37c9b1fa77637043bb33a2dea337ce173361fe249763e22fea793abec66"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-parent/entity_facts.json",
+          "document_id": null,
+          "json_pointer": "/address",
+          "section": null,
+          "excerpt": "40 place du Groupe Fictif, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "bd82b6e081aac7c5a6536129444efa0d7ac2775b1adb7c25ced695f1b776f8c3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_009",
+      "page": 1,
+      "label": "Corée du nord",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "North Korea absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_010",
+      "page": 1,
+      "label": "Crimée",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Crimea absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_011",
+      "page": 1,
+      "label": "Cuba",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Cuba absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_012",
+      "page": 1,
+      "label": "Irak",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Iraq absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_013",
+      "page": 1,
+      "label": "Iran",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Iran absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_014",
+      "page": 1,
+      "label": "Myanmar",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Myanmar absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_015",
+      "page": 1,
+      "label": "Russie",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Russia absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_016",
+      "page": 1,
+      "label": "Soudan",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Sudan absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_017",
+      "page": 1,
+      "label": "Sud-Soudan",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "South Sudan absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_018",
+      "page": 2,
+      "label": "Syrie",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Syria absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_019",
+      "page": 2,
+      "label": "Venezuela",
+      "value": "Non",
+      "normalized_value": "no",
+      "status": "answer",
+      "reason": "Venezuela absent du registre d'activités ; la déclaration négative couvre tout le périmètre (y compris indirect) et les juridictions non listées ont une exposition nulle sans activité prévue.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/activities",
+          "section": null,
+          "excerpt": "[]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md",
+          "document_id": "A-ACTIVITIES-20260901",
+          "json_pointer": "/negative_declaration",
+          "section": null,
+          "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, …",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "046b91d3d7666629343bee5c16d1365766b90d50c80ce346dac78e8e9cedb176"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/finance.md",
+          "document_id": "A-FINANCE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "2e5c5b1aafb073c9645e7c4a3ae9c7ff79e1027f00451717ddf5a9753a1c4af7"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md",
+          "document_id": "A-CORPORATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "6cd68a5e3227fb3ff25d502827e3b720587294da88c615d8f99dea295b86e433"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "activity.complete_negative_declaration+scope.client_and_controlled_descendants",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_020",
+      "page": 2,
+      "label": "Représenté par",
+      "value": "Élodie Varenne",
+      "normalized_value": "Élodie Varenne",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": "/signer/name",
+          "section": null,
+          "excerpt": "Élodie Varenne",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_021",
+      "page": 2,
+      "label": "En qualité de",
+      "value": "Présidente",
+      "normalized_value": "Présidente",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": "/signer_role",
+          "section": null,
+          "excerpt": "Présidente",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_022",
+      "page": 2,
+      "label": "Signé le",
+      "value": "01/09/2026",
+      "normalized_value": "01/09/2026",
+      "status": "answer",
+      "reason": "Date de complétion de l'exercice (mandat) ; aucune signature exécutée n'est attestée.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": "/date",
+          "section": null,
+          "excerpt": "01/09/2026",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "attestation.completion_date",
+      "context": {
+        "completion_date": "01/09/2026",
+        "signature_date": null
+      },
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form01_023",
+      "page": 2,
+      "label": "Signature",
+      "value": null,
+      "normalized_value": null,
+      "status": "human_action",
+      "reason": "Aucune signature exécutée n'est fournie ; l'autorité de représenter ne vaut pas signature. Signature humaine requise.",
+      "evidence": [
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "No signature is supplied.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The date is the fixed exercise completion date, not an actual executed signature.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        },
+        {
+          "source": "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md",
+          "document_id": "A-MANDATE-20260901",
+          "json_pointer": "/authority",
+          "section": null,
+          "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "d7dd18a80f9836bd63941f0e46e8a3e92ea75a136358c6f165b6fa4f1d1cd8b3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "signature.not_executed",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    }
+  ],
+  "llm_calls": 0,
+  "status_counts": {
+    "answer": 20,
+    "not_applicable": 1,
+    "missing_information": 1,
+    "bank_reserved": 0,
+    "human_action": 1
+  },
+  "partial_answers": 0,
+  "fill_rate_proxy": 0.9524,
+  "evidence_coverage": 1.0
+}

@@ -1,0 +1,4249 @@
+{
+  "form_id": "form_03",
+  "source": "questionnaires/03_cendrelis_instruments.pdf",
+  "locations": [
+    {
+      "field_id": "form03_001",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Legal Name",
+      "anchor_bbox": [
+        51.82,
+        167.93,
+        116.59,
+        182.8
+      ],
+      "answer_bbox": [
+        115.63,
+        163.13,
+        545.54,
+        183.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_002",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Tax Identification Number",
+      "anchor_bbox": [
+        49.9,
+        192.88,
+        182.81,
+        207.27
+      ],
+      "answer_bbox": [
+        209.2,
+        187.12,
+        545.06,
+        209.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_003",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "LEI",
+      "anchor_bbox": [
+        43.18,
+        216.87,
+        74.37,
+        232.22
+      ],
+      "answer_bbox": [
+        87.8,
+        210.63,
+        545.06,
+        233.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_004",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "NACE Code of the company:",
+      "anchor_bbox": [
+        50.86,
+        273.48,
+        198.16,
+        289.32
+      ],
+      "answer_bbox": [
+        206.8,
+        271.56,
+        276.37,
+        292.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_005",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": " None of the indicated below",
+      "anchor_bbox": [
+        70.05,
+        340.65,
+        231.27,
+        354.57
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "none": [
+          72.93,
+          344.49,
+          80.13,
+          351.69
+        ],
+        "money_transmitter": [
+          72.93,
+          368.96,
+          80.13,
+          376.16
+        ],
+        "gambling": [
+          72.93,
+          393.91,
+          80.13,
+          400.63
+        ],
+        "mere_asset_holding": [
+          72.93,
+          418.38,
+          80.13,
+          425.58
+        ],
+        "holding": [
+          72.93,
+          442.85,
+          80.13,
+          450.05
+        ],
+        "crowdfunding": [
+          72.93,
+          467.8,
+          80.13,
+          475.0
+        ],
+        "non_financial_asset_manager": [
+          72.93,
+          492.27,
+          80.13,
+          499.47
+        ],
+        "cannabis": [
+          72.93,
+          517.22,
+          80.13,
+          524.42
+        ],
+        "spv": [
+          72.93,
+          542.17,
+          80.13,
+          549.37
+        ],
+        "vasp": [
+          72.93,
+          566.64,
+          80.13,
+          573.83
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:10/10",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_006",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name of authority",
+      "anchor_bbox": [
+        69.57,
+        637.17,
+        169.37,
+        653.0
+      ],
+      "answer_bbox": [
+        178.49,
+        631.89,
+        529.71,
+        656.36
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_007",
+      "page": 2,
+      "zone_type": "checkbox",
+      "answer_type": "choice",
+      "anchor_text": "Company is not supervised by a regulatory authority",
+      "anchor_bbox": [
+        70.05,
+        673.15,
+        363.21,
+        689.47
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          353.14,
+          678.43,
+          360.33,
+          685.63
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:1/1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_008",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "Own activity □",
+      "anchor_bbox": [
+        48.94,
+        736.96,
+        125.23,
+        752.8
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "own_activity": [
+          114.67,
+          742.24,
+          121.39,
+          748.48
+        ],
+        "investors": [
+          209.68,
+          742.24,
+          215.91,
+          748.48
+        ],
+        "deposits": [
+          296.52,
+          742.24,
+          302.76,
+          748.48
+        ],
+        "others": [
+          374.73,
+          742.24,
+          380.97,
+          748.48
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_009",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*Please explain:",
+      "anchor_bbox": [
+        47.02,
+        80.61,
+        131.95,
+        97.4
+      ],
+      "answer_bbox": [
+        135.95,
+        80.61,
+        555.4400024414062,
+        97.4
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_to_margin",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_010",
+      "page": 3,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": " Can the corporation issue bearer shares? Yes No",
+      "anchor_bbox": [
+        36.47,
+        109.87,
+        375.69,
+        129.06
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          301.32,
+          117.55,
+          308.04,
+          124.75
+        ],
+        "no": [
+          344.02,
+          117.55,
+          351.22,
+          124.75
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:0/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_011",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        168.41,
+        190.96,
+        181.37
+      ],
+      "answer_bbox": [
+        194.96,
+        167.41,
+        756.47,
+        180.85
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_012",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        85.4,
+        182.81,
+        181.84,
+        197.2
+      ],
+      "answer_bbox": [
+        185.84,
+        181.81,
+        416.78,
+        195.24
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_013",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        425.1,
+        182.33,
+        514.34,
+        196.72
+      ],
+      "answer_bbox": [
+        518.34,
+        181.33,
+        756.47,
+        195.24
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_014",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        197.2,
+        151.62,
+        210.16
+      ],
+      "answer_bbox": [
+        155.62,
+        196.2,
+        416.78,
+        209.16
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_015",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.62,
+        196.72,
+        483.63,
+        211.59
+      ],
+      "answer_bbox": [
+        487.63,
+        195.72,
+        756.47,
+        209.16
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_016",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        85.88,
+        211.59,
+        194.32,
+        224.07
+      ],
+      "answer_bbox": [
+        198.32,
+        210.59,
+        416.78,
+        222.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_017",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        424.62,
+        211.11,
+        608.38,
+        224.55
+      ],
+      "answer_bbox": [
+        612.38,
+        210.11,
+        756.47,
+        222.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_018",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        85.4,
+        224.55,
+        195.76,
+        237.5
+      ],
+      "answer_bbox": [
+        199.76,
+        223.55,
+        756.47,
+        236.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_019",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became “Controlling Person\":",
+      "anchor_bbox": [
+        84.92,
+        238.46,
+        334.9,
+        250.94
+      ],
+      "answer_bbox": [
+        338.9,
+        237.46,
+        756.47,
+        251.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_020",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        253.34,
+        190.96,
+        265.81
+      ],
+      "answer_bbox": [
+        194.96,
+        252.34,
+        756.47,
+        265.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_021",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        85.4,
+        267.25,
+        181.84,
+        281.65
+      ],
+      "answer_bbox": [
+        185.84,
+        266.25,
+        416.78,
+        279.69
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_022",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        425.1,
+        267.25,
+        513.86,
+        281.65
+      ],
+      "answer_bbox": [
+        517.86,
+        266.25,
+        756.47,
+        279.69
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_023",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        281.17,
+        152.57,
+        295.56
+      ],
+      "answer_bbox": [
+        156.57,
+        280.17,
+        416.78,
+        294.08
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_024",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.62,
+        281.65,
+        483.63,
+        296.04
+      ],
+      "answer_bbox": [
+        487.63,
+        280.65,
+        756.47,
+        294.08
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_025",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        85.4,
+        296.04,
+        193.84,
+        308.52
+      ],
+      "answer_bbox": [
+        197.84,
+        295.04,
+        416.78,
+        307.04
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_026",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        424.62,
+        295.56,
+        608.38,
+        309.0
+      ],
+      "answer_bbox": [
+        612.38,
+        294.56,
+        756.47,
+        307.04
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_027",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        85.4,
+        309.0,
+        195.28,
+        321.95
+      ],
+      "answer_bbox": [
+        199.28,
+        308.0,
+        756.47,
+        321.43
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_028",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became \"Controlling Person\":",
+      "anchor_bbox": [
+        84.92,
+        322.43,
+        335.38,
+        336.34
+      ],
+      "answer_bbox": [
+        339.38,
+        321.43,
+        756.47,
+        335.82
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_029",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        337.78,
+        190.96,
+        350.74
+      ],
+      "answer_bbox": [
+        194.96,
+        336.78,
+        756.47,
+        350.22
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_030",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        85.88,
+        352.66,
+        181.36,
+        365.61
+      ],
+      "answer_bbox": [
+        185.36,
+        351.66,
+        416.78,
+        364.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_031",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        425.1,
+        351.7,
+        513.86,
+        366.09
+      ],
+      "answer_bbox": [
+        517.86,
+        350.7,
+        756.47,
+        364.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_032",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        366.57,
+        152.09,
+        379.53
+      ],
+      "answer_bbox": [
+        156.09,
+        365.57,
+        416.78,
+        378.53
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_033",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.62,
+        366.09,
+        483.63,
+        380.49
+      ],
+      "answer_bbox": [
+        487.63,
+        365.09,
+        756.47,
+        378.53
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_034",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        84.44,
+        379.05,
+        194.32,
+        394.4
+      ],
+      "answer_bbox": [
+        198.32,
+        378.05,
+        416.78,
+        391.96
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_035",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        424.62,
+        380.49,
+        608.38,
+        393.92
+      ],
+      "answer_bbox": [
+        612.38,
+        379.49,
+        756.47,
+        391.96
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_036",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        85.4,
+        393.92,
+        195.28,
+        406.88
+      ],
+      "answer_bbox": [
+        199.28,
+        392.92,
+        756.47,
+        406.36
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_037",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became “Controlling Person\":",
+      "anchor_bbox": [
+        85.4,
+        407.84,
+        334.9,
+        420.31
+      ],
+      "answer_bbox": [
+        338.9,
+        406.84,
+        756.47,
+        420.75
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_038",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        125.23,
+        190.96,
+        137.7
+      ],
+      "answer_bbox": [
+        194.96,
+        124.23,
+        756.47,
+        137.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_039",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        84.92,
+        138.18,
+        181.84,
+        154.02
+      ],
+      "answer_bbox": [
+        185.84,
+        137.18,
+        416.78,
+        152.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_040",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        424.62,
+        137.7,
+        513.86,
+        153.54
+      ],
+      "answer_bbox": [
+        517.86,
+        136.7,
+        756.47,
+        152.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_041",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        153.06,
+        153.05,
+        167.45
+      ],
+      "answer_bbox": [
+        157.05,
+        152.06,
+        416.78,
+        165.97
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_042",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.62,
+        153.54,
+        483.63,
+        168.41
+      ],
+      "answer_bbox": [
+        487.63,
+        152.54,
+        756.47,
+        165.97
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_043",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        85.4,
+        168.41,
+        193.84,
+        181.37
+      ],
+      "answer_bbox": [
+        197.84,
+        167.41,
+        416.78,
+        179.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_044",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        424.62,
+        167.93,
+        608.38,
+        181.85
+      ],
+      "answer_bbox": [
+        612.38,
+        166.93,
+        756.47,
+        179.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_045",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        84.92,
+        180.89,
+        195.28,
+        194.8
+      ],
+      "answer_bbox": [
+        199.28,
+        179.89,
+        756.47,
+        193.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_046",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became \"Controlling Person\":",
+      "anchor_bbox": [
+        84.44,
+        194.32,
+        335.38,
+        208.72
+      ],
+      "answer_bbox": [
+        339.38,
+        193.32,
+        756.47,
+        208.2
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_047",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        210.64,
+        190.96,
+        223.11
+      ],
+      "answer_bbox": [
+        194.96,
+        209.64,
+        756.47,
+        222.11
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_048",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        85.88,
+        224.07,
+        181.36,
+        238.46
+      ],
+      "answer_bbox": [
+        185.36,
+        223.07,
+        416.78,
+        236.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_049",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        425.1,
+        223.59,
+        513.86,
+        237.98
+      ],
+      "answer_bbox": [
+        517.86,
+        222.59,
+        756.47,
+        236.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_050",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        238.46,
+        151.62,
+        251.42
+      ],
+      "answer_bbox": [
+        155.62,
+        237.46,
+        416.78,
+        250.9
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_051",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.14,
+        237.5,
+        483.15,
+        253.34
+      ],
+      "answer_bbox": [
+        487.15,
+        236.5,
+        756.47,
+        250.9
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_052",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        84.92,
+        251.9,
+        194.32,
+        267.25
+      ],
+      "answer_bbox": [
+        198.32,
+        250.9,
+        416.78,
+        263.85
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_053",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        425.1,
+        253.34,
+        607.9,
+        265.81
+      ],
+      "answer_bbox": [
+        611.9,
+        252.34,
+        756.47,
+        263.85
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_054",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        85.4,
+        266.29,
+        195.28,
+        279.25
+      ],
+      "answer_bbox": [
+        199.28,
+        265.29,
+        756.47,
+        278.25
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_055",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became \"Controlling Person\":",
+      "anchor_bbox": [
+        84.92,
+        279.25,
+        335.38,
+        292.68
+      ],
+      "answer_bbox": [
+        339.38,
+        278.25,
+        756.47,
+        292.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_056",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        295.08,
+        190.96,
+        307.56
+      ],
+      "answer_bbox": [
+        194.96,
+        294.08,
+        756.47,
+        307.04
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_057",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        85.88,
+        308.52,
+        181.36,
+        322.91
+      ],
+      "answer_bbox": [
+        185.36,
+        307.52,
+        416.78,
+        321.43
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_058",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        424.62,
+        307.08,
+        513.86,
+        322.91
+      ],
+      "answer_bbox": [
+        517.86,
+        306.08,
+        756.47,
+        321.43
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_059",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        322.43,
+        152.57,
+        336.82
+      ],
+      "answer_bbox": [
+        156.57,
+        321.43,
+        416.78,
+        335.82
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_060",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.62,
+        322.43,
+        483.15,
+        337.3
+      ],
+      "answer_bbox": [
+        487.15,
+        321.43,
+        756.47,
+        335.82
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_061",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        85.88,
+        337.78,
+        193.84,
+        350.74
+      ],
+      "answer_bbox": [
+        197.84,
+        336.78,
+        416.78,
+        348.78
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_062",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        424.62,
+        337.3,
+        608.38,
+        351.22
+      ],
+      "answer_bbox": [
+        612.38,
+        336.3,
+        756.47,
+        348.78
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_063",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        85.4,
+        350.74,
+        195.76,
+        363.69
+      ],
+      "answer_bbox": [
+        199.76,
+        349.74,
+        756.47,
+        363.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_064",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became \"Controlling Person\":",
+      "anchor_bbox": [
+        84.44,
+        363.69,
+        335.38,
+        378.09
+      ],
+      "answer_bbox": [
+        339.38,
+        362.69,
+        756.47,
+        377.57
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_065",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name and Surname:",
+      "anchor_bbox": [
+        84.92,
+        379.53,
+        190.96,
+        392.0
+      ],
+      "answer_bbox": [
+        194.96,
+        378.53,
+        756.47,
+        391.96
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_066",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Type of control (1):",
+      "anchor_bbox": [
+        85.88,
+        393.44,
+        181.36,
+        407.84
+      ],
+      "answer_bbox": [
+        185.36,
+        392.44,
+        416.78,
+        405.88
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_067",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ownership % (2):",
+      "anchor_bbox": [
+        425.1,
+        392.96,
+        513.86,
+        407.36
+      ],
+      "answer_bbox": [
+        517.86,
+        391.96,
+        756.47,
+        405.88
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_068",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date of birth:",
+      "anchor_bbox": [
+        84.92,
+        407.84,
+        151.62,
+        420.79
+      ],
+      "answer_bbox": [
+        155.62,
+        406.84,
+        416.78,
+        420.27
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_069",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nationality:",
+      "anchor_bbox": [
+        424.14,
+        406.4,
+        483.63,
+        422.23
+      ],
+      "answer_bbox": [
+        487.63,
+        405.4,
+        756.47,
+        420.27
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_070",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Country of residence:",
+      "anchor_bbox": [
+        85.88,
+        422.23,
+        193.84,
+        435.18
+      ],
+      "answer_bbox": [
+        197.84,
+        421.23,
+        416.78,
+        433.22
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_071",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Passport or national ID card number:",
+      "anchor_bbox": [
+        424.62,
+        421.75,
+        608.86,
+        435.66
+      ],
+      "answer_bbox": [
+        612.86,
+        420.75,
+        756.47,
+        433.22
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_072",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Address of residence:",
+      "anchor_bbox": [
+        85.4,
+        435.66,
+        195.28,
+        448.62
+      ],
+      "answer_bbox": [
+        199.28,
+        434.66,
+        756.47,
+        447.62
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_073",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date on which the person became “Controlling Person\":",
+      "anchor_bbox": [
+        84.92,
+        449.1,
+        335.38,
+        463.01
+      ],
+      "answer_bbox": [
+        339.38,
+        448.1,
+        756.47,
+        462.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_074",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        61.89,
+        211.59,
+        241.34,
+        269.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          211.59,
+          241.34,
+          269.17
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_075",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        243.26,
+        211.59,
+        329.62,
+        269.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          211.59,
+          329.62,
+          269.17
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_076",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        331.54,
+        211.59,
+        448.61,
+        269.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.54,
+          211.59,
+          448.61,
+          269.17
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_077",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        450.53,
+        211.59,
+        612.7,
+        269.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          211.59,
+          612.7,
+          229.83
+        ],
+        [
+          450.53,
+          231.27,
+          612.7,
+          249.5
+        ],
+        [
+          450.53,
+          250.94,
+          612.7,
+          269.17
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_078",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        614.62,
+        211.59,
+        750.88,
+        269.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          211.59,
+          750.88,
+          229.35
+        ],
+        [
+          614.62,
+          231.27,
+          750.88,
+          249.5
+        ],
+        [
+          614.62,
+          250.94,
+          750.88,
+          269.17
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_079",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        61.89,
+        271.09,
+        241.34,
+        328.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          271.09,
+          241.34,
+          328.67
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_080",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        243.26,
+        271.09,
+        329.62,
+        328.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          271.09,
+          329.62,
+          328.67
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_081",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        331.06,
+        271.09,
+        448.61,
+        328.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          271.09,
+          448.61,
+          328.67
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_082",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        450.53,
+        271.09,
+        612.7,
+        328.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          271.09,
+          612.7,
+          289.32
+        ],
+        [
+          450.53,
+          290.76,
+          612.7,
+          309.0
+        ],
+        [
+          450.53,
+          310.91,
+          612.7,
+          328.67
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_083",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        614.62,
+        271.09,
+        750.88,
+        328.67
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          271.09,
+          750.88,
+          289.32
+        ],
+        [
+          614.62,
+          290.76,
+          750.88,
+          309.0
+        ],
+        [
+          614.62,
+          310.91,
+          750.88,
+          328.67
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_084",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        61.89,
+        330.59,
+        241.34,
+        388.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          330.59,
+          241.34,
+          388.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_085",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        243.26,
+        330.59,
+        329.62,
+        388.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          330.59,
+          329.62,
+          388.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_086",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        331.06,
+        330.59,
+        448.61,
+        388.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          330.59,
+          448.61,
+          388.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_087",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        450.53,
+        330.59,
+        612.7,
+        388.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          330.59,
+          612.7,
+          348.82
+        ],
+        [
+          450.53,
+          350.74,
+          612.7,
+          368.49
+        ],
+        [
+          450.53,
+          370.41,
+          612.7,
+          388.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_088",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        614.62,
+        330.59,
+        750.88,
+        388.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          330.59,
+          750.88,
+          348.82
+        ],
+        [
+          614.62,
+          350.74,
+          750.88,
+          368.49
+        ],
+        [
+          614.62,
+          370.41,
+          750.88,
+          388.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_089",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        61.89,
+        390.08,
+        241.34,
+        448.14
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          390.08,
+          241.34,
+          448.14
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_090",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        243.26,
+        390.08,
+        329.62,
+        448.14
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          390.08,
+          329.62,
+          448.14
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_091",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        331.06,
+        390.08,
+        448.61,
+        448.14
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          390.08,
+          448.61,
+          448.14
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_092",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        450.53,
+        390.08,
+        612.7,
+        448.14
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          390.08,
+          612.7,
+          408.32
+        ],
+        [
+          450.53,
+          409.75,
+          612.7,
+          427.99
+        ],
+        [
+          450.53,
+          429.91,
+          612.7,
+          448.14
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_093",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        614.62,
+        390.08,
+        750.88,
+        448.14
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          390.08,
+          750.88,
+          408.32
+        ],
+        [
+          614.62,
+          409.75,
+          750.88,
+          427.99
+        ],
+        [
+          614.62,
+          429.91,
+          750.88,
+          448.14
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_094",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        61.89,
+        449.58,
+        241.34,
+        507.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          449.58,
+          241.34,
+          507.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_095",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        243.26,
+        449.58,
+        329.62,
+        507.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          449.58,
+          329.62,
+          507.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_096",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        331.06,
+        449.58,
+        448.61,
+        507.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          449.58,
+          448.61,
+          507.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_097",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        450.53,
+        449.58,
+        612.7,
+        507.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          449.58,
+          612.7,
+          467.81
+        ],
+        [
+          450.53,
+          469.73,
+          612.7,
+          487.48
+        ],
+        [
+          450.53,
+          489.4,
+          612.7,
+          507.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_098",
+      "page": 6,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        177.05,
+        168.41,
+        190.0
+      ],
+      "answer_bbox": [
+        614.62,
+        449.58,
+        750.88,
+        507.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          449.58,
+          750.88,
+          467.81
+        ],
+        [
+          614.62,
+          469.73,
+          750.88,
+          487.48
+        ],
+        [
+          614.62,
+          489.4,
+          750.88,
+          507.64
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_099",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        61.89,
+        254.78,
+        241.34,
+        312.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          254.78,
+          241.34,
+          312.35
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_100",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        243.26,
+        254.78,
+        329.62,
+        312.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          254.78,
+          329.62,
+          312.35
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_101",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        331.06,
+        254.78,
+        448.61,
+        312.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          254.78,
+          448.61,
+          312.35
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_102",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        450.53,
+        254.78,
+        612.7,
+        312.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          254.78,
+          612.7,
+          273.01
+        ],
+        [
+          450.53,
+          274.45,
+          612.7,
+          292.68
+        ],
+        [
+          450.53,
+          294.6,
+          612.7,
+          312.35
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_103",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        614.62,
+        254.78,
+        750.88,
+        312.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          254.78,
+          750.88,
+          273.01
+        ],
+        [
+          614.62,
+          274.45,
+          750.88,
+          292.68
+        ],
+        [
+          614.62,
+          294.6,
+          750.88,
+          312.35
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r1c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_104",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        61.89,
+        314.27,
+        241.34,
+        371.85
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          314.27,
+          241.34,
+          371.85
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_105",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        243.26,
+        314.27,
+        329.62,
+        372.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          314.27,
+          329.62,
+          372.33
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_106",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        331.54,
+        314.27,
+        448.61,
+        372.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.54,
+          314.27,
+          448.61,
+          372.33
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_107",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        450.53,
+        314.27,
+        612.7,
+        372.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          314.27,
+          612.7,
+          332.51
+        ],
+        [
+          450.53,
+          334.43,
+          612.7,
+          352.18
+        ],
+        [
+          450.53,
+          354.1,
+          612.7,
+          372.33
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_108",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        614.62,
+        314.27,
+        750.88,
+        372.33
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          314.27,
+          750.88,
+          332.51
+        ],
+        [
+          614.62,
+          334.43,
+          750.88,
+          352.18
+        ],
+        [
+          614.62,
+          354.1,
+          750.88,
+          372.33
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r2c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_109",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        61.89,
+        373.77,
+        241.34,
+        431.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          373.77,
+          241.34,
+          431.83
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_110",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        243.26,
+        373.77,
+        329.62,
+        431.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          373.77,
+          329.62,
+          431.83
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_111",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        331.06,
+        373.77,
+        448.61,
+        431.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          373.77,
+          448.61,
+          431.83
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_112",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        450.53,
+        373.77,
+        612.7,
+        431.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          373.77,
+          612.7,
+          392.0
+        ],
+        [
+          450.53,
+          393.92,
+          612.7,
+          411.67
+        ],
+        [
+          450.53,
+          413.59,
+          612.7,
+          431.83
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_113",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        614.62,
+        373.77,
+        750.88,
+        431.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          373.77,
+          750.88,
+          392.0
+        ],
+        [
+          614.62,
+          393.92,
+          750.88,
+          411.67
+        ],
+        [
+          614.62,
+          413.59,
+          750.88,
+          431.83
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r3c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_114",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        61.89,
+        433.27,
+        241.34,
+        491.32
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          433.27,
+          241.34,
+          491.32
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_115",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        243.26,
+        433.27,
+        329.62,
+        491.32
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          433.27,
+          329.62,
+          491.32
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_116",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        331.54,
+        433.27,
+        448.61,
+        491.32
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.54,
+          433.27,
+          448.61,
+          491.32
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_117",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        450.53,
+        433.27,
+        612.7,
+        491.32
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          433.27,
+          612.7,
+          451.5
+        ],
+        [
+          450.53,
+          453.42,
+          612.7,
+          471.17
+        ],
+        [
+          450.53,
+          473.09,
+          612.7,
+          491.32
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_118",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        614.62,
+        433.27,
+        750.88,
+        491.32
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          433.27,
+          750.88,
+          451.5
+        ],
+        [
+          614.62,
+          453.42,
+          750.88,
+          471.17
+        ],
+        [
+          614.62,
+          473.09,
+          750.88,
+          491.32
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r4c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_119",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        61.89,
+        493.24,
+        241.34,
+        531.15
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          61.89,
+          493.24,
+          241.34,
+          531.15
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_120",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        243.26,
+        493.24,
+        329.62,
+        531.15
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          243.26,
+          493.24,
+          329.62,
+          531.15
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_121",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        331.06,
+        493.24,
+        448.61,
+        531.15
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          331.06,
+          493.24,
+          448.61,
+          531.15
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_122",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        450.53,
+        493.24,
+        612.7,
+        531.15
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          450.53,
+          493.24,
+          612.7,
+          510.99
+        ],
+        [
+          450.53,
+          512.91,
+          612.7,
+          531.15
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_123",
+      "page": 7,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname (1)",
+      "anchor_bbox": [
+        63.81,
+        220.23,
+        168.41,
+        233.19
+      ],
+      "answer_bbox": [
+        614.62,
+        493.24,
+        750.88,
+        531.15
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          614.62,
+          493.24,
+          750.88,
+          510.99
+        ],
+        [
+          614.62,
+          512.91,
+          750.88,
+          531.15
+        ]
+      ],
+      "slot_labels": [],
+      "method": "grid:r5c4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_124",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "This declaration is signed in",
+      "anchor_bbox": [
+        35.99,
+        383.84,
+        174.17,
+        396.79
+      ],
+      "answer_bbox": [
+        182.81,
+        372.32,
+        333.95,
+        400.63
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_125",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "date",
+      "anchor_text": "Date",
+      "anchor_bbox": [
+        365.61,
+        382.88,
+        393.92,
+        397.27
+      ],
+      "answer_bbox": [
+        398.24,
+        372.32,
+        545.06,
+        397.27
+      ],
+      "option_boxes": {},
+      "slots": [
+        [
+          398.24,
+          372.32,
+          439.02,
+          396.79
+        ],
+        [
+          446.7,
+          372.32,
+          487.48,
+          397.27
+        ],
+        [
+          492.76,
+          372.32,
+          545.06,
+          397.27
+        ]
+      ],
+      "line_slots": [],
+      "slot_labels": [
+        "Month",
+        "Dav",
+        null
+      ],
+      "method": "input_slots:3",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_126",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Name & Surname",
+      "anchor_bbox": [
+        35.51,
+        414.54,
+        126.19,
+        427.02
+      ],
+      "answer_bbox": [
+        139.62,
+        411.18,
+        534.02,
+        436.13
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form03_127",
+      "page": 9,
+      "zone_type": "signature",
+      "answer_type": "signature",
+      "anchor_text": "Signature",
+      "anchor_bbox": [
+        34.55,
+        444.29,
+        85.89,
+        459.16
+      ],
+      "answer_bbox": [
+        89.89,
+        442.29,
+        555.4400024414062,
+        504.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_of_label",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    }
+  ]
+}

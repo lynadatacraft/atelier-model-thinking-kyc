@@ -1,0 +1,5286 @@
+{
+  "form_id": "form_05",
+  "source": "questionnaires/05_cendrelis_instruments.pdf",
+  "locations": [
+    {
+      "field_id": "form05_001",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Legal Entity Name",
+      "anchor_bbox": [
+        35.52,
+        436.06,
+        91.2,
+        445.65
+      ],
+      "answer_bbox": [
+        309.12,
+        426.46,
+        575.04,
+        446.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell_free",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_002",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Full Name and Job Title of Client Contact Completing the Form",
+      "anchor_bbox": [
+        36.0,
+        469.16,
+        217.92,
+        477.31
+      ],
+      "answer_bbox": [
+        309.12,
+        448.53,
+        575.04,
+        479.23
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell_free",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_003",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Date",
+      "anchor_bbox": [
+        34.56,
+        490.26,
+        53.76,
+        500.82
+      ],
+      "answer_bbox": [
+        309.12,
+        481.15,
+        575.04,
+        501.3
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell_free",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_004",
+      "page": 1,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do",
+      "anchor_bbox": [
+        35.52,
+        535.36,
+        487.2,
+        544.95
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          521.28,
+          520.48,
+          526.56,
+          525.76
+        ],
+        "no": [
+          521.76,
+          536.31,
+          527.04,
+          541.59
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_005",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or",
+      "anchor_bbox": [
+        35.52,
+        220.19,
+        489.12,
+        229.3
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          521.28,
+          198.6,
+          526.56,
+          203.88
+        ],
+        "no": [
+          521.76,
+          214.43,
+          527.04,
+          219.71
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_006",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "2. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil",
+      "anchor_bbox": [
+        35.52,
+        305.1,
+        467.52,
+        314.21
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          521.28,
+          290.22,
+          526.56,
+          295.5
+        ],
+        "no": [
+          521.76,
+          306.05,
+          527.04,
+          311.33
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_007",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "3. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the future, in any new investments in Russia or",
+      "anchor_bbox": [
+        35.52,
+        375.61,
+        469.92,
+        384.73
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          521.28,
+          359.78,
+          526.56,
+          365.06
+        ],
+        "no": [
+          521.76,
+          375.61,
+          527.04,
+          380.89
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_008",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus?",
+      "anchor_bbox": [
+        36.0,
+        442.77,
+        471.84,
+        452.37
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          521.28,
+          425.02,
+          526.56,
+          430.3
+        ],
+        "no": [
+          521.76,
+          440.85,
+          527.04,
+          446.13
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_009",
+      "page": 3,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1.",
+      "anchor_bbox": [
+        37.44,
+        218.27,
+        417.6,
+        227.86
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          114.65,
+          525.12,
+          119.93
+        ],
+        "no": [
+          520.32,
+          130.48,
+          525.6,
+          135.28
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_010",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and",
+      "anchor_bbox": [
+        36.48,
+        281.59,
+        477.6,
+        290.7
+      ],
+      "answer_bbox": [
+        37.44,
+        302.7,
+        489.12,
+        340.59
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_011",
+      "page": 3,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "6. Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder, or a person having direct or",
+      "anchor_bbox": [
+        36.96,
+        427.9,
+        472.32,
+        437.02
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          372.73,
+          525.12,
+          378.01
+        ],
+        "no": [
+          520.32,
+          388.56,
+          525.6,
+          393.84
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_012",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" is selected, please provide the name of such person or entity, and indicate the relevant Sanctioned Jurisdiction, and provide additional details.",
+      "anchor_bbox": [
+        38.4,
+        453.33,
+        463.2,
+        461.96
+      ],
+      "answer_bbox": [
+        37.44,
+        464.84,
+        489.12,
+        502.74
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_013",
+      "page": 3,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or",
+      "anchor_bbox": [
+        36.96,
+        569.89,
+        483.84,
+        578.53
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          534.88,
+          525.12,
+          540.15
+        ],
+        "no": [
+          520.32,
+          550.71,
+          525.6,
+          555.98
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_014",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory",
+      "anchor_bbox": [
+        37.44,
+        586.68,
+        487.68,
+        596.76
+      ],
+      "answer_bbox": [
+        37.44,
+        607.31,
+        489.12,
+        652.88
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_015",
+      "page": 4,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "8. Do you currently use or intend to use or make available to your branches/offices, subsidiaries or any other third person, any La Banque des",
+      "anchor_bbox": [
+        36.96,
+        211.07,
+        468.48,
+        219.71
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          114.65,
+          525.12,
+          119.93
+        ],
+        "no": [
+          520.32,
+          130.48,
+          525.6,
+          135.28
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_016",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" is selected, please provide the number of the account maintained by La Banque des Entreprises, and the Sanctioned Parties or Sanctioned",
+      "anchor_bbox": [
+        37.44,
+        235.54,
+        487.68,
+        245.61
+      ],
+      "answer_bbox": [
+        32.64,
+        281.67,
+        493.92,
+        328.04
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "space_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_017",
+      "page": 4,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "9. Do you have policies and procedures in place designed to comply with all sanctions or trade restrictive measures in force (in particular those introduced by",
+      "anchor_bbox": [
+        36.96,
+        396.24,
+        484.32,
+        405.35
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          351.15,
+          525.6,
+          356.42
+        ],
+        "no": [
+          520.32,
+          366.98,
+          525.6,
+          372.25
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_018",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" is selected, please provide a brief overview of your sanctions policies/procedures including information on the parties (customers, end-users, vendors,",
+      "anchor_bbox": [
+        37.44,
+        412.55,
+        485.76,
+        422.62
+      ],
+      "answer_bbox": [
+        37.44,
+        433.18,
+        489.12,
+        478.75
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_019",
+      "page": 4,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU",
+      "anchor_bbox": [
+        36.96,
+        530.56,
+        462.24,
+        539.67
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          503.69,
+          525.12,
+          508.97
+        ],
+        "no": [
+          520.32,
+          519.53,
+          525.6,
+          524.8
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_020",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes),",
+      "anchor_bbox": [
+        37.44,
+        546.87,
+        488.16,
+        556.94
+      ],
+      "answer_bbox": [
+        37.44,
+        567.5,
+        489.12,
+        605.87
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_021",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European",
+      "anchor_bbox": [
+        36.96,
+        168.86,
+        483.84,
+        178.45
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.84,
+          114.65,
+          525.12,
+          119.93
+        ],
+        "no": [
+          520.32,
+          130.48,
+          525.6,
+          135.28
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_022",
+      "page": 5,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "*If \"Yes\" is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which",
+      "anchor_bbox": [
+        37.44,
+        185.65,
+        469.44,
+        195.72
+      ],
+      "answer_bbox": [
+        37.44,
+        214.91,
+        489.12,
+        253.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_023",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "1. Do you have a registered office, central administration, or principal place of business in the specified regions?",
+      "anchor_bbox": [
+        36.96,
+        361.22,
+        356.16,
+        370.82
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          349.71,
+          524.64,
+          354.98
+        ],
+        "no": [
+          519.84,
+          365.06,
+          525.12,
+          370.82
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_024",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "2. Do you have subsidiaries or affiliates under your control in the specified regions?",
+      "anchor_bbox": [
+        36.96,
+        385.69,
+        274.56,
+        394.8
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          382.81,
+          524.64,
+          388.08
+        ],
+        "no": [
+          519.84,
+          398.64,
+          525.12,
+          403.92
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_025",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "3. Do you have branches/offices and other entities operating in the specified regions?",
+      "anchor_bbox": [
+        36.96,
+        428.38,
+        281.28,
+        437.49
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          416.39,
+          524.64,
+          421.66
+        ],
+        "no": [
+          519.84,
+          431.74,
+          525.12,
+          437.02
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_026",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions® , or in Tourism",
+      "anchor_bbox": [
+        36.48,
+        471.07,
+        482.4,
+        480.67
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          449.49,
+          524.64,
+          454.76
+        ],
+        "no": [
+          519.84,
+          465.32,
+          525.12,
+          470.59
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_027",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "5. Do you hold, or intend to acquire ownership interest in an \"entity in the specified regions\"1o or land in any EUSR?",
+      "anchor_bbox": [
+        36.96,
+        510.41,
+        365.76,
+        519.05
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          497.94,
+          524.64,
+          503.22
+        ],
+        "no": [
+          519.84,
+          513.77,
+          525.12,
+          519.05
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_028",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?",
+      "anchor_bbox": [
+        36.96,
+        543.03,
+        349.44,
+        552.63
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          531.52,
+          524.64,
+          536.79
+        ],
+        "no": [
+          519.84,
+          547.35,
+          525.12,
+          552.63
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_029",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "7. Do you intend to create a joint venture with an entity in the specified regions or have you done so since March 2022?",
+      "anchor_bbox": [
+        36.96,
+        577.09,
+        378.24,
+        585.73
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          564.62,
+          524.64,
+          569.89
+        ],
+        "no": [
+          519.84,
+          580.45,
+          525.12,
+          585.73
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_030",
+      "page": 5,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?",
+      "anchor_bbox": [
+        36.48,
+        609.23,
+        392.64,
+        619.3
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          519.36,
+          598.2,
+          524.64,
+          603.47
+        ],
+        "no": [
+          519.84,
+          613.55,
+          525.12,
+          618.82
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_031",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        60.96,
+        314.21,
+        78.72,
+        324.76
+      ],
+      "answer_bbox": [
+        107.04,
+        295.02,
+        149.76,
+        335.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_032",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        60.96,
+        314.21,
+        78.72,
+        324.76
+      ],
+      "answer_bbox": [
+        151.68,
+        295.02,
+        267.36,
+        335.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_033",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        60.96,
+        314.21,
+        78.72,
+        324.76
+      ],
+      "answer_bbox": [
+        269.28,
+        295.02,
+        312.0,
+        335.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_034",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        60.96,
+        314.21,
+        78.72,
+        324.76
+      ],
+      "answer_bbox": [
+        313.44,
+        295.02,
+        424.8,
+        335.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_035",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        60.96,
+        314.21,
+        78.72,
+        324.76
+      ],
+      "answer_bbox": [
+        426.72,
+        295.02,
+        468.96,
+        335.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_036",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Cuba",
+      "anchor_bbox": [
+        60.96,
+        314.21,
+        78.72,
+        324.76
+      ],
+      "answer_bbox": [
+        470.88,
+        295.02,
+        575.04,
+        335.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_037",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        60.96,
+        347.79,
+        77.76,
+        358.34
+      ],
+      "answer_bbox": [
+        107.04,
+        337.72,
+        149.76,
+        378.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_038",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        60.96,
+        347.79,
+        77.76,
+        358.34
+      ],
+      "answer_bbox": [
+        151.68,
+        337.72,
+        267.36,
+        378.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_039",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        60.96,
+        347.79,
+        77.76,
+        358.34
+      ],
+      "answer_bbox": [
+        269.28,
+        337.72,
+        312.0,
+        378.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_040",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        60.96,
+        347.79,
+        77.76,
+        358.34
+      ],
+      "answer_bbox": [
+        313.44,
+        337.72,
+        424.8,
+        378.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_041",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        60.96,
+        347.79,
+        77.76,
+        358.34
+      ],
+      "answer_bbox": [
+        426.72,
+        337.72,
+        468.96,
+        378.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_042",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        60.96,
+        347.79,
+        77.76,
+        358.34
+      ],
+      "answer_bbox": [
+        470.88,
+        337.72,
+        575.04,
+        378.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_043",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        51.36,
+        398.16,
+        87.84,
+        409.19
+      ],
+      "answer_bbox": [
+        107.04,
+        379.93,
+        149.76,
+        420.71
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_044",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        51.36,
+        398.16,
+        87.84,
+        409.19
+      ],
+      "answer_bbox": [
+        151.68,
+        379.93,
+        267.36,
+        420.71
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_045",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        51.36,
+        398.16,
+        87.84,
+        409.19
+      ],
+      "answer_bbox": [
+        269.28,
+        379.93,
+        312.0,
+        420.71
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_046",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        51.36,
+        398.16,
+        87.84,
+        409.19
+      ],
+      "answer_bbox": [
+        313.44,
+        379.93,
+        424.8,
+        420.71
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_047",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        51.36,
+        398.16,
+        87.84,
+        409.19
+      ],
+      "answer_bbox": [
+        426.72,
+        379.93,
+        468.96,
+        420.71
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_048",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        51.36,
+        398.16,
+        87.84,
+        409.19
+      ],
+      "answer_bbox": [
+        470.88,
+        379.93,
+        575.04,
+        420.71
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_049",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        60.48,
+        432.7,
+        78.72,
+        443.73
+      ],
+      "answer_bbox": [
+        107.04,
+        422.62,
+        149.76,
+        462.92
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_050",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        60.48,
+        432.7,
+        78.72,
+        443.73
+      ],
+      "answer_bbox": [
+        151.68,
+        422.62,
+        267.36,
+        462.92
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_051",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        60.48,
+        432.7,
+        78.72,
+        443.73
+      ],
+      "answer_bbox": [
+        269.28,
+        422.62,
+        312.0,
+        462.92
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_052",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        60.48,
+        432.7,
+        78.72,
+        443.73
+      ],
+      "answer_bbox": [
+        313.44,
+        422.62,
+        424.8,
+        462.92
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_053",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        60.48,
+        432.7,
+        78.72,
+        443.73
+      ],
+      "answer_bbox": [
+        426.72,
+        422.62,
+        468.96,
+        462.92
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_054",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        60.48,
+        432.7,
+        78.72,
+        443.73
+      ],
+      "answer_bbox": [
+        470.88,
+        422.62,
+        575.04,
+        462.92
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_055",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        58.08,
+        484.03,
+        81.6,
+        494.1
+      ],
+      "answer_bbox": [
+        107.04,
+        464.84,
+        149.76,
+        505.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_056",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        58.08,
+        484.03,
+        81.6,
+        494.1
+      ],
+      "answer_bbox": [
+        151.68,
+        464.84,
+        267.36,
+        505.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_057",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        58.08,
+        484.03,
+        81.6,
+        494.1
+      ],
+      "answer_bbox": [
+        269.28,
+        464.84,
+        312.0,
+        505.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_058",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        58.08,
+        484.03,
+        81.6,
+        494.1
+      ],
+      "answer_bbox": [
+        313.44,
+        464.84,
+        424.8,
+        505.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_059",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        58.08,
+        484.03,
+        81.6,
+        494.1
+      ],
+      "answer_bbox": [
+        426.72,
+        464.84,
+        468.96,
+        505.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_060",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        58.08,
+        484.03,
+        81.6,
+        494.1
+      ],
+      "answer_bbox": [
+        470.88,
+        464.84,
+        575.04,
+        505.61
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_061",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        59.52,
+        526.24,
+        80.16,
+        536.31
+      ],
+      "answer_bbox": [
+        107.04,
+        507.53,
+        149.76,
+        547.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_062",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        59.52,
+        526.24,
+        80.16,
+        536.31
+      ],
+      "answer_bbox": [
+        151.68,
+        507.53,
+        267.36,
+        547.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_063",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        59.52,
+        526.24,
+        80.16,
+        536.31
+      ],
+      "answer_bbox": [
+        269.28,
+        507.53,
+        312.0,
+        547.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_064",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        59.52,
+        526.24,
+        80.16,
+        536.31
+      ],
+      "answer_bbox": [
+        313.44,
+        507.53,
+        424.8,
+        547.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_065",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        59.52,
+        526.24,
+        80.16,
+        536.31
+      ],
+      "answer_bbox": [
+        426.72,
+        507.53,
+        468.96,
+        547.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_066",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        59.52,
+        526.24,
+        80.16,
+        536.31
+      ],
+      "answer_bbox": [
+        470.88,
+        507.53,
+        575.04,
+        547.83
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_067",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        58.56,
+        568.94,
+        80.64,
+        578.53
+      ],
+      "answer_bbox": [
+        107.04,
+        550.23,
+        149.76,
+        590.52
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_068",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        58.56,
+        568.94,
+        80.64,
+        578.53
+      ],
+      "answer_bbox": [
+        151.68,
+        549.75,
+        267.36,
+        590.52
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_069",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        58.56,
+        568.94,
+        80.64,
+        578.53
+      ],
+      "answer_bbox": [
+        269.28,
+        550.23,
+        312.0,
+        590.52
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_070",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        58.56,
+        568.94,
+        80.64,
+        578.53
+      ],
+      "answer_bbox": [
+        313.44,
+        550.23,
+        424.8,
+        590.52
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_071",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        58.56,
+        568.94,
+        80.64,
+        578.53
+      ],
+      "answer_bbox": [
+        426.72,
+        550.23,
+        468.96,
+        590.52
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_072",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Crimea",
+      "anchor_bbox": [
+        58.56,
+        568.94,
+        80.64,
+        578.53
+      ],
+      "answer_bbox": [
+        470.88,
+        550.23,
+        575.04,
+        590.52
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_073",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela (Gov't of",
+      "anchor_bbox": [
+        42.72,
+        633.22,
+        96.0,
+        642.33
+      ],
+      "answer_bbox": [
+        107.04,
+        592.44,
+        149.76,
+        667.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_074",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela (Gov't of",
+      "anchor_bbox": [
+        42.72,
+        633.22,
+        96.0,
+        642.33
+      ],
+      "answer_bbox": [
+        151.68,
+        592.44,
+        267.36,
+        667.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_075",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela (Gov't of",
+      "anchor_bbox": [
+        42.72,
+        633.22,
+        96.0,
+        642.33
+      ],
+      "answer_bbox": [
+        269.28,
+        592.44,
+        312.0,
+        667.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_076",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela (Gov't of",
+      "anchor_bbox": [
+        42.72,
+        633.22,
+        96.0,
+        642.33
+      ],
+      "answer_bbox": [
+        313.44,
+        592.44,
+        424.8,
+        667.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_077",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela (Gov't of",
+      "anchor_bbox": [
+        42.72,
+        633.22,
+        96.0,
+        642.33
+      ],
+      "answer_bbox": [
+        426.72,
+        592.44,
+        468.96,
+        667.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_078",
+      "page": 8,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela (Gov't of",
+      "anchor_bbox": [
+        42.72,
+        633.22,
+        96.0,
+        642.33
+      ],
+      "answer_bbox": [
+        470.88,
+        592.44,
+        575.04,
+        667.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_079",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk Region",
+      "anchor_bbox": [
+        48.0,
+        150.15,
+        91.2,
+        159.26
+      ],
+      "answer_bbox": [
+        107.04,
+        93.06,
+        149.76,
+        159.26
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_080",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk Region",
+      "anchor_bbox": [
+        48.0,
+        150.15,
+        91.2,
+        159.26
+      ],
+      "answer_bbox": [
+        151.68,
+        93.06,
+        267.36,
+        159.26
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_081",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk Region",
+      "anchor_bbox": [
+        48.0,
+        150.15,
+        91.2,
+        159.26
+      ],
+      "answer_bbox": [
+        269.28,
+        93.06,
+        312.0,
+        159.26
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_082",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk Region",
+      "anchor_bbox": [
+        48.0,
+        150.15,
+        91.2,
+        159.26
+      ],
+      "answer_bbox": [
+        313.44,
+        93.06,
+        424.8,
+        159.26
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_083",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk Region",
+      "anchor_bbox": [
+        48.0,
+        150.15,
+        91.2,
+        159.26
+      ],
+      "answer_bbox": [
+        426.72,
+        93.06,
+        468.96,
+        159.26
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_084",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Donetsk Region",
+      "anchor_bbox": [
+        48.0,
+        150.15,
+        91.2,
+        159.26
+      ],
+      "answer_bbox": [
+        470.88,
+        93.06,
+        575.04,
+        159.26
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_085",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk Region",
+      "anchor_bbox": [
+        48.0,
+        217.79,
+        91.2,
+        227.38
+      ],
+      "answer_bbox": [
+        107.04,
+        161.18,
+        149.76,
+        227.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_086",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk Region",
+      "anchor_bbox": [
+        48.0,
+        217.79,
+        91.2,
+        227.38
+      ],
+      "answer_bbox": [
+        151.68,
+        161.18,
+        267.36,
+        227.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_087",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk Region",
+      "anchor_bbox": [
+        48.0,
+        217.79,
+        91.2,
+        227.38
+      ],
+      "answer_bbox": [
+        269.28,
+        161.18,
+        312.0,
+        227.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_088",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk Region",
+      "anchor_bbox": [
+        48.0,
+        217.79,
+        91.2,
+        227.38
+      ],
+      "answer_bbox": [
+        313.44,
+        161.18,
+        424.8,
+        227.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_089",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk Region",
+      "anchor_bbox": [
+        48.0,
+        217.79,
+        91.2,
+        227.38
+      ],
+      "answer_bbox": [
+        426.72,
+        161.18,
+        468.96,
+        227.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_090",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Luhansk Region",
+      "anchor_bbox": [
+        48.0,
+        217.79,
+        91.2,
+        227.38
+      ],
+      "answer_bbox": [
+        470.88,
+        161.18,
+        575.04,
+        227.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_091",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson Region",
+      "anchor_bbox": [
+        48.0,
+        286.39,
+        91.2,
+        295.98
+      ],
+      "answer_bbox": [
+        107.04,
+        229.3,
+        149.76,
+        295.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_092",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson Region",
+      "anchor_bbox": [
+        48.0,
+        286.39,
+        91.2,
+        295.98
+      ],
+      "answer_bbox": [
+        151.68,
+        229.3,
+        267.36,
+        295.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_093",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson Region",
+      "anchor_bbox": [
+        48.0,
+        286.39,
+        91.2,
+        295.98
+      ],
+      "answer_bbox": [
+        269.28,
+        229.3,
+        312.0,
+        295.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_094",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson Region",
+      "anchor_bbox": [
+        48.0,
+        286.39,
+        91.2,
+        295.98
+      ],
+      "answer_bbox": [
+        313.44,
+        229.3,
+        424.8,
+        295.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_095",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson Region",
+      "anchor_bbox": [
+        48.0,
+        286.39,
+        91.2,
+        295.98
+      ],
+      "answer_bbox": [
+        426.72,
+        229.3,
+        468.96,
+        295.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_096",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Kherson Region",
+      "anchor_bbox": [
+        48.0,
+        286.39,
+        91.2,
+        295.98
+      ],
+      "answer_bbox": [
+        470.88,
+        229.3,
+        575.04,
+        295.98
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_097",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia Region",
+      "anchor_bbox": [
+        42.24,
+        354.98,
+        95.04,
+        363.14
+      ],
+      "answer_bbox": [
+        107.04,
+        297.9,
+        149.76,
+        364.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_098",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia Region",
+      "anchor_bbox": [
+        42.24,
+        354.98,
+        95.04,
+        363.14
+      ],
+      "answer_bbox": [
+        151.68,
+        297.9,
+        267.36,
+        364.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_099",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia Region",
+      "anchor_bbox": [
+        42.24,
+        354.98,
+        95.04,
+        363.14
+      ],
+      "answer_bbox": [
+        269.28,
+        297.9,
+        312.0,
+        364.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_100",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia Region",
+      "anchor_bbox": [
+        42.24,
+        354.98,
+        95.04,
+        363.14
+      ],
+      "answer_bbox": [
+        313.44,
+        297.9,
+        424.8,
+        364.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_101",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia Region",
+      "anchor_bbox": [
+        42.24,
+        354.98,
+        95.04,
+        363.14
+      ],
+      "answer_bbox": [
+        426.72,
+        297.9,
+        468.96,
+        364.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_102",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zaporizhzhia Region",
+      "anchor_bbox": [
+        42.24,
+        354.98,
+        95.04,
+        363.14
+      ],
+      "answer_bbox": [
+        470.88,
+        297.9,
+        575.04,
+        364.1
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_103",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Total",
+      "anchor_bbox": [
+        60.96,
+        384.73,
+        78.24,
+        395.28
+      ],
+      "answer_bbox": [
+        107.04,
+        366.02,
+        149.76,
+        406.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_104",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Total",
+      "anchor_bbox": [
+        60.96,
+        384.73,
+        78.24,
+        395.28
+      ],
+      "answer_bbox": [
+        151.68,
+        366.02,
+        267.36,
+        406.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_105",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Total",
+      "anchor_bbox": [
+        60.96,
+        384.73,
+        78.24,
+        395.28
+      ],
+      "answer_bbox": [
+        269.28,
+        366.02,
+        312.0,
+        406.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_106",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Total",
+      "anchor_bbox": [
+        60.96,
+        384.73,
+        78.24,
+        395.28
+      ],
+      "answer_bbox": [
+        313.44,
+        366.02,
+        424.8,
+        406.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_107",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Total",
+      "anchor_bbox": [
+        60.96,
+        384.73,
+        78.24,
+        395.28
+      ],
+      "answer_bbox": [
+        426.72,
+        366.02,
+        468.96,
+        406.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_108",
+      "page": 9,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Total",
+      "anchor_bbox": [
+        60.96,
+        384.73,
+        78.24,
+        395.28
+      ],
+      "answer_bbox": [
+        470.88,
+        366.02,
+        575.04,
+        406.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_109",
+      "page": 9,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the",
+      "anchor_bbox": [
+        35.52,
+        639.45,
+        480.0,
+        648.09
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          520.8,
+          587.64,
+          526.08,
+          592.92
+        ],
+        "no": [
+          521.28,
+          603.47,
+          526.56,
+          608.75
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_110",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Afghanistan",
+      "anchor_bbox": [
+        34.08,
+        224.02,
+        74.88,
+        236.98
+      ],
+      "answer_bbox": [
+        180.48,
+        216.35,
+        278.88,
+        236.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_111",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Afghanistan",
+      "anchor_bbox": [
+        34.08,
+        224.02,
+        74.88,
+        236.98
+      ],
+      "answer_bbox": [
+        281.28,
+        216.35,
+        408.96,
+        236.5
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_112",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Afghanistan",
+      "anchor_bbox": [
+        34.08,
+        224.02,
+        74.88,
+        236.98
+      ],
+      "answer_bbox": [
+        411.36,
+        216.35,
+        575.04,
+        236.02
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_113",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Angola",
+      "anchor_bbox": [
+        34.08,
+        236.02,
+        63.36,
+        249.45
+      ],
+      "answer_bbox": [
+        180.48,
+        238.42,
+        278.88,
+        258.08
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_114",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Angola",
+      "anchor_bbox": [
+        34.08,
+        236.02,
+        63.36,
+        249.45
+      ],
+      "answer_bbox": [
+        281.28,
+        238.42,
+        408.96,
+        258.08
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_115",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Angola",
+      "anchor_bbox": [
+        34.08,
+        236.02,
+        63.36,
+        249.45
+      ],
+      "answer_bbox": [
+        411.36,
+        238.42,
+        575.04,
+        258.08
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_116",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        34.08,
+        268.64,
+        61.44,
+        280.15
+      ],
+      "answer_bbox": [
+        180.48,
+        260.48,
+        278.88,
+        302.22
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_117",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        34.08,
+        268.64,
+        61.44,
+        280.15
+      ],
+      "answer_bbox": [
+        281.28,
+        260.48,
+        408.96,
+        302.22
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_118",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Belarus",
+      "anchor_bbox": [
+        34.08,
+        268.64,
+        61.44,
+        280.15
+      ],
+      "answer_bbox": [
+        411.36,
+        260.48,
+        575.04,
+        302.7
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_119",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Central African Republic",
+      "anchor_bbox": [
+        35.52,
+        313.73,
+        108.48,
+        323.32
+      ],
+      "answer_bbox": [
+        180.48,
+        304.62,
+        278.88,
+        324.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_120",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Central African Republic",
+      "anchor_bbox": [
+        35.52,
+        313.73,
+        108.48,
+        323.32
+      ],
+      "answer_bbox": [
+        281.28,
+        304.62,
+        408.96,
+        324.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_121",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Central African Republic",
+      "anchor_bbox": [
+        35.52,
+        313.73,
+        108.48,
+        323.32
+      ],
+      "answer_bbox": [
+        411.36,
+        304.62,
+        575.04,
+        324.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_122",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        35.04,
+        335.32,
+        74.88,
+        345.39
+      ],
+      "answer_bbox": [
+        180.48,
+        326.68,
+        278.88,
+        346.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_123",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        35.04,
+        335.32,
+        74.88,
+        345.39
+      ],
+      "answer_bbox": [
+        281.28,
+        326.68,
+        408.96,
+        346.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_124",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "North Korea",
+      "anchor_bbox": [
+        35.04,
+        335.32,
+        74.88,
+        345.39
+      ],
+      "answer_bbox": [
+        411.36,
+        326.68,
+        575.04,
+        346.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_125",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Democratic Republic of Congo",
+      "anchor_bbox": [
+        35.04,
+        357.86,
+        125.28,
+        367.46
+      ],
+      "answer_bbox": [
+        180.48,
+        348.75,
+        278.88,
+        368.42
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_126",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Democratic Republic of Congo",
+      "anchor_bbox": [
+        35.04,
+        357.86,
+        125.28,
+        367.46
+      ],
+      "answer_bbox": [
+        281.28,
+        348.75,
+        408.96,
+        368.42
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_127",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Democratic Republic of Congo",
+      "anchor_bbox": [
+        35.04,
+        357.86,
+        125.28,
+        367.46
+      ],
+      "answer_bbox": [
+        411.36,
+        348.75,
+        575.04,
+        368.42
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_128",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Haiti",
+      "anchor_bbox": [
+        34.56,
+        369.38,
+        55.2,
+        380.41
+      ],
+      "answer_bbox": [
+        180.48,
+        370.82,
+        278.88,
+        390.48
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_129",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Haiti",
+      "anchor_bbox": [
+        34.56,
+        369.38,
+        55.2,
+        380.41
+      ],
+      "answer_bbox": [
+        281.28,
+        370.82,
+        408.96,
+        390.48
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_130",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Haiti",
+      "anchor_bbox": [
+        34.56,
+        369.38,
+        55.2,
+        380.41
+      ],
+      "answer_bbox": [
+        411.36,
+        370.82,
+        575.04,
+        390.48
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_131",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        34.08,
+        390.96,
+        53.76,
+        402.96
+      ],
+      "answer_bbox": [
+        180.48,
+        392.88,
+        278.88,
+        424.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_132",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        34.08,
+        390.96,
+        53.76,
+        402.96
+      ],
+      "answer_bbox": [
+        281.28,
+        392.88,
+        408.96,
+        424.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_133",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iran",
+      "anchor_bbox": [
+        34.08,
+        390.96,
+        53.76,
+        402.96
+      ],
+      "answer_bbox": [
+        411.36,
+        392.88,
+        575.04,
+        424.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_134",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iraq",
+      "anchor_bbox": [
+        34.56,
+        435.1,
+        51.84,
+        446.61
+      ],
+      "answer_bbox": [
+        180.48,
+        425.98,
+        278.88,
+        446.13
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_135",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iraq",
+      "anchor_bbox": [
+        34.56,
+        435.1,
+        51.84,
+        446.61
+      ],
+      "answer_bbox": [
+        281.28,
+        425.98,
+        408.96,
+        446.13
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_136",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Iraq",
+      "anchor_bbox": [
+        34.56,
+        435.1,
+        51.84,
+        446.61
+      ],
+      "answer_bbox": [
+        411.36,
+        425.98,
+        575.04,
+        446.13
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_137",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ivory Coast",
+      "anchor_bbox": [
+        34.56,
+        456.68,
+        72.0,
+        468.2
+      ],
+      "answer_bbox": [
+        180.48,
+        448.05,
+        278.88,
+        500.82
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_138",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ivory Coast",
+      "anchor_bbox": [
+        34.56,
+        456.68,
+        72.0,
+        468.2
+      ],
+      "answer_bbox": [
+        281.28,
+        448.05,
+        408.96,
+        500.82
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_139",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ivory Coast",
+      "anchor_bbox": [
+        34.56,
+        456.68,
+        72.0,
+        468.2
+      ],
+      "answer_bbox": [
+        411.36,
+        448.05,
+        575.04,
+        500.82
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_140",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Lebanon",
+      "anchor_bbox": [
+        34.08,
+        511.37,
+        64.8,
+        522.4
+      ],
+      "answer_bbox": [
+        180.48,
+        502.74,
+        278.88,
+        534.4
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_141",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Lebanon",
+      "anchor_bbox": [
+        34.08,
+        511.37,
+        64.8,
+        522.4
+      ],
+      "answer_bbox": [
+        281.28,
+        502.74,
+        408.96,
+        534.88
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_142",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Lebanon",
+      "anchor_bbox": [
+        34.08,
+        511.37,
+        64.8,
+        522.4
+      ],
+      "answer_bbox": [
+        411.36,
+        502.74,
+        575.04,
+        534.88
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_143",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Liberia",
+      "anchor_bbox": [
+        34.08,
+        534.88,
+        61.92,
+        546.87
+      ],
+      "answer_bbox": [
+        180.48,
+        536.79,
+        278.88,
+        556.46
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_144",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Liberia",
+      "anchor_bbox": [
+        34.08,
+        534.88,
+        61.92,
+        546.87
+      ],
+      "answer_bbox": [
+        281.28,
+        536.79,
+        408.96,
+        556.46
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_145",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Liberia",
+      "anchor_bbox": [
+        34.08,
+        534.88,
+        61.92,
+        546.87
+      ],
+      "answer_bbox": [
+        411.36,
+        536.79,
+        575.04,
+        556.46
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_146",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Libya",
+      "anchor_bbox": [
+        34.08,
+        566.54,
+        55.68,
+        578.53
+      ],
+      "answer_bbox": [
+        180.48,
+        558.86,
+        278.88,
+        578.53
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_147",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Libya",
+      "anchor_bbox": [
+        34.08,
+        566.54,
+        55.68,
+        578.53
+      ],
+      "answer_bbox": [
+        281.28,
+        558.86,
+        408.96,
+        578.53
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_148",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Libya",
+      "anchor_bbox": [
+        34.08,
+        566.54,
+        55.68,
+        578.53
+      ],
+      "answer_bbox": [
+        411.36,
+        558.86,
+        575.04,
+        578.53
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_149",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Myanmar",
+      "anchor_bbox": [
+        34.08,
+        589.08,
+        68.16,
+        600.6
+      ],
+      "answer_bbox": [
+        180.48,
+        580.45,
+        278.88,
+        600.6
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_150",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Myanmar",
+      "anchor_bbox": [
+        34.08,
+        589.08,
+        68.16,
+        600.6
+      ],
+      "answer_bbox": [
+        281.28,
+        580.45,
+        408.96,
+        600.6
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_151",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Myanmar",
+      "anchor_bbox": [
+        34.08,
+        589.08,
+        68.16,
+        600.6
+      ],
+      "answer_bbox": [
+        411.36,
+        580.45,
+        575.04,
+        600.6
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_152",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        34.08,
+        610.19,
+        58.56,
+        622.66
+      ],
+      "answer_bbox": [
+        180.48,
+        602.51,
+        278.88,
+        655.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_153",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        34.08,
+        610.19,
+        58.56,
+        622.66
+      ],
+      "answer_bbox": [
+        281.28,
+        602.51,
+        408.96,
+        655.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_154",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Russia",
+      "anchor_bbox": [
+        34.08,
+        610.19,
+        58.56,
+        622.66
+      ],
+      "answer_bbox": [
+        411.36,
+        602.51,
+        575.04,
+        655.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_155",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sierra Leone",
+      "anchor_bbox": [
+        34.56,
+        655.28,
+        80.64,
+        667.76
+      ],
+      "answer_bbox": [
+        180.48,
+        657.2,
+        278.88,
+        688.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_156",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sierra Leone",
+      "anchor_bbox": [
+        34.56,
+        655.28,
+        80.64,
+        667.76
+      ],
+      "answer_bbox": [
+        281.28,
+        657.2,
+        408.96,
+        688.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_157",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sierra Leone",
+      "anchor_bbox": [
+        34.56,
+        655.28,
+        80.64,
+        667.76
+      ],
+      "answer_bbox": [
+        411.36,
+        657.2,
+        575.04,
+        688.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_158",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Somalia",
+      "anchor_bbox": [
+        34.56,
+        689.82,
+        65.76,
+        700.86
+      ],
+      "answer_bbox": [
+        180.48,
+        691.26,
+        278.88,
+        710.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_159",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Somalia",
+      "anchor_bbox": [
+        34.56,
+        689.82,
+        65.76,
+        700.86
+      ],
+      "answer_bbox": [
+        281.28,
+        691.26,
+        408.96,
+        710.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_160",
+      "page": 10,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Somalia",
+      "anchor_bbox": [
+        34.56,
+        689.82,
+        65.76,
+        700.86
+      ],
+      "answer_bbox": [
+        411.36,
+        691.26,
+        575.04,
+        710.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_161",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "South Sudan",
+      "anchor_bbox": [
+        35.52,
+        102.18,
+        75.84,
+        112.25
+      ],
+      "answer_bbox": [
+        180.48,
+        93.06,
+        278.88,
+        113.21
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_162",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "South Sudan",
+      "anchor_bbox": [
+        35.52,
+        102.18,
+        75.84,
+        112.25
+      ],
+      "answer_bbox": [
+        281.28,
+        93.06,
+        408.96,
+        113.21
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_163",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "South Sudan",
+      "anchor_bbox": [
+        35.52,
+        102.18,
+        75.84,
+        112.25
+      ],
+      "answer_bbox": [
+        411.36,
+        93.06,
+        575.04,
+        113.21
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_164",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        34.56,
+        114.17,
+        60.48,
+        124.72
+      ],
+      "answer_bbox": [
+        180.48,
+        115.13,
+        278.88,
+        135.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_165",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        34.56,
+        114.17,
+        60.48,
+        124.72
+      ],
+      "answer_bbox": [
+        281.28,
+        115.13,
+        408.96,
+        135.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_166",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Sudan",
+      "anchor_bbox": [
+        34.56,
+        114.17,
+        60.48,
+        124.72
+      ],
+      "answer_bbox": [
+        411.36,
+        115.13,
+        575.04,
+        135.28
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_167",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        34.56,
+        135.76,
+        56.64,
+        148.23
+      ],
+      "answer_bbox": [
+        180.48,
+        137.2,
+        278.88,
+        157.34
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_168",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        34.56,
+        135.76,
+        56.64,
+        148.23
+      ],
+      "answer_bbox": [
+        281.28,
+        137.2,
+        408.96,
+        157.34
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_169",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Syria",
+      "anchor_bbox": [
+        34.56,
+        135.76,
+        56.64,
+        148.23
+      ],
+      "answer_bbox": [
+        411.36,
+        137.2,
+        575.04,
+        157.34
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_170",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela",
+      "anchor_bbox": [
+        35.04,
+        168.38,
+        69.12,
+        178.45
+      ],
+      "answer_bbox": [
+        180.48,
+        159.26,
+        278.88,
+        179.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_171",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela",
+      "anchor_bbox": [
+        35.04,
+        168.38,
+        69.12,
+        178.45
+      ],
+      "answer_bbox": [
+        281.28,
+        159.26,
+        408.96,
+        179.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_172",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Venezuela",
+      "anchor_bbox": [
+        35.04,
+        168.38,
+        69.12,
+        178.45
+      ],
+      "answer_bbox": [
+        411.36,
+        159.26,
+        575.04,
+        179.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_173",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Yemen",
+      "anchor_bbox": [
+        34.56,
+        190.44,
+        60.0,
+        201.0
+      ],
+      "answer_bbox": [
+        180.48,
+        181.33,
+        278.88,
+        201.48
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_174",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Yemen",
+      "anchor_bbox": [
+        34.56,
+        190.44,
+        60.0,
+        201.0
+      ],
+      "answer_bbox": [
+        281.28,
+        181.33,
+        408.96,
+        201.48
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_175",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Yemen",
+      "anchor_bbox": [
+        34.56,
+        190.44,
+        60.0,
+        201.0
+      ],
+      "answer_bbox": [
+        411.36,
+        181.33,
+        575.04,
+        201.48
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_176",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zimbabwe",
+      "anchor_bbox": [
+        34.56,
+        201.96,
+        74.4,
+        213.47
+      ],
+      "answer_bbox": [
+        180.48,
+        203.4,
+        278.88,
+        223.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:0",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_177",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zimbabwe",
+      "anchor_bbox": [
+        34.56,
+        201.96,
+        74.4,
+        213.47
+      ],
+      "answer_bbox": [
+        281.28,
+        203.4,
+        408.96,
+        223.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:1",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_178",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Zimbabwe",
+      "anchor_bbox": [
+        34.56,
+        201.96,
+        74.4,
+        213.47
+      ],
+      "answer_bbox": [
+        411.36,
+        203.4,
+        575.04,
+        223.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "row_cell:2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_179",
+      "page": 11,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "2. Do you or any of your branches/ offices of subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's",
+      "anchor_bbox": [
+        35.04,
+        360.26,
+        481.92,
+        370.34
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          520.8,
+          232.18,
+          526.08,
+          237.46
+        ],
+        "no": [
+          521.28,
+          247.53,
+          526.56,
+          252.81
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_180",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?",
+      "anchor_bbox": [
+        35.52,
+        434.62,
+        354.72,
+        444.21
+      ],
+      "answer_bbox": [
+        37.44,
+        445.17,
+        489.12,
+        499.86
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_181",
+      "page": 11,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?",
+      "anchor_bbox": [
+        35.52,
+        547.83,
+        330.72,
+        556.94
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          520.8,
+          502.74,
+          526.08,
+          508.01
+        ],
+        "no": [
+          521.28,
+          518.57,
+          526.56,
+          523.84
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "checkbox_row:order+ocr_verified:2/2",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form05_182",
+      "page": 11,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "If \"Yes” is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.",
+      "anchor_bbox": [
+        35.04,
+        566.06,
+        346.08,
+        576.13
+      ],
+      "answer_bbox": [
+        37.44,
+        584.77,
+        489.12,
+        688.38
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "cell_below",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    }
+  ]
+}

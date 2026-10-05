@@ -1,0 +1,2322 @@
+{
+  "form_id": "form_02",
+  "source_pdf": "/home/lyna/kyc/datacraft/data/challenge/questionnaires/02_belorive_patrimoine.pdf",
+  "output_pdf": "outputs/form_02.filled.pdf",
+  "fields": [
+    {
+      "field_id": "form02_001",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Belorive Patrimoine SAS",
+          "zone": [
+            116.62,
+            278.76,
+            570.13,
+            289.8
+          ],
+          "lines": [
+            "Belorive Patrimoine SAS"
+          ],
+          "fontsize": 7.0,
+          "origins": [
+            [
+              118.62,
+              286.99600018441674
+            ]
+          ],
+          "bbox": [
+            118.62,
+            279.47099985063073,
+            195.25599967956543,
+            289.0890001493692
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        116.62,
+        278.76,
+        570.13,
+        289.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_002",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SAS",
+          "zone": [
+            95.98,
+            294.11,
+            570.13,
+            305.15
+          ],
+          "lines": [
+            "SAS"
+          ],
+          "fontsize": 7.0,
+          "origins": [
+            [
+              97.98,
+              302.34600018441677
+            ]
+          ],
+          "bbox": [
+            97.98,
+            294.82099985063076,
+            111.98699990987778,
+            304.43900014936924
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        95.98,
+        294.11,
+        570.13,
+        305.15
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_003",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "11 rue des Sociétés Fictives",
+          "zone": [
+            119.98,
+            309.95,
+            570.13,
+            322.9
+          ],
+          "lines": [
+            "11 rue des Sociétés Fictives"
+          ],
+          "fontsize": 8.5,
+          "origins": [
+            [
+              121.98,
+              319.7230002239346
+            ]
+          ],
+          "bbox": [
+            121.98,
+            310.585499818623,
+            221.65949947714807,
+            322.2645001813769
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        119.98,
+        309.95,
+        570.13,
+        322.9
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_004",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "69000",
+          "zone": [
+            173.72,
+            327.22,
+            215.0,
+            340.17
+          ],
+          "lines": [
+            "69000"
+          ],
+          "fontsize": 8.5,
+          "origins": [
+            [
+              175.72,
+              336.9930002239347
+            ]
+          ],
+          "bbox": [
+            175.72,
+            327.8554998186231,
+            199.34999975681305,
+            339.534500181377
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        173.72,
+        327.22,
+        215.0,
+        340.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_005",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Lyon",
+          "zone": [
+            255.31,
+            327.7,
+            410.8,
+            340.17
+          ],
+          "lines": [
+            "Lyon"
+          ],
+          "fontsize": 8.0,
+          "origins": [
+            [
+              257.31,
+              337.039000210762
+            ]
+          ],
+          "bbox": [
+            257.31,
+            328.4389998292923,
+            274.6539998626709,
+            339.4310001707077
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        255.31,
+        327.7,
+        410.8,
+        340.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_006",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            442.95,
+            327.7,
+            570.13,
+            340.17
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 8.0,
+          "origins": [
+            [
+              444.95,
+              337.039000210762
+            ]
+          ],
+          "bbox": [
+            444.95,
+            328.4389998292923,
+            469.84599990844725,
+            339.4310001707077
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        442.95,
+        327.7,
+        570.13,
+        340.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_007",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        230.35,
+        344.49,
+        570.13,
+        357.45
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_008",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-RCS-B-001",
+          "zone": [
+            87.82,
+            361.77,
+            337.37,
+            374.72
+          ],
+          "lines": [
+            "SIM-RCS-B-001"
+          ],
+          "fontsize": 8.5,
+          "origins": [
+            [
+              89.82,
+              371.54300022393465
+            ]
+          ],
+          "bbox": [
+            89.82,
+            362.40549981862307,
+            151.21549991488456,
+            374.08450018137694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        87.82,
+        361.77,
+        337.37,
+        374.72
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_009",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Lyon",
+          "zone": [
+            434.79,
+            361.29,
+            570.13,
+            374.24
+          ],
+          "lines": [
+            "Lyon"
+          ],
+          "fontsize": 8.5,
+          "origins": [
+            [
+              436.79,
+              371.06300022393464
+            ]
+          ],
+          "bbox": [
+            436.79,
+            361.92549981862305,
+            455.21799985408785,
+            373.6045001813769
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        434.79,
+        361.29,
+        570.13,
+        374.24
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_010",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-INTERNAL-B-001",
+          "zone": [
+            149.25,
+            379.52,
+            570.13,
+            391.51
+          ],
+          "lines": [
+            "SIM-INTERNAL-B-001"
+          ],
+          "fontsize": 7.5,
+          "origins": [
+            [
+              151.25,
+              388.4250001975894
+            ]
+          ],
+          "bbox": [
+            151.25,
+            380.3624998399615,
+            226.67749986052513,
+            390.66750016003846
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        149.25,
+        379.52,
+        570.13,
+        391.51
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_011",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "68.20",
+          "zone": [
+            83.98,
+            396.31,
+            570.13,
+            408.31
+          ],
+          "lines": [
+            "68.20"
+          ],
+          "fontsize": 8.0,
+          "origins": [
+            [
+              85.98,
+              405.414000210762
+            ]
+          ],
+          "bbox": [
+            85.98,
+            396.8139998292923,
+            105.99599979400635,
+            407.8060001707077
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        83.98,
+        396.31,
+        570.13,
+        408.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_012",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            46.23,
+            495.55,
+            247.87,
+            510.94
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              48.23,
+              506.7370002371073
+            ]
+          ],
+          "bbox": [
+            48.23,
+            497.06199980795384,
+            76.23799989700316,
+            509.42800019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        46.23,
+        495.55,
+        247.87,
+        510.94
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_013",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-TIN-B-FR",
+          "zone": [
+            247.87,
+            495.55,
+            555.25,
+            510.94
+          ],
+          "lines": [
+            "SIM-TIN-B-FR"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              249.87,
+              506.7370002371073
+            ]
+          ],
+          "bbox": [
+            249.87,
+            497.06199980795384,
+            307.36200010299683,
+            509.42800019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        247.87,
+        495.55,
+        555.25,
+        510.94
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_014",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        46.23,
+        509.94,
+        247.87,
+        526.29
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_015",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        247.87,
+        509.94,
+        555.25,
+        526.29
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_016",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        45.75,
+        525.29,
+        247.87,
+        543.57
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_017",
+      "page": 1,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        247.87,
+        525.29,
+        555.25,
+        543.57
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_018",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "B": [
+          30.71,
+          203.43,
+          40.31,
+          216.39
+        ]
+      },
+      "unchecked": {
+        "A": [
+          30.71,
+          109.87,
+          40.31,
+          122.83
+        ],
+        "C": [
+          30.71,
+          280.2,
+          39.83,
+          290.28
+        ],
+        "D": [
+          30.71,
+          422.7,
+          39.83,
+          433.25
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_019",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "passive_income_lt50": [
+          95.5,
+          137.22,
+          105.1,
+          147.3
+        ],
+        "non_profit": [
+          95.5,
+          155.45,
+          105.1,
+          165.05
+        ],
+        "other": [
+          95.5,
+          173.21,
+          105.1,
+          183.28
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_020",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        184.92,
+        171.73,
+        564.69,
+        189.96
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_021",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "comb",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        87.82,
+        312.35,
+        337.85,
+        325.3
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_022",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        401.84,
+        332.46,
+        564.69,
+        352.13
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_023",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          479.42,
+          369.44,
+          488.54,
+          381.92
+        ],
+        "no": [
+          528.37,
+          369.44,
+          537.49,
+          381.92
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_024",
+      "page": 2,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "listed": [
+          95.5,
+          453.41,
+          105.1,
+          463.96
+        ],
+        "public": [
+          95.5,
+          466.36,
+          105.1,
+          476.92
+        ],
+        "international": [
+          95.5,
+          478.84,
+          105.1,
+          489.39
+        ],
+        "central_bank": [
+          95.5,
+          491.31,
+          105.1,
+          501.87
+        ],
+        "excluded": [
+          95.5,
+          504.74,
+          105.1,
+          514.82
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_025",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Orvaux Camille",
+          "zone": [
+            64.47,
+            224.98,
+            222.03,
+            244.18
+          ],
+          "lines": [
+            "Orvaux Camille"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              66.47,
+              238.07200023710726
+            ]
+          ],
+          "bbox": [
+            66.47,
+            228.39699980795382,
+            127.97599992275238,
+            240.76300019204615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.47,
+        224.98,
+        222.03,
+        244.18
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_026",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "12/04/1980, France",
+          "zone": [
+            64.47,
+            244.18,
+            222.03,
+            261.93
+          ],
+          "lines": [
+            "12/04/1980, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              66.47,
+              256.5470002371073
+            ]
+          ],
+          "bbox": [
+            66.47,
+            246.87199980795384,
+            144.51799938201904,
+            259.2380001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.47,
+        244.18,
+        222.03,
+        261.93
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_027",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            46.71,
+            261.93,
+            222.03,
+            280.64
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              48.71,
+              274.77700023710725
+            ]
+          ],
+          "bbox": [
+            48.71,
+            265.1019998079538,
+            76.71799989700318,
+            277.46800019204613
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        46.71,
+        261.93,
+        222.03,
+        280.64
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_028",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "zone": [
+            46.71,
+            280.64,
+            222.03,
+            312.31
+          ],
+          "lines": [
+            "12 avenue des Personnages Fictifs, 69000",
+            "Lyon, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              48.71,
+              293.1657000258565
+            ],
+            [
+              48.71,
+              306.76830044835805
+            ]
+          ],
+          "bbox": [
+            48.71,
+            283.49069959670305,
+            219.3049987769127,
+            309.45930040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        46.71,
+        280.64,
+        222.03,
+        312.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_029",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            228.95,
+            224.98,
+            322.93,
+            243.18
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              230.95,
+              237.57200023710726
+            ]
+          ],
+          "bbox": [
+            230.95,
+            227.89699980795382,
+            258.95799989700316,
+            240.26300019204615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        227.95,
+        219.75,
+        323.93,
+        313.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_030",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-TIN-B1-FR",
+          "zone": [
+            326.85,
+            224.98,
+            408.84,
+            243.18
+          ],
+          "lines": [
+            "SIM-TIN-B1-FR"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              328.85,
+              237.57200023710726
+            ]
+          ],
+          "bbox": [
+            328.85,
+            227.89699980795382,
+            391.34600005149844,
+            240.26300019204615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        325.85,
+        219.75,
+        409.84,
+        313.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_031",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0 %",
+          "zone": [
+            411.76,
+            219.75,
+            462.63,
+            313.31
+          ],
+          "lines": [
+            "0 %"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              413.76,
+              270.02200023710725
+            ]
+          ],
+          "bbox": [
+            413.76,
+            260.3469998079538,
+            429.26699990987777,
+            272.71300019204614
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.76,
+        219.75,
+        462.63,
+        313.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_032",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "42 %",
+          "zone": [
+            464.55,
+            219.75,
+            515.9,
+            313.31
+          ],
+          "lines": [
+            "42 %"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              466.55,
+              270.02200023710725
+            ]
+          ],
+          "bbox": [
+            466.55,
+            260.3469998079538,
+            487.0609998583794,
+            272.71300019204614
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        464.55,
+        219.75,
+        515.9,
+        313.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_033",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        517.34,
+        219.75,
+        568.69,
+        313.31
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_034",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Dervelle Samir",
+          "zone": [
+            63.99,
+            320.46,
+            222.03,
+            339.17
+          ],
+          "lines": [
+            "Dervelle Samir"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              65.99000000000001,
+              333.3070002371073
+            ]
+          ],
+          "bbox": [
+            65.99000000000001,
+            323.63199980795383,
+            124.9939999485016,
+            335.99800019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        63.99,
+        320.46,
+        222.03,
+        339.17
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_035",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "23/08/1985, France",
+          "zone": [
+            64.47,
+            339.17,
+            222.03,
+            357.41
+          ],
+          "lines": [
+            "23/08/1985, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              66.47,
+              351.7820002371073
+            ]
+          ],
+          "bbox": [
+            66.47,
+            342.10699980795385,
+            144.51799938201904,
+            354.4730001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.47,
+        339.17,
+        222.03,
+        357.41
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_036",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            47.19,
+            357.41,
+            222.03,
+            376.6
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              49.19,
+              370.4970002371073
+            ]
+          ],
+          "bbox": [
+            49.19,
+            360.82199980795383,
+            77.19799989700317,
+            373.18800019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        47.19,
+        357.41,
+        222.03,
+        376.6
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_037",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "zone": [
+            47.19,
+            376.6,
+            222.03,
+            413.06
+          ],
+          "lines": [
+            "12 avenue des Personnages Fictifs, 69000",
+            "Lyon, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              49.19,
+              391.5207000258565
+            ],
+            [
+              49.19,
+              405.12330044835807
+            ]
+          ],
+          "bbox": [
+            49.19,
+            381.84569959670307,
+            219.7849987769127,
+            407.81430040329695
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        47.19,
+        376.6,
+        222.03,
+        413.06
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_038",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            228.95,
+            320.46,
+            322.93,
+            338.17
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              230.95,
+              332.8070002371073
+            ]
+          ],
+          "bbox": [
+            230.95,
+            323.13199980795383,
+            258.95799989700316,
+            335.49800019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        227.95,
+        314.75,
+        323.93,
+        414.06
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_039",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-TIN-B2-FR",
+          "zone": [
+            326.85,
+            320.46,
+            408.84,
+            338.17
+          ],
+          "lines": [
+            "SIM-TIN-B2-FR"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              328.85,
+              332.8070002371073
+            ]
+          ],
+          "bbox": [
+            328.85,
+            323.13199980795383,
+            391.34600005149844,
+            335.49800019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        325.85,
+        314.75,
+        409.84,
+        414.06
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_040",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0 %",
+          "zone": [
+            411.76,
+            314.75,
+            462.63,
+            414.06
+          ],
+          "lines": [
+            "0 %"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              413.76,
+              367.89700023710725
+            ]
+          ],
+          "bbox": [
+            413.76,
+            358.2219998079538,
+            429.26699990987777,
+            370.58800019204614
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.76,
+        314.75,
+        462.63,
+        414.06
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_041",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "28 %",
+          "zone": [
+            464.55,
+            314.75,
+            515.42,
+            414.06
+          ],
+          "lines": [
+            "28 %"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              466.55,
+              367.89700023710725
+            ]
+          ],
+          "bbox": [
+            466.55,
+            358.2219998079538,
+            487.0609998583794,
+            370.58800019204614
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        464.55,
+        314.75,
+        515.42,
+        414.06
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_042",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        517.34,
+        314.75,
+        568.69,
+        414.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_043",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Montelac Léa",
+          "zone": [
+            64.95,
+            421.22,
+            222.03,
+            439.93
+          ],
+          "lines": [
+            "Montelac Léa"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              66.95,
+              434.0670002371073
+            ]
+          ],
+          "bbox": [
+            66.95,
+            424.3919998079539,
+            115.97299970388413,
+            436.7580001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.95,
+        421.22,
+        222.03,
+        439.93
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_044",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "23/08/1985, France",
+          "zone": [
+            64.47,
+            439.93,
+            222.03,
+            457.68
+          ],
+          "lines": [
+            "23/08/1985, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              66.47,
+              452.2970002371073
+            ]
+          ],
+          "bbox": [
+            66.47,
+            442.62199980795384,
+            144.51799938201904,
+            454.9880001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.47,
+        439.93,
+        222.03,
+        457.68
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_045",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France, États-Unis d'Amérique",
+          "zone": [
+            46.71,
+            457.68,
+            222.03,
+            476.88
+          ],
+          "lines": [
+            "France, États-Unis d'Amérique"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              48.71,
+              470.77200023710725
+            ]
+          ],
+          "bbox": [
+            48.71,
+            461.0969998079538,
+            165.46699950754643,
+            473.46300019204614
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        46.71,
+        457.68,
+        222.03,
+        476.88
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_046",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "zone": [
+            47.19,
+            476.88,
+            222.03,
+            517.66
+          ],
+          "lines": [
+            "12 avenue des Personnages Fictifs, 69000",
+            "Lyon, France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              49.19,
+              493.96070002585645
+            ],
+            [
+              49.19,
+              507.563300448358
+            ]
+          ],
+          "bbox": [
+            49.19,
+            484.285699596703,
+            219.7849987769127,
+            510.2543004032969
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        47.19,
+        476.88,
+        222.03,
+        517.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_047",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "France",
+          "zone": [
+            228.95,
+            421.22,
+            322.93,
+            438.93
+          ],
+          "lines": [
+            "France"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              230.95,
+              433.5670002371073
+            ]
+          ],
+          "bbox": [
+            230.95,
+            423.8919998079539,
+            258.95799989700316,
+            436.2580001920462
+          ]
+        },
+        {
+          "text": "États-Unis d'Amérique",
+          "zone": [
+            228.95,
+            439.93,
+            322.93,
+            456.68
+          ],
+          "lines": [
+            "États-Unis d'Amérique"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              230.95,
+              451.7970002371073
+            ]
+          ],
+          "bbox": [
+            230.95,
+            442.12199980795384,
+            314.69499966204165,
+            454.4880001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        227.95,
+        415.5,
+        323.93,
+        518.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_048",
+      "page": 3,
+      "status": "missing_information",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-TIN-B3-FR",
+          "zone": [
+            326.85,
+            421.22,
+            408.84,
+            438.93
+          ],
+          "lines": [
+            "SIM-TIN-B3-FR"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              328.85,
+              433.5670002371073
+            ]
+          ],
+          "bbox": [
+            328.85,
+            423.8919998079539,
+            391.34600005149844,
+            436.2580001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        325.85,
+        415.5,
+        409.84,
+        518.66
+      ],
+      "reason": "known part of a partial answer"
+    },
+    {
+      "field_id": "form02_049",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "30 %",
+          "zone": [
+            411.76,
+            415.5,
+            462.63,
+            518.66
+          ],
+          "lines": [
+            "30 %"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              413.76,
+              470.57200023710726
+            ]
+          ],
+          "bbox": [
+            413.76,
+            460.8969998079538,
+            434.27099985837935,
+            473.26300019204615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.76,
+        415.5,
+        462.63,
+        518.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_050",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0 %",
+          "zone": [
+            464.55,
+            415.5,
+            515.9,
+            518.66
+          ],
+          "lines": [
+            "0 %"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              466.55,
+              470.57200023710726
+            ]
+          ],
+          "bbox": [
+            466.55,
+            460.8969998079538,
+            482.0569999098778,
+            473.26300019204615
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        464.55,
+        415.5,
+        515.9,
+        518.66
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_051",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        517.34,
+        415.5,
+        568.69,
+        518.66
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_052",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.47,
+        526.29,
+        222.03,
+        545.01
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_053",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        64.47,
+        545.01,
+        222.03,
+        562.76
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_054",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        47.19,
+        562.76,
+        222.03,
+        581.95
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_055",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        47.19,
+        581.95,
+        222.03,
+        622.73
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_056",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        227.95,
+        520.58,
+        323.93,
+        623.73
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_057",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        325.85,
+        520.58,
+        409.84,
+        623.73
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_058",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.76,
+        520.58,
+        462.63,
+        623.73
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_059",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        464.55,
+        520.58,
+        515.9,
+        623.73
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_060",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        517.34,
+        520.58,
+        569.17,
+        623.73
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form02_061",
+      "page": 3,
+      "status": "bank_reserved",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        113.74,
+        669.79,
+        552.37,
+        724.01
+      ],
+      "reason": "bank reserved: left blank"
+    },
+    {
+      "field_id": "form02_062",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Lyon",
+          "zone": [
+            71.67,
+            311.87,
+            184.6,
+            326.74
+          ],
+          "lines": [
+            "Lyon"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              73.67,
+              322.7970002371073
+            ]
+          ],
+          "bbox": [
+            73.67,
+            313.12199980795384,
+            93.18199984550476,
+            325.4880001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.67,
+        311.87,
+        184.6,
+        326.74
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_063",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "01/09/2026",
+          "zone": [
+            214.68,
+            312.83,
+            356.41,
+            325.78
+          ],
+          "lines": [
+            "01/09/2026"
+          ],
+          "fontsize": 8.5,
+          "origins": [
+            [
+              216.68,
+              322.6030002239346
+            ]
+          ],
+          "bbox": [
+            216.68,
+            313.465499818623,
+            259.2139995622635,
+            325.1445001813769
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        214.68,
+        312.83,
+        356.41,
+        325.78
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_064",
+      "page": 4,
+      "status": "human_action",
+      "zone_type": "signature",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        419.6,
+        310.35,
+        555.0800170898438,
+        372.35
+      ],
+      "reason": "signature left for a human"
+    },
+    {
+      "field_id": "form02_065",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Orvaux",
+          "zone": [
+            71.51,
+            346.41,
+            186.68,
+            360.81
+          ],
+          "lines": [
+            "Orvaux"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              73.51,
+              357.1020002371073
+            ]
+          ],
+          "bbox": [
+            73.51,
+            347.42699980795385,
+            102.51699990987778,
+            359.7930001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        71.51,
+        346.41,
+        186.68,
+        360.81
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_066",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Camille",
+          "zone": [
+            242.83,
+            346.41,
+            358.49,
+            360.81
+          ],
+          "lines": [
+            "Camille"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              244.83,
+              357.1020002371073
+            ]
+          ],
+          "bbox": [
+            244.83,
+            347.42699980795385,
+            274.82700003862385,
+            359.7930001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        242.83,
+        346.41,
+        358.49,
+        360.81
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form02_067",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Présidente",
+          "zone": [
+            202.04,
+            365.6,
+            378.16,
+            380.0
+          ],
+          "lines": [
+            "Présidente"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              204.04,
+              376.2920002371073
+            ]
+          ],
+          "bbox": [
+            204.04,
+            366.61699980795385,
+            242.55999974250793,
+            378.9830001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        202.04,
+        365.6,
+        378.16,
+        380.0
+      ],
+      "reason": "answer"
+    }
+  ],
+  "check_errors": []
+}

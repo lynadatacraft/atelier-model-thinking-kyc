@@ -1,0 +1,6114 @@
+{
+  "form_id": "form_05",
+  "source_pdf": "/home/lyna/kyc/datacraft/data/challenge/questionnaires/05_cendrelis_instruments.pdf",
+  "output_pdf": "outputs/form_05.filled.pdf",
+  "fields": [
+    {
+      "field_id": "form05_001",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Instruments SAS",
+          "zone": [
+            309.12,
+            426.46,
+            575.04,
+            446.61
+          ],
+          "lines": [
+            "Cendrelis Instruments SAS"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              311.12,
+              440.0270002371073
+            ]
+          ],
+          "bbox": [
+            311.12,
+            430.35199980795386,
+            419.1559995365143,
+            442.7180001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        309.12,
+        426.46,
+        575.04,
+        446.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_002",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Nora Avelune, Présidente",
+          "zone": [
+            309.12,
+            448.53,
+            575.04,
+            479.23
+          ],
+          "lines": [
+            "Nora Avelune, Présidente"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              311.12,
+              467.3720002371073
+            ]
+          ],
+          "bbox": [
+            311.12,
+            457.69699980795383,
+            409.16599940776825,
+            470.06300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        309.12,
+        448.53,
+        575.04,
+        479.23
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_003",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "01/09/2026",
+          "zone": [
+            309.12,
+            481.15,
+            575.04,
+            501.3
+          ],
+          "lines": [
+            "01/09/2026"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              311.12,
+              494.7170002371073
+            ]
+          ],
+          "bbox": [
+            311.12,
+            485.04199980795386,
+            356.1559995365143,
+            497.4080001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        309.12,
+        481.15,
+        575.04,
+        501.3
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_004",
+      "page": 1,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          521.28,
+          520.48,
+          526.56,
+          525.76
+        ]
+      },
+      "unchecked": {
+        "no": [
+          521.76,
+          536.31,
+          527.04,
+          541.59
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_005",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          521.28,
+          198.6,
+          526.56,
+          203.88
+        ]
+      },
+      "unchecked": {
+        "no": [
+          521.76,
+          214.43,
+          527.04,
+          219.71
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_006",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          521.76,
+          306.05,
+          527.04,
+          311.33
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          521.28,
+          290.22,
+          526.56,
+          295.5
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_007",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          521.76,
+          375.61,
+          527.04,
+          380.89
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          521.28,
+          359.78,
+          526.56,
+          365.06
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_008",
+      "page": 2,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          521.76,
+          440.85,
+          527.04,
+          446.13
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          521.28,
+          425.02,
+          526.56,
+          430.3
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_009",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          520.32,
+          130.48,
+          525.6,
+          135.28
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          519.84,
+          114.65,
+          525.12,
+          119.93
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_010",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        302.7,
+        489.12,
+        340.59
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_011",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "no": [
+          520.32,
+          388.56,
+          525.6,
+          393.84
+        ]
+      },
+      "unchecked": {
+        "yes": [
+          519.84,
+          372.73,
+          525.12,
+          378.01
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_012",
+      "page": 3,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        464.84,
+        489.12,
+        502.74
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_013",
+      "page": 3,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          519.84,
+          534.88,
+          525.12,
+          540.15
+        ]
+      },
+      "unchecked": {
+        "no": [
+          520.32,
+          550.71,
+          525.6,
+          555.98
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_014",
+      "page": 3,
+      "status": "missing_information",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-EXPORT-C-01: Fictional controlled-item export authorization; recipient: Cendrelis Export SAS; activities: Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories; authority: Simulation Export Review Office; expiry: not supplied",
+          "zone": [
+            37.44,
+            607.31,
+            489.12,
+            652.88
+          ],
+          "lines": [
+            "SIM-EXPORT-C-01: Fictional controlled-item export authorization; recipient: Cendrelis Export SAS; activities:",
+            "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories;",
+            "authority: Simulation Export Review Office; expiry: not supplied"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              39.44,
+              619.9843998146056
+            ],
+            [
+              39.44,
+              633.5870002371072
+            ],
+            [
+              39.44,
+              647.1896006596087
+            ]
+          ],
+          "bbox": [
+            39.44,
+            610.3093993854521,
+            474.1219976568222,
+            649.8806006145476
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        607.31,
+        489.12,
+        652.88
+      ],
+      "reason": "known part of a partial answer"
+    },
+    {
+      "field_id": "form05_015",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          519.84,
+          114.65,
+          525.12,
+          119.93
+        ]
+      },
+      "unchecked": {
+        "no": [
+          520.32,
+          130.48,
+          525.6,
+          135.28
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_016",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Account SIM-ACCOUNT-C; intended use is a proposal subject to approval, not an executed transaction; Cuba - Cendrelis Export SAS (Laboratoire Caribe SIM SA): Export and support of simulated measurement instruments under the fictional export authorization.; Lebanon - Cendrelis Export SAS (Laboratoire Public Levant SIM): Measurement-instrument support contract with a wholly government-owned laboratory.; Myanmar - Cendrelis Export SAS (Atelier Delta SIM Ltd): Proposed private-sector instrument support project; no 2025 amounts and no executed transaction.",
+          "zone": [
+            32.64,
+            281.67,
+            493.92,
+            328.04
+          ],
+          "lines": [
+            "Account SIM-ACCOUNT-C; intended use is a proposal subject to approval, not an executed transaction; Cuba - Cendrelis Export SAS (Laboratoire",
+            "Caribe SIM SA): Export and support of simulated measurement instruments under the fictional export authorization.; Lebanon - Cendrelis Export",
+            "SAS (Laboratoire Public Levant SIM): Measurement-instrument support contract with a wholly government-owned laboratory.; Myanmar - Cendrelis",
+            "Export SAS (Atelier Delta SIM Ltd): Proposed private-sector instrument support project; no 2025 amounts and no executed transaction."
+          ],
+          "fontsize": 7.0,
+          "origins": [
+            [
+              34.64,
+              291.7012996914983
+            ],
+            [
+              34.64,
+              302.28110002011067
+            ],
+            [
+              34.64,
+              312.86090034872296
+            ],
+            [
+              34.64,
+              323.4407006773353
+            ]
+          ],
+          "bbox": [
+            34.64,
+            284.1762993577123,
+            490.18599797725676,
+            325.5337006422878
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        32.64,
+        281.67,
+        493.92,
+        328.04
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_017",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          519.84,
+          351.15,
+          525.6,
+          356.42
+        ]
+      },
+      "unchecked": {
+        "no": [
+          520.32,
+          366.98,
+          525.6,
+          372.25
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_018",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+          "zone": [
+            37.44,
+            433.18,
+            489.12,
+            478.75
+          ],
+          "lines": [
+            "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees,",
+            "suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions",
+            "of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review,",
+            "annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+          ],
+          "fontsize": 7.5,
+          "origins": [
+            [
+              39.44,
+              441.8717496694625
+            ],
+            [
+              39.44,
+              453.2072500215471
+            ],
+            [
+              39.44,
+              464.54275037363175
+            ],
+            [
+              39.44,
+              475.8782507257164
+            ]
+          ],
+          "bbox": [
+            39.44,
+            433.8092493118346,
+            485.4349979186058,
+            478.12075068816546
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        433.18,
+        489.12,
+        478.75
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_019",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          519.84,
+          503.69,
+          525.12,
+          508.97
+        ]
+      },
+      "unchecked": {
+        "no": [
+          520.32,
+          519.53,
+          525.6,
+          524.8
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_020",
+      "page": 4,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Goods: SIM-X1 measurement instruments; HS code: SIM-HS-X1; control code: SIM-DUAL-X1; destinations: Cuba, Lebanon; transit: France; Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted. Anti-diversion: Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition. Authorizations: SIM-EXPORT-C-01 (Fictional controlled-item export authorization; recipient: Cendrelis Export SAS; Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories; Simulation Export Review Office; expiry not supplied. Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity.)",
+          "zone": [
+            37.44,
+            567.5,
+            489.12,
+            605.87
+          ],
+          "lines": [
+            "Goods: SIM-X1 measurement instruments; HS code: SIM-HS-X1; control code: SIM-DUAL-X1; destinations: Cuba, Lebanon; transit: France; Explicit exercise fact: SIM-X1 is treated as dual-use and on",
+            "the simulated CHPL; no mapping to a real-world legal list is asserted. Anti-diversion: Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination",
+            "checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition. Authorizations: SIM-EXPORT-C-01 (Fictional controlled-item export authorization; recipient: Cendrelis",
+            "Export SAS; Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories; Simulation Export Review Office; expiry not supplied. Expiry date is absent",
+            "from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity.)"
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              39.44,
+              573.51099966228
+            ],
+            [
+              39.44,
+              581.0679998970031
+            ],
+            [
+              39.44,
+              588.6250001317262
+            ],
+            [
+              39.44,
+              596.1820003664493
+            ],
+            [
+              39.44,
+              603.7390006011724
+            ]
+          ],
+          "bbox": [
+            39.44,
+            568.1359994238614,
+            481.83999771118164,
+            605.2340005761384
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        567.5,
+        489.12,
+        605.87
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_021",
+      "page": 5,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          519.84,
+          114.65,
+          525.12,
+          119.93
+        ]
+      },
+      "unchecked": {
+        "no": [
+          520.32,
+          130.48,
+          525.6,
+          135.28
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_022",
+      "page": 5,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Goods: SIM-X1 measurement instruments; HS code: SIM-HS-X1; control code: SIM-DUAL-X1; destinations: Cuba, Lebanon; transit: France; Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted. Anti-diversion: Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition. Authorizations: SIM-EXPORT-C-01 (Fictional controlled-item export authorization; recipient: Cendrelis Export SAS; Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories; Simulation Export Review Office; expiry not supplied. Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity.)",
+          "zone": [
+            37.44,
+            214.91,
+            489.12,
+            253.29
+          ],
+          "lines": [
+            "Goods: SIM-X1 measurement instruments; HS code: SIM-HS-X1; control code: SIM-DUAL-X1; destinations: Cuba, Lebanon; transit: France; Explicit exercise fact: SIM-X1 is treated as dual-use and on",
+            "the simulated CHPL; no mapping to a real-world legal list is asserted. Anti-diversion: Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination",
+            "checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition. Authorizations: SIM-EXPORT-C-01 (Fictional controlled-item export authorization; recipient: Cendrelis",
+            "Export SAS; Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories; Simulation Export Review Office; expiry not supplied. Expiry date is absent",
+            "from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity.)"
+          ],
+          "fontsize": 5.0,
+          "origins": [
+            [
+              39.44,
+              220.92599966228008
+            ],
+            [
+              39.44,
+              228.48299989700317
+            ],
+            [
+              39.44,
+              236.04000013172626
+            ],
+            [
+              39.44,
+              243.59700036644935
+            ],
+            [
+              39.44,
+              251.15400060117244
+            ]
+          ],
+          "bbox": [
+            39.44,
+            215.5509994238615,
+            481.83999771118164,
+            252.6490005761385
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        214.91,
+        489.12,
+        253.29
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_023",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          349.71,
+          524.64,
+          354.98
+        ],
+        "no": [
+          519.84,
+          365.06,
+          525.12,
+          370.82
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_024",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          382.81,
+          524.64,
+          388.08
+        ],
+        "no": [
+          519.84,
+          398.64,
+          525.12,
+          403.92
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_025",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          416.39,
+          524.64,
+          421.66
+        ],
+        "no": [
+          519.84,
+          431.74,
+          525.12,
+          437.02
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_026",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          449.49,
+          524.64,
+          454.76
+        ],
+        "no": [
+          519.84,
+          465.32,
+          525.12,
+          470.59
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_027",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          497.94,
+          524.64,
+          503.22
+        ],
+        "no": [
+          519.84,
+          513.77,
+          525.12,
+          519.05
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_028",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          531.52,
+          524.64,
+          536.79
+        ],
+        "no": [
+          519.84,
+          547.35,
+          525.12,
+          552.63
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_029",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          564.62,
+          524.64,
+          569.89
+        ],
+        "no": [
+          519.84,
+          580.45,
+          525.12,
+          585.73
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_030",
+      "page": 5,
+      "status": "not_applicable",
+      "zone_type": "choice_group",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {
+        "yes": [
+          519.36,
+          598.2,
+          524.64,
+          603.47
+        ],
+        "no": [
+          519.84,
+          613.55,
+          525.12,
+          618.82
+        ]
+      },
+      "zone": null,
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_031",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "1%",
+          "zone": [
+            107.04,
+            295.02,
+            149.76,
+            335.8
+          ],
+          "lines": [
+            "1%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              318.9020002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            309.22699980795386,
+            122.04499993562699,
+            321.5930001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        295.02,
+        149.76,
+        335.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_032",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS: Export and support of simulated measurement instruments under the fictional export authorization.",
+          "zone": [
+            151.68,
+            295.02,
+            267.36,
+            335.8
+          ],
+          "lines": [
+            "Cendrelis Export SAS: Export and",
+            "support of simulated measurement",
+            "instruments under the fictional export",
+            "authorization."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              153.68,
+              303.19584971353413
+            ],
+            [
+              153.68,
+              313.01995001867414
+            ],
+            [
+              153.68,
+              322.84405032381414
+            ],
+            [
+              153.68,
+              332.6681506289542
+            ]
+          ],
+          "bbox": [
+            153.68,
+            296.20834940359,
+            260.25399940490723,
+            334.6116505964101
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        295.02,
+        267.36,
+        335.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_033",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0.2%",
+          "zone": [
+            269.28,
+            295.02,
+            312.0,
+            335.8
+          ],
+          "lines": [
+            "0.2%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              318.9020002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            309.22699980795386,
+            291.79099985837934,
+            321.5930001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        295.02,
+        312.0,
+        335.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_034",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS: Export and support of simulated measurement instruments under the fictional export authorization.",
+          "zone": [
+            313.44,
+            295.02,
+            424.8,
+            335.8
+          ],
+          "lines": [
+            "Cendrelis Export SAS: Export and",
+            "support of simulated measurement",
+            "instruments under the fictional export",
+            "authorization."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              315.44,
+              303.19584971353413
+            ],
+            [
+              315.44,
+              313.01995001867414
+            ],
+            [
+              315.44,
+              322.84405032381414
+            ],
+            [
+              315.44,
+              332.6681506289542
+            ]
+          ],
+          "bbox": [
+            315.44,
+            296.20834940359,
+            422.0139994049072,
+            334.6116505964101
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        295.02,
+        424.8,
+        335.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_035",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0.5%",
+          "zone": [
+            426.72,
+            295.02,
+            468.96,
+            335.8
+          ],
+          "lines": [
+            "0.5%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              318.9020002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            309.22699980795386,
+            449.2309998583794,
+            321.5930001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        295.02,
+        468.96,
+        335.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_036",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS: Export and support of simulated measurement instruments under the fictional export authorization.",
+          "zone": [
+            470.88,
+            295.02,
+            575.04,
+            335.8
+          ],
+          "lines": [
+            "Cendrelis Export SAS: Export and",
+            "support of simulated measurement",
+            "instruments under the fictional",
+            "export authorization."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              472.88,
+              303.19584971353413
+            ],
+            [
+              472.88,
+              313.01995001867414
+            ],
+            [
+              472.88,
+              322.84405032381414
+            ],
+            [
+              472.88,
+              332.6681506289542
+            ]
+          ],
+          "bbox": [
+            472.88,
+            296.20834940359,
+            572.9474994885921,
+            334.6116505964101
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        295.02,
+        575.04,
+        335.8
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_037",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            337.72,
+            149.76,
+            378.01
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              361.3570002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            351.68199980795384,
+            122.04499993562699,
+            364.0480001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        337.72,
+        149.76,
+        378.01
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_038",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            337.72,
+            267.36,
+            378.01
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              354.55570002585654
+            ],
+            [
+              153.68,
+              368.1583004483581
+            ]
+          ],
+          "bbox": [
+            153.68,
+            344.8806995967031,
+            262.72399943351746,
+            370.849300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        337.72,
+        267.36,
+        378.01
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_039",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            337.72,
+            312.0,
+            378.01
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              361.3570002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            351.68199980795384,
+            284.28499993562696,
+            364.0480001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        337.72,
+        312.0,
+        378.01
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_040",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            337.72,
+            424.8,
+            378.01
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              354.55570002585654
+            ],
+            [
+              315.44,
+              368.1583004483581
+            ]
+          ],
+          "bbox": [
+            315.44,
+            344.8806995967031,
+            401.9749995493889,
+            370.849300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        337.72,
+        424.8,
+        378.01
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_041",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            337.72,
+            468.96,
+            378.01
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              361.3570002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            351.68199980795384,
+            441.724999935627,
+            364.0480001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        337.72,
+        468.96,
+        378.01
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_042",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            337.72,
+            575.04,
+            378.01
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              354.55570002585654
+            ],
+            [
+              472.88,
+              368.1583004483581
+            ]
+          ],
+          "bbox": [
+            472.88,
+            344.8806995967031,
+            559.4149995493889,
+            370.849300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        337.72,
+        575.04,
+        378.01
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_043",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            379.93,
+            149.76,
+            420.71
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              403.81200023710727
+            ]
+          ],
+          "bbox": [
+            109.04,
+            394.1369998079538,
+            122.04499993562699,
+            406.50300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        379.93,
+        149.76,
+        420.71
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_044",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            379.93,
+            267.36,
+            420.71
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              397.0107000258565
+            ],
+            [
+              153.68,
+              410.6133004483581
+            ]
+          ],
+          "bbox": [
+            153.68,
+            387.3356995967031,
+            262.72399943351746,
+            413.30430040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        379.93,
+        267.36,
+        420.71
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_045",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            379.93,
+            312.0,
+            420.71
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              403.81200023710727
+            ]
+          ],
+          "bbox": [
+            271.28,
+            394.1369998079538,
+            284.28499993562696,
+            406.50300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        379.93,
+        312.0,
+        420.71
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_046",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            379.93,
+            424.8,
+            420.71
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              397.0107000258565
+            ],
+            [
+              315.44,
+              410.6133004483581
+            ]
+          ],
+          "bbox": [
+            315.44,
+            387.3356995967031,
+            401.9749995493889,
+            413.30430040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        379.93,
+        424.8,
+        420.71
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_047",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            379.93,
+            468.96,
+            420.71
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              403.81200023710727
+            ]
+          ],
+          "bbox": [
+            428.72,
+            394.1369998079538,
+            441.724999935627,
+            406.50300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        379.93,
+        468.96,
+        420.71
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_048",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            379.93,
+            575.04,
+            420.71
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              397.0107000258565
+            ],
+            [
+              472.88,
+              410.6133004483581
+            ]
+          ],
+          "bbox": [
+            472.88,
+            387.3356995967031,
+            559.4149995493889,
+            413.30430040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        379.93,
+        575.04,
+        420.71
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_049",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            422.62,
+            149.76,
+            462.92
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              446.2620002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            436.5869998079539,
+            122.04499993562699,
+            448.9530001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        422.62,
+        149.76,
+        462.92
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_050",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            422.62,
+            267.36,
+            462.92
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              439.4607000258565
+            ],
+            [
+              153.68,
+              453.06330044835806
+            ]
+          ],
+          "bbox": [
+            153.68,
+            429.78569959670307,
+            262.72399943351746,
+            455.75430040329695
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        422.62,
+        267.36,
+        462.92
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_051",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            422.62,
+            312.0,
+            462.92
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              446.2620002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            436.5869998079539,
+            284.28499993562696,
+            448.9530001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        422.62,
+        312.0,
+        462.92
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_052",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            422.62,
+            424.8,
+            462.92
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              439.4607000258565
+            ],
+            [
+              315.44,
+              453.06330044835806
+            ]
+          ],
+          "bbox": [
+            315.44,
+            429.78569959670307,
+            401.9749995493889,
+            455.75430040329695
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        422.62,
+        424.8,
+        462.92
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_053",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            422.62,
+            468.96,
+            462.92
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              446.2620002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            436.5869998079539,
+            441.724999935627,
+            448.9530001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        422.62,
+        468.96,
+        462.92
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_054",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            422.62,
+            575.04,
+            462.92
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              439.4607000258565
+            ],
+            [
+              472.88,
+              453.06330044835806
+            ]
+          ],
+          "bbox": [
+            472.88,
+            429.78569959670307,
+            559.4149995493889,
+            455.75430040329695
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        422.62,
+        575.04,
+        462.92
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_055",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            464.84,
+            149.76,
+            505.61
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              488.7170002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            479.04199980795386,
+            122.04499993562699,
+            491.4080001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        464.84,
+        149.76,
+        505.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_056",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            464.84,
+            267.36,
+            505.61
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              481.9157000258565
+            ],
+            [
+              153.68,
+              495.51830044835805
+            ]
+          ],
+          "bbox": [
+            153.68,
+            472.24069959670305,
+            262.72399943351746,
+            498.20930040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        464.84,
+        267.36,
+        505.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_057",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            464.84,
+            312.0,
+            505.61
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              488.7170002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            479.04199980795386,
+            284.28499993562696,
+            491.4080001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        464.84,
+        312.0,
+        505.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_058",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            464.84,
+            424.8,
+            505.61
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              481.9157000258565
+            ],
+            [
+              315.44,
+              495.51830044835805
+            ]
+          ],
+          "bbox": [
+            315.44,
+            472.24069959670305,
+            401.9749995493889,
+            498.20930040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        464.84,
+        424.8,
+        505.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_059",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            464.84,
+            468.96,
+            505.61
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              488.7170002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            479.04199980795386,
+            441.724999935627,
+            491.4080001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        464.84,
+        468.96,
+        505.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_060",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            464.84,
+            575.04,
+            505.61
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              481.9157000258565
+            ],
+            [
+              472.88,
+              495.51830044835805
+            ]
+          ],
+          "bbox": [
+            472.88,
+            472.24069959670305,
+            559.4149995493889,
+            498.20930040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        464.84,
+        575.04,
+        505.61
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_061",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            507.53,
+            149.76,
+            547.83
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              531.1720002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            521.4969998079539,
+            122.04499993562699,
+            533.8630001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        507.53,
+        149.76,
+        547.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_062",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            507.53,
+            267.36,
+            547.83
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              524.3707000258565
+            ],
+            [
+              153.68,
+              537.9733004483581
+            ]
+          ],
+          "bbox": [
+            153.68,
+            514.6956995967031,
+            262.72399943351746,
+            540.664300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        507.53,
+        267.36,
+        547.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_063",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            507.53,
+            312.0,
+            547.83
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              531.1720002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            521.4969998079539,
+            284.28499993562696,
+            533.8630001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        507.53,
+        312.0,
+        547.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_064",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            507.53,
+            424.8,
+            547.83
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              524.3707000258565
+            ],
+            [
+              315.44,
+              537.9733004483581
+            ]
+          ],
+          "bbox": [
+            315.44,
+            514.6956995967031,
+            401.9749995493889,
+            540.664300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        507.53,
+        424.8,
+        547.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_065",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            507.53,
+            468.96,
+            547.83
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              531.1720002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            521.4969998079539,
+            441.724999935627,
+            533.8630001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        507.53,
+        468.96,
+        547.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_066",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            507.53,
+            575.04,
+            547.83
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              524.3707000258565
+            ],
+            [
+              472.88,
+              537.9733004483581
+            ]
+          ],
+          "bbox": [
+            472.88,
+            514.6956995967031,
+            559.4149995493889,
+            540.664300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        507.53,
+        575.04,
+        547.83
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_067",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            550.23,
+            149.76,
+            590.52
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              573.8670002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            564.1919998079538,
+            122.04499993562699,
+            576.5580001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        550.23,
+        149.76,
+        590.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_068",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            549.75,
+            267.36,
+            590.52
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              566.8257000258565
+            ],
+            [
+              153.68,
+              580.4283004483581
+            ]
+          ],
+          "bbox": [
+            153.68,
+            557.150699596703,
+            262.72399943351746,
+            583.119300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        549.75,
+        267.36,
+        590.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_069",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            550.23,
+            312.0,
+            590.52
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              573.8670002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            564.1919998079538,
+            284.28499993562696,
+            576.5580001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        550.23,
+        312.0,
+        590.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_070",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            550.23,
+            424.8,
+            590.52
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              567.0657000258565
+            ],
+            [
+              315.44,
+              580.6683004483581
+            ]
+          ],
+          "bbox": [
+            315.44,
+            557.390699596703,
+            401.9749995493889,
+            583.359300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        550.23,
+        424.8,
+        590.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_071",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            550.23,
+            468.96,
+            590.52
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              573.8670002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            564.1919998079538,
+            441.724999935627,
+            576.5580001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        550.23,
+        468.96,
+        590.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_072",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            550.23,
+            575.04,
+            590.52
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              567.0657000258565
+            ],
+            [
+              472.88,
+              580.6683004483581
+            ]
+          ],
+          "bbox": [
+            472.88,
+            557.390699596703,
+            559.4149995493889,
+            583.359300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        550.23,
+        575.04,
+        590.52
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_073",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            592.44,
+            149.76,
+            667.28
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              633.3520002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            623.6769998079538,
+            122.04499993562699,
+            636.0430001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        592.44,
+        149.76,
+        667.28
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_074",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            592.44,
+            267.36,
+            667.28
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              626.5507000258565
+            ],
+            [
+              153.68,
+              640.1533004483581
+            ]
+          ],
+          "bbox": [
+            153.68,
+            616.875699596703,
+            262.72399943351746,
+            642.844300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        592.44,
+        267.36,
+        667.28
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_075",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            592.44,
+            312.0,
+            667.28
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              633.3520002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            623.6769998079538,
+            284.28499993562696,
+            636.0430001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        592.44,
+        312.0,
+        667.28
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_076",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            592.44,
+            424.8,
+            667.28
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              626.5507000258565
+            ],
+            [
+              315.44,
+              640.1533004483581
+            ]
+          ],
+          "bbox": [
+            315.44,
+            616.875699596703,
+            401.9749995493889,
+            642.844300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        592.44,
+        424.8,
+        667.28
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_077",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            592.44,
+            468.96,
+            667.28
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              633.3520002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            623.6769998079538,
+            441.724999935627,
+            636.0430001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        592.44,
+        468.96,
+        667.28
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_078",
+      "page": 8,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            592.44,
+            575.04,
+            667.28
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              626.5507000258565
+            ],
+            [
+              472.88,
+              640.1533004483581
+            ]
+          ],
+          "bbox": [
+            472.88,
+            616.875699596703,
+            559.4149995493889,
+            642.844300403297
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        592.44,
+        575.04,
+        667.28
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_079",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            93.06,
+            149.76,
+            159.26
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              129.65200023710727
+            ]
+          ],
+          "bbox": [
+            109.04,
+            119.97699980795383,
+            122.04499993562699,
+            132.34300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        93.06,
+        149.76,
+        159.26
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_080",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            93.06,
+            267.36,
+            159.26
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              122.8507000258565
+            ],
+            [
+              153.68,
+              136.45330044835805
+            ]
+          ],
+          "bbox": [
+            153.68,
+            113.17569959670305,
+            262.72399943351746,
+            139.14430040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        93.06,
+        267.36,
+        159.26
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_081",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            93.06,
+            312.0,
+            159.26
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              129.65200023710727
+            ]
+          ],
+          "bbox": [
+            271.28,
+            119.97699980795383,
+            284.28499993562696,
+            132.34300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        93.06,
+        312.0,
+        159.26
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_082",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            93.06,
+            424.8,
+            159.26
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              122.8507000258565
+            ],
+            [
+              315.44,
+              136.45330044835805
+            ]
+          ],
+          "bbox": [
+            315.44,
+            113.17569959670305,
+            401.9749995493889,
+            139.14430040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        93.06,
+        424.8,
+        159.26
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_083",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            93.06,
+            468.96,
+            159.26
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              129.65200023710727
+            ]
+          ],
+          "bbox": [
+            428.72,
+            119.97699980795383,
+            441.724999935627,
+            132.34300019204616
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        93.06,
+        468.96,
+        159.26
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_084",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            93.06,
+            575.04,
+            159.26
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              122.8507000258565
+            ],
+            [
+              472.88,
+              136.45330044835805
+            ]
+          ],
+          "bbox": [
+            472.88,
+            113.17569959670305,
+            559.4149995493889,
+            139.14430040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        93.06,
+        575.04,
+        159.26
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_085",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            161.18,
+            149.76,
+            227.38
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              197.7720002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            188.09699980795386,
+            122.04499993562699,
+            200.4630001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        161.18,
+        149.76,
+        227.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_086",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            161.18,
+            267.36,
+            227.38
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              190.9707000258565
+            ],
+            [
+              153.68,
+              204.57330044835805
+            ]
+          ],
+          "bbox": [
+            153.68,
+            181.29569959670306,
+            262.72399943351746,
+            207.26430040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        161.18,
+        267.36,
+        227.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_087",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            161.18,
+            312.0,
+            227.38
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              197.7720002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            188.09699980795386,
+            284.28499993562696,
+            200.4630001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        161.18,
+        312.0,
+        227.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_088",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            161.18,
+            424.8,
+            227.38
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              190.9707000258565
+            ],
+            [
+              315.44,
+              204.57330044835805
+            ]
+          ],
+          "bbox": [
+            315.44,
+            181.29569959670306,
+            401.9749995493889,
+            207.26430040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        161.18,
+        424.8,
+        227.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_089",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            161.18,
+            468.96,
+            227.38
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              197.7720002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            188.09699980795386,
+            441.724999935627,
+            200.4630001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        161.18,
+        468.96,
+        227.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_090",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            161.18,
+            575.04,
+            227.38
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              190.9707000258565
+            ],
+            [
+              472.88,
+              204.57330044835805
+            ]
+          ],
+          "bbox": [
+            472.88,
+            181.29569959670306,
+            559.4149995493889,
+            207.26430040329694
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        161.18,
+        575.04,
+        227.38
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_091",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            229.3,
+            149.76,
+            295.98
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              266.1320002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            256.4569998079539,
+            122.04499993562699,
+            268.8230001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        229.3,
+        149.76,
+        295.98
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_092",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            229.3,
+            267.36,
+            295.98
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              259.3307000258565
+            ],
+            [
+              153.68,
+              272.93330044835807
+            ]
+          ],
+          "bbox": [
+            153.68,
+            249.65569959670307,
+            262.72399943351746,
+            275.62430040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        229.3,
+        267.36,
+        295.98
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_093",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            229.3,
+            312.0,
+            295.98
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              266.1320002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            256.4569998079539,
+            284.28499993562696,
+            268.8230001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        229.3,
+        312.0,
+        295.98
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_094",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            229.3,
+            424.8,
+            295.98
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              259.3307000258565
+            ],
+            [
+              315.44,
+              272.93330044835807
+            ]
+          ],
+          "bbox": [
+            315.44,
+            249.65569959670307,
+            401.9749995493889,
+            275.62430040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        229.3,
+        424.8,
+        295.98
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_095",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            229.3,
+            468.96,
+            295.98
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              266.1320002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            256.4569998079539,
+            441.724999935627,
+            268.8230001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        229.3,
+        468.96,
+        295.98
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_096",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            229.3,
+            575.04,
+            295.98
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              259.3307000258565
+            ],
+            [
+              472.88,
+              272.93330044835807
+            ]
+          ],
+          "bbox": [
+            472.88,
+            249.65569959670307,
+            559.4149995493889,
+            275.62430040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        229.3,
+        575.04,
+        295.98
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_097",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            107.04,
+            297.9,
+            149.76,
+            364.1
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              334.4920002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            324.81699980795383,
+            122.04499993562699,
+            337.18300019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        297.9,
+        149.76,
+        364.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_098",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            151.68,
+            297.9,
+            267.36,
+            364.1
+          ],
+          "lines": [
+            "No current or contemplated",
+            "activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              153.68,
+              327.69070002585653
+            ],
+            [
+              153.68,
+              341.2933004483581
+            ]
+          ],
+          "bbox": [
+            153.68,
+            318.0156995967031,
+            262.72399943351746,
+            343.98430040329697
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        297.9,
+        267.36,
+        364.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_099",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            269.28,
+            297.9,
+            312.0,
+            364.1
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              334.4920002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            324.81699980795383,
+            284.28499993562696,
+            337.18300019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        297.9,
+        312.0,
+        364.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_100",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            313.44,
+            297.9,
+            424.8,
+            364.1
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              315.44,
+              327.69070002585653
+            ],
+            [
+              315.44,
+              341.2933004483581
+            ]
+          ],
+          "bbox": [
+            315.44,
+            318.0156995967031,
+            401.9749995493889,
+            343.98430040329697
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        297.9,
+        424.8,
+        364.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_101",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0%",
+          "zone": [
+            426.72,
+            297.9,
+            468.96,
+            364.1
+          ],
+          "lines": [
+            "0%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              334.4920002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            324.81699980795383,
+            441.724999935627,
+            337.18300019204617
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        297.9,
+        468.96,
+        364.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_102",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "No current or contemplated activity.",
+          "zone": [
+            470.88,
+            297.9,
+            575.04,
+            364.1
+          ],
+          "lines": [
+            "No current or",
+            "contemplated activity."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              472.88,
+              327.69070002585653
+            ],
+            [
+              472.88,
+              341.2933004483581
+            ]
+          ],
+          "bbox": [
+            472.88,
+            318.0156995967031,
+            559.4149995493889,
+            343.98430040329697
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        297.9,
+        575.04,
+        364.1
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_103",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "1%",
+          "zone": [
+            107.04,
+            366.02,
+            149.76,
+            406.31
+          ],
+          "lines": [
+            "1%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              109.04,
+              389.6570002371073
+            ]
+          ],
+          "bbox": [
+            109.04,
+            379.98199980795385,
+            122.04499993562699,
+            392.3480001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        107.04,
+        366.02,
+        149.76,
+        406.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_104",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS: Export and support of simulated measurement instruments under the fictional export authorization.",
+          "zone": [
+            151.68,
+            366.02,
+            267.36,
+            406.31
+          ],
+          "lines": [
+            "Cendrelis Export SAS: Export and",
+            "support of simulated measurement",
+            "instruments under the fictional export",
+            "authorization."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              153.68,
+              373.9508497135341
+            ],
+            [
+              153.68,
+              383.77495001867413
+            ],
+            [
+              153.68,
+              393.59905032381414
+            ],
+            [
+              153.68,
+              403.4231506289542
+            ]
+          ],
+          "bbox": [
+            153.68,
+            366.96334940359,
+            260.25399940490723,
+            405.36665059641007
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        151.68,
+        366.02,
+        267.36,
+        406.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_105",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0.2%",
+          "zone": [
+            269.28,
+            366.02,
+            312.0,
+            406.31
+          ],
+          "lines": [
+            "0.2%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              271.28,
+              389.6570002371073
+            ]
+          ],
+          "bbox": [
+            271.28,
+            379.98199980795385,
+            291.79099985837934,
+            392.3480001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        269.28,
+        366.02,
+        312.0,
+        406.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_106",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS: Export and support of simulated measurement instruments under the fictional export authorization.",
+          "zone": [
+            313.44,
+            366.02,
+            424.8,
+            406.31
+          ],
+          "lines": [
+            "Cendrelis Export SAS: Export and",
+            "support of simulated measurement",
+            "instruments under the fictional export",
+            "authorization."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              315.44,
+              373.9508497135341
+            ],
+            [
+              315.44,
+              383.77495001867413
+            ],
+            [
+              315.44,
+              393.59905032381414
+            ],
+            [
+              315.44,
+              403.4231506289542
+            ]
+          ],
+          "bbox": [
+            315.44,
+            366.96334940359,
+            422.0139994049072,
+            405.36665059641007
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        313.44,
+        366.02,
+        424.8,
+        406.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_107",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "0.5%",
+          "zone": [
+            426.72,
+            366.02,
+            468.96,
+            406.31
+          ],
+          "lines": [
+            "0.5%"
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              428.72,
+              389.6570002371073
+            ]
+          ],
+          "bbox": [
+            428.72,
+            379.98199980795385,
+            449.2309998583794,
+            392.3480001920462
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        426.72,
+        366.02,
+        468.96,
+        406.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_108",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS: Export and support of simulated measurement instruments under the fictional export authorization.",
+          "zone": [
+            470.88,
+            366.02,
+            575.04,
+            406.31
+          ],
+          "lines": [
+            "Cendrelis Export SAS: Export and",
+            "support of simulated measurement",
+            "instruments under the fictional",
+            "export authorization."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              472.88,
+              373.9508497135341
+            ],
+            [
+              472.88,
+              383.77495001867413
+            ],
+            [
+              472.88,
+              393.59905032381414
+            ],
+            [
+              472.88,
+              403.4231506289542
+            ]
+          ],
+          "bbox": [
+            472.88,
+            366.96334940359,
+            572.9474994885921,
+            405.36665059641007
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        470.88,
+        366.02,
+        575.04,
+        406.31
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_109",
+      "page": 9,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          520.8,
+          587.64,
+          526.08,
+          592.92
+        ]
+      },
+      "unchecked": {
+        "no": [
+          521.28,
+          603.47,
+          526.56,
+          608.75
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_110",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        216.35,
+        278.88,
+        236.5
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_111",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        216.35,
+        408.96,
+        236.5
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_112",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        216.35,
+        575.04,
+        236.02
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_113",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        238.42,
+        278.88,
+        258.08
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_114",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        238.42,
+        408.96,
+        258.08
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_115",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        238.42,
+        575.04,
+        258.08
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_116",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        260.48,
+        278.88,
+        302.22
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_117",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        260.48,
+        408.96,
+        302.22
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_118",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        260.48,
+        575.04,
+        302.7
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_119",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        304.62,
+        278.88,
+        324.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_120",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        304.62,
+        408.96,
+        324.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_121",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        304.62,
+        575.04,
+        324.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_122",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        326.68,
+        278.88,
+        346.35
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_123",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        326.68,
+        408.96,
+        346.35
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_124",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        326.68,
+        575.04,
+        346.35
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_125",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        348.75,
+        278.88,
+        368.42
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_126",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        348.75,
+        408.96,
+        368.42
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_127",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        348.75,
+        575.04,
+        368.42
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_128",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        370.82,
+        278.88,
+        390.48
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_129",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        370.82,
+        408.96,
+        390.48
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_130",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        370.82,
+        575.04,
+        390.48
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_131",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        392.88,
+        278.88,
+        424.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_132",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        392.88,
+        408.96,
+        424.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_133",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        392.88,
+        575.04,
+        424.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_134",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        425.98,
+        278.88,
+        446.13
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_135",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        425.98,
+        408.96,
+        446.13
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_136",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        425.98,
+        575.04,
+        446.13
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_137",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        448.05,
+        278.88,
+        500.82
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_138",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        448.05,
+        408.96,
+        500.82
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_139",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        448.05,
+        575.04,
+        500.82
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_140",
+      "page": 10,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Measurement-instrument support contract with a wholly government-owned laboratory.",
+          "zone": [
+            180.48,
+            502.74,
+            278.88,
+            534.4
+          ],
+          "lines": [
+            "Measurement-instrument",
+            "support contract with a wholly",
+            "government-owned laboratory."
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              182.48,
+              511.26789986610413
+            ],
+            [
+              182.48,
+              521.0920001712442
+            ],
+            [
+              182.48,
+              530.9161004763841
+            ]
+          ],
+          "bbox": [
+            182.48,
+            504.28039955616,
+            270.6264995443821,
+            532.85960044384
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        502.74,
+        278.88,
+        534.4
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_141",
+      "page": 10,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+          "zone": [
+            281.28,
+            502.74,
+            408.96,
+            534.88
+          ],
+          "lines": [
+            "Cendrelis Export SAS, 30 rue des",
+            "Instruments Fictifs, 69000 Lyon, France"
+          ],
+          "fontsize": 7.0,
+          "origins": [
+            [
+              283.28,
+              516.2361000201106
+            ],
+            [
+              283.28,
+              526.815900348723
+            ]
+          ],
+          "bbox": [
+            283.28,
+            508.7110996863246,
+            406.2209993290901,
+            528.9089003136754
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        502.74,
+        408.96,
+        534.88
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_142",
+      "page": 10,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied",
+          "zone": [
+            411.36,
+            502.74,
+            575.04,
+            534.88
+          ],
+          "lines": [
+            "SIM-X1; SIM-HS-X1; SIM-DUAL-X1;",
+            "SIM-EXPORT-C-01, Simulation Export Review",
+            "Office; expiry not supplied"
+          ],
+          "fontsize": 7.0,
+          "origins": [
+            [
+              413.36,
+              510.9461998558045
+            ],
+            [
+              413.36,
+              521.5260001844168
+            ],
+            [
+              413.36,
+              532.1058005130292
+            ]
+          ],
+          "bbox": [
+            413.36,
+            503.42119952201847,
+            558.0569996094704,
+            534.1988004779816
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        502.74,
+        575.04,
+        534.88
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_143",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        536.79,
+        278.88,
+        556.46
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_144",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        536.79,
+        408.96,
+        556.46
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_145",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        536.79,
+        575.04,
+        556.46
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_146",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        558.86,
+        278.88,
+        578.53
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_147",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        558.86,
+        408.96,
+        578.53
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_148",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        558.86,
+        575.04,
+        578.53
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_149",
+      "page": 10,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "review_required",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        580.45,
+        278.88,
+        600.6
+      ],
+      "reason": "'Proposed private-sector instrument support project; no 2025 amounts and no executed transaction.' does not fit its zone even at 5.0 pt"
+    },
+    {
+      "field_id": "form05_150",
+      "page": 10,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+          "zone": [
+            281.28,
+            580.45,
+            408.96,
+            600.6
+          ],
+          "lines": [
+            "Cendrelis Export SAS, 30 rue des",
+            "Instruments Fictifs, 69000 Lyon, France"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              283.28,
+              588.1349500186741
+            ],
+            [
+              283.28,
+              597.9590503238142
+            ]
+          ],
+          "bbox": [
+            283.28,
+            581.1474497087299,
+            397.4394993770122,
+            599.90255029127
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        580.45,
+        408.96,
+        600.6
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_151",
+      "page": 10,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold",
+          "zone": [
+            411.36,
+            580.45,
+            575.04,
+            600.6
+          ],
+          "lines": [
+            "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project,",
+            "no authorization issued for Myanmar, compliance hold"
+          ],
+          "fontsize": 6.5,
+          "origins": [
+            [
+              413.36,
+              588.1349500186741
+            ],
+            [
+              413.36,
+              597.9590503238142
+            ]
+          ],
+          "bbox": [
+            413.36,
+            581.1474497087299,
+            570.1269994235039,
+            599.90255029127
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        580.45,
+        575.04,
+        600.6
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_152",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        602.51,
+        278.88,
+        655.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_153",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        602.51,
+        408.96,
+        655.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_154",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        602.51,
+        575.04,
+        655.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_155",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        657.2,
+        278.88,
+        688.86
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_156",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        657.2,
+        408.96,
+        688.86
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_157",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        657.2,
+        575.04,
+        688.86
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_158",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        691.26,
+        278.88,
+        710.93
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_159",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        691.26,
+        408.96,
+        710.93
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_160",
+      "page": 10,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        691.26,
+        575.04,
+        710.93
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_161",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        93.06,
+        278.88,
+        113.21
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_162",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        93.06,
+        408.96,
+        113.21
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_163",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        93.06,
+        575.04,
+        113.21
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_164",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        115.13,
+        278.88,
+        135.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_165",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        115.13,
+        408.96,
+        135.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_166",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        115.13,
+        575.04,
+        135.28
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_167",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        137.2,
+        278.88,
+        157.34
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_168",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        137.2,
+        408.96,
+        157.34
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_169",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        137.2,
+        575.04,
+        157.34
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_170",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        159.26,
+        278.88,
+        179.41
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_171",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        159.26,
+        408.96,
+        179.41
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_172",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        159.26,
+        575.04,
+        179.41
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_173",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        181.33,
+        278.88,
+        201.48
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_174",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        181.33,
+        408.96,
+        201.48
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_175",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        181.33,
+        575.04,
+        201.48
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_176",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        180.48,
+        203.4,
+        278.88,
+        223.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_177",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        281.28,
+        203.4,
+        408.96,
+        223.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_178",
+      "page": 11,
+      "status": "not_applicable",
+      "zone_type": "text",
+      "action": "blank",
+      "texts": [],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        411.36,
+        203.4,
+        575.04,
+        223.06
+      ],
+      "reason": "not applicable: left blank"
+    },
+    {
+      "field_id": "form05_179",
+      "page": 11,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          520.8,
+          232.18,
+          526.08,
+          237.46
+        ]
+      },
+      "unchecked": {
+        "no": [
+          521.28,
+          247.53,
+          526.56,
+          252.81
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_180",
+      "page": 11,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition.",
+          "zone": [
+            37.44,
+            445.17,
+            489.12,
+            499.86
+          ],
+          "lines": [
+            "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination",
+            "checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              39.44,
+              469.2057000258565
+            ],
+            [
+              39.44,
+              482.80830044835807
+            ]
+          ],
+          "bbox": [
+            39.44,
+            459.5306995967031,
+            485.5969979786873,
+            485.49930040329696
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        445.17,
+        489.12,
+        499.86
+      ],
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_181",
+      "page": 11,
+      "status": "answer",
+      "zone_type": "choice_group",
+      "action": "check",
+      "texts": [],
+      "checked": {
+        "yes": [
+          520.8,
+          502.74,
+          526.08,
+          508.01
+        ]
+      },
+      "unchecked": {
+        "no": [
+          521.28,
+          518.57,
+          526.56,
+          523.84
+        ]
+      },
+      "zone": null,
+      "reason": "answer"
+    },
+    {
+      "field_id": "form05_182",
+      "page": 11,
+      "status": "answer",
+      "zone_type": "text",
+      "action": "text",
+      "texts": [
+        {
+          "text": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+          "zone": [
+            37.44,
+            584.77,
+            489.12,
+            688.38
+          ],
+          "lines": [
+            "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners,",
+            "directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before",
+            "payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance",
+            "investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit",
+            "(last 2026-06-30), annual staff training, escalation and incident records are maintained."
+          ],
+          "fontsize": 9.0,
+          "origins": [
+            [
+              39.44,
+              612.8617993921041
+            ],
+            [
+              39.44,
+              626.4643998146057
+            ],
+            [
+              39.44,
+              640.0670002371072
+            ],
+            [
+              39.44,
+              653.6696006596088
+            ],
+            [
+              39.44,
+              667.2722010821103
+            ]
+          ],
+          "bbox": [
+            39.44,
+            603.1867989629507,
+            485.1289975667,
+            669.9632010370492
+          ]
+        }
+      ],
+      "checked": {},
+      "unchecked": {},
+      "zone": [
+        37.44,
+        584.77,
+        489.12,
+        688.38
+      ],
+      "reason": "answer"
+    }
+  ],
+  "check_errors": []
+}

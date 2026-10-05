@@ -1,0 +1,2583 @@
+{
+  "form_id": "form_02",
+  "company": "Belorive Patrimoine SAS",
+  "as_of": "2026-09-01",
+  "answers": [
+    {
+      "field_id": "form02_001",
+      "page": 1,
+      "label": "Dénomination Sociale",
+      "value": "Belorive Patrimoine SAS",
+      "normalized_value": "Belorive Patrimoine SAS",
+      "status": "answer",
+      "reason": "2 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Belorive Patrimoine SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Belorive Patrimoine SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_002",
+      "page": 1,
+      "label": "Forme Juridique",
+      "value": "SAS",
+      "normalized_value": "SAS",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/legal_form",
+          "section": null,
+          "excerpt": "SAS",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_003",
+      "page": 1,
+      "label": "Adresse du siège social",
+      "value": "11 rue des Sociétés Fictives",
+      "normalized_value": "11 rue des Sociétés Fictives",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/street",
+          "section": null,
+          "excerpt": "11 rue des Sociétés Fictives",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_004",
+      "page": 1,
+      "label": "Code postal",
+      "value": "69000",
+      "normalized_value": "69000",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/postcode",
+          "section": null,
+          "excerpt": "69000",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_005",
+      "page": 1,
+      "label": "Ville",
+      "value": "Lyon",
+      "normalized_value": "Lyon",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/city",
+          "section": null,
+          "excerpt": "Lyon",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_006",
+      "page": 1,
+      "label": "Pays",
+      "value": "France",
+      "normalized_value": "France",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/country",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_007",
+      "page": 1,
+      "label": "Adresse de l'établissement (si différent du siège social)",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ facultatif sur le formulaire et aucune valeur dans les sources.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/establishment",
+          "section": null,
+          "excerpt": "null",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "null.optional_field",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_008",
+      "page": 1,
+      "label": "N° RCS",
+      "value": "SIM-RCS-B-001",
+      "normalized_value": "SIM-RCS-B-001",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/registration",
+          "section": null,
+          "excerpt": "SIM-RCS-B-001",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_009",
+      "page": 1,
+      "label": "Lieu d'enregistrement",
+      "value": "Lyon",
+      "normalized_value": "Lyon",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/registry_place",
+          "section": null,
+          "excerpt": "Lyon",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_010",
+      "page": 1,
+      "label": "Autres numéros d'identification",
+      "value": "SIM-INTERNAL-B-001",
+      "normalized_value": "SIM-INTERNAL-B-001",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/other_ids",
+          "section": null,
+          "excerpt": "SIM-INTERNAL-B-001",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_011",
+      "page": 1,
+      "label": "Code NACE",
+      "value": "68.20",
+      "normalized_value": "68.20",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md",
+          "document_id": "B-CORPORATE-20260901",
+          "json_pointer": "/nace",
+          "section": null,
+          "excerpt": "68.20",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "544120adea4e058ca61c2cb027d53b86912b7607a00def93baaf7f763aa644fe"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_012",
+      "page": 1,
+      "label": "Pays de résidence fiscale 1",
+      "value": "France",
+      "normalized_value": "France",
+      "status": "answer",
+      "reason": "Résidence fiscale n°1 du mémo fiscal de l'entité.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_residences/0/country",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "tax.entity_residence_list",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_013",
+      "page": 1,
+      "label": "Numéro d'Identification Fiscale (NIF) 1",
+      "value": "SIM-TIN-B-FR",
+      "normalized_value": "SIM-TIN-B-FR",
+      "status": "answer",
+      "reason": "Résidence fiscale n°1 du mémo fiscal de l'entité.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_residences/0/tin",
+          "section": null,
+          "excerpt": "SIM-TIN-B-FR",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "tax.entity_residence_list",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_014",
+      "page": 1,
+      "label": "Pays de résidence fiscale 2",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 2 sans objet : 1 résidence fiscale de l'entité(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_residences",
+          "section": null,
+          "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_015",
+      "page": 1,
+      "label": "Numéro d'Identification Fiscale (NIF) 2",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 2 sans objet : 1 résidence fiscale de l'entité(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_residences",
+          "section": null,
+          "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_016",
+      "page": 1,
+      "label": "Pays de résidence fiscale 3",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 3 sans objet : 1 résidence fiscale de l'entité(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_residences",
+          "section": null,
+          "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_017",
+      "page": 1,
+      "label": "Numéro d'Identification Fiscale (NIF) 3",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 3 sans objet : 1 résidence fiscale de l'entité(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_residences",
+          "section": null,
+          "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_018",
+      "page": 2,
+      "label": "Catégorie (A), (B), (C) ou (D)",
+      "value": "B",
+      "normalized_value": "B",
+      "status": "answer",
+      "reason": "Classification stipulée par le mémo fiscal : Passive non-financial entity.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "tax.crs_category_vocabulary",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_019",
+      "page": 2,
+      "label": "Sous-catégorie ENF active",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : crs.category = 'B' (Classification stipulée par le mémo fiscal : Passive non-financial entity.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_020",
+      "page": 2,
+      "label": "Autre \"ENF Active\"",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : crs.category = 'B' (Classification stipulée par le mémo fiscal : Passive non-financial entity.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_021",
+      "page": 2,
+      "label": "> Veuillez indiquer, si applicable, le numéro GIIN",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : crs.category = 'B' (Classification stipulée par le mémo fiscal : Passive non-financial entity.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_022",
+      "page": 2,
+      "label": "> En cas de statut n'exigeant pas l'obtention d'un GIIN",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : crs.category = 'B' (Classification stipulée par le mémo fiscal : Passive non-financial entity.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_023",
+      "page": 2,
+      "label": "Entité d'investissement gérée, pays non-partie",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : crs.category = 'B' (Classification stipulée par le mémo fiscal : Passive non-financial entity.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_024",
+      "page": 2,
+      "label": "Statut d'entité exemptée",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : crs.category = 'B' (Classification stipulée par le mémo fiscal : Passive non-financial entity.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_025",
+      "page": 3,
+      "label": "(1) et (2) :",
+      "value": "Orvaux Camille",
+      "normalized_value": "Orvaux Camille",
+      "status": "answer",
+      "reason": "Nom et prénom : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/surname",
+          "section": null,
+          "excerpt": "Orvaux",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/given",
+          "section": null,
+          "excerpt": "Camille",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+          "document_id": null,
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Camille Orvaux",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "6ca50f06e5ea0368693d7b2324a82565bc0ad3c7640dd5881762f71371092552"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_026",
+      "page": 3,
+      "label": "(3) et (4) :",
+      "value": "12/04/1980, France",
+      "normalized_value": "12/04/1980, France",
+      "status": "answer",
+      "reason": "Date et pays de naissance : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/birth_date",
+          "section": null,
+          "excerpt": "1980-04-12",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+          "document_id": null,
+          "json_pointer": "/birth_date",
+          "section": null,
+          "excerpt": "1980-04-12",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "6ca50f06e5ea0368693d7b2324a82565bc0ad3c7640dd5881762f71371092552"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/birth_country",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_027",
+      "page": 3,
+      "label": "(5) :",
+      "value": "France",
+      "normalized_value": "France",
+      "status": "answer",
+      "reason": "Nationalités : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/nationalities",
+          "section": null,
+          "excerpt": "[\"France\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_028",
+      "page": 3,
+      "label": "(6) :",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "normalized_value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "status": "answer",
+      "reason": "Adresse de résidence : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/address",
+          "section": null,
+          "excerpt": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_029",
+      "page": 3,
+      "label": "Pays de résidence fiscale BE1",
+      "value": [
+        "France"
+      ],
+      "normalized_value": [
+        "France"
+      ],
+      "status": "answer",
+      "reason": "Pays de résidence fiscale : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/tax_residences",
+          "section": null,
+          "excerpt": "[\"France\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_030",
+      "page": 3,
+      "label": "NIF BE1",
+      "value": [
+        "SIM-TIN-B1-FR"
+      ],
+      "normalized_value": [
+        "SIM-TIN-B1-FR"
+      ],
+      "status": "answer",
+      "reason": "NIF : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/tax_residences",
+          "section": null,
+          "excerpt": "[\"France\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/tins/France",
+          "section": null,
+          "excerpt": "SIM-TIN-B1-FR",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_031",
+      "page": 3,
+      "label": "% du capital en direct BE1",
+      "value": "0 %",
+      "normalized_value": "0 %",
+      "status": "answer",
+      "reason": "% de capital direct : registre de propriété (après transparence du parent).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/direct_pct",
+          "section": null,
+          "excerpt": "0",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_032",
+      "page": 3,
+      "label": "% du capital en indirect BE1",
+      "value": "42 %",
+      "normalized_value": "42 %",
+      "status": "answer",
+      "reason": "% de capital indirect : registre de propriété (après transparence du parent).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/indirect_pct",
+          "section": null,
+          "excerpt": "42",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_033",
+      "page": 3,
+      "label": "% des droits de vote BE1",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : bo.votes_differ_from_capital = 'no' (Capital 42 % (direct + indirect) vs droits de vote 42 %.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/direct_pct",
+          "section": null,
+          "excerpt": "0",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/indirect_pct",
+          "section": null,
+          "excerpt": "42",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/0/votes_pct",
+          "section": null,
+          "excerpt": "42",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": {
+        "formula": "direct_pct + indirect_pct",
+        "inputs": [
+          {
+            "name": "direct_pct",
+            "value": 0.0,
+            "evidence": [
+              {
+                "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+                "document_id": "B-OWNERSHIP-20260901",
+                "json_pointer": "/people/0/direct_pct",
+                "section": null,
+                "excerpt": "0",
+                "source_date": "2026-09-01",
+                "role": "primary",
+                "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+              }
+            ]
+          },
+          {
+            "name": "indirect_pct",
+            "value": 42.0,
+            "evidence": [
+              {
+                "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+                "document_id": "B-OWNERSHIP-20260901",
+                "json_pointer": "/people/0/indirect_pct",
+                "section": null,
+                "excerpt": "42",
+                "source_date": "2026-09-01",
+                "role": "primary",
+                "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+              }
+            ]
+          }
+        ],
+        "result": 42.0,
+        "unit": "%"
+      },
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_034",
+      "page": 3,
+      "label": "(1) et (2) :",
+      "value": "Dervelle Samir",
+      "normalized_value": "Dervelle Samir",
+      "status": "answer",
+      "reason": "Nom et prénom : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/surname",
+          "section": null,
+          "excerpt": "Dervelle",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/given",
+          "section": null,
+          "excerpt": "Samir",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+          "document_id": null,
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Samir Dervelle",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "dfeea3c32cc187c1c3875feeae1b97445783c0272091049346115a246ee07ecf"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_035",
+      "page": 3,
+      "label": "(3) et (4) :",
+      "value": "23/08/1985, France",
+      "normalized_value": "23/08/1985, France",
+      "status": "answer",
+      "reason": "Date et pays de naissance : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/birth_date",
+          "section": null,
+          "excerpt": "1985-08-23",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+          "document_id": null,
+          "json_pointer": "/birth_date",
+          "section": null,
+          "excerpt": "1985-08-23",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "dfeea3c32cc187c1c3875feeae1b97445783c0272091049346115a246ee07ecf"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/birth_country",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_036",
+      "page": 3,
+      "label": "(5) :",
+      "value": "France",
+      "normalized_value": "France",
+      "status": "answer",
+      "reason": "Nationalités : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/nationalities",
+          "section": null,
+          "excerpt": "[\"France\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_037",
+      "page": 3,
+      "label": "(6) :",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "normalized_value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "status": "answer",
+      "reason": "Adresse de résidence : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/address",
+          "section": null,
+          "excerpt": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_038",
+      "page": 3,
+      "label": "Pays de résidence fiscale BE2",
+      "value": [
+        "France"
+      ],
+      "normalized_value": [
+        "France"
+      ],
+      "status": "answer",
+      "reason": "Pays de résidence fiscale : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/tax_residences",
+          "section": null,
+          "excerpt": "[\"France\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_039",
+      "page": 3,
+      "label": "NIF BE2",
+      "value": [
+        "SIM-TIN-B2-FR"
+      ],
+      "normalized_value": [
+        "SIM-TIN-B2-FR"
+      ],
+      "status": "answer",
+      "reason": "NIF : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/tax_residences",
+          "section": null,
+          "excerpt": "[\"France\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/tins/France",
+          "section": null,
+          "excerpt": "SIM-TIN-B2-FR",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_040",
+      "page": 3,
+      "label": "% du capital en direct BE2",
+      "value": "0 %",
+      "normalized_value": "0 %",
+      "status": "answer",
+      "reason": "% de capital direct : registre de propriété (après transparence du parent).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/direct_pct",
+          "section": null,
+          "excerpt": "0",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_041",
+      "page": 3,
+      "label": "% du capital en indirect BE2",
+      "value": "28 %",
+      "normalized_value": "28 %",
+      "status": "answer",
+      "reason": "% de capital indirect : registre de propriété (après transparence du parent).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/indirect_pct",
+          "section": null,
+          "excerpt": "28",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_042",
+      "page": 3,
+      "label": "% des droits de vote BE2",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : bo.votes_differ_from_capital = 'no' (Capital 28 % (direct + indirect) vs droits de vote 28 %.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/direct_pct",
+          "section": null,
+          "excerpt": "0",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/indirect_pct",
+          "section": null,
+          "excerpt": "28",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/1/votes_pct",
+          "section": null,
+          "excerpt": "28",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": {
+        "formula": "direct_pct + indirect_pct",
+        "inputs": [
+          {
+            "name": "direct_pct",
+            "value": 0.0,
+            "evidence": [
+              {
+                "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+                "document_id": "B-OWNERSHIP-20260901",
+                "json_pointer": "/people/1/direct_pct",
+                "section": null,
+                "excerpt": "0",
+                "source_date": "2026-09-01",
+                "role": "primary",
+                "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+              }
+            ]
+          },
+          {
+            "name": "indirect_pct",
+            "value": 28.0,
+            "evidence": [
+              {
+                "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+                "document_id": "B-OWNERSHIP-20260901",
+                "json_pointer": "/people/1/indirect_pct",
+                "section": null,
+                "excerpt": "28",
+                "source_date": "2026-09-01",
+                "role": "primary",
+                "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+              }
+            ]
+          }
+        ],
+        "result": 28.0,
+        "unit": "%"
+      },
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_043",
+      "page": 3,
+      "label": "(1) et (2) :",
+      "value": "Montelac Léa",
+      "normalized_value": "Montelac Léa",
+      "status": "answer",
+      "reason": "Nom et prénom : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/surname",
+          "section": null,
+          "excerpt": "Montelac",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/given",
+          "section": null,
+          "excerpt": "Léa",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+          "document_id": null,
+          "json_pointer": "/name",
+          "section": null,
+          "excerpt": "Léa Montelac",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "83c4827a4708dc2ea5449c3c00cd53decd4184beec742fdf1e4d04a9dd3951b7"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_044",
+      "page": 3,
+      "label": "(3) et (4) :",
+      "value": "23/08/1985, France",
+      "normalized_value": "23/08/1985, France",
+      "status": "answer",
+      "reason": "Date et pays de naissance : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/birth_date",
+          "section": null,
+          "excerpt": "1985-08-23",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+          "document_id": null,
+          "json_pointer": "/birth_date",
+          "section": null,
+          "excerpt": "1985-08-23",
+          "source_date": "2026-09-01",
+          "role": "subject_record",
+          "sha256": "83c4827a4708dc2ea5449c3c00cd53decd4184beec742fdf1e4d04a9dd3951b7"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/birth_country",
+          "section": null,
+          "excerpt": "France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_045",
+      "page": 3,
+      "label": "(5) :",
+      "value": "France, États-Unis d'Amérique",
+      "normalized_value": "France, États-Unis d'Amérique",
+      "status": "answer",
+      "reason": "Nationalités : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/nationalities",
+          "section": null,
+          "excerpt": "[\"France\", \"United States\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_046",
+      "page": 3,
+      "label": "(6) :",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "normalized_value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "status": "answer",
+      "reason": "Adresse de résidence : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/address",
+          "section": null,
+          "excerpt": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_047",
+      "page": 3,
+      "label": "Pays de résidence fiscale BE3",
+      "value": [
+        "France",
+        "États-Unis d'Amérique"
+      ],
+      "normalized_value": [
+        "France",
+        "États-Unis d'Amérique"
+      ],
+      "status": "answer",
+      "reason": "Pays de résidence fiscale : registre de propriété.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/tax_residences",
+          "section": null,
+          "excerpt": "[\"France\", \"United States\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_048",
+      "page": 3,
+      "label": "NIF BE3",
+      "value": [
+        "SIM-TIN-B3-FR",
+        null
+      ],
+      "normalized_value": [
+        "SIM-TIN-B3-FR",
+        null
+      ],
+      "status": "missing_information",
+      "reason": "NIF : parties connues conservées, manquant : NIF États-Unis d'Amérique.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/tax_residences",
+          "section": null,
+          "excerpt": "[\"France\", \"United States\"]",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/tins/France",
+          "section": null,
+          "excerpt": "SIM-TIN-B3-FR",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/tins/United States",
+          "section": null,
+          "excerpt": "null",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/tin_note",
+          "section": null,
+          "excerpt": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [
+        "NIF États-Unis d'Amérique"
+      ],
+      "calculation": null,
+      "rule": "partial.known_parts_kept",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_049",
+      "page": 3,
+      "label": "% du capital en direct BE3",
+      "value": "30 %",
+      "normalized_value": "30 %",
+      "status": "answer",
+      "reason": "% de capital direct : registre de propriété (après transparence du parent).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/direct_pct",
+          "section": null,
+          "excerpt": "30",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_050",
+      "page": 3,
+      "label": "% du capital en indirect BE3",
+      "value": "0 %",
+      "normalized_value": "0 %",
+      "status": "answer",
+      "reason": "% de capital indirect : registre de propriété (après transparence du parent).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/indirect_pct",
+          "section": null,
+          "excerpt": "0",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "ownership.controlling_person_register",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_051",
+      "page": 3,
+      "label": "% des droits de vote BE3",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : bo.votes_differ_from_capital = 'no' (Capital 30 % (direct + indirect) vs droits de vote 30 %.).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/direct_pct",
+          "section": null,
+          "excerpt": "30",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/indirect_pct",
+          "section": null,
+          "excerpt": "0",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people/2/votes_pct",
+          "section": null,
+          "excerpt": "30",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": {
+        "formula": "direct_pct + indirect_pct",
+        "inputs": [
+          {
+            "name": "direct_pct",
+            "value": 30.0,
+            "evidence": [
+              {
+                "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+                "document_id": "B-OWNERSHIP-20260901",
+                "json_pointer": "/people/2/direct_pct",
+                "section": null,
+                "excerpt": "30",
+                "source_date": "2026-09-01",
+                "role": "primary",
+                "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+              }
+            ]
+          },
+          {
+            "name": "indirect_pct",
+            "value": 0.0,
+            "evidence": [
+              {
+                "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+                "document_id": "B-OWNERSHIP-20260901",
+                "json_pointer": "/people/2/indirect_pct",
+                "section": null,
+                "excerpt": "0",
+                "source_date": "2026-09-01",
+                "role": "primary",
+                "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+              }
+            ]
+          }
+        ],
+        "result": 30.0,
+        "unit": "%"
+      },
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_052",
+      "page": 3,
+      "label": "(1) et (2) :",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_053",
+      "page": 3,
+      "label": "(3) et (4) :",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_054",
+      "page": 3,
+      "label": "(5) :",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_055",
+      "page": 3,
+      "label": "(6) :",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_056",
+      "page": 3,
+      "label": "Pays de résidence fiscale BE4",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_057",
+      "page": 3,
+      "label": "NIF BE4",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_058",
+      "page": 3,
+      "label": "% du capital en direct BE4",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_059",
+      "page": 3,
+      "label": "% du capital en indirect BE4",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "list.declared_complete",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_060",
+      "page": 3,
+      "label": "% des droits de vote BE4",
+      "value": null,
+      "normalized_value": null,
+      "status": "not_applicable",
+      "reason": "Champ conditionnel non déclenché : Ligne 4 sans objet : 3 bénéficiaire effectif(s) déclaré(s), liste complète..",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/tax_category",
+          "section": null,
+          "excerpt": "Passive non-financial entity",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md",
+          "document_id": "B-TAX-20260901",
+          "json_pointer": "/passive_income_pct",
+          "section": null,
+          "excerpt": "80",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "89b271d42db34b7f3b2d2302f140617bd08b33d42e06704a7c99cc039909734f"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": "/people",
+          "section": null,
+          "excerpt": "[{\"id\": \"B1\", \"given\": \"Camille\", \"surname\": \"Orvaux\", \"name\": \"Camille Orvaux\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"…",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+          "document_id": "B-OWNERSHIP-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The listed controlling persons are complete.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "5d14cb033e93351847abc53a394b187dcad5f5f8d985444463ff958753146fb3"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "applicability.condition_not_met",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_061",
+      "page": 3,
+      "label": "CADRE RESERVE",
+      "value": null,
+      "normalized_value": null,
+      "status": "bank_reserved",
+      "reason": "Champ réservé à la banque : jamais rempli par le client.",
+      "evidence": [],
+      "missing": [],
+      "calculation": null,
+      "rule": "field.bank_reserved",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_062",
+      "page": 4,
+      "label": "Fait à",
+      "value": "Lyon",
+      "normalized_value": "Lyon",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/place",
+          "section": null,
+          "excerpt": "Lyon",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_063",
+      "page": 4,
+      "label": "le",
+      "value": "01/09/2026",
+      "normalized_value": "01/09/2026",
+      "status": "answer",
+      "reason": "Date de complétion de l'exercice (mandat) ; aucune signature exécutée n'est attestée.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/date",
+          "section": null,
+          "excerpt": "01/09/2026",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "attestation.completion_date",
+      "context": {
+        "completion_date": "01/09/2026",
+        "signature_date": null
+      },
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_064",
+      "page": 4,
+      "label": "Signature",
+      "value": null,
+      "normalized_value": null,
+      "status": "human_action",
+      "reason": "Aucune signature exécutée n'est fournie ; l'autorité de représenter ne vaut pas signature. Signature humaine requise.",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "No signature is supplied.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": null,
+          "section": "header",
+          "excerpt": "The date is the fixed exercise completion date, not an actual executed signature.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        },
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/authority",
+          "section": null,
+          "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "signature.not_executed",
+      "context": {},
+      "confidence": null,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_065",
+      "page": 4,
+      "label": "Nom",
+      "value": "Orvaux",
+      "normalized_value": "Orvaux",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/signer/surname",
+          "section": null,
+          "excerpt": "Orvaux",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_066",
+      "page": 4,
+      "label": "Prénom",
+      "value": "Camille",
+      "normalized_value": "Camille",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/signer/given",
+          "section": null,
+          "excerpt": "Camille",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    },
+    {
+      "field_id": "form02_067",
+      "page": 4,
+      "label": "Fonction au sein de l'entité cliente",
+      "value": "Présidente",
+      "normalized_value": "Présidente",
+      "status": "answer",
+      "reason": "1 source(s) concordante(s).",
+      "evidence": [
+        {
+          "source": "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md",
+          "document_id": "B-MANDATE-20260901",
+          "json_pointer": "/signer_role",
+          "section": null,
+          "excerpt": "Présidente",
+          "source_date": "2026-09-01",
+          "role": "primary",
+          "sha256": "29e6ead3f3a60ee8a2d45fc3540fd9797d23a21ffed806dc102eb424d766cdc5"
+        }
+      ],
+      "missing": [],
+      "calculation": null,
+      "rule": "lookup.agreeing_sources",
+      "context": {},
+      "confidence": 1.0,
+      "validation_errors": []
+    }
+  ],
+  "llm_calls": 0,
+  "status_counts": {
+    "answer": 41,
+    "not_applicable": 23,
+    "missing_information": 1,
+    "bank_reserved": 1,
+    "human_action": 1
+  },
+  "partial_answers": 1,
+  "fill_rate_proxy": 0.9762,
+  "evidence_coverage": 1.0
+}

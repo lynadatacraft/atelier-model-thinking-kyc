@@ -1,0 +1,2247 @@
+{
+  "form_id": "form_02",
+  "source": "questionnaires/02_belorive_patrimoine.pdf",
+  "locations": [
+    {
+      "field_id": "form02_001",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Dénomination Sociale*:",
+      "anchor_bbox": [
+        30.71,
+        277.8,
+        116.14,
+        288.84
+      ],
+      "answer_bbox": [
+        116.62,
+        278.76,
+        570.13,
+        289.8
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_002",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Forme Juridique :",
+      "anchor_bbox": [
+        29.75,
+        292.67,
+        95.98,
+        305.63
+      ],
+      "answer_bbox": [
+        95.98,
+        294.11,
+        570.13,
+        305.15
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_003",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Adresse du siège social*:",
+      "anchor_bbox": [
+        29.75,
+        309.47,
+        122.38,
+        321.94
+      ],
+      "answer_bbox": [
+        119.98,
+        309.95,
+        570.13,
+        322.9
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_004",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Code postal*:",
+      "anchor_bbox": [
+        116.14,
+        328.18,
+        170.37,
+        339.69
+      ],
+      "answer_bbox": [
+        173.72,
+        327.22,
+        215.0,
+        340.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_005",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Ville*:",
+      "anchor_bbox": [
+        224.59,
+        326.74,
+        254.35,
+        340.17
+      ],
+      "answer_bbox": [
+        255.31,
+        327.7,
+        410.8,
+        340.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_006",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Pays *:",
+      "anchor_bbox": [
+        411.76,
+        326.26,
+        442.95,
+        341.61
+      ],
+      "answer_bbox": [
+        442.95,
+        327.7,
+        570.13,
+        340.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_007",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Adresse de l'établissement (si différent du siège social) :",
+      "anchor_bbox": [
+        30.71,
+        345.45,
+        228.91,
+        356.49
+      ],
+      "answer_bbox": [
+        230.35,
+        344.49,
+        570.13,
+        357.45
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_008",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "N° RCS*:",
+      "anchor_bbox": [
+        29.75,
+        361.77,
+        67.67,
+        374.72
+      ],
+      "answer_bbox": [
+        87.82,
+        361.77,
+        337.37,
+        374.72
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_009",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Lieu d'enregistrement :",
+      "anchor_bbox": [
+        344.57,
+        363.2,
+        429.51,
+        374.24
+      ],
+      "answer_bbox": [
+        434.79,
+        361.29,
+        570.13,
+        374.24
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_010",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Autres numéros d'identification :",
+      "anchor_bbox": [
+        30.23,
+        380.0,
+        148.29,
+        391.03
+      ],
+      "answer_bbox": [
+        149.25,
+        379.52,
+        570.13,
+        391.51
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_011",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Code NACE :",
+      "anchor_bbox": [
+        29.75,
+        395.35,
+        80.14,
+        408.31
+      ],
+      "answer_bbox": [
+        83.98,
+        396.31,
+        570.13,
+        408.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_012",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "1.",
+      "anchor_bbox": [
+        28.31,
+        497.55,
+        42.23,
+        512.42
+      ],
+      "answer_bbox": [
+        46.23,
+        495.55,
+        247.87,
+        510.94
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_013",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "1.",
+      "anchor_bbox": [
+        28.31,
+        497.55,
+        42.23,
+        512.42
+      ],
+      "answer_bbox": [
+        247.87,
+        495.55,
+        555.25,
+        510.94
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_014",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "2.",
+      "anchor_bbox": [
+        28.31,
+        511.94,
+        42.23,
+        527.29
+      ],
+      "answer_bbox": [
+        46.23,
+        509.94,
+        247.87,
+        526.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_015",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "2.",
+      "anchor_bbox": [
+        28.31,
+        511.94,
+        42.23,
+        527.29
+      ],
+      "answer_bbox": [
+        247.87,
+        509.94,
+        555.25,
+        526.29
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_016",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "3.",
+      "anchor_bbox": [
+        28.79,
+        527.29,
+        41.75,
+        540.73
+      ],
+      "answer_bbox": [
+        45.75,
+        525.29,
+        247.87,
+        543.57
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_017",
+      "page": 1,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "3.",
+      "anchor_bbox": [
+        28.79,
+        527.29,
+        41.75,
+        540.73
+      ],
+      "answer_bbox": [
+        247.87,
+        525.29,
+        555.25,
+        543.57
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_018",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "A. Entité Non Financière Active (Activité non financière dont activité industrielle, activité commerciale, activité de service....)",
+      "anchor_bbox": [
+        46.07,
+        110.83,
+        486.62,
+        121.87
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "A": [
+          30.71,
+          109.87,
+          40.31,
+          122.83
+        ],
+        "B": [
+          30.71,
+          203.43,
+          40.31,
+          216.39
+        ],
+        "C": [
+          30.71,
+          280.2,
+          39.83,
+          290.28
+        ],
+        "D": [
+          30.71,
+          422.7,
+          39.83,
+          433.25
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:4/4",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_019",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+      "anchor_bbox": [
+        111.34,
+        136.74,
+        412.24,
+        147.78
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "passive_income_lt50": [
+          95.5,
+          137.22,
+          105.1,
+          147.3
+        ],
+        "non_profit": [
+          95.5,
+          155.45,
+          105.1,
+          165.05
+        ],
+        "other": [
+          95.5,
+          173.21,
+          105.1,
+          183.28
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:3/3",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_020",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Autre \"ENF Active\"",
+      "anchor_bbox": [
+        111.34,
+        172.73,
+        180.92,
+        183.76
+      ],
+      "answer_bbox": [
+        184.92,
+        171.73,
+        564.69,
+        189.96
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_021",
+      "page": 2,
+      "zone_type": "comb",
+      "answer_type": "text",
+      "anchor_text": "> Veuillez indiquer, si applicable, le numéro GIIN (Global Intermediary Identification Number) du client obtenu dans le cadre de la loi FATCA :",
+      "anchor_bbox": [
+        55.67,
+        297.95,
+        553.81,
+        308.99
+      ],
+      "answer_bbox": [
+        87.82,
+        312.35,
+        337.85,
+        325.3
+      ],
+      "option_boxes": {},
+      "slots": [
+        [
+          87.82,
+          312.35,
+          96.94,
+          325.3
+        ],
+        [
+          99.82,
+          312.35,
+          109.42,
+          325.3
+        ],
+        [
+          112.3,
+          312.35,
+          121.42,
+          325.3
+        ],
+        [
+          124.29,
+          312.35,
+          133.41,
+          325.3
+        ],
+        [
+          136.77,
+          312.35,
+          145.89,
+          325.3
+        ],
+        [
+          148.77,
+          312.35,
+          158.37,
+          325.3
+        ],
+        [
+          181.4,
+          312.35,
+          191.0,
+          325.3
+        ],
+        [
+          193.4,
+          312.35,
+          203.0,
+          325.3
+        ],
+        [
+          205.88,
+          312.35,
+          215.48,
+          325.3
+        ],
+        [
+          217.88,
+          312.35,
+          227.47,
+          325.3
+        ],
+        [
+          230.35,
+          312.35,
+          239.95,
+          325.3
+        ],
+        [
+          262.99,
+          312.35,
+          272.59,
+          325.3
+        ],
+        [
+          275.46,
+          312.35,
+          285.06,
+          325.3
+        ],
+        [
+          303.78,
+          312.35,
+          313.38,
+          325.3
+        ],
+        [
+          315.78,
+          312.35,
+          325.37,
+          325.3
+        ],
+        [
+          328.25,
+          312.35,
+          337.85,
+          325.3
+        ]
+      ],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "comb:16",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_022",
+      "page": 2,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "> En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant :",
+      "anchor_bbox": [
+        57.11,
+        333.46,
+        397.84,
+        343.05
+      ],
+      "answer_bbox": [
+        401.84,
+        332.46,
+        564.69,
+        352.13
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 0.95,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_023",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "Oui",
+      "anchor_bbox": [
+        486.14,
+        368.0,
+        510.14,
+        382.4
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "yes": [
+          479.42,
+          369.44,
+          488.54,
+          381.92
+        ],
+        "no": [
+          528.37,
+          369.44,
+          537.49,
+          381.92
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:2/2",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_024",
+      "page": 2,
+      "zone_type": "choice_group",
+      "answer_type": "choice",
+      "anchor_text": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+      "anchor_bbox": [
+        111.34,
+        452.93,
+        381.04,
+        463.96
+      ],
+      "answer_bbox": null,
+      "option_boxes": {
+        "listed": [
+          95.5,
+          453.41,
+          105.1,
+          463.96
+        ],
+        "public": [
+          95.5,
+          466.36,
+          105.1,
+          476.92
+        ],
+        "international": [
+          95.5,
+          478.84,
+          105.1,
+          489.39
+        ],
+        "central_bank": [
+          95.5,
+          491.31,
+          105.1,
+          501.87
+        ],
+        "excluded": [
+          95.5,
+          504.74,
+          105.1,
+          514.82
+        ]
+      },
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "option_anchors:5/5",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_025",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        225.98,
+        60.47,
+        237.98
+      ],
+      "answer_bbox": [
+        64.47,
+        224.98,
+        222.03,
+        244.18
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_026",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(3) et (4) :",
+      "anchor_bbox": [
+        25.91,
+        245.18,
+        60.47,
+        256.69
+      ],
+      "answer_bbox": [
+        64.47,
+        244.18,
+        222.03,
+        261.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_027",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(5):",
+      "anchor_bbox": [
+        25.43,
+        262.93,
+        42.71,
+        276.36
+      ],
+      "answer_bbox": [
+        46.71,
+        261.93,
+        222.03,
+        280.64
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_028",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(6):",
+      "anchor_bbox": [
+        24.95,
+        281.64,
+        42.71,
+        295.07
+      ],
+      "answer_bbox": [
+        46.71,
+        280.64,
+        222.03,
+        312.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_029",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        225.98,
+        60.47,
+        237.98
+      ],
+      "answer_bbox": [
+        227.95,
+        219.75,
+        323.93,
+        313.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          228.95,
+          224.98,
+          322.93,
+          243.18
+        ],
+        [
+          228.95,
+          244.18,
+          322.93,
+          260.93
+        ],
+        [
+          228.95,
+          261.93,
+          322.93,
+          279.64
+        ],
+        [
+          228.95,
+          280.64,
+          322.93,
+          312.31
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_030",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        225.98,
+        60.47,
+        237.98
+      ],
+      "answer_bbox": [
+        325.85,
+        219.75,
+        409.84,
+        313.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          326.85,
+          224.98,
+          408.84,
+          243.18
+        ],
+        [
+          326.85,
+          244.18,
+          408.84,
+          260.93
+        ],
+        [
+          326.85,
+          261.93,
+          408.84,
+          279.64
+        ],
+        [
+          326.85,
+          280.64,
+          408.84,
+          312.31
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_031",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        225.98,
+        60.47,
+        237.98
+      ],
+      "answer_bbox": [
+        411.76,
+        219.75,
+        462.63,
+        313.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_032",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        225.98,
+        60.47,
+        237.98
+      ],
+      "answer_bbox": [
+        464.55,
+        219.75,
+        515.9,
+        313.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_033",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        225.98,
+        60.47,
+        237.98
+      ],
+      "answer_bbox": [
+        517.34,
+        219.75,
+        568.69,
+        313.31
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_034",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        321.46,
+        59.99,
+        333.46
+      ],
+      "answer_bbox": [
+        63.99,
+        320.46,
+        222.03,
+        339.17
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_035",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(3) et (4) :",
+      "anchor_bbox": [
+        25.91,
+        340.17,
+        60.47,
+        352.17
+      ],
+      "answer_bbox": [
+        64.47,
+        339.17,
+        222.03,
+        357.41
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_036",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(5):",
+      "anchor_bbox": [
+        25.43,
+        358.41,
+        43.19,
+        371.36
+      ],
+      "answer_bbox": [
+        47.19,
+        357.41,
+        222.03,
+        376.6
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_037",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(6):",
+      "anchor_bbox": [
+        24.95,
+        377.6,
+        43.19,
+        390.55
+      ],
+      "answer_bbox": [
+        47.19,
+        376.6,
+        222.03,
+        413.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_038",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        321.46,
+        59.99,
+        333.46
+      ],
+      "answer_bbox": [
+        227.95,
+        314.75,
+        323.93,
+        414.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          228.95,
+          320.46,
+          322.93,
+          338.17
+        ],
+        [
+          228.95,
+          339.17,
+          322.93,
+          356.41
+        ],
+        [
+          228.95,
+          357.41,
+          322.93,
+          375.6
+        ],
+        [
+          228.95,
+          376.6,
+          322.93,
+          413.06
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_039",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        321.46,
+        59.99,
+        333.46
+      ],
+      "answer_bbox": [
+        325.85,
+        314.75,
+        409.84,
+        414.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          326.85,
+          320.46,
+          408.84,
+          338.17
+        ],
+        [
+          326.85,
+          339.17,
+          408.84,
+          356.41
+        ],
+        [
+          326.85,
+          357.41,
+          408.84,
+          375.6
+        ],
+        [
+          326.85,
+          376.6,
+          408.84,
+          413.06
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_040",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        321.46,
+        59.99,
+        333.46
+      ],
+      "answer_bbox": [
+        411.76,
+        314.75,
+        462.63,
+        414.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_041",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        321.46,
+        59.99,
+        333.46
+      ],
+      "answer_bbox": [
+        464.55,
+        314.75,
+        515.42,
+        414.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_042",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        321.46,
+        59.99,
+        333.46
+      ],
+      "answer_bbox": [
+        517.34,
+        314.75,
+        568.69,
+        414.06
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_043",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        422.22,
+        60.95,
+        434.21
+      ],
+      "answer_bbox": [
+        64.95,
+        421.22,
+        222.03,
+        439.93
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_044",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(3) et (4) :",
+      "anchor_bbox": [
+        25.91,
+        440.93,
+        60.47,
+        452.93
+      ],
+      "answer_bbox": [
+        64.47,
+        439.93,
+        222.03,
+        457.68
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_045",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(5):",
+      "anchor_bbox": [
+        24.95,
+        458.68,
+        42.71,
+        472.12
+      ],
+      "answer_bbox": [
+        46.71,
+        457.68,
+        222.03,
+        476.88
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_046",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(6):",
+      "anchor_bbox": [
+        24.95,
+        477.88,
+        43.19,
+        491.31
+      ],
+      "answer_bbox": [
+        47.19,
+        476.88,
+        222.03,
+        517.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_047",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        422.22,
+        60.95,
+        434.21
+      ],
+      "answer_bbox": [
+        227.95,
+        415.5,
+        323.93,
+        518.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          228.95,
+          421.22,
+          322.93,
+          438.93
+        ],
+        [
+          228.95,
+          439.93,
+          322.93,
+          456.68
+        ],
+        [
+          228.95,
+          457.68,
+          322.93,
+          475.88
+        ],
+        [
+          228.95,
+          476.88,
+          322.93,
+          517.66
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_048",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        422.22,
+        60.95,
+        434.21
+      ],
+      "answer_bbox": [
+        325.85,
+        415.5,
+        409.84,
+        518.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          326.85,
+          421.22,
+          408.84,
+          438.93
+        ],
+        [
+          326.85,
+          439.93,
+          408.84,
+          456.68
+        ],
+        [
+          326.85,
+          457.68,
+          408.84,
+          475.88
+        ],
+        [
+          326.85,
+          476.88,
+          408.84,
+          517.66
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_049",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        422.22,
+        60.95,
+        434.21
+      ],
+      "answer_bbox": [
+        411.76,
+        415.5,
+        462.63,
+        518.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_050",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        422.22,
+        60.95,
+        434.21
+      ],
+      "answer_bbox": [
+        464.55,
+        415.5,
+        515.9,
+        518.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_051",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        422.22,
+        60.95,
+        434.21
+      ],
+      "answer_bbox": [
+        517.34,
+        415.5,
+        568.69,
+        518.66
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_052",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        527.29,
+        60.47,
+        538.81
+      ],
+      "answer_bbox": [
+        64.47,
+        526.29,
+        222.03,
+        545.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_053",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(3) et (4) :",
+      "anchor_bbox": [
+        25.91,
+        546.01,
+        60.47,
+        557.52
+      ],
+      "answer_bbox": [
+        64.47,
+        545.01,
+        222.03,
+        562.76
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_054",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(5):",
+      "anchor_bbox": [
+        25.43,
+        563.76,
+        43.19,
+        577.19
+      ],
+      "answer_bbox": [
+        47.19,
+        562.76,
+        222.03,
+        581.95
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_055",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(6):",
+      "anchor_bbox": [
+        24.95,
+        582.95,
+        43.19,
+        595.91
+      ],
+      "answer_bbox": [
+        47.19,
+        581.95,
+        222.03,
+        622.73
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_in_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_056",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        527.29,
+        60.47,
+        538.81
+      ],
+      "answer_bbox": [
+        227.95,
+        520.58,
+        323.93,
+        623.73
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          228.95,
+          526.29,
+          322.93,
+          544.01
+        ],
+        [
+          228.95,
+          545.01,
+          322.93,
+          561.76
+        ],
+        [
+          228.95,
+          562.76,
+          322.93,
+          580.95
+        ],
+        [
+          228.95,
+          581.95,
+          322.93,
+          622.73
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_057",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        527.29,
+        60.47,
+        538.81
+      ],
+      "answer_bbox": [
+        325.85,
+        520.58,
+        409.84,
+        623.73
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [
+        [
+          326.85,
+          526.29,
+          408.84,
+          544.01
+        ],
+        [
+          326.85,
+          545.01,
+          408.84,
+          561.76
+        ],
+        [
+          326.85,
+          562.76,
+          408.84,
+          580.95
+        ],
+        [
+          326.85,
+          581.95,
+          408.84,
+          622.73
+        ]
+      ],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_058",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        527.29,
+        60.47,
+        538.81
+      ],
+      "answer_bbox": [
+        411.76,
+        520.58,
+        462.63,
+        623.73
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_059",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        527.29,
+        60.47,
+        538.81
+      ],
+      "answer_bbox": [
+        464.55,
+        520.58,
+        515.9,
+        623.73
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_060",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "(1) et (2) :",
+      "anchor_bbox": [
+        25.91,
+        527.29,
+        60.47,
+        538.81
+      ],
+      "answer_bbox": [
+        517.34,
+        520.58,
+        569.17,
+        623.73
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "table_cell",
+      "label_score": null,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_061",
+      "page": 3,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "CADRE RESERVE",
+      "anchor_bbox": [
+        37.43,
+        648.2,
+        102.7,
+        659.24
+      ],
+      "answer_bbox": [
+        113.74,
+        669.79,
+        552.37,
+        724.01
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_cell",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_062",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Fait à* :",
+      "anchor_bbox": [
+        29.75,
+        311.87,
+        67.67,
+        326.74
+      ],
+      "answer_bbox": [
+        71.67,
+        311.87,
+        184.6,
+        326.74
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_to_next_label",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_063",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "date",
+      "anchor_text": "le*:",
+      "anchor_bbox": [
+        188.6,
+        312.83,
+        210.68,
+        325.78
+      ],
+      "answer_bbox": [
+        214.68,
+        312.83,
+        356.41,
+        325.78
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "inline_to_next_label",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_064",
+      "page": 4,
+      "zone_type": "signature",
+      "answer_type": "signature",
+      "anchor_text": "Signature*:",
+      "anchor_bbox": [
+        360.41,
+        312.35,
+        415.6,
+        326.74
+      ],
+      "answer_bbox": [
+        419.6,
+        310.35,
+        555.0800170898438,
+        372.35
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "right_of_label",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_065",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Nom*:",
+      "anchor_bbox": [
+        29.27,
+        345.93,
+        66.23,
+        360.81
+      ],
+      "answer_bbox": [
+        71.51,
+        346.41,
+        186.68,
+        360.81
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_066",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Prénom*:",
+      "anchor_bbox": [
+        189.08,
+        346.41,
+        237.07,
+        359.85
+      ],
+      "answer_bbox": [
+        242.83,
+        346.41,
+        358.49,
+        360.81
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    },
+    {
+      "field_id": "form02_067",
+      "page": 4,
+      "zone_type": "text",
+      "answer_type": "text",
+      "anchor_text": "Fonction au sein de l'entité cliente* :",
+      "anchor_bbox": [
+        30.23,
+        365.6,
+        189.56,
+        378.08
+      ],
+      "answer_bbox": [
+        202.04,
+        365.6,
+        378.16,
+        380.0
+      ],
+      "option_boxes": {},
+      "slots": [],
+      "line_slots": [],
+      "slot_labels": [],
+      "method": "input_box",
+      "label_score": 1.0,
+      "printed_in_zone": [],
+      "printed_marks": [],
+      "issues": []
+    }
+  ]
+}
