@@ -1,0 +1,33 @@
+# Racine du dépôt : le code de base (PARTICIPANT_PACK/, README, notebooks/demo_pipeline.ipynb) est versionné.
+# Mon travail est dans SUBMISSIONS/rendu_iandry/ (qui a son propre .gitignore).
+
+# --- Secrets
+.env
+.env.*
+!.env.example
+
+# --- Anciens résultats générés à la racine (avant la restructuration) et caches
+/submission/
+/fields/
+/cache/
+notebooks/submission/
+notebooks/fields/
+notebooks/cache/
+
+# --- Copies de travail du notebook (notebooks/demo_pipeline.ipynb reste versionné)
+notebooks/*Copie*.ipynb
+.ipynb_checkpoints/
+
+# --- Environnements Python et fichiers générés
+venv*/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# --- Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
