@@ -1,0 +1,211 @@
+[
+  {
+    "page": 1,
+    "label": "Dénomination sociale",
+    "value": "Asterive Services SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/name",
+    "justification": "Dénomination sociale légale de l'entité déclarante.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Code SIREN / n° d'enregistrement",
+    "value": "SIM-RCS-A-001",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/registration",
+    "justification": "Numéro d'immatriculation au registre du commerce et des sociétés.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Société cotée",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/listed",
+    "justification": "L'entreprise n'est pas cotée sur un marché réglementé.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Marché de cotation :",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/listed",
+    "justification": "Information non applicable pour une société non cotée.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Nom de la maison mère",
+    "value": "Asterive Participations SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/parent/name",
+    "justification": "Nom de la maison mère détenant 100% de l'entité.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Pays d'immatriculation",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/parent/incorporation",
+    "justification": "Pays d'immatriculation de la société mère.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Pays de résidence fiscale",
+    "value": "",
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/parent/tax_residence_note",
+    "justification": "La résidence fiscale n'est pas documentée; l'adresse enregistrée ne l'établit pas.",
+    "missing": [
+      "pays de résidence fiscale de la maison mère"
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Adresse de la maison mère",
+    "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/corporate_facts.json#/parent/address",
+    "justification": "Adresse complète du siège social de la maison mère.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Corée du nord",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Aucune activité présente ou prévue n'est listée dans le registre exhaustif.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Crimée",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities_facts.json#/ukraine_regions_activity",
+    "justification": "Déclaration négative explicite concernant l'activité dans les régions d'Ukraine.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Cuba",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Irak",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Iran",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Myanmar",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Russie",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/compliance.md#(en-tête) « There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment. »",
+    "justification": "Déclaration explicite d'absence d'activité ou d'investissement en Russie.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Soudan",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Sud-Soudan",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Syrie",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Venezuela",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/activities.md#/negative_declaration",
+    "justification": "Pays non mentionné dans le registre exhaustif d'activités.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Représenté par :",
+    "value": "Élodie Varenne",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#/signer/name",
+    "justification": "Nom du représentant autorisé à signer.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "En qualité de :",
+    "value": "Présidente",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/mandate_facts.json#/signer_role",
+    "justification": "Fonction de la signataire habilitée.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Signé le",
+    "value": "01/09/2026",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#/date",
+    "justification": "Date de complétion du questionnaire au 1er septembre 2026.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Signature",
+    "value": null,
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-a-client/mandate.md#(en-tête) « No signature is supplied. »",
+    "justification": "La signature physique n'est pas fournie dans les sources.",
+    "missing": []
+  }
+]

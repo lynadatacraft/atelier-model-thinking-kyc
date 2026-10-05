@@ -1,0 +1,836 @@
+[
+  {
+    "page": 1,
+    "label": "Company name:",
+    "value": "Belorive Patrimoine SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name",
+    "justification": "The entity's legal name is confirmed in the corporate register.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Country of Incorporation:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/incorporation",
+    "justification": "The company is incorporated in France.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Grid:",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "This zone is reserved for bank use.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "La Banque des Entreprises booking location(s):",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "This zone is reserved for bank use.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "La Banque des Entreprises Relationship Manager:",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "This zone is reserved for bank use.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "1 Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
+    "value": "Oui",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/country; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/country",
+    "justification": "The group has current activities in Belarus and Russia, which are sanctioned jurisdictions in this context.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "2 Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions...",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#(en-tête) « There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment. »",
+    "justification": "The group is not engaged in any sanctioned sectors in Russia; the existing subsidiary is in wind-down.",
+    "missing": []
+  },
+  {
+    "page": 1,
+    "label": "Question 2: Further details (current/contemplated activities and names of entities)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Not applicable as no sanctioned sector activities are conducted.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "3 Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity...",
+    "value": "Oui",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0/reference",
+    "justification": "The group relies on a wind-down authorization for its Russian subsidiary.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Question 3: Further details (type of authorization, recipients, activities covered, authority, expiration date)",
+    "value": "License SIM-AUTH-B-01, wind-down for Belorive Clôture Russia LLC, administrative closure and recovery of existing receivables, Simulation Authorization Office, expires 2026-12-31.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/licenses/0",
+    "justification": "Details of the specific license for Russian operations are provided.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "4 Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity... with the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe...",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activities are conducted with the governments of the listed countries.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Question 4: Further details (name of government entity, activities, legal obligations, names of third parties, extent of involvement)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity with these governments exists.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "5 Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products... involving (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) the Government of any of any country as listed in Question 4?",
+    "value": "Non",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "Group policy explicitly excludes bank products from activities involving sanctioned jurisdictions.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Question 5: If \"Yes\" is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "No use of bank products for sanctioned jurisdictions is intended.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Question 5: If \"No\" is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity involving the Sanctioned Party...",
+    "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/isolation",
+    "justification": "Specific controls ensure the insulation of bank accounts from sanctioned activities.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "6 Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either: a. a Sanctioned Party, b. located... in... a Sanctioned Jurisdiction, c. employed in a Sanctioned Jurisdiction, or d. who represents a governmental agency... of a Sanctioned Jurisdiction or of any country as listed in Question 4?",
+    "value": "Oui",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/governance_nexus; sources/persons/0cd724dc-b507-56d2-ae8d-2f35ff747f6d/personal_facts.json#/residences/0",
+    "justification": "Julien Valsenne, a director of the Russian subsidiary, is located/resident in Russia.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Question 6: If \"Yes\" is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity...",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/governance_nexus",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : Details of the director's residency in a sanctioned jurisdiction are provided.",
+    "missing": [
+      "Question 6: If \"Yes\" is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity..."
+    ]
+  },
+  {
+    "page": 3,
+    "label": "7 Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?",
+    "value": "Oui",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
+    "justification": "The company maintains a formal sanctions compliance program.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Question 7: If \"Yes\" is selected please provide further details of the policy and/or program below...",
+    "value": "Group policy applies to all controlled entities. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions against Poland, EU, UN, UK and OFAC lists. Quarterly risk review, annual independent audit, and annual staff training are maintained.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
+    "justification": "Summary of the formal sanctions compliance policy.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Question 7: If \"No\" is selected - please provide further details on how you manage compliance with Sanctions...",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
+    "justification": "A formal policy exists, making this section unnecessary.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 1 a)",
+    "value": "200000",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/revenue",
+    "justification": "FY2025 historical revenue for Belarus.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 1 b)",
+    "value": "500000",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/assets",
+    "justification": "Asset balance for Belarus at 2025-12-31.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 1 c)",
+    "value": "60000",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/expenses",
+    "justification": "FY2025 historical expenses for Belarus.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 1 d)",
+    "value": "1",
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/group_totals/revenue; sources/companies/sim-hackathon-b-client/finance.md#/group_assets_note",
+    "justification": "Revenue is 1% of group total; asset percentage is missing as group total assets were not supplied.",
+    "missing": [
+      "Group total assets for percentage calculation"
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 2 a)",
+    "value": "10",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/revenue; sources/companies/sim-hackathon-b-client/finance.md#/activities/0/entity_totals/revenue",
+    "justification": "Belarus revenue is 10% of the local entity's total revenue.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 2 b)",
+    "value": "10",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/assets; sources/companies/sim-hackathon-b-client/finance.md#/activities/0/entity_totals/assets",
+    "justification": "Belarus assets are 10% of the local entity's total assets.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 2 c)",
+    "value": "6",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/0/expenses; sources/companies/sim-hackathon-b-client/finance.md#/activities/0/entity_totals/expenses",
+    "justification": "Belarus expenses are 6% of the local entity's total expenses.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 2 d)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#(en-tête) « A zero entity denominator makes its percentage N/A. »",
+    "justification": "This field is not provided or required by the source documentation.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 3 a)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/planned",
+    "justification": "No planned activity in Belarus.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 3 b)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/planned",
+    "justification": "No planned activity in Belarus.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 3 c)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/planned",
+    "justification": "No planned activity in Belarus.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 3 d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/planned",
+    "justification": "No planned activity in Belarus.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Belarus — Column 4",
+    "value": "Locataire Boréal SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/third_parties/0",
+    "justification": "The identified third party for Belarus activities.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 1 a)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 1 b)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 1 c)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 1 d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 2 a)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 2 b)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 2 c)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 2 d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 3 a)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 3 b)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 3 c)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 3 d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Negative declaration for activities in specified Ukraine regions.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Crimea — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties involved in Crimea.",
+    "missing": [
+      "Crimea — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Cuba — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No historical activity in Cuba.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Cuba — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Cuba.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Cuba — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No planned activity in Cuba.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Cuba — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Cuba.",
+    "missing": [
+      "Cuba — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Iran — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Iran.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Iran — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Iran.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Iran — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Iran.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Iran — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Iran.",
+    "missing": [
+      "Iran — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "North Korea — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in North Korea.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "North Korea — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in North Korea.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "North Korea — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in North Korea.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "North Korea — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in North Korea.",
+    "missing": [
+      "North Korea — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Russia — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/revenue",
+    "justification": "Revenue for Russia is zero; 100k assets and 24k expenses were also recorded.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Russia — Column 2 (a-d)",
+    "value": "20",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/finance.md#/activities/1/assets; sources/companies/sim-hackathon-b-client/finance.md#/activities/1/entity_totals/assets",
+    "justification": "Assets/Expenses are 20% of entity total; Revenue percentage is not applicable due to zero denominator.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Russia — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/planned",
+    "justification": "No planned activity in Russia.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Russia — Column 4",
+    "value": "Archivage Nord SIM LLC",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1/third_parties/0",
+    "justification": "Third party identified for Russian operations.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Sudan — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Sudan.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Sudan — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Sudan.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Sudan — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Sudan.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Sudan — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Sudan.",
+    "missing": [
+      "Sudan — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Syria — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Syria.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Syria — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Syria.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Syria — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "No activity in Syria.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Syria — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Syria.",
+    "missing": [
+      "Syria — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Zaporizhzhia — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Zaporizhzhia.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Zaporizhzhia — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Zaporizhzhia.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Zaporizhzhia — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Zaporizhzhia.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Zaporizhzhia — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Zaporizhzhia.",
+    "missing": [
+      "Zaporizhzhia — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Kherson — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Kherson.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Kherson — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Kherson.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Kherson — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Kherson.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Kherson — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Kherson.",
+    "missing": [
+      "Kherson — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Donetsk — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Donetsk.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Donetsk — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Donetsk.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Donetsk — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Donetsk.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Donetsk — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Donetsk.",
+    "missing": [
+      "Donetsk — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Luhansk — Column 1 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Luhansk.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Luhansk — Column 2 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Luhansk.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Luhansk — Column 3 (a-d)",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "No activity in Luhansk.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Luhansk — Column 4",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/activities.md#/ukraine_regions_activity",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : No third parties in Luhansk.",
+    "missing": [
+      "Luhansk — Column 4"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Name of submitter",
+    "value": "Camille Orvaux",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/name",
+    "justification": "Camille Orvaux is the authorized submitter/signer.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Name of company (including corp. suffix)",
+    "value": "Belorive Patrimoine SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name",
+    "justification": "Full legal name of the entity.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Position within company",
+    "value": "Présidente",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+    "justification": "Role of the submitter within the company.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "Date",
+    "value": "01-09-2026",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date",
+    "justification": "Exercise completion date.",
+    "missing": []
+  }
+]

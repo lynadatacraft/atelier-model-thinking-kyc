@@ -1,0 +1,1535 @@
+[
+  {
+    "page": 2,
+    "label": "Legal Name",
+    "value": "Cendrelis Instruments SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/name",
+    "justification": "The legal name is provided in the corporate register.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Tax Identification Number",
+    "value": "SIM-TIN-C-FR",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/tin",
+    "justification": "The tax identification number for the entity is listed in the corporate data.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "LEI",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/lei",
+    "justification": "The LEI is listed as null in the corporate records.",
+    "missing": [
+      "LEI"
+    ]
+  },
+  {
+    "page": 2,
+    "label": "NACE Code of the company:",
+    "value": "26.51",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/nace",
+    "justification": "The NACE code is explicitly provided in the corporate register.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Entity's Type:",
+    "value": "None of the indicated below",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+    "justification": "The corporate register specifies the entity category as 'None', which matches the provided choice.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Name of authority",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/tax.md#/tax_category",
+    "justification": "The entity is not a financial institution, so this field is not applicable based on form instructions.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Company is not supervised by a regulatory authority",
+    "value": "Company is not supervised by a regulatory authority",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/tax.md#/unsupervised",
+    "justification": "The tax status memorandum explicitly states the entity is unsupervised.",
+    "missing": []
+  },
+  {
+    "page": 2,
+    "label": "Please indicate the source of funds:",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/funds",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : The source of funds includes both operating activity and investors as listed in the register.",
+    "missing": [
+      "Please indicate the source of funds:"
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Others* (specification)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/other_funds",
+    "justification": "There are no other sources of funds reported.",
+    "missing": []
+  },
+  {
+    "page": 3,
+    "label": "Can the corporation issue bearer shares?",
+    "value": "No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/bearer",
+    "justification": "The entity cannot issue bearer shares according to the corporate register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Name and Surname:",
+    "value": "Nora Avelune",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/name",
+    "justification": "The first controlling person is identified in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Ownership % (2):",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/direct_pct",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : Nora Avelune owns 60% of the shares.",
+    "missing": [
+      "1 - Ownership % (2):"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "1 - Type of control (1):",
+    "value": "A",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/direct_pct",
+    "justification": "Ownership of 60% exceeds the 25% threshold for Type A control.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Nationality:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/nationalities/0",
+    "justification": "The nationality is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Date of birth:",
+    "value": "1980-04-12",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/birth_date",
+    "justification": "The birth date is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Passport or national ID card number:",
+    "value": "SIM-ID-C1",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/id_number",
+    "justification": "The ID number is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Country of residence:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/residences/0",
+    "justification": "The country of residence is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Address of residence:",
+    "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/address",
+    "justification": "The residential address is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "1 - Date on which the person became 'Controlling Person':",
+    "value": "2020-01-15",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/control_since",
+    "justification": "The control start date is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Name and Surname:",
+    "value": "Hugo Valcendre",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/name",
+    "justification": "The second controlling person is identified in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Ownership % (2):",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/direct_pct",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : Hugo Valcendre owns 40% of the shares.",
+    "missing": [
+      "2 - Ownership % (2):"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "2 - Type of control (1):",
+    "value": "A",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/direct_pct",
+    "justification": "Ownership of 40% exceeds the 25% threshold for Type A control.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Nationality:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/nationalities/0",
+    "justification": "The nationality is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Date of birth:",
+    "value": "1985-08-23",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/birth_date",
+    "justification": "The birth date is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Passport or national ID card number:",
+    "value": "SIM-ID-C2",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/id_number",
+    "justification": "The ID number is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Country of residence:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/residences/0",
+    "justification": "The country of residence is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Address of residence:",
+    "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/address",
+    "justification": "The residential address is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "2 - Date on which the person became 'Controlling Person':",
+    "value": "2020-01-15",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/control_since",
+    "justification": "The control start date is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Name and Surname:",
+    "value": "Inès Rocheval",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/name",
+    "justification": "The third controlling person is identified in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Ownership % (2):",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/direct_pct",
+    "justification": "Réponse non prouvée par les sources (rétrogradée) : Inès Rocheval has 0% direct ownership.",
+    "missing": [
+      "3 - Ownership % (2):"
+    ]
+  },
+  {
+    "page": 4,
+    "label": "3 - Type of control (1):",
+    "value": "B",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/control_basis",
+    "justification": "Control is exercised via contractual rights to appoint the board, fitting Type B.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Nationality:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/nationalities/0",
+    "justification": "The nationality is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Date of birth:",
+    "value": "1985-08-23",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/birth_date",
+    "justification": "The birth date is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Passport or national ID card number:",
+    "value": "SIM-ID-C3",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/id_number",
+    "justification": "The ID number is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Country of residence:",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/residences/0",
+    "justification": "The country of residence is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Address of residence:",
+    "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/address",
+    "justification": "The residential address is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 4,
+    "label": "3 - Date on which the person became 'Controlling Person':",
+    "value": "2020-01-15",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/control_since",
+    "justification": "The control start date is provided in the ownership register.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Name and Surname:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person according to the register.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Ownership % (2):",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Type of control (1):",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Nationality:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Date of birth:",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Passport or national ID card number:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Country of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Address of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "4 - Date on which the person became 'Controlling Person':",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fourth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Name and Surname:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Ownership % (2):",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Type of control (1):",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Nationality:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Date of birth:",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Passport or national ID card number:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Country of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Address of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "5 - Date on which the person became 'Controlling Person':",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no fifth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Name and Surname:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Ownership % (2):",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Type of control (1):",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Nationality:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Date of birth:",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Passport or national ID card number:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Country of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Address of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "6 - Date on which the person became 'Controlling Person':",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no sixth controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Name and Surname:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Ownership % (2):",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Type of control (1):",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Nationality:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Date of birth:",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Passport or national ID card number:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Country of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Address of residence:",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 5,
+    "label": "7 - Date on which the person became 'Controlling Person':",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête) « The listed controlling persons are complete. »",
+    "justification": "There is no seventh controlling person.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Name & Surname (1)",
+    "value": "Nora Avelune",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name",
+    "justification": "The first representative is Nora Avelune.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « An overlap with the ownership register refers to the same person. »",
+    "justification": "Details for this representative were already provided in Step 3 as a controlling person.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « An overlap with the ownership register refers to the same person. »",
+    "justification": "Details for this representative were already provided in Step 3 as a controlling person.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « An overlap with the ownership register refers to the same person. »",
+    "justification": "Details for this representative were already provided in Step 3 as a controlling person.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « An overlap with the ownership register refers to the same person. »",
+    "justification": "Details for this representative were already provided in Step 3 as a controlling person.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Name & Surname (1)",
+    "value": "Alex Fernel",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name",
+    "justification": "The second representative is Alex Fernel.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Date of birth (2)",
+    "value": "1985-08-23",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/birth_date",
+    "justification": "The birth date is provided in the mandate register.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Nationality (2)",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/nationalities/0",
+    "justification": "The nationality is provided in the mandate register.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Country (ies) of Residence (2)",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences/0",
+    "justification": "The country of residence is provided in the mandate register.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Passport or national ID card number (2)",
+    "value": null,
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/missing_id_reason",
+    "justification": "The ID number is not supplied as the document renewal is pending.",
+    "missing": [
+      "Passport or national ID card number"
+    ]
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no third representative listed in the register.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no third representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no third representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no third representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no third representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fourth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fourth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fourth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fourth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fourth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fifth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fifth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fifth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fifth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no fifth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 6 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no sixth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 6 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no sixth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 6 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no sixth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 6 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no sixth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 6 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no sixth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 7 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no seventh representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 7 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no seventh representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 7 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no seventh representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 7 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no seventh representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 7 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no seventh representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 8 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no eighth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 8 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no eighth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 8 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no eighth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 8 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no eighth representative.",
+    "missing": []
+  },
+  {
+    "page": 6,
+    "label": "Representative 8 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no eighth representative.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 9 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 9 listed in the register.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 9 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 9.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 9 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 9.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 9 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 9.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 9 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 9.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 10 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 10.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 10 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 10.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 10 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 10.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 10 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 10.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 10 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 10.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 11 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 11.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 11 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 11.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 11 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 11.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 11 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 11.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 11 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 11.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 12 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 12.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 12 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 12.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 12 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 12.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 12 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 12.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 12 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 12.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 13 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 13.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 13 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 13.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 13 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 13.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 13 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 13.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 13 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 13.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 14 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 14.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 14 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 14.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 14 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 14.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 14 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 14.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 14 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 14.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 15 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 15.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 15 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 15.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 15 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 15.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 15 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 15.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 15 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 15.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 16 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 16.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 16 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 16.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 16 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 16.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 16 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 16.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 16 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 16.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 17 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 17.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 17 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 17.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 17 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 17.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 17 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 17.",
+    "missing": []
+  },
+  {
+    "page": 7,
+    "label": "Representative 17 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 17.",
+    "missing": []
+  },
+  {
+    "page": 8,
+    "label": "Representative 18 - Name & Surname (1)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 18.",
+    "missing": []
+  },
+  {
+    "page": 8,
+    "label": "Representative 18 - Date of birth (2)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 18.",
+    "missing": []
+  },
+  {
+    "page": 8,
+    "label": "Representative 18 - Nationality (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 18.",
+    "missing": []
+  },
+  {
+    "page": 8,
+    "label": "Representative 18 - Country (ies) of Residence (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 18.",
+    "missing": []
+  },
+  {
+    "page": 8,
+    "label": "Representative 18 - Passport or national ID card number (2)",
+    "value": "",
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « Only the listed representatives hold the relevant authority. »",
+    "justification": "There is no representative 18.",
+    "missing": []
+  },
+  {
+    "page": 9,
+    "label": "This declaration is signed in",
+    "value": "Lyon",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/place",
+    "justification": "The place of signing is provided in the mandate register.",
+    "missing": []
+  },
+  {
+    "page": 9,
+    "label": "Date - Month",
+    "value": "9",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+    "justification": "The month from the exercise completion date.",
+    "missing": []
+  },
+  {
+    "page": 9,
+    "label": "Date - Day",
+    "value": "1",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+    "justification": "The day from the exercise completion date.",
+    "missing": []
+  },
+  {
+    "page": 9,
+    "label": "Date - Year",
+    "value": "2026",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+    "justification": "The year from the exercise completion date.",
+    "missing": []
+  },
+  {
+    "page": 9,
+    "label": "Name & Surname",
+    "value": "Nora Avelune",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/name",
+    "justification": "Nora Avelune is the designated signatory.",
+    "missing": []
+  },
+  {
+    "page": 9,
+    "label": "Signature",
+    "value": "",
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête) « No signature is supplied. »",
+    "justification": "Signature is required but not provided in the source documents.",
+    "missing": []
+  }
+]

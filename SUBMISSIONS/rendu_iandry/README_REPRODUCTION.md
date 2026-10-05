@@ -66,7 +66,7 @@ Dépendances (versions figées dans `requirements.txt`) : `google-genai 2.28.0`,
 | `PDF_FONT_FILE` | police TrueType pour les caractères hors Latin-1 (polonais) | police système détectée |
 
 ## 5. Lancer
-Depuis la racine du dépôt, venv activé :
+Depuis `SUBMISSIONS/rendu_iandry/`, venv activé :
 ```bash
 python run_kyc.py form_01 --fields-only     # 1. liste des champs lue dans le PDF (relire fields/form_01.fields.json)
 python run_kyc.py form_01                   # 2. réponses + positions + PDF complété
@@ -83,14 +83,17 @@ Autres options : `--pdf-only` (refaire seulement le PDF), `--locate` (recalculer
    à la page), puis `python run_kyc.py <exercice> --pdf-only`.
 
 ## 6. Résultats
+Les résultats sont écrits dans **`SUBMISSIONS/rendu_iandry/submission/`** (un dossier par exercice). Sont **versionnés** (poussés)
+les livrables `<exercice>.answers.json` et `<exercice>.completed.pdf`, ainsi que `run_report.json` ; l'audit, la revue et les
+positions restent locaux (voir `.gitignore`).
 ```
-submission/
+SUBMISSIONS/rendu_iandry/submission/
 ├── form_01/                       # un dossier par exercice
 │   ├── form_01.answers.json       # LIVRABLE : réponses (page, libellé, valeur, état, source, justification, manquants)
 │   ├── form_01.completed.pdf      # LIVRABLE : PDF complété
-│   ├── form_01.audit.json         # niveau de vérification et contrôles de chaque champ, valeur proposée avant contrôle
-│   ├── form_01.review.md          # réponses que le code n'a pas pu confirmer littéralement : à relire, avec la source
-│   └── form_01.positions.pdf      # contrôle des positions
+│   ├── form_01.audit.json         # (local) niveau de vérification et contrôles de chaque champ, valeur proposée avant contrôle
+│   ├── form_01.review.md          # (local) réponses que le code n'a pas pu confirmer littéralement : à relire, avec la source
+│   └── form_01.positions.pdf      # (local) contrôle des positions
 ├── …                              # form_02 à form_05
 └── run_report.json                # tokens, durée et coût par exercice et au total
 ```

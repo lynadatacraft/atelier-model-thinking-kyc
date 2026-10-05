@@ -1,0 +1,186 @@
+{
+  "exercises": {
+    "form_01": {
+      "calls": 0,
+      "cache_local_hits": 1,
+      "input_tokens": 0,
+      "cached_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "seconds": 0,
+      "cost_usd": null,
+      "wall_seconds": 0.1,
+      "fields": 23,
+      "states": {
+        "answer": 20,
+        "not_applicable": 1,
+        "missing_information": 1,
+        "human_action": 1
+      },
+      "levels": {
+        "littérale": 10,
+        "déduite": 11,
+        "absence": 1,
+        "—": 1
+      },
+      "pdf": {
+        "written": 8,
+        "checked": 12,
+        "no_box": [],
+        "overflow": [],
+        "no_option_match": [],
+        "skipped_state": 3
+      }
+    },
+    "form_02": {
+      "calls": 5,
+      "cache_local_hits": 0,
+      "input_tokens": 19166,
+      "cached_input_tokens": 0,
+      "output_tokens": 7385,
+      "thinking_tokens": 26038,
+      "seconds": 178.9,
+      "cost_usd": null,
+      "wall_seconds": 183.2,
+      "fields": 68,
+      "states": {
+        "answer": 36,
+        "not_applicable": 20,
+        "missing_information": 10,
+        "bank_reserved": 1,
+        "human_action": 1
+      },
+      "levels": {
+        "littérale": 28,
+        "déduite": 28,
+        "rétrogradée": 9,
+        "partielle": 1,
+        "—": 2
+      },
+      "pdf": {
+        "written": 35,
+        "checked": 2,
+        "no_box": [],
+        "overflow": [],
+        "no_option_match": [],
+        "skipped_state": 31
+      }
+    },
+    "form_03": {
+      "calls": 9,
+      "cache_local_hits": 0,
+      "input_tokens": 29969,
+      "cached_input_tokens": 0,
+      "output_tokens": 17756,
+      "thinking_tokens": 34455,
+      "seconds": 262.0,
+      "cost_usd": null,
+      "wall_seconds": 266.4,
+      "fields": 169,
+      "states": {
+        "answer": 40,
+        "missing_information": 6,
+        "not_applicable": 122,
+        "human_action": 1
+      },
+      "levels": {
+        "littérale": 35,
+        "absence": 2,
+        "déduite": 127,
+        "rétrogradée": 4,
+        "—": 1
+      },
+      "pdf": {
+        "written": 37,
+        "checked": 3,
+        "no_box": [],
+        "overflow": [],
+        "no_option_match": [],
+        "skipped_state": 129
+      }
+    },
+    "form_04": {
+      "calls": 5,
+      "cache_local_hits": 0,
+      "input_tokens": 19853,
+      "cached_input_tokens": 0,
+      "output_tokens": 9412,
+      "thinking_tokens": 39499,
+      "seconds": 248.1,
+      "cost_usd": null,
+      "wall_seconds": 251.7,
+      "fields": 90,
+      "states": {
+        "answer": 70,
+        "bank_reserved": 3,
+        "not_applicable": 5,
+        "missing_information": 12
+      },
+      "levels": {
+        "littérale": 14,
+        "—": 3,
+        "déduite": 61,
+        "rétrogradée": 11,
+        "partielle": 1
+      },
+      "pdf": {
+        "written": 64,
+        "checked": 7,
+        "no_box": [],
+        "overflow": [
+          24,
+          32,
+          37,
+          41,
+          45
+        ],
+        "no_option_match": [],
+        "skipped_state": 19
+      }
+    },
+    "form_05": {
+      "calls": 10,
+      "cache_local_hits": 0,
+      "input_tokens": 39546,
+      "cached_input_tokens": 0,
+      "output_tokens": 20223,
+      "thinking_tokens": 39003,
+      "seconds": 359.9,
+      "cost_usd": null,
+      "wall_seconds": 365.3,
+      "fields": 178,
+      "states": {
+        "answer": 73,
+        "missing_information": 7,
+        "not_applicable": 98
+      },
+      "levels": {
+        "littérale": 4,
+        "déduite": 167,
+        "rétrogradée": 6,
+        "partielle": 1
+      },
+      "pdf": {
+        "written": 54,
+        "checked": 20,
+        "no_box": [],
+        "overflow": [
+          22
+        ],
+        "no_option_match": [],
+        "skipped_state": 104
+      }
+    }
+  },
+  "model": "gemini-3-flash-preview",
+  "thinking_level": "high",
+  "totals": {
+    "calls": 29,
+    "input_tokens": 108534,
+    "cached_input_tokens": 0,
+    "output_tokens": 54776,
+    "thinking_tokens": 138995,
+    "seconds": 1048.9,
+    "cost_usd": null
+  }
+}

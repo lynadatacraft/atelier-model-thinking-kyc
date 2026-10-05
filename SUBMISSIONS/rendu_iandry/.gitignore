@@ -1,27 +1,27 @@
-# SUBMISSIONS/rendu_iandry/ : seul le code est versionné (script, paquet kyc/, tests, requirements, READMEs, .env.example).
+# SUBMISSIONS/rendu_iandry/ : code et livrables (JSON de réponses + PDF complétés) versionnés.
 # Les chemins ci-dessous sont relatifs à ce dossier.
-# Les résultats (intermédiaires et finaux), les caches et les secrets ne le sont jamais.
+# Les fichiers intermédiaires (audit, revue, positions, champs), les caches et les secrets ne le sont jamais.
 
 # --- Secrets et configuration locale (le modèle .env.example reste versionné)
 .env
 .env.*
 !.env.example
 
-# --- Résultats finaux et intermédiaires produits par run_kyc.py
-# submission/ : JSON de réponses, PDF complétés, audit, revue, rapport d'exécution
-/submission/
+# --- Résultats produits par run_kyc.py (les livrables sont versionnés : voir les exceptions ci-dessous)
+# submission/<exercice>/ : seuls les livrables (JSON de réponses et PDF complété) sont versionnés ;
+# audit, revue et positions restent locaux ; run_report.json (tokens, durée, coût) est versionné.
+/submission/*/*
+!/submission/*/*.answers.json
+!/submission/*/*.completed.pdf
 # fields/ : liste des champs et positions lues dans les PDF
 /fields/
 # cache/ : cache local des réponses de Gemini
 /cache/
 ocr/
-*.answers.json
 *.audit.json
 *.fields.json
 *.review.md
-*.completed.pdf
 *.positions.pdf
-run_report.json
 
 # --- Environnements Python
 venv*/
