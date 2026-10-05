@@ -1,0 +1,2507 @@
+{
+  "exercise": "form_03",
+  "company": "Cendrelis Instruments SAS",
+  "source_base": "entreprises/cendrelis_instruments",
+  "as_of": "2026-09-01",
+  "template_sha256": "2331c7bcd26a386ba14864fcb5da94c61f9ded9ba76946f068c4b9e30579d7a6",
+  "template_file": "templates/form_03.json",
+  "method": "Hash-locked calibrated template; no runtime OCR. Explicit scenario rules; linked overflow.",
+  "answers": [
+    {
+      "reference": "R001",
+      "page": 2,
+      "label": "Legal Name",
+      "value": "Cendrelis Instruments SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Cendrelis Instruments SAS"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Legal Name",
+        "rect": [
+          55.695247650146484,
+          171.07955932617188,
+          113.74156188964844,
+          181.52694702148438
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          120.80000048710039,
+          165.85650182524512,
+          540.8800022259012,
+          180.41414174655796
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R002",
+      "page": 2,
+      "label": "Tax Identification Number",
+      "value": "SIM-TIN-C-FR",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tin",
+          "value": "SIM-TIN-C-FR"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Tax Identification Number",
+        "rect": [
+          54.732017517089844,
+          195.98934936523438,
+          180.21592712402344,
+          204.09942626953125
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          213.68000086792435,
+          190.09304721731172,
+          541.8400022298374,
+          206.81037930227407
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R003",
+      "page": 2,
+      "label": "LEI",
+      "value": null,
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/lei",
+          "value": null
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [
+        "LEI"
+      ],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "LEI",
+        "rect": [
+          55.19430823824913,
+          220.34208400912277,
+          70.45998031918043,
+          228.4230097927409
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          92.24000036999949,
+          213.3697294255341,
+          540.8800022259012,
+          229.84709571453539
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R004",
+      "page": 2,
+      "label": "NACE Code of the company",
+      "value": "26.51",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/nace",
+          "value": "26.51"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "NACE Code of the company:",
+        "rect": [
+          55.19999313354492,
+          277.4004821777344,
+          194.78399658203125,
+          288.209716796875
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          210.32000085414776,
+          274.8009731915643,
+          273.0400011277112,
+          289.83854470479923
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R005",
+      "page": 2,
+      "label": "Entity type",
+      "value": "None",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/entity_category",
+          "value": "None"
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "None of the indicated below",
+        "rect": [
+          84.23999786376953,
+          343.6309814453125,
+          229.15203857421875,
+          351.7979736328125
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          76.44000031341713,
+          348.070387041511
+        ]
+      }
+    },
+    {
+      "reference": "R006",
+      "page": 2,
+      "label": "Company not supervised",
+      "value": "Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/unsupervised",
+          "value": true
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Company is not supervised by a regulatory authority",
+        "rect": [
+          72.72000885009766,
+          676.7034912109375,
+          348.6311340332031,
+          688.4736328125
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          356.6400014622852,
+          682.1027750193002
+        ]
+      }
+    },
+    {
+      "reference": "R007",
+      "page": 2,
+      "label": "Financial supervisory authority",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/unsupervised",
+          "value": true
+        }
+      ],
+      "justification": "Entity is explicitly not supervised.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Name of authority",
+        "rect": [
+          73.45413208007812,
+          640.702880859375,
+          166.5424346923828,
+          652.1207275390625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          182.720000740983,
+          634.9896329291087,
+          525.7600021639066,
+          653.3867255857983
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R008",
+      "page": 2,
+      "label": "Source of funds: Own activity",
+      "value": "Own activity",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/funds",
+          "value": [
+            "Own activity",
+            "Investors"
+          ]
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Own activity",
+        "rect": [
+          52.31999206542969,
+          740.534423828125,
+          111.26396942138672,
+          751.3436889648438
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          118.08000048414827,
+          745.2137793570578
+        ]
+      }
+    },
+    {
+      "reference": "R009",
+      "page": 2,
+      "label": "Source of funds: Investors",
+      "value": "Investors",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/funds",
+          "value": [
+            "Own activity",
+            "Investors"
+          ]
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Investors",
+        "rect": [
+          162.239990234375,
+          740.5344235704608,
+          205.49398803710938,
+          751.343674211126
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          212.88000087284456,
+          745.2137793570578
+        ]
+      }
+    },
+    {
+      "reference": "R010",
+      "page": 3,
+      "label": "Other source of funds",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/source_of_funds_description",
+          "value": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source."
+        }
+      ],
+      "justification": "Only own activity and investors are selected.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "*Please explain:",
+        "rect": [
+          50.63999938964844,
+          85.42782592773438,
+          128.17901611328125,
+          95.75662231445312
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          133.17901611328125,
+          85.42782592773438,
+          550.4400024414062,
+          103.75662231445312
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R011",
+      "page": 3,
+      "label": "Can the corporation issue bearer shares",
+      "value": "No",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/bearer",
+          "value": false
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "No",
+        "rect": [
+          358.55999755859375,
+          113.26382757170732,
+          371.2271728515625,
+          127.19574875497837
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          347.6400014253837,
+          121.0627440623525
+        ]
+      }
+    },
+    {
+      "reference": "R012",
+      "page": 4,
+      "label": "Controlling person 1: Name and Surname",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/name",
+          "value": "Nora Avelune"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Name and Surname:",
+        "rect": [
+          88.38683319091797,
+          169.9583740234375,
+          187.96810913085938,
+          181.65003967285156
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          190.96810948009784,
+          169.72000069178097,
+          759.171504788468,
+          181.4000007478713
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R013",
+      "page": 4,
+      "label": "Controlling person 1: Type of control",
+      "value": "A",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/direct_pct",
+          "value": 60
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/indirect_pct",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/votes_pct",
+          "value": 60
+        }
+      ],
+      "justification": "A: >25% equity/votes; B: contractual board-majority appointment/removal rights.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Type of control",
+        "rect": [
+          87.90625762939453,
+          184.3583221435547,
+          159.55445861816406,
+          195.8097686767578
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          181.90563338881844,
+          184.12000075082344,
+          419.37993770761346,
+          195.56000080592975
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R014",
+      "page": 4,
+      "label": "Controlling person 1: Ownership",
+      "value": 60,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/direct_pct",
+          "value": 60
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/indirect_pct",
+          "value": 0
+        }
+      ],
+      "justification": "Ownership percentage is requested only for type A.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Ownership",
+        "rect": [
+          427.69772402889987,
+          185.07332865397134,
+          479.4623185021573,
+          195.57048426253928
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          514.2809322178907,
+          184.12000075082344,
+          759.171504788468,
+          195.56000080592975
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R015",
+      "page": 4,
+      "label": "Controlling person 1: Date of birth",
+      "value": "1980-04-12",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/birth_date",
+          "value": "1980-04-12"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date of birth:",
+        "rect": [
+          88.3859634399414,
+          198.75830078125,
+          149.75897216796875,
+          209.96949768066406
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          152.75897123421996,
+          198.5200008098659,
+          419.37993770761346,
+          209.72000086398816
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R016",
+      "page": 4,
+      "label": "Controlling person 1: Nationality",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/nationalities",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Nationality:",
+        "rect": [
+          428.17742560529246,
+          199.70999955799851,
+          480.77670919905825,
+          209.96858241504256
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          483.77670919905825,
+          198.28000080888188,
+          759.171504788468,
+          209.72000086398816
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R017",
+      "page": 4,
+      "label": "Controlling person 1: Country of residence",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/residences",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Country of residence:",
+        "rect": [
+          88.14611053466797,
+          212.91819763183594,
+          191.1859893798828,
+          223.40866088867188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          194.18598468764037,
+          212.68000086792435,
+          419.37993770761346,
+          223.16000091909447
+        ],
+        "display": null
+      },
+      "overflow_reference": "R017"
+    },
+    {
+      "reference": "R018",
+      "page": 4,
+      "label": "Controlling person 1: Passport or national ID card number",
+      "value": "SIM-ID-C1",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/id_number",
+          "value": "SIM-ID-C1"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Passport or national ID card number:",
+        "rect": [
+          428.17742919921875,
+          213.6327362060547,
+          605.8397216796875,
+          223.40794372558594
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          608.8397331852027,
+          212.68000086792435,
+          759.171504788468,
+          223.16000091909447
+        ],
+        "display": null
+      },
+      "overflow_reference": "R018"
+    },
+    {
+      "reference": "R019",
+      "page": 4,
+      "label": "Controlling person 1: Address of residence",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/address",
+          "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Address of residence:",
+        "rect": [
+          87.66710662841797,
+          226.11837768554688,
+          193.178955078125,
+          237.81004333496094
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          196.17895554414528,
+          225.8800009220466,
+          759.171504788468,
+          237.56000097813694
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R020",
+      "page": 4,
+      "label": "Controlling person 1: Date on which the person became",
+      "value": "2020-01-15",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/control_since",
+          "value": "2020-01-15"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date on which the person became",
+        "rect": [
+          88.38683319091797,
+          240.51832580566406,
+          238.80953979492188,
+          251.9697723388672
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          336.0169077107483,
+          240.28000098108907,
+          759.171504788468,
+          251.72000103619538
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R021",
+      "page": 4,
+      "label": "Controlling person 2: Name and Surname",
+      "value": "Hugo Valcendre",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/name",
+          "value": "Hugo Valcendre"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Name and Surname:",
+        "rect": [
+          88.38683319091797,
+          254.91830444335938,
+          188.13125610351562,
+          266.1295166015625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          191.13126301237293,
+          254.68000104013154,
+          759.171504788468,
+          265.8800010942538
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R022",
+      "page": 4,
+      "label": "Controlling person 2: Type of control",
+      "value": "A",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/direct_pct",
+          "value": 40
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/indirect_pct",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/votes_pct",
+          "value": 40
+        }
+      ],
+      "justification": "A: >25% equity/votes; B: contractual board-majority appointment/removal rights.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Type of control",
+        "rect": [
+          87.90625762939453,
+          269.0783386230469,
+          159.55445861816406,
+          280.52978515625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          181.90563338881844,
+          268.84000109819,
+          419.37993770761346,
+          280.28000115329627
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R023",
+      "page": 4,
+      "label": "Controlling person 2: Ownership",
+      "value": 40,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/direct_pct",
+          "value": 40
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/indirect_pct",
+          "value": 0
+        }
+      ],
+      "justification": "Ownership percentage is requested only for type A.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Ownership",
+        "rect": [
+          427.69772402889987,
+          269.5549967272415,
+          479.4623185021573,
+          280.0521523358094
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          514.2809322178907,
+          268.84000109819,
+          759.171504788468,
+          280.28000115329627
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R024",
+      "page": 4,
+      "label": "Controlling person 2: Date of birth",
+      "value": "1985-08-23",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/birth_date",
+          "value": "1985-08-23"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date of birth:",
+        "rect": [
+          88.3859634399414,
+          283.2383728027344,
+          149.6798095703125,
+          294.9300537109375
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          152.67980450285592,
+          283.0000011562484,
+          419.37993770761346,
+          294.68000121233877
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R025",
+      "page": 4,
+      "label": "Controlling person 2: Nationality",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/nationalities",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Nationality:",
+        "rect": [
+          428.17742560529246,
+          284.191835774691,
+          480.7335308009392,
+          294.69048086772824
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          483.7335308009392,
+          283.0000011562484,
+          759.171504788468,
+          294.68000121233877
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R026",
+      "page": 4,
+      "label": "Controlling person 2: Country of residence",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/residences",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Country of residence:",
+        "rect": [
+          88.14611053466797,
+          297.63812255859375,
+          191.10203552246094,
+          307.8883972167969
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          194.1020373013052,
+          297.4000012152909,
+          419.37993770761346,
+          307.640001265477
+        ],
+        "display": null
+      },
+      "overflow_reference": "R026"
+    },
+    {
+      "reference": "R027",
+      "page": 4,
+      "label": "Controlling person 2: Passport or national ID card number",
+      "value": "SIM-ID-C2",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/id_number",
+          "value": "SIM-ID-C2"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Passport or national ID card number:",
+        "rect": [
+          427.93756103515625,
+          298.1144104003906,
+          605.8397216796875,
+          307.8879089355469
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          608.8397331852027,
+          297.4000012152909,
+          759.171504788468,
+          307.640001265477
+        ],
+        "display": null
+      },
+      "overflow_reference": "R027"
+    },
+    {
+      "reference": "R028",
+      "page": 4,
+      "label": "Controlling person 2: Address of residence",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/address",
+          "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Address of residence:",
+        "rect": [
+          87.90701293945312,
+          310.598388671875,
+          193.178955078125,
+          322.2900695800781
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          196.17895554414528,
+          310.36000126842913,
+          759.171504788468,
+          322.04000132451944
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R029",
+      "page": 4,
+      "label": "Controlling person 2: Date on which the person became",
+      "value": "2020-01-15",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/control_since",
+          "value": "2020-01-15"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date on which the person became",
+        "rect": [
+          88.38683319091797,
+          324.9983825683594,
+          238.82398986816406,
+          336.6900634765625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          335.83460405836183,
+          324.76000132747157,
+          759.171504788468,
+          336.44000138356193
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R030",
+      "page": 4,
+      "label": "Controlling person 3: Name and Surname",
+      "value": "Inès Rocheval",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/name",
+          "value": "Inès Rocheval"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Name and Surname:",
+        "rect": [
+          88.38683319091797,
+          339.39837646484375,
+          187.96810913085938,
+          351.0900573730469
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          190.96810948009784,
+          339.16000138651407,
+          759.171504788468,
+          350.8400014426044
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R031",
+      "page": 4,
+      "label": "Controlling person 3: Type of control",
+      "value": "B",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/direct_pct",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/indirect_pct",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/votes_pct",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/control_basis",
+          "value": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes."
+        }
+      ],
+      "justification": "A: >25% equity/votes; B: contractual board-majority appointment/removal rights.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Type of control",
+        "rect": [
+          87.90625762939453,
+          353.7983703613281,
+          159.8063201904297,
+          365.49005126953125
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          181.98236785712697,
+          353.5600014455565,
+          419.37993770761346,
+          365.2400015016469
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R032",
+      "page": 4,
+      "label": "Controlling person 3: Ownership",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/direct_pct",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/indirect_pct",
+          "value": 0
+        }
+      ],
+      "justification": "Ownership percentage is requested only for type A.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Ownership",
+        "rect": [
+          427.69772402889987,
+          354.2749979479446,
+          479.4623185021573,
+          364.77215355651254
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          514.2809322178907,
+          353.5600014455565,
+          759.171504788468,
+          365.00000150066285
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R033",
+      "page": 4,
+      "label": "Controlling person 3: Date of birth",
+      "value": "1985-08-23",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/birth_date",
+          "value": "1985-08-23"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date of birth:",
+        "rect": [
+          88.3859634399414,
+          367.9583435058594,
+          149.5574951171875,
+          379.4097900390625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          152.5574975070156,
+          367.720001503615,
+          419.37993770761346,
+          379.16000155872126
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R034",
+      "page": 4,
+      "label": "Controlling person 3: Nationality",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/nationalities",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Nationality:",
+        "rect": [
+          427.93757481709616,
+          368.673334757487,
+          480.3929452693164,
+          379.4090621705271
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          483.3929452693164,
+          367.720001503615,
+          759.171504788468,
+          379.16000155872126
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R035",
+      "page": 4,
+      "label": "Controlling person 3: Country of residence",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/residences",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Country of residence:",
+        "rect": [
+          88.14611053466797,
+          382.11822509765625,
+          191.2219696044922,
+          392.84893798828125
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          194.2219730312827,
+          381.8800015616734,
+          419.37993770761346,
+          392.60000161382754
+        ],
+        "display": null
+      },
+      "overflow_reference": "R035"
+    },
+    {
+      "reference": "R036",
+      "page": 4,
+      "label": "Controlling person 3: Passport or national ID card number",
+      "value": "SIM-ID-C3",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/id_number",
+          "value": "SIM-ID-C3"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Passport or national ID card number:",
+        "rect": [
+          428.17742919921875,
+          383.07110595703125,
+          605.8397216796875,
+          392.8479919433594
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          608.8397331852027,
+          381.8800015616734,
+          759.171504788468,
+          392.60000161382754
+        ],
+        "display": null
+      },
+      "overflow_reference": "R036"
+    },
+    {
+      "reference": "R037",
+      "page": 4,
+      "label": "Controlling person 3: Address of residence",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/address",
+          "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Address of residence:",
+        "rect": [
+          87.90701293945312,
+          395.5583801269531,
+          193.178955078125,
+          407.25006103515625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          196.17895554414528,
+          395.3200016167797,
+          759.171504788468,
+          407.00000167287004
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R038",
+      "page": 4,
+      "label": "Controlling person 3: Date on which the person became",
+      "value": "2020-01-15",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/control_since",
+          "value": "2020-01-15"
+        }
+      ],
+      "justification": "Complete controlling-person register.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date on which the person became",
+        "rect": [
+          88.38683319091797,
+          409.95831298828125,
+          238.76641845703125,
+          421.1695251464844
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          335.7097736457839,
+          409.7200016758222,
+          759.171504788468,
+          420.92000172994443
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R039",
+      "page": 5,
+      "label": "Controlling persons 4-7",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people",
+          "value": [
+            {
+              "id": "C1",
+              "given": "Nora",
+              "surname": "Avelune",
+              "name": "Nora Avelune",
+              "birth_date": "1980-04-12",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-C1-FR"
+              },
+              "id_number": "SIM-ID-C1",
+              "direct_pct": 60,
+              "indirect_pct": 0,
+              "votes_pct": 60,
+              "control_since": "2020-01-15"
+            },
+            {
+              "id": "C2",
+              "given": "Hugo",
+              "surname": "Valcendre",
+              "name": "Hugo Valcendre",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-C2-FR"
+              },
+              "id_number": "SIM-ID-C2",
+              "direct_pct": 40,
+              "indirect_pct": 0,
+              "votes_pct": 40,
+              "control_since": "2020-01-15"
+            },
+            {
+              "id": "C3",
+              "given": "Inès",
+              "surname": "Rocheval",
+              "name": "Inès Rocheval",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-C3-FR"
+              },
+              "id_number": "SIM-ID-C3",
+              "direct_pct": 0,
+              "indirect_pct": 0,
+              "votes_pct": 0,
+              "control_since": "2020-01-15",
+              "control_basis": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes."
+            }
+          ]
+        }
+      ],
+      "justification": "The exhaustive register contains three controlling persons.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 5,
+        "text": "Controlling persons continuation",
+        "rect": [
+          82.78819960656415,
+          125.76000051563759,
+          761.171504788468,
+          139.2000005707439
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          191.40953080707786,
+          126.76000051563759,
+          759.171504788468,
+          138.2000005707439
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R040",
+      "page": 6,
+      "label": "Representative 1: name",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/0/name",
+          "value": "Nora Avelune"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Board mandate identifies the authorized representative.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          64.4312437660302,
+          212.96000086497222,
+          238.88552232874395,
+          267.7600011060623
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R041",
+      "page": 6,
+      "label": "Representative 1: birth_date",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/0/birth_date",
+          "value": "1980-04-12"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Details not repeated: same person already in controlling-person section.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          245.6054197166271,
+          212.96000086497222,
+          327.1929352424124,
+          267.7600011060623
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R042",
+      "page": 6,
+      "label": "Representative 1: nationalities",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/0/nationalities",
+          "value": [
+            "France"
+          ]
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Details not repeated: same person already in controlling-person section.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          333.91283263029555,
+          212.96000086497222,
+          446.2159700390959,
+          267.7600011060623
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R043",
+      "page": 6,
+      "label": "Representative 1: residences",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/0/residences",
+          "value": [
+            "France"
+          ]
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Details not repeated: same person already in controlling-person section.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          452.93586742697903,
+          212.96000086497222,
+          610.1126086804968,
+          228.1600009436955
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R044",
+      "page": 6,
+      "label": "Representative 1: id_number",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/0/id_number",
+          "value": "SIM-ID-C1"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Details not repeated: same person already in controlling-person section.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          617.072471864341,
+          212.96000086497222,
+          748.3329071540647,
+          228.1600009436955
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R045",
+      "page": 6,
+      "label": "Representative 2: name",
+      "value": "Alex Fernel",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/1/name",
+          "value": "Alex Fernel"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Board mandate identifies the authorized representative.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          64.4312437660302,
+          272.48000110901444,
+          238.88552232874395,
+          327.28000135010456
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R046",
+      "page": 6,
+      "label": "Representative 2: birth_date",
+      "value": "1985-08-23",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/1/birth_date",
+          "value": "1985-08-23"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Board mandate identifies the authorized representative.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          245.6054197166271,
+          272.48000110901444,
+          327.1929352424124,
+          327.28000135010456
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R047",
+      "page": 6,
+      "label": "Representative 2: nationalities",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/1/nationalities",
+          "value": [
+            "France"
+          ]
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Board mandate identifies the authorized representative.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          333.91283263029555,
+          272.48000110901444,
+          446.2159700390959,
+          327.28000135010456
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R048",
+      "page": 6,
+      "label": "Representative 2: residences",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/1/residences",
+          "value": [
+            "France"
+          ]
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Board mandate identifies the authorized representative.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          452.93586742697903,
+          272.48000110901444,
+          610.1126086804968,
+          287.92000118872176
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R049",
+      "page": 6,
+      "label": "Representative 2: id_number",
+      "value": null,
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives/1/id_number",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+      "missing_components": [
+        "Alex Fernel passport/national ID number"
+      ],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Authorized representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          617.072471864341,
+          272.48000110901444,
+          748.3329071540647,
+          287.92000118872176
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R050",
+      "page": 6,
+      "label": "Representative slot 3",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives",
+          "value": [
+            {
+              "id": "C1",
+              "given": "Nora",
+              "surname": "Avelune",
+              "name": "Nora Avelune",
+              "birth_date": "1980-04-12",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-C1-FR"
+              },
+              "id_number": "SIM-ID-C1"
+            },
+            {
+              "id": "CR",
+              "given": "Alex",
+              "surname": "Fernel",
+              "name": "Alex Fernel",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-CR-FR"
+              },
+              "id_number": null,
+              "missing_id_reason": "Identity document renewal pending; number not supplied as of 2026-09-01."
+            }
+          ]
+        }
+      ],
+      "justification": "The complete authority register has only two representatives.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          64.4312437660302,
+          332.00000135305663,
+          238.88552232874395,
+          387.0400015951308
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R051",
+      "page": 6,
+      "label": "Representative slot 4",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives",
+          "value": [
+            {
+              "id": "C1",
+              "given": "Nora",
+              "surname": "Avelune",
+              "name": "Nora Avelune",
+              "birth_date": "1980-04-12",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-C1-FR"
+              },
+              "id_number": "SIM-ID-C1"
+            },
+            {
+              "id": "CR",
+              "given": "Alex",
+              "surname": "Fernel",
+              "name": "Alex Fernel",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-CR-FR"
+              },
+              "id_number": null,
+              "missing_id_reason": "Identity document renewal pending; number not supplied as of 2026-09-01."
+            }
+          ]
+        }
+      ],
+      "justification": "The complete authority register has only two representatives.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          64.4312437660302,
+          391.5200015970989,
+          238.88552232874395,
+          446.560001839173
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R052",
+      "page": 6,
+      "label": "Representative slot 5",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/representatives",
+          "value": [
+            {
+              "id": "C1",
+              "given": "Nora",
+              "surname": "Avelune",
+              "name": "Nora Avelune",
+              "birth_date": "1980-04-12",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-C1-FR"
+              },
+              "id_number": "SIM-ID-C1"
+            },
+            {
+              "id": "CR",
+              "given": "Alex",
+              "surname": "Fernel",
+              "name": "Alex Fernel",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-CR-FR"
+              },
+              "id_number": null,
+              "missing_id_reason": "Identity document renewal pending; number not supplied as of 2026-09-01."
+            }
+          ]
+        }
+      ],
+      "justification": "The complete authority register has only two representatives.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 6,
+        "text": "Representative table",
+        "rect": [
+          66.95060323054884,
+          178.32000732421875,
+          93.62996778495182,
+          190.57223510742188
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          64.4312437660302,
+          451.2800018421251,
+          238.88552232874395,
+          506.0800020832152
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R053",
+      "page": 9,
+      "label": "Place of certification",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/place",
+          "value": "Lyon"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 9,
+        "text": "signed in",
+        "rect": [
+          129.12698364257812,
+          385.9486083984375,
+          171.82220458984375,
+          396.45782470703125
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          186.56000075672767,
+          375.5866074952076,
+          330.16000136191303,
+          397.58318709131316
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R054",
+      "page": 9,
+      "label": "Signatory name",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer/name",
+          "value": "Nora Avelune"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 9,
+        "text": "Surname",
+        "rect": [
+          80.17132138402067,
+          416.68542367450425,
+          123.57435497949174,
+          424.77457320090724
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          144.32000058353643,
+          413.9811348489765,
+          530.3200021826034,
+          432.8581590975883
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R055",
+      "page": 9,
+      "label": "Completion date: month",
+      "value": "09",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/date",
+          "value": "01/09/2026"
+        }
+      ],
+      "justification": "Fixed exercise date; not an executed signature.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 9,
+        "text": "Date",
+        "rect": [
+          368.6400146484375,
+          386.10495116211905,
+          390.6048583984375,
+          396.67400165756584
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          402.0800016403967,
+          375.5866074952076,
+          434.800001790955,
+          393.9837001518973
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R056",
+      "page": 9,
+      "label": "Completion date: day",
+      "value": "01",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/date",
+          "value": "01/09/2026"
+        }
+      ],
+      "justification": "Fixed exercise date; not an executed signature.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 9,
+        "text": "Date",
+        "rect": [
+          368.6400146484375,
+          386.10495116211905,
+          390.6048583984375,
+          396.67400165756584
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          450.560001839173,
+          375.5866074952076,
+          483.2800019897313,
+          393.9837001518973
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R057",
+      "page": 9,
+      "label": "Completion date: year",
+      "value": "2026",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/date",
+          "value": "01/09/2026"
+        }
+      ],
+      "justification": "Fixed exercise date; not an executed signature.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 9,
+        "text": "Date",
+        "rect": [
+          368.6400146484375,
+          386.10495116211905,
+          390.6048583984375,
+          396.67400165756584
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          496.64000202810894,
+          375.5866074952076,
+          541.8400022298374,
+          393.9837001518973
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R058",
+      "page": 9,
+      "label": "Signature and certification",
+      "value": null,
+      "state": "human_action",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Human review and signature required; no signature is generated.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 9,
+        "text": "Signature",
+        "rect": [
+          37.200008392333984,
+          447.53619932817617,
+          83.29438781738281,
+          458.10524982362296
+        ]
+      },
+      "render": null
+    }
+  ]
+}

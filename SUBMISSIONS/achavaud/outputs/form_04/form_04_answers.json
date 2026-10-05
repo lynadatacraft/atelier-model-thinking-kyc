@@ -1,0 +1,3599 @@
+{
+  "exercise": "form_04",
+  "company": "Belorive Patrimoine SAS",
+  "source_base": "entreprises/belorive_patrimoine",
+  "as_of": "2026-09-01",
+  "template_sha256": "dce54cbc13bf226843daea6c9071801033b6063c74570e94bd5ec6da3fa86ef4",
+  "template_file": "templates/form_04.json",
+  "method": "Hash-locked calibrated template; no runtime OCR. Explicit scenario rules; linked overflow.",
+  "answers": [
+    {
+      "reference": "R001",
+      "page": 1,
+      "label": "Company name",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Belorive Patrimoine SAS"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Company name:",
+        "rect": [
+          33.916847229003906,
+          334.2768859863281,
+          92.86724090576172,
+          342.4763488769531
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          95.8672427857714,
+          332.8726958141398,
+          189.0400007832968,
+          345.5106093677641
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R002",
+      "page": 1,
+      "label": "Country of Incorporation",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/incorporation",
+          "value": "France"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Country of Incorporation:",
+        "rect": [
+          197.11865234375,
+          333.1067199707031,
+          285.90911865234375,
+          345.7572937011719
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          288.9091146820185,
+          332.8726958141398,
+          564.6400023233213,
+          345.5106093677641
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R003",
+      "page": 1,
+      "label": "Bank internal use: Grid",
+      "value": null,
+      "state": "bank_reserved",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Belorive Patrimoine SAS"
+        }
+      ],
+      "justification": "This section is explicitly reserved for the bank.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Grid:",
+        "rect": [
+          33.9168476104678,
+          364.03802584349114,
+          49.61497655162718,
+          370.3602787364625
+        ]
+      },
+      "render": null
+    },
+    {
+      "reference": "R004",
+      "page": 1,
+      "label": "Bank internal use: booking location(s)",
+      "value": null,
+      "state": "bank_reserved",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Belorive Patrimoine SAS"
+        }
+      ],
+      "justification": "This section is explicitly reserved for the bank.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "booking location(s): location(s):",
+        "rect": [
+          294.99639892578125,
+          363.1023254394531,
+          362.88702392578125,
+          375.5126647949219
+        ]
+      },
+      "render": null
+    },
+    {
+      "reference": "R005",
+      "page": 1,
+      "label": "Bank internal use: Relationship Manager",
+      "value": null,
+      "state": "bank_reserved",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Belorive Patrimoine SAS"
+        }
+      ],
+      "justification": "This section is explicitly reserved for the bank.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Relationship Manager:",
+        "rect": [
+          131.80972290039062,
+          379.3904724121094,
+          210.0070037841797,
+          386.65283203125
+        ]
+      },
+      "render": null
+    },
+    {
+      "reference": "R006",
+      "page": 1,
+      "label": "Q1: sanctioned jurisdiction activity",
+      "value": "Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": [
+            {
+              "country": "Belarus",
+              "entity": "Belorive Immobilier Belarus LLC",
+              "domicile": "1 avenue du Site Fictif, Belarus",
+              "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+              "current": true,
+              "planned": false,
+              "revenue": 200000,
+              "expenses": 60000,
+              "assets": 500000,
+              "entity_totals": {
+                "revenue": 2000000,
+                "expenses": 1000000,
+                "assets": 5000000
+              },
+              "third_parties": [
+                "Locataire Boréal SIM LLC"
+              ],
+              "government": false,
+              "bank_use": false,
+              "bank_product": null,
+              "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+            },
+            {
+              "country": "Russia",
+              "entity": "Belorive Clôture Russia LLC",
+              "domicile": "1 avenue du Site Fictif, Russia",
+              "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+              "current": true,
+              "planned": false,
+              "revenue": 0,
+              "expenses": 24000,
+              "assets": 100000,
+              "entity_totals": {
+                "revenue": 0,
+                "expenses": 120000,
+                "assets": 500000
+              },
+              "third_parties": [
+                "Archivage Nord SIM LLC"
+              ],
+              "government": false,
+              "bank_use": false,
+              "bank_product": null,
+              "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+            }
+          ]
+        }
+      ],
+      "justification": "Current Belarus leases and Russia wind-down in controlled subsidiaries.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "involving any Sanctioned Jurisdiction?",
+        "rect": [
+          218.87994384765625,
+          451.6156005859375,
+          354.0001525878906,
+          460.0228271484375
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          490.3200020103962,
+          449.3773724046926
+        ]
+      }
+    },
+    {
+      "reference": "R007",
+      "page": 1,
+      "label": "Q2: specified Russian sectors",
+      "value": "No",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "line": 9,
+          "quote": "All legal classifications, screened-status declarations and permissions here are fictional exercise stipulations. Do not consult live lists or infer real legality. There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment. No entity using the issuer has a Russia/Belarus formation or ≥40% ownership/citizenship nexus. Any intended use of issuer products is a proposal subject to approval, not an executed transaction. Where an authorization is listed, it is a simulated reliance for the exercise only.",
+          "section": "source narrative"
+        }
+      ],
+      "justification": "No Russian-sector service business; do not classify ordinary leases/wind-down as a listed-sector business.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 1,
+        "text": "sectors in Russia",
+        "rect": [
+          200.6399383544922,
+          634.9495239257812,
+          258.8927307128906,
+          643.596923828125
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          542.4000022239331,
+          633.1911721108611
+        ]
+      }
+    },
+    {
+      "reference": "R008",
+      "page": 2,
+      "label": "Q3: reliance on authorization",
+      "value": "Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/licenses",
+          "value": [
+            {
+              "reference": "SIM-AUTH-B-01",
+              "type": "Fictional sanctions wind-down authorization",
+              "recipient": "Belorive Clôture Russia LLC",
+              "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+              "authority": "Simulation Authorization Office",
+              "expiry": "2026-12-31"
+            }
+          ]
+        }
+      ],
+      "justification": "The scenario stipulates reliance on a fictional wind-down authorization.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "rely on an authorization or license",
+        "rect": [
+          323.2799987792969,
+          79.18866729736328,
+          444.60968017578125,
+          87.8360824584961
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          490.3200020103962,
+          87.50895209542092
+        ]
+      }
+    },
+    {
+      "reference": "R009",
+      "page": 2,
+      "label": "Q4: specified government involvement",
+      "value": "No",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/government",
+          "value": null
+        }
+      ],
+      "justification": "Reviewed exhaustive scope excludes specified government involvement; null alone does not establish No.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "government of Afghanistan,",
+        "rect": [
+          266.6400146484375,
+          212.3697052001953,
+          366.7007141113281,
+          221.01712036132812
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          542.4000022239331,
+          210.6114054234424
+        ]
+      }
+    },
+    {
+      "reference": "R010",
+      "page": 2,
+      "label": "Q5: intended issuer product use",
+      "value": "No",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/bank_use",
+          "value": false
+        }
+      ],
+      "justification": "Covered activities explicitly exclude direct and indirect issuer use.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Do you intend to use",
+        "rect": [
+          76.07998657226562,
+          375.3064880371094,
+          149.60997009277344,
+          385.63531494140625
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          542.4000022239331,
+          384.5866074952076
+        ]
+      }
+    },
+    {
+      "reference": "R011",
+      "page": 2,
+      "label": "Q6: governance nexus",
+      "value": "Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/governance_nexus",
+          "value": {
+            "name": "Julien Valsenne",
+            "role": "Director of Belorive Clôture Russia LLC",
+            "nationality": "France",
+            "residence": "Russia",
+            "ownership_pct": 0,
+            "listed": false,
+            "government_role": false
+          }
+        }
+      ],
+      "justification": "Julien Valsenne directs the Russian subsidiary and resides in Russia; 0% ownership, not designated.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "a director,",
+        "rect": [
+          289.44000244140625,
+          642.1484985351562,
+          325.0799255371094,
+          650.7959594726562
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          490.3200020103962,
+          650.4687094200572
+        ]
+      }
+    },
+    {
+      "reference": "R012",
+      "page": 3,
+      "label": "Q7: sanctions compliance policy",
+      "value": "Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/policy",
+          "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+        }
+      ],
+      "justification": "Required because questions 1, 3 and 6 are Yes.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "formal policy",
+        "rect": [
+          136.5599822998047,
+          139.42013549804688,
+          185.087890625,
+          147.82728576660156
+        ]
+      },
+      "render": {
+        "kind": "check",
+        "center": [
+          490.3200020103962,
+          147.26043528972374
+        ]
+      }
+    },
+    {
+      "reference": "R013",
+      "page": 2,
+      "label": "Q3: explanation",
+      "value": [
+        {
+          "reference": "SIM-AUTH-B-01",
+          "type": "Fictional sanctions wind-down authorization",
+          "recipient": "Belorive Clôture Russia LLC",
+          "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+          "authority": "Simulation Authorization Office",
+          "expiry": "2026-12-31"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/licenses",
+          "value": [
+            {
+              "reference": "SIM-AUTH-B-01",
+              "type": "Fictional sanctions wind-down authorization",
+              "recipient": "Belorive Clôture Russia LLC",
+              "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+              "authority": "Simulation Authorization Office",
+              "expiry": "2026-12-31"
+            }
+          ]
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "rely on an authorization or license",
+        "rect": [
+          323.2799987792969,
+          79.18866729736328,
+          444.60968017578125,
+          87.8360824584961
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          73.5600002893081,
+          151.01875929181546,
+          459.72000189723144,
+          197.89150803555924
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R014",
+      "page": 2,
+      "label": "Q5: explanation",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Do you intend to use",
+        "rect": [
+          76.07998657226562,
+          375.3064880371094,
+          149.60997009277344,
+          385.63531494140625
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          73.32000028832407,
+          570.4789706317405,
+          459.72000189723144,
+          637.748812032174
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R015",
+      "page": 3,
+      "label": "Q7: explanation",
+      "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/policy",
+          "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+        }
+      ],
+      "justification": "Explicit supplied scenario fact.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "formal policy",
+        "rect": [
+          136.5599822998047,
+          139.42013549804688,
+          185.087890625,
+          147.82728576660156
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          73.32000028832407,
+          277.24076796733067,
+          459.72000189723144,
+          344.99054095968626
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R016",
+      "page": 3,
+      "label": "Q6: governance details",
+      "value": {
+        "name": "Julien Valsenne",
+        "role": "Director of Belorive Clôture Russia LLC",
+        "nationality": "France",
+        "residence": "Russia",
+        "ownership_pct": 0,
+        "listed": false,
+        "government_role": false
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/governance_nexus",
+          "value": {
+            "name": "Julien Valsenne",
+            "role": "Director of Belorive Clôture Russia LLC",
+            "nationality": "France",
+            "residence": "Russia",
+            "ownership_pct": 0,
+            "listed": false,
+            "government_role": false
+          }
+        }
+      ],
+      "justification": "Director of Belorive Clôture Russia LLC; residence triggers disclosure without implying sanctions designation.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Q6 continuation",
+        "rect": [
+          70.32000028832407,
+          35.75490359819727,
+          462.72000189723144,
+          117.34327422495613
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          73.32000028832407,
+          37.75490359819727,
+          459.72000189723144,
+          115.34327422495613
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R017",
+      "page": 3,
+      "label": "Belarus: group revenue percentage",
+      "value": {
+        "group_percentage": 1.0,
+        "country_amount_EUR": 200000,
+        "activity_third_parties_bank_controls": "Belorive Immobilier Belarus LLC, 1 avenue du Site Fictif, Belarus. Existing property leases to private commercial tenants; no new investments contemplated. Third parties: Locataire Boréal SIM LLC. Current: True; planned: False. Classification/permission: Scenario classification: ordinary non-controlled activity; no commodity code applicable.. Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/revenue",
+          "value": 200000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0",
+          "value": {
+            "country": "Belarus",
+            "entity": "Belorive Immobilier Belarus LLC",
+            "domicile": "1 avenue du Site Fictif, Belarus",
+            "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+            "current": true,
+            "planned": false,
+            "revenue": 200000,
+            "expenses": 60000,
+            "assets": 500000,
+            "entity_totals": {
+              "revenue": 2000000,
+              "expenses": 1000000,
+              "assets": 5000000
+            },
+            "third_parties": [
+              "Locataire Boréal SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "FY2025 EUR: 200000 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Belarus",
+        "rect": [
+          109.44000044872278,
+          723.9768064145044,
+          213.60000087579667,
+          764.2910601359617
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          725.9768064145044,
+          210.60000087579667,
+          762.2910601359617
+        ],
+        "display": "1%; see R017"
+      },
+      "overflow_reference": "R017"
+    },
+    {
+      "reference": "R018",
+      "page": 3,
+      "label": "Belarus: group assets percentage",
+      "value": {
+        "group_percentage": null,
+        "country_amount_EUR": 500000,
+        "activity_third_parties_bank_controls": "Belorive Immobilier Belarus LLC, 1 avenue du Site Fictif, Belarus. Existing property leases to private commercial tenants; no new investments contemplated. Third parties: Locataire Boréal SIM LLC. Current: True; planned: False. Classification/permission: Scenario classification: ordinary non-controlled activity; no commodity code applicable.. Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      },
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/assets",
+          "value": 500000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0",
+          "value": {
+            "country": "Belarus",
+            "entity": "Belorive Immobilier Belarus LLC",
+            "domicile": "1 avenue du Site Fictif, Belarus",
+            "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+            "current": true,
+            "planned": false,
+            "revenue": 200000,
+            "expenses": 60000,
+            "assets": 500000,
+            "entity_totals": {
+              "revenue": 2000000,
+              "expenses": 1000000,
+              "assets": 5000000
+            },
+            "third_parties": [
+              "Locataire Boréal SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "FY2025 EUR: 500000 / None * 100; consolidated denominator after eliminations. Missing positive consolidated total cannot be reconstructed from partial entity schedules.",
+      "missing_components": [
+        "FY2025 consolidated group assets"
+      ],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Belarus",
+        "rect": [
+          109.44000044872278,
+          723.9768064145044,
+          213.60000087579667,
+          764.2910601359617
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          725.9768064145044,
+          324.3600013422322,
+          762.2910601359617
+        ],
+        "display": "Missing group assets; see R018"
+      },
+      "overflow_reference": "R018"
+    },
+    {
+      "reference": "R019",
+      "page": 3,
+      "label": "Belarus: group expenses percentage",
+      "value": {
+        "group_percentage": 0.5,
+        "country_amount_EUR": 60000,
+        "activity_third_parties_bank_controls": "Belorive Immobilier Belarus LLC, 1 avenue du Site Fictif, Belarus. Existing property leases to private commercial tenants; no new investments contemplated. Third parties: Locataire Boréal SIM LLC. Current: True; planned: False. Classification/permission: Scenario classification: ordinary non-controlled activity; no commodity code applicable.. Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/expenses",
+          "value": 60000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0",
+          "value": {
+            "country": "Belarus",
+            "entity": "Belorive Immobilier Belarus LLC",
+            "domicile": "1 avenue du Site Fictif, Belarus",
+            "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+            "current": true,
+            "planned": false,
+            "revenue": 200000,
+            "expenses": 60000,
+            "assets": 500000,
+            "entity_totals": {
+              "revenue": 2000000,
+              "expenses": 1000000,
+              "assets": 5000000
+            },
+            "third_parties": [
+              "Locataire Boréal SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "FY2025 EUR: 60000 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Belarus",
+        "rect": [
+          109.44000044872278,
+          723.9768064145044,
+          213.60000087579667,
+          764.2910601359617
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          725.9768064145044,
+          459.4800018962474,
+          762.2910601359617
+        ],
+        "display": "0.5%; see R019"
+      },
+      "overflow_reference": "R019"
+    },
+    {
+      "reference": "R020",
+      "page": 3,
+      "label": "Belarus: entities and entity percentages",
+      "value": {
+        "entities": [
+          "Belorive Immobilier Belarus LLC"
+        ],
+        "exposure": {
+          "revenue": {
+            "percentage": 10.0,
+            "state": "answer",
+            "calculation": "FY2025 EUR: 200000 / 2000000 * 100; entity denominator, not consolidated."
+          },
+          "assets": {
+            "percentage": 10.0,
+            "state": "answer",
+            "calculation": "FY2025 EUR: 500000 / 5000000 * 100; entity denominator, not consolidated."
+          },
+          "expenses": {
+            "percentage": 6.0,
+            "state": "answer",
+            "calculation": "FY2025 EUR: 60000 / 1000000 * 100; entity denominator, not consolidated."
+          }
+        }
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/revenue",
+          "value": 200000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/entity_totals/revenue",
+          "value": 2000000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/assets",
+          "value": 500000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/entity_totals/assets",
+          "value": 5000000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/expenses",
+          "value": 60000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/0/entity_totals/expenses",
+          "value": 1000000
+        }
+      ],
+      "justification": "Entity totals are separate denominators and are never summed from repeated country rows.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Belarus",
+        "rect": [
+          109.44000044872278,
+          723.9768064145044,
+          213.60000087579667,
+          764.2910601359617
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          725.9768064145044,
+          563.6400023233213,
+          762.2910601359617
+        ],
+        "display": null
+      },
+      "overflow_reference": "R020"
+    },
+    {
+      "reference": "R021",
+      "page": 3,
+      "label": "Crimea: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Crimea",
+        "rect": [
+          109.44000044872278,
+          765.250923319806,
+          213.60000087579667,
+          805.5651770412633
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          767.250923319806,
+          210.60000087579667,
+          803.5651770412633
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R021"
+    },
+    {
+      "reference": "R022",
+      "page": 3,
+      "label": "Crimea: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Crimea",
+        "rect": [
+          109.44000044872278,
+          765.250923319806,
+          213.60000087579667,
+          805.5651770412633
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          767.250923319806,
+          324.3600013422322,
+          803.5651770412633
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R022"
+    },
+    {
+      "reference": "R023",
+      "page": 3,
+      "label": "Crimea: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Crimea",
+        "rect": [
+          109.44000044872278,
+          765.250923319806,
+          213.60000087579667,
+          805.5651770412633
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          767.250923319806,
+          459.4800018962474,
+          803.5651770412633
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R023"
+    },
+    {
+      "reference": "R024",
+      "page": 3,
+      "label": "Crimea: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Part 2: Crimea",
+        "rect": [
+          109.44000044872278,
+          765.250923319806,
+          213.60000087579667,
+          805.5651770412633
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          767.250923319806,
+          563.6400023233213,
+          803.5651770412633
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R025",
+      "page": 4,
+      "label": "Cuba: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Cuba",
+        "rect": [
+          109.44000044872278,
+          35.99486939415832,
+          213.60000087579667,
+          76.5490889115767
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          37.99486939415832,
+          210.60000087579667,
+          74.5490889115767
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R025"
+    },
+    {
+      "reference": "R026",
+      "page": 4,
+      "label": "Cuba: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Cuba",
+        "rect": [
+          109.44000044872278,
+          35.99486939415832,
+          213.60000087579667,
+          76.5490889115767
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          37.99486939415832,
+          324.3600013422322,
+          74.5490889115767
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R026"
+    },
+    {
+      "reference": "R027",
+      "page": 4,
+      "label": "Cuba: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Cuba",
+        "rect": [
+          109.44000044872278,
+          35.99486939415832,
+          213.60000087579667,
+          76.5490889115767
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          37.99486939415832,
+          459.4800018962474,
+          74.5490889115767
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R027"
+    },
+    {
+      "reference": "R028",
+      "page": 4,
+      "label": "Cuba: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Cuba",
+        "rect": [
+          109.44000044872278,
+          35.99486939415832,
+          213.60000087579667,
+          76.5490889115767
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          37.99486939415832,
+          563.6400023233213,
+          74.5490889115767
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R029",
+      "page": 4,
+      "label": "Iran: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Iran",
+        "rect": [
+          109.44000044872278,
+          77.50895209542092,
+          213.60000087579667,
+          117.58324002091719
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          79.50895209542092,
+          210.60000087579667,
+          115.58324002091719
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R029"
+    },
+    {
+      "reference": "R030",
+      "page": 4,
+      "label": "Iran: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Iran",
+        "rect": [
+          109.44000044872278,
+          77.50895209542092,
+          213.60000087579667,
+          117.58324002091719
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          79.50895209542092,
+          324.3600013422322,
+          115.58324002091719
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R030"
+    },
+    {
+      "reference": "R031",
+      "page": 4,
+      "label": "Iran: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Iran",
+        "rect": [
+          109.44000044872278,
+          77.50895209542092,
+          213.60000087579667,
+          117.58324002091719
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          79.50895209542092,
+          459.4800018962474,
+          115.58324002091719
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R031"
+    },
+    {
+      "reference": "R032",
+      "page": 4,
+      "label": "Iran: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Iran",
+        "rect": [
+          109.44000044872278,
+          77.50895209542092,
+          213.60000087579667,
+          117.58324002091719
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          79.50895209542092,
+          563.6400023233213,
+          115.58324002091719
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R033",
+      "page": 4,
+      "label": "North Korea: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: North Korea",
+        "rect": [
+          109.44000044872278,
+          118.54310320476141,
+          213.60000087579667,
+          158.85735692621873
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          120.54310320476141,
+          210.60000087579667,
+          156.85735692621873
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R033"
+    },
+    {
+      "reference": "R034",
+      "page": 4,
+      "label": "North Korea: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: North Korea",
+        "rect": [
+          109.44000044872278,
+          118.54310320476141,
+          213.60000087579667,
+          158.85735692621873
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          120.54310320476141,
+          324.3600013422322,
+          156.85735692621873
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R034"
+    },
+    {
+      "reference": "R035",
+      "page": 4,
+      "label": "North Korea: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: North Korea",
+        "rect": [
+          109.44000044872278,
+          118.54310320476141,
+          213.60000087579667,
+          158.85735692621873
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          120.54310320476141,
+          459.4800018962474,
+          156.85735692621873
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R035"
+    },
+    {
+      "reference": "R036",
+      "page": 4,
+      "label": "North Korea: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: North Korea",
+        "rect": [
+          109.44000044872278,
+          118.54310320476141,
+          213.60000087579667,
+          158.85735692621873
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          120.54310320476141,
+          563.6400023233213,
+          156.85735692621873
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R037",
+      "page": 4,
+      "label": "Russia: group revenue percentage",
+      "value": {
+        "group_percentage": 0.0,
+        "country_amount_EUR": 0,
+        "activity_third_parties_bank_controls": "Belorive Clôture Russia LLC, 1 avenue du Site Fictif, Russia. Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment. Third parties: Archivage Nord SIM LLC. Current: True; planned: False. Classification/permission: Scenario classification: ordinary non-controlled activity; no commodity code applicable.. Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/revenue",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1",
+          "value": {
+            "country": "Russia",
+            "entity": "Belorive Clôture Russia LLC",
+            "domicile": "1 avenue du Site Fictif, Russia",
+            "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+            "current": true,
+            "planned": false,
+            "revenue": 0,
+            "expenses": 24000,
+            "assets": 100000,
+            "entity_totals": {
+              "revenue": 0,
+              "expenses": 120000,
+              "assets": 500000
+            },
+            "third_parties": [
+              "Archivage Nord SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Russia",
+        "rect": [
+          109.44000044872278,
+          159.81722011006295,
+          213.60000087579667,
+          200.13147383152028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          161.81722011006295,
+          210.60000087579667,
+          198.13147383152028
+        ],
+        "display": "0%; see R037"
+      },
+      "overflow_reference": "R037"
+    },
+    {
+      "reference": "R038",
+      "page": 4,
+      "label": "Russia: group assets percentage",
+      "value": {
+        "group_percentage": null,
+        "country_amount_EUR": 100000,
+        "activity_third_parties_bank_controls": "Belorive Clôture Russia LLC, 1 avenue du Site Fictif, Russia. Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment. Third parties: Archivage Nord SIM LLC. Current: True; planned: False. Classification/permission: Scenario classification: ordinary non-controlled activity; no commodity code applicable.. Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      },
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/assets",
+          "value": 100000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1",
+          "value": {
+            "country": "Russia",
+            "entity": "Belorive Clôture Russia LLC",
+            "domicile": "1 avenue du Site Fictif, Russia",
+            "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+            "current": true,
+            "planned": false,
+            "revenue": 0,
+            "expenses": 24000,
+            "assets": 100000,
+            "entity_totals": {
+              "revenue": 0,
+              "expenses": 120000,
+              "assets": 500000
+            },
+            "third_parties": [
+              "Archivage Nord SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "FY2025 EUR: 100000 / None * 100; consolidated denominator after eliminations. Missing positive consolidated total cannot be reconstructed from partial entity schedules.",
+      "missing_components": [
+        "FY2025 consolidated group assets"
+      ],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Russia",
+        "rect": [
+          109.44000044872278,
+          159.81722011006295,
+          213.60000087579667,
+          200.13147383152028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          162.05718590602402,
+          324.3600013422322,
+          198.13147383152028
+        ],
+        "display": "Missing group assets; see R038"
+      },
+      "overflow_reference": "R038"
+    },
+    {
+      "reference": "R039",
+      "page": 4,
+      "label": "Russia: group expenses percentage",
+      "value": {
+        "group_percentage": 0.2,
+        "country_amount_EUR": 24000,
+        "activity_third_parties_bank_controls": "Belorive Clôture Russia LLC, 1 avenue du Site Fictif, Russia. Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment. Third parties: Archivage Nord SIM LLC. Current: True; planned: False. Classification/permission: Scenario classification: ordinary non-controlled activity; no commodity code applicable.. Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/expenses",
+          "value": 24000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1",
+          "value": {
+            "country": "Russia",
+            "entity": "Belorive Clôture Russia LLC",
+            "domicile": "1 avenue du Site Fictif, Russia",
+            "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+            "current": true,
+            "planned": false,
+            "revenue": 0,
+            "expenses": 24000,
+            "assets": 100000,
+            "entity_totals": {
+              "revenue": 0,
+              "expenses": 120000,
+              "assets": 500000
+            },
+            "third_parties": [
+              "Archivage Nord SIM LLC"
+            ],
+            "government": false,
+            "bank_use": false,
+            "bank_product": null,
+            "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."
+          }
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/compliance.md",
+          "section": "bloc JSON",
+          "pointer": "/isolation",
+          "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+        }
+      ],
+      "justification": "FY2025 EUR: 24000 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Russia",
+        "rect": [
+          109.44000044872278,
+          159.81722011006295,
+          213.60000087579667,
+          200.13147383152028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          161.81722011006295,
+          459.4800018962474,
+          198.13147383152028
+        ],
+        "display": "0.2%; see R039"
+      },
+      "overflow_reference": "R039"
+    },
+    {
+      "reference": "R040",
+      "page": 4,
+      "label": "Russia: entities and entity percentages",
+      "value": {
+        "entities": [
+          "Belorive Clôture Russia LLC"
+        ],
+        "exposure": {
+          "revenue": {
+            "percentage": null,
+            "state": "not_applicable",
+            "calculation": "FY2025 EUR: 0 / 0 * 100; entity denominator, not consolidated. Zero denominator makes the percentage not applicable."
+          },
+          "assets": {
+            "percentage": 20.0,
+            "state": "answer",
+            "calculation": "FY2025 EUR: 100000 / 500000 * 100; entity denominator, not consolidated."
+          },
+          "expenses": {
+            "percentage": 20.0,
+            "state": "answer",
+            "calculation": "FY2025 EUR: 24000 / 120000 * 100; entity denominator, not consolidated."
+          }
+        }
+      },
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/revenue",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/entity_totals/revenue",
+          "value": 0
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/assets",
+          "value": 100000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/entity_totals/assets",
+          "value": 500000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/expenses",
+          "value": 24000
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities/1/entity_totals/expenses",
+          "value": 120000
+        }
+      ],
+      "justification": "Entity totals are separate denominators and are never summed from repeated country rows.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Russia",
+        "rect": [
+          109.44000044872278,
+          159.81722011006295,
+          213.60000087579667,
+          200.13147383152028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          161.81722011006295,
+          563.6400023233213,
+          198.13147383152028
+        ],
+        "display": null
+      },
+      "overflow_reference": "R040"
+    },
+    {
+      "reference": "R041",
+      "page": 4,
+      "label": "Sudan: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Sudan",
+        "rect": [
+          109.44000044872278,
+          201.0913370153645,
+          213.60000087579667,
+          241.40559073682184
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          203.0913370153645,
+          210.60000087579667,
+          239.40559073682184
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R041"
+    },
+    {
+      "reference": "R042",
+      "page": 4,
+      "label": "Sudan: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Sudan",
+        "rect": [
+          109.44000044872278,
+          201.0913370153645,
+          213.60000087579667,
+          241.40559073682184
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          203.0913370153645,
+          324.3600013422322,
+          239.40559073682184
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R042"
+    },
+    {
+      "reference": "R043",
+      "page": 4,
+      "label": "Sudan: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Sudan",
+        "rect": [
+          109.44000044872278,
+          201.0913370153645,
+          213.60000087579667,
+          241.40559073682184
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          203.0913370153645,
+          459.4800018962474,
+          239.40559073682184
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R043"
+    },
+    {
+      "reference": "R044",
+      "page": 4,
+      "label": "Sudan: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Sudan",
+        "rect": [
+          109.44000044872278,
+          201.0913370153645,
+          213.60000087579667,
+          241.40559073682184
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          203.0913370153645,
+          563.6400023233213,
+          239.40559073682184
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R045",
+      "page": 4,
+      "label": "Syria: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Syria",
+        "rect": [
+          109.44000044872278,
+          242.36545392066606,
+          213.60000087579667,
+          282.6797076421234
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          244.36545392066606,
+          210.60000087579667,
+          280.6797076421234
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R045"
+    },
+    {
+      "reference": "R046",
+      "page": 4,
+      "label": "Syria: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Syria",
+        "rect": [
+          109.44000044872278,
+          242.36545392066606,
+          213.60000087579667,
+          282.6797076421234
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          244.36545392066606,
+          324.3600013422322,
+          280.6797076421234
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R046"
+    },
+    {
+      "reference": "R047",
+      "page": 4,
+      "label": "Syria: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Syria",
+        "rect": [
+          109.44000044872278,
+          242.36545392066606,
+          213.60000087579667,
+          282.6797076421234
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          244.36545392066606,
+          459.4800018962474,
+          280.6797076421234
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R047"
+    },
+    {
+      "reference": "R048",
+      "page": 4,
+      "label": "Syria: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Syria",
+        "rect": [
+          109.44000044872278,
+          242.36545392066606,
+          213.60000087579667,
+          282.6797076421234
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          244.36545392066606,
+          563.6400023233213,
+          280.6797076421234
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R049",
+      "page": 4,
+      "label": "Zaporizhzhia: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Zaporizhzhia",
+        "rect": [
+          109.44000044872278,
+          283.3996050300065,
+          213.60000087579667,
+          323.9538245474249
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          285.3996050300065,
+          210.60000087579667,
+          321.9538245474249
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R049"
+    },
+    {
+      "reference": "R050",
+      "page": 4,
+      "label": "Zaporizhzhia: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Zaporizhzhia",
+        "rect": [
+          109.44000044872278,
+          283.3996050300065,
+          213.60000087579667,
+          323.9538245474249
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          285.3996050300065,
+          324.3600013422322,
+          321.9538245474249
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R050"
+    },
+    {
+      "reference": "R051",
+      "page": 4,
+      "label": "Zaporizhzhia: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Zaporizhzhia",
+        "rect": [
+          109.44000044872278,
+          283.3996050300065,
+          213.60000087579667,
+          323.9538245474249
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          285.3996050300065,
+          459.4800018962474,
+          321.9538245474249
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R051"
+    },
+    {
+      "reference": "R052",
+      "page": 4,
+      "label": "Zaporizhzhia: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Zaporizhzhia",
+        "rect": [
+          109.44000044872278,
+          283.3996050300065,
+          213.60000087579667,
+          323.9538245474249
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          285.3996050300065,
+          563.6400023233213,
+          321.9538245474249
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R053",
+      "page": 4,
+      "label": "Kherson: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Kherson",
+        "rect": [
+          109.44000044872278,
+          324.6737219353081,
+          213.60000087579667,
+          364.9879756567654
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          326.6737219353081,
+          210.60000087579667,
+          362.9879756567654
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R053"
+    },
+    {
+      "reference": "R054",
+      "page": 4,
+      "label": "Kherson: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Kherson",
+        "rect": [
+          109.44000044872278,
+          324.6737219353081,
+          213.60000087579667,
+          364.9879756567654
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          326.6737219353081,
+          324.3600013422322,
+          362.74800986080436
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R054"
+    },
+    {
+      "reference": "R055",
+      "page": 4,
+      "label": "Kherson: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Kherson",
+        "rect": [
+          109.44000044872278,
+          324.6737219353081,
+          213.60000087579667,
+          364.9879756567654
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          326.6737219353081,
+          459.4800018962474,
+          362.9879756567654
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R055"
+    },
+    {
+      "reference": "R056",
+      "page": 4,
+      "label": "Kherson: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Kherson",
+        "rect": [
+          109.44000044872278,
+          324.6737219353081,
+          213.60000087579667,
+          364.9879756567654
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          326.6737219353081,
+          563.6400023233213,
+          362.9879756567654
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R057",
+      "page": 4,
+      "label": "Donetsk: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Donetsk",
+        "rect": [
+          109.44000044872278,
+          365.9478388406096,
+          213.60000087579667,
+          406.502058358028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          367.9478388406096,
+          210.60000087579667,
+          404.502058358028
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R057"
+    },
+    {
+      "reference": "R058",
+      "page": 4,
+      "label": "Donetsk: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Donetsk",
+        "rect": [
+          109.44000044872278,
+          365.9478388406096,
+          213.60000087579667,
+          406.502058358028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          367.9478388406096,
+          324.3600013422322,
+          404.502058358028
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R058"
+    },
+    {
+      "reference": "R059",
+      "page": 4,
+      "label": "Donetsk: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Donetsk",
+        "rect": [
+          109.44000044872278,
+          365.9478388406096,
+          213.60000087579667,
+          406.502058358028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          367.9478388406096,
+          459.4800018962474,
+          404.502058358028
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R059"
+    },
+    {
+      "reference": "R060",
+      "page": 4,
+      "label": "Donetsk: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Donetsk",
+        "rect": [
+          109.44000044872278,
+          365.9478388406096,
+          213.60000087579667,
+          406.502058358028
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          367.9478388406096,
+          563.6400023233213,
+          404.502058358028
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R061",
+      "page": 4,
+      "label": "Luhansk: group revenue percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/revenue",
+          "value": 20000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 20000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Luhansk",
+        "rect": [
+          109.44000044872278,
+          407.2219557459112,
+          213.60000087579667,
+          447.77617526332955
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          123.44000044872278,
+          409.2219557459112,
+          210.60000087579667,
+          445.77617526332955
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R061"
+    },
+    {
+      "reference": "R062",
+      "page": 4,
+      "label": "Luhansk: group assets percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/assets",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_assets_note",
+          "value": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total."
+        }
+      ],
+      "justification": "Explicit zero numerator; denominator explicitly strictly positive.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Luhansk",
+        "rect": [
+          109.44000044872278,
+          407.2219557459112,
+          213.60000087579667,
+          447.77617526332955
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          228.3200008787488,
+          409.2219557459112,
+          324.3600013422322,
+          445.77617526332955
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R062"
+    },
+    {
+      "reference": "R063",
+      "page": 4,
+      "label": "Luhansk: group expenses percentage",
+      "value": 0.0,
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/period",
+          "value": "2025-01-01/2025-12-31"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance.md",
+          "line": 9,
+          "quote": "Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.",
+          "section": "source narrative"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/finance_facts.json",
+          "section": "JSON",
+          "pointer": "/data/group_totals/expenses",
+          "value": 12000000
+        }
+      ],
+      "justification": "FY2025 EUR: 0 / 12000000 * 100; consolidated denominator after eliminations.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Luhansk",
+        "rect": [
+          109.44000044872278,
+          407.2219557459112,
+          213.60000087579667,
+          447.77617526332955
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          342.0800013451843,
+          409.2219557459112,
+          459.4800018962474,
+          445.77617526332955
+        ],
+        "display": "0%"
+      },
+      "overflow_reference": "R063"
+    },
+    {
+      "reference": "R064",
+      "page": 4,
+      "label": "Luhansk: entities and entity percentages",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "No current, historical or contemplated activity; no entity involved.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Part 2: Luhansk",
+        "rect": [
+          109.44000044872278,
+          407.2219557459112,
+          213.60000087579667,
+          447.77617526332955
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.4400019001836,
+          409.2219557459112,
+          563.6400023233213,
+          445.77617526332955
+        ],
+        "display": null
+      }
+    },
+    {
+      "reference": "R065",
+      "page": 4,
+      "label": "Name of submitter",
+      "value": "Camille Orvaux",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer/name",
+          "value": "Camille Orvaux"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Name of submitter",
+        "rect": [
+          34.0,
+          501.0,
+          102.0,
+          508.0
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          194,
+          500.3,
+          564,
+          509.5
+        ],
+        "display": null
+      },
+      "overflow_reference": "R065"
+    },
+    {
+      "reference": "R066",
+      "page": 4,
+      "label": "Name of company",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Belorive Patrimoine SAS"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Name of company",
+        "rect": [
+          34.0,
+          512.0,
+          181.0,
+          519.0
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          194,
+          511.18717960108717,
+          564,
+          520.4257772354905
+        ],
+        "display": null
+      },
+      "overflow_reference": "R066"
+    },
+    {
+      "reference": "R067",
+      "page": 4,
+      "label": "Position within company",
+      "value": "Présidente",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer_role",
+          "value": "Présidente"
+        }
+      ],
+      "justification": "Value from the assigned company's source.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Position within company",
+        "rect": [
+          34.0,
+          523.0,
+          122.0,
+          530.0
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          194,
+          522.2256062152957,
+          564,
+          531.4642038496991
+        ],
+        "display": null
+      },
+      "overflow_reference": "R067"
+    },
+    {
+      "reference": "R068",
+      "page": 4,
+      "label": "Date",
+      "value": "01/09/2026",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/date",
+          "value": "01/09/2026"
+        }
+      ],
+      "justification": "Exercise completion date, not an executed signature.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Date",
+        "rect": [
+          34.0,
+          534.0,
+          51.0,
+          541.0
+        ]
+      },
+      "render": {
+        "kind": "text",
+        "rect": [
+          255,
+          533,
+          563,
+          542
+        ],
+        "display": null
+      },
+      "overflow_reference": "R068"
+    },
+    {
+      "reference": "R069",
+      "page": 4,
+      "label": "Human certification of sanctions exposure",
+      "value": null,
+      "state": "human_action",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Submitter details are prepared only. Human approval/certification is not executed.",
+      "missing_components": [],
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Sanctions Exposure Confirmation",
+        "rect": [
+          34.320068359375,
+          450.65576171875,
+          154.982421875,
+          458.34234619140625
+        ]
+      },
+      "render": null
+    }
+  ]
+}

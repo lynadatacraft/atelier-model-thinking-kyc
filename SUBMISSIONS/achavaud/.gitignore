@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/code/.venv/
+/code/.ocr/
+/code/output/
+/code/PARTICIPANT_PACK/
+/verification/
