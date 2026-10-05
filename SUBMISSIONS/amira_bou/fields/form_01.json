@@ -1,0 +1,347 @@
+{
+  "exercice": "form_01",
+  "fields": [
+    {
+      "page": 1,
+      "label": "Dénomination sociale",
+      "concept": "legal_name",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.15
+      ],
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.15
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Code SIREN / n° d'enregistrement",
+      "concept": "registration",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ],
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Société cotée",
+      "concept": "listed",
+      "field_type": "yes_no",
+      "write_bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ],
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ],
+      "yes_bbox": [
+        0.8,
+        0.3,
+        0.85,
+        0.35
+      ],
+      "no_bbox": [
+        0.85,
+        0.3,
+        0.9,
+        0.35
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Marché de cotation",
+      "concept": "market",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ],
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Nom de la maison mère",
+      "concept": "parent.name",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.55
+      ],
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.55
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Pays d'immatriculation",
+      "concept": "parent.incorporation",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ],
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Pays de résidence fiscale",
+      "concept": "parent.tax_residence",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ],
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Adresse de la maison mère",
+      "concept": "parent.address",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ],
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Corée du nord",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Corée du nord",
+      "yes_bbox": [
+        0.1,
+        0.9,
+        0.15,
+        0.95
+      ],
+      "no_bbox": [
+        0.15,
+        0.9,
+        0.2,
+        0.95
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Crimée",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Crimée"
+    },
+    {
+      "page": 1,
+      "label": "Cuba",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Cuba"
+    },
+    {
+      "page": 1,
+      "label": "Irak",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Irak"
+    },
+    {
+      "page": 1,
+      "label": "Iran",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Iran"
+    },
+    {
+      "page": 1,
+      "label": "Myanmar",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Myanmar"
+    },
+    {
+      "page": 1,
+      "label": "Russie",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Russie"
+    },
+    {
+      "page": 1,
+      "label": "Soudan",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Soudan"
+    },
+    {
+      "page": 1,
+      "label": "Sud-Soudan",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Sud-Soudan"
+    },
+    {
+      "page": 2,
+      "label": "Syrie",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Syrie",
+      "write_bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.25
+      ],
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.25
+      ],
+      "yes_bbox": [
+        0.45,
+        0.2,
+        0.5,
+        0.25
+      ],
+      "no_bbox": [
+        0.52,
+        0.2,
+        0.57,
+        0.25
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Venezuela",
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "country": "Venezuela",
+      "write_bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ],
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ],
+      "yes_bbox": [
+        0.45,
+        0.3,
+        0.5,
+        0.35
+      ],
+      "no_bbox": [
+        0.52,
+        0.3,
+        0.57,
+        0.35
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Représenté par",
+      "concept": "signatory.name",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.5,
+        0.4,
+        0.55
+      ],
+      "bbox": [
+        0.1,
+        0.5,
+        0.4,
+        0.55
+      ]
+    },
+    {
+      "page": 2,
+      "label": "En qualité de",
+      "concept": "signatory.role",
+      "field_type": "text",
+      "write_bbox": [
+        0.1,
+        0.6,
+        0.4,
+        0.65
+      ],
+      "bbox": [
+        0.1,
+        0.6,
+        0.4,
+        0.65
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Signé le",
+      "concept": "signature.date",
+      "field_type": "signature"
+    },
+    {
+      "page": 2,
+      "label": "Signature",
+      "concept": "signature",
+      "field_type": "signature"
+    }
+  ],
+  "locate": "vision_answer_cells"
+}
