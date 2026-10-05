@@ -1,0 +1,1351 @@
+{
+ "file": "02_belorive_patrimoine.pdf",
+ "model": "openai/gpt-oss-120b",
+ "pages": [
+  {
+   "page": 1,
+   "page_instructions": [
+    "L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés."
+   ],
+   "fields": [
+    {
+     "label": "Dénomination Sociale",
+     "description": "Legal name of the client",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b1"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f1",
+     "page": 1
+    },
+    {
+     "label": "Forme Juridique",
+     "description": "Legal form of the client",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b2"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f2",
+     "page": 1
+    },
+    {
+     "label": "Adresse du siège social",
+     "description": "Head office address",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b3"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f3",
+     "page": 1
+    },
+    {
+     "label": "Code postal",
+     "description": "Postal code",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b4"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f4",
+     "page": 1
+    },
+    {
+     "label": "Ville",
+     "description": "City",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b5"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f5",
+     "page": 1
+    },
+    {
+     "label": "Pays",
+     "description": "Country of the head office",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "country",
+     "areas": [
+      "p1_b6"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f6",
+     "page": 1
+    },
+    {
+     "label": "Adresse de l'établissement (si différent du siège social)",
+     "description": "Address of the establishment if different from the head office",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b7"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f7",
+     "page": 1
+    },
+    {
+     "label": "N° RCS",
+     "description": "Company registration number",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "identifier",
+     "areas": [
+      "p1_b8"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f8",
+     "page": 1
+    },
+    {
+     "label": "Lieu d'enregistrement",
+     "description": "Place of registration",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b9"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f9",
+     "page": 1
+    },
+    {
+     "label": "Autres numéros d'identification",
+     "description": "Other identification numbers",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b10"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f10",
+     "page": 1
+    },
+    {
+     "label": "Code NACE",
+     "description": "NACE activity code",
+     "section": "I- IDENTIFICATION DU CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b11"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f11",
+     "page": 1
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country of fiscal residence",
+     "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+     "type": "country",
+     "areas": [
+      "p1_b14"
+     ],
+     "options": [],
+     "group": "Residence 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f12",
+     "page": 1
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Fiscal identification number",
+     "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+     "type": "identifier",
+     "areas": [
+      "p1_b15"
+     ],
+     "options": [],
+     "group": "Residence 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f13",
+     "page": 1
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country of fiscal residence",
+     "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+     "type": "country",
+     "areas": [
+      "p1_b18"
+     ],
+     "options": [],
+     "group": "Residence 2",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f14",
+     "page": 1
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Fiscal identification number",
+     "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+     "type": "identifier",
+     "areas": [
+      "p1_b17"
+     ],
+     "options": [],
+     "group": "Residence 2",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f15",
+     "page": 1
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Fiscal identification number",
+     "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+     "type": "identifier",
+     "areas": [
+      "p1_b19"
+     ],
+     "options": [],
+     "group": "Residence 3",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f16",
+     "page": 1
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country of fiscal residence of the client.",
+     "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+     "type": "country",
+     "areas": [
+      "p1_b16"
+     ],
+     "options": [],
+     "group": "Residence 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p1_f17",
+     "page": 1
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p1_b13",
+     "reason": "part of explanatory text, not an answer place"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 2,
+   "page_instructions": [
+    "Veuillez cocher une des catégories (A), (B), (C) ou (D)* ci-dessous correspondant au client Personne Morale ou entité, et préciser la sous-catégorie associée*"
+   ],
+   "fields": [
+    {
+     "label": "Catégorie du client (A, B, C, D)",
+     "description": "Select the client category among A, B, C, or D.",
+     "section": "III - STATUT DU CLIENT (2)",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "A",
+       "area": "p2_b2"
+      },
+      {
+       "label": "B",
+       "area": "p2_b9"
+      },
+      {
+       "label": "C",
+       "area": "p2_b11"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f18",
+     "page": 2
+    },
+    {
+     "label": "Sous-catégorie A",
+     "description": "Specify the subcategory for an Active Non-Financial Entity.",
+     "section": "III - STATUT DU CLIENT (2)",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+       "area": "p2_b3"
+      },
+      {
+       "label": "Organisme sans but lucratif",
+       "area": "p2_b4"
+      },
+      {
+       "label": "Autre ENF Active",
+       "area": "p2_b5"
+      }
+     ],
+     "group": null,
+     "condition": "if A selected",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f19",
+     "page": 2
+    },
+    {
+     "label": "Autre ENF Active (précisez)",
+     "description": "Provide details for the 'Other Active NF Entity' subcategory.",
+     "section": "III - STATUT DU CLIENT (2)",
+     "type": "text",
+     "areas": [
+      "p2_b6",
+      "p2_b7"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if Autre ENF Active selected",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f20",
+     "page": 2
+    },
+    {
+     "label": "Numéro GIIN",
+     "description": "Enter the Global Intermediary Identification Number of the client.",
+     "section": "III - STATUT DU CLIENT (2)",
+     "type": "identifier",
+     "areas": [
+      "p2_b12",
+      "p2_b13",
+      "p2_b14",
+      "p2_b15",
+      "p2_b16",
+      "p2_b17",
+      "p2_b18",
+      "p2_b19",
+      "p2_b20",
+      "p2_b21",
+      "p2_b22",
+      "p2_b23",
+      "p2_b24",
+      "p2_b25",
+      "p2_b26",
+      "p2_b27"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if C selected",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f21",
+     "page": 2
+    },
+    {
+     "label": "Statut (si pas de GIIN)",
+     "description": "Specify the client status when a GIIN is not required.",
+     "section": "III - STATUT DU CLIENT (2)",
+     "type": "text",
+     "areas": [
+      "p2_b28"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if GIIN not applicable",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f22",
+     "page": 2
+    },
+    {
+     "label": "Entité d'investissement (50% revenus bruts d'activité d'investissement)",
+     "description": "Indicate whether the client is an investment entity with at least 50% of gross income from investment activities.",
+     "section": "III - STATUT DU CLIENT (2)",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p2_b29"
+      },
+      {
+       "label": "Non",
+       "area": "p2_b30"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f23",
+     "page": 2
+    },
+    {
+     "label": "Entités exemptées de la déclaration",
+     "description": "Select the exempted entity status applicable to the client.",
+     "section": "III - STATUT DU CLIENT",
+     "type": "multiple_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+       "area": "p2_b33"
+      },
+      {
+       "label": "Entité publique",
+       "area": "p2_b34"
+      },
+      {
+       "label": "Organisation internationale",
+       "area": "p2_b35"
+      },
+      {
+       "label": "Banque centrale",
+       "area": "p2_b36"
+      },
+      {
+       "label": "Entité exclue au sens de la règlementation FATCA et NCD ou DAC",
+       "area": "p2_b37"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "Veuillez cocher le statut correspondant",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p2_f24",
+     "page": 2
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p2_b32",
+     "reason": "Duplicate checkbox for category D already captured in earlier field"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 3,
+   "page_instructions": [
+    "Toutes les informations ci-dessous sont obligatoires",
+    "Un bénéficiaire effectif ne peut être qu'une personne physique",
+    "A noter que si un Bénéficiaire effectif a la nationalité/citoyenneté américaine, il convient de renseigner << Etats‑Unis d'Amérique >> en Pays de résidence fiscale",
+    "A noter que si un Bénéficiaire effectif a la nationalité/citoyenneté américaine, il convient de renseigner \"Etats-Unis d'Amérique\" en Pays de résidence fiscale",
+    "Si un Bénéficiaire effectif a la nationalité/citoyenneté américaine, indiquer \"Etats-Unis d'Amérique\" en Pays de résidence fiscale ainsi que le Numéro d'Identification Fiscale américain (TIN)",
+    "All information below is mandatory.",
+    "If a beneficial owner has US nationality, indicate \"Etats-Unis d'Amérique\" as country of fiscal residence and provide the US Tax Identification Number (TIN).",
+    "Do not fill the reserved section if no contradictions are reported."
+   ],
+   "fields": [
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country or countries of fiscal residence of the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b15"
+     ],
+     "options": [],
+     "group": "Beneficial owner 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f25",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Tax identification number of the beneficial owner (or NA if not applicable)",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b16"
+     ],
+     "options": [],
+     "group": "Beneficial owner 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f26",
+     "page": 3
+    },
+    {
+     "label": "% de détention direct",
+     "description": "Direct percentage of capital held by the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b11"
+     ],
+     "options": [],
+     "group": "Beneficial owner 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f27",
+     "page": 3
+    },
+    {
+     "label": "% de détention indirect",
+     "description": "Indirect percentage of capital held by the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b12"
+     ],
+     "options": [],
+     "group": "Beneficial owner 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f28",
+     "page": 3
+    },
+    {
+     "label": "% de vote des droits de vote",
+     "description": "Percentage of voting rights held by the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b13"
+     ],
+     "options": [],
+     "group": "Beneficial owner 1",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f29",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country or countries of fiscal residence of the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b18"
+     ],
+     "options": [],
+     "group": "Beneficial owner 2",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f30",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Tax identification number of the beneficial owner (or NA if not applicable)",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b19"
+     ],
+     "options": [],
+     "group": "Beneficial owner 2",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f31",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country of fiscal residence of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b9"
+     ],
+     "options": [],
+     "group": "Beneficial owner 3",
+     "condition": null,
+     "instructions": "Il convient d'indiquer TOUS les pays de domiciliation fiscale.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f32",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Tax identification number of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b10",
+      "p3_b21"
+     ],
+     "options": [],
+     "group": "Beneficial owner 3",
+     "condition": null,
+     "instructions": "ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f33",
+     "page": 3
+    },
+    {
+     "label": "Nom* (1) et Prénom* (2)",
+     "description": "Full name of the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "text",
+     "areas": [
+      "p3_b28"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f34",
+     "page": 3
+    },
+    {
+     "label": "Date de Naissance* (3) et Pays de Naissance* (4)",
+     "description": "Date of birth and country of birth of the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "text",
+     "areas": [
+      "p3_i3"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f35",
+     "page": 3
+    },
+    {
+     "label": "Nationalité(s)*(5)",
+     "description": "All nationalities held by the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "text",
+     "areas": [
+      "p3_b31"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f36",
+     "page": 3
+    },
+    {
+     "label": "Adresse complète de Résidence actuelle*(6)",
+     "description": "Current full residential address of the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "long_text",
+     "areas": [
+      "p3_b34",
+      "p3_b36"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f37",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Fiscal residence country of the beneficial owner",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b29",
+      "p3_b32"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f38",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Tax identification number of the beneficial owner (or NA if not applicable)",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b30",
+      "p3_b33",
+      "p3_b35",
+      "p3_b37"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f39",
+     "page": 3
+    },
+    {
+     "label": "Nom* (1) et Prénom* (2)",
+     "description": "Enter the full name and first name of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "text",
+     "areas": [
+      "p3_b44"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f40",
+     "page": 3
+    },
+    {
+     "label": "Date de Naissance* (3) et Pays de Naissance* (4)",
+     "description": "Provide the date of birth and country of birth of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "text",
+     "areas": [
+      "p3_b47"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f41",
+     "page": 3
+    },
+    {
+     "label": "Nationalité(s)*(5)",
+     "description": "List all nationalities held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "text",
+     "areas": [
+      "p3_b50"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f42",
+     "page": 3
+    },
+    {
+     "label": "Adresse complète de Résidence actuelle*(6)",
+     "description": "Enter the current full residential address of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "long_text",
+     "areas": [
+      "p3_b52"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f43",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Specify the tax residence country of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b45"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f44",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Enter the tax identification number of the beneficial owner, or NA if not applicable.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b46"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f45",
+     "page": 3
+    },
+    {
+     "label": "% de détention direct",
+     "description": "Indicate the percentage of direct ownership held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b41"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f46",
+     "page": 3
+    },
+    {
+     "label": "% de détention indirect",
+     "description": "Indicate the percentage of indirect ownership held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b42"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f47",
+     "page": 3
+    },
+    {
+     "label": "% de vote des droits de vote",
+     "description": "Indicate the percentage of voting rights held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b43"
+     ],
+     "options": [],
+     "group": "Beneficial owner 4",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f48",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Specify the tax residence country of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b48"
+     ],
+     "options": [],
+     "group": "Beneficial owner 5",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f49",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Enter the tax identification number of the beneficial owner, or NA if not applicable.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b49"
+     ],
+     "options": [],
+     "group": "Beneficial owner 5",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f50",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Specify the tax residence country of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b53"
+     ],
+     "options": [],
+     "group": "Beneficial owner 6",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f51",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Enter the tax identification number of the beneficial owner, or NA if not applicable.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b51"
+     ],
+     "options": [],
+     "group": "Beneficial owner 6",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f52",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Enter the tax identification number of the beneficial owner, or NA if not applicable.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b54"
+     ],
+     "options": [],
+     "group": "Beneficial owner 7",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f53",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country of fiscal residence of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b39"
+     ],
+     "options": [],
+     "group": "Beneficial owner 8",
+     "condition": null,
+     "instructions": "Indiquer tous les pays de domiciliation fiscale",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f54",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)",
+     "description": "Tax identification number of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b40"
+     ],
+     "options": [],
+     "group": "Beneficial owner 8",
+     "condition": null,
+     "instructions": "Indiquer le NIF ou \"NA\" si non applicable",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f55",
+     "page": 3
+    },
+    {
+     "label": "Pays de résidence fiscale*",
+     "description": "Country of fiscal residence of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "country",
+     "areas": [
+      "p3_b56"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f56",
+     "page": 3
+    },
+    {
+     "label": "Numéro d'Identification Fiscale (NIF)*",
+     "description": "Tax identification number of the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "identifier",
+     "areas": [
+      "p3_b57"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f57",
+     "page": 3
+    },
+    {
+     "label": "% de détention direct",
+     "description": "Direct percentage of capital held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b58"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f58",
+     "page": 3
+    },
+    {
+     "label": "% de détention indirect",
+     "description": "Indirect percentage of capital held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b59"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f59",
+     "page": 3
+    },
+    {
+     "label": "% de vote des droits de vote",
+     "description": "Percentage of voting rights held by the beneficial owner.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "percentage",
+     "areas": [
+      "p3_b60"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "02_p3_f60",
+     "page": 3
+    },
+    {
+     "label": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE",
+     "description": "Provide explanations for any inconsistencies detected between the self‑certification and other information held by the bank.",
+     "section": "III bis- INFORMATIONS RELATIVES AUX BÉNEFICIAIRES EFFECTIFS",
+     "type": "long_text",
+     "areas": [
+      "p3_b74"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": "Do not fill if no contradictions are reported.",
+     "bank_reserved": true,
+     "signature": false,
+     "id": "02_p3_f61",
+     "page": 3
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p3_b14",
+     "reason": "line for row label (1) et (2): not an answer place"
+    },
+    {
+     "area": "p3_b17",
+     "reason": "line for row label (5): not an answer place"
+    },
+    {
+     "area": "p3_b20",
+     "reason": "line for row label (6): not an answer place"
+    },
+    {
+     "area": "p3_i1",
+     "reason": "inferred label only, no answer value"
+    },
+    {
+     "area": "p3_i2",
+     "reason": "inferred label only, no answer value"
+    },
+    {
+     "area": "p3_b23",
+     "reason": "column header"
+    },
+    {
+     "area": "p3_b24",
+     "reason": "column header"
+    },
+    {
+     "area": "p3_b25",
+     "reason": "column header"
+    },
+    {
+     "area": "p3_b26",
+     "reason": "column header"
+    },
+    {
+     "area": "p3_b27",
+     "reason": "column header"
+    },
+    {
+     "area": "p3_b61",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b62",
+     "reason": "decorative line, not answer"
+    },
+    {
+     "area": "p3_b63",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b64",
+     "reason": "decorative line, not answer"
+    },
+    {
+     "area": "p3_b65",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b66",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b67",
+     "reason": "decorative line, not answer"
+    },
+    {
+     "area": "p3_b68",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b69",
+     "reason": "decorative line, not answer"
+    },
+    {
+     "area": "p3_b70",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b71",
+     "reason": "label line, not answer"
+    },
+    {
+     "area": "p3_b72",
+     "reason": "decorative line, not answer"
+    }
+   ],
+   "check_errors": [
+    "answer places discarded: ['p3_i1', 'p3_i2']"
+   ]
+  },
+  {
+   "page": 4,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Fait à*",
+     "description": "Place where the declaration was made",
+     "section": "IV - DÉCLARATION",
+     "type": "text",
+     "areas": [
+      "p4_b1"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "02_p4_f62",
+     "page": 4
+    },
+    {
+     "label": "le*",
+     "description": "Date of the declaration",
+     "section": "IV - DÉCLARATION",
+     "type": "date",
+     "areas": [
+      "p4_b2"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "02_p4_f63",
+     "page": 4
+    },
+    {
+     "label": "Nom*",
+     "description": "Surname of the signatory",
+     "section": "IV - DÉCLARATION",
+     "type": "text",
+     "areas": [
+      "p4_b3"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "02_p4_f64",
+     "page": 4
+    },
+    {
+     "label": "Prénom*",
+     "description": "First name of the signatory",
+     "section": "IV - DÉCLARATION",
+     "type": "text",
+     "areas": [
+      "p4_b4"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "02_p4_f65",
+     "page": 4
+    },
+    {
+     "label": "Fonction au sein de l'entité cliente*",
+     "description": "Job title of the signatory within the client entity",
+     "section": "IV - DÉCLARATION",
+     "type": "text",
+     "areas": [
+      "p4_b5"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "02_p4_f66",
+     "page": 4
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  }
+ ],
+ "usage": {
+  "input_tokens": 56432,
+  "output_tokens": 27032,
+  "requests": 11,
+  "seconds": 73.0,
+  "cost_usd": 0.0247
+ }
+}

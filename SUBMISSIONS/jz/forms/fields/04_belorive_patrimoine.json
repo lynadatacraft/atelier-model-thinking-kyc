@@ -1,0 +1,1255 @@
+{
+ "file": "04_belorive_patrimoine.pdf",
+ "model": "openai/gpt-oss-120b",
+ "pages": [
+  {
+   "page": 1,
+   "page_instructions": [
+    "Please answer all questions of this document."
+   ],
+   "fields": [
+    {
+     "label": "Company name",
+     "description": "Name of the client company",
+     "section": "Customer Information",
+     "type": "text",
+     "areas": [
+      "p1_b1"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p1_f1",
+     "page": 1
+    },
+    {
+     "label": "Country of Incorporation",
+     "description": "Country where the company is incorporated",
+     "section": "Customer Information",
+     "type": "country",
+     "areas": [
+      "p1_b2"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p1_f2",
+     "page": 1
+    },
+    {
+     "label": "Grid",
+     "description": "Internal grid reference",
+     "section": "Customer Information",
+     "type": "text",
+     "areas": [
+      "p1_b4"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": true,
+     "signature": false,
+     "id": "04_p1_f3",
+     "page": 1
+    },
+    {
+     "label": "La Banque des Entreprises Relationship Manager",
+     "description": "Name of the relationship manager",
+     "section": "Customer Information",
+     "type": "text",
+     "areas": [
+      "p1_b5"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p1_f4",
+     "page": 1
+    },
+    {
+     "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
+     "description": "Whether the client has any activity in a sanctioned jurisdiction",
+     "section": "Part 1",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p1_b10"
+      },
+      {
+       "label": "No",
+       "area": "p1_b9"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "Select Yes if any activity, otherwise No",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p1_f5",
+     "page": 1
+    },
+    {
+     "label": "Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry?",
+     "description": "Whether the client is involved in sanctioned Russian sectors",
+     "section": "Part 1",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p1_b13"
+      },
+      {
+       "label": "No",
+       "area": "p1_b14"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "Select Yes if engaged, otherwise No",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p1_f6",
+     "page": 1
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p1_b8",
+     "reason": "duplicate table cell, not an answer place"
+    },
+    {
+     "area": "p1_b15",
+     "reason": "question label cell, not an answer place"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 2,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
+     "description": "Indicates whether the client relies on an authorization or licence to deal with sanctioned parties, jurisdictions or export‑controlled goods/services.",
+     "section": "Sanctions questionnaire",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b7"
+      },
+      {
+       "label": "No",
+       "area": "p2_b8"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes is selected, please provide further details below.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p2_f7",
+     "page": 2
+    },
+    {
+     "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively \"Government\")?",
+     "description": "Asks whether the client or its entities are involved with the listed governments or entities controlled by them.",
+     "section": "Sanctions questionnaire",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b13"
+      },
+      {
+       "label": "No",
+       "area": "p2_b14"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes is selected, please provide further details on the activity.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p2_f8",
+     "page": 2
+    },
+    {
+     "label": "Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a Sanctioned Party, a Sanctioned Jurisdiction or the Government of any country listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
+     "description": "Determines whether the client plans to use the bank’s products or platforms for activities involving sanctioned parties, jurisdictions or listed governments.",
+     "section": "Sanctions questionnaire",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b18"
+      },
+      {
+       "label": "No",
+       "area": "p2_b19"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes is selected, specify the account/product/service and how it will be used; if No, describe the controls in place.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p2_f9",
+     "page": 2
+    },
+    {
+     "label": "Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity who is either: a) a Sanctioned Party; b) located, organized, registered in, or operating from a Sanctioned Jurisdiction; c) employed in a Sanctioned Jurisdiction; d) representing a governmental agency or authority of a Sanctioned Jurisdiction or any country listed in Question 4?",
+     "description": "Checks whether any controlling persons or entities are sanctioned or linked to sanctioned jurisdictions.",
+     "section": "Sanctions questionnaire",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b23"
+      },
+      {
+       "label": "No",
+       "area": "p2_b24"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes is selected, provide names of involved entities and percentage of ownership.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p2_f10",
+     "page": 2
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p2_b1",
+     "reason": "question number label"
+    },
+    {
+     "area": "p2_b2",
+     "reason": "duplicate question text cell"
+    },
+    {
+     "area": "p2_b3",
+     "reason": "column header (Yes)"
+    },
+    {
+     "area": "p2_b4",
+     "reason": "column header (No)"
+    },
+    {
+     "area": "p2_b9",
+     "reason": "duplicate tick box inside Yes column"
+    },
+    {
+     "area": "p2_b10",
+     "reason": "question text cell (duplicate)"
+    },
+    {
+     "area": "p2_b15",
+     "reason": "question text cell for question 4 (duplicate)"
+    },
+    {
+     "area": "p2_b20",
+     "reason": "question text cell for question 5 (duplicate)"
+    },
+    {
+     "area": "p2_b25",
+     "reason": "separator line"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 3,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "If \"Yes\" is selected please provide further details of the policy and/or program",
+     "description": "Provide details of the formal sanctions compliance policy or program.",
+     "section": "Question 7",
+     "type": "long_text",
+     "areas": [
+      "p3_b8"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if Yes to question 7",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f11",
+     "page": 3
+    },
+    {
+     "label": "If \"No\" is selected please provide further details on how you manage compliance with sanctions",
+     "description": "Explain how compliance with sanctions is managed without a formal policy.",
+     "section": "Question 7",
+     "type": "long_text",
+     "areas": [
+      "p3_b9"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if No to question 7",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f12",
+     "page": 3
+    },
+    {
+     "label": "Belarus | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level",
+     "description": "Percentage of revenue from the sanctioned jurisdiction at group level.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "percentage",
+     "areas": [
+      "p3_b11"
+     ],
+     "options": [],
+     "group": "Belarus",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f13",
+     "page": 3
+    },
+    {
+     "label": "Belarus | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction at group level.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "percentage",
+     "areas": [
+      "p3_b12"
+     ],
+     "options": [],
+     "group": "Belarus",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f14",
+     "page": 3
+    },
+    {
+     "label": "Belarus | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction at group level.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "percentage",
+     "areas": [
+      "p3_b13"
+     ],
+     "options": [],
+     "group": "Belarus",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f15",
+     "page": 3
+    },
+    {
+     "label": "Belarus | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level",
+     "description": "Names of entities and their exposure percentages.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "long_text",
+     "areas": [
+      "p3_b14"
+     ],
+     "options": [],
+     "group": "Belarus",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f16",
+     "page": 3
+    },
+    {
+     "label": "Crimea | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level",
+     "description": "Percentage of revenue from the sanctioned jurisdiction at group level.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "percentage",
+     "areas": [
+      "p3_b15"
+     ],
+     "options": [],
+     "group": "Crimea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f17",
+     "page": 3
+    },
+    {
+     "label": "Crimea | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction at group level.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "percentage",
+     "areas": [
+      "p3_b16"
+     ],
+     "options": [],
+     "group": "Crimea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f18",
+     "page": 3
+    },
+    {
+     "label": "Crimea | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction at group level.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "percentage",
+     "areas": [
+      "p3_b17"
+     ],
+     "options": [],
+     "group": "Crimea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f19",
+     "page": 3
+    },
+    {
+     "label": "Crimea | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level",
+     "description": "Names of entities and their exposure percentages.",
+     "section": "Part 2 – Sanctioned Jurisdictions",
+     "type": "long_text",
+     "areas": [
+      "p3_b18"
+     ],
+     "options": [],
+     "group": "Crimea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p3_f20",
+     "page": 3
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p3_b1",
+     "reason": "header cell with question number"
+    },
+    {
+     "area": "p3_b2",
+     "reason": "label cell unrelated to this page"
+    },
+    {
+     "area": "p3_b3",
+     "reason": "column header \"Yes\""
+    },
+    {
+     "area": "p3_b4",
+     "reason": "column header \"No\""
+    },
+    {
+     "area": "p3_b5",
+     "reason": "instruction text, not an answer field"
+    },
+    {
+     "area": "p3_b10",
+     "reason": "question label cell, not an answer field"
+    }
+   ],
+   "check_errors": [
+    "answer places discarded: ['p3_b5']"
+   ]
+  },
+  {
+   "page": 4,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Cuba | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b1"
+     ],
+     "options": [],
+     "group": "Cuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f21",
+     "page": 4
+    },
+    {
+     "label": "Cuba | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b2"
+     ],
+     "options": [],
+     "group": "Cuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f22",
+     "page": 4
+    },
+    {
+     "label": "Cuba | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b3"
+     ],
+     "options": [],
+     "group": "Cuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f23",
+     "page": 4
+    },
+    {
+     "label": "Cuba | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b4"
+     ],
+     "options": [],
+     "group": "Cuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f24",
+     "page": 4
+    },
+    {
+     "label": "Iran | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b5"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f25",
+     "page": 4
+    },
+    {
+     "label": "Iran | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b6"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f26",
+     "page": 4
+    },
+    {
+     "label": "Iran | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b7"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f27",
+     "page": 4
+    },
+    {
+     "label": "Iran | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b8"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f28",
+     "page": 4
+    },
+    {
+     "label": "North Korea | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b9"
+     ],
+     "options": [],
+     "group": "North Korea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f29",
+     "page": 4
+    },
+    {
+     "label": "North Korea | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b10"
+     ],
+     "options": [],
+     "group": "North Korea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f30",
+     "page": 4
+    },
+    {
+     "label": "North Korea | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b11"
+     ],
+     "options": [],
+     "group": "North Korea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f31",
+     "page": 4
+    },
+    {
+     "label": "North Korea | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b12"
+     ],
+     "options": [],
+     "group": "North Korea",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f32",
+     "page": 4
+    },
+    {
+     "label": "Russia | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b13"
+     ],
+     "options": [],
+     "group": "Russia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f33",
+     "page": 4
+    },
+    {
+     "label": "Russia | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b14"
+     ],
+     "options": [],
+     "group": "Russia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f34",
+     "page": 4
+    },
+    {
+     "label": "Russia | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b15"
+     ],
+     "options": [],
+     "group": "Russia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f35",
+     "page": 4
+    },
+    {
+     "label": "Russia | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b16"
+     ],
+     "options": [],
+     "group": "Russia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f36",
+     "page": 4
+    },
+    {
+     "label": "Sudan | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b17"
+     ],
+     "options": [],
+     "group": "Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f37",
+     "page": 4
+    },
+    {
+     "label": "Sudan | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b18"
+     ],
+     "options": [],
+     "group": "Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f38",
+     "page": 4
+    },
+    {
+     "label": "Sudan | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b19"
+     ],
+     "options": [],
+     "group": "Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f39",
+     "page": 4
+    },
+    {
+     "label": "Sudan | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b20"
+     ],
+     "options": [],
+     "group": "Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f40",
+     "page": 4
+    },
+    {
+     "label": "Syria | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b21"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f41",
+     "page": 4
+    },
+    {
+     "label": "Syria | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b22"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f42",
+     "page": 4
+    },
+    {
+     "label": "Syria | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b23"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f43",
+     "page": 4
+    },
+    {
+     "label": "Syria | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b24"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f44",
+     "page": 4
+    },
+    {
+     "label": "Zaporizhzhia | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b25"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f45",
+     "page": 4
+    },
+    {
+     "label": "Zaporizhzhia | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b26"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f46",
+     "page": 4
+    },
+    {
+     "label": "Zaporizhzhia | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b27"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f47",
+     "page": 4
+    },
+    {
+     "label": "Zaporizhzhia | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b28"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f48",
+     "page": 4
+    },
+    {
+     "label": "Kherson | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b29"
+     ],
+     "options": [],
+     "group": "Kherson",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f49",
+     "page": 4
+    },
+    {
+     "label": "Kherson | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b30"
+     ],
+     "options": [],
+     "group": "Kherson",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f50",
+     "page": 4
+    },
+    {
+     "label": "Kherson | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b31"
+     ],
+     "options": [],
+     "group": "Kherson",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f51",
+     "page": 4
+    },
+    {
+     "label": "Kherson | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b32"
+     ],
+     "options": [],
+     "group": "Kherson",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f52",
+     "page": 4
+    },
+    {
+     "label": "Donetsk | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b33"
+     ],
+     "options": [],
+     "group": "Donetsk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f53",
+     "page": 4
+    },
+    {
+     "label": "Donetsk | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b34"
+     ],
+     "options": [],
+     "group": "Donetsk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f54",
+     "page": 4
+    },
+    {
+     "label": "Donetsk | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b35"
+     ],
+     "options": [],
+     "group": "Donetsk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f55",
+     "page": 4
+    },
+    {
+     "label": "Donetsk | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b36"
+     ],
+     "options": [],
+     "group": "Donetsk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f56",
+     "page": 4
+    },
+    {
+     "label": "Luhansk | Revenue %",
+     "description": "Percentage of revenue derived from the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b37"
+     ],
+     "options": [],
+     "group": "Luhansk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f57",
+     "page": 4
+    },
+    {
+     "label": "Luhansk | Assets %",
+     "description": "Percentage of assets linked to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b38"
+     ],
+     "options": [],
+     "group": "Luhansk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f58",
+     "page": 4
+    },
+    {
+     "label": "Luhansk | Expenses %",
+     "description": "Percentage of expenses related to the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "number",
+     "areas": [
+      "p4_b39"
+     ],
+     "options": [],
+     "group": "Luhansk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f59",
+     "page": 4
+    },
+    {
+     "label": "Luhansk | Entity list",
+     "description": "Entities undertaking the activity in the sanctioned jurisdiction.",
+     "section": "Sanctions Exposure Confirmation",
+     "type": "long_text",
+     "areas": [
+      "p4_b40"
+     ],
+     "options": [],
+     "group": "Luhansk",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f60",
+     "page": 4
+    },
+    {
+     "label": "Name of submitter",
+     "description": "Name of the person submitting the questionnaire.",
+     "section": "Declaration",
+     "type": "text",
+     "areas": [
+      "p4_b42"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f61",
+     "page": 4
+    },
+    {
+     "label": "Name of company (including corp. suffix)",
+     "description": "Full legal name of the company.",
+     "section": "Declaration",
+     "type": "text",
+     "areas": [
+      "p4_b44"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f62",
+     "page": 4
+    },
+    {
+     "label": "Position within company",
+     "description": "Job title or position of the submitter within the company.",
+     "section": "Declaration",
+     "type": "text",
+     "areas": [
+      "p4_b46"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f63",
+     "page": 4
+    },
+    {
+     "label": "Date",
+     "description": "Date of submission.",
+     "section": "Declaration",
+     "type": "date",
+     "areas": [
+      "p4_b48"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "04_p4_f64",
+     "page": 4
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p4_b49",
+     "reason": "horizontal separator line, not an answer place"
+    }
+   ],
+   "check_errors": []
+  }
+ ],
+ "usage": {
+  "input_tokens": 33294,
+  "output_tokens": 15825,
+  "requests": 5,
+  "seconds": 44.0,
+  "cost_usd": 0.0145
+ }
+}

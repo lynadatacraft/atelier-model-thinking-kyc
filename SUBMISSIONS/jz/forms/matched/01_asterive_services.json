@@ -1,0 +1,3446 @@
+{
+ "file": "01_asterive_services.pdf",
+ "pages": [
+  {
+   "page": 1,
+   "width_pt": 595.4400024414062,
+   "height_pt": 842.0399780273438,
+   "boxes": [
+    {
+     "id": "p1_b1",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.1806,
+      0.274,
+      0.3168
+     ],
+     "text": "Votre établissement",
+     "contains": []
+    },
+    {
+     "id": "p1_b2",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.1806,
+      0.5955,
+      0.2108
+     ],
+     "text": "Dénomination sociale",
+     "contains": []
+    },
+    {
+     "id": "p1_b3",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.1806,
+      0.9404,
+      0.2108
+     ],
+     "answer_bbox_pt": [
+      356.0,
+      152.1,
+      560.0,
+      177.5
+     ],
+     "label_guess": "Dénomination sociale",
+     "label_source": "row | column",
+     "row_header": "Dénomination sociale",
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.181,
+      0.211
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises",
+       "id": "o1_4",
+       "dist": 0.0372
+      },
+      "left": {
+       "text": "Dénomination sociale",
+       "id": "o1_5",
+       "dist": 0.1351
+      },
+      "below": {
+       "text": "Oui Non",
+       "id": "o1_15",
+       "dist": 0.0432
+      }
+     }
+    },
+    {
+     "id": "p1_b4",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.2131,
+      0.5955,
+      0.2433
+     ],
+     "text": "Code SIREN / n° d'enregistrement",
+     "contains": []
+    },
+    {
+     "id": "p1_b5",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.2131,
+      0.9404,
+      0.2433
+     ],
+     "answer_bbox_pt": [
+      356.0,
+      179.4,
+      560.0,
+      204.9
+     ],
+     "label_guess": "Code SIREN / n° d'enregistrement",
+     "label_source": "row | column",
+     "row_header": "Code SIREN / n° d'enregistrement",
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.213,
+      0.243
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises",
+       "id": "o1_4",
+       "dist": 0.0697
+      },
+      "left": {
+       "text": "Code SIREN / n° d'enregistrement",
+       "id": "o1_6",
+       "dist": 0.0369
+      },
+      "below": {
+       "text": "Oui Non",
+       "id": "o1_15",
+       "dist": 0.0107
+      }
+     }
+    },
+    {
+     "id": "p1_b6",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.245,
+      0.5955,
+      0.3168
+     ],
+     "text": "Société cotée",
+     "contains": []
+    },
+    {
+     "id": "p1_b7",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.245,
+      0.9404,
+      0.3168
+     ],
+     "answer_bbox_pt": [
+      465.9,
+      206.3,
+      560.0,
+      266.8
+     ],
+     "label_guess": "Oui Non Marché de cotation :",
+     "label_source": "label inside the cell",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.245,
+      0.317
+     ],
+     "neighbours": {
+      "inside": [
+       {
+        "text": "Oui Non",
+        "id": "o1_15"
+       },
+       {
+        "text": "Marché de cotation :",
+        "id": "o1_16"
+       }
+      ],
+      "above": {
+       "text": "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises",
+       "id": "o1_4",
+       "dist": 0.1016
+      },
+      "left": {
+       "text": "Société cotée",
+       "id": "o1_8",
+       "dist": 0.2041
+      },
+      "below": {
+       "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur,",
+       "id": "o1_18",
+       "dist": 0.2181
+      }
+     }
+    },
+    {
+     "id": "p1_b8",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.2547,
+      0.6197,
+      0.2638
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      214.5,
+      369.0,
+      222.1
+     ],
+     "label_guess": "Oui Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": "p1_b7",
+     "row_band": [
+      0.245,
+      0.317
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises",
+       "id": "o1_4",
+       "dist": 0.1113
+      },
+      "right": {
+       "text": "Oui Non",
+       "id": "o1_15",
+       "dist": -0.001
+      },
+      "below": {
+       "text": "Marché de cotation :",
+       "id": "o1_16",
+       "dist": 0.023
+      }
+     }
+    },
+    {
+     "id": "p1_b9",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.6543,
+      0.2547,
+      0.668,
+      0.2638
+     ],
+     "answer_bbox_pt": [
+      389.6,
+      214.5,
+      397.8,
+      222.1
+     ],
+     "label_guess": "Marché de cotation :",
+     "label_source": "below",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": "p1_b7",
+     "row_band": [
+      0.245,
+      0.317
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises",
+       "id": "o1_4",
+       "dist": 0.1113
+      },
+      "below": {
+       "text": "Marché de cotation :",
+       "id": "o1_16",
+       "dist": 0.023
+      }
+     }
+    },
+    {
+     "id": "p1_b10",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.3487,
+      0.274,
+      0.4752
+     ],
+     "text": "Votre maison mère (si filiale)",
+     "contains": []
+    },
+    {
+     "id": "p1_b11",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.3487,
+      0.5955,
+      0.3789
+     ],
+     "text": "Nom de la maison mère",
+     "contains": []
+    },
+    {
+     "id": "p1_b12",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.3487,
+      0.9404,
+      0.3789
+     ],
+     "answer_bbox_pt": [
+      356.0,
+      293.6,
+      560.0,
+      319.0
+     ],
+     "label_guess": "Nom de la maison mère",
+     "label_source": "row | column",
+     "row_header": "Nom de la maison mère",
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.349,
+      0.379
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "Marché de cotation :",
+       "id": "o1_16",
+       "dist": 0.0522
+      },
+      "left": {
+       "text": "Nom de la maison mère",
+       "id": "o1_11",
+       "dist": 0.1184
+      },
+      "below": {
+       "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur,",
+       "id": "o1_18",
+       "dist": 0.156
+      }
+     }
+    },
+    {
+     "id": "p1_b13",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.3806,
+      0.5955,
+      0.4108
+     ],
+     "text": "Pays d'immatriculation",
+     "contains": []
+    },
+    {
+     "id": "p1_b14",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.3806,
+      0.9404,
+      0.4108
+     ],
+     "answer_bbox_pt": [
+      356.0,
+      320.5,
+      560.0,
+      345.9
+     ],
+     "label_guess": "Pays d'immatriculation",
+     "label_source": "row | column",
+     "row_header": "Pays d'immatriculation",
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.381,
+      0.411
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "Marché de cotation :",
+       "id": "o1_16",
+       "dist": 0.0841
+      },
+      "left": {
+       "text": "Pays d'immatriculation",
+       "id": "o1_12",
+       "dist": 0.1273
+      },
+      "below": {
+       "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur,",
+       "id": "o1_18",
+       "dist": 0.1241
+      }
+     }
+    },
+    {
+     "id": "p1_b15",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.4131,
+      0.5955,
+      0.4433
+     ],
+     "text": "Pays de résidence fiscale",
+     "contains": []
+    },
+    {
+     "id": "p1_b16",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.4131,
+      0.9404,
+      0.4433
+     ],
+     "answer_bbox_pt": [
+      356.0,
+      347.8,
+      560.0,
+      373.3
+     ],
+     "label_guess": "Pays de résidence fiscale",
+     "label_source": "row | column",
+     "row_header": "Pays de résidence fiscale",
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.413,
+      0.443
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "Marché de cotation :",
+       "id": "o1_16",
+       "dist": 0.1166
+      },
+      "left": {
+       "text": "Pays de résidence fiscale",
+       "id": "o1_13",
+       "dist": 0.1125
+      },
+      "below": {
+       "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur,",
+       "id": "o1_18",
+       "dist": 0.0916
+      }
+     }
+    },
+    {
+     "id": "p1_b17",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.2764,
+      0.445,
+      0.5955,
+      0.4752
+     ],
+     "text": "Adresse de la maison mère",
+     "contains": []
+    },
+    {
+     "id": "p1_b18",
+     "kind": "cell",
+     "role": "answer",
+     "bbox": [
+      0.5979,
+      0.445,
+      0.9404,
+      0.4752
+     ],
+     "answer_bbox_pt": [
+      356.0,
+      374.7,
+      560.0,
+      400.1
+     ],
+     "label_guess": "Adresse de la maison mère",
+     "label_source": "row | column",
+     "row_header": "Adresse de la maison mère",
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "container": null,
+     "row_band": [
+      0.445,
+      0.475
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "Marché de cotation :",
+       "id": "o1_16",
+       "dist": 0.1485
+      },
+      "left": {
+       "text": "Adresse de la maison mère",
+       "id": "o1_14",
+       "dist": 0.0928
+      },
+      "below": {
+       "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur,",
+       "id": "o1_18",
+       "dist": 0.0597
+      }
+     }
+    },
+    {
+     "id": "p1_b19",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.0629,
+      0.5362,
+      0.9404,
+      0.5863
+     ],
+     "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur, etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+     "contains": []
+    },
+    {
+     "id": "p1_b20",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.588,
+      0.274,
+      0.6268
+     ],
+     "text": "Corée du nord",
+     "contains": []
+    },
+    {
+     "id": "p1_b21",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.588,
+      0.9404,
+      0.6268
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b22",
+      "p1_b23",
+      "p1_b24"
+     ]
+    },
+    {
+     "id": "p1_b22",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.5977,
+      0.2981,
+      0.6074
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      503.3,
+      177.5,
+      511.5
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b21",
+     "row_band": [
+      0.588,
+      0.627
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.0292
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_21",
+       "dist": 0.0035
+      }
+     }
+    },
+    {
+     "id": "p1_b23",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.5977,
+      0.4746,
+      0.6074
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      503.3,
+      282.6,
+      511.5
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b21",
+     "row_band": [
+      0.588,
+      0.627
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.0292
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_21",
+       "dist": 0.1298
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_22",
+       "dist": 0.0025
+      }
+     }
+    },
+    {
+     "id": "p1_b24",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.5977,
+      0.6197,
+      0.6074
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      503.3,
+      369.0,
+      511.5
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b21",
+     "row_band": [
+      0.588,
+      0.627
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.0292
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_22",
+       "dist": 0.0914
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_23",
+       "dist": 0.002
+      }
+     }
+    },
+    {
+     "id": "p1_b25",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.6291,
+      0.274,
+      0.6678
+     ],
+     "text": "Crimée",
+     "contains": []
+    },
+    {
+     "id": "p1_b26",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.6291,
+      0.9404,
+      0.6678
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b27",
+      "p1_b28",
+      "p1_b29"
+     ]
+    },
+    {
+     "id": "p1_b27",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.6387,
+      0.2981,
+      0.6479
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      537.8,
+      177.5,
+      545.6
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b26",
+     "row_band": [
+      0.629,
+      0.668
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.0702
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_25",
+       "dist": 0.0035
+      }
+     }
+    },
+    {
+     "id": "p1_b28",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.6387,
+      0.4746,
+      0.6479
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      537.8,
+      282.6,
+      545.6
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b26",
+     "row_band": [
+      0.629,
+      0.668
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.0702
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_25",
+       "dist": 0.1298
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_26",
+       "dist": 0.0025
+      }
+     }
+    },
+    {
+     "id": "p1_b29",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.6387,
+      0.6197,
+      0.6479
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      537.8,
+      369.0,
+      545.6
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b26",
+     "row_band": [
+      0.629,
+      0.668
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.0702
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_26",
+       "dist": 0.0908
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_27",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b30",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.6695,
+      0.274,
+      0.7088
+     ],
+     "text": "Cuba",
+     "contains": []
+    },
+    {
+     "id": "p1_b31",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.6695,
+      0.9404,
+      0.7088
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b32",
+      "p1_b33",
+      "p1_b34"
+     ]
+    },
+    {
+     "id": "p1_b32",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.6792,
+      0.2981,
+      0.6883
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      571.9,
+      177.5,
+      579.6
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b31",
+     "row_band": [
+      0.669,
+      0.709
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1107
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_29",
+       "dist": 0.0041
+      }
+     }
+    },
+    {
+     "id": "p1_b33",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.6792,
+      0.4754,
+      0.6883
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      571.9,
+      283.1,
+      579.6
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b31",
+     "row_band": [
+      0.669,
+      0.709
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1107
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_29",
+       "dist": 0.1292
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_30",
+       "dist": 0.0017
+      }
+     }
+    },
+    {
+     "id": "p1_b34",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.6792,
+      0.6197,
+      0.6883
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      571.9,
+      369.0,
+      579.6
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b31",
+     "row_band": [
+      0.669,
+      0.709
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1107
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_30",
+       "dist": 0.0914
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_31",
+       "dist": 0.0025
+      }
+     }
+    },
+    {
+     "id": "p1_b35",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.7105,
+      0.274,
+      0.7493
+     ],
+     "text": "Irak",
+     "contains": []
+    },
+    {
+     "id": "p1_b36",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.7105,
+      0.9404,
+      0.7493
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b37",
+      "p1_b38",
+      "p1_b39"
+     ]
+    },
+    {
+     "id": "p1_b37",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.7197,
+      0.2981,
+      0.7293
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      606.0,
+      177.5,
+      614.1
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b36",
+     "row_band": [
+      0.711,
+      0.749
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1512
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_33",
+       "dist": 0.0035
+      }
+     }
+    },
+    {
+     "id": "p1_b38",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.7197,
+      0.4754,
+      0.7293
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      606.0,
+      283.1,
+      614.1
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b36",
+     "row_band": [
+      0.711,
+      0.749
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1512
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_33",
+       "dist": 0.1286
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_34",
+       "dist": 0.0023
+      }
+     }
+    },
+    {
+     "id": "p1_b39",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.7197,
+      0.6197,
+      0.7293
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      606.0,
+      369.0,
+      614.1
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b36",
+     "row_band": [
+      0.711,
+      0.749
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1512
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_34",
+       "dist": 0.0908
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_35",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b40",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.7516,
+      0.274,
+      0.7903
+     ],
+     "text": "Iran",
+     "contains": []
+    },
+    {
+     "id": "p1_b41",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.7516,
+      0.9404,
+      0.7903
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b42",
+      "p1_b43",
+      "p1_b44"
+     ]
+    },
+    {
+     "id": "p1_b42",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.7607,
+      0.2981,
+      0.7704
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      640.5,
+      177.5,
+      648.7
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b41",
+     "row_band": [
+      0.752,
+      0.79
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1922
+      },
+      "left": {
+       "text": "Iran",
+       "id": "o1_36",
+       "dist": 0.1824
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_37",
+       "dist": 0.0047
+      }
+     }
+    },
+    {
+     "id": "p1_b43",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.7607,
+      0.4754,
+      0.7704
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      640.5,
+      283.1,
+      648.7
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b41",
+     "row_band": [
+      0.752,
+      0.79
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1922
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_37",
+       "dist": 0.1292
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_38",
+       "dist": 0.0023
+      }
+     }
+    },
+    {
+     "id": "p1_b44",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.7607,
+      0.6197,
+      0.7704
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      640.5,
+      369.0,
+      648.7
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b41",
+     "row_band": [
+      0.752,
+      0.79
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.1922
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_38",
+       "dist": 0.0914
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_39",
+       "dist": 0.0025
+      }
+     }
+    },
+    {
+     "id": "p1_b45",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.792,
+      0.274,
+      0.8308
+     ],
+     "text": "Myanmar",
+     "contains": []
+    },
+    {
+     "id": "p1_b46",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.792,
+      0.9404,
+      0.8308
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b47",
+      "p1_b48",
+      "p1_b49"
+     ]
+    },
+    {
+     "id": "p1_b47",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.8011,
+      0.299,
+      0.8108
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      674.6,
+      178.0,
+      682.7
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b46",
+     "row_band": [
+      0.792,
+      0.831
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.2326
+      },
+      "left": {
+       "text": "Myanmar",
+       "id": "o1_40",
+       "dist": 0.1342
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_41",
+       "dist": 0.0026
+      }
+     }
+    },
+    {
+     "id": "p1_b48",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.8011,
+      0.4746,
+      0.8108
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      674.6,
+      282.6,
+      682.7
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b46",
+     "row_band": [
+      0.792,
+      0.831
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.2326
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_41",
+       "dist": 0.1298
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_42",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b49",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.8017,
+      0.6197,
+      0.8108
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      675.1,
+      369.0,
+      682.7
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b46",
+     "row_band": [
+      0.792,
+      0.831
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.2332
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_42",
+       "dist": 0.0908
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_43",
+       "dist": 0.002
+      }
+     }
+    },
+    {
+     "id": "p1_b50",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.8325,
+      0.274,
+      0.8718
+     ],
+     "text": "Russie",
+     "contains": []
+    },
+    {
+     "id": "p1_b51",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.8325,
+      0.9404,
+      0.8718
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b52",
+      "p1_b53",
+      "p1_b54"
+     ]
+    },
+    {
+     "id": "p1_b52",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.8422,
+      0.2981,
+      0.8513
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      709.2,
+      177.5,
+      716.8
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b51",
+     "row_band": [
+      0.833,
+      0.872
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.2737
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_45",
+       "dist": 0.0029
+      }
+     }
+    },
+    {
+     "id": "p1_b53",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.8422,
+      0.4746,
+      0.8513
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      709.2,
+      282.6,
+      716.8
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b51",
+     "row_band": [
+      0.833,
+      0.872
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.2737
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_45",
+       "dist": 0.1292
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_46",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b54",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.8422,
+      0.6197,
+      0.8513
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      709.2,
+      369.0,
+      716.8
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b51",
+     "row_band": [
+      0.833,
+      0.872
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.2737
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_46",
+       "dist": 0.0908
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_47",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b55",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.8735,
+      0.274,
+      0.9123
+     ],
+     "text": "Soudan",
+     "contains": []
+    },
+    {
+     "id": "p1_b56",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.8735,
+      0.9404,
+      0.9123
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b57",
+      "p1_b58",
+      "p1_b59"
+     ]
+    },
+    {
+     "id": "p1_b57",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.8832,
+      0.2981,
+      0.8923
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      743.7,
+      177.5,
+      751.4
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b56",
+     "row_band": [
+      0.874,
+      0.912
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.3147
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_49",
+       "dist": 0.0029
+      }
+     }
+    },
+    {
+     "id": "p1_b58",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.8832,
+      0.4746,
+      0.8923
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      743.7,
+      282.6,
+      751.4
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b56",
+     "row_band": [
+      0.874,
+      0.912
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.3147
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_49",
+       "dist": 0.1298
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_50",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b59",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.8832,
+      0.6197,
+      0.8923
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      743.7,
+      369.0,
+      751.4
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b56",
+     "row_band": [
+      0.874,
+      0.912
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.3147
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_50",
+       "dist": 0.0914
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_51",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b60",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.914,
+      0.274,
+      0.9533
+     ],
+     "text": "Sud-Soudan",
+     "contains": []
+    },
+    {
+     "id": "p1_b61",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.914,
+      0.9404,
+      0.9533
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p1_b62",
+      "p1_b63",
+      "p1_b64"
+     ]
+    },
+    {
+     "id": "p1_b62",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.9236,
+      0.2981,
+      0.9333
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      777.7,
+      177.5,
+      785.9
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b61",
+     "row_band": [
+      0.914,
+      0.953
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.3551
+      },
+      "left": {
+       "text": "Sud-Soudan",
+       "id": "o1_52",
+       "dist": 0.1187
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o1_53",
+       "dist": 0.0047
+      }
+     }
+    },
+    {
+     "id": "p1_b63",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.9236,
+      0.4746,
+      0.9333
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      777.7,
+      282.6,
+      785.9
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b61",
+     "row_band": [
+      0.914,
+      0.953
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.3551
+      },
+      "left": {
+       "text": "Oui",
+       "id": "o1_53",
+       "dist": 0.1292
+      },
+      "right": {
+       "text": "Non",
+       "id": "o1_54",
+       "dist": 0.0031
+      }
+     }
+    },
+    {
+     "id": "p1_b64",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.9236,
+      0.6197,
+      0.9333
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      777.7,
+      369.0,
+      785.9
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p1_b61",
+     "row_band": [
+      0.914,
+      0.953
+     ],
+     "neighbours": {
+      "inside": [],
+      "above": {
+       "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+       "id": "o1_19",
+       "dist": 0.3551
+      },
+      "left": {
+       "text": "Non",
+       "id": "o1_54",
+       "dist": 0.0908
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o1_55",
+       "dist": 0.0025
+      }
+     }
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "width_pt": 595.4400024414062,
+   "height_pt": 842.0399780273438,
+   "boxes": [
+    {
+     "id": "p2_b1",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.0724,
+      0.274,
+      0.1111
+     ],
+     "text": "Syrie",
+     "contains": []
+    },
+    {
+     "id": "p2_b2",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.0724,
+      0.9404,
+      0.1111
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p2_b3",
+      "p2_b4",
+      "p2_b5"
+     ]
+    },
+    {
+     "id": "p2_b3",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.0815,
+      0.2981,
+      0.0912
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      68.6,
+      177.5,
+      76.8
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p2_b2",
+     "row_band": [
+      0.072,
+      0.111
+     ],
+     "neighbours": {
+      "inside": [],
+      "left": {
+       "text": "Syrie",
+       "id": "o2_56",
+       "dist": 0.1741
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o2_57",
+       "dist": 0.0035
+      },
+      "below": {
+       "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+       "id": "o2_66",
+       "dist": 0.0909
+      }
+     }
+    },
+    {
+     "id": "p2_b4",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.0815,
+      0.4754,
+      0.0912
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      68.6,
+      283.1,
+      76.8
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p2_b2",
+     "row_band": [
+      0.072,
+      0.111
+     ],
+     "neighbours": {
+      "inside": [],
+      "left": {
+       "text": "Oui",
+       "id": "o2_57",
+       "dist": 0.1292
+      },
+      "above": {
+       "text": "des Entreprises",
+       "id": "o2_61",
+       "dist": 0.0176
+      },
+      "right": {
+       "text": "Non",
+       "id": "o2_62",
+       "dist": 0.0023
+      },
+      "below": {
+       "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+       "id": "o2_66",
+       "dist": 0.0909
+      }
+     }
+    },
+    {
+     "id": "p2_b5",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.0815,
+      0.6197,
+      0.0912
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      68.6,
+      369.0,
+      76.8
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p2_b2",
+     "row_band": [
+      0.072,
+      0.111
+     ],
+     "neighbours": {
+      "inside": [],
+      "left": {
+       "text": "Non",
+       "id": "o2_62",
+       "dist": 0.0908
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o2_63",
+       "dist": 0.002
+      },
+      "below": {
+       "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+       "id": "o2_66",
+       "dist": 0.0909
+      }
+     }
+    },
+    {
+     "id": "p2_b6",
+     "kind": "cell",
+     "role": "label",
+     "bbox": [
+      0.062,
+      0.1128,
+      0.274,
+      0.1516
+     ],
+     "text": "Venezuela",
+     "contains": []
+    },
+    {
+     "id": "p2_b7",
+     "kind": "cell",
+     "role": "container",
+     "bbox": [
+      0.2764,
+      0.1128,
+      0.9404,
+      0.1516
+     ],
+     "text": "Oui Non Envisagée",
+     "contains": [
+      "p2_b8",
+      "p2_b9",
+      "p2_b10"
+     ]
+    },
+    {
+     "id": "p2_b8",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.2853,
+      0.1225,
+      0.2981,
+      0.1322
+     ],
+     "answer_bbox_pt": [
+      169.9,
+      103.1,
+      177.5,
+      111.3
+     ],
+     "label_guess": "Oui",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p2_b7",
+     "row_band": [
+      0.113,
+      0.152
+     ],
+     "neighbours": {
+      "inside": [],
+      "left": {
+       "text": "Venezuela",
+       "id": "o2_58",
+       "dist": 0.1318
+      },
+      "right": {
+       "text": "Oui",
+       "id": "o2_59",
+       "dist": 0.0041
+      },
+      "below": {
+       "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+       "id": "o2_66",
+       "dist": 0.0499
+      }
+     }
+    },
+    {
+     "id": "p2_b9",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.4617,
+      0.1225,
+      0.4746,
+      0.1322
+     ],
+     "answer_bbox_pt": [
+      274.9,
+      103.1,
+      282.6,
+      111.3
+     ],
+     "label_guess": "Non",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p2_b7",
+     "row_band": [
+      0.113,
+      0.152
+     ],
+     "neighbours": {
+      "inside": [],
+      "left": {
+       "text": "Oui",
+       "id": "o2_59",
+       "dist": 0.1292
+      },
+      "above": {
+       "text": "des Entreprises",
+       "id": "o2_61",
+       "dist": 0.0586
+      },
+      "right": {
+       "text": "Non",
+       "id": "o2_64",
+       "dist": 0.0031
+      },
+      "below": {
+       "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+       "id": "o2_66",
+       "dist": 0.0499
+      }
+     }
+    },
+    {
+     "id": "p2_b10",
+     "kind": "checkbox",
+     "role": "checkbox",
+     "bbox": [
+      0.606,
+      0.1225,
+      0.6197,
+      0.1322
+     ],
+     "answer_bbox_pt": [
+      360.8,
+      103.1,
+      369.0,
+      111.3
+     ],
+     "label_guess": "Envisagée",
+     "label_source": "right",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": "p2_b7",
+     "row_band": [
+      0.113,
+      0.152
+     ],
+     "neighbours": {
+      "inside": [],
+      "left": {
+       "text": "Non",
+       "id": "o2_64",
+       "dist": 0.0914
+      },
+      "right": {
+       "text": "Envisagée",
+       "id": "o2_65",
+       "dist": 0.0014
+      },
+      "below": {
+       "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+       "id": "o2_66",
+       "dist": 0.0499
+      }
+     }
+    },
+    {
+     "id": "p2_i1",
+     "kind": "inferred",
+     "role": "answer",
+     "bbox": [
+      0.1989,
+      0.2582,
+      0.95,
+      0.2712
+     ],
+     "answer_bbox_pt": [
+      118.4,
+      217.4,
+      565.7,
+      228.4
+     ],
+     "label_guess": "Représenté par :",
+     "label_source": "label with no box next to it",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": null
+    },
+    {
+     "id": "p2_i2",
+     "kind": "inferred",
+     "role": "answer",
+     "bbox": [
+      0.1805,
+      0.2872,
+      0.95,
+      0.2998
+     ],
+     "answer_bbox_pt": [
+      107.5,
+      241.8,
+      565.7,
+      252.4
+     ],
+     "label_guess": "En qualité de :",
+     "label_source": "label with no box next to it",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": null
+    },
+    {
+     "id": "p2_i3",
+     "kind": "inferred",
+     "role": "answer",
+     "bbox": [
+      0.1293,
+      0.3162,
+      0.95,
+      0.3297
+     ],
+     "answer_bbox_pt": [
+      77.0,
+      266.3,
+      565.7,
+      277.6
+     ],
+     "label_guess": "Signé le",
+     "label_source": "label with no box next to it",
+     "row_header": null,
+     "column_header": null,
+     "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :",
+     "container": null
+    }
+   ]
+  }
+ ],
+ "outline": [
+  {
+   "id": "o1_0",
+   "page": 1,
+   "text": "اله",
+   "bbox": [
+    0.3194527,
+    0.036585364,
+    0.36644855,
+    0.063498735
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": ""
+  },
+  {
+   "id": "o1_1",
+   "page": 1,
+   "text": "La Banque",
+   "bbox": [
+    0.37894112,
+    0.033221193,
+    0.48185605,
+    0.04667788
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": ""
+  },
+  {
+   "id": "o1_2",
+   "page": 1,
+   "text": "des Entreprises",
+   "bbox": [
+    0.37775135,
+    0.051303618,
+    0.52885187,
+    0.06433978
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": ""
+  },
+  {
+   "id": "o1_3",
+   "page": 1,
+   "text": "FICHE CONNAISSANCE CLIENT",
+   "bbox": [
+    0.33670434,
+    0.093776286,
+    0.6650803,
+    0.10765349
+   ],
+   "type": "heading-1",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_4",
+   "page": 1,
+   "text": "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises",
+   "bbox": [
+    0.18441404,
+    0.127418,
+    0.81320643,
+    0.14339781
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_5",
+   "page": 1,
+   "text": "Dénomination sociale",
+   "bbox": [
+    0.28375965,
+    0.17956266,
+    0.46281976,
+    0.19091673
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_6",
+   "page": 1,
+   "text": "Code SIREN / n° d'enregistrement",
+   "bbox": [
+    0.28435454,
+    0.21236333,
+    0.5609756,
+    0.22497897
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_7",
+   "page": 1,
+   "text": "Votre établissement",
+   "bbox": [
+    0.083878644,
+    0.2333894,
+    0.25163594,
+    0.24390244
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_8",
+   "page": 1,
+   "text": "Société cotée",
+   "bbox": [
+    0.28435454,
+    0.26492852,
+    0.3938132,
+    0.27544156
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_9",
+   "page": 1,
+   "text": "Votre maison mère (si",
+   "bbox": [
+    0.07614515,
+    0.38561818,
+    0.256395,
+    0.39907485
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_10",
+   "page": 1,
+   "text": "filiale)",
+   "bbox": [
+    0.14277215,
+    0.4058032,
+    0.19155265,
+    0.41883937
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_11",
+   "page": 1,
+   "text": "Nom de la maison mère",
+   "bbox": [
+    0.2825699,
+    0.34819177,
+    0.4794765,
+    0.35912532
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_12",
+   "page": 1,
+   "text": "Pays d'immatriculation",
+   "bbox": [
+    0.28435454,
+    0.3801514,
+    0.47055325,
+    0.39276704
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_13",
+   "page": 1,
+   "text": "Pays de résidence fiscale",
+   "bbox": [
+    0.28435454,
+    0.412111,
+    0.48542535,
+    0.42472667
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_14",
+   "page": 1,
+   "text": "Adresse de la maison mère",
+   "bbox": [
+    0.28078523,
+    0.44449118,
+    0.5050565,
+    0.45542473
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_15",
+   "page": 1,
+   "text": "Oui Non",
+   "bbox": [
+    0.61867934,
+    0.25399494,
+    0.7019631,
+    0.26324642
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_16",
+   "page": 1,
+   "text": "Marché de cotation :",
+   "bbox": [
+    0.6044021,
+    0.28679562,
+    0.7763236,
+    0.29646763
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT"
+  },
+  {
+   "id": "o1_17",
+   "page": 1,
+   "text": "Vos activités internationales :",
+   "bbox": [
+    0.060083285,
+    0.50546676,
+    0.30577037,
+    0.51724136
+   ],
+   "type": "heading-2",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_18",
+   "page": 1,
+   "text": "Etes-vous en relation d'affaires directement ou indirectement avec une contrepartie (client, fournisseur,",
+   "bbox": [
+    0.06543724,
+    0.5349033,
+    0.9321832,
+    0.5487805
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_19",
+   "page": 1,
+   "text": "etc.), et/ou avez-vous une implantation (succursale, filiale, etc.) située dans les pays suivants ?",
+   "bbox": [
+    0.069601424,
+    0.5546678,
+    0.8590125,
+    0.568545
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_20",
+   "page": 1,
+   "text": "Corée du nord",
+   "bbox": [
+    0.06900655,
+    0.5920942,
+    0.1861987,
+    0.60218674
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_21",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30160618,
+    0.5967199,
+    0.33194527,
+    0.6063919
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_22",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47709697,
+    0.5979815,
+    0.51457465,
+    0.6068125
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_23",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.6216538,
+    0.5967199,
+    0.70910174,
+    0.60891503
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_24",
+   "page": 1,
+   "text": "Crimée",
+   "bbox": [
+    0.06781678,
+    0.6337258,
+    0.13146937,
+    0.6429773
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_25",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30160618,
+    0.63751054,
+    0.33194527,
+    0.6471825
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_26",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47709697,
+    0.63835156,
+    0.51516956,
+    0.64760303
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_27",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62284356,
+    0.63751054,
+    0.70731705,
+    0.64970565
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_28",
+   "page": 1,
+   "text": "Cuba",
+   "bbox": [
+    0.06662701,
+    0.67367536,
+    0.112433076,
+    0.68334734
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_29",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30220106,
+    0.6783011,
+    0.33254015,
+    0.6879731
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_30",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47709697,
+    0.6791421,
+    0.51457465,
+    0.6879731
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_31",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62224865,
+    0.6778806,
+    0.7096966,
+    0.6900757
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_32",
+   "page": 1,
+   "text": "Irak",
+   "bbox": [
+    0.06841166,
+    0.7148865,
+    0.10113028,
+    0.7241379
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_33",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30160618,
+    0.7195122,
+    0.33313504,
+    0.7283431
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_34",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.7195122,
+    0.51516956,
+    0.7283431
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_35",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62284356,
+    0.71867114,
+    0.70791197,
+    0.73086625
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_36",
+   "page": 1,
+   "text": "Iran",
+   "bbox": [
+    0.06900655,
+    0.75651807,
+    0.10291493,
+    0.76534903
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_37",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30279595,
+    0.7603028,
+    0.33254015,
+    0.76955426
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_38",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.7607233,
+    0.51457465,
+    0.76955426
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_39",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62224865,
+    0.7598823,
+    0.7067222,
+    0.7720774
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_40",
+   "page": 1,
+   "text": "Myanmar",
+   "bbox": [
+    0.06603213,
+    0.7968881,
+    0.15110053,
+    0.8082422
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_41",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30160618,
+    0.8006728,
+    0.33194527,
+    0.8103448
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_42",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.80109334,
+    0.51516956,
+    0.8099243
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_43",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.6216538,
+    0.8002523,
+    0.70791197,
+    0.8124474
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_44",
+   "page": 1,
+   "text": "Russie",
+   "bbox": [
+    0.06662701,
+    0.83683765,
+    0.12254611,
+    0.8465097
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_45",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.3010113,
+    0.8414634,
+    0.33254015,
+    0.85071486
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_46",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.84188396,
+    0.51516956,
+    0.85071486
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_47",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62284356,
+    0.8410429,
+    0.70731705,
+    0.8528175
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_48",
+   "page": 1,
+   "text": "Soudan",
+   "bbox": [
+    0.06841166,
+    0.87720776,
+    0.13087448,
+    0.88730025
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_49",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.3010113,
+    0.882254,
+    0.33194527,
+    0.891926
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_50",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.8826745,
+    0.51457465,
+    0.891926
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_51",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62284356,
+    0.8818335,
+    0.7067222,
+    0.8940286
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_52",
+   "page": 1,
+   "text": "Sud-Soudan",
+   "bbox": [
+    0.06841166,
+    0.91883934,
+    0.16656752,
+    0.9285114
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_53",
+   "page": 1,
+   "text": "Oui",
+   "bbox": [
+    0.30279595,
+    0.92304456,
+    0.33254015,
+    0.93271655
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_54",
+   "page": 1,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.9234651,
+    0.51516956,
+    0.93229604
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o1_55",
+   "page": 1,
+   "text": "Envisagée",
+   "bbox": [
+    0.62224865,
+    0.92262405,
+    0.7067222,
+    0.93481916
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_56",
+   "page": 2,
+   "text": "Syrie",
+   "bbox": [
+    0.06900655,
+    0.076534905,
+    0.11124331,
+    0.087888986
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_57",
+   "page": 2,
+   "text": "Oui",
+   "bbox": [
+    0.30160618,
+    0.08074012,
+    0.33254015,
+    0.09041211
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_58",
+   "page": 2,
+   "text": "Venezuela",
+   "bbox": [
+    0.06603213,
+    0.11648444,
+    0.15348007,
+    0.127418
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_59",
+   "page": 2,
+   "text": "Oui",
+   "bbox": [
+    0.30220106,
+    0.12195122,
+    0.33254015,
+    0.1312027
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_60",
+   "page": 2,
+   "text": "La Banque",
+   "bbox": [
+    0.379536,
+    0.033221193,
+    0.48126116,
+    0.04667788
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_61",
+   "page": 2,
+   "text": "des Entreprises",
+   "bbox": [
+    0.37775135,
+    0.05172414,
+    0.52885187,
+    0.06391926
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_62",
+   "page": 2,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.08116064,
+    0.51516956,
+    0.08999159
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_63",
+   "page": 2,
+   "text": "Envisagée",
+   "bbox": [
+    0.6216538,
+    0.0803196,
+    0.70791197,
+    0.092514716
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_64",
+   "page": 2,
+   "text": "Non",
+   "bbox": [
+    0.47769186,
+    0.12237174,
+    0.51457465,
+    0.1312027
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_65",
+   "page": 2,
+   "text": "Envisagée",
+   "bbox": [
+    0.6210589,
+    0.1215307,
+    0.70791197,
+    0.13372582
+   ],
+   "type": "paragraph",
+   "in_table": true,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_66",
+   "page": 2,
+   "text": "Je confirme que les informations sont à jour, et je m'engage à signaler toute modification dans les meilleurs",
+   "bbox": [
+    0.058893517,
+    0.18208578,
+    0.93991673,
+    0.19554247
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_67",
+   "page": 2,
+   "text": "délais.",
+   "bbox": [
+    0.057108864,
+    0.20058873,
+    0.113622844,
+    0.21026072
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_68",
+   "page": 2,
+   "text": "Représenté par :",
+   "bbox": [
+    0.060083285,
+    0.25820017,
+    0.19393219,
+    0.27123633
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_69",
+   "page": 2,
+   "text": "En qualité de :",
+   "bbox": [
+    0.058298633,
+    0.28721616,
+    0.17549078,
+    0.29983178
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_70",
+   "page": 2,
+   "text": "Signé le",
+   "bbox": [
+    0.05770375,
+    0.31623212,
+    0.12433076,
+    0.32968882
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_71",
+   "page": 2,
+   "text": "/",
+   "bbox": [
+    0.18262939,
+    0.31707317,
+    0.19274242,
+    0.3275862
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  },
+  {
+   "id": "o2_72",
+   "page": 2,
+   "text": "/",
+   "bbox": [
+    0.24033314,
+    0.3174937,
+    0.25044617,
+    0.3275862
+   ],
+   "type": "paragraph",
+   "in_table": false,
+   "section": "FICHE CONNAISSANCE CLIENT > Vos activités internationales :"
+  }
+ ]
+}

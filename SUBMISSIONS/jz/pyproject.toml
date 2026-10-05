@@ -1,0 +1,25 @@
+[project]
+name = "kyc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jan Zymla",email = "32358213+zymla@users.noreply.github.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "groq (>=1.7.0,<2.0.0)",
+    "python-dotenv (>=1.2.4,<2.0.0)",
+    "pymupdf (>=1.28.2,<2.0.0)",
+    "google-cloud-documentai (>=3.16.0,<4.0.0)",
+    "opencv-python-headless (>=5.0.0.93,<6.0.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.4.0,<8.0.0)"
+]

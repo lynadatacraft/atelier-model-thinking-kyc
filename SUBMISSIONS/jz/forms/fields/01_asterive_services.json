@@ -1,0 +1,533 @@
+{
+ "file": "01_asterive_services.pdf",
+ "model": "openai/gpt-oss-120b",
+ "pages": [
+  {
+   "page": 1,
+   "page_instructions": [
+    "A retourner RENSEIGNÉE et SIGNÉE à La Banque des Entreprises"
+   ],
+   "fields": [
+    {
+     "label": "Dénomination sociale",
+     "description": "Legal name of the client company.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b3"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f1",
+     "page": 1
+    },
+    {
+     "label": "Code SIREN / n° d'enregistrement",
+     "description": "Company registration number (SIREN).",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "identifier",
+     "areas": [
+      "p1_b5"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f2",
+     "page": 1
+    },
+    {
+     "label": "Société cotée",
+     "description": "Indicates whether the company is listed on a stock exchange.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b8"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b9"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f3",
+     "page": 1
+    },
+    {
+     "label": "Marché de cotation",
+     "description": "Name of the stock exchange where the company is listed.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b7"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f4",
+     "page": 1
+    },
+    {
+     "label": "Nom de la maison mère",
+     "description": "Name of the parent company.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "text",
+     "areas": [
+      "p1_b12"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f5",
+     "page": 1
+    },
+    {
+     "label": "Pays d'immatriculation",
+     "description": "Country where the parent company is incorporated.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "country",
+     "areas": [
+      "p1_b14"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f6",
+     "page": 1
+    },
+    {
+     "label": "Pays de résidence fiscale",
+     "description": "Country of tax residence of the parent company.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "country",
+     "areas": [
+      "p1_b16"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f7",
+     "page": 1
+    },
+    {
+     "label": "Adresse de la maison mère",
+     "description": "Address of the parent company.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "long_text",
+     "areas": [
+      "p1_b18"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f8",
+     "page": 1
+    },
+    {
+     "label": "Corée du nord",
+     "description": "Whether the client has business relations or presence in North Korea.",
+     "section": "FICHE CONNAISSANCE CLIENT",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b22"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b23"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b24"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f9",
+     "page": 1
+    },
+    {
+     "label": "Crimée",
+     "description": "Whether the client has a direct or indirect business relationship or presence in Crimée.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b27"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b28"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b29"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f10",
+     "page": 1
+    },
+    {
+     "label": "Cuba",
+     "description": "Whether the client has a direct or indirect business relationship or presence in Cuba.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b32"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b33"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b34"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f11",
+     "page": 1
+    },
+    {
+     "label": "Irak",
+     "description": "Whether the client has a direct or indirect business relationship or presence in Irak.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b37"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b38"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b39"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f12",
+     "page": 1
+    },
+    {
+     "label": "Iran",
+     "description": "Whether the client has a direct or indirect business relationship or presence in Iran.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b42"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b43"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b44"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f13",
+     "page": 1
+    },
+    {
+     "label": "Myanmar",
+     "description": "Indicates whether the client has activities in Myanmar.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b47"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b48"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b49"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f14",
+     "page": 1
+    },
+    {
+     "label": "Russie",
+     "description": "Indicates whether the client has activities in Russie.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b52"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b53"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b54"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f15",
+     "page": 1
+    },
+    {
+     "label": "Soudan",
+     "description": "Indicates whether the client has activities in Soudan.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b57"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b58"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b59"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f16",
+     "page": 1
+    },
+    {
+     "label": "Sud-Soudan",
+     "description": "Indicates whether the client has activities in Sud‑Soudan.",
+     "section": "Vos activités internationales",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p1_b62"
+      },
+      {
+       "label": "Non",
+       "area": "p1_b63"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p1_b64"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p1_f17",
+     "page": 1
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  },
+  {
+   "page": 2,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Syrie",
+     "description": "Select the applicable status for Syria.",
+     "section": "Déclaration",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p2_b3"
+      },
+      {
+       "label": "Non",
+       "area": "p2_b4"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p2_b5"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p2_f18",
+     "page": 2
+    },
+    {
+     "label": "Venezuela",
+     "description": "Select the applicable status for Venezuela.",
+     "section": "Déclaration",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Oui",
+       "area": "p2_b8"
+      },
+      {
+       "label": "Non",
+       "area": "p2_b9"
+      },
+      {
+       "label": "Envisagée",
+       "area": "p2_b10"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "01_p2_f19",
+     "page": 2
+    },
+    {
+     "label": "Représenté par",
+     "description": "Name of the person representing the entity.",
+     "section": "Signature",
+     "type": "text",
+     "areas": [
+      "p2_i1"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "01_p2_f20",
+     "page": 2
+    },
+    {
+     "label": "En qualité de",
+     "description": "Capacity or job title of the representative.",
+     "section": "Signature",
+     "type": "text",
+     "areas": [
+      "p2_i2"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "01_p2_f21",
+     "page": 2
+    },
+    {
+     "label": "Signé le",
+     "description": "Date of signature.",
+     "section": "Signature",
+     "type": "date",
+     "areas": [
+      "p2_i3"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": true,
+     "id": "01_p2_f22",
+     "page": 2
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  }
+ ],
+ "usage": {
+  "input_tokens": 11871,
+  "output_tokens": 6514,
+  "requests": 4,
+  "seconds": 16.6,
+  "cost_usd": 0.0057
+ }
+}
