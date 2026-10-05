@@ -1,0 +1,11 @@
+__pycache__/
+.env.kyc
+.venv*/
+# work/ : seuls les caches nécessaires à la reproduction sont versionnés
+work/*/*
+!work/*/fields.json
+!work/*/answers.manual.json
+!work/*/ocr.json
+!work/*/layout.json
+# le .gitignore racine exclut *.pdf : les PDF livrés sont réinclus ici
+!submission/*.pdf

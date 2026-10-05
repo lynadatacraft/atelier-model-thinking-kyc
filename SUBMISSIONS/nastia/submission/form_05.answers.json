@@ -1,0 +1,2918 @@
+[
+  {
+    "page": 1,
+    "label": "Nazwa Klienta / Legal Entity Name",
+    "value": "Cendrelis Instruments SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/name; sources/companies/sim-hackathon-c-client/mandate.md#/name",
+    "justification": "2 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-01",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/name",
+        "excerpt": "Cendrelis Instruments SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/mandate.md",
+        "pointer": "/name",
+        "excerpt": "Cendrelis Instruments SAS"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz / Full Name and Job Title of Client Contact Completing the Form",
+    "value": "Nora Avelune, Présidente",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/name; sources/companies/sim-hackathon-c-client/mandate.md#/signer_role",
+    "justification": "The mandate register names Nora Avelune (Présidente) as the authorized signatory empowered to prepare KYC/sanctions questionnaires.",
+    "missing": [],
+    "id": "p1-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/mandate.md",
+        "pointer": "/signer/name",
+        "excerpt": "Nora Avelune"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/mandate.md",
+        "pointer": "/signer_role",
+        "excerpt": "Présidente"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Data / Date",
+    "value": "01/09/2026",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+    "justification": "Form completion date taken from the mandate register's fixed exercise completion date (2026-09-01). This is not a signature date; no signature is supplied.",
+    "missing": [],
+    "id": "p1-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/mandate.md",
+        "pointer": "/date",
+        "excerpt": "01/09/2026"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? / Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/negative_declaration; sources/companies/sim-hackathon-c-client/corporate.md#/perimeter/1/bank_user",
+    "justification": "The reviewed scope covers all branches and controlled subsidiaries, including entities that are not bank customers, such as Cendrelis Export SAS.",
+    "missing": [],
+    "id": "p1-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/perimeter/1/bank_user",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? / Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/corporate.md#/perimeter/1/relation; sources/companies/sim-hackathon-c-client/activities.md#/activities/0/country; sources/companies/sim-hackathon-c-client/activities.md#/activities/0/current; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/country; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/planned",
+    "justification": "The wholly owned subsidiary Cendrelis Export SAS has current export activity in Cuba and a contemplated project in Myanmar, both sanctioned jurisdictions. It also has a government-owned counterparty in Lebanon. Details should be given in Section C.",
+    "missing": [],
+    "id": "p2-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/perimeter/1/relation",
+        "excerpt": "wholly owned subsidiary"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/country",
+        "excerpt": "Cuba"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/current",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/country",
+        "excerpt": "Myanmar"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/planned",
+        "excerpt": "true"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w zakup, sprzedaż lub transport morski ropy naftowej i/lub produktów rafinacji ropy naftowej pochodzących z Rosji? / Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin?",
+    "value": "Nie/No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities; sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/corporate.md#(en-tête)",
+    "justification": "Absent du registre d'activités ; déclaration négative complète.",
+    "missing": [],
+    "id": "p2-02",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities",
+        "excerpt": "[{\"country\": \"Cuba\", \"entity\": \"Cendrelis Export SAS\", \"domicile\": \"30 rue des Instruments Fictifs, 69000 Lyon, France\", \"description\": \"Export and support of simulated measurement instruments under the fictional export authorization.\", \"current\": true, \"planned\": false, \"revenue\": 600000, \"expenses\": 80000, \"assets\": 150000, \"entity_totals\": {\"revenue\": 12000000, \"expenses\": 8000000, \"assets\": 3000000}, \"third_parties\": [\"Laboratoire Caribe SIM SA\"], \"government\": false, \"bank_use\": true, \"bank_product\": \"SIM-ACCOUNT-C\", \"classification\": \"SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied\"}, {\"country\": \"Lebanon\", \"entity\": \"Cendrelis Export SAS\", \"domicile\": \"30 rue des Instruments Fictifs, 69000 Lyon, France\", \"description\": \"Measurement-instrument support contract with a wholly government-owned laboratory.\", \"current\": true, \"planned\": false, \"revenue\": 300000, \"expenses\": 40000, \"assets\": 0, \"entity_totals\": {\"revenue\": 12000000, \"expenses\": 8000000, \"assets\": 3000000}, \"third_parties\": [\"Laboratoire Public Levant SIM\"], \"government\": true, \"bank_use\": true, \"bank_product\": \"SIM-ACCOUNT-C\", \"classification\": \"SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied\"}, {\"country\": \"Myanmar\", \"entity\": \"Cendrelis Export SAS\", \"domicile\": \"30 rue des Instruments Fictifs, 69000 Lyon, France\", \"description\": \"Proposed private-sector instrument support project; no 2025 amounts and no executed transaction.\", \"current\": false, \"planned\": true, \"revenue\": 0, \"expenses\": 0, \"assets\": 0, \"entity_totals\": {\"revenue\": 12000000, \"expenses\": 8000000, \"assets\": 3000000}, \"third_parties\": [\"Atelier Delta SIM Ltd\"], \"government\": false, \"bank_use\": true, \"bank_product\": \"SIM-ACCOUNT-C\", \"classification\": \"SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold\"}]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The reporting group consists of this client and its controlled descendants, excluding its upstream parent."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "3. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny obecnie prowadzi lub rozważa przyszłe prowadzenie inwestycji w Rosji lub Białorusi? / Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the future, in any new investments in Russia or Belarus?",
+    "value": "Nie/No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#(en-tête)",
+    "justification": "The compliance register explicitly states there is no new Russia/Belarus investment, current or contemplated, across the reviewed group scope.",
+    "missing": [],
+    "id": "p2-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? / Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus?",
+    "value": "Nie/No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "The activity register lists only Cuba, Lebanon and Myanmar, and its negative declaration excludes any other current or contemplated country activities. There is therefore no activity in Russia or Belarus.",
+    "missing": [],
+    "id": "p2-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został związany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi 2. bezpośrednio lub pośrednio w co najmniej 40% należy do: ... 3. ma beneficjenta rzeczywistego, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi",
+    "value": "Nie/No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#(en-tête); sources/companies/sim-hackathon-c-client/compliance.md#/bank_users/0; sources/companies/sim-hackathon-c-client/corporate.md#/incorporation; sources/companies/sim-hackathon-c-client/ownership.md#/people/0/nationalities/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/0/residences/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/1/nationalities/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/1/residences/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/2/nationalities/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/2/residences/0; sources/companies/sim-hackathon-c-client/ownership.md#(en-tête)",
+    "justification": "The only entity using the bank's products is Cendrelis Instruments SAS, incorporated in France, with no upstream parent. Its owners (60% and 40%) and controller are French nationals resident in France; the compliance register states no Russia/Belarus formation or ≥40% ownership/citizenship nexus.",
+    "missing": [],
+    "id": "p3-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No entity using the issuer has a Russia/Belarus formation or ≥40% ownership/citizenship nexus."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/bank_users/0",
+        "excerpt": "Cendrelis Instruments SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/incorporation",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/0/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/0/residences/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/1/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/1/residences/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/2/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/2/residences/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "5. Jeśli tak: nazwa podmiotu i szczegółowe informacje / If \"Yes\": name of the entity(ies) and additional detail",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "Question 5 answered No; the follow-up detail is only required if Yes.",
+    "missing": [],
+    "id": "p3-02",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 3,
+    "label": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadająca/y co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem, która/y 1) jest podmiotem sankcjonowanym; lub 2) jest obywatelem jurysdykcji sankcjonowanej lub jest zlokalizowana, zorganizowana lub zamieszkała/zarejestrowana w jurysdykcji sankcjonowanej; lub 3) jest zatrudniona w agencji rządowej lub organie władzy jurysdykcji sankcjonowanej lub taką agencję rządową lub organ władzy reprezentuje?",
+    "value": "Nie/No",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/ownership.md#(en-tête); sources/companies/sim-hackathon-c-client/ownership.md#/people/0/nationalities/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/1/nationalities/0; sources/companies/sim-hackathon-c-client/ownership.md#/people/2/nationalities/0; sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/nationalities/0; sources/companies/sim-hackathon-c-client/compliance.md#/negative_declaration",
+    "justification": "All owners ≥10% (Nora Avelune 60%, Hugo Valcendre 40%), the contractual controller (Inès Rocheval) and the representatives (Nora Avelune, Alex Fernel) are French nationals resident in France; sanctions-list and government-affiliation flags are negative and no governance nexus is recorded across the reviewed group scope including subsidiaries.",
+    "missing": [],
+    "id": "p3-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "All unmentioned nationality, sanctions-list and government-affiliation flags are negative."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/0/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/1/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/ownership.md",
+        "pointer": "/people/2/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/mandate.md",
+        "pointer": "/representatives/1/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "6. Jeśli tak: imię i nazwisko osoby lub nazwa podmiotu, jurysdykcja sankcjonowana oraz szczegółowe informacje / If \"Yes\": name of such person or entity, relevant Sanctioned Jurisdiction and additional details",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "Question 6 answered No; the follow-up detail is only required if Yes.",
+    "missing": [],
+    "id": "p3-04",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 3,
+    "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/reference; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/recipient; sources/companies/sim-hackathon-c-client/compliance.md#(en-tête)",
+    "justification": "The wholly owned subsidiary Cendrelis Export SAS relies on export authorization SIM-EXPORT-C-01 for activities involving Cuba and Lebanon.",
+    "missing": [],
+    "id": "p3-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/reference",
+        "excerpt": "SIM-EXPORT-C-01"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/recipient",
+        "excerpt": "Cendrelis Export SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Where an authorization is listed, it is a simulated reliance for the exercise only."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "7. Jeśli tak: szczegółowe informacje (rodzaj zezwolenia, osoby/podmioty nim objęte, zakres działań, organ wydający, termin ważności) / If \"Yes\": further details",
+    "value": "Type: Fictional controlled-item export authorization, ref. SIM-EXPORT-C-01; recipient: Cendrelis Export SAS (wholly owned subsidiary); activities covered: Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories; issuing authority: Simulation Export Review Office; expiration date: not supplied.",
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/type; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/reference; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/recipient; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/activity; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/authority; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/expiry_note",
+    "justification": "Type, recipient, scope and issuing authority are documented; the expiration date is absent from the supplied extract and current validity is not established, so the full authorization must be obtained.",
+    "missing": [
+      "Expiration date of authorization SIM-EXPORT-C-01 (full authorization document required to confirm current validity)"
+    ],
+    "id": "p3-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/type",
+        "excerpt": "Fictional controlled-item export authorization"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/reference",
+        "excerpt": "SIM-EXPORT-C-01"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/recipient",
+        "excerpt": "Cendrelis Export SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/activity",
+        "excerpt": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/authority",
+        "excerpt": "Simulation Export Review Office"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/expiry_note",
+        "excerpt": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziałom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzenia działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/bank_use; sources/companies/sim-hackathon-c-client/activities.md#/activities/0/bank_use; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/planned",
+    "justification": "The activity register flags use of the bank's product for the current Cuba and Lebanon activities. It also flags intended use for the planned Myanmar project. The isolation controls do not change this declared current and intended use.",
+    "missing": [],
+    "id": "p4-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/bank_use",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/bank_use",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/planned",
+        "excerpt": "true"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "8. Numer rachunku i osoba/podmiot objęte sankcjami lub opis mechanizmów kontrolnych",
+    "value": "Account: SIM-ACCOUNT-C. Sanctioned Targets / activities: Cuba (current; Cendrelis Export SAS export and support of SIM-X1 instruments to Laboratoire Caribe SIM SA); Lebanon (current; support contract with wholly government-owned Laboratoire Public Levant SIM, not a designated party); Myanmar (planned project with Atelier Delta SIM Ltd, no authorization issued, compliance hold).",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/bank_account; sources/companies/sim-hackathon-c-client/activities.md#/activities/0/country; sources/companies/sim-hackathon-c-client/activities.md#/activities/0/third_parties/0; sources/companies/sim-hackathon-c-client/activities.md#/activities/1/country; sources/companies/sim-hackathon-c-client/activities.md#/activities/1/third_parties/0; sources/companies/sim-hackathon-c-client/compliance.md#/government/sanctions_program; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/country; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/third_parties/0; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/classification",
+    "justification": "The answer to Q8 is Yes. The form therefore requires the bank account number and the sanctioned targets/parties. These are taken from the compliance register and the activity register.",
+    "missing": [],
+    "id": "p4-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/bank_account",
+        "excerpt": "SIM-ACCOUNT-C"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/country",
+        "excerpt": "Cuba"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/third_parties/0",
+        "excerpt": "Laboratoire Caribe SIM SA"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/country",
+        "excerpt": "Lebanon"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/third_parties/0",
+        "excerpt": "Laboratoire Public Levant SIM"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/government/sanctions_program",
+        "excerpt": "Not a designated party in the scenario; relevant government nexus is a questionnaire trigger."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/country",
+        "excerpt": "Myanmar"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/third_parties/0",
+        "excerpt": "Atelier Delta SIM Ltd"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/classification",
+        "excerpt": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel, wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/policy",
+    "justification": "The group sanctions policy applies to all controlled entities, branches and joint ventures. It covers screening against the Poland, EU, UN, UK and OFAC lists.",
+    "missing": [],
+    "id": "p4-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "9. Krótkie podsumowanie polityk/procedur sankcyjnych",
+    "value": "Group-wide policy applies to all controlled entities, branches and joint ventures. Screening covers customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions. It is performed at onboarding, daily, and before payment/shipment against the Poland, EU, UN, UK and OFAC sanctions lists. Compliance investigates alerts, and transactions are held pending clearance. Controls also include a quarterly risk review, an annual independent audit (last 2026-06-30), annual staff training, and escalation and incident records.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/policy",
+    "justification": "This is a summary of the documented group sanctions policy.",
+    "missing": [],
+    "id": "p4-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/classification; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/goods",
+    "justification": "The scenario stipulates that the SIM-X1 instruments sold by subsidiary Cendrelis Export SAS are treated as dual-use goods.",
+    "missing": [],
+    "id": "p4-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/classification",
+        "excerpt": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/goods",
+        "excerpt": "SIM-X1 measurement instruments"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "10. Szczegółowe informacje dotyczące prowadzonej działalności",
+    "value": "Subsidiary Cendrelis Export SAS exports and supports SIM-X1 measurement instruments (HS code SIM-HS-X1; control code SIM-DUAL-X1). Destinations are Cuba and Lebanon, with transit via France, under export authorization SIM-EXPORT-C-01 (Simulation Export Review Office; expiry not supplied). End-use is limited to named laboratories. A Myanmar project is proposed only, with no authorization issued and under compliance hold. Anti-diversion controls: contracts prohibit re-export to or use in Russia, enforced by verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/goods; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/hs_code; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/control_code; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations/0; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations/1; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/transit/0; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/activity; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/recipient; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/classification; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/anti_diversion",
+    "justification": "These are the dual-use activity details from the compliance register and the activity register.",
+    "missing": [],
+    "id": "p4-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/goods",
+        "excerpt": "SIM-X1 measurement instruments"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/hs_code",
+        "excerpt": "SIM-HS-X1"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/control_code",
+        "excerpt": "SIM-DUAL-X1"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations/0",
+        "excerpt": "Cuba"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations/1",
+        "excerpt": "Lebanon"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/transit/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/activity",
+        "excerpt": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/recipient",
+        "excerpt": "Cendrelis Export SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/classification",
+        "excerpt": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/anti_diversion",
+        "excerpt": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/classification; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations/0; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations/1; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/recipient; sources/companies/sim-hackathon-c-client/corporate.md#/perimeter/1/relation",
+    "justification": "The wholly owned subsidiary Cendrelis Export SAS exports SIM-X1 instruments, treated as dual-use in the scenario, to Cuba and Lebanon, which are outside the EU.",
+    "missing": [],
+    "id": "p5-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/classification",
+        "excerpt": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations/0",
+        "excerpt": "Cuba"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations/1",
+        "excerpt": "Lebanon"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/recipient",
+        "excerpt": "Cendrelis Export SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/perimeter/1/relation",
+        "excerpt": "wholly owned subsidiary"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "11. Szczegółowe informacje dotyczące prowadzonej działalności / Detailed information on the activity",
+    "value": "Exporter: Cendrelis Export SAS (France, 100% subsidiary). Goods: SIM-X1 measurement instruments (dual-use, control code SIM-DUAL-X1). Destination countries: Cuba, Lebanon. Transit/transfer country: France. HS code: SIM-HS-X1. Authorization: SIM-EXPORT-C-01 (fictional controlled-item export authorization), issued by Simulation Export Review Office; it covers SIM-X1 to Cuba and Lebanon via France, with end-use limited to named laboratories; expiry date not supplied. Re-export clauses: contracts prohibit re-export to, or use in, Russia. Enforcement: verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews. Planned: proposed Myanmar project, with no authorization issued, under compliance hold and with no executed transaction.",
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/goods; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/hs_code; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/control_code; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations/0; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations/1; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/transit/0; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/reference; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/authority; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/activity; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/expiry_note; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/anti_diversion; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/classification",
+    "justification": "Details are taken from the compliance register. The expiry date and current validity of authorization SIM-EXPORT-C-01 are not established in the supplied extract.",
+    "missing": [
+      "Expiry date of export authorization SIM-EXPORT-C-01",
+      "Confirmation of current validity of authorization SIM-EXPORT-C-01 (full authorization document)"
+    ],
+    "id": "p5-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/goods",
+        "excerpt": "SIM-X1 measurement instruments"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/hs_code",
+        "excerpt": "SIM-HS-X1"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/control_code",
+        "excerpt": "SIM-DUAL-X1"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations/0",
+        "excerpt": "Cuba"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations/1",
+        "excerpt": "Lebanon"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/transit/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/reference",
+        "excerpt": "SIM-EXPORT-C-01"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/authority",
+        "excerpt": "Simulation Export Review Office"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/activity",
+        "excerpt": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/expiry_note",
+        "excerpt": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/anti_diversion",
+        "excerpt": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/classification",
+        "excerpt": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity; sources/companies/sim-hackathon-c-client/corporate.md#/incorporation",
+    "justification": "Section B is to be completed only when there is activity in the non-government-controlled regions of Ukraine. The group has no such activity, so the section is not triggered.",
+    "missing": [],
+    "id": "p5-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/incorporation",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity; sources/companies/sim-hackathon-c-client/corporate.md#/perimeter/1/country",
+    "justification": "Section B is not triggered: the register states there is no activity in the specified Ukrainian regions, and the only subsidiary is in France.",
+    "missing": [],
+    "id": "p5-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/perimeter/1/country",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+    "justification": "Section B is not triggered because there is no activity in the specified Ukrainian regions.",
+    "missing": [],
+    "id": "p5-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię lub w działalność turystyczną w tych obszarach?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+    "justification": "Section B is not triggered because there is no activity in the specified Ukrainian regions.",
+    "missing": [],
+    "id": "p5-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach” lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+    "justification": "Section B is not triggered because there is no activity in the specified Ukrainian regions.",
+    "missing": [],
+    "id": "p5-07",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+    "justification": "Section B is not triggered because there is no activity in the specified Ukrainian regions.",
+    "missing": [],
+    "id": "p5-08",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+    "justification": "Section B is not triggered because there is no activity in the specified Ukrainian regions.",
+    "missing": [],
+    "id": "p5-09",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "label": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię?",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity",
+    "justification": "Section B is not triggered because there is no activity in the specified Ukrainian regions.",
+    "missing": [],
+    "id": "p5-10",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [1]",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "North Korea is not in the activity register (only Cuba, Lebanon, Myanmar). Unlisted jurisdictions have explicit zero FY2025 exposure, so revenue share is 0 / 60,000,000 = 0%.",
+    "missing": [],
+    "id": "p8-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [1]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "There is no North Korea revenue activity, so no entity or activity needs to be described.",
+    "missing": [],
+    "id": "p8-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [1]",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "North Korea is unlisted, so it has explicit zero FY2025 expenses: 0 / 40,000,000 = 0%.",
+    "missing": [],
+    "id": "p8-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [1]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "There are no North Korea expenses, so no entity or activity needs to be described.",
+    "missing": [],
+    "id": "p8-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [1]",
+    "value": "0",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "North Korea is unlisted, so it has explicit zero assets at 2025-12-31: 0 / 30,000,000 = 0%.",
+    "missing": [],
+    "id": "p8-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [1]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "There are no North Korea assets, so no entity or purpose needs to be described.",
+    "missing": [],
+    "id": "p8-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no North Korea exposure, so no further rows are needed.",
+    "missing": [],
+    "id": "p8-07",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-08",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-09",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-10",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-11",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-12",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-13",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-14",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-15",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-16",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-17",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-18",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-19",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-20",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-21",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-22",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-23",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-24",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-25",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-26",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-27",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-28",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-29",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-30",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-31",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-32",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-33",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-34",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-35",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-36",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-37",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-38",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-39",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-40",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-41",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-42",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych przychodów / % of total Revenue [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-43",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-44",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych kosztów / % of total expenses [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-45",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-46",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "% całkowitych aktywów / % of total assets [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-47",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 8,
+    "label": "Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": null,
+    "justification": "This is an additional North Korea row; there is no exposure.",
+    "missing": [],
+    "id": "p8-48",
+    "engine": "llm",
+    "evidence": []
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego / Non-government controlled territories of Donetsk Region",
+    "value": "0% (no current or contemplated activity)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity; sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "The activity register declares no Ukraine specified-region activity. The finance schedule gives explicit zero exposure for unlisted jurisdictions, so revenue, expenses and assets are all 0%.",
+    "missing": [],
+    "id": "p9-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego / Non-government controlled territories of Luhansk Region",
+    "value": "0% (no current or contemplated activity)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity; sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "The activity register declares no Ukraine specified-region activity. Luhansk is unlisted, so its exposure is explicitly zero.",
+    "missing": [],
+    "id": "p9-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego / Non-government controlled territories of Kherson Region",
+    "value": "0% (no current or contemplated activity)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity; sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "The activity register declares no Ukraine specified-region activity. Kherson is unlisted, so its exposure is explicitly zero.",
+    "missing": [],
+    "id": "p9-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego / Non-government controlled territories of Zaporizhzhia Region",
+    "value": "0% (no current or contemplated activity)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/ukraine_regions_activity; sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "The activity register declares no Ukraine specified-region activity. Zaporizhzhia is unlisted, so its exposure is explicitly zero.",
+    "missing": [],
+    "id": "p9-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/ukraine_regions_activity",
+        "excerpt": "false"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "label": "Suma / Total",
+    "value": "Group: revenue 1.5%, expenses 0.3%, assets 0.5%; Cendrelis Export SAS: revenue 7.5%, expenses 1.5%, assets 5.0%",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#/activities/0/revenue; sources/companies/sim-hackathon-c-client/finance.md#/activities/1/revenue; sources/companies/sim-hackathon-c-client/finance.md#/activities/0/expenses; sources/companies/sim-hackathon-c-client/finance.md#/activities/1/expenses; sources/companies/sim-hackathon-c-client/finance.md#/activities/0/assets; sources/companies/sim-hackathon-c-client/finance.md#/activities/1/assets; sources/companies/sim-hackathon-c-client/finance.md#/activities/2/revenue; sources/companies/sim-hackathon-c-client/finance.md#/group_totals/revenue; sources/companies/sim-hackathon-c-client/finance.md#/group_totals/expenses; sources/companies/sim-hackathon-c-client/finance.md#/group_totals/assets; sources/companies/sim-hackathon-c-client/finance.md#/activities/0/entity_totals/revenue; sources/companies/sim-hackathon-c-client/finance.md#/activities/0/entity_totals/expenses; sources/companies/sim-hackathon-c-client/finance.md#/activities/0/entity_totals/assets",
+    "justification": "The total sums all register countries: Cuba, Lebanon and Myanmar (planned, zero amounts). Other jurisdictions are explicitly zero. Revenue: 600,000+300,000=900,000, which is 1.5% of group 60,000,000 and 7.5% of entity 12,000,000. Expenses: 80,000+40,000=120,000, which is 0.3% of group 40,000,000 and 1.5% of entity 8,000,000. Assets: 150,000+0=150,000, which is 0.5% of group 30,000,000 and 5.0% of entity 3,000,000. Entity denominators are counted once, not summed across rows.",
+    "missing": [],
+    "id": "p9-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/0/revenue",
+        "excerpt": "600000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/1/revenue",
+        "excerpt": "300000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/0/expenses",
+        "excerpt": "80000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/1/expenses",
+        "excerpt": "40000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/0/assets",
+        "excerpt": "150000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/1/assets",
+        "excerpt": "0"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/2/revenue",
+        "excerpt": "0"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/group_totals/revenue",
+        "excerpt": "60000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/group_totals/expenses",
+        "excerpt": "40000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/group_totals/assets",
+        "excerpt": "30000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/0/entity_totals/revenue",
+        "excerpt": "12000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/0/entity_totals/expenses",
+        "excerpt": "8000000"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "/activities/0/entity_totals/assets",
+        "excerpt": "3000000"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z krajami wymienionymi w poniższej tabeli? / 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the chart below?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/0/current; sources/companies/sim-hackathon-c-client/activities.md#/activities/0/country; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/planned; sources/companies/sim-hackathon-c-client/corporate.md#/perimeter/1/relation",
+    "justification": "Wholly owned subsidiary Cendrelis Export SAS has current activity in Cuba and Lebanon and a contemplated project in Myanmar.",
+    "missing": [],
+    "id": "p9-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/current",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/0/country",
+        "excerpt": "Cuba"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/planned",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/corporate.md",
+        "pointer": "/perimeter/1/relation",
+        "excerpt": "wholly owned subsidiary"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [1]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Afghanistan row: no current, FY2025 or planned activity in Afghanistan, so the row is not triggered.",
+    "missing": [],
+    "id": "p10-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [1]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Afghanistan row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [1]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Afghanistan row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Angola row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Angola row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [2]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Angola row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Belarus row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-07",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Belarus row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-08",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [3]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Belarus row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-09",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Central African Republic row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-10",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Central African Republic row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-11",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Central African Republic row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-12",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "North Korea row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-13",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "North Korea row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-14",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [5]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "North Korea row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-15",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Democratic Republic of Congo row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-16",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Democratic Republic of Congo row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-17",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [6]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Democratic Republic of Congo row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-18",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Haiti row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-19",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Haiti row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-20",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [7]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Haiti row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-21",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Iran row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-22",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Iran row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-23",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [8]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Iran row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-24",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [9]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Iraq row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-25",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [9]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Iraq row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-26",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [9]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Iraq row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-27",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [10]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Ivory Coast row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-28",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [10]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Ivory Coast row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-29",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [10]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Ivory Coast row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-30",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [11]",
+    "value": "Export and support (current): measurement-instrument support contract with a wholly government-owned laboratory (Laboratoire Public Levant SIM)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/1/description; sources/companies/sim-hackathon-c-client/activities.md#/activities/1/current; sources/companies/sim-hackathon-c-client/activities.md#/activities/1/third_parties/0; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/activity",
+    "justification": "Lebanon row (row 11): current activity of Cendrelis Export SAS; SIM-X1 instruments are exported to Lebanon via France under the authorization.",
+    "missing": [],
+    "id": "p10-31",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/description",
+        "excerpt": "Measurement-instrument support contract with a wholly government-owned laboratory."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/current",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/third_parties/0",
+        "excerpt": "Laboratoire Public Levant SIM"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/activity",
+        "excerpt": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [11]",
+    "value": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/1/entity; sources/companies/sim-hackathon-c-client/activities.md#/activities/1/domicile",
+    "justification": "Lebanon activity is carried out by the wholly owned subsidiary Cendrelis Export SAS at the stated domicile.",
+    "missing": [],
+    "id": "p10-32",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/entity",
+        "excerpt": "Cendrelis Export SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/domicile",
+        "excerpt": "30 rue des Instruments Fictifs, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [11]",
+    "value": "SIM-X1 measurement instruments (dual-use, on simulated CHPL); HS code SIM-HS-X1; control code SIM-DUAL-X1; covered by license SIM-EXPORT-C-01 issued by Simulation Export Review Office (expiry not supplied)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/1/classification; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/goods; sources/companies/sim-hackathon-c-client/compliance.md#/licenses/0/authority",
+    "justification": "Goods, codes, license reference and issuing authority are stated; license expiry is not in the supplied extract.",
+    "missing": [],
+    "id": "p10-33",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/1/classification",
+        "excerpt": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/goods",
+        "excerpt": "SIM-X1 measurement instruments"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/licenses/0/authority",
+        "excerpt": "Simulation Export Review Office"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [12]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Liberia row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-34",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [12]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Liberia row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-35",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [12]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Liberia row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-36",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [13]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Libya row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-37",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [13]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Libya row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-38",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [13]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Libya row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-39",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Mjanma (Birma) / Myanmar [1]",
+    "value": "Planned (not current): proposed private-sector instrument support project with Atelier Delta SIM Ltd; no 2025 amounts and no executed transaction",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/2/description; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/planned; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/third_parties/0",
+    "justification": "Myanmar activity is a contemplated project only, with no FY2025 amounts.",
+    "missing": [],
+    "id": "p10-40",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/description",
+        "excerpt": "Proposed private-sector instrument support project; no 2025 amounts and no executed transaction."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/planned",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/third_parties/0",
+        "excerpt": "Atelier Delta SIM Ltd"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Mjanma (Birma) / Myanmar [2]",
+    "value": "Cendrelis Export SAS, 30 rue des Instruments Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/2/entity; sources/companies/sim-hackathon-c-client/activities.md#/activities/2/domicile",
+    "justification": "The planned Myanmar project would be carried out by Cendrelis Export SAS.",
+    "missing": [],
+    "id": "p10-41",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/entity",
+        "excerpt": "Cendrelis Export SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/domicile",
+        "excerpt": "30 rue des Instruments Fictifs, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Mjanma (Birma) / Myanmar [3]",
+    "value": "SIM-X1 measurement instruments (dual-use, on simulated CHPL); HS code SIM-HS-X1; control code SIM-DUAL-X1; not covered by a license: proposed project, no authorization issued for Myanmar, compliance hold",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/activities.md#/activities/2/classification; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/goods",
+    "justification": "Goods and codes are stated; no authorization exists for Myanmar and the project is on compliance hold.",
+    "missing": [],
+    "id": "p10-42",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/activities/2/classification",
+        "excerpt": "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/goods",
+        "excerpt": "SIM-X1 measurement instruments"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [14]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/compliance.md#(en-tête)",
+    "justification": "Russia row: no current, FY2025 or planned activity; contracts prohibit re-export to Russia.",
+    "missing": [],
+    "id": "p10-43",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [14]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Russia row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-44",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [14]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Russia row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-45",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [15]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Sierra Leone row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-46",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [15]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Sierra Leone row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-47",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [15]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Sierra Leone row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-48",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj działalności / Nature of the activity [16]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Somalia row: no current, FY2025 or planned activity.",
+    "missing": [],
+    "id": "p10-49",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Nazwa i domicyl podmiotu / Name AND domicile of the legal entity [16]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Somalia row: no activity, so no legal entity to name.",
+    "missing": [],
+    "id": "p10-50",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "label": "Rodzaj towarów / Type of restricted goods, software or technology [16]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête)",
+    "justification": "Somalia row: no activity, so no restricted goods to report.",
+    "missing": [],
+    "id": "p10-51",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "Sudan Południowy / South Sudan",
+    "value": "No current, FY2025 or planned activity (revenue 0, expenses 0, assets 0)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "South Sudan is not in the activity register, which lists only Cuba, Lebanon and Myanmar. Unlisted jurisdictions have explicit zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p11-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "Sudan",
+    "value": "No current, FY2025 or planned activity (revenue 0, expenses 0, assets 0)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "Sudan is not in the activity register. Unlisted jurisdictions have explicit zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p11-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "Syria",
+    "value": "No current, FY2025 or planned activity (revenue 0, expenses 0, assets 0)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "Syria is not in the activity register. Unlisted jurisdictions have explicit zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p11-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "Wenezuela / Venezuela",
+    "value": "No current, FY2025 or planned activity (revenue 0, expenses 0, assets 0)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "Venezuela is not in the activity register. Unlisted jurisdictions have explicit zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p11-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "Jemen / Yemen",
+    "value": "No current, FY2025 or planned activity (revenue 0, expenses 0, assets 0)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "Yemen is not in the activity register. Unlisted jurisdictions have explicit zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p11-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "Zimbabwe",
+    "value": "No current, FY2025 or planned activity (revenue 0, expenses 0, assets 0)",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/finance.md#(en-tête); sources/companies/sim-hackathon-c-client/activities.md#/negative_declaration",
+    "justification": "Zimbabwe is not in the activity register. Unlisted jurisdictions have explicit zero exposure and no planned activity.",
+    "missing": [],
+    "id": "p11-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/finance.md",
+        "pointer": "(en-tête)",
+        "excerpt": "Unlisted jurisdictions have explicit zero historical exposure and no planned activity."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/activities.md",
+        "pointer": "/negative_declaration",
+        "excerpt": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście listy G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem? / 2. Do you or any of your branches/ offices of subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's Common High Priority List (CHPL) as per the link below?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/chpl; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/classification; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/destinations",
+    "justification": "Subsidiary Cendrelis Export SAS exports SIM-X1 instruments, which are treated as CHPL items. These exports go to Cuba and Lebanon.",
+    "missing": [],
+    "id": "p11-07",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/chpl",
+        "excerpt": "true"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/classification",
+        "excerpt": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/destinations",
+        "excerpt": "[\"Cuba\", \"Lebanon\"]"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "2. Jeśli tak, szczegóły dotyczące środków kontroli / If yes, please provide details on your controls to prevent these items being made available in a sanctioned jurisdiction",
+    "value": "SIM-X1 measurement instruments (HS SIM-HS-X1, control code SIM-DUAL-X1) are exported by Cendrelis Export SAS to Cuba and Lebanon via France. Controls: contracts prohibit re-export to or use in Russia; verified end-user certificates; serial-number tracking; destination checks; no-resale undertakings; shipment holds; post-delivery reviews. Pre-shipment screening of counterparties, end-users and transactions against Poland, EU, UN, UK and OFAC lists, with transactions held pending clearance.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/anti_diversion; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/goods; sources/companies/sim-hackathon-c-client/compliance.md#/dual_use/transit; sources/companies/sim-hackathon-c-client/compliance.md#/policy",
+    "justification": "Q2 is answered Yes, so the conditional details are required. The controls listed are taken from the anti-diversion measures and the screening policy.",
+    "missing": [],
+    "id": "p11-08",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/anti_diversion",
+        "excerpt": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/goods",
+        "excerpt": "SIM-X1 measurement instruments"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/dual_use/transit",
+        "excerpt": "[\"France\"]"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "3. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z sankcjami lub środkami ograniczającymi handel ustanowionymi przez Polskę, Unię Europejską, Wielką Brytanię lub Stany Zjednoczone Ameryki? / 3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?",
+    "value": "Tak/Yes",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/policy",
+    "justification": "A group sanctions policy exists and covers screening against Poland, EU, UK and OFAC (US) lists.",
+    "missing": [],
+    "id": "p11-09",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "label": "3. If \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls",
+    "value": "Group policy applies to all controlled entities, branches and joint ventures. Customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions are screened against Poland, EU, UN, UK and OFAC lists at onboarding, daily, and before payment/shipment. Compliance investigates alerts and transactions are held pending clearance. Controls include quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, and escalation and incident records. Bank accounts, lending and payment routes are isolated from covered activities through segregated ledgers, separate banking channels, treasury blocks, compliance-approved routing and monthly reconciliation.",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-c-client/compliance.md#/policy; sources/companies/sim-hackathon-c-client/compliance.md#/isolation",
+    "justification": "Q3 is answered Yes, so an overview is required. It is summarized from the compliance policy and the isolation controls.",
+    "missing": [],
+    "id": "p11-10",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/policy",
+        "excerpt": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-c-client/compliance.md",
+        "pointer": "/isolation",
+        "excerpt": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted."
+      }
+    ]
+  }
+]

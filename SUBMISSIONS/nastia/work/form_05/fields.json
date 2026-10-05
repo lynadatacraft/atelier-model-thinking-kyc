@@ -1,0 +1,3079 @@
+[
+  {
+    "page": 1,
+    "label": "Nazwa Klienta / Legal Entity Name",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "legal_name",
+    "concept_arg": null,
+    "line_ids": [
+      "L32",
+      "L33"
+    ],
+    "value_box": [
+      309.06,
+      425.304,
+      576.504,
+      447.48
+    ],
+    "id": "p1-01"
+  },
+  {
+    "page": 1,
+    "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz / Full Name and Job Title of Client Contact Completing the Form",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L34",
+      "L35",
+      "L36"
+    ],
+    "value_box": [
+      309.06,
+      448.272,
+      576.504,
+      479.952
+    ],
+    "id": "p1-02"
+  },
+  {
+    "page": 1,
+    "label": "Data / Date",
+    "section": null,
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37",
+      "L38"
+    ],
+    "value_box": [
+      309.06,
+      480.744,
+      576.504,
+      501.336
+    ],
+    "id": "p1-03"
+  },
+  {
+    "page": 1,
+    "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? / Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L42",
+      "L44",
+      "L45"
+    ],
+    "value_box": null,
+    "id": "p1-04"
+  },
+  {
+    "page": 2,
+    "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? / Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties?",
+    "section": "Sekcja A: Ekspozycja na sankcje / Section A: Sanctions Related Exposure",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8",
+      "L9",
+      "L16",
+      "L17",
+      "L13",
+      "L15"
+    ],
+    "value_box": null,
+    "id": "p2-01"
+  },
+  {
+    "page": 2,
+    "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w zakup, sprzedaż lub transport morski ropy naftowej i/lub produktów rafinacji ropy naftowej pochodzących z Rosji? / Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin?",
+    "section": "Sekcja A: Ekspozycja na sankcje / Section A: Sanctions Related Exposure",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L21",
+      "L22",
+      "L25",
+      "L27",
+      "L24",
+      "L26"
+    ],
+    "value_box": null,
+    "id": "p2-02"
+  },
+  {
+    "page": 2,
+    "label": "3. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny obecnie prowadzi lub rozważa przyszłe prowadzenie inwestycji w Rosji lub Białorusi? / Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the future, in any new investments in Russia or Belarus?",
+    "section": "Sekcja A: Ekspozycja na sankcje / Section A: Sanctions Related Exposure",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L29",
+      "L30",
+      "L33",
+      "L35",
+      "L32",
+      "L34"
+    ],
+    "value_box": null,
+    "id": "p2-03"
+  },
+  {
+    "page": 2,
+    "label": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? / Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus?",
+    "section": "Sekcja A: Ekspozycja na sankcje / Section A: Sanctions Related Exposure",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37",
+      "L38",
+      "L41",
+      "L40",
+      "L42"
+    ],
+    "value_box": null,
+    "id": "p2-04"
+  },
+  {
+    "page": 3,
+    "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został związany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi 2. bezpośrednio lub pośrednio w co najmniej 40% należy do: ... 3. ma beneficjenta rzeczywistego, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L4",
+      "L6",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L11",
+      "L12",
+      "L13"
+    ],
+    "value_box": null,
+    "id": "p3-01"
+  },
+  {
+    "page": 3,
+    "label": "5. Jeśli tak: nazwa podmiotu i szczegółowe informacje / If \"Yes\": name of the entity(ies) and additional detail",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L16",
+      "L20",
+      "L22"
+    ],
+    "value_box": [
+      39.168,
+      302.544,
+      486.54,
+      368.28
+    ],
+    "id": "p3-02"
+  },
+  {
+    "page": 3,
+    "label": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadająca/y co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem, która/y 1) jest podmiotem sankcjonowanym; lub 2) jest obywatelem jurysdykcji sankcjonowanej lub jest zlokalizowana, zorganizowana lub zamieszkała/zarejestrowana w jurysdykcji sankcjonowanej; lub 3) jest zatrudniona w agencji rządowej lub organie władzy jurysdykcji sankcjonowanej lub taką agencję rządową lub organ władzy reprezentuje?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L23",
+      "L26",
+      "L27",
+      "L28",
+      "L30"
+    ],
+    "value_box": null,
+    "id": "p3-03"
+  },
+  {
+    "page": 3,
+    "label": "6. Jeśli tak: imię i nazwisko osoby lub nazwa podmiotu, jurysdykcja sankcjonowana oraz szczegółowe informacje / If \"Yes\": name of such person or entity, relevant Sanctioned Jurisdiction and additional details",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L32",
+      "L33",
+      "L35"
+    ],
+    "value_box": [
+      39.168,
+      479.16,
+      486.54,
+      533.016
+    ],
+    "id": "p3-04"
+  },
+  {
+    "page": 3,
+    "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37",
+      "L38",
+      "L39",
+      "L42"
+    ],
+    "value_box": null,
+    "id": "p3-05"
+  },
+  {
+    "page": 3,
+    "label": "7. Jeśli tak: szczegółowe informacje (rodzaj zezwolenia, osoby/podmioty nim objęte, zakres działań, organ wydający, termin ważności) / If \"Yes\": further details",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37"
+    ],
+    "value_box": [
+      39.168,
+      629.64,
+      486.54,
+      678.744
+    ],
+    "id": "p3-06"
+  },
+  {
+    "page": 4,
+    "label": "8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziałom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzenia działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L4",
+      "L8",
+      "L17",
+      "L19",
+      "L7",
+      "L15"
+    ],
+    "value_box": null,
+    "id": "p4-01"
+  },
+  {
+    "page": 4,
+    "label": "8. Numer rachunku i osoba/podmiot objęte sankcjami lub opis mechanizmów kontrolnych",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L16"
+    ],
+    "value_box": [
+      36.72,
+      289.08,
+      492.66,
+      324.72
+    ],
+    "id": "p4-02"
+  },
+  {
+    "page": 4,
+    "label": "9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel, wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L25",
+      "L27",
+      "L33",
+      "L34",
+      "L28",
+      "L31"
+    ],
+    "value_box": null,
+    "id": "p4-03"
+  },
+  {
+    "page": 4,
+    "label": "9. Krótkie podsumowanie polityk/procedur sankcyjnych",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L32"
+    ],
+    "value_box": [
+      36.72,
+      432.432,
+      489.6,
+      478.368
+    ],
+    "id": "p4-04"
+  },
+  {
+    "page": 4,
+    "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37",
+      "L38",
+      "L43"
+    ],
+    "value_box": null,
+    "id": "p4-05"
+  },
+  {
+    "page": 4,
+    "label": "10. Szczegółowe informacje dotyczące prowadzonej działalności",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      36.72,
+      567.072,
+      489.6,
+      605.88
+    ],
+    "id": "p4-06"
+  },
+  {
+    "page": 5,
+    "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L4",
+      "L6",
+      "L7",
+      "L10",
+      "L13",
+      "L14"
+    ],
+    "value_box": null,
+    "id": "p5-01"
+  },
+  {
+    "page": 5,
+    "label": "11. Szczegółowe informacje dotyczące prowadzonej działalności / Detailed information on the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11",
+      "L12",
+      "L17"
+    ],
+    "value_box": [
+      39.168,
+      236.016,
+      486.54,
+      280.368
+    ],
+    "id": "p5-02"
+  },
+  {
+    "page": 5,
+    "label": "1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L23",
+      "L24",
+      "L25",
+      "L26",
+      "L27"
+    ],
+    "value_box": null,
+    "id": "p5-03"
+  },
+  {
+    "page": 5,
+    "label": "2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L28",
+      "L29",
+      "L30",
+      "L31"
+    ],
+    "value_box": null,
+    "id": "p5-04"
+  },
+  {
+    "page": 5,
+    "label": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L32",
+      "L33",
+      "L34",
+      "L35",
+      "L36"
+    ],
+    "value_box": null,
+    "id": "p5-05"
+  },
+  {
+    "page": 5,
+    "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię lub w działalność turystyczną w tych obszarach?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37",
+      "L39",
+      "L40",
+      "L41",
+      "L42",
+      "L43"
+    ],
+    "value_box": null,
+    "id": "p5-06"
+  },
+  {
+    "page": 5,
+    "label": "5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach” lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L44",
+      "L47",
+      "L48",
+      "L49",
+      "L50"
+    ],
+    "value_box": null,
+    "id": "p5-07"
+  },
+  {
+    "page": 5,
+    "label": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L51",
+      "L52",
+      "L53",
+      "L54",
+      "L55"
+    ],
+    "value_box": null,
+    "id": "p5-08"
+  },
+  {
+    "page": 5,
+    "label": "7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L56",
+      "L57",
+      "L58",
+      "L59",
+      "L60"
+    ],
+    "value_box": null,
+    "id": "p5-09"
+  },
+  {
+    "page": 5,
+    "label": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię?",
+    "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L61",
+      "L62",
+      "L63",
+      "L64",
+      "L65"
+    ],
+    "value_box": null,
+    "id": "p5-10"
+  },
+  {
+    "page": 8,
+    "label": "Kuba / Cuba - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Cuba",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      324.72,
+      127.296,
+      369.864
+    ],
+    "id": "p8-01"
+  },
+  {
+    "page": 8,
+    "label": "Kuba / Cuba - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Cuba",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      324.72,
+      227.664,
+      369.864
+    ],
+    "id": "p8-02"
+  },
+  {
+    "page": 8,
+    "label": "Kuba / Cuba - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Cuba",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      324.72,
+      264.996,
+      369.864
+    ],
+    "id": "p8-03"
+  },
+  {
+    "page": 8,
+    "label": "Kuba / Cuba - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Cuba",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      324.72,
+      361.08,
+      369.864
+    ],
+    "id": "p8-04"
+  },
+  {
+    "page": 8,
+    "label": "Kuba / Cuba - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Cuba",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      324.72,
+      399.024,
+      369.864
+    ],
+    "id": "p8-05"
+  },
+  {
+    "page": 8,
+    "label": "Kuba / Cuba - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Cuba",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      324.72,
+      488.988,
+      369.864
+    ],
+    "id": "p8-06"
+  },
+  {
+    "page": 8,
+    "label": "Iran - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      371.448,
+      127.296,
+      416.592
+    ],
+    "id": "p8-07"
+  },
+  {
+    "page": 8,
+    "label": "Iran - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      371.448,
+      227.664,
+      416.592
+    ],
+    "id": "p8-08"
+  },
+  {
+    "page": 8,
+    "label": "Iran - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      371.448,
+      264.996,
+      416.592
+    ],
+    "id": "p8-09"
+  },
+  {
+    "page": 8,
+    "label": "Iran - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      371.448,
+      361.08,
+      416.592
+    ],
+    "id": "p8-10"
+  },
+  {
+    "page": 8,
+    "label": "Iran - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      371.448,
+      399.024,
+      416.592
+    ],
+    "id": "p8-11"
+  },
+  {
+    "page": 8,
+    "label": "Iran - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      371.448,
+      488.988,
+      416.592
+    ],
+    "id": "p8-12"
+  },
+  {
+    "page": 8,
+    "label": "Korea Północna / North Korea - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L58",
+      "L59",
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      418.176,
+      127.296,
+      463.32
+    ],
+    "id": "p8-13"
+  },
+  {
+    "page": 8,
+    "label": "Korea Północna / North Korea - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L58",
+      "L59",
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      418.176,
+      227.664,
+      463.32
+    ],
+    "id": "p8-14"
+  },
+  {
+    "page": 8,
+    "label": "Korea Północna / North Korea - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L58",
+      "L59",
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      418.176,
+      264.996,
+      463.32
+    ],
+    "id": "p8-15"
+  },
+  {
+    "page": 8,
+    "label": "Korea Północna / North Korea - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L58",
+      "L59",
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      418.176,
+      361.08,
+      463.32
+    ],
+    "id": "p8-16"
+  },
+  {
+    "page": 8,
+    "label": "Korea Północna / North Korea - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L58",
+      "L59",
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      418.176,
+      399.024,
+      463.32
+    ],
+    "id": "p8-17"
+  },
+  {
+    "page": 8,
+    "label": "Korea Północna / North Korea - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L58",
+      "L59",
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      418.176,
+      488.988,
+      463.32
+    ],
+    "id": "p8-18"
+  },
+  {
+    "page": 8,
+    "label": "Syria - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      464.904,
+      127.296,
+      510.048
+    ],
+    "id": "p8-19"
+  },
+  {
+    "page": 8,
+    "label": "Syria - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      464.904,
+      227.664,
+      510.048
+    ],
+    "id": "p8-20"
+  },
+  {
+    "page": 8,
+    "label": "Syria - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      464.904,
+      264.996,
+      510.048
+    ],
+    "id": "p8-21"
+  },
+  {
+    "page": 8,
+    "label": "Syria - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      464.904,
+      361.08,
+      510.048
+    ],
+    "id": "p8-22"
+  },
+  {
+    "page": 8,
+    "label": "Syria - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      464.904,
+      399.024,
+      510.048
+    ],
+    "id": "p8-23"
+  },
+  {
+    "page": 8,
+    "label": "Syria - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      464.904,
+      488.988,
+      510.048
+    ],
+    "id": "p8-24"
+  },
+  {
+    "page": 8,
+    "label": "Białoruś / Belarus - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      511.632,
+      127.296,
+      556.776
+    ],
+    "id": "p8-25"
+  },
+  {
+    "page": 8,
+    "label": "Białoruś / Belarus - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      511.632,
+      227.664,
+      556.776
+    ],
+    "id": "p8-26"
+  },
+  {
+    "page": 8,
+    "label": "Białoruś / Belarus - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      511.632,
+      264.996,
+      556.776
+    ],
+    "id": "p8-27"
+  },
+  {
+    "page": 8,
+    "label": "Białoruś / Belarus - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      511.632,
+      361.08,
+      556.776
+    ],
+    "id": "p8-28"
+  },
+  {
+    "page": 8,
+    "label": "Białoruś / Belarus - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      511.632,
+      399.024,
+      556.776
+    ],
+    "id": "p8-29"
+  },
+  {
+    "page": 8,
+    "label": "Białoruś / Belarus - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      511.632,
+      488.988,
+      556.776
+    ],
+    "id": "p8-30"
+  },
+  {
+    "page": 8,
+    "label": "Rosja / Russia - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      558.36,
+      127.296,
+      603.504
+    ],
+    "id": "p8-31"
+  },
+  {
+    "page": 8,
+    "label": "Rosja / Russia - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      558.36,
+      227.664,
+      603.504
+    ],
+    "id": "p8-32"
+  },
+  {
+    "page": 8,
+    "label": "Rosja / Russia - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      558.36,
+      264.996,
+      603.504
+    ],
+    "id": "p8-33"
+  },
+  {
+    "page": 8,
+    "label": "Rosja / Russia - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      558.36,
+      361.08,
+      603.504
+    ],
+    "id": "p8-34"
+  },
+  {
+    "page": 8,
+    "label": "Rosja / Russia - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      558.36,
+      399.024,
+      603.504
+    ],
+    "id": "p8-35"
+  },
+  {
+    "page": 8,
+    "label": "Rosja / Russia - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      558.36,
+      488.988,
+      603.504
+    ],
+    "id": "p8-36"
+  },
+  {
+    "page": 8,
+    "label": "Krym / Crimea - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Crimea",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      605.088,
+      127.296,
+      650.232
+    ],
+    "id": "p8-37"
+  },
+  {
+    "page": 8,
+    "label": "Krym / Crimea - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Crimea",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      605.088,
+      227.664,
+      650.232
+    ],
+    "id": "p8-38"
+  },
+  {
+    "page": 8,
+    "label": "Krym / Crimea - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Crimea",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      605.088,
+      264.996,
+      650.232
+    ],
+    "id": "p8-39"
+  },
+  {
+    "page": 8,
+    "label": "Krym / Crimea - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Crimea",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      605.088,
+      361.08,
+      650.232
+    ],
+    "id": "p8-40"
+  },
+  {
+    "page": 8,
+    "label": "Krym / Crimea - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Crimea",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      605.088,
+      399.024,
+      650.232
+    ],
+    "id": "p8-41"
+  },
+  {
+    "page": 8,
+    "label": "Krym / Crimea - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Crimea",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      605.088,
+      488.988,
+      650.232
+    ],
+    "id": "p8-42"
+  },
+  {
+    "page": 8,
+    "label": "Wenezuela / Venezuela - % całkowitych przychodów / % of total Revenue",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [
+      "L37",
+      "L46",
+      "L48",
+      "L56",
+      "L57"
+    ],
+    "value_box": [
+      91.188,
+      651.816,
+      127.296,
+      734.184
+    ],
+    "id": "p8-43"
+  },
+  {
+    "page": 8,
+    "label": "Wenezuela / Venezuela - Nazwa podmiotu i charakter działalności (przychody) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [
+      "L38",
+      "L43",
+      "L49",
+      "L52"
+    ],
+    "value_box": [
+      128.52,
+      651.816,
+      227.664,
+      734.184
+    ],
+    "id": "p8-44"
+  },
+  {
+    "page": 8,
+    "label": "Wenezuela / Venezuela - % całkowitych kosztów / % of total expenses",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [
+      "L39",
+      "L47",
+      "L53"
+    ],
+    "value_box": [
+      228.888,
+      651.816,
+      264.996,
+      734.184
+    ],
+    "id": "p8-45"
+  },
+  {
+    "page": 8,
+    "label": "Wenezuela / Venezuela - Nazwa podmiotu i charakter działalności (koszty) / Name of the entity and Nature of the activity",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [
+      "L40",
+      "L44",
+      "L50",
+      "L54"
+    ],
+    "value_box": [
+      266.22,
+      651.816,
+      361.08,
+      734.184
+    ],
+    "id": "p8-46"
+  },
+  {
+    "page": 8,
+    "label": "Wenezuela / Venezuela - % całkowitych aktywów / % of total assets",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [
+      "L41"
+    ],
+    "value_box": [
+      362.304,
+      651.816,
+      399.024,
+      734.184
+    ],
+    "id": "p8-47"
+  },
+  {
+    "page": 8,
+    "label": "Wenezuela / Venezuela - Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+    "section": "Section C: Sanctions Related Exposure Further Details",
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [
+      "L42",
+      "L45",
+      "L51",
+      "L55"
+    ],
+    "value_box": [
+      400.248,
+      651.816,
+      488.988,
+      734.184
+    ],
+    "id": "p8-48"
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego / Non-government controlled territories of Donetsk Region",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      90.576,
+      101.376,
+      489.6,
+      175.824
+    ],
+    "id": "p9-01"
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego / Non-government controlled territories of Luhansk Region",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      90.576,
+      175.824,
+      489.6,
+      250.272
+    ],
+    "id": "p9-02"
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego / Non-government controlled territories of Kherson Region",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      90.576,
+      250.272,
+      489.6,
+      324.72
+    ],
+    "id": "p9-03"
+  },
+  {
+    "page": 9,
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego / Non-government controlled territories of Zaporizhzhia Region",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      90.576,
+      324.72,
+      489.6,
+      401.544
+    ],
+    "id": "p9-04"
+  },
+  {
+    "page": 9,
+    "label": "Suma / Total",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      90.576,
+      401.544,
+      489.6,
+      448.272
+    ],
+    "id": "p9-05"
+  },
+  {
+    "page": 9,
+    "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z krajami wymienionymi w poniższej tabeli? / 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the chart below?",
+    "section": "Sekcja D: Środki ograniczające handel / sankcje handlowe / Section D: Trade Restrictive Measures/Trade Sanctions (Poland, EU, UK and US Trade Sanctions Laws)",
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L19",
+      "L21",
+      "L26",
+      "L27",
+      "L20",
+      "L23"
+    ],
+    "value_box": null,
+    "id": "p9-06"
+  },
+  {
+    "page": 10,
+    "label": "Afganistan / Afghanistan - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Afghanistan",
+    "line_ids": [
+      "L26",
+      "L27",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      215.424,
+      280.908,
+      237.6
+    ],
+    "id": "p10-01"
+  },
+  {
+    "page": 10,
+    "label": "Afganistan / Afghanistan - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Afghanistan",
+    "line_ids": [
+      "L26",
+      "L27",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      215.424,
+      410.652,
+      237.6
+    ],
+    "id": "p10-02"
+  },
+  {
+    "page": 10,
+    "label": "Afganistan / Afghanistan - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Afghanistan",
+    "line_ids": [
+      "L26",
+      "L27",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      215.424,
+      575.892,
+      237.6
+    ],
+    "id": "p10-03"
+  },
+  {
+    "page": 10,
+    "label": "Angola / Angola - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Angola",
+    "line_ids": [
+      "L28",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      237.6,
+      280.908,
+      258.984
+    ],
+    "id": "p10-04"
+  },
+  {
+    "page": 10,
+    "label": "Angola / Angola - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Angola",
+    "line_ids": [
+      "L28",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      237.6,
+      410.652,
+      258.984
+    ],
+    "id": "p10-05"
+  },
+  {
+    "page": 10,
+    "label": "Angola / Angola - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Angola",
+    "line_ids": [
+      "L28",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      237.6,
+      575.892,
+      258.984
+    ],
+    "id": "p10-06"
+  },
+  {
+    "page": 10,
+    "label": "Białoruś / Belarus - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L29",
+      "L30",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      258.984,
+      280.908,
+      303.336
+    ],
+    "id": "p10-07"
+  },
+  {
+    "page": 10,
+    "label": "Białoruś / Belarus - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L29",
+      "L30",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      258.984,
+      410.652,
+      303.336
+    ],
+    "id": "p10-08"
+  },
+  {
+    "page": 10,
+    "label": "Białoruś / Belarus - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Belarus",
+    "line_ids": [
+      "L29",
+      "L30",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      258.984,
+      575.892,
+      303.336
+    ],
+    "id": "p10-09"
+  },
+  {
+    "page": 10,
+    "label": "Republika Środkowoafrykańska / Central African Republic - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Central African Republic",
+    "line_ids": [
+      "L31",
+      "L32",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      303.336,
+      280.908,
+      325.512
+    ],
+    "id": "p10-10"
+  },
+  {
+    "page": 10,
+    "label": "Republika Środkowoafrykańska / Central African Republic - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Central African Republic",
+    "line_ids": [
+      "L31",
+      "L32",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      303.336,
+      410.652,
+      325.512
+    ],
+    "id": "p10-11"
+  },
+  {
+    "page": 10,
+    "label": "Republika Środkowoafrykańska / Central African Republic - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Central African Republic",
+    "line_ids": [
+      "L31",
+      "L32",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      303.336,
+      575.892,
+      325.512
+    ],
+    "id": "p10-12"
+  },
+  {
+    "page": 10,
+    "label": "Korea Północna / North Korea - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L33",
+      "L34",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      325.512,
+      280.908,
+      346.896
+    ],
+    "id": "p10-13"
+  },
+  {
+    "page": 10,
+    "label": "Korea Północna / North Korea - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L33",
+      "L34",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      325.512,
+      410.652,
+      346.896
+    ],
+    "id": "p10-14"
+  },
+  {
+    "page": 10,
+    "label": "Korea Północna / North Korea - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "North Korea",
+    "line_ids": [
+      "L33",
+      "L34",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      325.512,
+      575.892,
+      346.896
+    ],
+    "id": "p10-15"
+  },
+  {
+    "page": 10,
+    "label": "Demokratyczna Republika Kongo / Democratic Republic of Congo - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Democratic Republic of the Congo",
+    "line_ids": [
+      "L35",
+      "L36",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      346.896,
+      280.908,
+      369.072
+    ],
+    "id": "p10-16"
+  },
+  {
+    "page": 10,
+    "label": "Demokratyczna Republika Kongo / Democratic Republic of Congo - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Democratic Republic of the Congo",
+    "line_ids": [
+      "L35",
+      "L36",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      346.896,
+      410.652,
+      369.072
+    ],
+    "id": "p10-17"
+  },
+  {
+    "page": 10,
+    "label": "Demokratyczna Republika Kongo / Democratic Republic of Congo - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Democratic Republic of the Congo",
+    "line_ids": [
+      "L35",
+      "L36",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      346.896,
+      575.892,
+      369.072
+    ],
+    "id": "p10-18"
+  },
+  {
+    "page": 10,
+    "label": "Haiti / Haiti - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Haiti",
+    "line_ids": [
+      "L37",
+      "L38",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      369.072,
+      280.908,
+      391.248
+    ],
+    "id": "p10-19"
+  },
+  {
+    "page": 10,
+    "label": "Haiti / Haiti - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Haiti",
+    "line_ids": [
+      "L37",
+      "L38",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      369.072,
+      410.652,
+      391.248
+    ],
+    "id": "p10-20"
+  },
+  {
+    "page": 10,
+    "label": "Haiti / Haiti - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Haiti",
+    "line_ids": [
+      "L37",
+      "L38",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      369.072,
+      575.892,
+      391.248
+    ],
+    "id": "p10-21"
+  },
+  {
+    "page": 10,
+    "label": "Iran / Iran - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L39",
+      "L40",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      391.248,
+      280.908,
+      424.512
+    ],
+    "id": "p10-22"
+  },
+  {
+    "page": 10,
+    "label": "Iran / Iran - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L39",
+      "L40",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      391.248,
+      410.652,
+      424.512
+    ],
+    "id": "p10-23"
+  },
+  {
+    "page": 10,
+    "label": "Iran / Iran - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iran",
+    "line_ids": [
+      "L39",
+      "L40",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      391.248,
+      575.892,
+      424.512
+    ],
+    "id": "p10-24"
+  },
+  {
+    "page": 10,
+    "label": "Irak / Iraq - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iraq",
+    "line_ids": [
+      "L41",
+      "L42",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      424.512,
+      280.908,
+      446.688
+    ],
+    "id": "p10-25"
+  },
+  {
+    "page": 10,
+    "label": "Irak / Iraq - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iraq",
+    "line_ids": [
+      "L41",
+      "L42",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      424.512,
+      410.652,
+      446.688
+    ],
+    "id": "p10-26"
+  },
+  {
+    "page": 10,
+    "label": "Irak / Iraq - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Iraq",
+    "line_ids": [
+      "L41",
+      "L42",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      424.512,
+      575.892,
+      446.688
+    ],
+    "id": "p10-27"
+  },
+  {
+    "page": 10,
+    "label": "Wybrzeże Kości Słoniowej / Ivory Coast - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Ivory Coast",
+    "line_ids": [
+      "L43",
+      "L44",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      446.688,
+      280.908,
+      501.336
+    ],
+    "id": "p10-28"
+  },
+  {
+    "page": 10,
+    "label": "Wybrzeże Kości Słoniowej / Ivory Coast - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Ivory Coast",
+    "line_ids": [
+      "L43",
+      "L44",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      446.688,
+      410.652,
+      501.336
+    ],
+    "id": "p10-29"
+  },
+  {
+    "page": 10,
+    "label": "Wybrzeże Kości Słoniowej / Ivory Coast - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Ivory Coast",
+    "line_ids": [
+      "L43",
+      "L44",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      446.688,
+      575.892,
+      501.336
+    ],
+    "id": "p10-30"
+  },
+  {
+    "page": 10,
+    "label": "Liban / Lebanon - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Lebanon",
+    "line_ids": [
+      "L45",
+      "L46",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      501.336,
+      280.908,
+      535.392
+    ],
+    "id": "p10-31"
+  },
+  {
+    "page": 10,
+    "label": "Liban / Lebanon - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Lebanon",
+    "line_ids": [
+      "L45",
+      "L46",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      501.336,
+      410.652,
+      535.392
+    ],
+    "id": "p10-32"
+  },
+  {
+    "page": 10,
+    "label": "Liban / Lebanon - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Lebanon",
+    "line_ids": [
+      "L45",
+      "L46",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      501.336,
+      575.892,
+      535.392
+    ],
+    "id": "p10-33"
+  },
+  {
+    "page": 10,
+    "label": "Liberia / Liberia - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Liberia",
+    "line_ids": [
+      "L47",
+      "L48",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      535.392,
+      280.908,
+      557.568
+    ],
+    "id": "p10-34"
+  },
+  {
+    "page": 10,
+    "label": "Liberia / Liberia - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Liberia",
+    "line_ids": [
+      "L47",
+      "L48",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      535.392,
+      410.652,
+      557.568
+    ],
+    "id": "p10-35"
+  },
+  {
+    "page": 10,
+    "label": "Liberia / Liberia - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Liberia",
+    "line_ids": [
+      "L47",
+      "L48",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      535.392,
+      575.892,
+      557.568
+    ],
+    "id": "p10-36"
+  },
+  {
+    "page": 10,
+    "label": "Libia / Libya - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Libya",
+    "line_ids": [
+      "L49",
+      "L50",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      557.568,
+      280.908,
+      578.952
+    ],
+    "id": "p10-37"
+  },
+  {
+    "page": 10,
+    "label": "Libia / Libya - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Libya",
+    "line_ids": [
+      "L49",
+      "L50",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      557.568,
+      410.652,
+      578.952
+    ],
+    "id": "p10-38"
+  },
+  {
+    "page": 10,
+    "label": "Libia / Libya - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Libya",
+    "line_ids": [
+      "L49",
+      "L50",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      557.568,
+      575.892,
+      578.952
+    ],
+    "id": "p10-39"
+  },
+  {
+    "page": 10,
+    "label": "Mjanma (Birma) / Myanmar - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Myanmar",
+    "line_ids": [
+      "L51",
+      "L52",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      578.952,
+      280.908,
+      601.128
+    ],
+    "id": "p10-40"
+  },
+  {
+    "page": 10,
+    "label": "Mjanma (Birma) / Myanmar - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Myanmar",
+    "line_ids": [
+      "L51",
+      "L52",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      578.952,
+      410.652,
+      601.128
+    ],
+    "id": "p10-41"
+  },
+  {
+    "page": 10,
+    "label": "Mjanma (Birma) / Myanmar - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Myanmar",
+    "line_ids": [
+      "L51",
+      "L52",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      578.952,
+      575.892,
+      601.128
+    ],
+    "id": "p10-42"
+  },
+  {
+    "page": 10,
+    "label": "Rosja / Russia - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L53",
+      "L54",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      601.128,
+      280.908,
+      655.776
+    ],
+    "id": "p10-43"
+  },
+  {
+    "page": 10,
+    "label": "Rosja / Russia - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L53",
+      "L54",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      601.128,
+      410.652,
+      655.776
+    ],
+    "id": "p10-44"
+  },
+  {
+    "page": 10,
+    "label": "Rosja / Russia - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Russia",
+    "line_ids": [
+      "L53",
+      "L54",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      601.128,
+      575.892,
+      655.776
+    ],
+    "id": "p10-45"
+  },
+  {
+    "page": 10,
+    "label": "Sierra Leone / Sierra Leone - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Sierra Leone",
+    "line_ids": [
+      "L55",
+      "L56",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      655.776,
+      280.908,
+      689.832
+    ],
+    "id": "p10-46"
+  },
+  {
+    "page": 10,
+    "label": "Sierra Leone / Sierra Leone - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Sierra Leone",
+    "line_ids": [
+      "L55",
+      "L56",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      655.776,
+      410.652,
+      689.832
+    ],
+    "id": "p10-47"
+  },
+  {
+    "page": 10,
+    "label": "Sierra Leone / Sierra Leone - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Sierra Leone",
+    "line_ids": [
+      "L55",
+      "L56",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      655.776,
+      575.892,
+      689.832
+    ],
+    "id": "p10-48"
+  },
+  {
+    "page": 10,
+    "label": "Somalia / Somalia - Rodzaj działalności / Nature of the activity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Somalia",
+    "line_ids": [
+      "L57",
+      "L58",
+      "L5",
+      "L13"
+    ],
+    "value_box": [
+      179.928,
+      689.832,
+      280.908,
+      711.216
+    ],
+    "id": "p10-49"
+  },
+  {
+    "page": 10,
+    "label": "Somalia / Somalia - Nazwa i domicyl podmiotu / Name AND domicile of the legal entity",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Somalia",
+    "line_ids": [
+      "L57",
+      "L58",
+      "L6",
+      "L16"
+    ],
+    "value_box": [
+      280.908,
+      689.832,
+      410.652,
+      711.216
+    ],
+    "id": "p10-50"
+  },
+  {
+    "page": 10,
+    "label": "Somalia / Somalia - Rodzaj towarów / Type of restricted goods, software or technology",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Somalia",
+    "line_ids": [
+      "L57",
+      "L58",
+      "L7",
+      "L21"
+    ],
+    "value_box": [
+      410.652,
+      689.832,
+      575.892,
+      711.216
+    ],
+    "id": "p10-51"
+  },
+  {
+    "page": 11,
+    "label": "Sudan Południowy / South Sudan",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "South Sudan",
+    "line_ids": [
+      "L4"
+    ],
+    "value_box": [
+      179.316,
+      91.872,
+      575.892,
+      114.048
+    ],
+    "id": "p11-01"
+  },
+  {
+    "page": 11,
+    "label": "Sudan",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Sudan",
+    "line_ids": [],
+    "value_box": [
+      179.316,
+      114.048,
+      575.892,
+      136.224
+    ],
+    "id": "p11-02"
+  },
+  {
+    "page": 11,
+    "label": "Syria",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Syria",
+    "line_ids": [],
+    "value_box": [
+      179.316,
+      136.224,
+      575.892,
+      158.4
+    ],
+    "id": "p11-03"
+  },
+  {
+    "page": 11,
+    "label": "Wenezuela / Venezuela",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Venezuela",
+    "line_ids": [],
+    "value_box": [
+      179.316,
+      158.4,
+      575.892,
+      180.576
+    ],
+    "id": "p11-04"
+  },
+  {
+    "page": 11,
+    "label": "Jemen / Yemen",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Yemen",
+    "line_ids": [],
+    "value_box": [
+      179.316,
+      180.576,
+      575.892,
+      201.96
+    ],
+    "id": "p11-05"
+  },
+  {
+    "page": 11,
+    "label": "Zimbabwe",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": "country",
+    "concept_arg": "Zimbabwe",
+    "line_ids": [],
+    "value_box": [
+      179.316,
+      201.96,
+      575.892,
+      224.136
+    ],
+    "id": "p11-06"
+  },
+  {
+    "page": 11,
+    "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście listy G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem? / 2. Do you or any of your branches/ offices of subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's Common High Priority List (CHPL) as per the link below?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L5",
+      "L8",
+      "L18",
+      "L19",
+      "L7",
+      "L9"
+    ],
+    "value_box": null,
+    "id": "p11-07"
+  },
+  {
+    "page": 11,
+    "label": "2. Jeśli tak, szczegóły dotyczące środków kontroli / If yes, please provide details on your controls to prevent these items being made available in a sanctioned jurisdiction",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17",
+      "L28"
+    ],
+    "value_box": [
+      36.108,
+      444.312,
+      489.6,
+      498.96
+    ],
+    "id": "p11-08"
+  },
+  {
+    "page": 11,
+    "label": "3. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z sankcjami lub środkami ograniczającymi handel ustanowionymi przez Polskę, Unię Europejską, Wielką Brytanię lub Stany Zjednoczone Ameryki? / 3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Tak/Yes",
+      "Nie/No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L31",
+      "L30",
+      "L32"
+    ],
+    "value_box": null,
+    "id": "p11-09"
+  },
+  {
+    "page": 11,
+    "label": "3. If \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      36.108,
+      583.704,
+      489.6,
+      689.04
+    ],
+    "id": "p11-10"
+  }
+]
