@@ -1,0 +1,2049 @@
+{
+  "exercise": "form_02",
+  "company": "Belorive Patrimoine SAS",
+  "source_base": "entreprises/belorive_patrimoine",
+  "as_of": "2026-09-01",
+  "template_sha256": "4db342c8d125c9e5282d491fa72a39094491a69188e889714b86d58ec49a2aae",
+  "ocr_file": "form_02_ocr.json",
+  "method": "Local OCR and raster layout; explicit form_02 tax rules; no external API.",
+  "answers": [
+    {
+      "page": 1,
+      "label": "Dénomination sociale",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Belorive Patrimoine SAS"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          118.61648722002583,
+          278.8402549067465,
+          568.3650002510317,
+          291.1186473169161
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Dénomination Sociale*",
+        "rect": [
+          33.113319396972656,
+          280.52001953125,
+          111.6542739868164,
+          286.7653503417969
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Forme juridique",
+      "value": "SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/legal_form",
+          "value": "SAS"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          97.50074467812814,
+          294.19806584825403,
+          568.3650002510317,
+          306.2364924624626
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Forme Juridique",
+        "rect": [
+          32.87336730957031,
+          296.1177673339844,
+          88.31178283691406,
+          303.8043518066406
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Adresse du siège social",
+      "value": "11 rue des Sociétés Fictives",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/street",
+          "value": "11 rue des Sociétés Fictives"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          121.01600341796875,
+          309.79584258572265,
+          568.3650002510317,
+          323.75399556761965
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Adresse du siége social*",
+        "rect": [
+          32.633419036865234,
+          313.3953552246094,
+          116.43528747558594,
+          321.3221435546875
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Code postal",
+      "value": "69000",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/postcode",
+          "value": "69000"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          175.24506949147872,
+          327.55331148684076,
+          212.99665133568547,
+          341.51146446873776
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Code postal*",
+        "rect": [
+          118.296142578125,
+          330.9128112792969,
+          162.72927856445312,
+          338.8396301269531
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Ville",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/city",
+          "value": "Lyon"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          257.0685718413322,
+          327.3133456908797,
+          409.51702794721047,
+          341.51146446873776
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Ville*",
+        "rect": [
+          228.43393308758604,
+          330.9128041257736,
+          245.77528491747245,
+          338.8396225105885
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Pays",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/country",
+          "value": "France"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          444.4707869006741,
+          327.3133456908797,
+          568.1250486312374,
+          341.0315328768156
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Pays",
+        "rect": [
+          416.55601806517575,
+          330.9128041257736,
+          431.284249357725,
+          338.8396225105885
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "N° RCS",
+      "value": "SIM-RCS-B-001",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/registration",
+          "value": "SIM-RCS-B-001"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          89.82229284471082,
+          361.1485229213885,
+          335.6119290505686,
+          375.8265732911687
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "RCS*",
+        "rect": [
+          43.91113987716248,
+          365.467877405027,
+          59.90152205836428,
+          373.63486542183045
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Lieu d'enregistrement",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/registry_place",
+          "value": "Lyon"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          436.5523834474625,
+          360.9085571254275,
+          568.3650002510317,
+          375.5866074952076
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Lieu d'enregistrement d'enregistrement",
+        "rect": [
+          347.2099609375,
+          365.4678649902344,
+          422.02679443359375,
+          373.6348571777344
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Autres numéros d'identification",
+      "value": "SIM-INTERNAL-B-001",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/other_ids",
+          "value": "SIM-INTERNAL-B-001"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          151.00995589225522,
+          379.14595761846766,
+          568.3650002510317,
+          392.6241790084426
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Autres numéros d'identification d'identification",
+        "rect": [
+          32.3934326171875,
+          382.2655029296875,
+          141.62887573242188,
+          388.5108337402344
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Code NACE",
+      "value": "68.20",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/nace",
+          "value": "68.20"
+        }
+      ],
+      "justification": "Identification de l'entité cliente ; identifiants SIM fictifs.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          86.22301854779643,
+          396.4234949276637,
+          568.1250486312374,
+          408.46192154187224
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Code NACE",
+        "rect": [
+          32.633419036865234,
+          399.10296630859375,
+          72.59976196289062,
+          405.2618713378906
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Adresse de l'établissement",
+      "value": null,
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/establishment",
+          "value": null
+        }
+      ],
+      "justification": "Adresse distincte non fournie ; ne pas déduire son absence.",
+      "missing_components": [
+        "Adresse de l'établissement"
+      ],
+      "render": {
+        "kind": "text",
+        "rect": [
+          232.35355500252015,
+          344.5908830000757,
+          568.3650002510317,
+          358.30907018601164
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Adresse de l'établissement l'établissement",
+        "rect": [
+          32.393463134765625,
+          347.7104187011719,
+          125.06278228759766,
+          355.8774108886719
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Pays de résidence fiscale — client, ligne 1",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_residences/0/country",
+          "value": "France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          41.142722210686316,
+          499.209129231307,
+          223.99423232540008,
+          510.20699147887296
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Résidences fiscales — ligne 1",
+        "rect": [
+          30.953758953463645,
+          497.209129231307,
+          226.99423232540008,
+          512.206991478873
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "NIF — client, ligne 1",
+      "value": "SIM-TIN-B-FR",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_residences/0/tin",
+          "value": "SIM-TIN-B-FR"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          229.99423232540008,
+          499.209129231307,
+          551.0482901050199,
+          510.20699147887296
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Résidences fiscales — ligne 1",
+        "rect": [
+          226.99423232540008,
+          497.209129231307,
+          554.0482901050199,
+          512.206991478873
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Résidence fiscale supplémentaire — client, ligne 2",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_residences",
+          "value": [
+            {
+              "country": "France",
+              "tin": "SIM-TIN-B-FR"
+            }
+          ]
+        }
+      ],
+      "justification": "Aucune résidence fiscale supplémentaire dans le registre exhaustif.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Résidences fiscales — ligne 2",
+        "rect": [
+          30.953758953463645,
+          512.206991478873,
+          226.99423232540008,
+          526.9648879304779
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Résidence fiscale supplémentaire — client, ligne 3",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_residences",
+          "value": [
+            {
+              "country": "France",
+              "tin": "SIM-TIN-B-FR"
+            }
+          ]
+        }
+      ],
+      "justification": "Aucune résidence fiscale supplémentaire dans le registre exhaustif.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Résidences fiscales — ligne 3",
+        "rect": [
+          30.953758953463645,
+          526.9648879304779,
+          226.99423232540008,
+          541.7227843820828
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Formulaire W-9 de l'entité",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_residences",
+          "value": [
+            {
+              "country": "France",
+              "tin": "SIM-TIN-B-FR"
+            }
+          ]
+        }
+      ],
+      "justification": "Le client est fiscalement résident en France, pas aux États-Unis.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 1,
+        "text": "formulaire W-9 W-9",
+        "rect": [
+          32.6334342956543,
+          558.1604614257812,
+          89.19007873535156,
+          567.2882080078125
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Statut fiscal du client",
+      "value": "Entité Non Financière Passive",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_category",
+          "value": "Passive non-financial entity"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          35.2728881097609,
+          210.09005436390407
+        ]
+      },
+      "questionnaire_label": {
+        "page": 2,
+        "text": "B. Entité Non Financière Passive",
+        "rect": [
+          49.19000244140625,
+          203.01104736328125,
+          169.13821411132812,
+          217.66360473632812
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Sous-catégories d'ENF active",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_category",
+          "value": "Passive non-financial entity"
+        }
+      ],
+      "justification": "Rubrique conditionnelle non applicable à une ENF passive.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 2,
+        "text": "A. Entité Non Financière Active",
+        "rect": [
+          48.71009826660156,
+          109.42440795898438,
+          166.28395080566406,
+          124.07691192626953
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "GIIN et statut sans GIIN",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_category",
+          "value": "Passive non-financial entity"
+        }
+      ],
+      "justification": "Rubrique conditionnelle non applicable à une ENF passive.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 2,
+        "text": "le numéro GIIN",
+        "rect": [
+          176.1244354248047,
+          300.4371643066406,
+          228.64495849609375,
+          308.6041259765625
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Entité d'investissement gérée par une institution financière",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_category",
+          "value": "Passive non-financial entity"
+        }
+      ],
+      "justification": "Rubrique conditionnelle non applicable à une ENF passive.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 2,
+        "text": "En cas de résidence fiscale",
+        "rect": [
+          65.02684020996094,
+          354.4294738769531,
+          156.01651000976562,
+          362.836669921875
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Statuts exemptés",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/tax_facts.json",
+          "section": "JSON",
+          "pointer": "/data/tax_category",
+          "value": "Passive non-financial entity"
+        }
+      ],
+      "justification": "Rubrique conditionnelle non applicable à une ENF passive.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 2,
+        "text": "D. Entités exemptées",
+        "rect": [
+          49.1900634765625,
+          423.2996520996094,
+          128.6907958984375,
+          433.3882751464844
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Nom et prénom — Camille Orvaux",
+      "value": "Orvaux Camille",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/surname",
+          "value": "Orvaux"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/given",
+          "value": "Camille"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          236.65425075929647,
+          222.99423232540008,
+          246.364570123865
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Date et pays de naissance — Camille Orvaux",
+      "value": "12/04/1980 — France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/birth_date",
+          "value": "1980-04-12"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/birth_country",
+          "value": "France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          255.85011135429517,
+          222.99423232540008,
+          265.3218905788393
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Nationalités — Camille Orvaux",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/nationalities",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          274.56721640743615,
+          222.99423232540008,
+          283.7992379285945
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Adresse de résidence — Camille Orvaux",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/address",
+          "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          293.28476390240974,
+          222.99423232540008,
+          312.1152269130216
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Résidences fiscales — Camille Orvaux",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/tax_residences",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          230.23418394519436,
+          221.08877171244367,
+          321.89449320147116,
+          312.1152269130216
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "NIF — Camille Orvaux",
+      "value": "France: SIM-TIN-B1-FR",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/tins",
+          "value": {
+            "France": "SIM-TIN-B1-FR"
+          }
+        }
+      ],
+      "justification": "Les NIF connus sont conservés. Un NIF absent n'est pas déclaré non applicable.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          328.13444482126545,
+          221.08877171244367,
+          407.55722146803333,
+          312.1152269130216
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Capital direct — Camille Orvaux",
+      "value": "0 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/direct_pct",
+          "value": 0
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          414.0371247076219,
+          221.08877171244367,
+          460.34657782277753,
+          312.1152269130216
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Capital indirect — Camille Orvaux",
+      "value": "42 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/indirect_pct",
+          "value": 42
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.8264810623661,
+          221.08877171244367,
+          513.3758857973161,
+          312.1152269130216
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Droits de vote — Camille Orvaux",
+      "value": "42 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/0/votes_pct",
+          "value": 42
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          519.8557890369046,
+          221.08877171244367,
+          566.6451453916488,
+          312.1152269130216
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 1",
+        "rect": [
+          23.275307120046307,
+          219.08877171244367,
+          226.99423232540008,
+          314.1152269130216
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Nom et prénom — Samir Dervelle",
+      "value": "Dervelle Samir",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/surname",
+          "value": "Dervelle"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/given",
+          "value": "Samir"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          331.82468652789254,
+          222.99423232540008,
+          341.63099293780647
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Date et pays de naissance — Samir Dervelle",
+      "value": "23/08/1985 — France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/birth_date",
+          "value": "1985-08-23"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/birth_country",
+          "value": "France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          350.87634927963313,
+          222.99423232540008,
+          360.3483268401712
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Nationalités — Samir Dervelle",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/nationalities",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          369.5936831819979,
+          222.99423232540008,
+          379.3056472951455
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Adresse de résidence — Samir Dervelle",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/address",
+          "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          388.79117326896073,
+          222.99423232540008,
+          412.90086121666496
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Résidences fiscales — Samir Dervelle",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/tax_residences",
+          "value": [
+            "France"
+          ]
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          230.23418394519436,
+          316.1152269130216,
+          321.89449320147116,
+          412.90086121666496
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "NIF — Samir Dervelle",
+      "value": "France: SIM-TIN-B2-FR",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/tins",
+          "value": {
+            "France": "SIM-TIN-B2-FR"
+          }
+        }
+      ],
+      "justification": "Les NIF connus sont conservés. Un NIF absent n'est pas déclaré non applicable.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          328.13444482126545,
+          316.1152269130216,
+          407.55722146803333,
+          412.90086121666496
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Capital direct — Samir Dervelle",
+      "value": "0 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/direct_pct",
+          "value": 0
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          414.0371247076219,
+          316.1152269130216,
+          460.34657782277753,
+          412.90086121666496
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Capital indirect — Samir Dervelle",
+      "value": "28 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/indirect_pct",
+          "value": 28
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.8264810623661,
+          316.1152269130216,
+          513.3758857973161,
+          412.90086121666496
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Droits de vote — Samir Dervelle",
+      "value": "28 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/1/votes_pct",
+          "value": 28
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          519.8557890369046,
+          316.1152269130216,
+          566.6451453916488,
+          412.90086121666496
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 2",
+        "rect": [
+          23.275307120046307,
+          314.1152269130216,
+          226.99423232540008,
+          414.90086121666496
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Nom et prénom — Léa Montelac",
+      "value": "Montelac Léa",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/surname",
+          "value": "Montelac"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/given",
+          "value": "Léa"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          432.5143474262738,
+          222.99423232540008,
+          442.4166487633203
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Date et pays de naissance — Léa Montelac",
+      "value": "23/08/1985 — France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/birth_date",
+          "value": "1985-08-23"
+        },
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/birth_country",
+          "value": "France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          451.6619745919172,
+          222.99423232540008,
+          461.13398266568504
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Nationalités — Léa Montelac",
+      "value": "France, United States",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/nationalities",
+          "value": [
+            "France",
+            "United States"
+          ]
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          470.37930849428193,
+          222.99423232540008,
+          479.6113300154403
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Adresse de résidence — Léa Montelac",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/address",
+          "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          27.275307120046307,
+          489.0968559892555,
+          222.99423232540008,
+          518.0058798476073
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      },
+      "layout_note": "Adresse positionnée par les espacements de la ligne répétée précédente."
+    },
+    {
+      "page": 3,
+      "label": "Résidences fiscales — Léa Montelac",
+      "value": "France\nÉtats-Unis d'Amérique",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/tax_residences",
+          "value": [
+            "France",
+            "United States"
+          ]
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          230.23418394519436,
+          416.6608954207039,
+          321.89449320147116,
+          518.0058798476073
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "NIF — Léa Montelac",
+      "value": "France: SIM-TIN-B3-FR\nUnited States: Information manquante",
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/tins",
+          "value": {
+            "France": "SIM-TIN-B3-FR",
+            "United States": null
+          }
+        }
+      ],
+      "justification": "Les NIF connus sont conservés. Un NIF absent n'est pas déclaré non applicable.",
+      "missing_components": [
+        "NIF — United States"
+      ],
+      "render": {
+        "kind": "text",
+        "rect": [
+          328.13444482126545,
+          416.6608954207039,
+          407.55722146803333,
+          518.0058798476073
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Capital direct — Léa Montelac",
+      "value": "30 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/direct_pct",
+          "value": 30
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          414.0371247076219,
+          416.6608954207039,
+          460.34657782277753,
+          518.0058798476073
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Capital indirect — Léa Montelac",
+      "value": "0 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/indirect_pct",
+          "value": 0
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          466.8264810623661,
+          416.6608954207039,
+          513.3758857973161,
+          518.0058798476073
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Droits de vote — Léa Montelac",
+      "value": "30 %",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people/2/votes_pct",
+          "value": 30
+        }
+      ],
+      "justification": "Pourcentage relatif au client fourni par le registre de propriété.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          519.8557890369046,
+          416.6608954207039,
+          566.6451453916488,
+          518.0058798476073
+        ]
+      },
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 3",
+        "rect": [
+          23.275307120046307,
+          414.6608954207039,
+          226.99423232540008,
+          520.0058798476073
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Bénéficiaire effectif supplémentaire — ligne 4",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+          "section": "bloc JSON",
+          "pointer": "/people",
+          "value": [
+            {
+              "id": "B1",
+              "given": "Camille",
+              "surname": "Orvaux",
+              "name": "Camille Orvaux",
+              "birth_date": "1980-04-12",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-B1-FR"
+              },
+              "id_number": "SIM-ID-B1",
+              "direct_pct": 0,
+              "indirect_pct": 42,
+              "votes_pct": 42,
+              "control_since": "2020-01-15"
+            },
+            {
+              "id": "B2",
+              "given": "Samir",
+              "surname": "Dervelle",
+              "name": "Samir Dervelle",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France"
+              ],
+              "tins": {
+                "France": "SIM-TIN-B2-FR"
+              },
+              "id_number": "SIM-ID-B2",
+              "direct_pct": 0,
+              "indirect_pct": 28,
+              "votes_pct": 28,
+              "control_since": "2020-01-15"
+            },
+            {
+              "id": "B3",
+              "given": "Léa",
+              "surname": "Montelac",
+              "name": "Léa Montelac",
+              "birth_date": "1985-08-23",
+              "birth_country": "France",
+              "nationalities": [
+                "France",
+                "United States"
+              ],
+              "residences": [
+                "France"
+              ],
+              "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+              "tax_residences": [
+                "France",
+                "United States"
+              ],
+              "tins": {
+                "France": "SIM-TIN-B3-FR",
+                "United States": null
+              },
+              "id_number": "SIM-ID-B3",
+              "direct_pct": 30,
+              "indirect_pct": 0,
+              "votes_pct": 30,
+              "control_since": "2020-01-15",
+              "tin_note": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required."
+            }
+          ]
+        }
+      ],
+      "justification": "Le registre exhaustif ne mentionne aucun bénéficiaire supplémentaire.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 3,
+        "text": "Bénéficiaire effectif — ligne 4",
+        "rect": [
+          23.275307120046307,
+          519.7659140516462,
+          226.99423232540008,
+          624.3910010906664
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "label": "Cadre réservé à la banque / clarifications",
+      "value": null,
+      "state": "bank_reserved",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/bank_requests_clarification",
+          "value": false
+        }
+      ],
+      "justification": "Aucune clarification demandée ; laisser le cadre réservé vierge.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 3,
+        "text": "CADRE RESERVE",
+        "rect": [
+          39.83196258544922,
+          645.5079956054688,
+          99.6650619506836,
+          657.99267578125
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "label": "Nom du représentant légal",
+      "value": "Orvaux",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer/surname",
+          "value": "Orvaux"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          73.50558269869897,
+          346.5106093677641,
+          184.92231181975333,
+          361.9085571254275
+        ]
+      },
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Nom“",
+        "rect": [
+          33.35341237900397,
+          349.63013802813833,
+          57.463830776660764,
+          357.3167562677349
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "label": "Prénom du représentant légal",
+      "value": "Camille",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer/given",
+          "value": "Camille"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          245.07099085161764,
+          346.2706435718031,
+          356.487719972672,
+          361.9085571254275
+        ]
+      },
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Prénom*",
+        "rect": [
+          192.4413281580373,
+          349.63013802813833,
+          228.4533688657174,
+          357.3167562677349
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "label": "Fonction du représentant légal",
+      "value": "Présidente",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer_role",
+          "value": "Présidente"
+        }
+      ],
+      "justification": "Valeur fournie dans le contexte assigné.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          204.03926386679373,
+          365.46790724868754,
+          376.4037044155982,
+          381.1058208023119
+        ]
+      },
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Fonction au sein de",
+        "rect": [
+          33.35341262817383,
+          368.58746337890625,
+          115.8439712524414,
+          376.0338439941406
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "label": "Fait à",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/place",
+          "value": "Lyon"
+        }
+      ],
+      "justification": "Lieu et date fixes de l'exercice ; ne constituent pas une signature.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          67.77928779339985,
+          316.034912109375,
+          184.4413281580373,
+          330.6431884765625
+        ]
+      },
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Fait à*",
+        "rect": [
+          33.35342025756836,
+          316.034912109375,
+          59.220237731933594,
+          325.6431884765625
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "label": "Date de complétion",
+      "value": "01/09/2026",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/date",
+          "value": "01/09/2026"
+        }
+      ],
+      "justification": "Lieu et date fixes de l'exercice ; ne constituent pas une signature.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          211.55827501321411,
+          316.03491941963375,
+          355.52685519215095,
+          330.6431998474369
+        ]
+      },
+      "questionnaire_label": {
+        "page": 4,
+        "text": "le*",
+        "rect": [
+          192.4413281580373,
+          316.03491941963375,
+          202.66332699811676,
+          325.6431998474369
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "label": "Certification et signature",
+      "value": null,
+      "state": "human_action",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Lecture, certification et signature humaines requises ; aucune signature générée.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 4,
+        "text": "Signature*",
+        "rect": [
+          363.52685519215095,
+          316.03491941963375,
+          407.19816382201446,
+          325.6431998474369
+        ]
+      }
+    }
+  ]
+}
