@@ -1,0 +1,724 @@
+{
+  "exercice": "form_04",
+  "company": "belorive_patrimoine",
+  "as_of": "2026-09-01",
+  "method": "fact_store_lookup",
+  "elapsed_seconds": 0.04,
+  "format_problems": [],
+  "fields": [
+    {
+      "page": 1,
+      "label": "Company name",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name; sources/companies/sim-hackathon-b-client/mandate.md#/name",
+      "justification": "2 source(s) concordante(s).",
+      "missing": [],
+      "concept": "legal_name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.15
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Country of Incorporation",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/incorporation",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "incorporation",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Grid",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ]
+    },
+    {
+      "page": 1,
+      "label": "La Banque des Entreprises booking location(s)",
+      "value": null,
+      "state": "bank_reserved",
+      "source": null,
+      "justification": "Reserved for the bank.",
+      "missing": [],
+      "concept": "bank_reserved",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ]
+    },
+    {
+      "page": 1,
+      "label": "La Banque des Entreprises Relationship Manager",
+      "value": null,
+      "state": "bank_reserved",
+      "source": null,
+      "justification": "Reserved for the bank.",
+      "missing": [],
+      "concept": "bank_reserved",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.55
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in or involving any Sanctioned Jurisdiction?",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0; sources/companies/sim-hackathon-b-client/activities.md#/activities/1",
+      "justification": "Sanctioned-jurisdiction activity rows present in scope.",
+      "missing": [],
+      "concept": "sanctions_presence",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "page": 1,
+      "label": "If 'Yes' is selected, please provide further details in Part 2.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions?",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0; sources/companies/sim-hackathon-b-client/activities.md#/activities/1",
+      "justification": "Sanctioned-jurisdiction activity rows present in scope.",
+      "missing": [],
+      "concept": "sanctions_presence",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 1,
+      "label": "If 'Yes' is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.9,
+        0.9,
+        0.95
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/compliance.md#/government",
+      "justification": "No government counterparty in the compliance register.",
+      "missing": [],
+      "concept": "sanctions_pep",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ]
+    },
+    {
+      "page": 2,
+      "label": "If 'Yes' is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.25,
+        0.9,
+        0.35
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively 'Government')?",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0; sources/companies/sim-hackathon-b-client/activities.md#/activities/1",
+      "justification": "Sanctioned-jurisdiction activity rows present in scope.",
+      "missing": [],
+      "concept": "sanctions_presence",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.35,
+        0.9,
+        0.4
+      ]
+    },
+    {
+      "page": 2,
+      "label": "If 'Yes' is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises's involvement).",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.5
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) the Government of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/compliance.md#/bank_use",
+      "justification": "Copied compliance.bank_use.",
+      "missing": [],
+      "concept": "bank_use",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.55
+      ]
+    },
+    {
+      "page": 2,
+      "label": "If 'Yes' is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "page": 2,
+      "label": "If 'No' is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.65,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either: a Sanctioned Party, located, organized, registered in, or operating from a Sanctioned Jurisdiction, employed in a Sanctioned Jurisdiction, or who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?",
+      "value": "Yes. Julien Valsenne, Director of Belorive Clôture Russia LLC, resident in Russia.",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/governance_nexus",
+      "justification": "A director resides in a sanctioned jurisdiction.",
+      "missing": [],
+      "concept": "sanctions_pep",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "page": 2,
+      "label": "If 'Yes' is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.9
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/compliance.md#/policy",
+      "justification": "Compliance policy present in compliance register.",
+      "missing": [],
+      "concept": "compliance_policy",
+      "field_type": "yes_no",
+      "bbox": [
+        0.8,
+        0.1,
+        0.95,
+        0.15
+      ]
+    },
+    {
+      "page": 3,
+      "label": "If 'Yes' is selected please provide further details of the policy and/or program below, including an overview of sanctions programs that you comply with (EU, UN, US, UK etc.) and whether the program includes a periodical assessment or audit.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.4
+      ]
+    },
+    {
+      "page": 3,
+      "label": "If 'No' is selected – please provide further details on how you manage compliance with Sanctions otherwise, including without limitation details on screening and due diligence of clients, business partners and transactions on the potential involvement of sanctioned parties, jurisdictions and goods.",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.6
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Sanctioned Jurisdiction",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Please provide percentage of revenue (income/from Sanctioned Jurisdiction by total revenue) by total revenue at group level.",
+      "value": "1% (200000 / 20000000)",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/revenue; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/revenue; sources/companies/sim-hackathon-b-client/finance.md#/group_totals",
+      "justification": "Group revenue share: country amounts divided by finance /group_totals, not the group total itself.",
+      "missing": [],
+      "concept": "sanctions_metrics",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.65,
+        0.9,
+        0.7
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level.",
+      "value": "600000 (group assets total is not supplied)",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/assets; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/assets",
+      "justification": "Sum of assets on sanctioned-jurisdiction rows; consolidated total is absent.",
+      "missing": [],
+      "concept": "sanctions_metrics",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level.",
+      "value": "0.7% (84000 / 12000000)",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/expenses; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/expenses; sources/companies/sim-hackathon-b-client/finance.md#/group_totals",
+      "justification": "Group expenses share: country amounts divided by finance /group_totals, not the group total itself.",
+      "missing": [],
+      "concept": "sanctions_metrics",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level.",
+      "value": "Belorive Clôture Russia LLC, Belorive Immobilier Belarus LLC",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/0/entity; sources/companies/sim-hackathon-b-client/activities.md#/activities/1/entity",
+      "justification": "Entities on sanctioned-jurisdiction activity rows.",
+      "missing": [],
+      "concept": "sanctions_entities",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Signé le / date",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date; sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+      "justification": "Date de complétion de l'exercice au mandat. La signature elle-même n'est pas exécutée.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "signature",
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.9
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Cuba",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.15
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Iran",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.15,
+        0.3,
+        0.2
+      ]
+    },
+    {
+      "page": 4,
+      "label": "North Korea",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.25
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Russia",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities/1; sources/companies/sim-hackathon-b-client/corporate.md#/perimeter/2",
+      "justification": "Activité ou implantation actuelle dans le périmètre déclarant.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.25,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Sudan",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.3,
+        0.3,
+        0.35
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Syria",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.35,
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Zaporizhzhia",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.4,
+        0.3,
+        0.45
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Kherson",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.45,
+        0.3,
+        0.5
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Donetsk",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.5,
+        0.3,
+        0.55
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Luhansk",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/activities.md#/activities; sources/companies/sim-hackathon-b-client/activities.md#/negative_declaration; sources/companies/sim-hackathon-b-client/finance.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#(en-tête)",
+      "justification": "Absent du registre d'activités ; déclaration négative complète.",
+      "missing": [],
+      "concept": "country_activity",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.55,
+        0.3,
+        0.6
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Name of submitter",
+      "value": "Camille Orvaux",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/name",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.65,
+        0.9,
+        0.7
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Name of company (including corp. suffix)",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name; sources/companies/sim-hackathon-b-client/mandate.md#/name",
+      "justification": "2 source(s) concordante(s).",
+      "missing": [],
+      "concept": "legal_name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Position within company",
+      "value": "Présidente",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.role",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Date",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date; sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+      "justification": "Date de complétion de l'exercice au mandat. La signature elle-même n'est pas exécutée.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Signature",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+      "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+      "missing": [],
+      "concept": "signature",
+      "field_type": "signature",
+      "bbox": [
+        0.5,
+        0.9,
+        0.8,
+        1.0
+      ]
+    }
+  ]
+}

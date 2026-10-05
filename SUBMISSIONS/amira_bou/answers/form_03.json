@@ -1,0 +1,1022 @@
+{
+  "exercice": "form_03",
+  "company": "cendrelis_instruments",
+  "as_of": "2026-09-01",
+  "method": "fact_store_lookup",
+  "elapsed_seconds": 0.03,
+  "format_problems": [],
+  "fields": [
+    {
+      "page": 2,
+      "label": "Legal Name",
+      "value": "Cendrelis Instruments SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/name; sources/companies/sim-hackathon-c-client/mandate.md#/name",
+      "justification": "2 source(s) concordante(s).",
+      "missing": [],
+      "concept": "legal_name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Tax Identification Number",
+      "value": "SIM-TIN-C-FR",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/tin",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "tin",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ]
+    },
+    {
+      "page": 2,
+      "label": "LEI",
+      "value": null,
+      "state": "missing_information",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/lei",
+      "justification": "Valeur absente des sources.",
+      "missing": [
+        "LEI"
+      ],
+      "concept": "lei",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ]
+    },
+    {
+      "page": 2,
+      "label": "NACE Code of the company",
+      "value": "26.51",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/nace",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "nace",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.6
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entity's Type",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 2,
+      "label": "None of the indicated below",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category='None' → none-of-the-below.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.65,
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Money transmitters, currency trading and similar entities",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Money transmitters, currency trading and similar entities' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 2,
+      "label": "On-line gambling and casinos",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'On-line gambling and casinos' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Mere Asset Holding Companies (EMTAs)",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Mere Asset Holding Companies (EMTAs)' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Holding entities",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Holding entities' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.9
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Crowdfunding",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Crowdfunding' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.9,
+        0.9,
+        0.95
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Non-Financial Asset Manager",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Non-Financial Asset Manager' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.95,
+        0.9,
+        1.0
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Cannabis Business",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Cannabis Business' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.0,
+        0.9,
+        1.05
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Special Purpose Vehicle (SPV)",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Special Purpose Vehicle (SPV)' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.05,
+        0.9,
+        1.1
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Virtual asset service provider (VASP)",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/entity_category",
+      "justification": "entity_category empty; option 'Virtual asset service provider (VASP)' not selected.",
+      "missing": [],
+      "concept": "entity_type_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.1,
+        0.9,
+        1.15
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Responsible Financial Supervisory Authority",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/tax.md#/supervisor; sources/companies/sim-hackathon-c-client/tax.md#/unsupervised",
+      "justification": "Company is unsupervised — no supervisory authority.",
+      "missing": [],
+      "concept": "supervisor",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        1.2,
+        0.9,
+        1.25
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Name of authority",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/tax.md#/supervisor; sources/companies/sim-hackathon-c-client/tax.md#/unsupervised",
+      "justification": "Company is unsupervised — no supervisory authority.",
+      "missing": [],
+      "concept": "supervisor",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        1.3,
+        0.9,
+        1.35
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Company is not supervised by a regulatory authority",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/tax.md#/unsupervised",
+      "justification": "Copied tax.unsupervised.",
+      "missing": [],
+      "concept": "unsupervised",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.4,
+        0.9,
+        1.45
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Please indicate the source of funds",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "checkbox",
+      "bbox": null
+    },
+    {
+      "page": 2,
+      "label": "Own activity",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/funds",
+      "justification": "funds=['own activity', 'investors'] vs 'Own activity'.",
+      "missing": [],
+      "concept": "funds_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.5,
+        0.3,
+        1.55
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Investors",
+      "value": "Yes",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/funds",
+      "justification": "funds=['own activity', 'investors'] vs 'Investors'.",
+      "missing": [],
+      "concept": "funds_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.55,
+        0.3,
+        1.6
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Deposits",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/funds",
+      "justification": "funds=['own activity', 'investors'] vs 'Deposits'.",
+      "missing": [],
+      "concept": "funds_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.6,
+        0.3,
+        1.65
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Others*",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/funds; sources/companies/sim-hackathon-c-client/corporate.md#/other_funds",
+      "justification": "other_funds present?",
+      "missing": [],
+      "concept": "funds_option",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        1.65,
+        0.3,
+        1.7
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Signature",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#/authority",
+      "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+      "missing": [],
+      "concept": "signature",
+      "field_type": "signature",
+      "bbox": [
+        0.1,
+        1.75,
+        0.9,
+        1.8
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Signé le / date",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date; sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#/authority",
+      "justification": "Date de signature inconnue ; date de complétion de l'exercice : 01/09/2026.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "signature",
+      "bbox": [
+        0.1,
+        1.8,
+        0.9,
+        1.85
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Can the corporation issue bearer shares?",
+      "value": "No",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/corporate.md#/bearer",
+      "justification": "Copied corporate.bearer.",
+      "missing": [],
+      "concept": "bearer",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.4
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Yes",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.45,
+        0.2,
+        0.5
+      ]
+    },
+    {
+      "page": 3,
+      "label": "No",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "checkbox",
+      "bbox": [
+        0.3,
+        0.45,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Name and Surname:",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/name",
+      "justification": "Copied ubo.name for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Type of control (1):",
+      "value": "Ownership",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/votes_pct",
+      "justification": "Copied ubo.control_type for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.control_type",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.1,
+        0.8,
+        0.15
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Date of birth:",
+      "value": "1980-04-12",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/birth_date",
+      "justification": "Copied ubo.birth_date for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.birth_date",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.15,
+        0.4,
+        0.2
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Country of residence:",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/residences",
+      "justification": "Copied ubo.residence_country for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.residence_country",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.15,
+        0.8,
+        0.2
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Address of residence:",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/address",
+      "justification": "Copied ubo.address for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.address",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.8,
+        0.25
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Date on which the person became “Controlling Person”:",
+      "value": "2020-01-15",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/control_since",
+      "justification": "Copied ubo.control_since for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.control_since",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.25,
+        0.8,
+        0.3
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Ownership % (2):",
+      "value": 60,
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/votes_pct",
+      "justification": "Copied ubo.ownership_pct for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.ownership_pct",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Nationality:",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/nationalities",
+      "justification": "Copied ubo.nationality for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.nationality",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.35
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Passport or national ID card number:",
+      "value": "SIM-ID-C1",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/id_number",
+      "justification": "Copied ubo.id_number for UBO slot 0 (Nora Avelune).",
+      "missing": [],
+      "concept": "ubo.id_number",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.35,
+        0.8,
+        0.4
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Name and Surname:",
+      "value": "Hugo Valcendre",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/name",
+      "justification": "Copied ubo.name for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Type of control (1):",
+      "value": "Ownership",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/votes_pct",
+      "justification": "Copied ubo.control_type for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.control_type",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.1,
+        0.8,
+        0.15
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Date of birth:",
+      "value": "1985-08-23",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/birth_date",
+      "justification": "Copied ubo.birth_date for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.birth_date",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.15,
+        0.4,
+        0.2
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Country of residence:",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/residences",
+      "justification": "Copied ubo.residence_country for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.residence_country",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.15,
+        0.8,
+        0.2
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Address of residence:",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/address",
+      "justification": "Copied ubo.address for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.address",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.8,
+        0.25
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Date on which the person became “Controlling Person”:",
+      "value": "2020-01-15",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/control_since",
+      "justification": "Copied ubo.control_since for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.control_since",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.25,
+        0.8,
+        0.3
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Ownership % (2):",
+      "value": 40,
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/votes_pct",
+      "justification": "Copied ubo.ownership_pct for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.ownership_pct",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Nationality:",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/nationalities",
+      "justification": "Copied ubo.nationality for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.nationality",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.35
+      ]
+    },
+    {
+      "page": 5,
+      "label": "Passport or national ID card number:",
+      "value": "SIM-ID-C2",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/id_number",
+      "justification": "Copied ubo.id_number for UBO slot 1 (Hugo Valcendre).",
+      "missing": [],
+      "concept": "ubo.id_number",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.35,
+        0.8,
+        0.4
+      ]
+    },
+    {
+      "page": 6,
+      "label": "Name & Surname (1)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 2.",
+      "missing": [],
+      "concept": "ubo.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "page": 6,
+      "label": "Date of birth (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 2.",
+      "missing": [],
+      "concept": "ubo.birth_date",
+      "field_type": "text",
+      "bbox": [
+        0.35,
+        0.2,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "page": 6,
+      "label": "Nationality (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 2.",
+      "missing": [],
+      "concept": "ubo.nationality",
+      "field_type": "text",
+      "bbox": [
+        0.55,
+        0.2,
+        0.7,
+        0.3
+      ]
+    },
+    {
+      "page": 6,
+      "label": "Country (ies) of Residence (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 2.",
+      "missing": [],
+      "concept": "ubo.residence_country",
+      "field_type": "text",
+      "bbox": [
+        0.75,
+        0.2,
+        0.9,
+        0.3
+      ]
+    },
+    {
+      "page": 6,
+      "label": "Passport or national ID card number (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 2.",
+      "missing": [],
+      "concept": "ubo.id_number",
+      "field_type": "text",
+      "bbox": [
+        0.95,
+        0.2,
+        1.0,
+        0.3
+      ]
+    },
+    {
+      "page": 7,
+      "label": "Name & Surname (1)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 3.",
+      "missing": [],
+      "concept": "ubo.name",
+      "field_type": "text",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.25
+      ]
+    },
+    {
+      "page": 7,
+      "label": "Date of birth (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 3.",
+      "missing": [],
+      "concept": "ubo.birth_date",
+      "field_type": "text",
+      "bbox": [
+        0.36,
+        0.15,
+        0.56,
+        0.25
+      ]
+    },
+    {
+      "page": 7,
+      "label": "Nationality (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 3.",
+      "missing": [],
+      "concept": "ubo.nationality",
+      "field_type": "text",
+      "bbox": [
+        0.57,
+        0.15,
+        0.77,
+        0.25
+      ]
+    },
+    {
+      "page": 7,
+      "label": "Country (ies) of Residence (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 3.",
+      "missing": [],
+      "concept": "ubo.residence_country",
+      "field_type": "text",
+      "bbox": [
+        0.78,
+        0.15,
+        0.98,
+        0.25
+      ]
+    },
+    {
+      "page": 7,
+      "label": "Passport or national ID card number (2)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people",
+      "justification": "No controlling person at slot 3.",
+      "missing": [],
+      "concept": "ubo.id_number",
+      "field_type": "text",
+      "bbox": [
+        0.05,
+        0.26,
+        0.98,
+        0.36
+      ]
+    },
+    {
+      "page": 9,
+      "label": "This declaration is signed in",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/mandate.md#/place",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.place",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.8,
+        0.4,
+        0.85
+      ]
+    },
+    {
+      "page": 9,
+      "label": "Date",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date; sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#/authority",
+      "justification": "Date de signature inconnue ; date de complétion de l'exercice : 01/09/2026.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "text",
+      "bbox": [
+        0.5,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 9,
+      "label": "Name & Surname",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/name",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.9
+      ]
+    },
+    {
+      "page": 9,
+      "label": "Signature",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#(en-tête); sources/companies/sim-hackathon-c-client/mandate.md#/authority",
+      "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+      "missing": [],
+      "concept": "signature",
+      "field_type": "signature",
+      "bbox": [
+        0.1,
+        0.9,
+        0.9,
+        0.95
+      ]
+    }
+  ]
+}

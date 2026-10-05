@@ -1,0 +1,2284 @@
+{
+ "exercice": "form_03",
+ "entreprise": "Cendrelis Instruments SAS",
+ "questionnaire": "questionnaires/03_cendrelis_instruments.pdf",
+ "pages": [
+  {
+   "page": 1,
+   "lang": "eng",
+   "zones": []
+  },
+  {
+   "page": 2,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      566.6,
+      7.2,
+      6.8
+     ],
+     "option": "Virtual asset service provider (VASP)",
+     "label": "Virtual asset service provider (VASP)"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      542.2,
+      7.2,
+      6.8
+     ],
+     "option": "Special Purpose Vehicle (SPV)",
+     "label": "Special Purpose Vehicle (SPV)"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      517.3,
+      7.2,
+      7.2
+     ],
+     "option": "Cannabis Business",
+     "label": "Cannabis Business"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      492.5,
+      7.2,
+      7.2
+     ],
+     "option": "Non-Financial Asset Manager",
+     "label": "Non-Financial Asset Manager"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      443.2,
+      7.2,
+      6.8
+     ],
+     "option": "Holding entities",
+     "label": "Holding entities"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      418.7,
+      7.2,
+      6.8
+     ],
+     "option": "Mere Asset Holding Companies (EMTAs)",
+     "label": "Mere Asset Holding Companies (EMTAs)"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      393.8,
+      7.2,
+      6.8
+     ],
+     "option": "On-line gambling and casinos",
+     "label": "On-line gambling and casinos"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      369.0,
+      7.2,
+      7.2
+     ],
+     "option": "Money transmitters, currency trading and similar entities",
+     "label": "Money transmitters, currency trading and similar entities"
+    },
+    {
+     "kind": "checkbox",
+     "mode": "labelled",
+     "bbox_pt": [
+      72.7,
+      344.5,
+      7.2,
+      7.2
+     ],
+     "option": "None of the indicated below",
+     "label": "None of the indicated below"
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      118.8,
+      165.2,
+      424.1,
+      16.2
+     ],
+     "label": "a Legal Name",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      211.7,
+      189.0,
+      331.9,
+      18.7
+     ],
+     "label": "«= = Tax Identification Number",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      90.4,
+      212.8,
+      452.5,
+      18.0
+     ],
+     "label": "« Le",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      208.4,
+      273.6,
+      66.2,
+      17.3
+     ],
+     "label": "¢ NACE Code of the company",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      180.7,
+      634.0,
+      347.0,
+      20.5
+     ],
+     "label": "Name of authority",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      141.5,
+      763.2,
+      347.4,
+      20.5
+     ],
+     "label": "|",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      122.0,
+      302.0,
+      459.0,
+      10.8
+     ],
+     "label": "Entity’s Type",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      294.1,
+      597.2,
+      286.9,
+      11.9
+     ],
+     "label": "a Responsible Financial Supervisory Authority",
+     "trailing": ""
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      262.8,
+      709.2,
+      318.2,
+      9.4
+     ],
+     "label": "i Please indicate the source of funds",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      130.7,
+      85.3,
+      450.4,
+      10.1
+     ],
+     "label": "*Please explain",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.6,
+      170.3,
+      568.6,
+      10.4
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      184.7,
+      238.1,
+      10.4
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      184.7,
+      245.7,
+      10.4
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      198.7,
+      267.5,
+      10.4
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      198.7,
+      276.3,
+      10.8
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      213.1,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      213.1,
+      151.0,
+      9.4
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      226.4,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      240.5,
+      424.1,
+      10.8
+     ],
+     "label": "Date on which the person became “Controlling Person”:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.4,
+      254.9,
+      568.8,
+      10.4
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      269.3,
+      238.1,
+      10.4
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      269.3,
+      245.7,
+      10.4
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      283.7,
+      267.5,
+      10.4
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      283.7,
+      276.3,
+      10.4
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      298.1,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      298.1,
+      151.0,
+      9.0
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      311.0,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      325.4,
+      424.1,
+      10.4
+     ],
+     "label": "Date on which the person became “Controlling Person”:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.4,
+      339.8,
+      568.8,
+      10.4
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      353.9,
+      238.1,
+      10.8
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      353.9,
+      245.7,
+      10.8
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      368.3,
+      267.5,
+      10.4
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      368.3,
+      276.3,
+      10.4
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      382.7,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      382.7,
+      151.0,
+      9.4
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      396.0,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      410.0,
+      424.1,
+      10.4
+     ],
+     "label": "Date on which the person became “Controlling Person’:"
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      173.9,
+      439.6,
+      653.8,
+      9.4
+     ],
+     "label": "(1) Type of control",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.4,
+      127.1,
+      568.8,
+      10.4
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      141.5,
+      238.1,
+      10.4
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      141.5,
+      245.7,
+      10.4
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      155.9,
+      267.5,
+      10.4
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      155.9,
+      276.3,
+      10.4
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      169.9,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      169.9,
+      151.0,
+      9.4
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      183.2,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      197.6,
+      424.1,
+      10.4
+     ],
+     "label": "Date on which the person became “Controlling Person”:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.6,
+      211.7,
+      568.6,
+      10.8
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      226.1,
+      238.1,
+      10.4
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      226.1,
+      245.7,
+      10.4
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      240.5,
+      267.5,
+      10.4
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      240.5,
+      276.3,
+      10.4
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      254.9,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      254.9,
+      151.0,
+      9.4
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      267.8,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      282.2,
+      424.1,
+      10.4
+     ],
+     "label": "Date on which the person became “Controlling Person”:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.4,
+      296.6,
+      568.8,
+      10.4
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      311.0,
+      238.1,
+      10.4
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      311.0,
+      245.7,
+      10.4
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      325.1,
+      267.5,
+      10.8
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      325.4,
+      276.3,
+      10.4
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      339.5,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      339.5,
+      151.0,
+      9.4
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      352.8,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      366.8,
+      424.1,
+      10.8
+     ],
+     "label": "Date on which the person became “Controlling Person”:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      190.6,
+      381.2,
+      568.6,
+      10.4
+     ],
+     "label": "Name and Surname:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      181.3,
+      395.6,
+      238.1,
+      10.4
+     ],
+     "label": "Type of control (1):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      513.5,
+      395.6,
+      245.7,
+      10.4
+     ],
+     "label": "Ownership % (2):"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      151.9,
+      409.7,
+      267.5,
+      10.4
+     ],
+     "label": "Date of birth:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      482.9,
+      410.0,
+      276.3,
+      10.1
+     ],
+     "label": "Nationality:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      193.5,
+      424.1,
+      225.9,
+      9.4
+     ],
+     "label": "Country of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      608.2,
+      424.1,
+      151.0,
+      9.4
+     ],
+     "label": "Passport or national ID card number:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      195.5,
+      437.4,
+      563.8,
+      10.4
+     ],
+     "label": "Address of residence:"
+    },
+    {
+     "kind": "text",
+     "mode": "inline",
+     "bbox_pt": [
+      335.2,
+      451.4,
+      424.1,
+      10.4
+     ],
+     "label": "Date on which the person became “Controlling Person”:"
+    },
+    {
+     "kind": "text",
+     "mode": "blank",
+     "bbox_pt": [
+      177.5,
+      472.0,
+      650.2,
+      9.4
+     ],
+     "label": "(1) Type of control",
+     "trailing": ""
+    }
+   ]
+  },
+  {
+   "page": 6,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      211.3,
+      180.4,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      211.3,
+      87.5,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      211.3,
+      118.1,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      211.3,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      211.3,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      231.1,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      231.1,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      250.9,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      250.9,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      270.7,
+      180.0,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      270.7,
+      87.5,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      270.7,
+      118.1,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      270.7,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      270.7,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      290.5,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      290.5,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      310.7,
+      163.1,
+      18.4
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      310.7,
+      137.2,
+      18.4
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      330.1,
+      180.0,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      330.1,
+      87.5,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      330.1,
+      118.1,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      330.1,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      330.1,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      350.3,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      350.3,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      370.1,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      370.1,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      389.9,
+      180.0,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      389.9,
+      87.5,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      389.9,
+      118.1,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      389.9,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      389.9,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      409.7,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      409.7,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      429.5,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      429.5,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      449.3,
+      180.0,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      449.3,
+      87.5,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      449.3,
+      118.1,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      449.3,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      449.3,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      469.4,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      469.4,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      489.2,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      489.2,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID card",
+     "ink": 0.0
+    }
+   ]
+  },
+  {
+   "page": 7,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      254.5,
+      180.0,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      254.5,
+      87.5,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      254.5,
+      118.1,
+      58.3
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      254.5,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      254.5,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      274.0,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      274.0,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      294.1,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      294.1,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      313.9,
+      180.0,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      313.9,
+      87.5,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      313.9,
+      118.1,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      313.9,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      313.9,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      334.1,
+      163.1,
+      18.4
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      334.1,
+      137.2,
+      18.4
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      353.9,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      353.9,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      373.3,
+      180.4,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      373.3,
+      87.5,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      373.3,
+      118.1,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      373.3,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      373.3,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      393.5,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      393.5,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      413.3,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      413.3,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      433.1,
+      180.0,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      433.1,
+      87.5,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      433.1,
+      118.1,
+      58.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      433.1,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      433.1,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      452.9,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      452.9,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      472.7,
+      163.1,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      472.7,
+      137.2,
+      19.1
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      61.6,
+      492.8,
+      180.0,
+      38.5
+     ],
+     "label": null,
+     "section": null,
+     "column": "Name & Surname (1)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      242.6,
+      492.8,
+      87.5,
+      38.5
+     ],
+     "label": null,
+     "section": null,
+     "column": "Date of birth (2) |",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      330.8,
+      492.8,
+      118.1,
+      38.5
+     ],
+     "label": null,
+     "section": null,
+     "column": "| Nationality (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      492.8,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      492.8,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      450.0,
+      512.6,
+      163.1,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Country (ies) of Residence (2)",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "grid",
+     "bbox_pt": [
+      614.2,
+      512.6,
+      137.2,
+      18.7
+     ],
+     "label": null,
+     "section": null,
+     "column": "Passport or national ID car",
+     "ink": 0.0
+    }
+   ]
+  },
+  {
+   "page": 8,
+   "lang": "eng",
+   "zones": []
+  },
+  {
+   "page": 9,
+   "lang": "eng",
+   "zones": [
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      400.3,
+      374.8,
+      36.4,
+      20.2
+     ],
+     "label": "ed in Date",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      448.9,
+      374.8,
+      36.4,
+      20.2
+     ],
+     "label": "Date",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      494.6,
+      374.8,
+      49.0,
+      20.2
+     ],
+     "label": "Date",
+     "ink": 0.0
+    },
+    {
+     "kind": "text",
+     "mode": "tint",
+     "bbox_pt": [
+      142.2,
+      413.3,
+      389.9,
+      20.5
+     ],
+     "label": "Name & Surname",
+     "ink": 0.0
+    }
+   ]
+  }
+ ]
+}

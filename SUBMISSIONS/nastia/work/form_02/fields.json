@@ -1,0 +1,1334 @@
+[
+  {
+    "page": 1,
+    "label": "Dénomination Sociale*",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "legal_name",
+    "concept_arg": null,
+    "line_ids": [
+      "L18"
+    ],
+    "value_box": [
+      117.82584338378906,
+      277.8731927490234,
+      571.27681640625,
+      288.8197124633789
+    ],
+    "id": "p1-01"
+  },
+  {
+    "page": 1,
+    "label": "Forme Juridique",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "legal_form",
+    "concept_arg": null,
+    "line_ids": [
+      "L19"
+    ],
+    "value_box": [
+      95.212802734375,
+      294.7139923095703,
+      571.27681640625,
+      305.6605120239258
+    ],
+    "id": "p1-02"
+  },
+  {
+    "page": 1,
+    "label": "Adresse du siège social*",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "address.street",
+    "concept_arg": null,
+    "line_ids": [
+      "L20"
+    ],
+    "value_box": [
+      122.58648352050781,
+      311.5547918701172,
+      571.27681640625,
+      322.50131158447266
+    ],
+    "id": "p1-03"
+  },
+  {
+    "page": 1,
+    "label": "Code postal*",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "address.postcode",
+    "concept_arg": null,
+    "line_ids": [
+      "L21"
+    ],
+    "value_box": [
+      176.14368505859375,
+      329.2376314086914,
+      214.22880615234374,
+      340.1841511230469
+    ],
+    "id": "p1-04"
+  },
+  {
+    "page": 1,
+    "label": "Ville*",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "address.city",
+    "concept_arg": null,
+    "line_ids": [
+      "L22"
+    ],
+    "value_box": [
+      255.8844073486328,
+      329.2376314086914,
+      404.65441162109374,
+      340.1841511230469
+    ],
+    "id": "p1-05"
+  },
+  {
+    "page": 1,
+    "label": "Pays*",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "address.country",
+    "concept_arg": null,
+    "line_ids": [
+      "L23"
+    ],
+    "value_box": [
+      441.5493726806641,
+      329.2376314086914,
+      571.27681640625,
+      340.1841511230469
+    ],
+    "id": "p1-06"
+  },
+  {
+    "page": 1,
+    "label": "Adresse de l'établissement (si différent du siège social)",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24"
+    ],
+    "value_box": [
+      230.89104663085936,
+      346.0784309692383,
+      571.27681640625,
+      357.0249506835938
+    ],
+    "id": "p1-07"
+  },
+  {
+    "page": 1,
+    "label": "N° RCS*",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "registration",
+    "concept_arg": null,
+    "line_ids": [
+      "L25"
+    ],
+    "value_box": [
+      88.07184252929687,
+      362.9192305297852,
+      336.8152896728516,
+      374.70779022216794
+    ],
+    "id": "p1-08"
+  },
+  {
+    "page": 1,
+    "label": "Lieu d'enregistrement",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "registry_place",
+    "concept_arg": null,
+    "line_ids": [
+      "L26"
+    ],
+    "value_box": [
+      440.35921264648437,
+      362.9192305297852,
+      571.27681640625,
+      374.70779022216794
+    ],
+    "id": "p1-09"
+  },
+  {
+    "page": 1,
+    "label": "Autres numéros d'identification",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "other_ids",
+    "concept_arg": null,
+    "line_ids": [
+      "L27"
+    ],
+    "value_box": [
+      149.96016430664062,
+      379.760030090332,
+      571.27681640625,
+      390.7065498046875
+    ],
+    "id": "p1-10"
+  },
+  {
+    "page": 1,
+    "label": "Code NACE",
+    "section": "I - IDENTIFICATION DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "nace",
+    "concept_arg": null,
+    "line_ids": [
+      "L28"
+    ],
+    "value_box": [
+      79.74072229003906,
+      396.6008296508789,
+      571.27681640625,
+      407.54734936523437
+    ],
+    "id": "p1-11"
+  },
+  {
+    "page": 1,
+    "label": "1. Pays de résidence fiscale*",
+    "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "tax_residence.country",
+    "concept_arg": "1",
+    "line_ids": [
+      "L36",
+      "L33"
+    ],
+    "value_box": [
+      40.46544116210937,
+      499.32970697021483,
+      227.91564654541017,
+      512.8023466186523
+    ],
+    "id": "p1-12"
+  },
+  {
+    "page": 1,
+    "label": "1. Numéro d'Identification Fiscale (NIF)*",
+    "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "tax_residence.tin",
+    "concept_arg": "1",
+    "line_ids": [
+      "L36",
+      "L32"
+    ],
+    "value_box": [
+      230.89104663085936,
+      499.32970697021483,
+      571.27681640625,
+      512.8023466186523
+    ],
+    "id": "p1-13"
+  },
+  {
+    "page": 1,
+    "label": "2. Pays de résidence fiscale*",
+    "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "tax_residence.country",
+    "concept_arg": "2",
+    "line_ids": [
+      "L37",
+      "L33"
+    ],
+    "value_box": [
+      40.46544116210937,
+      514.486426574707,
+      227.91564654541017,
+      527.1170262451171
+    ],
+    "id": "p1-14"
+  },
+  {
+    "page": 1,
+    "label": "2. Numéro d'Identification Fiscale (NIF)*",
+    "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "tax_residence.tin",
+    "concept_arg": "2",
+    "line_ids": [
+      "L37",
+      "L32"
+    ],
+    "value_box": [
+      230.89104663085936,
+      514.486426574707,
+      571.27681640625,
+      527.1170262451171
+    ],
+    "id": "p1-15"
+  },
+  {
+    "page": 1,
+    "label": "3. Pays de résidence fiscale*",
+    "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "tax_residence.country",
+    "concept_arg": "3",
+    "line_ids": [
+      "L38",
+      "L33"
+    ],
+    "value_box": [
+      40.46544116210937,
+      528.8011062011718,
+      227.91564654541017,
+      541.431705871582
+    ],
+    "id": "p1-16"
+  },
+  {
+    "page": 1,
+    "label": "3. Numéro d'Identification Fiscale (NIF)*",
+    "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+    "kind": "text",
+    "options": [],
+    "concept": "tax_residence.tin",
+    "concept_arg": "3",
+    "line_ids": [
+      "L38",
+      "L32"
+    ],
+    "value_box": [
+      230.89104663085936,
+      528.8011062011718,
+      571.27681640625,
+      541.431705871582
+    ],
+    "id": "p1-17"
+  },
+  {
+    "page": 2,
+    "label": "Catégorie du client",
+    "section": "III - STATUT DU CLIENT",
+    "kind": "choice",
+    "options": [
+      "A. Entité Non Financière Active",
+      "B. Entité Non Financière Passive",
+      "C. Institution financière",
+      "D. Entités exemptées de la déclaration"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L6",
+      "L11",
+      "L16",
+      "L29"
+    ],
+    "value_box": null,
+    "id": "p2-01"
+  },
+  {
+    "page": 2,
+    "label": "Veuillez préciser la sous-catégorie associée",
+    "section": "A. Entité Non Financière Active",
+    "kind": "choice",
+    "options": [
+      "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+      "Organisme sans but lucratif",
+      "Autre \"ENF Active\""
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7",
+      "L8",
+      "L9",
+      "L10"
+    ],
+    "value_box": null,
+    "id": "p2-02"
+  },
+  {
+    "page": 2,
+    "label": "Autre \"ENF Active\"",
+    "section": "A. Entité Non Financière Active",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      178.5240051269531,
+      171.77615551757813,
+      395.7282113647461,
+      185.2487951660156
+    ],
+    "id": "p2-03"
+  },
+  {
+    "page": 2,
+    "label": "Numéro GIIN (Global Intermediary Identification Number) du client obtenu dans le cadre de la loi FATCA",
+    "section": "C. Institution financière",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17",
+      "L18",
+      "L19",
+      "L20"
+    ],
+    "value_box": [
+      88.07184252929687,
+      309.8707119140625,
+      339.19560974121094,
+      326.7115114746094
+    ],
+    "id": "p2-04"
+  },
+  {
+    "page": 2,
+    "label": "En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant",
+    "section": "C. Institution financière",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L21"
+    ],
+    "value_box": [
+      329.0792494506836,
+      331.76375134277345,
+      467.1378134155273,
+      344.3943510131836
+    ],
+    "id": "p2-05"
+  },
+  {
+    "page": 2,
+    "label": "En cas de résidence fiscale dans un pays non-partie à l'échange automatique d'informations, veuillez indiquer si le client est une entité d'investissement dont 50% des revenus bruts proviennent d'une activité d'investissement, de réinvestissement ou de négociation d'actifs financiers et qui est gérée par une institution",
+    "section": "C. Institution financière",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24",
+      "L25"
+    ],
+    "value_box": null,
+    "id": "p2-06"
+  },
+  {
+    "page": 2,
+    "label": "Veuillez cocher le statut correspondant",
+    "section": "D. Entités exemptées de la déclaration",
+    "kind": "choice",
+    "options": [
+      "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+      "Entité publique",
+      "Organisation internationale",
+      "Banque centrale",
+      "Entité exclue au sens de la règlementation FATCA et NCD ou DAC"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L30",
+      "L31",
+      "L32",
+      "L34",
+      "L33",
+      "L35",
+      "L36"
+    ],
+    "value_box": null,
+    "id": "p2-07"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - Nom (1) et Prénom (2)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11",
+      "L31"
+    ],
+    "value_box": [
+      59.508001708984374,
+      223.98263415527344,
+      223.1550064086914,
+      237.45527380371092
+    ],
+    "id": "p3-01"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - Date de Naissance (3) et Pays de Naissance (4)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L14",
+      "L32"
+    ],
+    "value_box": [
+      59.508001708984374,
+      243.34955364990233,
+      223.1550064086914,
+      255.9801533203125
+    ],
+    "id": "p3-02"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - Nationalité(s) (5)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17",
+      "L33"
+    ],
+    "value_box": [
+      41.65560119628906,
+      261.87443316650393,
+      223.1550064086914,
+      275.3470728149414
+    ],
+    "id": "p3-03"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - Adresse complète de Résidence actuelle (6)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24",
+      "L34"
+    ],
+    "value_box": [
+      41.65560119628906,
+      280.39931268310545,
+      223.1550064086914,
+      306.5025520019531
+    ],
+    "id": "p3-04"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - Pays de résidence fiscale",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12"
+    ],
+    "value_box": [
+      230.89104663085936,
+      220.61447424316407,
+      324.3186093139648,
+      311.5547918701172
+    ],
+    "id": "p3-05"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - Numéro d'Identification Fiscale (NIF)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L13",
+      "L16"
+    ],
+    "value_box": [
+      327.29400939941405,
+      220.61447424316407,
+      409.4150517578125,
+      311.5547918701172
+    ],
+    "id": "p3-06"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - % de détention du capital en direct",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L20",
+      "L26"
+    ],
+    "value_box": [
+      411.7953718261719,
+      220.61447424316407,
+      461.7820932617187,
+      311.5547918701172
+    ],
+    "id": "p3-07"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - % de détention du capital en indirect",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L21",
+      "L27"
+    ],
+    "value_box": [
+      464.16241333007815,
+      220.61447424316407,
+      514.149134765625,
+      311.5547918701172
+    ],
+    "id": "p3-08"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 1 - % des droits de vote",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L22",
+      "L28"
+    ],
+    "value_box": [
+      516.5294548339843,
+      220.61447424316407,
+      567.7063363037109,
+      311.5547918701172
+    ],
+    "id": "p3-09"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - Nom (1) et Prénom (2)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11",
+      "L35"
+    ],
+    "value_box": [
+      59.508001708984374,
+      319.1331516723633,
+      223.1550064086914,
+      332.6057913208008
+    ],
+    "id": "p3-10"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - Date de Naissance (3) et Pays de Naissance (4)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L14",
+      "L36"
+    ],
+    "value_box": [
+      59.508001708984374,
+      338.5000711669922,
+      223.1550064086914,
+      351.13067083740236
+    ],
+    "id": "p3-11"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - Nationalité(s) (5)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17",
+      "L37"
+    ],
+    "value_box": [
+      41.65560119628906,
+      357.0249506835938,
+      223.1550064086914,
+      370.4975903320312
+    ],
+    "id": "p3-12"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - Adresse complète de Résidence actuelle (6)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24",
+      "L38"
+    ],
+    "value_box": [
+      41.65560119628906,
+      376.39187017822263,
+      223.1550064086914,
+      402.4951094970703
+    ],
+    "id": "p3-13"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - Pays de résidence fiscale",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12"
+    ],
+    "value_box": [
+      230.89104663085936,
+      316.60703173828125,
+      324.3186093139648,
+      410.91550927734374
+    ],
+    "id": "p3-14"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - Numéro d'Identification Fiscale (NIF)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L13",
+      "L16"
+    ],
+    "value_box": [
+      327.29400939941405,
+      316.60703173828125,
+      409.4150517578125,
+      410.91550927734374
+    ],
+    "id": "p3-15"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - % de détention du capital en direct",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L20",
+      "L26"
+    ],
+    "value_box": [
+      411.7953718261719,
+      316.60703173828125,
+      461.7820932617187,
+      410.91550927734374
+    ],
+    "id": "p3-16"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - % de détention du capital en indirect",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L21",
+      "L27"
+    ],
+    "value_box": [
+      464.16241333007815,
+      316.60703173828125,
+      514.149134765625,
+      410.91550927734374
+    ],
+    "id": "p3-17"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 2 - % des droits de vote",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L22",
+      "L28"
+    ],
+    "value_box": [
+      516.5294548339843,
+      316.60703173828125,
+      567.7063363037109,
+      410.91550927734374
+    ],
+    "id": "p3-18"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - Nom (1) et Prénom (2)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11",
+      "L39"
+    ],
+    "value_box": [
+      59.508001708984374,
+      420.17794903564453,
+      223.1550064086914,
+      433.65058868408204
+    ],
+    "id": "p3-19"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - Date de Naissance (3) et Pays de Naissance (4)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L14",
+      "L40"
+    ],
+    "value_box": [
+      59.508001708984374,
+      439.54486853027345,
+      223.1550064086914,
+      452.1754682006836
+    ],
+    "id": "p3-20"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - Nationalité(s) (5)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17",
+      "L41"
+    ],
+    "value_box": [
+      41.65560119628906,
+      458.069748046875,
+      223.1550064086914,
+      470.7003477172852
+    ],
+    "id": "p3-21"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - Adresse complète de Résidence actuelle (6)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24"
+    ],
+    "value_box": [
+      41.65560119628906,
+      476.59462756347654,
+      223.1550064086914,
+      503.53990686035155
+    ],
+    "id": "p3-22"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - Pays de résidence fiscale",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12"
+    ],
+    "value_box": [
+      230.89104663085936,
+      416.80978912353515,
+      324.3186093139648,
+      511.960306640625
+    ],
+    "id": "p3-23"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - Numéro d'Identification Fiscale (NIF)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L13",
+      "L16"
+    ],
+    "value_box": [
+      327.29400939941405,
+      416.80978912353515,
+      409.4150517578125,
+      511.960306640625
+    ],
+    "id": "p3-24"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - % de détention du capital en direct",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L20",
+      "L26"
+    ],
+    "value_box": [
+      411.7953718261719,
+      416.80978912353515,
+      461.7820932617187,
+      511.960306640625
+    ],
+    "id": "p3-25"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - % de détention du capital en indirect",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L21",
+      "L27"
+    ],
+    "value_box": [
+      464.16241333007815,
+      416.80978912353515,
+      514.149134765625,
+      511.960306640625
+    ],
+    "id": "p3-26"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 3 - % des droits de vote",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L22",
+      "L28"
+    ],
+    "value_box": [
+      516.5294548339843,
+      416.80978912353515,
+      567.7063363037109,
+      511.960306640625
+    ],
+    "id": "p3-27"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - Nom (1) et Prénom (2)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11",
+      "L42"
+    ],
+    "value_box": [
+      59.508001708984374,
+      525.4329462890626,
+      223.1550064086914,
+      538.9055859375
+    ],
+    "id": "p3-28"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - Date de Naissance (3) et Pays de Naissance (4)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L14",
+      "L43"
+    ],
+    "value_box": [
+      59.508001708984374,
+      543.957825805664,
+      223.1550064086914,
+      557.4304654541015
+    ],
+    "id": "p3-29"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - Nationalité(s) (5)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17",
+      "L44"
+    ],
+    "value_box": [
+      41.65560119628906,
+      562.4827053222656,
+      223.1550064086914,
+      575.9553449707031
+    ],
+    "id": "p3-30"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - Adresse complète de Résidence actuelle (6)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24",
+      "L45"
+    ],
+    "value_box": [
+      41.65560119628906,
+      581.8496248168946,
+      223.1550064086914,
+      618.8993838500977
+    ],
+    "id": "p3-31"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - Pays de résidence fiscale",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12"
+    ],
+    "value_box": [
+      230.89104663085936,
+      517.8545864868164,
+      324.3186093139648,
+      623.1095837402344
+    ],
+    "id": "p3-32"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - Numéro d'Identification Fiscale (NIF)",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L13",
+      "L16"
+    ],
+    "value_box": [
+      327.29400939941405,
+      517.8545864868164,
+      409.4150517578125,
+      623.1095837402344
+    ],
+    "id": "p3-33"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - % de détention du capital en direct",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L20",
+      "L26"
+    ],
+    "value_box": [
+      411.7953718261719,
+      517.8545864868164,
+      461.7820932617187,
+      623.1095837402344
+    ],
+    "id": "p3-34"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - % de détention du capital en indirect",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L21",
+      "L27"
+    ],
+    "value_box": [
+      464.16241333007815,
+      517.8545864868164,
+      514.149134765625,
+      623.1095837402344
+    ],
+    "id": "p3-35"
+  },
+  {
+    "page": 3,
+    "label": "Bénéficiaire 4 - % des droits de vote",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L22",
+      "L28"
+    ],
+    "value_box": [
+      516.5294548339843,
+      517.8545864868164,
+      567.7063363037109,
+      623.1095837402344
+    ],
+    "id": "p3-36"
+  },
+  {
+    "page": 3,
+    "label": "Cadre réservé - à renseigner à la demande de la banque",
+    "section": "III bis- Informations relatives aux bénéficiaires effectifs",
+    "kind": "bank_reserved",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L46",
+      "L47",
+      "L50",
+      "L51",
+      "L52"
+    ],
+    "value_box": null,
+    "id": "p3-37"
+  },
+  {
+    "page": 4,
+    "label": "Fait à",
+    "section": "IV - DÉCLARATION",
+    "kind": "text",
+    "options": [],
+    "concept": "signature.place",
+    "concept_arg": null,
+    "line_ids": [
+      "L21"
+    ],
+    "value_box": [
+      65.45880187988281,
+      311.5547918701172,
+      184.47480529785156,
+      326.7115114746094
+    ],
+    "id": "p4-01"
+  },
+  {
+    "page": 4,
+    "label": "le",
+    "section": "IV - DÉCLARATION",
+    "kind": "date",
+    "options": [],
+    "concept": "signature.date",
+    "concept_arg": null,
+    "line_ids": [
+      "L22"
+    ],
+    "value_box": [
+      209.468166015625,
+      311.5547918701172,
+      303.4908087158203,
+      326.7115114746094
+    ],
+    "id": "p4-02"
+  },
+  {
+    "page": 4,
+    "label": "Signature",
+    "section": "IV - DÉCLARATION",
+    "kind": "signature",
+    "options": [],
+    "concept": "signature",
+    "concept_arg": null,
+    "line_ids": [
+      "L23"
+    ],
+    "value_box": null,
+    "id": "p4-03"
+  },
+  {
+    "page": 4,
+    "label": "Représentant légal - Nom",
+    "section": "IV - DÉCLARATION",
+    "kind": "text",
+    "options": [],
+    "concept": "signatory.surname",
+    "concept_arg": null,
+    "line_ids": [
+      "L24",
+      "L25"
+    ],
+    "value_box": [
+      71.40960205078125,
+      345.23639099121095,
+      187.45020538330078,
+      360.39311059570315
+    ],
+    "id": "p4-04"
+  },
+  {
+    "page": 4,
+    "label": "Représentant légal - Prénom",
+    "section": "IV - DÉCLARATION",
+    "kind": "text",
+    "options": [],
+    "concept": "signatory.given",
+    "concept_arg": null,
+    "line_ids": [
+      "L24",
+      "L26"
+    ],
+    "value_box": [
+      235.05660675048827,
+      345.23639099121095,
+      357.0480102539062,
+      360.39311059570315
+    ],
+    "id": "p4-05"
+  },
+  {
+    "page": 4,
+    "label": "Fonction au sein de l'entité cliente",
+    "section": "IV - DÉCLARATION",
+    "kind": "text",
+    "options": [],
+    "concept": "signatory.role",
+    "concept_arg": null,
+    "line_ids": [
+      "L27"
+    ],
+    "value_box": [
+      202.32720581054687,
+      363.7612705078125,
+      380.8512109375,
+      378.91799011230466
+    ],
+    "id": "p4-06"
+  }
+]

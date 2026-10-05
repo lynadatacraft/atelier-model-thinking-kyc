@@ -1,0 +1,7 @@
+pymupdf>=1.24
+anthropic>=1.0 ; python_version >= "3.10"
+# Brique 1 (facultatif) : modèle de mise en page Heron de Docling, exécuté en local.
+# Sans ces paquets, les cases à cocher sont situées d'après le texte OCR.
+torch>=2.2 ; python_version >= "3.10"
+transformers>=4.50 ; python_version >= "3.10"
+pillow>=10

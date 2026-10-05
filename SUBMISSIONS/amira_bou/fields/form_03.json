@@ -1,0 +1,837 @@
+{
+  "exercice": "form_03",
+  "source": "vision",
+  "language": "Anglais",
+  "fields": [
+    {
+      "page": 2,
+      "label": "Legal Name",
+      "section": "Step 1: Entity Identification",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Tax Identification Number",
+      "section": "Step 1: Entity Identification",
+      "field_type": "text",
+      "condition": "Optional",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "LEI",
+      "section": "Step 1: Entity Identification",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "NACE Code of the company",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.6
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entity's Type",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": null,
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "None of the indicated below",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.65,
+        0.3,
+        0.7
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Money transmitters, currency trading and similar entities",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "On-line gambling and casinos",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Mere Asset Holding Companies (EMTAs)",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Holding entities",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.9
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Crowdfunding",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.9,
+        0.9,
+        0.95
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Non-Financial Asset Manager",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.95,
+        0.9,
+        1.0
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Cannabis Business",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.0,
+        0.9,
+        1.05
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Special Purpose Vehicle (SPV)",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.05,
+        0.9,
+        1.1
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Virtual asset service provider (VASP)",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.1,
+        0.9,
+        1.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Responsible Financial Supervisory Authority",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "text",
+      "condition": "Only to be informed in the case of financial entities",
+      "bbox": [
+        0.1,
+        1.2,
+        0.9,
+        1.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Name of authority",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.3,
+        0.9,
+        1.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Company is not supervised by a regulatory authority",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.4,
+        0.9,
+        1.45
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Please indicate the source of funds",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": null,
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Own activity",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.5,
+        0.3,
+        1.55
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Investors",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.55,
+        0.3,
+        1.6
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Deposits",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.6,
+        0.3,
+        1.65
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Others*",
+      "section": "Step 2: Business activity and regulatory authorities",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.65,
+        0.3,
+        1.7
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Signature",
+      "section": "",
+      "field_type": "signature",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.75,
+        0.9,
+        1.8
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Signé le / date",
+      "section": "",
+      "field_type": "signature",
+      "condition": null,
+      "bbox": [
+        0.1,
+        1.8,
+        0.9,
+        1.85
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Can the corporation issue bearer shares?",
+      "section": "",
+      "field_type": "yes_no",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.4
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Yes",
+      "section": "",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.45,
+        0.2,
+        0.5
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "No",
+      "section": "",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.3,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Name and Surname:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Type of control (1):",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.1,
+        0.8,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Date of birth:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.15,
+        0.4,
+        0.2
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Country of residence:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.15,
+        0.8,
+        0.2
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Address of residence:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.8,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Date on which the person became “Controlling Person”:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.25,
+        0.8,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Ownership % (2):",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Nationality:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Passport or national ID card number:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.35,
+        0.8,
+        0.4
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Name and Surname:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Type of control (1):",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.1,
+        0.8,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Date of birth:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.15,
+        0.4,
+        0.2
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Country of residence:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.15,
+        0.8,
+        0.2
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Address of residence:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.8,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Date on which the person became “Controlling Person”:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.25,
+        0.8,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Ownership % (2):",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Nationality:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 5,
+      "label": "Passport or national ID card number:",
+      "section": "Controlling Persons",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.35,
+        0.8,
+        0.4
+      ],
+      "concept": null
+    },
+    {
+      "page": 6,
+      "label": "Name & Surname (1)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 6,
+      "label": "Date of birth (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.35,
+        0.2,
+        0.5,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 6,
+      "label": "Nationality (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.55,
+        0.2,
+        0.7,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 6,
+      "label": "Country (ies) of Residence (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.75,
+        0.2,
+        0.9,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 6,
+      "label": "Passport or national ID card number (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.95,
+        0.2,
+        1.0,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 7,
+      "label": "Name & Surname (1)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 7,
+      "label": "Date of birth (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.36,
+        0.15,
+        0.56,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 7,
+      "label": "Nationality (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.57,
+        0.15,
+        0.77,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 7,
+      "label": "Country (ies) of Residence (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.78,
+        0.15,
+        0.98,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 7,
+      "label": "Passport or national ID card number (2)",
+      "section": "Details of Authorized Representatives",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.05,
+        0.26,
+        0.98,
+        0.36
+      ],
+      "concept": null
+    },
+    {
+      "page": 9,
+      "label": "This declaration is signed in",
+      "section": "",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.8,
+        0.4,
+        0.85
+      ],
+      "concept": null
+    },
+    {
+      "page": 9,
+      "label": "Date",
+      "section": "",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.5,
+        0.8,
+        0.9,
+        0.85
+      ],
+      "concept": null
+    },
+    {
+      "page": 9,
+      "label": "Name & Surname",
+      "section": "",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.9
+      ],
+      "concept": null
+    },
+    {
+      "page": 9,
+      "label": "Signature",
+      "section": "",
+      "field_type": "signature",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.9,
+        0.9,
+        0.95
+      ],
+      "concept": null
+    }
+  ]
+}

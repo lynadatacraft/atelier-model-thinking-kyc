@@ -1,0 +1,1304 @@
+[
+  {
+    "page": 1,
+    "label": "Dénomination Sociale",
+    "value": "Belorive Patrimoine SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name; sources/companies/sim-hackathon-b-client/mandate.md#/name",
+    "justification": "2 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-01",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/name",
+        "excerpt": "Belorive Patrimoine SAS"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/name",
+        "excerpt": "Belorive Patrimoine SAS"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Forme Juridique",
+    "value": "SAS",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/legal_form",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-02",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/legal_form",
+        "excerpt": "SAS"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Adresse du siège social",
+    "value": "11 rue des Sociétés Fictives",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/street",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-03",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/street",
+        "excerpt": "11 rue des Sociétés Fictives"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Code postal",
+    "value": "69000",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/postcode",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-04",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/postcode",
+        "excerpt": "69000"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Ville",
+    "value": "Lyon",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/city",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-05",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/city",
+        "excerpt": "Lyon"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Pays",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-06",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/country",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Adresse de l'établissement (si différent du siège social)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/establishment; sources/companies/sim-hackathon-b-client/corporate.md#/address",
+    "justification": "L'extrait du registre ne mentionne aucun établissement distinct du siège social (établissement : null). Seule l'adresse du siège, à Lyon, est indiquée. Ce champ conditionnel n'est donc pas déclenché.",
+    "missing": [],
+    "id": "p1-07",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/establishment",
+        "excerpt": "null"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/address",
+        "excerpt": "11 rue des Sociétés Fictives, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "N° RCS",
+    "value": "SIM-RCS-B-001",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registration",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-08",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/registration",
+        "excerpt": "SIM-RCS-B-001"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Lieu d'enregistrement",
+    "value": "Lyon",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registry_place",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-09",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/registry_place",
+        "excerpt": "Lyon"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Autres numéros d'identification",
+    "value": "SIM-INTERNAL-B-001",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/other_ids",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-10",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/other_ids",
+        "excerpt": "SIM-INTERNAL-B-001"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "Code NACE",
+    "value": "68.20",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/corporate.md#/nace",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p1-11",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/nace",
+        "excerpt": "68.20"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "1. Pays de résidence fiscale",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country",
+    "justification": "Résidence fiscale n° 1 du registre fiscal.",
+    "missing": [],
+    "id": "p1-12",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences/0/country",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "1. Numéro d'Identification Fiscale (NIF)",
+    "value": "SIM-TIN-B-FR",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/tin",
+    "justification": "Résidence fiscale n° 1 du registre fiscal.",
+    "missing": [],
+    "id": "p1-13",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences/0/tin",
+        "excerpt": "SIM-TIN-B-FR"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "2. Pays de résidence fiscale",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences",
+    "justification": "1 résidence(s) fiscale(s) déclarée(s) : pas de ligne 2.",
+    "missing": [],
+    "id": "p1-14",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences",
+        "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "2. Numéro d'Identification Fiscale (NIF)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences",
+    "justification": "1 résidence(s) fiscale(s) déclarée(s) : pas de ligne 2.",
+    "missing": [],
+    "id": "p1-15",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences",
+        "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "3. Pays de résidence fiscale",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences",
+    "justification": "1 résidence(s) fiscale(s) déclarée(s) : pas de ligne 3.",
+    "missing": [],
+    "id": "p1-16",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences",
+        "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]"
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "label": "3. Numéro d'Identification Fiscale (NIF)",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences",
+    "justification": "1 résidence(s) fiscale(s) déclarée(s) : pas de ligne 3.",
+    "missing": [],
+    "id": "p1-17",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences",
+        "excerpt": "[{\"country\": \"France\", \"tin\": \"SIM-TIN-B-FR\"}]"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "contrôle du client",
+    "value": "B. Entité Non Financière Passive",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category; sources/companies/sim-hackathon-b-client/tax.md#/passive_income_pct",
+    "justification": "Le mémorandum fiscal classe le client en entité non financière passive. Ses revenus passifs représentent 80 %, soit plus de 50 % du total des revenus. Les bénéficiaires effectifs sont à renseigner en partie III bis.",
+    "missing": [],
+    "id": "p2-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_category",
+        "excerpt": "Passive non-financial entity"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/passive_income_pct",
+        "excerpt": "80"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Veuillez préciser la sous-catégorie associée",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/active_subtype",
+    "justification": "Le client n'est pas une ENF active (catégorie B retenue) ; aucune sous-catégorie active n'est à préciser.",
+    "missing": [],
+    "id": "p2-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/active_subtype",
+        "excerpt": "null"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Autre \"ENF Active\"",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/active_subtype",
+    "justification": "Champ conditionnel à la sous-catégorie « Autre ENF Active », non déclenché car le client relève de la catégorie B.",
+    "missing": [],
+    "id": "p2-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/active_subtype",
+        "excerpt": "null"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Numéro GIIN (Global Intermediary Identification Number) du client obtenu dans le cadre de la loi FATCA",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#(en-tête)",
+    "justification": "Le client n'est pas une institution financière et aucun GIIN n'est requis.",
+    "missing": [],
+    "id": "p2-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#(en-tête)",
+    "justification": "La section C ne s'applique pas : le client n'est pas une institution financière.",
+    "missing": [],
+    "id": "p2-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "En cas de résidence fiscale dans un pays non-partie à l'échange automatique d'informations, veuillez indiquer si le client est une entité d'investissement dont 50% des revenus bruts proviennent d'une activité d'investissement, de réinvestissement ou de négociation d'actifs financiers et qui est gérée par une institution",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country; sources/companies/sim-hackathon-b-client/tax.md#(en-tête)",
+    "justification": "La question relève de la section C (institution financière), non applicable au client. Celui-ci est une ENF passive résidente fiscale en France.",
+    "missing": [],
+    "id": "p2-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_residences/0/country",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies."
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Veuillez cocher le statut correspondant",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/tax.md#(en-tête); sources/companies/sim-hackathon-b-client/corporate.md#/listed",
+    "justification": "Aucun statut exempté ne s'applique : le client n'est pas coté et relève de la catégorie B.",
+    "missing": [],
+    "id": "p2-07",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/corporate.md",
+        "pointer": "/listed",
+        "excerpt": "false"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nom (1) et Prénom (2) [1]",
+    "value": "ORVAUX Camille",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/surname; sources/companies/sim-hackathon-b-client/ownership.md#/people/0/given; sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+    "justification": "Le client est une ENF passive : la section s'applique. Camille Orvaux est le premier bénéficiaire effectif listé (42 % indirect via Belorive Participations SAS).",
+    "missing": [],
+    "id": "p3-01",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/surname",
+        "excerpt": "Orvaux"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/given",
+        "excerpt": "Camille"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/tax.md",
+        "pointer": "/tax_category",
+        "excerpt": "Passive non-financial entity"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Date de Naissance (3) et Pays de Naissance (4) [1]",
+    "value": "12/04/1980 – France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/birth_date; sources/companies/sim-hackathon-b-client/ownership.md#/people/0/birth_country",
+    "justification": "Date et pays de naissance issus du registre de propriété.",
+    "missing": [],
+    "id": "p3-02",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/birth_date",
+        "excerpt": "1980-04-12"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/birth_country",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nationalité(s) (5) [1]",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/nationalities/0",
+    "justification": "Seule nationalité déclarée.",
+    "missing": [],
+    "id": "p3-03",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/nationalities/0",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Adresse complète de Résidence actuelle (6) [1]",
+    "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/address",
+    "justification": "Adresse de résidence actuelle.",
+    "missing": [],
+    "id": "p3-04",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/address",
+        "excerpt": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Pays de résidence fiscale [1]",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/tax_residences/0",
+    "justification": "Unique résidence fiscale déclarée.",
+    "missing": [],
+    "id": "p3-05",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/tax_residences/0",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Numéro d'Identification Fiscale (NIF) [1]",
+    "value": "SIM-TIN-B1-FR",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/tins/France",
+    "justification": "NIF français.",
+    "missing": [],
+    "id": "p3-06",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/tins/France",
+        "excerpt": "SIM-TIN-B1-FR"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en direct [1]",
+    "value": "0 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/direct_pct",
+    "justification": "Aucune détention directe (zéro).",
+    "missing": [],
+    "id": "p3-07",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/direct_pct",
+        "excerpt": "0"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en indirect [1]",
+    "value": "42 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/indirect_pct",
+    "justification": "60 % de la mère × 70 % du client = 42 %.",
+    "missing": [],
+    "id": "p3-08",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/indirect_pct",
+        "excerpt": "42"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% des droits de vote [1]",
+    "value": "42 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/votes_pct",
+    "justification": "Droits de vote déclarés.",
+    "missing": [],
+    "id": "p3-09",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/0/votes_pct",
+        "excerpt": "42"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nom (1) et Prénom (2) [2]",
+    "value": "DERVELLE Samir",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/surname; sources/companies/sim-hackathon-b-client/ownership.md#/people/1/given",
+    "justification": "Deuxième bénéficiaire effectif (28 % indirect).",
+    "missing": [],
+    "id": "p3-10",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/surname",
+        "excerpt": "Dervelle"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/given",
+        "excerpt": "Samir"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Date de Naissance (3) et Pays de Naissance (4) [2]",
+    "value": "23/08/1985 – France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/birth_date; sources/companies/sim-hackathon-b-client/ownership.md#/people/1/birth_country",
+    "justification": "Registre de propriété.",
+    "missing": [],
+    "id": "p3-11",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/birth_date",
+        "excerpt": "1985-08-23"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/birth_country",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nationalité(s) (5) [2]",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/nationalities/0",
+    "justification": "Seule nationalité déclarée.",
+    "missing": [],
+    "id": "p3-12",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/nationalities/0",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Adresse complète de Résidence actuelle (6) [2]",
+    "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/address",
+    "justification": "Adresse de résidence actuelle.",
+    "missing": [],
+    "id": "p3-13",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/address",
+        "excerpt": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Pays de résidence fiscale [2]",
+    "value": "France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/tax_residences/0",
+    "justification": "Unique résidence fiscale.",
+    "missing": [],
+    "id": "p3-14",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/tax_residences/0",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Numéro d'Identification Fiscale (NIF) [2]",
+    "value": "SIM-TIN-B2-FR",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/tins/France",
+    "justification": "NIF français.",
+    "missing": [],
+    "id": "p3-15",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/tins/France",
+        "excerpt": "SIM-TIN-B2-FR"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en direct [2]",
+    "value": "0 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/direct_pct",
+    "justification": "Aucune détention directe (zéro).",
+    "missing": [],
+    "id": "p3-16",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/direct_pct",
+        "excerpt": "0"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en indirect [2]",
+    "value": "28 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/indirect_pct",
+    "justification": "40 % de la mère × 70 % du client = 28 %.",
+    "missing": [],
+    "id": "p3-17",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/indirect_pct",
+        "excerpt": "28"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% des droits de vote [2]",
+    "value": "28 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/votes_pct",
+    "justification": "Droits de vote déclarés.",
+    "missing": [],
+    "id": "p3-18",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/1/votes_pct",
+        "excerpt": "28"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nom (1) et Prénom (2) [3]",
+    "value": "MONTELAC Léa",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/surname; sources/companies/sim-hackathon-b-client/ownership.md#/people/2/given",
+    "justification": "Troisième bénéficiaire effectif (30 % direct).",
+    "missing": [],
+    "id": "p3-19",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/surname",
+        "excerpt": "Montelac"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/given",
+        "excerpt": "Léa"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Date de Naissance (3) et Pays de Naissance (4) [3]",
+    "value": "23/08/1985 – France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/birth_date; sources/companies/sim-hackathon-b-client/ownership.md#/people/2/birth_country",
+    "justification": "Registre de propriété.",
+    "missing": [],
+    "id": "p3-20",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/birth_date",
+        "excerpt": "1985-08-23"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/birth_country",
+        "excerpt": "France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nationalité(s) (5) [3]",
+    "value": "France, États-Unis d'Amérique",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/0; sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/1",
+    "justification": "Double nationalité déclarée.",
+    "missing": [],
+    "id": "p3-21",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/nationalities/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/nationalities/1",
+        "excerpt": "United States"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Adresse complète de Résidence actuelle (6) [3]",
+    "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/address",
+    "justification": "Adresse de résidence actuelle.",
+    "missing": [],
+    "id": "p3-22",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/address",
+        "excerpt": "12 avenue des Personnages Fictifs, 69000 Lyon, France"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Pays de résidence fiscale [3]",
+    "value": "France, États-Unis d'Amérique",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tax_residences/0; sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tax_residences/1",
+    "justification": "Résidences fiscales française et américaine (citoyenneté américaine : États-Unis requis par le formulaire).",
+    "missing": [],
+    "id": "p3-23",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/tax_residences/0",
+        "excerpt": "France"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/tax_residences/1",
+        "excerpt": "United States"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Numéro d'Identification Fiscale (NIF) [3]",
+    "value": "France : SIM-TIN-B3-FR ; États-Unis d'Amérique : ",
+    "state": "missing_information",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tins/France; sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tin_note",
+    "justification": "NIF français connu ; le TIN américain n'est pas fourni et ne peut être remplacé par « NA ».",
+    "missing": [
+      "TIN américain de Léa Montelac"
+    ],
+    "id": "p3-24",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/tins/France",
+        "excerpt": "SIM-TIN-B3-FR"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/tin_note",
+        "excerpt": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en direct [3]",
+    "value": "30 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/direct_pct",
+    "justification": "Détention directe déclarée.",
+    "missing": [],
+    "id": "p3-25",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/direct_pct",
+        "excerpt": "30"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en indirect [3]",
+    "value": "0 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/indirect_pct",
+    "justification": "Aucune détention indirecte (zéro).",
+    "missing": [],
+    "id": "p3-26",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/indirect_pct",
+        "excerpt": "0"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% des droits de vote [3]",
+    "value": "30 %",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/votes_pct",
+    "justification": "Droits de vote déclarés.",
+    "missing": [],
+    "id": "p3-27",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "/people/2/votes_pct",
+        "excerpt": "30"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nom (1) et Prénom (2) [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Seuls trois bénéficiaires effectifs ; pas de quatrième.",
+    "missing": [],
+    "id": "p3-28",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Date de Naissance (3) et Pays de Naissance (4) [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-29",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Nationalité(s) (5) [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-30",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Adresse complète de Résidence actuelle (6) [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-31",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Pays de résidence fiscale [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-32",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Numéro d'Identification Fiscale (NIF) [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-33",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en direct [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-34",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% de détention du capital en indirect [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-35",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "% des droits de vote [4]",
+    "value": null,
+    "state": "not_applicable",
+    "source": "sources/companies/sim-hackathon-b-client/ownership.md#(en-tête)",
+    "justification": "Pas de quatrième bénéficiaire effectif.",
+    "missing": [],
+    "id": "p3-36",
+    "engine": "llm",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/ownership.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The listed controlling persons are complete."
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "label": "Cadre réservé",
+    "value": null,
+    "state": "bank_reserved",
+    "source": null,
+    "justification": "Champ réservé à la banque : laissé vide.",
+    "missing": [],
+    "id": "p3-37",
+    "engine": "règles",
+    "evidence": []
+  },
+  {
+    "page": 4,
+    "label": "Fait à",
+    "value": "Lyon",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/place",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-01",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/place",
+        "excerpt": "Lyon"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "le",
+    "value": null,
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date; sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+    "justification": "Date de signature inconnue ; date de complétion de l'exercice : 01/09/2026.",
+    "missing": [],
+    "id": "p4-02",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/date",
+        "excerpt": "01/09/2026"
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No signature is supplied."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The date is the fixed exercise completion date, not an actual executed signature."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/authority",
+        "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Signature",
+    "value": null,
+    "state": "human_action",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+    "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+    "missing": [],
+    "id": "p4-03",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "No signature is supplied."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "(en-tête)",
+        "excerpt": "The date is the fixed exercise completion date, not an actual executed signature."
+      },
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/authority",
+        "excerpt": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Nom",
+    "value": "Orvaux",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/surname",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-04",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/signer/surname",
+        "excerpt": "Orvaux"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Prénom",
+    "value": "Camille",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/given",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-05",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/signer/given",
+        "excerpt": "Camille"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "label": "Fonction au sein de l'entité cliente",
+    "value": "Présidente",
+    "state": "answer",
+    "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+    "justification": "1 source(s) concordante(s).",
+    "missing": [],
+    "id": "p4-06",
+    "engine": "règles",
+    "evidence": [
+      {
+        "source": "sources/companies/sim-hackathon-b-client/mandate.md",
+        "pointer": "/signer_role",
+        "excerpt": "Présidente"
+      }
+    ]
+  }
+]

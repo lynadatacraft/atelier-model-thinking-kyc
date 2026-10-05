@@ -1,0 +1,711 @@
+[
+  {
+    "page": 1,
+    "label": "Dénomination sociale",
+    "section": "Votre établissement",
+    "kind": "text",
+    "concept": "legal_name",
+    "value_box": [
+      358,
+      152,
+      558,
+      178
+    ],
+    "id": "p1-01",
+    "options": [],
+    "label_box": [
+      169.9,
+      151.9,
+      274.8,
+      160.8
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Code SIREN / n° d'enregistrement",
+    "section": "Votre établissement",
+    "kind": "text",
+    "concept": "registration",
+    "value_box": [
+      358,
+      179,
+      558,
+      205
+    ],
+    "id": "p1-02",
+    "options": [],
+    "label_box": [
+      169.4,
+      179.0,
+      333.1,
+      189.8
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Société cotée",
+    "section": "Votre établissement",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non"
+    ],
+    "concept": "listed",
+    "id": "p1-03",
+    "label_box": [
+      169.7,
+      223.9,
+      234.7,
+      232.3
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        360.8,
+        213.6,
+        369.8,
+        222.6
+      ],
+      "Non": [
+        391.1,
+        214.3,
+        399.4,
+        222.2
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Marché de cotation",
+    "section": "Votre établissement",
+    "kind": "text",
+    "concept": "market",
+    "value_box": [
+      465,
+      238,
+      557,
+      253
+    ],
+    "id": "p1-04",
+    "options": [],
+    "label_box": [
+      361.4,
+      241.4,
+      455.8,
+      250.1
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Nom de la maison mère",
+    "section": "Votre maison mère (si filiale)",
+    "kind": "text",
+    "concept": "parent.name",
+    "value_box": [
+      358,
+      293,
+      558,
+      319
+    ],
+    "id": "p1-05",
+    "options": [],
+    "label_box": [
+      169.9,
+      293.5,
+      285.4,
+      302.4
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Pays d'immatriculation",
+    "section": "Votre maison mère (si filiale)",
+    "kind": "text",
+    "concept": "parent.incorporation",
+    "value_box": [
+      358,
+      320,
+      558,
+      346
+    ],
+    "id": "p1-06",
+    "options": [],
+    "label_box": [
+      169.9,
+      320.4,
+      280.3,
+      331.2
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Pays de résidence fiscale",
+    "section": "Votre maison mère (si filiale)",
+    "kind": "text",
+    "concept": "parent.tax_residence",
+    "value_box": [
+      358,
+      347,
+      558,
+      373
+    ],
+    "id": "p1-07",
+    "options": [],
+    "label_box": [
+      169.9,
+      347.8,
+      289.4,
+      358.1
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Adresse de la maison mère",
+    "section": "Votre maison mère (si filiale)",
+    "kind": "text",
+    "concept": "parent.address",
+    "value_box": [
+      358,
+      374,
+      558,
+      400
+    ],
+    "id": "p1-08",
+    "options": [],
+    "label_box": [
+      169.4,
+      374.6,
+      300.5,
+      383.3
+    ],
+    "anchor_score": 1.0
+  },
+  {
+    "page": 1,
+    "label": "Corée du nord",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-09",
+    "label_box": [
+      41.8,
+      499.0,
+      110.9,
+      507.4
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        503.0,
+        177.6,
+        511.4
+      ],
+      "Non": [
+        275.0,
+        503.5,
+        282.7,
+        511.4
+      ],
+      "Envisagée": [
+        361.0,
+        502.8,
+        368.6,
+        513.4
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Crimée",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-10",
+    "label_box": [
+      41.8,
+      533.5,
+      76.3,
+      541.9
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        537.1,
+        177.6,
+        545.8
+      ],
+      "Non": [
+        275.0,
+        537.6,
+        282.7,
+        545.8
+      ],
+      "Envisagée": [
+        361.0,
+        537.1,
+        368.6,
+        547.7
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Cuba",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-11",
+    "label_box": [
+      41.8,
+      567.6,
+      66.0,
+      576.2
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        571.4,
+        177.6,
+        579.8
+      ],
+      "Non": [
+        275.0,
+        571.9,
+        282.7,
+        579.8
+      ],
+      "Envisagée": [
+        361.0,
+        571.4,
+        368.6,
+        581.8
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Irak",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-12",
+    "label_box": [
+      42.5,
+      601.9,
+      59.8,
+      610.6
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        605.5,
+        177.6,
+        613.9
+      ],
+      "Non": [
+        275.0,
+        606.0,
+        282.7,
+        614.2
+      ],
+      "Envisagée": [
+        361.0,
+        605.5,
+        368.6,
+        616.1
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Iran",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-13",
+    "label_box": [
+      42.5,
+      637.2,
+      60.5,
+      645.1
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        640.1,
+        177.6,
+        648.7
+      ],
+      "Non": [
+        275.0,
+        640.6,
+        282.7,
+        648.7
+      ],
+      "Envisagée": [
+        361.0,
+        640.1,
+        368.6,
+        650.6
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Myanmar",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-14",
+    "label_box": [
+      42.5,
+      669.6,
+      88.8,
+      682.3
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        674.4,
+        177.6,
+        682.8
+      ],
+      "Non": [
+        275.0,
+        674.9,
+        282.7,
+        682.8
+      ],
+      "Envisagée": [
+        361.2,
+        674.2,
+        368.6,
+        685.0
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Russie",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-15",
+    "label_box": [
+      42.2,
+      703.9,
+      72.2,
+      719.0
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        708.5,
+        177.6,
+        717.1
+      ],
+      "Non": [
+        275.0,
+        709.0,
+        282.7,
+        717.1
+      ],
+      "Envisagée": [
+        361.0,
+        708.5,
+        368.6,
+        719.0
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Soudan",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-16",
+    "label_box": [
+      42.0,
+      739.0,
+      77.8,
+      747.6
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        743.3,
+        177.6,
+        751.7
+      ],
+      "Non": [
+        275.0,
+        743.5,
+        282.7,
+        751.7
+      ],
+      "Envisagée": [
+        361.0,
+        743.0,
+        368.6,
+        753.6
+      ]
+    }
+  },
+  {
+    "page": 1,
+    "label": "Sud-Soudan",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p1-17",
+    "label_box": [
+      42.0,
+      773.5,
+      99.4,
+      782.2
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        777.4,
+        177.6,
+        785.8
+      ],
+      "Non": [
+        275.0,
+        777.8,
+        282.7,
+        785.8
+      ],
+      "Envisagée": [
+        361.0,
+        777.4,
+        368.6,
+        787.7
+      ]
+    }
+  },
+  {
+    "page": 2,
+    "label": "Syrie",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p2-01",
+    "label_box": [
+      42.0,
+      64.3,
+      65.3,
+      74.9
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        67.9,
+        177.6,
+        76.3
+      ],
+      "Non": [
+        275.0,
+        68.4,
+        282.7,
+        76.3
+      ],
+      "Envisagée": [
+        361.0,
+        67.9,
+        368.6,
+        78.5
+      ]
+    }
+  },
+  {
+    "page": 2,
+    "label": "Venezuela",
+    "section": "Vos activités internationales",
+    "kind": "choice",
+    "options": [
+      "Oui",
+      "Non",
+      "Envisagée"
+    ],
+    "concept": "country",
+    "id": "p2-02",
+    "label_box": [
+      41.8,
+      97.9,
+      91.7,
+      113.0
+    ],
+    "anchor_score": 1.0,
+    "option_boxes": {
+      "Oui": [
+        169.9,
+        102.5,
+        177.6,
+        110.9
+      ],
+      "Non": [
+        275.0,
+        103.0,
+        282.7,
+        110.9
+      ],
+      "Envisagée": [
+        361.0,
+        102.5,
+        368.6,
+        113.0
+      ]
+    }
+  },
+  {
+    "page": 2,
+    "label": "Représenté par",
+    "section": "Signature",
+    "kind": "text",
+    "concept": "signatory.name",
+    "id": "p2-03",
+    "options": [],
+    "label_box": [
+      36.7,
+      218.2,
+      110.9,
+      228.5
+    ],
+    "anchor_score": 1.0,
+    "value_box": [
+      116.9,
+      217.2,
+      561.4,
+      229.5
+    ]
+  },
+  {
+    "page": 2,
+    "label": "En qualité de",
+    "section": "Signature",
+    "kind": "text",
+    "concept": "signatory.role",
+    "id": "p2-04",
+    "options": [],
+    "label_box": [
+      36.7,
+      242.6,
+      99.6,
+      253.0
+    ],
+    "anchor_score": 1.0,
+    "value_box": [
+      105.6,
+      241.6,
+      561.4,
+      254.0
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Signé le",
+    "section": "Signature",
+    "kind": "date",
+    "concept": "signature.date",
+    "id": "p2-05",
+    "options": [],
+    "label_box": [
+      36.2,
+      267.4,
+      73.4,
+      277.9
+    ],
+    "anchor_score": 1.0,
+    "value_box": [
+      79.4,
+      266.4,
+      561.4,
+      278.9
+    ]
+  },
+  {
+    "page": 2,
+    "label": "Signature",
+    "section": "Signature",
+    "kind": "signature",
+    "concept": "signature",
+    "id": "p2-06",
+    "options": [],
+    "label_box": [
+      36.2,
+      267.4,
+      61.9,
+      277.9
+    ],
+    "anchor_score": 0.71
+  }
+]

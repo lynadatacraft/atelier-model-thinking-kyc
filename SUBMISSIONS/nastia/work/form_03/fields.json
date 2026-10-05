@@ -1,0 +1,2935 @@
+[
+  {
+    "page": 2,
+    "label": "Legal Name",
+    "section": "Step 1: Entity Identification",
+    "kind": "text",
+    "options": [],
+    "concept": "legal_name",
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      119.08800048828125,
+      165.88187567138672,
+      550.7820022583007,
+      183.56471520996095
+    ],
+    "id": "p2-01"
+  },
+  {
+    "page": 2,
+    "label": "Tax Identification Number",
+    "section": "Step 1: Entity Identification",
+    "kind": "text",
+    "options": [],
+    "concept": "tin",
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      213.16752087402344,
+      190.30103503417968,
+      550.7820022583007,
+      207.9838745727539
+    ],
+    "id": "p2-02"
+  },
+  {
+    "page": 2,
+    "label": "LEI",
+    "section": "Step 1: Entity Identification",
+    "kind": "text",
+    "options": [],
+    "concept": "lei",
+    "concept_arg": null,
+    "line_ids": [
+      "L11",
+      "L13"
+    ],
+    "value_box": [
+      89.31600036621094,
+      213.87815441894531,
+      550.7820022583007,
+      234.08711389160158
+    ],
+    "id": "p2-03"
+  },
+  {
+    "page": 2,
+    "label": "NACE Code of the company",
+    "section": "Step 2: Business activity and regulatory authorities",
+    "kind": "text",
+    "options": [],
+    "concept": "nace",
+    "concept_arg": null,
+    "line_ids": [
+      "L17"
+    ],
+    "value_box": [
+      209.594880859375,
+      273.6629928588867,
+      278.07048114013674,
+      293.0299123535156
+    ],
+    "id": "p2-04"
+  },
+  {
+    "page": 2,
+    "label": "Entity's Type",
+    "section": "Step 2: Business activity and regulatory authorities",
+    "kind": "choice",
+    "options": [
+      "None of the indicated below",
+      "Money transmitters, currency trading and similar entities",
+      "On-line gambling and casinos",
+      "Mere Asset Holding Companies (EMTAs)",
+      "Holding entities",
+      "Crowdfunding",
+      "Non-Financial Asset Manager",
+      "Cannabis Business",
+      "Special Purpose Vehicle (SPV)",
+      "Virtual asset service provider (VASP)"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L18",
+      "L20",
+      "L21",
+      "L22",
+      "L23",
+      "L24",
+      "L25",
+      "L26",
+      "L27",
+      "L28",
+      "L29"
+    ],
+    "value_box": null,
+    "id": "p2-05"
+  },
+  {
+    "page": 2,
+    "label": "Name of authority",
+    "section": "Responsible Financial Supervisory Authority",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L30",
+      "L32"
+    ],
+    "value_box": [
+      181.6092007446289,
+      634.8981434326172,
+      535.8960021972656,
+      660.1593427734375
+    ],
+    "id": "p2-06"
+  },
+  {
+    "page": 2,
+    "label": "Company is not supervised by a regulatory authority",
+    "section": "Responsible Financial Supervisory Authority",
+    "kind": "choice",
+    "options": [
+      "Company is not supervised by a regulatory authority"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L33"
+    ],
+    "value_box": null,
+    "id": "p2-07"
+  },
+  {
+    "page": 2,
+    "label": "Please indicate the source of funds",
+    "section": "Step 2: Business activity and regulatory authorities",
+    "kind": "choice",
+    "options": [
+      "Own activity",
+      "Investors",
+      "Deposits",
+      "Others*"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L35",
+      "L36",
+      "L37",
+      "L38",
+      "L39"
+    ],
+    "value_box": null,
+    "id": "p2-08"
+  },
+  {
+    "page": 2,
+    "label": "Others* - details",
+    "section": "Step 2: Business activity and regulatory authorities",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L39"
+    ],
+    "value_box": [
+      142.9056005859375,
+      767.9404599609375,
+      497.19240203857424,
+      791.5175793457031
+    ],
+    "id": "p2-09"
+  },
+  {
+    "page": 3,
+    "label": "Please explain",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L3"
+    ],
+    "value_box": [
+      130.99680053710938,
+      82.51991784667969,
+      535.8960021972656,
+      107.7811171875
+    ],
+    "id": "p3-01"
+  },
+  {
+    "page": 3,
+    "label": "Can the corporation issue bearer shares?",
+    "section": null,
+    "kind": "choice",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L5",
+      "L6"
+    ],
+    "value_box": null,
+    "id": "p3-02"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      190.30103503417968,
+      169.10496069335937,
+      767.9404599609375,
+      182.80008074951172
+    ],
+    "id": "p4-01"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      181.03859527587892,
+      183.99096075439454,
+      425.2301889038086,
+      196.49520080566407
+    ],
+    "id": "p4-02"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      513.6443865966797,
+      183.99096075439454,
+      767.9404599609375,
+      196.49520080566407
+    ],
+    "id": "p4-03"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      151.56719604492187,
+      197.68608081054688,
+      425.2301889038086,
+      210.7857608642578
+    ],
+    "id": "p4-04"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      482.48890740966795,
+      197.68608081054688,
+      767.9404599609375,
+      210.7857608642578
+    ],
+    "id": "p4-05"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12"
+    ],
+    "value_box": [
+      192.8271549682617,
+      211.97664086914062,
+      425.2301889038086,
+      225.07632092285155
+    ],
+    "id": "p4-06"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L13"
+    ],
+    "value_box": [
+      607.9528641357422,
+      211.97664086914062,
+      767.9404599609375,
+      225.07632092285155
+    ],
+    "id": "p4-07"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L14"
+    ],
+    "value_box": [
+      195.35327490234374,
+      225.67176092529297,
+      767.9404599609375,
+      238.1760009765625
+    ],
+    "id": "p4-08"
+  },
+  {
+    "page": 4,
+    "label": "Person 1 - Date on which the person became “Controlling Person”",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L15"
+    ],
+    "value_box": [
+      335.1319112548828,
+      239.36688098144532,
+      767.9404599609375,
+      251.87112103271485
+    ],
+    "id": "p4-09"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L16"
+    ],
+    "value_box": [
+      190.30103503417968,
+      253.65744104003906,
+      767.9404599609375,
+      267.3525610961914
+    ],
+    "id": "p4-10"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17"
+    ],
+    "value_box": [
+      181.03859527587892,
+      268.5434411010742,
+      425.2301889038086,
+      281.0476811523437
+    ],
+    "id": "p4-11"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L18"
+    ],
+    "value_box": [
+      513.6443865966797,
+      268.5434411010742,
+      767.9404599609375,
+      281.0476811523437
+    ],
+    "id": "p4-12"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L19"
+    ],
+    "value_box": [
+      151.56719604492187,
+      282.23856115722657,
+      425.2301889038086,
+      295.3382412109375
+    ],
+    "id": "p4-13"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L20"
+    ],
+    "value_box": [
+      482.48890740966795,
+      282.23856115722657,
+      767.9404599609375,
+      295.3382412109375
+    ],
+    "id": "p4-14"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L21"
+    ],
+    "value_box": [
+      192.8271549682617,
+      296.52912121582034,
+      425.2301889038086,
+      309.62880126953127
+    ],
+    "id": "p4-15"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L22"
+    ],
+    "value_box": [
+      607.9528641357422,
+      296.52912121582034,
+      767.9404599609375,
+      309.62880126953127
+    ],
+    "id": "p4-16"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L23"
+    ],
+    "value_box": [
+      195.35327490234374,
+      310.22424127197263,
+      767.9404599609375,
+      322.7284813232422
+    ],
+    "id": "p4-17"
+  },
+  {
+    "page": 4,
+    "label": "Person 2 - Date on which the person became “Controlling Person”",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24"
+    ],
+    "value_box": [
+      335.1319112548828,
+      323.919361328125,
+      767.9404599609375,
+      336.42360137939454
+    ],
+    "id": "p4-18"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L25"
+    ],
+    "value_box": [
+      190.30103503417968,
+      338.20992138671875,
+      767.9404599609375,
+      351.9050414428711
+    ],
+    "id": "p4-19"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L26"
+    ],
+    "value_box": [
+      181.03859527587892,
+      353.6913614501953,
+      425.2301889038086,
+      366.19560150146486
+    ],
+    "id": "p4-20"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L27"
+    ],
+    "value_box": [
+      513.6443865966797,
+      353.6913614501953,
+      767.9404599609375,
+      366.19560150146486
+    ],
+    "id": "p4-21"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L28"
+    ],
+    "value_box": [
+      151.56719604492187,
+      367.38648150634765,
+      425.2301889038086,
+      380.4861615600586
+    ],
+    "id": "p4-22"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L29"
+    ],
+    "value_box": [
+      482.48890740966795,
+      367.38648150634765,
+      767.9404599609375,
+      380.4861615600586
+    ],
+    "id": "p4-23"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L30"
+    ],
+    "value_box": [
+      192.8271549682617,
+      381.6770415649414,
+      425.2301889038086,
+      394.77672161865235
+    ],
+    "id": "p4-24"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L31"
+    ],
+    "value_box": [
+      607.9528641357422,
+      381.6770415649414,
+      767.9404599609375,
+      394.77672161865235
+    ],
+    "id": "p4-25"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L32"
+    ],
+    "value_box": [
+      195.35327490234374,
+      395.37216162109377,
+      767.9404599609375,
+      407.8764016723633
+    ],
+    "id": "p4-26"
+  },
+  {
+    "page": 4,
+    "label": "Person 3 - Date on which the person became “Controlling Person”",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L33"
+    ],
+    "value_box": [
+      335.1319112548828,
+      408.4718416748047,
+      767.9404599609375,
+      420.9760817260742
+    ],
+    "id": "p4-27"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L4"
+    ],
+    "value_box": [
+      190.30103503417968,
+      126.23328051757812,
+      770.4665798950195,
+      139.33296057128905
+    ],
+    "id": "p5-01"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L5"
+    ],
+    "value_box": [
+      181.03859527587892,
+      140.52384057617186,
+      426.07222888183594,
+      153.62352062988282
+    ],
+    "id": "p5-02"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L6"
+    ],
+    "value_box": [
+      513.6443865966797,
+      140.52384057617186,
+      770.4665798950195,
+      153.62352062988282
+    ],
+    "id": "p5-03"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      151.56719604492187,
+      154.2189606323242,
+      426.07222888183594,
+      167.91408068847656
+    ],
+    "id": "p5-04"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      482.48890740966795,
+      154.2189606323242,
+      770.4665798950195,
+      167.91408068847656
+    ],
+    "id": "p5-05"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      192.8271549682617,
+      169.10496069335937,
+      426.07222888183594,
+      182.2046407470703
+    ],
+    "id": "p5-06"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      607.9528641357422,
+      169.10496069335937,
+      770.4665798950195,
+      182.2046407470703
+    ],
+    "id": "p5-07"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      195.35327490234374,
+      182.80008074951172,
+      770.4665798950195,
+      195.30432080078126
+    ],
+    "id": "p5-08"
+  },
+  {
+    "page": 5,
+    "label": "Person 4 - Date on which the person became \"Controlling Person\"",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12"
+    ],
+    "value_box": [
+      335.1319112548828,
+      195.89976080322265,
+      770.4665798950195,
+      208.9994408569336
+    ],
+    "id": "p5-09"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L13"
+    ],
+    "value_box": [
+      190.30103503417968,
+      210.7857608642578,
+      770.4665798950195,
+      224.48088092041016
+    ],
+    "id": "p5-10"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L14"
+    ],
+    "value_box": [
+      181.03859527587892,
+      225.67176092529297,
+      426.07222888183594,
+      238.1760009765625
+    ],
+    "id": "p5-11"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L15"
+    ],
+    "value_box": [
+      513.6443865966797,
+      225.67176092529297,
+      770.4665798950195,
+      238.1760009765625
+    ],
+    "id": "p5-12"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L16"
+    ],
+    "value_box": [
+      151.56719604492187,
+      239.36688098144532,
+      426.07222888183594,
+      252.46656103515625
+    ],
+    "id": "p5-13"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L17"
+    ],
+    "value_box": [
+      482.48890740966795,
+      239.36688098144532,
+      770.4665798950195,
+      252.46656103515625
+    ],
+    "id": "p5-14"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L18"
+    ],
+    "value_box": [
+      192.8271549682617,
+      253.65744104003906,
+      426.07222888183594,
+      266.75712109375
+    ],
+    "id": "p5-15"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L19"
+    ],
+    "value_box": [
+      607.9528641357422,
+      253.65744104003906,
+      770.4665798950195,
+      266.75712109375
+    ],
+    "id": "p5-16"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L20"
+    ],
+    "value_box": [
+      195.35327490234374,
+      267.3525610961914,
+      770.4665798950195,
+      279.85680114746094
+    ],
+    "id": "p5-17"
+  },
+  {
+    "page": 5,
+    "label": "Person 5 - Date on which the person became \"Controlling Person\"",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L21"
+    ],
+    "value_box": [
+      335.1319112548828,
+      281.0476811523437,
+      770.4665798950195,
+      294.1473612060547
+    ],
+    "id": "p5-18"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L22"
+    ],
+    "value_box": [
+      190.30103503417968,
+      295.3382412109375,
+      770.4665798950195,
+      309.03336126708984
+    ],
+    "id": "p5-19"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L23"
+    ],
+    "value_box": [
+      181.03859527587892,
+      310.22424127197263,
+      426.07222888183594,
+      322.7284813232422
+    ],
+    "id": "p5-20"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L24"
+    ],
+    "value_box": [
+      513.6443865966797,
+      310.22424127197263,
+      770.4665798950195,
+      322.7284813232422
+    ],
+    "id": "p5-21"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L25"
+    ],
+    "value_box": [
+      151.56719604492187,
+      323.919361328125,
+      426.07222888183594,
+      337.01904138183596
+    ],
+    "id": "p5-22"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L26"
+    ],
+    "value_box": [
+      482.48890740966795,
+      323.919361328125,
+      770.4665798950195,
+      337.01904138183596
+    ],
+    "id": "p5-23"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L27"
+    ],
+    "value_box": [
+      192.8271549682617,
+      338.20992138671875,
+      426.07222888183594,
+      351.3096014404297
+    ],
+    "id": "p5-24"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L28"
+    ],
+    "value_box": [
+      607.9528641357422,
+      338.20992138671875,
+      770.4665798950195,
+      351.3096014404297
+    ],
+    "id": "p5-25"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L29"
+    ],
+    "value_box": [
+      195.35327490234374,
+      351.9050414428711,
+      770.4665798950195,
+      364.4092814941406
+    ],
+    "id": "p5-26"
+  },
+  {
+    "page": 5,
+    "label": "Person 6 - Date on which the person became \"Controlling Person\"",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L30"
+    ],
+    "value_box": [
+      335.1319112548828,
+      365.60016149902344,
+      770.4665798950195,
+      378.69984155273437
+    ],
+    "id": "p5-27"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Name and Surname",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L31"
+    ],
+    "value_box": [
+      190.30103503417968,
+      379.8907215576172,
+      770.4665798950195,
+      393.5858416137695
+    ],
+    "id": "p5-28"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Type of control (1)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L32"
+    ],
+    "value_box": [
+      181.03859527587892,
+      394.77672161865235,
+      426.07222888183594,
+      407.8764016723633
+    ],
+    "id": "p5-29"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Ownership % (2)",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L33"
+    ],
+    "value_box": [
+      513.6443865966797,
+      394.77672161865235,
+      770.4665798950195,
+      407.8764016723633
+    ],
+    "id": "p5-30"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Date of birth",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L34"
+    ],
+    "value_box": [
+      151.56719604492187,
+      408.4718416748047,
+      426.07222888183594,
+      421.5715217285156
+    ],
+    "id": "p5-31"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Nationality",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L35"
+    ],
+    "value_box": [
+      482.48890740966795,
+      408.4718416748047,
+      770.4665798950195,
+      421.5715217285156
+    ],
+    "id": "p5-32"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Country of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L36"
+    ],
+    "value_box": [
+      192.8271549682617,
+      422.76240173339846,
+      426.07222888183594,
+      435.8620817871094
+    ],
+    "id": "p5-33"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Passport or national ID card number",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L37"
+    ],
+    "value_box": [
+      607.9528641357422,
+      422.76240173339846,
+      770.4665798950195,
+      435.8620817871094
+    ],
+    "id": "p5-34"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Address of residence",
+    "section": "Step 3: Controlling Persons",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L38"
+    ],
+    "value_box": [
+      195.35327490234374,
+      436.45752178955075,
+      770.4665798950195,
+      448.9617618408203
+    ],
+    "id": "p5-35"
+  },
+  {
+    "page": 5,
+    "label": "Person 7 - Date on which the person became \"Controlling Person\"",
+    "section": "Step 3: Controlling Persons",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L39"
+    ],
+    "value_box": [
+      335.1319112548828,
+      450.1526418457031,
+      770.4665798950195,
+      463.2523218994141
+    ],
+    "id": "p5-36"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      61.46891839599609,
+      206.02224084472655,
+      245.03363360595702,
+      264.3753610839844
+    ],
+    "id": "p6-01"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      245.03363360595702,
+      206.02224084472655,
+      333.44783129882813,
+      264.3753610839844
+    ],
+    "id": "p6-02"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      333.44783129882813,
+      206.02224084472655,
+      453.8595481567383,
+      264.3753610839844
+    ],
+    "id": "p6-03"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Country of Residence 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      206.02224084472655,
+      618.8993838500977,
+      225.67176092529297
+    ],
+    "id": "p6-04"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Passport or national ID card number 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      206.02224084472655,
+      758.6780202026367,
+      225.67176092529297
+    ],
+    "id": "p6-05"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Country of Residence 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      225.67176092529297,
+      618.8993838500977,
+      244.72584100341797
+    ],
+    "id": "p6-06"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Passport or national ID card number 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      225.67176092529297,
+      758.6780202026367,
+      244.72584100341797
+    ],
+    "id": "p6-07"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Country of Residence 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      244.72584100341797,
+      618.8993838500977,
+      264.3753610839844
+    ],
+    "id": "p6-08"
+  },
+  {
+    "page": 6,
+    "label": "Representative 1 - Passport or national ID card number 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      244.72584100341797,
+      758.6780202026367,
+      264.3753610839844
+    ],
+    "id": "p6-09"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      61.46891839599609,
+      264.3753610839844,
+      245.03363360595702,
+      322.7284813232422
+    ],
+    "id": "p6-10"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      245.03363360595702,
+      264.3753610839844,
+      333.44783129882813,
+      322.7284813232422
+    ],
+    "id": "p6-11"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      333.44783129882813,
+      264.3753610839844,
+      453.8595481567383,
+      322.7284813232422
+    ],
+    "id": "p6-12"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Country of Residence 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      264.3753610839844,
+      618.8993838500977,
+      284.0248811645508
+    ],
+    "id": "p6-13"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Passport or national ID card number 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      264.3753610839844,
+      758.6780202026367,
+      284.0248811645508
+    ],
+    "id": "p6-14"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Country of Residence 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      284.0248811645508,
+      618.8993838500977,
+      303.0789612426758
+    ],
+    "id": "p6-15"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Passport or national ID card number 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      284.0248811645508,
+      758.6780202026367,
+      303.0789612426758
+    ],
+    "id": "p6-16"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Country of Residence 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      303.0789612426758,
+      618.8993838500977,
+      322.7284813232422
+    ],
+    "id": "p6-17"
+  },
+  {
+    "page": 6,
+    "label": "Representative 2 - Passport or national ID card number 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      303.0789612426758,
+      758.6780202026367,
+      322.7284813232422
+    ],
+    "id": "p6-18"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      61.46891839599609,
+      322.7284813232422,
+      245.03363360595702,
+      381.0816015625
+    ],
+    "id": "p6-19"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      245.03363360595702,
+      322.7284813232422,
+      333.44783129882813,
+      381.0816015625
+    ],
+    "id": "p6-20"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      333.44783129882813,
+      322.7284813232422,
+      453.8595481567383,
+      381.0816015625
+    ],
+    "id": "p6-21"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Country of Residence 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      322.7284813232422,
+      618.8993838500977,
+      342.3780014038086
+    ],
+    "id": "p6-22"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Passport or national ID card number 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      322.7284813232422,
+      758.6780202026367,
+      342.3780014038086
+    ],
+    "id": "p6-23"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Country of Residence 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      342.3780014038086,
+      618.8993838500977,
+      361.4320814819336
+    ],
+    "id": "p6-24"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Passport or national ID card number 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      342.3780014038086,
+      758.6780202026367,
+      361.4320814819336
+    ],
+    "id": "p6-25"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Country of Residence 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      361.4320814819336,
+      618.8993838500977,
+      381.0816015625
+    ],
+    "id": "p6-26"
+  },
+  {
+    "page": 6,
+    "label": "Representative 3 - Passport or national ID card number 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      361.4320814819336,
+      758.6780202026367,
+      381.0816015625
+    ],
+    "id": "p6-27"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      61.46891839599609,
+      381.0816015625,
+      245.03363360595702,
+      438.8392817993164
+    ],
+    "id": "p6-28"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      245.03363360595702,
+      381.0816015625,
+      333.44783129882813,
+      438.8392817993164
+    ],
+    "id": "p6-29"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      333.44783129882813,
+      381.0816015625,
+      453.8595481567383,
+      438.8392817993164
+    ],
+    "id": "p6-30"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Country of Residence 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      381.0816015625,
+      618.8993838500977,
+      400.135681640625
+    ],
+    "id": "p6-31"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Passport or national ID card number 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      381.0816015625,
+      758.6780202026367,
+      400.135681640625
+    ],
+    "id": "p6-32"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Country of Residence 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      400.135681640625,
+      618.8993838500977,
+      419.7852017211914
+    ],
+    "id": "p6-33"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Passport or national ID card number 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      400.135681640625,
+      758.6780202026367,
+      419.7852017211914
+    ],
+    "id": "p6-34"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Country of Residence 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      419.7852017211914,
+      618.8993838500977,
+      438.8392817993164
+    ],
+    "id": "p6-35"
+  },
+  {
+    "page": 6,
+    "label": "Representative 4 - Passport or national ID card number 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      419.7852017211914,
+      758.6780202026367,
+      438.8392817993164
+    ],
+    "id": "p6-36"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L7"
+    ],
+    "value_box": [
+      61.46891839599609,
+      438.8392817993164,
+      245.03363360595702,
+      497.7878420410156
+    ],
+    "id": "p6-37"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      245.03363360595702,
+      438.8392817993164,
+      333.44783129882813,
+      497.7878420410156
+    ],
+    "id": "p6-38"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L8"
+    ],
+    "value_box": [
+      333.44783129882813,
+      438.8392817993164,
+      453.8595481567383,
+      497.7878420410156
+    ],
+    "id": "p6-39"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Country of Residence 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      438.8392817993164,
+      618.8993838500977,
+      458.4888018798828
+    ],
+    "id": "p6-40"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Passport or national ID card number 1",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      438.8392817993164,
+      758.6780202026367,
+      458.4888018798828
+    ],
+    "id": "p6-41"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Country of Residence 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      458.4888018798828,
+      618.8993838500977,
+      477.5428819580078
+    ],
+    "id": "p6-42"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Passport or national ID card number 2",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      458.4888018798828,
+      758.6780202026367,
+      477.5428819580078
+    ],
+    "id": "p6-43"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Country of Residence 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      453.8595481567383,
+      477.5428819580078,
+      618.8993838500977,
+      497.7878420410156
+    ],
+    "id": "p6-44"
+  },
+  {
+    "page": 6,
+    "label": "Representative 5 - Passport or national ID card number 3",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10",
+      "L11"
+    ],
+    "value_box": [
+      618.8993838500977,
+      477.5428819580078,
+      758.6780202026367,
+      497.7878420410156
+    ],
+    "id": "p6-45"
+  },
+  {
+    "page": 7,
+    "label": "Representative 1 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      61.46891839599609,
+      245.32128100585936,
+      244.19159362792968,
+      303.0789612426758
+    ],
+    "id": "p7-01"
+  },
+  {
+    "page": 7,
+    "label": "Representative 1 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      244.19159362792968,
+      245.32128100585936,
+      333.44783129882813,
+      303.0789612426758
+    ],
+    "id": "p7-02"
+  },
+  {
+    "page": 7,
+    "label": "Representative 1 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      333.44783129882813,
+      245.32128100585936,
+      453.01750817871095,
+      303.0789612426758
+    ],
+    "id": "p7-03"
+  },
+  {
+    "page": 7,
+    "label": "Representative 1 - Country (ies) of Residence",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      453.01750817871095,
+      245.32128100585936,
+      618.0573438720703,
+      303.0789612426758
+    ],
+    "id": "p7-04"
+  },
+  {
+    "page": 7,
+    "label": "Representative 1 - Passport or national ID card number",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12",
+      "L13"
+    ],
+    "value_box": [
+      618.0573438720703,
+      245.32128100585936,
+      757.8359802246093,
+      303.0789612426758
+    ],
+    "id": "p7-05"
+  },
+  {
+    "page": 7,
+    "label": "Representative 2 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      61.46891839599609,
+      303.0789612426758,
+      244.19159362792968,
+      360.8366414794922
+    ],
+    "id": "p7-06"
+  },
+  {
+    "page": 7,
+    "label": "Representative 2 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      244.19159362792968,
+      303.0789612426758,
+      333.44783129882813,
+      360.8366414794922
+    ],
+    "id": "p7-07"
+  },
+  {
+    "page": 7,
+    "label": "Representative 2 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      333.44783129882813,
+      303.0789612426758,
+      453.01750817871095,
+      360.8366414794922
+    ],
+    "id": "p7-08"
+  },
+  {
+    "page": 7,
+    "label": "Representative 2 - Country (ies) of Residence",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      453.01750817871095,
+      303.0789612426758,
+      618.0573438720703,
+      360.8366414794922
+    ],
+    "id": "p7-09"
+  },
+  {
+    "page": 7,
+    "label": "Representative 2 - Passport or national ID card number",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12",
+      "L13"
+    ],
+    "value_box": [
+      618.0573438720703,
+      303.0789612426758,
+      757.8359802246093,
+      360.8366414794922
+    ],
+    "id": "p7-10"
+  },
+  {
+    "page": 7,
+    "label": "Representative 3 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      61.46891839599609,
+      360.8366414794922,
+      244.19159362792968,
+      417.9988817138672
+    ],
+    "id": "p7-11"
+  },
+  {
+    "page": 7,
+    "label": "Representative 3 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      244.19159362792968,
+      360.8366414794922,
+      333.44783129882813,
+      417.9988817138672
+    ],
+    "id": "p7-12"
+  },
+  {
+    "page": 7,
+    "label": "Representative 3 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      333.44783129882813,
+      360.8366414794922,
+      453.01750817871095,
+      417.9988817138672
+    ],
+    "id": "p7-13"
+  },
+  {
+    "page": 7,
+    "label": "Representative 3 - Country (ies) of Residence",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      453.01750817871095,
+      360.8366414794922,
+      618.0573438720703,
+      417.9988817138672
+    ],
+    "id": "p7-14"
+  },
+  {
+    "page": 7,
+    "label": "Representative 3 - Passport or national ID card number",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12",
+      "L13"
+    ],
+    "value_box": [
+      618.0573438720703,
+      360.8366414794922,
+      757.8359802246093,
+      417.9988817138672
+    ],
+    "id": "p7-15"
+  },
+  {
+    "page": 7,
+    "label": "Representative 4 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      61.46891839599609,
+      417.9988817138672,
+      244.19159362792968,
+      475.7565619506836
+    ],
+    "id": "p7-16"
+  },
+  {
+    "page": 7,
+    "label": "Representative 4 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      244.19159362792968,
+      417.9988817138672,
+      333.44783129882813,
+      475.7565619506836
+    ],
+    "id": "p7-17"
+  },
+  {
+    "page": 7,
+    "label": "Representative 4 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      333.44783129882813,
+      417.9988817138672,
+      453.01750817871095,
+      475.7565619506836
+    ],
+    "id": "p7-18"
+  },
+  {
+    "page": 7,
+    "label": "Representative 4 - Country (ies) of Residence",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      453.01750817871095,
+      417.9988817138672,
+      618.0573438720703,
+      475.7565619506836
+    ],
+    "id": "p7-19"
+  },
+  {
+    "page": 7,
+    "label": "Representative 4 - Passport or national ID card number",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12",
+      "L13"
+    ],
+    "value_box": [
+      618.0573438720703,
+      417.9988817138672,
+      757.8359802246093,
+      475.7565619506836
+    ],
+    "id": "p7-20"
+  },
+  {
+    "page": 7,
+    "label": "Representative 5 - Name & Surname",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L9"
+    ],
+    "value_box": [
+      61.46891839599609,
+      475.7565619506836,
+      244.19159362792968,
+      513.8647221069336
+    ],
+    "id": "p7-21"
+  },
+  {
+    "page": 7,
+    "label": "Representative 5 - Date of birth",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "date",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      244.19159362792968,
+      475.7565619506836,
+      333.44783129882813,
+      513.8647221069336
+    ],
+    "id": "p7-22"
+  },
+  {
+    "page": 7,
+    "label": "Representative 5 - Nationality",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L10"
+    ],
+    "value_box": [
+      333.44783129882813,
+      475.7565619506836,
+      453.01750817871095,
+      513.8647221069336
+    ],
+    "id": "p7-23"
+  },
+  {
+    "page": 7,
+    "label": "Representative 5 - Country (ies) of Residence",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L11"
+    ],
+    "value_box": [
+      453.01750817871095,
+      475.7565619506836,
+      618.0573438720703,
+      513.8647221069336
+    ],
+    "id": "p7-24"
+  },
+  {
+    "page": 7,
+    "label": "Representative 5 - Passport or national ID card number",
+    "section": "Step 4: Details of Authorized Representatives",
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [
+      "L12",
+      "L13"
+    ],
+    "value_box": [
+      618.0573438720703,
+      475.7565619506836,
+      757.8359802246093,
+      513.8647221069336
+    ],
+    "id": "p7-25"
+  },
+  {
+    "page": 8,
+    "label": "Tableau (suite de la page précédente) - Colonne 1",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      62.310958374023436,
+      61.92576025390625,
+      244.19159362792968,
+      82.17072033691406
+    ],
+    "id": "p8-01"
+  },
+  {
+    "page": 8,
+    "label": "Tableau (suite de la page précédente) - Colonne 2",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      244.19159362792968,
+      61.92576025390625,
+      333.44783129882813,
+      82.17072033691406
+    ],
+    "id": "p8-02"
+  },
+  {
+    "page": 8,
+    "label": "Tableau (suite de la page précédente) - Colonne 3",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      333.44783129882813,
+      61.92576025390625,
+      453.01750817871095,
+      82.17072033691406
+    ],
+    "id": "p8-03"
+  },
+  {
+    "page": 8,
+    "label": "Tableau (suite de la page précédente) - Colonne 4",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      453.01750817871095,
+      61.92576025390625,
+      618.0573438720703,
+      82.17072033691406
+    ],
+    "id": "p8-04"
+  },
+  {
+    "page": 8,
+    "label": "Tableau (suite de la page précédente) - Colonne 5",
+    "section": null,
+    "kind": "text",
+    "options": [],
+    "concept": null,
+    "concept_arg": null,
+    "line_ids": [],
+    "value_box": [
+      618.0573438720703,
+      61.92576025390625,
+      758.6780202026367,
+      82.17072033691406
+    ],
+    "id": "p8-05"
+  },
+  {
+    "page": 9,
+    "label": "This declaration is signed in",
+    "section": "Step 4: Certification",
+    "kind": "text",
+    "options": [],
+    "concept": "signature.place",
+    "concept_arg": null,
+    "line_ids": [
+      "L22"
+    ],
+    "value_box": [
+      185.77728076171874,
+      373.02371026611326,
+      337.01904138183596,
+      399.1269495849609
+    ],
+    "id": "p9-01"
+  },
+  {
+    "page": 9,
+    "label": "Date",
+    "section": "Step 4: Certification",
+    "kind": "date",
+    "options": [],
+    "concept": "signature.date",
+    "concept_arg": null,
+    "line_ids": [
+      "L23",
+      "L24",
+      "L25",
+      "L26"
+    ],
+    "value_box": [
+      403.112881652832,
+      373.02371026611326,
+      551.3774422607422,
+      395.75878967285155
+    ],
+    "id": "p9-02"
+  },
+  {
+    "page": 9,
+    "label": "Name & Surname",
+    "section": "Step 4: Certification",
+    "kind": "text",
+    "options": [],
+    "concept": "signatory.name",
+    "concept_arg": null,
+    "line_ids": [
+      "L27"
+    ],
+    "value_box": [
+      142.9056005859375,
+      411.7575492553711,
+      538.8732022094727,
+      433.65058868408204
+    ],
+    "id": "p9-03"
+  },
+  {
+    "page": 9,
+    "label": "Signature",
+    "section": "Step 4: Certification",
+    "kind": "signature",
+    "options": [],
+    "concept": "signature",
+    "concept_arg": null,
+    "line_ids": [
+      "L28"
+    ],
+    "value_box": null,
+    "id": "p9-04"
+  }
+]

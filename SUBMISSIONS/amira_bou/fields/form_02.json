@@ -1,0 +1,637 @@
+{
+  "exercice": "form_02",
+  "source": "vision",
+  "language": "Français",
+  "fields": [
+    {
+      "page": 1,
+      "label": "Dénomination Sociale*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Forme Juridique*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.15,
+        0.4,
+        0.2
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Adresse du siège social*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Code postal*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.25,
+        0.4,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Ville*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Pays*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.35,
+        0.4,
+        0.4
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "N° RCS*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.4,
+        0.4,
+        0.45
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Adresse de l'établissement (si différent du siège social)",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Lieu d'enregistrement*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.5,
+        0.4,
+        0.55
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Autres numéros d'identification*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.55,
+        0.4,
+        0.6
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Code NACE*",
+      "section": "I - IDENTIFICATION DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.6,
+        0.4,
+        0.65
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Pays de résidence fiscale*",
+      "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.7,
+        0.4,
+        0.75
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Numéro d'Identification Fiscale (NIF)*",
+      "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.75,
+        0.4,
+        0.8
+      ],
+      "concept": null
+    },
+    {
+      "page": 1,
+      "label": "Signé le / date",
+      "section": "",
+      "field_type": "signature",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.85,
+        0.4,
+        0.9
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entité Non Financière Active",
+      "section": "A",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+      "section": "A",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.15,
+        0.9,
+        0.2
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Organisme sans but lucratif",
+      "section": "A",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entité Non Financière Passive",
+      "section": "B",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.25,
+        0.9,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Institution financière",
+      "section": "C",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "GIIN",
+      "section": "C",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.35,
+        0.9,
+        0.4
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Statut correspondant",
+      "section": "C",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Résidence fiscale",
+      "section": "C",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.45,
+        0.9,
+        0.5
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Oui",
+      "section": "C",
+      "field_type": "yes_no",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.5,
+        0.15,
+        0.55
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Non",
+      "section": "C",
+      "field_type": "yes_no",
+      "condition": null,
+      "bbox": [
+        0.15,
+        0.5,
+        0.2,
+        0.55
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entités exemptées de la déclaration",
+      "section": "D",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.6
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+      "section": "D",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entité publique",
+      "section": "D",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.65,
+        0.9,
+        0.7
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Organisation internationale",
+      "section": "D",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Banque centrale",
+      "section": "D",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ],
+      "concept": null
+    },
+    {
+      "page": 2,
+      "label": "Entité exclue au sens de la réglementation FATCA et NCD ou DAC",
+      "section": "D",
+      "field_type": "checkbox",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Nom* et Prénom*",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Date de Naissance* (3) et Pays de Naissance*",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.4,
+        0.1,
+        0.7,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Nationalité* (5)",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Adresse complète de Résidence actuelle* (6)",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.15,
+        0.9,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Pays de résidence fiscale*",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.25,
+        0.4,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Numéro d'Identification Fiscale (NIF)*",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.4,
+        0.25,
+        0.7,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "% de détention*",
+      "section": "Bénéficiaires effectifs",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.7,
+        0.25,
+        0.9,
+        0.3
+      ],
+      "concept": null
+    },
+    {
+      "page": 3,
+      "label": "Cadre réservé à la demande de la banque",
+      "section": "",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Fait à *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "le *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.35,
+        0.1,
+        0.5,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Signature *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "signature",
+      "condition": null,
+      "bbox": [
+        0.55,
+        0.1,
+        0.85,
+        0.15
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Représentant légal *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.25
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Nom *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.3,
+        0.3,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Prénom *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.35,
+        0.3,
+        0.55,
+        0.35
+      ],
+      "concept": null
+    },
+    {
+      "page": 4,
+      "label": "Fonction au sein de l’entité cliente *",
+      "section": "IV - DÉCLARATION",
+      "field_type": "text",
+      "condition": null,
+      "bbox": [
+        0.1,
+        0.4,
+        0.6,
+        0.45
+      ],
+      "concept": null
+    }
+  ]
+}

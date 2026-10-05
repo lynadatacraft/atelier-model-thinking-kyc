@@ -1,0 +1,779 @@
+{
+  "exercice": "form_02",
+  "company": "belorive_patrimoine",
+  "as_of": "2026-09-01",
+  "method": "fact_store_lookup",
+  "elapsed_seconds": 3.66,
+  "format_problems": [],
+  "fields": [
+    {
+      "page": 1,
+      "label": "Dénomination Sociale*",
+      "value": "Belorive Patrimoine SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name; sources/companies/sim-hackathon-b-client/mandate.md#/name",
+      "justification": "2 source(s) concordante(s).",
+      "missing": [],
+      "concept": "legal_name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Forme Juridique*",
+      "value": "SAS",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/legal_form",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "legal_form",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.15,
+        0.4,
+        0.2
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Adresse du siège social*",
+      "value": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/address",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "address",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.25
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Code postal*",
+      "value": "69000",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/postcode",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "postcode",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.25,
+        0.4,
+        0.3
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Ville*",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/city",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "city",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.35
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Pays*",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "country",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.35,
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "page": 1,
+      "label": "N° RCS*",
+      "value": "SIM-RCS-B-001",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registration",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "registration",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.4,
+        0.45
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Adresse de l'établissement (si différent du siège social)",
+      "value": null,
+      "state": "not_applicable",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/establishment",
+      "justification": "Pas d'établissement distinct du siège social.",
+      "missing": [],
+      "concept": "establishment",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.45,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Lieu d'enregistrement*",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registry_place",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "registry_place",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.5,
+        0.4,
+        0.55
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Autres numéros d'identification*",
+      "value": "SIM-INTERNAL-B-001",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/other_ids",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "other_ids",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.55,
+        0.4,
+        0.6
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Code NACE*",
+      "value": "68.20",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/nace",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "nace",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.6,
+        0.4,
+        0.65
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Pays de résidence fiscale*",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "tax_residence",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.7,
+        0.4,
+        0.75
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Numéro d'Identification Fiscale (NIF)*",
+      "value": "SIM-TIN-B-FR",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/tin",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "tin",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.75,
+        0.4,
+        0.8
+      ]
+    },
+    {
+      "page": 1,
+      "label": "Signé le / date",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date; sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+      "justification": "Date de complétion de l'exercice au mandat. La signature elle-même n'est pas exécutée.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "signature",
+      "bbox": [
+        0.1,
+        0.85,
+        0.4,
+        0.9
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entité Non Financière Active",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Entité Non Financière Active'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.15
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entité dont la part des revenus passifs représente moins de 50% du total des revenus",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category; sources/companies/sim-hackathon-b-client/tax.md#/passive_income_pct",
+      "justification": "passive_income_pct vs active-NFE option 'Entité dont la part des revenus passifs représente moins de 50% du total des revenus'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.15,
+        0.9,
+        0.2
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Organisme sans but lucratif",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Organisme sans but lucratif'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entité Non Financière Passive",
+      "value": "Oui",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Entité Non Financière Passive'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.25,
+        0.9,
+        0.3
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Institution financière",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Institution financière'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.35
+      ]
+    },
+    {
+      "page": 2,
+      "label": "GIIN",
+      "value": null,
+      "state": "missing_information",
+      "source": null,
+      "justification": "Valeur absente des sources.",
+      "missing": [
+        "GIIN"
+      ],
+      "concept": "other",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.35,
+        0.9,
+        0.4
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Statut correspondant",
+      "value": null,
+      "state": "missing_information",
+      "source": null,
+      "justification": "Valeur absente des sources.",
+      "missing": [
+        "Statut correspondant"
+      ],
+      "concept": "other",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.45
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Résidence fiscale",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "tax_residence",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.45,
+        0.9,
+        0.5
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Oui",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "yes_no",
+      "bbox": [
+        0.1,
+        0.5,
+        0.15,
+        0.55
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Non",
+      "value": null,
+      "state": "not_applicable",
+      "source": null,
+      "justification": "Heading / instruction line — not a data field.",
+      "missing": [],
+      "concept": "instruction",
+      "field_type": "yes_no",
+      "bbox": [
+        0.15,
+        0.5,
+        0.2,
+        0.55
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entités exemptées de la déclaration",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Entités exemptées de la déclaration'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.6
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Société cotée en bourse ou filiale contrôlée par une société cotée en bourse",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/corporate.md#/listed",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "listed",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entité publique",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Entité publique'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.65,
+        0.9,
+        0.7
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Organisation internationale",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Organisation internationale'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.75
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Banque centrale",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Banque centrale'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.75,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "page": 2,
+      "label": "Entité exclue au sens de la réglementation FATCA et NCD ou DAC",
+      "value": "Non",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+      "justification": "tax_category='Passive non-financial entity' vs option 'Entité exclue au sens de la réglementation FATCA et NCD ou DAC'.",
+      "missing": [],
+      "concept": "tax_category",
+      "field_type": "checkbox",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Nom* et Prénom*",
+      "value": "Camille Orvaux",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/name",
+      "justification": "Copied ubo.name for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.15
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Date de Naissance* (3) et Pays de Naissance*",
+      "value": "1980-04-12",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/birth_date",
+      "justification": "Copied ubo.birth_date for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.birth_date",
+      "field_type": "text",
+      "bbox": [
+        0.4,
+        0.1,
+        0.7,
+        0.15
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Nationalité* (5)",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/nationalities",
+      "justification": "Copied ubo.nationality for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.nationality",
+      "field_type": "text",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.15
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Adresse complète de Résidence actuelle* (6)",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/address",
+      "justification": "Copied ubo.address for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.address",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.15,
+        0.9,
+        0.25
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Pays de résidence fiscale*",
+      "value": "France",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/residences",
+      "justification": "Copied ubo.residence_country for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.residence_country",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.25,
+        0.4,
+        0.3
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Numéro d'Identification Fiscale (NIF)*",
+      "value": "SIM-ID-B1",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/id_number",
+      "justification": "Copied ubo.id_number for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.id_number",
+      "field_type": "text",
+      "bbox": [
+        0.4,
+        0.25,
+        0.7,
+        0.3
+      ]
+    },
+    {
+      "page": 3,
+      "label": "% de détention*",
+      "value": 42,
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/votes_pct",
+      "justification": "Copied ubo.ownership_pct for UBO slot 0 (Camille Orvaux).",
+      "missing": [],
+      "concept": "ubo.ownership_pct",
+      "field_type": "text",
+      "bbox": [
+        0.7,
+        0.25,
+        0.9,
+        0.3
+      ]
+    },
+    {
+      "page": 3,
+      "label": "Cadre réservé à la demande de la banque",
+      "value": null,
+      "state": "bank_reserved",
+      "source": null,
+      "justification": "Reserved for the bank.",
+      "missing": [],
+      "concept": "bank_reserved",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.85,
+        0.9,
+        0.95
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Fait à *",
+      "value": "Lyon",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/place",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.place",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.15
+      ]
+    },
+    {
+      "page": 4,
+      "label": "le *",
+      "value": "01/09/2026",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date; sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+      "justification": "Date de complétion de l'exercice au mandat. La signature elle-même n'est pas exécutée.",
+      "missing": [],
+      "concept": "signature.date",
+      "field_type": "text",
+      "bbox": [
+        0.35,
+        0.1,
+        0.5,
+        0.15
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Signature *",
+      "value": null,
+      "state": "human_action",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#(en-tête); sources/companies/sim-hackathon-b-client/mandate.md#/authority",
+      "justification": "Aucune signature exécutée fournie : signature humaine requise.",
+      "missing": [],
+      "concept": "signature",
+      "field_type": "signature",
+      "bbox": [
+        0.55,
+        0.1,
+        0.85,
+        0.15
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Représentant légal *",
+      "value": "Camille Orvaux",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/name",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.name",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.25
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Nom *",
+      "value": "Orvaux",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/surname",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.surname",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.3,
+        0.3,
+        0.35
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Prénom *",
+      "value": "Camille",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/given",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.given",
+      "field_type": "text",
+      "bbox": [
+        0.35,
+        0.3,
+        0.55,
+        0.35
+      ]
+    },
+    {
+      "page": 4,
+      "label": "Fonction au sein de l’entité cliente *",
+      "value": "Présidente",
+      "state": "answer",
+      "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+      "justification": "1 source(s) concordante(s).",
+      "missing": [],
+      "concept": "signatory.role",
+      "field_type": "text",
+      "bbox": [
+        0.1,
+        0.4,
+        0.6,
+        0.45
+      ]
+    }
+  ]
+}
