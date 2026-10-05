@@ -1,0 +1,1578 @@
+{
+  "exercice": "form_04",
+  "entreprise": "Belorive Patrimoine SAS",
+  "questionnaire": "questionnaires/04_belorive_patrimoine.pdf",
+  "langue": "Anglais",
+  "page_size_pt": [
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "mixed",
+      "text": "# La Banque des Entreprises WB Sanctions Questionnaire\n\nLa Banque des Entreprises, its subsidiaries and affiliates (collectively \"La Banque des Entreprises\") are required to comply with applicable sanctions law and regulations¹ imposed by the Netherlands, the European Union, as well as other sanctions authority of each jurisdiction where La Banque des Entreprises has operations, such as for example the United States (\"Sanctions\"). As an La Banque des Entreprises client, you and your branches/offices and subsidiaries are expected to refrain from directing transactions to or through La Banque des Entreprises and otherwise using La Banque des Entreprises products, funds, accounts or services in connection with any transaction or activity, directly or indirectly involving individuals, entities, aircraft or vessels that are the subject of Sanctions (\"Sanctioned Parties\") as well as Sanctioned Jurisdictions (as defined below) or where a transaction or activity would be prohibited for La Banque des Entreprises, and/or would result in a violation of Sanctions by La Banque des Entreprises.\n\nThis questionnaire is one of the means through which La Banque des Entreprises aims to identify the extent of our clients' activities with certain entities, jurisdictions and territories and their direct or indirect engagements with targets of sanctions regimes. We kindly refer you to La Banque des Entreprises's FEC statement published on our website.\n\nClients are required to provide information about their business activities in or with the countries (or regions as the case may be): **Belarus, Crimea, Cuba, Iran, North Korea, Russia, Sudan, Syria, or the illegally annexed regions of Zaporizhzhia, Kherson, Donetsk and Luhansk in Ukraine** (\"Sanctioned Jurisdictions\"²) and Sanctioned Parties. In this questionnaire Sanctioned Parties shall be understood to include any individual, entity, vessel or aircraft that is, or is owned by 50% or more or controlled (irrespective of ownership) by one or more persons that are listed on a Sanctions list or is otherwise target of any Sanctions.\n\nTo enable La Banque des Entreprises to document your sanctions exposure, the Sanctions Questionnaire is requested to be completed by an appropriate and authorised representative of your company. The responses provided should encompass and be fully applicable to and reflective of all subsidiaries, investments, joint-ventures, branches and representative offices, incorporated and/or based anywhere in the world, which are owned, controlled and/or managed by you. For the avoidance of doubt this would include subsidiary / subordinate entities which do not have any relationship with La Banque des Entreprises.\n\nPlease answer all questions of this document and complete the Sanctions Exposure Confirmation at the end of this document.\n\n## Customer Information\n\n| Company name: | Country of Incorporation: |\n|---|---|\n| **La Banque des Entreprises internal use** |\n| Grid: | La Banque des Entreprises booking location(s): |\n| La Banque des Entreprises Relationship Manager: |\n\n## Part 1\n\n| | Questions | Yes | No |\n|---|---|---|---|\n| 1 | Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction? *For the purpose of this Questionnaire, activity includes, but is not limited to:* a. *deriving revenue by selling goods, services to a party in, or otherwise receiving income from a Sanctioned Jurisdiction;* b. *incurring expenses by purchasing goods or services from, or providing humanitarian aid to a party in Sanctioned Jurisdiction;* c. *maintaining assets by physical presence, registration, operations, or investments in a Sanctioned Jurisdiction; or* d. *otherwise interacting or dealing with a Sanctioned Jurisdiction including, without limitation, through transfer, transport, transshipment;* *and in each case including, without limitation, through third parties or agents.* Please select \"Yes\" for any activity, including those activities that are not prohibited by Sanctions, or specifically authorized by a relevant sanctions authority. *If \"Yes\" is selected, please provide further details in Part 2.* |  |  |\n| 2 | Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry? *If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.* |  |  |\n\n¹ Including, without limitation, any type of trade embargoes, export restrictions and sectoral sanctions laws or regulations.\n² Due to the evolving nature Russia/Ukraine sanctions regimes this questionnaire includes Russia, Belarus, and the illegally annexed regions of Ukraine Zaporizhzhia, Kherson, Donetsk and Luhansk in the definition of \"Sanctioned Jurisdictions\" and requires the information on activities in these countries and territories.\n\n1 | Page",
+      "fields": [
+        {
+          "section": "Customer Information",
+          "label": "Company name:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            393,
+            318,
+            412
+          ]
+        },
+        {
+          "section": "Customer Information",
+          "label": "Country of Incorporation:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            480,
+            393,
+            950,
+            412
+          ]
+        },
+        {
+          "section": "La Banque des Entreprises internal use",
+          "label": "Grid:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": true,
+          "answer_bbox": [
+            80,
+            433,
+            318,
+            450
+          ]
+        },
+        {
+          "section": "La Banque des Entreprises internal use",
+          "label": "La Banque des Entreprises booking location(s):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": true,
+          "answer_bbox": [
+            600,
+            433,
+            950,
+            450
+          ]
+        },
+        {
+          "section": "La Banque des Entreprises internal use",
+          "label": "La Banque des Entreprises Relationship Manager:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": true,
+          "answer_bbox": [
+            400,
+            455,
+            950,
+            472
+          ]
+        },
+        {
+          "section": "Part 1",
+          "label": "1 Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                790,
+                515,
+                865,
+                740
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                870,
+                515,
+                945,
+                740
+              ]
+            }
+          ],
+          "instructions": "If \"Yes\" is selected, please provide further details in Part 2.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            790,
+            515,
+            945,
+            740
+          ]
+        },
+        {
+          "section": "Part 1",
+          "label": "2 Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                790,
+                745,
+                865,
+                855
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                870,
+                745,
+                945,
+                855
+              ]
+            }
+          ],
+          "instructions": "If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            790,
+            745,
+            945,
+            855
+          ]
+        },
+        {
+          "section": "Part 1",
+          "label": "If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.",
+          "field_type": "text",
+          "options": [],
+          "instructions": "if question 2 answered Yes",
+          "bank_reserved": false,
+          "answer_bbox": [
+            115,
+            855,
+            780,
+            878
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "model": "dots-studio/dots-3-note-preview:free",
+      "page_type": "form",
+      "text": "3\nDo you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?\nIf “Yes” is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)\n\n4\nDo you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?\nIf “Yes” is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises’s involvement).\n\n5\nDo you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) Government of any of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?\nIf “Yes” is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.\nIf “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is isolated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities. Further, in case you, your branches/offices, subsidiaries, joint ventures conduct business activity with a Sanctioned Party or Sanctioned Government, but do not use any La Banque des Entreprises accounts/products/services for this, please indicate the name of the Sanctioned Party or Government, the sanctions program under which such party is listed and the percentages of revenue accumulated through the activity at group level and at entity level.\n(For Sanctioned Jurisdictions please provide the same information in Part 2 below)\n\n6\nDo you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either:\na. a Sanctioned Party\nb. located, organized, registered in, or operating from a Sanctioned Jurisdiction\nc. employed in a Sanctioned Jurisdiction, or\nd. who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?\nIf “Yes” is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.\n\n2 | Page",
+      "fields": [
+        {
+          "section": "Question 3",
+          "label": "Do you or any of your branches/offices, subsidiaries or joint ventures rely on an authorization or license from a sanctions/regulatory authority to conduct any activity with or involving a Sanctioned Party, Sanctioned Jurisdiction or involving goods or services in scope of export controls?",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If “Yes” is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            110,
+            180,
+            780,
+            260
+          ]
+        },
+        {
+          "section": "Question 4",
+          "label": "Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving the government of Afghanistan, Lebanon, Myanmar, Venezuela or Zimbabwe or any entity which is more than 50% owned or controlled by such government (collectively “Government”)?",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If “Yes” is selected, please provide further details on the activity (including, without limitation, the name of the government/government owned/controlled entity, activities, legal obligations or exposures to any of these governments/government owned/controlled entities, including via third parties such as customers, representatives, distributors, brokers, agents and the extent of La Banque des Entreprises’s involvement).",
+          "bank_reserved": false,
+          "answer_bbox": [
+            110,
+            360,
+            780,
+            440
+          ]
+        },
+        {
+          "section": "Question 5",
+          "label": "Do you intend to use or make available to your branches/offices, subsidiaries, joint ventures or any other third person, any La Banque des Entreprises accounts, products (including any partial usage of loans), services, systems, or platforms, directly or indirectly, to conduct any activity with or involving a (i) Sanctioned Party, (ii) Sanctioned Jurisdiction or (iii) Government of any of any country as listed in Question 4 (including any activities that are specifically authorized or not prohibited)?",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If “Yes” is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used. If “No” is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is isolated from any activity involving the Sanctioned Party, Sanctioned Jurisdiction, or Government, and is not involved, directly or indirectly, in any such activities. Further, in case you, your branches/offices, subsidiaries, joint ventures conduct business activity with a Sanctioned Party or Sanctioned Government, but do not use any La Banque des Entreprises accounts/products/services for this, please indicate the name of the Sanctioned Party or Government, the sanctions program under which such party is listed and the percentages of revenue accumulated through the activity at group level and at entity level. (For Sanctioned Jurisdictions please provide the same information in Part 2 below)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            110,
+            670,
+            780,
+            750
+          ]
+        },
+        {
+          "section": "Question 6",
+          "label": "Do you or any of your branches/offices or subsidiaries have a director, senior officer, shareholder, or are you or your branches/offices, subsidiaries or joint ventures controlled by a person or entity, who is either: a. a Sanctioned Party b. located, organized, registered in, or operating from a Sanctioned Jurisdiction c. employed in a Sanctioned Jurisdiction, or d. who represents a governmental agency or authority of a Sanctioned Jurisdiction or of any country as listed in Question 4?",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If “Yes” is selected, please provide the names of entities within your group which are involved in the above listed activities and provide additional detail on the activity below, including, in case of a shareholding, the percentage of ownership by such party.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            110,
+            900,
+            780,
+            905
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "If \"Yes\" was selected for any question above, then please answer question 7 below:\n\n7 Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?\n\n*If \"Yes\" is selected please provide further details of the policy and/or program below, including an overview of sanctions programs that you comply with (EU, UN, US, UK etc.) and whether the program includes a periodical assessment or audit.*\n\n*If \"No\" is selected – please provide further details on how you manage compliance with Sanctions otherwise, including without limitation details on screening and due diligence of clients, business partners and transactions on the potential involvement of sanctioned parties, jurisdictions and goods.*\n\n# Part 2\n\nIf \"Yes\" to question 1 of Part 1 is selected, please describe in detail any direct or indirect activity in or with Sanctioned Jurisdictions in Columns 1, 2 and/or 3 in the table below, as applicable.\nFor the avoidance of doubt, please also do so with respect to activities involving Sanctioned Jurisdictions that are not prohibited by Sanctions, or that are specifically authorized by a relevant sanctions authority.\n\nIf \"Yes\" is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.\n\nIn respect of each activity, please include in Columns 1, 2 and/or 3 (as the case may be): a) The percentage of revenue, assets or expenses from the Sanctioned Jurisdiction at group level b) A detailed description of the nature of the activity, legal obligations and exposures to the relevant Sanctioned Jurisdiction c) Third parties, such as customers, representatives, distributors, brokers, agents involved in the relevant activity d) The extent of La Banque des Entreprises's involvement in the activity. If La Banque des Entreprises is not involved, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity involving the Sanctioned Jurisdiction, and is not involved, directly or indirectly, in any such activities.\n\nIf any of the Column 1, 2 or 3 is completed, please include in **Column 4** the name or names of the legal entities involved in the activity and the percentage of exposure at entity level.\n\n| Sanctioned Jurisdiction | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n|  | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4. | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4. | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4 | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level. |\n| Belarus | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Crimea | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n\n3 \\| Page",
+      "fields": [
+        {
+          "section": "Previous section (continued)",
+          "label": "",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            115,
+            55,
+            780,
+            140
+          ]
+        },
+        {
+          "section": "Question 7",
+          "label": "Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?",
+          "field_type": "text",
+          "options": [],
+          "instructions": "If \"Yes\" is selected please provide further details of the policy and/or program below, including an overview of sanctions programs that you comply with (EU, UN, US, UK etc.) and whether the program includes a periodical assessment or audit. If \"No\" is selected – please provide further details on how you manage compliance with Sanctions otherwise, including without limitation details on screening and due diligence of clients, business partners and transactions on the potential involvement of sanctioned parties, jurisdictions and goods.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            115,
+            320,
+            780,
+            415
+          ]
+        },
+        {
+          "section": "Part 2",
+          "label": "Sanctioned Jurisdiction",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4. | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4. | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4 | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            50,
+            860,
+            950,
+            970
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "| Cuba | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Iran | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| North Korea | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Russia | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Sudan | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Syria | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Zaporizhzhia | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Kherson | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Donetsk | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Luhansk | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n\n**Sanctions Exposure Confirmation**\n\nThe submitter attests that they have completed this form to the best of their knowledge and they have the requisite authority to complete this questionnaire on behalf of the Company and all its subsidiaries, investments, joint-ventures, branches and representative offices, incorporated and/or based anywhere in the world, including for the avoidance of doubt any subsidiary / subordinate entities which do not have any relationship with La Banque des Entreprises.\n\n| Name of submitter |  |\n| Name of company (including corp. suffix) |  |\n| Position within company |  |\n| Date | *[DD -MM -YYYY]* |\n\n4 | Page",
+      "fields": [
+        {
+          "section": "Sanctions Exposure",
+          "label": "Cuba",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                41,
+                363,
+                53
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                53,
+                363,
+                65
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                65,
+                363,
+                77
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                77,
+                363,
+                90
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                41,
+                542,
+                53
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                53,
+                542,
+                65
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                65,
+                542,
+                77
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                77,
+                542,
+                90
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                41,
+                728,
+                53
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                53,
+                728,
+                65
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                65,
+                728,
+                77
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                77,
+                728,
+                90
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            41,
+            728,
+            90
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Iran",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                92,
+                363,
+                104
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                104,
+                363,
+                116
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                116,
+                363,
+                128
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                128,
+                363,
+                141
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                92,
+                542,
+                104
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                104,
+                542,
+                116
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                116,
+                542,
+                128
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                128,
+                542,
+                141
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                92,
+                728,
+                104
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                104,
+                728,
+                116
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                116,
+                728,
+                128
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                128,
+                728,
+                141
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            92,
+            728,
+            141
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "North Korea",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                144,
+                363,
+                156
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                156,
+                363,
+                168
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                168,
+                363,
+                180
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                180,
+                363,
+                193
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                144,
+                542,
+                156
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                156,
+                542,
+                168
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                168,
+                542,
+                180
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                180,
+                542,
+                193
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                144,
+                728,
+                156
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                156,
+                728,
+                168
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                168,
+                728,
+                180
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                180,
+                728,
+                193
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            144,
+            728,
+            193
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Russia",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                195,
+                363,
+                207
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                207,
+                363,
+                219
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                219,
+                363,
+                231
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                231,
+                363,
+                244
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                195,
+                542,
+                207
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                207,
+                542,
+                219
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                219,
+                542,
+                231
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                231,
+                542,
+                244
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                195,
+                728,
+                207
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                207,
+                728,
+                219
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                219,
+                728,
+                231
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                231,
+                728,
+                244
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            195,
+            728,
+            244
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Sudan",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                246,
+                363,
+                258
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                258,
+                363,
+                270
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                270,
+                363,
+                282
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                282,
+                363,
+                295
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                246,
+                542,
+                258
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                258,
+                542,
+                270
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                270,
+                542,
+                282
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                282,
+                542,
+                295
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                246,
+                728,
+                258
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                258,
+                728,
+                270
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                270,
+                728,
+                282
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                282,
+                728,
+                295
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            246,
+            728,
+            295
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Syria",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                297,
+                363,
+                309
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                309,
+                363,
+                321
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                321,
+                363,
+                333
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                333,
+                363,
+                347
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                297,
+                542,
+                309
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                309,
+                542,
+                321
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                321,
+                542,
+                333
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                333,
+                542,
+                347
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                297,
+                728,
+                309
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                309,
+                728,
+                321
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                321,
+                728,
+                333
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                333,
+                728,
+                347
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            297,
+            728,
+            347
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Zaporizhzhia",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                349,
+                363,
+                361
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                361,
+                363,
+                373
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                373,
+                363,
+                385
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                385,
+                363,
+                398
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                349,
+                542,
+                361
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                361,
+                542,
+                373
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                373,
+                542,
+                385
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                385,
+                542,
+                398
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                349,
+                728,
+                361
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                361,
+                728,
+                373
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                373,
+                728,
+                385
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                385,
+                728,
+                398
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            349,
+            728,
+            398
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Kherson",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                400,
+                363,
+                412
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                412,
+                363,
+                424
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                424,
+                363,
+                436
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                436,
+                363,
+                449
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                400,
+                542,
+                412
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                412,
+                542,
+                424
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                424,
+                542,
+                436
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                436,
+                542,
+                449
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                400,
+                728,
+                412
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                412,
+                728,
+                424
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                424,
+                728,
+                436
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                436,
+                728,
+                449
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            400,
+            728,
+            449
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Donetsk",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                450,
+                363,
+                462
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                462,
+                363,
+                474
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                474,
+                363,
+                487
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                487,
+                363,
+                500
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                450,
+                542,
+                462
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                462,
+                542,
+                474
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                474,
+                542,
+                487
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                487,
+                542,
+                500
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                450,
+                728,
+                462
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                462,
+                728,
+                474
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                474,
+                728,
+                487
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                487,
+                728,
+                500
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            450,
+            728,
+            500
+          ]
+        },
+        {
+          "section": "Sanctions Exposure",
+          "label": "Luhansk",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "a).",
+              "box_bbox": [
+                187,
+                503,
+                363,
+                515
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                187,
+                515,
+                363,
+                527
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                187,
+                527,
+                363,
+                539
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                187,
+                539,
+                363,
+                552
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                363,
+                503,
+                542,
+                515
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                363,
+                515,
+                542,
+                527
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                363,
+                527,
+                542,
+                539
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                363,
+                539,
+                542,
+                552
+              ]
+            },
+            {
+              "label": "a).",
+              "box_bbox": [
+                542,
+                503,
+                728,
+                515
+              ]
+            },
+            {
+              "label": "b).",
+              "box_bbox": [
+                542,
+                515,
+                728,
+                527
+              ]
+            },
+            {
+              "label": "c).",
+              "box_bbox": [
+                542,
+                527,
+                728,
+                539
+              ]
+            },
+            {
+              "label": "d).",
+              "box_bbox": [
+                542,
+                539,
+                728,
+                552
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            187,
+            503,
+            728,
+            552
+          ]
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Name of submitter",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            594,
+            957,
+            603
+          ]
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Name of company (including corp. suffix)",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            604,
+            957,
+            616
+          ]
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Position within company",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            616,
+            957,
+            625
+          ]
+        },
+        {
+          "section": "Sanctions Exposure Confirmation",
+          "label": "Date",
+          "field_type": "date",
+          "options": [],
+          "instructions": "[DD -MM -YYYY]",
+          "bank_reserved": false,
+          "answer_bbox": [
+            320,
+            626,
+            957,
+            644
+          ]
+        }
+      ]
+    }
+  ]
+}

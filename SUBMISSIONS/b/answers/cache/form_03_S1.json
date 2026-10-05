@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "provider": "ModelRun",
+  "reasoning_effort": "medium",
+  "seconds": 74.9,
+  "tokens": {
+    "prompt": 9844,
+    "completion": 4672,
+    "reasoning": 2477,
+    "total": 14516
+  },
+  "answers": [
+    {
+      "id": "p2-0",
+      "value": "Cendrelis Instruments SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/name"
+        }
+      ],
+      "justification": "The corporate register extract states the legal name as 'Cendrelis Instruments SAS'.",
+      "missing": []
+    },
+    {
+      "id": "p2-1",
+      "value": "SIM-TIN-C-FR",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/tin"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/tax.md",
+          "pointer": "/tax_residences/0/tin"
+        }
+      ],
+      "justification": "The corporate register and tax memorandum both record the French TIN as SIM-TIN-C-FR.",
+      "missing": []
+    },
+    {
+      "id": "p2-2",
+      "value": null,
+      "state": "missing_information",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/lei"
+        }
+      ],
+      "justification": "The corporate register explicitly records lei as null; the documented gap confirms the LEI is unknown or absent in the authored context.",
+      "missing": [
+        "LEI"
+      ]
+    },
+    {
+      "id": "p2-3",
+      "value": "26.51",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/nace"
+        }
+      ],
+      "justification": "The corporate register stipulates the NACE code as 26.51.",
+      "missing": []
+    },
+    {
+      "id": "p2-4",
+      "value": "None of the indicated below",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/entity_category"
+        }
+      ],
+      "justification": "The corporate register states entity_category as 'None', which corresponds to the option 'None of the indicated below'. The company is a manufacturer of measurement instruments, not a financial, gambling, holding, SPV, VASP or other listed type.",
+      "missing": []
+    },
+    {
+      "id": "p2-5",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/tax.md",
+          "pointer": "/tax_category"
+        }
+      ],
+      "justification": "The condition states this field is only for financial entities. The tax memorandum classifies the entity as an 'Active non-financial entity', so the condition is not triggered.",
+      "missing": []
+    },
+    {
+      "id": "p2-6",
+      "value": "Company is not supervised by a regulatory authority",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/tax.md",
+          "pointer": "/unsupervised"
+        }
+      ],
+      "justification": "The tax memorandum explicitly states unsupervised: true and supervisor: null, confirming the company is not supervised by a regulatory authority.",
+      "missing": []
+    },
+    {
+      "id": "p2-7",
+      "value": [
+        "Own activity",
+        "Investors"
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/funds"
+        }
+      ],
+      "justification": "The corporate register lists funds as ['Own activity', 'Investors']. The source_of_funds_description confirms 'Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.'",
+      "missing": []
+    },
+    {
+      "id": "p2-8",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "The condition states this field is only required if 'Others*' is ticked as a source of funds. Only 'Own activity' and 'Investors' are ticked, so the condition is not triggered.",
+      "missing": []
+    },
+    {
+      "id": "p3-0",
+      "value": "No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/bearer"
+        }
+      ],
+      "justification": "The corporate register explicitly states bearer: false, meaning the corporation cannot issue bearer shares.",
+      "missing": []
+    },
+    {
+      "id": "p6-0",
+      "value": [
+        {
+          "Name & Surname": "Nora Avelune",
+          "Date of birth": "1980-04-12",
+          "Nationality": "France",
+          "Country (ies) of Residence": "France",
+          "Passport or national ID card number": "SIM-ID-C1"
+        },
+        {
+          "Name & Surname": "Alex Fernel",
+          "Date of birth": "1985-08-23",
+          "Nationality": "France",
+          "Country (ies) of Residence": "France",
+          "Passport or national ID card number": null
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/representatives/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/representatives/1"
+        },
+        {
+          "doc": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+          "pointer": "/id_number"
+        }
+      ],
+      "justification": "The board mandate lists exactly two authorized representatives: Nora Avelune (C1) and Alex Fernel (CR). The mandate states 'Only the listed representatives hold the relevant authority.' Alex Fernel's ID number is explicitly null with reason 'Identity document renewal pending; number not supplied as of 2026-09-01.' No further representatives are documented.",
+      "missing": [
+        "Alex Fernel – Passport or national ID card number (identity document renewal pending as of 2026-09-01)"
+      ]
+    },
+    {
+      "id": "p7-0",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/representatives"
+        }
+      ],
+      "justification": "The board mandate lists only two representatives, both captured in the first table (p6-0). There are no additional representatives to fill in this second identical table.",
+      "missing": []
+    },
+    {
+      "id": "p8-0",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/representatives"
+        }
+      ],
+      "justification": "No additional representative rows extend beyond the two already recorded in p6-0. The continuation row on page 8 has no data to fill.",
+      "missing": []
+    },
+    {
+      "id": "p9-0",
+      "value": "Lyon",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/place"
+        }
+      ],
+      "justification": "The mandate document records the place as 'Lyon'. Per the exercise rules, the place next to the signature block is the fixed exercise completion place of the mandate document.",
+      "missing": []
+    },
+    {
+      "id": "p9-1",
+      "value": "09/01/2026",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/date"
+        }
+      ],
+      "justification": "The mandate document records the date as '01/09/2026' (French format: 1 September 2026). In US order (Month/Day/Year) this is 09/01/2026. Per the exercise rules, this is the fixed exercise completion date of the mandate document.",
+      "missing": []
+    },
+    {
+      "id": "p9-2",
+      "value": "Nora Avelune",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/signer/name"
+        }
+      ],
+      "justification": "The mandate document identifies the signer as Nora Avelune, role 'Présidente'. No signature is executed; this is the named signatory of the mandate.",
+      "missing": []
+    }
+  ]
+}

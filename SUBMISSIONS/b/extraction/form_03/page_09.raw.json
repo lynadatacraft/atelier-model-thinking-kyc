@@ -1,0 +1,28 @@
+{
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "seconds": 14.7,
+  "usage": {
+    "prompt_tokens": 2616,
+    "completion_tokens": 489,
+    "total_tokens": 3105,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 504,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "raw": "So, let's look at the form fields. The fields are:\n\n1. \"This declaration is signed in\" – the text box next to it. Field type is text.\n2. \"Date\" – with Month, Day, Year. So this is a date field.\n3. \"Name & Surname\" – text box.\n4. \"Signature\" – signature field.\n\nWait, let's check each:\n\n- \"This declaration is signed in\" has a text box. So section: the line before, label is \"This declaration is signed in\", field_type text, answer_bbox is the blue rectangle.\n- \"Date\" – the label is \"Date\", field_type date (since it's Month, Day, Year boxes).\n- \"Name & Surname\" – label, field_type text.\n- \"Signature\" – label, field_type signature.\n\nNow, check the fields:\n\nFirst field: \"This declaration is signed in\" – the text box. So section: maybe the line \"This declaration is signed in\" is the label. Wait, the label is \"This declaration is signed in\", then the field is the blue rectangle. So field_type text.\n\nSecond: \"Date\" – the label is \"Date\", field_type date. The date has Month, Day, Year. So the answer_bbox would be the three boxes, but since it's a date field, the type is date.\n\nThird: \"Name & Surname\" – label, field_type text.\n\nFourth: <unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><ref>We need to list all fields. Let's list each:\n\n1. \"This declaration is signed in\" → field_label: \"This declaration is signed in\", field_type: text (since it's a text box)\n   - Date: \"Date\" with Month, Day, Year → date type\n   - Name & Surname → text\n   - Signature → signature (probably a signature line, but the type is signature)\n\nNow, check each field:\n\n1. First field: \"This declaration is signed<unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk>"
+}

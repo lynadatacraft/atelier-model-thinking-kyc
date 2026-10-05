@@ -1,0 +1,1354 @@
+{
+ "4": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     222,
+     284,
+     902,
+     304
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     218,
+     308,
+     503,
+     328
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     612,
+     308,
+     902,
+     328
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     184,
+     332,
+     503,
+     353
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     578,
+     332,
+     902,
+     353
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     231,
+     357,
+     503,
+     375
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 6,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     719,
+     357,
+     902,
+     375
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 7,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     231,
+     379,
+     902,
+     398
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 8,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 1",
+    "answer_bbox": [
+     402,
+     402,
+     902,
+     423
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 9,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     222,
+     427,
+     902,
+     447
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 10,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     218,
+     451,
+     503,
+     471
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 11,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     612,
+     451,
+     902,
+     471
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 12,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     184,
+     475,
+     503,
+     495
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 13,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     578,
+     475,
+     902,
+     495
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 14,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     231,
+     499,
+     503,
+     517
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 15,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     719,
+     499,
+     902,
+     517
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 16,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     231,
+     521,
+     902,
+     541
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 17,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 2",
+    "answer_bbox": [
+     402,
+     545,
+     902,
+     565
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 18,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     222,
+     569,
+     902,
+     589
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 19,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     218,
+     593,
+     503,
+     613
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 20,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     612,
+     593,
+     902,
+     613
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 21,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     184,
+     617,
+     503,
+     637
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 22,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     578,
+     617,
+     902,
+     637
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 23,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     231,
+     641,
+     503,
+     659
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 24,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     719,
+     641,
+     902,
+     659
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 25,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     231,
+     663,
+     902,
+     683
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  },
+  {
+   "op": "set",
+   "i": 26,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 3",
+    "answer_bbox": [
+     402,
+     687,
+     902,
+     707
+    ]
+   },
+   "why": "dots-3 zones started at the left table edge, on top of the printed label; moved right of the label (row heights were exact)."
+  }
+ ],
+ "5": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     222,
+     212,
+     902,
+     232
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     218,
+     236,
+     503,
+     256
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     612,
+     236,
+     902,
+     256
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     184,
+     260,
+     503,
+     280
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     578,
+     260,
+     902,
+     280
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     231,
+     284,
+     503,
+     302
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 6,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     719,
+     284,
+     902,
+     302
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 7,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     231,
+     306,
+     902,
+     326
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 8,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 4",
+    "answer_bbox": [
+     402,
+     330,
+     902,
+     350
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 9,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     222,
+     354,
+     902,
+     374
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 10,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     218,
+     378,
+     503,
+     398
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 11,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     612,
+     378,
+     902,
+     398
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 12,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     184,
+     402,
+     503,
+     422
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 13,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     578,
+     402,
+     902,
+     422
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 14,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     231,
+     426,
+     503,
+     444
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 15,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     719,
+     426,
+     902,
+     444
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 16,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     231,
+     448,
+     902,
+     469
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 17,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 5",
+    "answer_bbox": [
+     402,
+     473,
+     902,
+     492
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 18,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     222,
+     496,
+     902,
+     517
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 19,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     218,
+     521,
+     503,
+     540
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 20,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     612,
+     521,
+     902,
+     540
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 21,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     184,
+     544,
+     503,
+     564
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 22,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     578,
+     544,
+     902,
+     564
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 23,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     231,
+     568,
+     503,
+     587
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 24,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     719,
+     568,
+     902,
+     587
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 25,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     231,
+     591,
+     902,
+     611
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 26,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 6",
+    "answer_bbox": [
+     402,
+     615,
+     902,
+     635
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 27,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     222,
+     639,
+     902,
+     659
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 28,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     218,
+     663,
+     503,
+     683
+    ],
+    "instructions": "(1) Type of control: A = natural person owning directly or indirectly more than 25% of the shares or of the voting rights; B = natural person controlling by other means (e.g. right to appoint/remove most of the board, significant influence); C = if no person found under A or B, the legal representative(s) of the company."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 29,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     612,
+     663,
+     902,
+     683
+    ],
+    "instructions": "(2) Only if Type of control = A: specify the ownership %."
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 30,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     184,
+     687,
+     503,
+     707
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 31,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     578,
+     687,
+     902,
+     707
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 32,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     231,
+     711,
+     503,
+     729
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 33,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     719,
+     711,
+     902,
+     729
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 34,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     231,
+     733,
+     902,
+     753
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  },
+  {
+   "op": "set",
+   "i": 35,
+   "set": {
+    "section": "Step 3: Controlling Persons / Person 7",
+    "answer_bbox": [
+     402,
+     757,
+     902,
+     777
+    ]
+   },
+   "why": "qwen zones drifted 10-20/1000 below the real rows (worse further down); snapped to the measured table lines."
+  }
+ ],
+ "2": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "answer_bbox": [
+     199,
+     196,
+     912,
+     216
+    ]
+   },
+   "why": "nemotron zone was in the page title band (y 106); moved to the measured blue input cell."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "answer_bbox": [
+     352,
+     223,
+     915,
+     248
+    ],
+    "instructions": ""
+   },
+   "why": "Zone misplaced (y 140); moved to the blue cell. '(Optional)' is printed above LEI, not for the TIN."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "answer_bbox": [
+     150,
+     251,
+     915,
+     274
+    ]
+   },
+   "why": "Zone misplaced (y 175); moved to the blue cell."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "answer_bbox": [
+     350,
+     325,
+     462,
+     346
+    ]
+   },
+   "why": "Zone misplaced (y 209); moved to the blue cell."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "label": "Entity's Type",
+    "instructions": "Read the Annex for the meaning of each type.",
+    "answer_bbox": [
+     120,
+     400,
+     700,
+     685
+    ],
+    "options": [
+     {
+      "label": "None of the indicated below",
+      "box_bbox": [
+       122,
+       409,
+       135,
+       418
+      ]
+     },
+     {
+      "label": "Money transmitters, currency trading and similar entities",
+      "box_bbox": [
+       122,
+       438,
+       135,
+       447
+      ]
+     },
+     {
+      "label": "On-line gambling and casinos",
+      "box_bbox": [
+       122,
+       468,
+       135,
+       476
+      ]
+     },
+     {
+      "label": "Mere Asset Holding Companies (EMTAs)",
+      "box_bbox": [
+       122,
+       497,
+       135,
+       505
+      ]
+     },
+     {
+      "label": "Holding entities",
+      "box_bbox": [
+       122,
+       526,
+       135,
+       534
+      ]
+     },
+     {
+      "label": "Crowdfunding",
+      "box_bbox": [
+       122,
+       556,
+       135,
+       564
+      ]
+     },
+     {
+      "label": "Non-Financial Asset Manager",
+      "box_bbox": [
+       122,
+       585,
+       135,
+       593
+      ]
+     },
+     {
+      "label": "Cannabis Business",
+      "box_bbox": [
+       122,
+       614,
+       135,
+       623
+      ]
+     },
+     {
+      "label": "Special Purpose Vehicle (SPV)",
+      "box_bbox": [
+       122,
+       644,
+       135,
+       652
+      ]
+     },
+     {
+      "label": "Virtual asset service provider (VASP)",
+      "box_bbox": [
+       122,
+       673,
+       135,
+       681
+      ]
+     }
+    ]
+   },
+   "why": "nemotron split one question into 10 checkbox fields with no option boxes and zones in the wrong place; merged into one 'Entity's Type' field with the 10 detected squares."
+  },
+  {
+   "op": "del",
+   "i": 5,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 6,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 7,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 8,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 9,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 10,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 11,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 12,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "del",
+   "i": 13,
+   "why": "Merged into the single 'Entity's Type' field."
+  },
+  {
+   "op": "set",
+   "i": 14,
+   "set": {
+    "section": "Step 2: Business activity and regulatory authorities / Responsible Financial Supervisory Authority",
+    "answer_bbox": [
+     301,
+     751,
+     890,
+     779
+    ],
+    "instructions": "Only to be informed in the case of financial entities."
+   },
+   "why": "Zone misplaced (y 235, in Step 1); moved to the blue cell. Condition 'only for financial entities' was missing."
+  },
+  {
+   "op": "set",
+   "i": 15,
+   "set": {
+    "section": "Step 2: Business activity and regulatory authorities / Responsible Financial Supervisory Authority",
+    "answer_bbox": [
+     130,
+     800,
+     610,
+     820
+    ],
+    "options": [
+     {
+      "label": "Company is not supervised by a regulatory authority",
+      "box_bbox": [
+       593,
+       806,
+       605,
+       814
+      ]
+     }
+    ]
+   },
+   "why": "Checkbox had no option box and its zone was in Step 1; set to the detected square."
+  },
+  {
+   "op": "set",
+   "i": 16,
+   "set": {
+    "label": "Please indicate the source of funds",
+    "answer_bbox": [
+     85,
+     870,
+     650,
+     900
+    ],
+    "options": [
+     {
+      "label": "Own activity",
+      "box_bbox": [
+       193,
+       881,
+       204,
+       889
+      ]
+     },
+     {
+      "label": "Investors",
+      "box_bbox": [
+       352,
+       881,
+       363,
+       889
+      ]
+     },
+     {
+      "label": "Deposits",
+      "box_bbox": [
+       498,
+       881,
+       508,
+       889
+      ]
+     },
+     {
+      "label": "Others*",
+      "box_bbox": [
+       629,
+       881,
+       640,
+       889
+      ]
+     }
+    ]
+   },
+   "why": "nemotron split one question into 4 checkbox fields with misplaced zones; merged into one field with the 4 detected squares."
+  },
+  {
+   "op": "del",
+   "i": 17,
+   "why": "Merged into the single 'source of funds' field."
+  },
+  {
+   "op": "del",
+   "i": 18,
+   "why": "Merged into the single 'source of funds' field."
+  },
+  {
+   "op": "del",
+   "i": 19,
+   "why": "Merged into the single 'source of funds' field."
+  },
+  {
+   "op": "set",
+   "i": 20,
+   "set": {
+    "label": "Others* - Please explain",
+    "answer_bbox": [
+     234,
+     904,
+     824,
+     932
+    ],
+    "instructions": "Only if 'Others*' is ticked as source of funds. *Please explain: (label printed at the top of page 3)"
+   },
+   "why": "Zone misplaced (y 540); moved to the blue cell under the source-of-funds row. Its label '*Please explain:' is printed at the top of page 3."
+  },
+  {
+   "op": "page",
+   "set": {
+    "text": "La Banque des Entreprises - CUSTOMER INFORMATION FORM\n\nStep 1: Entity Identification\n\nLegal Name\nTax Identification Number\n(Optional) LEI\n\nStep 2: Business activity and regulatory authorities\n\nNACE Code of the company:\nEntity's Type:\n(Read carefully the instructions in the Annex to have a clear understanding about the meaning of certain types)\n\nNone of the indicated below\nMoney transmitters, currency trading and similar entities\nOn-line gambling and casinos\nMere Asset Holding Companies (EMTAs)\nHolding entities\nCrowdfunding\nNon-Financial Asset Manager\nCannabis Business\nSpecial Purpose Vehicle (SPV)\nVirtual asset service provider (VASP)\n\nResponsible Financial Supervisory Authority:\n(Only to be informed in the case of financial entities)\nName of authority\nCompany is not supervised by a regulatory authority\n\nPlease indicate the source of funds:\nOwn activity\nInvestors\nDeposits\nOthers*\n\nKnow Your Customer\n2"
+   },
+   "why": "'(Optional)' is printed above LEI, not after the Tax Identification Number."
+  }
+ ],
+ "3": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Step 2: Business activity and regulatory authorities",
+    "instructions": "",
+    "answer_bbox": [
+     500,
+     132,
+     640,
+     152
+    ]
+   },
+   "why": "qwen attached '*Please explain:' to this question; that line belongs to the 'Others*' source of funds on page 2 (footnote marker *). Section was empty."
+  },
+  {
+   "op": "page",
+   "set": {},
+   "why": "'*Please explain:' at the top of this page is the label of the 'Others*' box at the bottom of page 2."
+  }
+ ],
+ "6": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "answer_bbox": [
+     72,
+     352,
+     893,
+     855
+    ],
+    "instructions": "5 person rows (3 sub-lines for country/passport). Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2). (1) Provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list. (2) If the representative's details are already given in Step 3, only Name & Surname is required."
+   },
+   "why": "Zone included the header row; set to the 5 empty person rows. Footnotes (1)/(2) printed on page 7 were missing."
+  }
+ ],
+ "7": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "label": "Details of Authorized Representatives",
+    "instructions": "Same table printed a second time (page 6 has an identical one). Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2). (1) Provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list. (2) If the representative's details are already given in Step 3, only Name & Surname is required. Last row continues on page 8."
+   },
+   "why": "Model did not notice this table repeats page 6 and continues on page 8."
+  }
+ ],
+ "8": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Step 4: Details of Authorized Representatives",
+    "label": "Details of Authorized Representatives (continued)",
+    "instructions": "Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2). (1) Provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list. (2) If the representative's details are already given in Step 3, only Name & Surname is required."
+   },
+   "why": "Empty label and section; this row is the end of the page 7 table."
+  }
+ ],
+ "9": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "answer_bbox": [
+     309,
+     444,
+     558,
+     474
+    ]
+   },
+   "why": "Snapped to the measured blue cell."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "answer_bbox": [
+     671,
+     444,
+     914,
+     470
+    ],
+    "instructions": "Three boxes in US order: Month | Day | Year."
+   },
+   "why": "Model listed the sub-labels but not that the order is month-first (risk of writing DD/MM)."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "answer_bbox": [
+     236,
+     489,
+     896,
+     517
+    ]
+   },
+   "why": "Snapped to the measured blue cell."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "answer_bbox": [
+     160,
+     525,
+     900,
+     640
+    ]
+   },
+   "why": "Zone started on the printed word 'Signature'; moved to the free space beside and below it."
+  }
+ ]
+}

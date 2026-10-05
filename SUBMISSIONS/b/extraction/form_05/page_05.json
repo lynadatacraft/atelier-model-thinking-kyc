@@ -1,0 +1,344 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 63.8,
+  "usage": {
+    "prompt_tokens": 2599,
+    "completion_tokens": 5633,
+    "total_tokens": 8232,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1421,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością?\n*W przypadku odpowiedzi \"Tak\", należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zamówień.*\n\n11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity?\n*If \"Yes\" is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which territory transit/transfer takes place, harmonization system codes, licenses/authorizations, clauses prohibiting re-exportation to Russia/for use in Russia and relevant measures ensuring enforcement of such prohibitions.*\n\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n[empty text box]\n\nSekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy\n*Należy wypełnić tylko w przypadku prowadzenia działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarach obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego w Ukrainie.*\n\nSection B: Activity in the Non-Government-Controlled Territories of Ukraine\n*To be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia Regions of Ukraine.*\n\n1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach?\n1. Do you have a registered office, central administration, or principal place of business in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach?\n2. Do you have subsidiaries or affiliates under your control in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach?\n3. Do you have branches/offices and other entities operating in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię⁷ lub w działalność turystyczną w tych obszarach?\n4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions⁸, or in Tourism activities in EUSR?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach”⁹ lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię?\n5. Do you hold, or intend to acquire ownership interest in an \"entity in the specified regions\"¹⁰ or land in any EUSR?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów?\n6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022?\n7. Do you intend to create a joint venture with an entity in the specified regions or have you done so since March 2022?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię?\n8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\nW przypadku odpowiedzi \"Tak\" na którąkolwiek z pytań w tej sekcji należy podać szczegółowe informacje w Sekcji C.\n\n7 Na potrzeby niniejszego kwestionariusza obszary wskazane przez UE/Wielką Brytanię to obwód ługański, doniecki, chersoński i zaporoski.\n8 For the purposes of this questionnaire, EUSR are EU/UK Specified Regions of Luhansk, Donetsk, Kherson and Zaporizhzhia.\n9 Podmiot ze wskazanych obszarów to podmiot, który ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w obszarach wskazanych przez UE/Wielką Brytanię oraz/lub ma podmioty zależne lub kontrolowane podmioty powiązane w obszarach wskazanych przez UE/Wielką Brytanię oraz/lub ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w obszarach wskazanych przez UE/Wielką Brytanię.\n10 Entity in the specified regions is defined as an entity that has its registered office, central administration, or principal place of business in the EUSRs, and/or has subsidiaries or affiliates under its control in the EUSRs, and/or has branches/offices and other entities operating in the EUSRs.\n\nStrona 5 z 11",
+    "fields": [
+      {
+        "section": "Pytanie 11 / Question 11",
+        "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością? / 11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              143,
+              862,
+              158
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              165,
+              862,
+              180
+            ]
+          }
+        ],
+        "instructions": "*W przypadku odpowiedzi \"Tak\", należy podać szczegółowe informacje dotyczące prowadzonej działalności... / If \"Yes\" is selected, please provide detailed information on the activity...*",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          140,
+          950,
+          185
+        ]
+      },
+      {
+        "section": "Pytanie 11 / Question 11",
+        "label": "[pole na szczegółowe informacje w przypadku odpowiedzi Tak / field for detailed information if Yes]",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          60,
+          270,
+          920,
+          325
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach? / 1. Do you have a registered office, central administration, or principal place of business in the specified regions?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              442,
+              862,
+              457
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              464,
+              862,
+              479
+            ]
+          }
+        ],
+        "instructions": "Należy wypełnić tylko w przypadku prowadzenia działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarach obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego w Ukrainie. / To be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia Regions of Ukraine.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          440,
+          950,
+          482
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach? / 2. Do you have subsidiaries or affiliates under your control in the specified regions?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              485,
+              862,
+              500
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              507,
+              862,
+              522
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          483,
+          950,
+          525
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach? / 3. Do you have branches/offices and other entities operating in the specified regions?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              528,
+              862,
+              543
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              550,
+              862,
+              565
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          526,
+          950,
+          568
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię⁷ lub w działalność turystyczną w tych obszarach? / 4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions⁸, or in Tourism activities in EUSR?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              572,
+              862,
+              587
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              594,
+              862,
+              609
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          570,
+          950,
+          612
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach”⁹ lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię? / 5. Do you hold, or intend to acquire ownership interest in an \"entity in the specified regions\"¹⁰ or land in any EUSR?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              615,
+              862,
+              630
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              637,
+              862,
+              652
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          613,
+          950,
+          655
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów? / 6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              658,
+              862,
+              673
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              680,
+              862,
+              695
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          656,
+          950,
+          698
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022? / 7. Do you intend to create a joint venture with an entity in the specified regions or have you done so since March 2022?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              702,
+              862,
+              717
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              724,
+              862,
+              739
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          700,
+          950,
+          742
+        ]
+      },
+      {
+        "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+        "label": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię? / 8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              848,
+              745,
+              862,
+              760
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              848,
+              767,
+              862,
+              782
+            ]
+          }
+        ],
+        "instructions": "W przypadku odpowiedzi \"Tak\" na którąkolwiek z pytań w tej sekcji należy podać szczegółowe informacje w Sekcji C.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          840,
+          743,
+          950,
+          785
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1390 @@
+{
+  "exercice": "form_03",
+  "entreprise": "Cendrelis Instruments SAS",
+  "questionnaire": "questionnaires/03_cendrelis_instruments.pdf",
+  "langue": "Anglais",
+  "page_size_pt": [
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "cover",
+      "text": "La Banque\ndes Entreprises\nKnow Your Customer",
+      "fields": []
+    },
+    {
+      "page": 2,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "form",
+      "text": "La Banque des Entreprises - CUSTOMER INFORMATION FORM\n\nStep 1: Entity Identification\n\nLegal Name\nTax Identification Number (Optional)\nLEI\n\nStep 2: Business activity and regulatory authorities\n\nNACE Code of the company:\nEntity's Type:\n(Read carefully the instructions in the Annex to have a clear understanding about the meaning of certain types)\n\nNone of the indicated below\nMoney transmitters, currency trading and similar entities\nOn-line gambling and casinos\nMere Asset Holding Companies (EMTAs)\nHolding entities\nCrowdfunding\nNon-Financial Asset Manager\nCannabis Business\nSpecial Purpose Vehicle (SPV)\nVirtual asset service provider (VASP)\n\nResponsible Financial Supervisory Authority:\n(Only to be informed in the case of financial entities)\nName of authority\nCompany is not supervised by a regulatory authority\n\nPlease indicate the source of funds:\nOwn activity\nInvestors\nDeposits\nOthers*\n\nKnow Your Customer\n2",
+      "fields": [
+        {
+          "section": "Step 1: Entity Identification",
+          "label": "Legal Name",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            106,
+            958,
+            132
+          ]
+        },
+        {
+          "section": "Step 1: Entity Identification",
+          "label": "Tax Identification Number",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(Optional)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            140,
+            958,
+            166
+          ]
+        },
+        {
+          "section": "Step 1: Entity Identification",
+          "label": "LEI",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(Optional)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            175,
+            958,
+            201
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "NACE Code of the company:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            209,
+            481,
+            235
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "None of the indicated below",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            355,
+            175,
+            375
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Money transmitters, currency trading and similar entities",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            375,
+            175,
+            395
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "On-line gambling and casinos",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            395,
+            175,
+            415
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Mere Asset Holding Companies (EMTAs)",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            415,
+            175,
+            435
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Holding entities",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            435,
+            175,
+            455
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Crowdfunding",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            455,
+            175,
+            475
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Non-Financial Asset Manager",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            475,
+            175,
+            495
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Cannabis Business",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            495,
+            175,
+            515
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Special Purpose Vehicle (SPV)",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            515,
+            175,
+            535
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Virtual asset service provider (VASP)",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            535,
+            175,
+            555
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Name of authority",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            235,
+            958,
+            261
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Company is not supervised by a regulatory authority",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            261,
+            575,
+            277
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Own activity",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            150,
+            540,
+            175,
+            560
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Investors",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            250,
+            540,
+            275,
+            560
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Deposits",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            350,
+            540,
+            375,
+            560
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Others*",
+          "field_type": "checkbox",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            450,
+            540,
+            475,
+            560
+          ]
+        },
+        {
+          "section": "Step 2: Business activity and regulatory authorities",
+          "label": "Others*",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            335,
+            540,
+            958,
+            566
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\n*Please explain:\n\nCan the corporation issue bearer shares? ☐ Yes  ☐ No\n\nKnow Your Customer\n3",
+      "fields": [
+        {
+          "section": "",
+          "label": "Can the corporation issue bearer shares?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Yes",
+              "box_bbox": [
+                500,
+                130,
+                520,
+                152
+              ]
+            },
+            {
+              "label": "No",
+              "box_bbox": [
+                577,
+                130,
+                597,
+                152
+              ]
+            }
+          ],
+          "instructions": "*Please explain:",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            130,
+            600,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "model": "dots-studio/dots-3-note-preview:free",
+      "page_type": "form",
+      "text": "La Banque des Entreprises\n\nStep 3: Controlling Persons\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the beneficial ownership of our clients, including the details of the beneficial interests held.\n\nPlease, read carefully the instructions in the Annex to understand the term “Controlling Person”.\n\n1   Name and Surname:\n    Type of control (1):                  Ownership % (2):\n    Date of birth:                       Nationality:\n    Country of residence:                Passport or national ID card number:\n    Address of residence:\n    Date on which the person became “Controlling Person”:\n\n2   Name and Surname:\n    Type of control (1):                  Ownership % (2):\n    Date of birth:                       Nationality:\n    Country of residence:                Passport or national ID card number:\n    Address of residence:\n    Date on which the person became “Controlling Person”:\n\n3   Name and Surname:\n    Type of control (1):                  Ownership % (2):\n    Date of birth:                       Nationality:\n    Country of residence:                Passport or national ID card number:\n    Address of residence:\n    Date on which the person became “Controlling Person”:\n\n(1) Type of control:\nA. It is a natural person who owns (directly or indirectly) more than 25% of the shares in the company or more than 25% of the voting rights in the company.\nB. It is a natural person who exercises, by other means, control over the company. This includes individuals who hold the right to appoint or remove the majority of the board of directors of the company or have the right to exercise, or actually exercise, significant influence or control over the company.\nC. In the absence of identification of a natural person(s) according to the two preceding criteria, the legal representative(s) of the company\n(2) In case you select Type of control A. Please specify the Ownership (%)\n\nKnow Your Customer                                                 4",
+      "fields": [
+        {
+          "section": "Controlling Person 1",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            282,
+            904,
+            306
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Refer to footnote (1) for definitions A, B, C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            306,
+            500,
+            330
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) In case you select Type of control A. Please specify the Ownership (%)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            306,
+            904,
+            330
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            330,
+            500,
+            354
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            330,
+            904,
+            354
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            354,
+            500,
+            378
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            354,
+            904,
+            378
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            378,
+            904,
+            402
+          ]
+        },
+        {
+          "section": "Controlling Person 1",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            402,
+            904,
+            426
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            426,
+            904,
+            450
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Refer to footnote (1) for definitions A, B, C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            450,
+            500,
+            474
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) In case you select Type of control A. Please specify the Ownership (%)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            450,
+            904,
+            474
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            474,
+            500,
+            498
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            474,
+            904,
+            498
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            498,
+            500,
+            522
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            498,
+            904,
+            522
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            522,
+            904,
+            546
+          ]
+        },
+        {
+          "section": "Controlling Person 2",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            546,
+            904,
+            570
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            570,
+            904,
+            594
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Refer to footnote (1) for definitions A, B, C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            594,
+            500,
+            618
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "(2) In case you select Type of control A. Please specify the Ownership (%)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            594,
+            904,
+            618
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            618,
+            500,
+            642
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            618,
+            904,
+            642
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            642,
+            500,
+            666
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            500,
+            642,
+            904,
+            666
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            666,
+            904,
+            690
+          ]
+        },
+        {
+          "section": "Controlling Person 3",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            90,
+            690,
+            904,
+            714
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\nStep 3: Controlling Persons\n\n| 4 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 5 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 6 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n| 7 | Name and Surname: |\n| | Type of control (1): | Ownership % (2): |\n| | Date of birth: | Nationality: |\n| | Country of residence: | Passport or national ID card number: |\n| | Address of residence: |\n| | Date on which the person became “Controlling Person”: |\n\n(1) Type of control:\nA. It is a natural person who owns (directly or indirectly) more than 25% of the shares in the company or more than 25% of the voting rights in the company.\nB. It is a natural person who exercises, by other means, control over the company. This includes individuals who hold the right to appoint or remove the majority of the board of directors of the company or have the right to exercise, or actually exercise, significant influence or control over the company.\nC. In the absence of identification of a natural person(s) according to the two preceding criteria, the legal representative(s) of the company\n\nKnow Your Customer\n5",
+      "fields": [
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            222,
+            902,
+            243
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            243,
+            503,
+            262
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            243,
+            902,
+            262
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            262,
+            503,
+            281
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            262,
+            902,
+            281
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            281,
+            503,
+            300
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            281,
+            902,
+            300
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            300,
+            902,
+            319
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (4)",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            319,
+            902,
+            347
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            372,
+            902,
+            393
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            393,
+            503,
+            412
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            393,
+            902,
+            412
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            412,
+            503,
+            431
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            412,
+            902,
+            431
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            431,
+            503,
+            450
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            431,
+            902,
+            450
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            450,
+            902,
+            469
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (5)",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            469,
+            902,
+            497
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            522,
+            902,
+            543
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            543,
+            503,
+            562
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            543,
+            902,
+            562
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            562,
+            503,
+            581
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            562,
+            902,
+            581
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            581,
+            503,
+            600
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            581,
+            902,
+            600
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            600,
+            902,
+            619
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (6)",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            619,
+            902,
+            647
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Name and Surname:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            222,
+            672,
+            902,
+            693
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Type of control (1):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            218,
+            693,
+            503,
+            712
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Ownership % (2):",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            612,
+            693,
+            902,
+            712
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Date of birth:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            184,
+            712,
+            503,
+            731
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Nationality:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            578,
+            712,
+            902,
+            731
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Country of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            731,
+            503,
+            750
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Passport or national ID card number:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            719,
+            731,
+            902,
+            750
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Address of residence:",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            231,
+            750,
+            902,
+            769
+          ]
+        },
+        {
+          "section": "Step 3: Controlling Persons (7)",
+          "label": "Date on which the person became “Controlling Person”:",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            402,
+            769,
+            902,
+            797
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "form",
+      "text": "(2) In case you select Type of control A. Please specify the Ownership (%)\n\nStep 4: Details of Authorized Representatives\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the full names of the persons authorized to act on the customer’s behalf in its relationship with La Banque des Entreprises.\n\nName & Surname (1) Date of birth (2) Nationality (2) Country (ies) of Residence (2) Passport or national ID card number (2)\n\nKnow Your Customer 6",
+      "fields": [
+        {
+          "section": "Step 4: Details of Authorized Representatives",
+          "label": "Details of Authorized Representatives",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            55,
+            320,
+            945,
+            855
+          ]
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "model": "dots-studio/dots-3-note-preview:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\n(1) Please provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list for conferring authority on those who will sign the relevant account opening documents / agreements and transactions, etc.\n(2) In the event the authorized representative's details have already been provided in Step 3, only Name & Surname is required in Step 4.\n\nStep 4: Details of Authorized Representatives\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the full names of the persons authorized to act on the customer's behalf in its relationship with La Banque des Entreprises.\n\n| Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2) |\n| --- | --- | --- | --- | --- |\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n\nKnow Your Customer 7",
+      "fields": [
+        {
+          "section": "Step 4: Details of Authorized Representatives",
+          "label": "Details of Authorized Representatives table",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            72,
+            425,
+            893,
+            890
+          ]
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "# La Banque des Entreprises\n\n|  |  |  |  |  |\n\n(1) Please provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list for conferring authority on those who will sign the relevant account opening documents / agreements and transactions, etc.\n(2) In the event the authorized representative's details have already been provided in Step 3, only Name & Surname is required in Step 4.\n\nKnow Your Customer\n\n8",
+      "fields": [
+        {
+          "section": "",
+          "label": "",
+          "field_type": "table",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            70,
+            100,
+            893,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "La Banque\ndes Entreprises\n\nStep 4: Certification\n\nThe requirements of the relevant anti money laundering legislation require institutions to gather client's information of their professional or business activity. The client subscribes to this Declaration and assumes the responsibility of the provided data listed on this declaration. Additionally, the client commits itself to communicate La Banque des Entreprises (La Banque des Entreprises) any data amendment during its relationship with La Banque des Entreprises. The lack of veracity or updates in the mentioned data and/or documents authorizes La Banque des Entreprises to terminate any or all the contracts formalized with the client.\n\nWithout prejudice to the provisions of article L.511-33 of the French Code monétaire et financier, and in accordance with them, the client expressly agrees that in addition to the cases provided for in this article, we may disclose to any entities belonging to the same group as La Banque des Entreprises, information about it protected by professional secrecy, if the persons to whom this information is disclosed are informed that it must be kept confidential to the extent legally permitted, or are legally or professionally bound by professional secrecy, and if this information is necessary for them for the following purposes and in the following cases: business development, development and management of the services and products offered, business relationships management with the client and with companies belonging to the same group if any, revenues and financial and operational risks management, fulfillment of their obligations or for auditing purposes or with respect to regulatory or supervisory authorities, and fraud prevention.\n\nCommunications made on this basis and treatment by their recipient of such disclosed information must comply with applicable personal data protection regulation.\n\nThis declaration is signed in  Date\nMonth Day Year\n\nName & Surname\n\nSignature\n\nPlease, print and sign the document.\n\nKnow Your Customer\n9",
+      "fields": [
+        {
+          "section": "Step 4: Certification",
+          "label": "This declaration is signed in",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            310,
+            443,
+            560,
+            478
+          ]
+        },
+        {
+          "section": "Step 4: Certification",
+          "label": "Date",
+          "field_type": "date",
+          "options": [],
+          "instructions": "Month | Day | Year",
+          "bank_reserved": false,
+          "answer_bbox": [
+            670,
+            443,
+            915,
+            478
+          ]
+        },
+        {
+          "section": "Step 4: Certification",
+          "label": "Name & Surname",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            240,
+            488,
+            895,
+            518
+          ]
+        },
+        {
+          "section": "Step 4: Certification",
+          "label": "Signature",
+          "field_type": "signature",
+          "options": [],
+          "instructions": "Please, print and sign the document.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            60,
+            550,
+            900,
+            640
+          ]
+        }
+      ]
+    }
+  ]
+}

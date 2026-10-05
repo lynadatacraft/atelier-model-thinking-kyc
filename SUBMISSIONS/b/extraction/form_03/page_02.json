@@ -1,0 +1,327 @@
+{
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "seconds": 237.8,
+  "usage": {
+    "prompt_tokens": 2616,
+    "completion_tokens": 12625,
+    "total_tokens": 15241,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9404,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "La Banque des Entreprises - CUSTOMER INFORMATION FORM\n\nStep 1: Entity Identification\n\nLegal Name\nTax Identification Number (Optional)\nLEI\n\nStep 2: Business activity and regulatory authorities\n\nNACE Code of the company:\nEntity's Type:\n(Read carefully the instructions in the Annex to have a clear understanding about the meaning of certain types)\n\nNone of the indicated below\nMoney transmitters, currency trading and similar entities\nOn-line gambling and casinos\nMere Asset Holding Companies (EMTAs)\nHolding entities\nCrowdfunding\nNon-Financial Asset Manager\nCannabis Business\nSpecial Purpose Vehicle (SPV)\nVirtual asset service provider (VASP)\n\nResponsible Financial Supervisory Authority:\n(Only to be informed in the case of financial entities)\nName of authority\nCompany is not supervised by a regulatory authority\n\nPlease indicate the source of funds:\nOwn activity\nInvestors\nDeposits\nOthers*\n\nKnow Your Customer\n2",
+    "fields": [
+      {
+        "section": "Step 1: Entity Identification",
+        "label": "Legal Name",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          106,
+          958,
+          132
+        ]
+      },
+      {
+        "section": "Step 1: Entity Identification",
+        "label": "Tax Identification Number",
+        "field_type": "text",
+        "options": [],
+        "instructions": "(Optional)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          140,
+          958,
+          166
+        ]
+      },
+      {
+        "section": "Step 1: Entity Identification",
+        "label": "LEI",
+        "field_type": "text",
+        "options": [],
+        "instructions": "(Optional)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          175,
+          958,
+          201
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "NACE Code of the company:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          209,
+          481,
+          235
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "None of the indicated below",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          355,
+          175,
+          375
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Money transmitters, currency trading and similar entities",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          375,
+          175,
+          395
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "On-line gambling and casinos",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          395,
+          175,
+          415
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Mere Asset Holding Companies (EMTAs)",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          415,
+          175,
+          435
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Holding entities",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          435,
+          175,
+          455
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Crowdfunding",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          455,
+          175,
+          475
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Non-Financial Asset Manager",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          475,
+          175,
+          495
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Cannabis Business",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          495,
+          175,
+          515
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Special Purpose Vehicle (SPV)",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          515,
+          175,
+          535
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Virtual asset service provider (VASP)",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          535,
+          175,
+          555
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Name of authority",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          235,
+          958,
+          261
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Company is not supervised by a regulatory authority",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          261,
+          575,
+          277
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Own activity",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          540,
+          175,
+          560
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Investors",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          250,
+          540,
+          275,
+          560
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Deposits",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          350,
+          540,
+          375,
+          560
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Others*",
+        "field_type": "checkbox",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          450,
+          540,
+          475,
+          560
+        ]
+      },
+      {
+        "section": "Step 2: Business activity and regulatory authorities",
+        "label": "Others*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          335,
+          540,
+          958,
+          566
+        ]
+      }
+    ]
+  }
+}

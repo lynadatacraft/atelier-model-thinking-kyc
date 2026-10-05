@@ -1,0 +1,75 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 43.2,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 4761,
+    "total_tokens": 7421,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3489,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "If \"Yes\" was selected for any question above, then please answer question 7 below:\n\n7 Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?\n\n*If \"Yes\" is selected please provide further details of the policy and/or program below, including an overview of sanctions programs that you comply with (EU, UN, US, UK etc.) and whether the program includes a periodical assessment or audit.*\n\n*If \"No\" is selected – please provide further details on how you manage compliance with Sanctions otherwise, including without limitation details on screening and due diligence of clients, business partners and transactions on the potential involvement of sanctioned parties, jurisdictions and goods.*\n\n# Part 2\n\nIf \"Yes\" to question 1 of Part 1 is selected, please describe in detail any direct or indirect activity in or with Sanctioned Jurisdictions in Columns 1, 2 and/or 3 in the table below, as applicable.\nFor the avoidance of doubt, please also do so with respect to activities involving Sanctioned Jurisdictions that are not prohibited by Sanctions, or that are specifically authorized by a relevant sanctions authority.\n\nIf \"Yes\" is selected, please specify La Banque des Entreprises account/product/service or platform that is contemplated to be used for such purposes and how this is contemplated to be used.\n\nIn respect of each activity, please include in Columns 1, 2 and/or 3 (as the case may be): a) The percentage of revenue, assets or expenses from the Sanctioned Jurisdiction at group level b) A detailed description of the nature of the activity, legal obligations and exposures to the relevant Sanctioned Jurisdiction c) Third parties, such as customers, representatives, distributors, brokers, agents involved in the relevant activity d) The extent of La Banque des Entreprises's involvement in the activity. If La Banque des Entreprises is not involved, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity involving the Sanctioned Jurisdiction, and is not involved, directly or indirectly, in any such activities.\n\nIf any of the Column 1, 2 or 3 is completed, please include in **Column 4** the name or names of the legal entities involved in the activity and the percentage of exposure at entity level.\n\n| Sanctioned Jurisdiction | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n|  | Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4. | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4. | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4 | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level. |\n| Belarus | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Crimea | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n\n3 \\| Page",
+    "fields": [
+      {
+        "section": "Previous section (continued)",
+        "label": "",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          115,
+          55,
+          780,
+          140
+        ]
+      },
+      {
+        "section": "Question 7",
+        "label": "Do you have a formal policy and/or program that ensures compliance with requirements of Sanctions?",
+        "field_type": "text",
+        "options": [],
+        "instructions": "If \"Yes\" is selected please provide further details of the policy and/or program below, including an overview of sanctions programs that you comply with (EU, UN, US, UK etc.) and whether the program includes a periodical assessment or audit. If \"No\" is selected – please provide further details on how you manage compliance with Sanctions otherwise, including without limitation details on screening and due diligence of clients, business partners and transactions on the potential involvement of sanctioned parties, jurisdictions and goods.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          115,
+          320,
+          780,
+          415
+        ]
+      },
+      {
+        "section": "Part 2",
+        "label": "Sanctioned Jurisdiction",
+        "field_type": "table",
+        "options": [],
+        "instructions": "Please provide percentage of revenue (income/re from Sanctioned Jurisdiction by total revenue) by total revenue at group level. In addition, complete Column 4. | Please provide percentage of assets (physical presence, registration, operations, investments) from Sanctioned Jurisdiction by total assets at group level. In addition, complete Column 4. | Please provide percentage of expenses (purchases/imports/humanitarian aid) from Sanctioned Jurisdiction by total expenses at group level. In addition, complete Column 4 | Please list the entity or entities undertaking the activity described in Column 1, 2 and/or 3 and provide percentage of revenue/assets/expenses by jurisdiction at entity level.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          50,
+          860,
+          950,
+          970
+        ]
+      }
+    ]
+  }
+}

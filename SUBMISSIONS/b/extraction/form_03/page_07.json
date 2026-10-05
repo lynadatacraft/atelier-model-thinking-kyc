@@ -1,0 +1,47 @@
+{
+  "model": "dots-studio/dots-3-note-preview:free",
+  "seconds": 29.0,
+  "usage": {
+    "prompt_tokens": 1718,
+    "completion_tokens": 2738,
+    "total_tokens": 4456,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2386,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "La Banque\ndes Entreprises\n\n(1) Please provide Power of Attorney, Board Resolutions, Certificate of Incumbency or a signatories list for conferring authority on those who will sign the relevant account opening documents / agreements and transactions, etc.\n(2) In the event the authorized representative's details have already been provided in Step 3, only Name & Surname is required in Step 4.\n\nStep 4: Details of Authorized Representatives\n\nAmong the regulatory requirements regarding anti-money laundering and tax provisions La Banque des Entreprises is required to obtain and hold adequate, accurate and current information on the full names of the persons authorized to act on the customer's behalf in its relationship with La Banque des Entreprises.\n\n| Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2) |\n| --- | --- | --- | --- | --- |\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n\nKnow Your Customer 7",
+    "fields": [
+      {
+        "section": "Step 4: Details of Authorized Representatives",
+        "label": "Details of Authorized Representatives table",
+        "field_type": "table",
+        "options": [],
+        "instructions": "Name & Surname (1) | Date of birth (2) | Nationality (2) | Country (ies) of Residence (2) | Passport or national ID card number (2)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          72,
+          425,
+          893,
+          890
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "seconds": 170.1,
+  "usage": {
+    "prompt_tokens": 2616,
+    "completion_tokens": 7573,
+    "total_tokens": 10189,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5200,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "IV - DÉCLARATION\nLe client déclare avoir reçu, lu et compris, préalablement à la signature des présentes la note d'information relative aux personnes morales et autres entités.\nLe client certifie l'exactitude et l'exhaustivité des informations renseignées ci-dessus, via ses propres déclarations et sous sa responsabilité, et s'engage à informer immédiatement la Banque des Entreprises de tout changement de situation nécessitant la mise à jour de cette déclaration.\nA défaut de communiquer tout ou partie des données ou d'incohérences/contradictions non justifiées entre les affirmations déclarées dans cette auto-certification et les autres informations dont dispose la La Banque des Entreprises, le client comprend que ses comptes pourront être déclarés à l'administration fiscale française sur la base des indices de résidence fiscale déjà connus de la La Banque des Entreprises conformément à la réglementation relative à l'échange automatique d'informations. L'administration fiscale française transmettra ces informations aux administrations fiscales du ou des pays de résidence fiscale concerné(s).\nEnfin, à défaut de communiquer son statut, le client comprend qu'il sera considéré comme une Entité Non Financière Passive et que les Bénéficiaires effectifs pourront faire l'objet d'une déclaration à l'administration fiscale française sur la base des informations dont dispose la La Banque des Entreprises, conformément à la réglementation relative à l'échange automatique d'informations. L'administration fiscale française transmettra ces informations aux administrations fiscales du ou des pays de résidence fiscale concerné(s).\nFait à* : le* : Signature* :\nReprésentant légal* :\nNom* : Prénom* :\nFonction au sein de l'entité cliente* :\nNous attirons votre attention sur le fait qu'établir une attestation ou un certificat faisant état de faits matériellement inexacts, falsifier une attestation ou un certificat originellement sincère ou faire usage d'une attestation ou d'un certificat inexact ou falsifié est puni, conformément à l'article 441-7 du Code pénal, d'un an d'emprisonnement et de 15.000 € d'amende. Ces peines sont portées à trois ans d'emprisonnement et à 45.000 € d'amende lorsque l'infraction est commise en vue de porter préjudice au Trésor Public ou au patrimoine d'autrui.\nDONNÉES À CARACTÈRE PERSONNEL\nLes données à caractère personnel des personnes physiques recueillies dans le présent document sont obligatoires et ont pour finalités le respect de la réglementation concernant l'échange automatique d'informations relatif aux comptes en matière fiscale. Elles sont destinées à la La Banque des Entreprises, responsable du traitement ainsi que, le cas échéant, aux établissements dont la banque distribue les produits, dans la limite des clients concernés et à l'administration fiscale française pour transmission à l'administration fiscale du (des) pays de résidence fiscale du client ainsi que des Bénéficiaires effectifs si la réglementation concernant l'échange automatique d'informations l'exige.\nLes personnes physiques disposent d'un droit d'accès et de rectification pour toute information à caractère personnel les concernant auprès de la La Banque des Entreprises Service Relation Clientèle 10, rue de l'Exemple 75000 Paris par courrier accompagné d'une photocopie de tout document d'identité signé.\nLe signataire s'engage à informer les personnes physiques nommément visées dans la présente auto-certification que :\n- leurs données à caractère personnel ainsi recueillies sont obligatoires et ont pour finalité le respect de la réglementation concernant l'échange automatique d'informations relatif aux comptes en matière fiscale, - et qu'elles peuvent exercer leur droit d'accès et de rectification auprès de la La Banque des Entreprises Service Relation Clientèle 10, rue de l'Exemple 75000 Paris",
+    "fields": [
+      {
+        "section": "Declaration Form",
+        "label": "Fait à*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          375,
+          350,
+          385
+        ]
+      },
+      {
+        "section": "Declaration Form",
+        "label": "le*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          360,
+          375,
+          600,
+          385
+        ]
+      },
+      {
+        "section": "Declaration Form",
+        "label": "Signature*",
+        "field_type": "signature",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          620,
+          375,
+          750,
+          385
+        ]
+      },
+      {
+        "section": "Declaration Form",
+        "label": "Nom*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          480,
+          350,
+          495
+        ]
+      },
+      {
+        "section": "Declaration Form",
+        "label": "Prénom*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          360,
+          480,
+          600,
+          495
+        ]
+      },
+      {
+        "section": "Declaration Form",
+        "label": "Fonction au sein de l'entité cliente*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          520,
+          650,
+          535
+        ]
+      }
+    ]
+  }
+}

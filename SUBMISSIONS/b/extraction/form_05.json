@@ -1,0 +1,1361 @@
+{
+  "exercice": "form_05",
+  "entreprise": "Cendrelis Instruments SAS",
+  "questionnaire": "questionnaires/05_cendrelis_instruments.pdf",
+  "langue": "Polonais / anglais",
+  "page_size_pt": [
+    612.0,
+    792.0
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "page_type": "cover",
+      "text": "wersja: 08.04.2025\nLa Banque des Entreprises\nKwestionariusz dotyczący sankcji i organiń ceń handlu¹\nSanctions & Trade Restrictions Questionnaire²\n\nLa Banque des Entreprises (La Banque des Entreprises) jest zobowiązany do przestrzegania krajowych i międzynarodowych przepisów sankcyjnych i organiń ceń handlu. Jako klienci La Banque des Entreprises są Państwo (reprezentujący przez Państwa podmiot, jego oddziały/ filie i podmioty zależne) zobowiązani do niewykorystywania produktów, funduszy, rachunków i usług dostarczanych przez La Banque des Entreprises do przygotowadzania transakcji lub innych działań bezpośrednio lub pośrednio związanych z sankcjonowanymi osobami, podmiotami, rzadami, statkami powietrznymi i wodnymi („podmioty sankcjonowane”), obszarami geograficznymi („jurysdykcyjami sankcjonowanymi” wskazanymi poniżej), określonymi towarami, oprogramowaniem czy usługami profesjonalnymi objętymi organiacją, także w sytuacji, gdy taka transakcja lub inne działania byłyby zakazane dla La Banque des Entreprises i/lub skutkowałyby naruszeniem sankcji przez La Banque des Entreprises. Niniejszy kwestionariusz służy zebraniu informacji na temat Państwa zaangażowania we współpracę z podmiotami sankcjonowanymi, jurysdykcyami sankcjonowanymi lub w inna działalność podlegającą wybranym organiacznom prawnym, w tym działania realizowane bez wykorzystywaniem produktów i usług dostarczanych przez La Banque des Entreprises. Pojęcie „jurysdykcyja sankcjonowana” w rozumieniu niniejszego kwestionariusza odnosi się do najmniej jednego z następujących terytoriów: Kuby, Iranu, Korei Północnej, Syrii, Białorusi, Rosji, Wenezueli (transakcje powiązane z rzadem Wenezueli lub wenezuelańskim sektorem energetycznym lub złota), Krymu oraz niezkontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, chersońskiego, tuzhańskiego i zaporiskiego. Prosimy o udzielenie odpowiedzi we wszystkich sekjach formularza. Odpowiedzi powinny być szczegółowe i odnosić się do Państwa biegłej i planowanej działalności. Dziękujemy.\n\nLa Banque des Entreprises (La Banque des Entreprises) is obliged to abide by local and international sanctions and trade restrictions. As a La Banque des Entreprises Client, you (the entity you represent, their branches/offices and subsidiaries) are obliged to refrain from using products, funds, accounts, and services provided by La Banque des Entreprises to perform transactions or any other activity directly or indirectly involving individuals, entities, governments, aircraft or vessels (“Sanctioned Parties”), locations (“Sanctioned Targets” as defined below), specific restricted goods, software and professional services, also where such transaction or activity would be prohibited for La Banque des Entreprises and/or would result in a violation of sanctions by La Banque des Entreprises. The aim of this questionnaire is to collect information on the extent of your activities with Sanctioned Parties, Sanctioned Targets or other restricted activity, including those activities that do not use La Banque des Entreprises products and services. The term “Sanctioned Target”, as used in this questionnaire, shall mean one or more of the following territories: Cuba, Iran, North Korea, Syria, Belarus, Russia, Venezuela (transactions with the nexus to the Government of Venezuela or Venezuelan energy or gold sector), Crimea and non-government controlled areas of Ukraine in the oblasts of Donetsk, Kherson, Luhansk and Zaporizhzhia. Please provide answers to all sections of this questionnaire. Please ensure that the information you submit in this document is as detailed as possible and relates to your current or contemplated activities. Thank you.\n\nNazwa Klienta\nLegal Entity Name\nImię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz\nFull Name and Job Title of Client Contact Completing the Form\nData\nDate\nCzy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/fille i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?\nTak/Yes\nNie/No",
+      "fields": [
+        {
+          "section": "Nazwa Klienta",
+          "label": "Legal Entity Name",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            520,
+            150,
+            980,
+            180
+          ]
+        },
+        {
+          "section": "Nazwa Klienta",
+          "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            520,
+            200,
+            980,
+            230
+          ]
+        },
+        {
+          "section": "Nazwa Klienta",
+          "label": "Data",
+          "field_type": "date",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            520,
+            250,
+            980,
+            280
+          ]
+        },
+        {
+          "section": "Nazwa Klienta",
+          "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/fille i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                850,
+                350,
+                900,
+                370
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                850,
+                380,
+                900,
+                400
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            520,
+            350,
+            980,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque\ndes Entreprises\n\n**Sekcja A: Ekspozycja na sankcje**\n*Udzielone odpowiedzi powinny obejmować poprzedni rok finansowy, rok kalendarzowy lub ostatnie 12 miesięcy, a także wszelkie bieżące lub planowane działania*\n\n**Section A: Sanctions Related Exposure**\n*Please provide your responses covering the prior financial year, or calendar year, or past 12 months, as well as any current, or contemplated activity.*\n\n1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym?\n*Działalność obejmuje wszelkie bezpośrednio lub pośrednie zaangażowanie, w tym m.in. transakcje biznesowe, rozliczenia finansowe, łańcuchy dostaw, inwestycje, dostarczanie towarów lub usług profesjonalnych, partnerstwa lub inne rodzaje relacji, import lub eksport towarów, oprogramowania lub technologii.*\n*W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C.*\n\n1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties?\n*Activity includes any direct or indirect involvement but is not limited to, business transactions, financial dealings, supply chains, investments, provision of goods or professional services, partnerships, or any other connection, imports or exports of goods, software, or technology.*\n*If “Yes” is selected, please provide further details in Section C.*\n\n☐ Tak/Yes\n☐ Nie/No\n\n2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w zakup, sprzedaż lub transport morski ropy naftowej i/lub produktów rafinacji ropy naftowej pochodzących z Rosji?\n*W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C.*\n\n2. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin?\n*If “Yes” is selected, please provide further details in Section C.*\n\n☐ Tak/Yes\n☐ Nie/No\n\n3. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny obecnie prowadzi lub rozważa przyszłe prowadzenie inwestycji3 w Rosji lub Białorusi?\n*W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C.*\n\n3. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the future, in any new investments4 in Russia or Belarus?\n*If “Yes” is selected, please provide further details in Section C.*\n\n☐ Tak/Yes\n☐ Nie/No\n\n4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi?\n*W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C.*\n\n4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus?\n*If “Yes” is selected, please provide further details in Section C.*\n\n☐ Tak/Yes\n☐ Nie/No\n\n3 Przykłady nowych inwestycji obejmują m.in.: (1) zawarcie porozumienia wymagające zaangażowania kapitału lub innych aktywów w celu uruchomienia lub rozwoju projektów  lub operacji w Rosji/Białorusi, w tym utworzenie spółek joint venture lub innych podmiotów prawnych w Rosji/Białorusi; (2) zawarcie porozumienia dotyczącego udziału w przychodach z tytułu praw autorskich majątkowych lub stałych zyskach w Rosji/Białorusi; (3) udzielanie pożyczek środków finansowych na rzecz osób zlokalizowanych w Rosji/Białorusi na cele handlowe, w tym w przypadku, gdy takie środki finansowe są przeznaczone na uruchomienie nowych lub rozwój istniejących projektów lub operacji w Rosji/Białorusi; (4) zakup nieruchomości, praw do zasobów naturalnych lub ich eksploatacji lub udział w kapitale podmiotu zlokalizowanych w Rosji/Białorusi.\n\n4 Examples of new investment include but may not be limited to: (1) entry into an agreement requiring the commitment of capital or other assets for the establishment or expansion of projects or operations in Russia/Belarus, including the formation of joint ventures or other corporate entities in Russia/ Belarus; (2) entry into an agreement providing for the participation in royalties or ongoing profits in Russia/ Belarus; (3) the lending of funds to persons located in Russia/ Belarus for commercial purposes, including when such funds are intended to be used to fund a new or expanded project or operation in Russia/ Belarus; (4) the purchase of real estate, rights to natural resources or exploitation thereof, or an equity interest in an entity, located in the Russia/ Belarus.\n\nStrona 2 z 11",
+      "fields": [
+        {
+          "section": "Section A: Sanctions Related Exposure",
+          "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z lokalizacją sankcjonowaną lub podmiotem sankcjonowanym? / 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                845,
+                248,
+                858,
+                262
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                845,
+                268,
+                858,
+                282
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. / If “Yes” is selected, please provide further details in Section C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            240,
+            940,
+            290
+          ]
+        },
+        {
+          "section": "Section A: Sanctions Related Exposure",
+          "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w zakup, sprzedaż lub transport morski ropy naftowej i/lub produktów rafinacji ropy naftowej pochodzących z Rosji? / 2. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                845,
+                365,
+                858,
+                379
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                845,
+                385,
+                858,
+                399
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. / If “Yes” is selected, please provide further details in Section C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            357,
+            940,
+            407
+          ]
+        },
+        {
+          "section": "Section A: Sanctions Related Exposure",
+          "label": "3. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny obecnie prowadzi lub rozważa przyszłe prowadzenie inwestycji3 w Rosji lub Białorusi? / 3. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the future, in any new investments4 in Russia or Belarus?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                845,
+                447,
+                858,
+                461
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                845,
+                467,
+                858,
+                481
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. / If “Yes” is selected, please provide further details in Section C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            439,
+            940,
+            489
+          ]
+        },
+        {
+          "section": "Section A: Sanctions Related Exposure",
+          "label": "4. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest obecnie zaangażowany lub rozważa zaangażowanie w działalność w Rosji lub Białorusi? / 4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                845,
+                532,
+                858,
+                546
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                845,
+                552,
+                858,
+                566
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w Sekcji C. / If “Yes” is selected, please provide further details in Section C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            524,
+            940,
+            574
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\n# La Banque des Entreprises\n\n5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises: 1. został zawiązany, ustanowiony lub w inny sposób utworzony na mocy prawa rosyjskiego lub białoruskiego lub ma siedzibę w Rosji lub Białorusi\n\n2. bezpośrednio lub pośrednio w co najmniej 40% należy do:\n\na) osoby prawnej, podmiotu lub organu z siedzibą w Rosji lub Białorusi;\n\nb) obywatela rosyjskiego lub białoruskiego; lub\n\nc) osoby fizycznej zamieszkałej w Rosji lub Białorusi,\n\n3. ma beneficjenta rzeczywistego⁵, który jest obywatelem Rosji lub Białorusi lub zamieszkuje w Rosji lub Białorusi.\n\n*W przypadku odpowiedzi „Tak” na którekolwiek z powyższych pytań należy podać nazwę podmiotu, który może spełniać wskazane kryteria i wskazać, która z sytuacji opisanych wyżej ma miejsce, a także podać szczegółowe informacje dla każdej odpowiedzi.*\n\n5. Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services: 1. incorporated, domiciled, constituted, or otherwise established under the laws of Russia or Belarus 2. directly or indirectly owned for 40% or more by: (a) a legal person, entity or body established in Russia or Belarus; (b) a Russian or Belarusian national; or (c) a natural person residing in Russia or Belarus. 3. an entity for which a beneficial owner⁶ with Russian or Belarusian nationality or domiciled in Russia or Belarus has been established.\n\n*If \"Yes\" to any of the above, please provide the name of the entity(ies) that may qualify under the above criteria and indicate which of the above apply and provide additional detail for each response.*\n\n[empty box]\n\n☐ Tak/Yes\n☐ Nie/No\n\n6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadająca/y co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem w sposób bezpośredni lub pośredni, która/y 1) jest podmiotem sankcjonowanym; lub 2) jest obywatelem jurysdykcji sankcjonowanej lub jest zlokalizowana, zorganizowana lub zamieszkała/zarejestrowana w jurysdykcji sankcjonowanej; lub 3) jest zatrudniona w agencji rządowej lub organie władzy jurysdykcji sankcjonowanej lub taką agencję rządową lub organ władzy reprezentuje?\nW przypadku odpowiedzi „Tak”, należy podać imię i nazwisko takiej osoby lub nazwę podmiotu, wskazując jurysdykcję sankcjonowaną oraz podać szczegółowe informacje.\n\n6. Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder, or a person having direct or indirect control over the entity who is either 1) a Sanctioned Party; or 2) a national of a sanctioned jurisdiction or is located, organized, or resident in a Sanctioned Jurisdiction; 3) or is employed in, or represents a governmental agency or authority of a Sanctioned Jurisdiction?\n*If \"Yes\" is selected, please provide the name of such person or entity, and indicate the relevant Sanctioned Jurisdiction, and provide additional details.*\n\n[empty box]\n\n☐ Tak/Yes\n☐ Nie/No\n\n7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną?\n*W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje (np. rodzaj zezwolenia i ewentualne osoby/podmioty nim objęte, zakres dozwolonych działań, nazwę organu wydającego zezwolenie oraz termin jego ważności).*\n\n7. Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets?\n*If \"Yes\" is selected, please provide further details below (i.e., type of authorization and the names of its recipients, if applicable, activities covered, regulatory authority that issued the authorization, and expiration date)*\n\n[empty box]\n\n☐ Tak/Yes\n☐ Nie/No\n\n⁵ Beneficjent rzeczywisty w rozumieniu ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (Dz. U. z 2018 r., poz. 723, ze zm.).\n⁶ Beneficial owner as defined by the Polish Act of 1 March 2018 on Counteracting Money Laundering and Financing of Terrorism (Polish Journal of Laws Dziennik Ustaw of 2018, item 723 as amended)\n\nStrona 3 z 11",
+      "fields": [
+        {
+          "section": "5. Czy reprezentowany przez Państwa podmiot... / 5. Are you or any of your branches/offices or subsidiaries...",
+          "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises / Are you or any of your branches/offices or subsidiaries that are using La Banque des Entreprises products and services",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                143,
+                862,
+                155
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                166,
+                862,
+                178
+              ]
+            }
+          ],
+          "instructions": "if Yes, provide name of entity(ies), which criteria apply, and additional detail",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            130,
+            940,
+            190
+          ]
+        },
+        {
+          "section": "5. Czy reprezentowany przez Państwa podmiot... / 5. Are you or any of your branches/offices or subsidiaries...",
+          "label": "*W przypadku odpowiedzi „Tak”... / If \"Yes\" to any of the above, please provide the name of the entity(ies)...*",
+          "field_type": "text",
+          "options": [],
+          "instructions": "if Yes",
+          "bank_reserved": false,
+          "answer_bbox": [
+            60,
+            383,
+            795,
+            432
+          ]
+        },
+        {
+          "section": "6. Czy w reprezentowanym przez Państwa podmiocie... / 6. Do you or any of your branches/offices or subsidiaries have a director...",
+          "label": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla... / Do you or any of your branches/offices or subsidiaries have a director, senior officer, 10% or greater owner or shareholder...",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                468,
+                862,
+                480
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                491,
+                862,
+                503
+              ]
+            }
+          ],
+          "instructions": "if Yes, provide name of person or entity, relevant Sanctioned Jurisdiction, and additional details",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            455,
+            940,
+            515
+          ]
+        },
+        {
+          "section": "6. Czy w reprezentowanym przez Państwa podmiocie... / 6. Do you or any of your branches/offices or subsidiaries have a director...",
+          "label": "W przypadku odpowiedzi „Tak”, należy podać imię i nazwisko... / If \"Yes\" is selected, please provide the name of such person or entity...",
+          "field_type": "text",
+          "options": [],
+          "instructions": "if Yes",
+          "bank_reserved": false,
+          "answer_bbox": [
+            60,
+            585,
+            795,
+            634
+          ]
+        },
+        {
+          "section": "7. Czy reprezentowany przez Państwa podmiot... / 7. Do you or any of your branches/offices or subsidiaries rely on authorization...",
+          "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora... / Do you or any of your branches/offices or subsidiaries rely on authorization or license from a sanctions/regulatory authority...",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                688,
+                862,
+                700
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                711,
+                862,
+                723
+              ]
+            }
+          ],
+          "instructions": "if Yes, provide type of authorization, recipients, activities covered, regulatory authority, expiration date",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            675,
+            940,
+            735
+          ]
+        },
+        {
+          "section": "7. Czy reprezentowany przez Państwa podmiot... / 7. Do you or any of your branches/offices or subsidiaries rely on authorization...",
+          "label": "W przypadku odpowiedzi „Tak” należy poniżej podać szczegółowe informacje... / If \"Yes\" is selected, please provide further details below...",
+          "field_type": "text",
+          "options": [],
+          "instructions": "if Yes",
+          "bank_reserved": false,
+          "answer_bbox": [
+            60,
+            763,
+            795,
+            812
+          ]
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\n**La Banque des Entreprises**\n\n8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziałom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzania działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej (wskazanej na stronie 1, w tym wszelkich działań, na które uzyskano szczegółowe zezwolenie, lub które nie są zakazane)?\n\n***W przypadku odpowiedzi „Tak” należy wskazać numer rachunku prowadzonego przez La Banque des Entreprises oraz osobę*** *lub podmiot objęte sankcjami lub jurysdykcję sankcjonowaną. \"W przypadku odpowiedzi „Nie\" należy opisać mechanizmy kontrolne wdrożone w celu zapewnienia, że produkty i usługi oferowane przez La Banque des Entreprises nie będą wykorzystywane do prowadzenia działalności w jurysdykcjach sankcjonowanych lub w odniesieniu do osób lub podmiotów objętych sankcjami oraz że La Banque des Entreprises nie będzie bezpośrednio i pośrednio zaangażowany w takie działania. Jeżeli tajemnica przedsiębiorstwa nie pozwala na przedstawienie szczegółowych informacji, należy wskazać, czy stosowne mechanizmy kontrolne zostały wdrożone, czy nie – „Wdrożono mechanizmy kontrolne.\" / „Brak mechanizmów kontrolnych.\"*\n\n8. Do you currently use or intend to use or make available to your branches/offices, subsidiaries or any other third person, any La Banque des Entreprises products, services, systems, or platforms, directly or indirectly, to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets (as listed on page 1, including any activities that are specifically authorized or not prohibited)?\n\n*\"If \"Yes\" is selected, please provide the number of the account maintained by La Banque des Entreprises, and the Sanctioned Parties or Sanctioned Targets. If \"No\" is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity in the Sanctioned Targets or in respect of Sanctioned Parties, and is not involved, directly or indirectly, in any such activities. If business secret prevents you from providing detailed information, please declare whether relevant controls have been implemented or not – \"The relevant controls have been implemented.\" / \"No controls have been implemented.\"*\n\n☐ Tak/Yes\n☐ Nie/No\n\n9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel (w szczególności wprowadzonymi przez Polskę, OFAC, ONZ, Wielkiej Brytanii, UE), wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych?\n\n***W przypadku odpowiedzi „Tak”*** *należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych, w tym wskazać objęte screeningiem osobę/ podmioty (klienci, użytkownicy końcowi, dostawcy itp.) oraz listy sankcyjne wykorzystywane w procesie screeningu sankcyjnego.*\n\n9. Do you have policies and procedures in place designed to comply with all sanctions or trade restrictive measures in force (in particular those introduced by Poland, OFAC, UN, UK, EU) that are globally applicable to all branches/offices and subsidiaries?\n\n*\"If \"Yes\" is selected, please provide a brief overview of your sanctions policies/procedures including information on the parties (customers, end-users, vendors, etc.) that are screened and the sanctions lists utilized in the sanctions screening process.*\n\n☐ Tak/Yes\n☐ Nie/No\n\n[empty text box]\n\n10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821?\n\n***W przypadku odpowiedzi „Tak”*** *należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp.*\n\n10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821?\n\n*\"If \"Yes\" is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.*\n\n☐ Tak/Yes\n☐ Nie/No\n\n[empty text box]\n\nStrona 4 z 11",
+      "fields": [
+        {
+          "section": "Odpowiedzi / Answers",
+          "label": "8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziałom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzania działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej (wskazanej na stronie 1, w tym wszelkich działań, na które uzyskano szczegółowe zezwolenie, lub które nie są zakazane)? / 8. Do you currently use or intend to use or make available to your branches/offices, subsidiaries or any other third person, any La Banque des Entreprises products, services, systems, or platforms, directly or indirectly, to conduct any activity with or involving Sanctioned Parties or Sanctioned Targets (as listed on page 1, including any activities that are specifically authorized or not prohibited)?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                843,
+                143,
+                858,
+                158
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                843,
+                167,
+                858,
+                182
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy wskazać numer rachunku prowadzonego przez La Banque des Entreprises oraz osobę lub podmiot objęte sankcjami lub jurysdykcję sankcjonowaną. / If \"Yes\" is selected, please provide the number of the account maintained by La Banque des Entreprises, and the Sanctioned Parties or Sanctioned Targets.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            140,
+            940,
+            185
+          ]
+        },
+        {
+          "section": "Odpowiedzi / Answers",
+          "label": "9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel (w szczególności wprowadzonymi przez Polskę, OFAC, ONZ, Wielkiej Brytanii, UE), wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych? / 9. Do you have policies and procedures in place designed to comply with all sanctions or trade restrictive measures in force (in particular those introduced by Poland, OFAC, UN, UK, EU) that are globally applicable to all branches/offices and subsidiaries?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                843,
+                447,
+                858,
+                462
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                843,
+                472,
+                858,
+                487
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych, w tym wskazać objęte screeningiem osobę/ podmioty (klienci, użytkownicy końcowi, dostawcy itp.) oraz listy sankcyjne wykorzystywane w procesie screeningu sankcyjnego. / If \"Yes\" is selected, please provide a brief overview of your sanctions policies/procedures including information on the parties (customers, end-users, vendors, etc.) that are screened and the sanctions lists utilized in the sanctions screening process.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            445,
+            940,
+            490
+          ]
+        },
+        {
+          "section": "Odpowiedzi / Answers",
+          "label": "9. (opis polityk/procedur sankcyjnych / overview of sanctions policies/procedures)",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Wypełnić w przypadku odpowiedzi „Tak” / Fill in if \"Yes\" is selected",
+          "bank_reserved": false,
+          "answer_bbox": [
+            56,
+            548,
+            794,
+            606
+          ]
+        },
+        {
+          "section": "Odpowiedzi / Answers",
+          "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821? / 10. Do you or any of your branches/offices or subsidiaries participate in the production or sale of dual-use goods listed in Appendix I to Regulation EU 2021/821?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                843,
+                652,
+                858,
+                667
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                843,
+                677,
+                858,
+                692
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak” należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. rodzaj towarów (wg zharmonizowanych kodów taryfowych - kodów celnych), obszar geograficzny sprzedaży itp. / If \"Yes\" is selected, please provide detailed information on the activity, including, but not limited to, the type of the goods (using harmonization system codes), geographical coverage etc.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            650,
+            940,
+            695
+          ]
+        },
+        {
+          "section": "Odpowiedzi / Answers",
+          "label": "10. (szczegółowe informacje dotyczące działalności / detailed information on the activity)",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Wypełnić w przypadku odpowiedzi „Tak” / Fill in if \"Yes\" is selected",
+          "bank_reserved": false,
+          "answer_bbox": [
+            56,
+            748,
+            794,
+            788
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością?\n*W przypadku odpowiedzi \"Tak\", należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zamówień.*\n\n11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity?\n*If \"Yes\" is selected, please provide detailed information on the activity, including, but not limited to, the country of destination, countries through which territory transit/transfer takes place, harmonization system codes, licenses/authorizations, clauses prohibiting re-exportation to Russia/for use in Russia and relevant measures ensuring enforcement of such prohibitions.*\n\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n[empty text box]\n\nSekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy\n*Należy wypełnić tylko w przypadku prowadzenia działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarach obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego w Ukrainie.*\n\nSection B: Activity in the Non-Government-Controlled Territories of Ukraine\n*To be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia Regions of Ukraine.*\n\n1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach?\n1. Do you have a registered office, central administration, or principal place of business in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach?\n2. Do you have subsidiaries or affiliates under your control in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach?\n3. Do you have branches/offices and other entities operating in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię⁷ lub w działalność turystyczną w tych obszarach?\n4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions⁸, or in Tourism activities in EUSR?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach”⁹ lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię?\n5. Do you hold, or intend to acquire ownership interest in an \"entity in the specified regions\"¹⁰ or land in any EUSR?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów?\n6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022?\n7. Do you intend to create a joint venture with an entity in the specified regions or have you done so since March 2022?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\n8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię?\n8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?\n[checkbox] Tak/Yes\n[checkbox] Nie/No\n\nW przypadku odpowiedzi \"Tak\" na którąkolwiek z pytań w tej sekcji należy podać szczegółowe informacje w Sekcji C.\n\n7 Na potrzeby niniejszego kwestionariusza obszary wskazane przez UE/Wielką Brytanię to obwód ługański, doniecki, chersoński i zaporoski.\n8 For the purposes of this questionnaire, EUSR are EU/UK Specified Regions of Luhansk, Donetsk, Kherson and Zaporizhzhia.\n9 Podmiot ze wskazanych obszarów to podmiot, który ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w obszarach wskazanych przez UE/Wielką Brytanię oraz/lub ma podmioty zależne lub kontrolowane podmioty powiązane w obszarach wskazanych przez UE/Wielką Brytanię oraz/lub ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w obszarach wskazanych przez UE/Wielką Brytanię.\n10 Entity in the specified regions is defined as an entity that has its registered office, central administration, or principal place of business in the EUSRs, and/or has subsidiaries or affiliates under its control in the EUSRs, and/or has branches/offices and other entities operating in the EUSRs.\n\nStrona 5 z 11",
+      "fields": [
+        {
+          "section": "Pytanie 11 / Question 11",
+          "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością? / 11. Do you or any of your branches/offices or subsidiaries export dual-use goods as defined by Regulation EU 2021/821 outside the territory of the European Union or participate in transit/ transfer of such goods (within or outside the territory of the European Union) or any other operations related to such activity?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                143,
+                862,
+                158
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                165,
+                862,
+                180
+              ]
+            }
+          ],
+          "instructions": "*W przypadku odpowiedzi \"Tak\", należy podać szczegółowe informacje dotyczące prowadzonej działalności... / If \"Yes\" is selected, please provide detailed information on the activity...*",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            140,
+            950,
+            185
+          ]
+        },
+        {
+          "section": "Pytanie 11 / Question 11",
+          "label": "[pole na szczegółowe informacje w przypadku odpowiedzi Tak / field for detailed information if Yes]",
+          "field_type": "text",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            60,
+            270,
+            920,
+            325
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach? / 1. Do you have a registered office, central administration, or principal place of business in the specified regions?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                442,
+                862,
+                457
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                464,
+                862,
+                479
+              ]
+            }
+          ],
+          "instructions": "Należy wypełnić tylko w przypadku prowadzenia działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarach obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego w Ukrainie. / To be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia Regions of Ukraine.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            440,
+            950,
+            482
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach? / 2. Do you have subsidiaries or affiliates under your control in the specified regions?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                485,
+                862,
+                500
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                507,
+                862,
+                522
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            483,
+            950,
+            525
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach? / 3. Do you have branches/offices and other entities operating in the specified regions?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                528,
+                862,
+                543
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                550,
+                862,
+                565
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            526,
+            950,
+            568
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię⁷ lub w działalność turystyczną w tych obszarach? / 4. Are you involved in any way in the importation into the EU or UK of goods that originate from one or more of the EU/UK Specified Regions⁸, or in Tourism activities in EUSR?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                572,
+                862,
+                587
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                594,
+                862,
+                609
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            570,
+            950,
+            612
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach”⁹ lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię? / 5. Do you hold, or intend to acquire ownership interest in an \"entity in the specified regions\"¹⁰ or land in any EUSR?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                615,
+                862,
+                630
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                637,
+                862,
+                652
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            613,
+            950,
+            655
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów? / 6. Do you hold debt owed by, or intend to lend or be involved in lending to, an entity in the specified regions?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                658,
+                862,
+                673
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                680,
+                862,
+                695
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            656,
+            950,
+            698
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022? / 7. Do you intend to create a joint venture with an entity in the specified regions or have you done so since March 2022?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                702,
+                862,
+                717
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                724,
+                862,
+                739
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            700,
+            950,
+            742
+          ]
+        },
+        {
+          "section": "Sekcja B: Aktywność w niekontrolowanych przez rząd obszarach Ukrainy / Section B: Activity in the Non-Government-Controlled Territories of Ukraine",
+          "label": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię? / 8. Do you provide support or ancillary services for the activities described in 2), 3), & 4) or for Tourism activities in any EUSR?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                848,
+                745,
+                862,
+                760
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                848,
+                767,
+                862,
+                782
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi \"Tak\" na którąkolwiek z pytań w tej sekcji należy podać szczegółowe informacje w Sekcji C.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            840,
+            743,
+            950,
+            785
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "instructions",
+      "text": "wersja: 08.04.2025\n\nLa Banque\ndes Entreprises\n\nIf \"Yes\" to any or all the questions in this section, please provide additional details in **Section C**.\n\nStrona 6 z 11",
+      "fields": []
+    },
+    {
+      "page": 7,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque\ndes Entreprises\n\nStrona 7 z 11",
+      "fields": []
+    },
+    {
+      "page": 8,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n# Sekcja C: Ekspozycja na sankcje – szczegółowe informacje\n*Jeśli w sekcji A udzielono odpowiedzi \"Tak\" na pytania 1, 2, 3 lub 4, należy poniżej podać szczegóły.*\n\n# Section C: Sanctions Related Exposure Further Details\n*If \"Yes\" to questions 1, 2, 3, or 4 in Section A are selected, please provide the details below.*\n\n| Jurysdykcje sankcjonowane / Sanctioned Targets | Udział przychodów (dochodów, sprzedaży) z jurysdykcji sankcjonowanej w całkowitych przychodach (dochodach, sprzedaży) oraz szczegółowy opis działalności / Percentage of total revenue (income, sales) derived from Sanctioned Targets and describe in detail the nature of activity |  | Udział kosztów (zakupów, importu) z jurysdykcji sankcjonowanej w całkowitych kosztach (zakupach, imporcie) oraz szczegółowy opis działalności / Percentage of total expenses (purchases, imports) derived from Sanctioned Targets and describe in detail the nature of activity |  | Udział aktywów (nieruchomości, inwestycje) posiadanych w jurysdykcji sankcjonowanej w całkowitych aktywach (nieruchomościach, inwestycjach) oraz szczegółowe przeznaczenie aktywów / Percentage of total assets (real estate/property, investments) held in Sanctioned Targets and describe in detail the purpose of asset(s) |  |\n|---|---|---|---|---|---|---|\n|  | % całkowitych przychodów w / % of total Revenue | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych kosztów / % of total expenses | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych aktywów / % of total assets | Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s) |\n| Kuba / Cuba |  |  |  |  |  |  |\n| Iran / Iran |  |  |  |  |  |  |\n| Korea Północna / North Korea |  |  |  |  |  |  |\n| Syria / Syria |  |  |  |  |  |  |\n| Białoruś / Belarus |  |  |  |  |  |  |\n| Rosja / Russia |  |  |  |  |  |  |\n| Krym / Crimea |  |  |  |  |  |  |\n| *Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) / Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector) |  |  |  |  |  |  |\n\nStrona 8 z 11",
+      "fields": [
+        {
+          "section": "Section C: Sanctions Related Exposure Further Details",
+          "label": "Jurysdykcje sankcjonowane / Sanctioned Targets",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Jurysdykcje sankcjonowane / Sanctioned Targets | % całkowitych przychodów w / % of total Revenue | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych kosztów / % of total expenses | Nazwa podmiotu i charakter działalności / Name of the entity and Nature of the activity | % całkowitych aktywów / % of total assets | Nazwa podmiotu i przeznaczenie aktywów / Name of the entity and Purpose of the asset(s)",
+          "bank_reserved": false,
+          "answer_bbox": [
+            175,
+            290,
+            940,
+            680
+          ]
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "model": "google/gemma-4-31b-it:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n| Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non-government controlled territories of Donetsk Region | | | | |\n| Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non-government controlled territories of Luhansk Region | | | | |\n| Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non-government controlled territories of Kherson Region | | | | |\n| Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non-government controlled territories of Zaporizhzhia Region | | | | |\n| Suma Total | | | | |\n\nSekcja D: Środki ograniczające handel / sankcje handlowe (przepisy polskie, Unii Europejskiej, Wielkiej Brytanii, Stanów Zjednoczonych Ameryki)\nŚrodki ograniczające handel (nazywane także sankcjami handlowymi) to ograniczenia dotyczące ruchu określonych towarów z/do jurysdykcji wymienionych w poniższej tabeli lub przez ich terytorium (np. zakaz eksportu sprzętu wojskowego do Rosji).\nLista towarów, usług, oprogramowania i technologii oraz sektorów przemysłu objętych takimi środkami ograniczającymi jest długa i ulega ciągłym zmianom. Zwracamy Państwa uwagę na potrzebę przeprowadzenia własnych konsultacji z Państwa doradcami ds. zgodności i/lub prawnymi w celu potwierdzenia, czy towary lub technologia, które są przedmiotem Państwa działalności, są objęte ograniczeniami.\nJeżeli w pytaniu 1 w sekcji A udzielili Państwo odpowiedzi „Tak”, prosimy o wypełnienie również tej sekcji w pełnym zakresie. Jeżeli w pytaniu 1 w sekcji A udzielili Państwo odpowiedzi twierdzącej, ale uważają Państwo, że sekcja D nie ma zastosowania, prosimy o przedstawienie uzasadnienia poniżej.\n\nSection D: Trade Restrictive Measures/Trade Sanctions (Poland, EU, UK and US Trade Sanctions Laws)\nTrade Restrictive Measures (TRM) (also known as trade sanctions) are restrictions imposed on the movement of certain goods to/from or through the sanctioned jurisdictions in the chart below (e.g. the ban on exporting military goods to Russia). The list of goods, professional services, software and technology, and industry sectors subject to TRM is broad and everchanging. Please ensure your compliance and/or legal advisors confirm whether the goods or technology you trade in is subject to these restrictions.\nPlease note if you provided a positive response to Section A, Question 1, we expect that you will also complete this section in full. If you have completed Section A, Q1 positively, but think Section D is not applicable, please provide rationale below.\n\n1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z krajami wymienionymi w poniższej tabeli?\nDziałalność obejmuje wszelkie bezpośrednie lub pośrednie zaangażowanie, nie tylko import, eksport, tranzyt towarów, transakcje biznesowe, łańcuchy dostaw, dostarczanie towarów, oprogramowania lub usług profesjonalnych.\nW przypadku odpowiedzi „Tak” należy przedstawić szczegółowe informacje w poniższej tabeli.\n\n1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the chart below?\nActivity includes any direct or indirect involvement but is not limited to, imports, exports, transit of goods; business transactions, supply chains,provision of goods, software, technology, or professional services.\nIf yes, please provide details in the chart below.\n\n☐ Tak/Yes\n☐ Nie/No\n\nStrona 9 Z 11",
+      "fields": [
+        {
+          "section": "Trade Sanctions Table",
+          "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego Non-government controlled territories of Donetsk Region",
+          "field_type": "table",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            173,
+            115,
+            947,
+            201
+          ]
+        },
+        {
+          "section": "Trade Sanctions Table",
+          "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego Non-government controlled territories of Luhansk Region",
+          "field_type": "table",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            201,
+            115,
+            947,
+            287
+          ]
+        },
+        {
+          "section": "Trade Sanctions Table",
+          "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego Non-government controlled territories of Kherson Region",
+          "field_type": "table",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            287,
+            115,
+            947,
+            376
+          ]
+        },
+        {
+          "section": "Trade Sanctions Table",
+          "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego Non-government controlled territories of Zaporizhzhia Region",
+          "field_type": "table",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            376,
+            115,
+            947,
+            466
+          ]
+        },
+        {
+          "section": "Trade Sanctions Table",
+          "label": "Suma Total",
+          "field_type": "table",
+          "options": [],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            466,
+            115,
+            947,
+            504
+          ]
+        },
+        {
+          "section": "Sekcja D",
+          "label": "1. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi lub zamierza prowadzić działalność bezpośrednio lub pośrednio powiązaną z krajami wymienionymi w poniższej tabeli? / 1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, in the countries listed in the chart below?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                852,
+                738,
+                862,
+                748
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                852,
+                757,
+                862,
+                767
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            852,
+            738,
+            915,
+            767
+          ]
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque des Entreprises\n\n| Kraj / Country | Rodzaj działalności (np. import lub eksport) / Nature of the activity (e.g. import or export) | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność / Name AND domicile of the legal entity engaged in the activity | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. / Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority. |\n| --- | --- | --- | --- |\n| Afganistan / Afghanistan |  |  |  |\n| Angola / Angola |  |  |  |\n| Białoruś / Belarus |  |  |  |\n| Republika Środkowoafrykańska / Central African Republic |  |  |  |\n| Korea Północna / North Korea |  |  |  |\n| Demokratyczna Republika Kongo / Democratic Republic of Congo |  |  |  |\n| Haiti / Haiti |  |  |  |\n| Iran / Iran |  |  |  |\n| Irak / Iraq |  |  |  |\n| Wybrzeże Kości Słoniowej / Ivory Coast |  |  |  |\n| Liban / Lebanon |  |  |  |\n| Liberia / Liberia |  |  |  |\n| Libia / Libya |  |  |  |\n| Mjanma (Birma) / Myanmar |  |  |  |\n| Rosja / Russia |  |  |  |\n| Sierra Leone / Sierra Leone |  |  |  |\n| Somalia / Somalia |  |  |  |\n\nStrona 10 z 11",
+      "fields": [
+        {
+          "section": "Tabela krajów / Country table",
+          "label": "Kraj / Country",
+          "field_type": "table",
+          "options": [],
+          "instructions": "Rodzaj działalności (np. import lub eksport) / Nature of the activity (e.g. import or export) | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność / Name AND domicile of the legal entity engaged in the activity | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe (kody celne) lub ich odpowiedniki. Należy również wskazać, czy działalność jest objęta zezwoleniem oraz podać dane organu udzielającego takiego zezwolenia. / Type of restricted goods, software or technology including commodity codes, harmonization system codes or equivalent. Please also indicated if the activity is covered by a license and provide details of issuing authority.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            293,
+            272,
+            942,
+            898
+          ]
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "model": "qwen/qwen3.8-27b:free",
+      "page_type": "form",
+      "text": "wersja: 08.04.2025\n\nLa Banque\ndes Entreprises\n\n| Sudan Południowy<br>South Sudan |  |  |  |\n|---|---|---|---|\n| Sudan<br>Sudan |  |  |  |\n| Syria<br>Syria |  |  |  |\n| Wenezuela<br>Venezuela |  |  |  |\n| Jemen<br>Yemen |  |  |  |\n| Zimbabwe<br>Zimbabwe |  |  |  |\n\n2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście listy G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem?\n\nNależy pamiętać, że CHPL G7 jest częścią skoordynowanych starań Państw G7 mających na celu zapobieżenie wykorzystaniu krytycznych towarów w przemyśle wojskowym Rosji. Lista koncentruje się na towarach podwójnego zastosowania i zaawansowanych technologiach, które są niezbędne dla rosyjskich systemów uzbrojenia, takich jak pociski, drony i śmigłowce.\n\nList of common high priority items (europa.eu)\n\nUwaga: Powyższy link ma charakter informacyjny i La Banque des Entreprises nie odpowiada za treść i dostępność wskazanej strony internetowej. W przypadku niedostępności strony obowiązek zapoznania się z aktualną listą towarów objętych ograniczeniami leży po Państwa stronie. \"W przypadku odpowiedzi „Tak\" należy podać szczegóły dotyczące środków kontroli mających na celu uniemożliwienie udostępniania tych przedmiotów na obszarze objętym sankcjami?\"\n\n2. Do you or any of your branches/ offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's Common High Priority List (CHPL) as per the link below?\n\nPlease note the G7's CHPL is part of the coordinated effort to prevent these critical items from reaching Russia's military. The list focuses on dual-use and advanced technology items that are vital for Russian weapon systems like missiles, drones, and helicopters.\n\nList of common high priority items (europa.eu)\n\nDisclaimer: The above link is for your information and La Banque des Entreprises is not responsible for the content and availability of the website. If it becomes unavailable, it is your responsibility to make yourself acquaint with the valid list of restricted goods. \"If yes, please provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?\"\n\n3. Czy reprezentowany przez Państwa podmiot wprowadził polityki/procedury mające na celu zapewnienie zgodności z sankcjami lub środkami ograniczającymi handel ustanowionymi przez Polskę, Unię Europejską, Wielką Brytanię lub Stany Zjednoczone Ameryki?\n\n\"W przypadku odpowiedzi \"Tak\" należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych i kontroli\n\n3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?\n\nIf \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.\n\nStrona 11 z 11",
+      "fields": [
+        {
+          "section": "Lista krajów / Country list",
+          "label": "Sudan Południowy / South Sudan",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "",
+              "box_bbox": [
+                190,
+                117,
+                290,
+                142
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                290,
+                117,
+                420,
+                142
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                420,
+                117,
+                940,
+                142
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            190,
+            117,
+            940,
+            142
+          ]
+        },
+        {
+          "section": "Lista krajów / Country list",
+          "label": "Sudan / Sudan",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "",
+              "box_bbox": [
+                190,
+                142,
+                290,
+                166
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                290,
+                142,
+                420,
+                166
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                420,
+                142,
+                940,
+                166
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            190,
+            142,
+            940,
+            166
+          ]
+        },
+        {
+          "section": "Lista krajów / Country list",
+          "label": "Syria / Syria",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "",
+              "box_bbox": [
+                190,
+                166,
+                290,
+                190
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                290,
+                166,
+                420,
+                190
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                420,
+                166,
+                940,
+                190
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            190,
+            166,
+            940,
+            190
+          ]
+        },
+        {
+          "section": "Lista krajów / Country list",
+          "label": "Wenezuela / Venezuela",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "",
+              "box_bbox": [
+                190,
+                190,
+                290,
+                214
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                290,
+                190,
+                420,
+                214
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                420,
+                190,
+                940,
+                214
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            190,
+            190,
+            940,
+            214
+          ]
+        },
+        {
+          "section": "Lista krajów / Country list",
+          "label": "Jemen / Yemen",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "",
+              "box_bbox": [
+                190,
+                214,
+                290,
+                228
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                290,
+                214,
+                420,
+                228
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                420,
+                214,
+                940,
+                228
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            190,
+            214,
+            940,
+            228
+          ]
+        },
+        {
+          "section": "Lista krajów / Country list",
+          "label": "Zimbabwe / Zimbabwe",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "",
+              "box_bbox": [
+                190,
+                228,
+                290,
+                252
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                290,
+                228,
+                420,
+                252
+              ]
+            },
+            {
+              "label": "",
+              "box_bbox": [
+                420,
+                228,
+                940,
+                252
+              ]
+            }
+          ],
+          "instructions": "",
+          "bank_reserved": false,
+          "answer_bbox": [
+            190,
+            228,
+            940,
+            252
+          ]
+        },
+        {
+          "section": "Pytanie 2 / Question 2",
+          "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście listy G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem? / 2. Do you or any of your branches/ offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's Common High Priority List (CHPL) as per the link below?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                850,
+                275,
+                870,
+                288
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                850,
+                290,
+                870,
+                303
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi „Tak\" należy podać szczegóły dotyczące środków kontroli mających na celu uniemożliwienie udostępniania tych przedmiotów na obszarze objętym sankcjami / If yes, please provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?",
+          "bank_reserved": false,
+          "answer_bbox": [
+            850,
+            275,
+            910,
+            303
+          ]
+        },
+        {
+          "section": "Pytanie 2 / Question 2",
+          "label": "Szczegóły środków kontroli / Details of controls",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Wypełnić w przypadku odpowiedzi \"Tak\" / If \"Yes\" is selected",
+          "bank_reserved": false,
+          "answer_bbox": [
+            55,
+            518,
+            800,
+            609
+          ]
+        },
+        {
+          "section": "Pytanie 3 / Question 3",
+          "label": "3. Czy reprezentowany przez Państwa podmiot wprowadził polityki/procedury mające na celu zapewnienie zgodności z sankcjami lub środkami ograniczającymi handel ustanowionymi przez Polskę, Unię Europejską, Wielką Brytanię lub Stany Zjednoczone Ameryki? / 3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?",
+          "field_type": "checkbox",
+          "options": [
+            {
+              "label": "Tak/Yes",
+              "box_bbox": [
+                850,
+                649,
+                870,
+                662
+              ]
+            },
+            {
+              "label": "Nie/No",
+              "box_bbox": [
+                850,
+                664,
+                870,
+                677
+              ]
+            }
+          ],
+          "instructions": "W przypadku odpowiedzi \"Tak\" należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych i kontroli / If \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.",
+          "bank_reserved": false,
+          "answer_bbox": [
+            850,
+            649,
+            910,
+            677
+          ]
+        },
+        {
+          "section": "Pytanie 3 / Question 3",
+          "label": "Krótkie podsumowanie polityk/procedur sankcyjnych i kontroli / Brief overview of trade sanctions policies/procedures and controls",
+          "field_type": "text",
+          "options": [],
+          "instructions": "Wypełnić w przypadku odpowiedzi \"Tak\" / If \"Yes\" is selected",
+          "bank_reserved": false,
+          "answer_bbox": [
+            55,
+            718,
+            800,
+            836
+          ]
+        }
+      ]
+    }
+  ]
+}

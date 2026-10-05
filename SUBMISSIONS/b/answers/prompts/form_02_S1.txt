@@ -1,0 +1,214 @@
+You fill a bank KYC questionnaire for ONE client company, using ONLY the documents below.
+Rules (from the exercise brief):
+- Situation as of 2026-09-01; financial period FY2025. Check entity, perimeter, date and status of each document.
+- Reporting group = the client and its controlled descendants, WITHOUT the upstream parent (see PERIMETER).
+- A fact copied in several documents is not several pieces of evidence. Documents marked HISTORICAL or
+  CONTEXT ONLY can explain an answer but can never be its only source.
+- Distinguish "No", zero, not applicable and missing information. Never invent a value, a signature or a date.
+- Partial answer: give the known parts as value and list the unknown components in "missing".
+- A field whose condition (see "conditions") is not triggered by your other answers -> state "not_applicable".
+- No signature is ever executed (signature fields are handled separately). A date or place next to a signature
+  ("Signé le", "Fait à ... le", "Date") = the fixed exercise completion date / place of the mandate document,
+  state "answer".
+- Percentages: compute from the amounts and show the calculation in "justification".
+- Write values and justifications in French.
+
+States: answer | not_applicable | missing_information | human_action
+Value by field type: text/date -> string; checkbox -> exactly one printed option label (a list only if several
+boxes must be ticked); table -> one object {column: value} per row (a list of objects if the field has several
+rows); null when there is nothing to write.
+Each source = {"doc": "<path exactly as given>", "pointer": "/json/pointer/inside/that/doc"} or, for a sentence
+of a document header, {"doc": "...", "quote": "<exact words>"}. Pointers are relative to the JSON shown for
+that document (lists are indexed from 0).
+
+Return ONLY this JSON object, one entry per field id, no commentary:
+{"answers": [{"id": "p1-0", "value": ..., "state": "...", "sources": [...], "justification": "...", "missing": []}]}
+
+QUESTIONNAIRE: form_02 (Français), fields to answer:
+{"id": "p1-0", "section": "I - IDENTIFICATION DU CLIENT", "label": "Dénomination Sociale*", "type": "text"}
+{"id": "p1-1", "section": "I - IDENTIFICATION DU CLIENT", "label": "Forme Juridique :", "type": "text"}
+{"id": "p1-2", "section": "I - IDENTIFICATION DU CLIENT", "label": "Adresse du siège social* :", "type": "text"}
+{"id": "p1-3", "section": "I - IDENTIFICATION DU CLIENT", "label": "Code postal* :", "type": "text"}
+{"id": "p1-4", "section": "I - IDENTIFICATION DU CLIENT", "label": "Ville* :", "type": "text"}
+{"id": "p1-5", "section": "I - IDENTIFICATION DU CLIENT", "label": "Pays * :", "type": "text"}
+{"id": "p1-6", "section": "I - IDENTIFICATION DU CLIENT", "label": "Adresse de l'établissement (si différent du siège social) :", "type": "text"}
+{"id": "p1-7", "section": "I - IDENTIFICATION DU CLIENT", "label": "N° RCS* :", "type": "text"}
+{"id": "p1-8", "section": "I - IDENTIFICATION DU CLIENT", "label": "Lieu d'enregistrement :", "type": "text"}
+{"id": "p1-9", "section": "I - IDENTIFICATION DU CLIENT", "label": "Autres numéros d'identification :", "type": "text"}
+{"id": "p1-10", "section": "I - IDENTIFICATION DU CLIENT", "label": "Code NACE :", "type": "text"}
+{"id": "p1-11", "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT", "label": "Pays de résidence fiscale* / Numéro d'Identification Fiscale (NIF)*", "type": "table", "conditions": "3 rows (1. 2. 3.) | Pays de résidence fiscale* (en toutes lettres, TOUS les pays, y compris la France) | NIF* ou 'NA' si aucun NIF délivré. Footnote (3): sans résidence fiscale, indiquer le pays de l'établissement principal / siège de direction effective. Footnote (4): NIF non obligatoire si résidence fiscale = France. Si résidence fiscale aux Etats-Unis : formulaire W-9 à compléter."}
+{"id": "p2-0", "section": "III - STATUT DU CLIENT", "label": "Catégorie du client (A, B, C ou D)*", "type": "checkbox", "options": ["A. Entité Non Financière Active", "B. Entité Non Financière Passive", "C. Institution financière", "D. Entités exemptées de la déclaration"], "conditions": "Cocher UNE seule catégorie. Si B (ENF Passive) : renseigner les bénéficiaires effectifs en partie III bis."}
+{"id": "p2-1", "section": "A. Entité Non Financière Active", "label": "A. Entité Non Financière Active - sous-catégorie*", "type": "checkbox", "options": ["Entité dont la part des revenus passifs représente moins de 50% du total des revenus", "Organisme sans but lucratif", "Autre \"ENF Active\""], "conditions": "Uniquement si la catégorie A est cochée."}
+{"id": "p2-2", "section": "A. Entité Non Financière Active", "label": "Autre \"ENF Active\" (précision)", "type": "text", "conditions": "Uniquement si la sous-catégorie 'Autre ENF Active' est cochée."}
+{"id": "p2-3", "section": "C. Institution financière", "label": "C. Numéro GIIN", "type": "text", "conditions": "Uniquement si catégorie C, 'si applicable'. 16 cases (6-5-2-3)."}
+{"id": "p2-4", "section": "C. Institution financière", "label": "C. Statut si GIIN non exigé", "type": "text", "conditions": "Uniquement si catégorie C."}
+{"id": "p2-5", "section": "C. Institution financière", "label": "C. Entité d'investissement gérée par une institution financière (pays non-partie à l'échange automatique)", "type": "checkbox", "options": ["Oui", "Non"], "conditions": "Uniquement si catégorie C et résidence fiscale dans un pays non-partie à l'échange automatique d'informations. Si Oui : renseigner les bénéficiaires effectifs en partie III bis."}
+{"id": "p2-6", "section": "D. Entités exemptées de la déclaration", "label": "D. Entités exemptées - statut", "type": "checkbox", "options": ["Société cotée en bourse ou filiale contrôlée par une société cotée en bourse", "Entité publique", "Organisation internationale", "Banque centrale", "Entité exclue au sens de la réglementation FATCA et NCD ou DAC"], "conditions": "Uniquement si la catégorie D est cochée."}
+{"id": "p3-0", "section": "III bis - INFORMATIONS RELATIVES AUX BÉNÉFICIAIRES EFFECTIFS", "label": "Bénéficiaires effectifs", "type": "table", "conditions": "Uniquement si III (B) ENF Passive, ou III (C) avec réponse Oui. 4 blocs personne | (1) Nom* et (2) Prénom* / (3) Date de naissance* et (4) Pays de naissance* / (5) Nationalité(s)* / (6) Adresse complète de résidence actuelle* | Pays de résidence fiscale* (TOUS) | NIF* ou NA | % de détention* : du capital en direct | du capital en indirect | des droits de vote (si différent). Personne physique uniquement ; si citoyen américain : 'Etats-Unis d'Amérique' + TIN."}
+{"id": "p4-0", "section": "IV - DÉCLARATION", "label": "Fait à*", "type": "text"}
+{"id": "p4-1", "section": "IV - DÉCLARATION", "label": "le*", "type": "text"}
+{"id": "p4-3", "section": "IV - DÉCLARATION / Représentant légal*", "label": "Nom*", "type": "text"}
+{"id": "p4-4", "section": "IV - DÉCLARATION / Représentant légal*", "label": "Prénom*", "type": "text"}
+{"id": "p4-5", "section": "IV - DÉCLARATION / Représentant légal*", "label": "Fonction au sein de l'entité cliente*", "type": "text"}
+
+CLIENT: Belorive Patrimoine SAS (id sim-hackathon-b-client), situation as of 2026-09-01, FY2025.
+PERIMETER (reporting group):
+- IN  Belorive Patrimoine SAS (sim-hackathon-b-client, FR): reporting_client
+- IN  Belorive Immobilier Belarus LLC (sim-hackathon-b-entity-1, BY): controlled_descendant
+- IN  Belorive Clôture Russia LLC (sim-hackathon-b-entity-2, RU): controlled_descendant
+- OUT Belorive Participations SAS (sim-hackathon-b-parent, FR): upstream_parent_excluded_from_reporting
+PERSONS (folder sources/persons/<id>):
+- 29374053-356e-5d60-979c-fd6cf6bb51b9: Camille Orvaux
+- 9751a47f-e88f-5771-9d5c-ec1a6e8728cd: Samir Dervelle
+- 78da5c96-5e92-582b-8d59-68dceaeae03a: Léa Montelac
+- 8ae0d408-2d51-5c8f-822a-a795e9baa779: Alex Fernel
+- 0cd724dc-b507-56d2-ae8d-2f35ff747f6d: Julien Valsenne
+DOCUMENTED GAPS (explicitly unknown in the sources):
+- sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json /tins/United States: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json /missing_id_reason: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/persons/0cd724dc-b507-56d2-ae8d-2f35ff747f6d/personal_facts.json /birth_date: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/person_relationships.json /0/control_basis: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/person_relationships.json /2/control_basis: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/person_relationships.json /3/control_basis: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/corporate.md /establishment: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/corporate.md /lei: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/corporate.md /market: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/corporate.md /other_funds: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/tax.md /active_subtype: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/tax.md /supervisor: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/activities.md /activities/0/bank_product: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/activities.md /activities/1/bank_product: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/compliance.md /government: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/compliance.md /dual_use: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/finance.md /group_totals/assets: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/finance.md /activities/0/bank_product: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+- sources/companies/sim-hackathon-b-client/finance.md /activities/1/bank_product: Explicitly unknown or absent in the authored context; no positive assertion emitted.
+
+DOCUMENTS:
+
+### DOC sources/companies/sim-hackathon-b-client/activities.md  [role: primary]
+# International activity register
+
+Document ID: B-ACTIVITIES-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+JSON: {"activities": [{"country": "Belarus", "entity": "Belorive Immobilier Belarus LLC", "domicile": "1 avenue du Site Fictif, Belarus", "description": "Existing property leases to private commercial tenants; no new investments contemplated.", "current": true, "planned": false, "revenue": 200000, "expenses": 60000, "assets": 500000, "entity_totals": {"revenue": 2000000, "expenses": 1000000, "assets": 5000000}, "third_parties": ["Locataire Boréal SIM LLC"], "government": false, "bank_use": false, "bank_product": null, "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."}, {"country": "Russia", "entity": "Belorive Clôture Russia LLC", "domicile": "1 avenue du Site Fictif, Russia", "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.", "current": true, "planned": false, "revenue": 0, "expenses": 24000, "assets": 100000, "entity_totals": {"revenue": 0, "expenses": 120000, "assets": 500000}, "third_parties": ["Archivage Nord SIM LLC"], "government": false, "bank_use": false, "bank_product": null, "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."}], "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries.", "ukraine_regions_activity": false, "bank_users": ["Belorive Patrimoine SAS"]}
+
+### DOC sources/companies/sim-hackathon-b-client/compliance.md  [role: primary]
+# Compliance policy and exception register
+
+Document ID: B-COMPLIANCE-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+
+All legal classifications, screened-status declarations and permissions here are fictional exercise stipulations. Do not consult live lists or infer real legality. There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment. No entity using the issuer has a Russia/Belarus formation or ≥40% ownership/citizenship nexus. Any intended use of issuer products is a proposal subject to approval, not an executed transaction. Where an authorization is listed, it is a simulated reliance for the exercise only.
+JSON: {"policy": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.", "bank_use": false, "bank_account": "SIM-ACCOUNT-B", "isolation": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.", "licenses": [{"reference": "SIM-AUTH-B-01", "type": "Fictional sanctions wind-down authorization", "recipient": "Belorive Clôture Russia LLC", "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment", "authority": "Simulation Authorization Office", "expiry": "2026-12-31"}], "government": null, "governance_nexus": {"name": "Julien Valsenne", "role": "Director of Belorive Clôture Russia LLC", "nationality": "France", "residence": "Russia", "ownership_pct": 0, "listed": false, "government_role": false}, "dual_use": null, "chpl": false, "bank_users": ["Belorive Patrimoine SAS"], "negative_declaration": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."}
+
+### DOC sources/companies/sim-hackathon-b-client/corporate.md  [role: primary]
+# Corporate register extract
+
+Document ID: B-CORPORATE-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+
+The reporting group consists of this client and its controlled descendants, excluding its upstream parent. NACE and business-type labels are stipulated case facts. Countries of incorporation are in the perimeter; activity location does not change incorporation.
+JSON: {"name": "Belorive Patrimoine SAS", "business_description": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.", "headcount": 18, "source_of_funds_description": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.", "as_of": "2026-09-01", "period": "2025-01-01/2025-12-31", "currency": "EUR", "incorporation": "France", "legal_form": "SAS", "street": "11 rue des Sociétés Fictives", "postcode": "69000", "city": "Lyon", "country": "France", "address": "11 rue des Sociétés Fictives, 69000 Lyon, France", "establishment": null, "registration": "SIM-RCS-B-001", "registry_place": "Lyon", "tin": "SIM-TIN-B-FR", "other_ids": "SIM-INTERNAL-B-001", "lei": null, "nace": "68.20", "listed": false, "market": null, "parent": {"name": "Belorive Participations SAS", "incorporation": "France", "tax_residence": "France", "address": "50 place du Groupe Fictif, 69000 Lyon, France", "capital_pct": 70, "votes_pct": 70, "owners": [{"person": "B1", "pct": 60}, {"person": "B2", "pct": 40}]}, "entity_category": "Mere Asset Holding Company", "bearer": false, "funds": ["Own activity", "Investors"], "other_funds": null, "perimeter": [{"name": "Belorive Patrimoine SAS", "country": "France", "ownership_pct": 100, "relation": "reporting entity", "bank_user": true}, {"name": "Belorive Immobilier Belarus LLC", "country": "Belarus", "ownership_pct": 100, "relation": "wholly owned subsidiary", "bank_user": false}, {"name": "Belorive Clôture Russia LLC", "country": "Russia", "ownership_pct": 100, "relation": "wholly owned subsidiary", "bank_user": false}]}
+
+### DOC sources/companies/sim-hackathon-b-client/exposure.csv  [role: primary (derived table)]
+JSON: [{"country": "Belarus", "entity": "Belorive Immobilier Belarus LLC", "planned": "False", "revenue": "200000", "expenses": "60000", "assets": "500000", "entity_revenue": "2000000", "entity_expenses": "1000000", "entity_assets": "5000000"}, {"country": "Russia", "entity": "Belorive Clôture Russia LLC", "planned": "False", "revenue": "0", "expenses": "24000", "assets": "100000", "entity_revenue": "0", "entity_expenses": "120000", "entity_assets": "500000"}]
+
+### DOC sources/companies/sim-hackathon-b-client/finance.md  [role: primary]
+# Consolidation and geographic exposure schedule
+
+Document ID: B-FINANCE-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+
+Amounts are EUR. Group totals are consolidated after eliminations; listed country amounts are already net of eliminations and must not be netted again. Revenue and expense values cover FY2025; assets are balances at 2025-12-31. Entity totals are separate denominators: do not sum totals repeated across country rows for the same entity. Unlisted jurisdictions have explicit zero historical exposure and no planned activity. A zero entity denominator makes its percentage N/A. Plans carry no historical amounts. Current/planned scope is given in the activity register.
+JSON: {"period": "2025-01-01/2025-12-31", "currency": "EUR", "group_totals": {"revenue": 20000000, "expenses": 12000000, "assets": null}, "group_assets_note": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.", "activities": [{"country": "Belarus", "entity": "Belorive Immobilier Belarus LLC", "domicile": "1 avenue du Site Fictif, Belarus", "description": "Existing property leases to private commercial tenants; no new investments contemplated.", "current": true, "planned": false, "revenue": 200000, "expenses": 60000, "assets": 500000, "entity_totals": {"revenue": 2000000, "expenses": 1000000, "assets": 5000000}, "third_parties": ["Locataire Boréal SIM LLC"], "government": false, "bank_use": false, "bank_product": null, "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."}, {"country": "Russia", "entity": "Belorive Clôture Russia LLC", "domicile": "1 avenue du Site Fictif, Russia", "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.", "current": true, "planned": false, "revenue": 0, "expenses": 24000, "assets": 100000, "entity_totals": {"revenue": 0, "expenses": 120000, "assets": 500000}, "third_parties": ["Archivage Nord SIM LLC"], "government": false, "bank_use": false, "bank_product": null, "classification": "Scenario classification: ordinary non-controlled activity; no commodity code applicable."}]}
+
+### DOC sources/companies/sim-hackathon-b-client/mandate.md  [role: primary]
+# Board mandate and signatory register
+
+Document ID: B-MANDATE-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+
+Only the listed representatives hold the relevant authority. An overlap with the ownership register refers to the same person. The date is the fixed exercise completion date, not an actual executed signature. No signature is supplied.
+JSON: {"name": "Belorive Patrimoine SAS", "date": "01/09/2026", "place": "Lyon", "signer": {"id": "B1", "given": "Camille", "surname": "Orvaux", "name": "Camille Orvaux", "birth_date": "1980-04-12", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-B1-FR"}, "id_number": "SIM-ID-B1"}, "signer_role": "Présidente", "representatives": [{"id": "B1", "given": "Camille", "surname": "Orvaux", "name": "Camille Orvaux", "birth_date": "1980-04-12", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-B1-FR"}, "id_number": "SIM-ID-B1"}, {"id": "BR", "given": "Alex", "surname": "Fernel", "name": "Alex Fernel", "birth_date": "1985-08-23", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-BR-FR"}, "id_number": "SIM-ID-BR", "missing_id_reason": null}], "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required.", "bank_requests_clarification": false}
+
+### DOC sources/companies/sim-hackathon-b-client/office_supplies_invoice.json  [role: CONTEXT ONLY - not KYC evidence]
+JSON: {"document_id": "B-INVOICE-20260815", "issued_at": "2026-08-15", "record_type": "invoice", "buyer": "Belorive Patrimoine SAS", "supplier": "Papeterie des Ateliers Fictifs SAS", "supplier_country": "France", "invoice_reference": "SIM-INVOICE-B-0815", "currency": "EUR", "items": [{"description": "Recycled paper and office stationery", "quantity": 10, "net_amount": 240}], "net_total": 240, "vat_total": 48, "gross_total": 288, "service_scope": "Domestic office supplies; FY2026 purchase, not an FY2025 consolidated financial schedule."}
+
+### DOC sources/companies/sim-hackathon-b-client/ownership.md  [role: primary]
+# Ownership and control register
+
+Document ID: B-OWNERSHIP-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+
+The listed controlling persons are complete. Percentages relate to the client, after looking through the upstream parent where applicable. All unmentioned nationality, sanctions-list and government-affiliation flags are negative. Any control rights other than ownership are documented explicitly; no other person exercises such control.
+JSON: {"people": [{"id": "B1", "given": "Camille", "surname": "Orvaux", "name": "Camille Orvaux", "birth_date": "1980-04-12", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-B1-FR"}, "id_number": "SIM-ID-B1", "direct_pct": 0, "indirect_pct": 42, "votes_pct": 42, "control_since": "2020-01-15"}, {"id": "B2", "given": "Samir", "surname": "Dervelle", "name": "Samir Dervelle", "birth_date": "1985-08-23", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-B2-FR"}, "id_number": "SIM-ID-B2", "direct_pct": 0, "indirect_pct": 28, "votes_pct": 28, "control_since": "2020-01-15"}, {"id": "B3", "given": "Léa", "surname": "Montelac", "name": "Léa Montelac", "birth_date": "1985-08-23", "birth_country": "France", "nationalities": ["France", "United States"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France", "United States"], "tins": {"France": "SIM-TIN-B3-FR", "United States": null}, "id_number": "SIM-ID-B3", "direct_pct": 30, "indirect_pct": 0, "votes_pct": 30, "control_since": "2020-01-15", "tin_note": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required."}], "parent": {"name": "Belorive Participations SAS", "incorporation": "France", "tax_residence": "France", "address": "50 place du Groupe Fictif, 69000 Lyon, France", "capital_pct": 70, "votes_pct": 70, "owners": [{"person": "B1", "pct": 60}, {"person": "B2", "pct": 40}]}, "governance_nexus": {"name": "Julien Valsenne", "role": "Director of Belorive Clôture Russia LLC", "nationality": "France", "residence": "Russia", "ownership_pct": 0, "listed": false, "government_role": false}}
+
+### DOC sources/companies/sim-hackathon-b-client/person_relationships.json  [role: subject record]
+JSON: [{"person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9", "subsidiary_id": "sim-hackathon-b-client", "relationship_type": "ubo_of", "effective_from": "2020-01-15", "direct_pct": 0, "indirect_pct": 42, "votes_pct": 42, "control_basis": null}, {"person_id": "29374053-356e-5d60-979c-fd6cf6bb51b9", "subsidiary_id": "sim-hackathon-b-client", "relationship_type": "signatory_for", "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."}, {"person_id": "9751a47f-e88f-5771-9d5c-ec1a6e8728cd", "subsidiary_id": "sim-hackathon-b-client", "relationship_type": "ubo_of", "effective_from": "2020-01-15", "direct_pct": 0, "indirect_pct": 28, "votes_pct": 28, "control_basis": null}, {"person_id": "78da5c96-5e92-582b-8d59-68dceaeae03a", "subsidiary_id": "sim-hackathon-b-client", "relationship_type": "ubo_of", "effective_from": "2020-01-15", "direct_pct": 30, "indirect_pct": 0, "votes_pct": 30, "control_basis": null}, {"person_id": "8ae0d408-2d51-5c8f-822a-a795e9baa779", "subsidiary_id": "sim-hackathon-b-client", "relationship_type": "signatory_for", "authority": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."}]
+
+### DOC sources/companies/sim-hackathon-b-client/registered_office_archive.json  [role: HISTORICAL - superseded, not evidence]
+JSON: {"document_id": "B-REGISTRY-20241231", "issued_at": "2024-12-31", "record_type": "registered_office_notice", "entity": "Belorive Patrimoine SAS", "registration": "SIM-RCS-B-001", "address": "71 rue des Anciennes Archives Fictives, 33000 Bordeaux, France", "valid_from": "2024-01-01", "valid_to": "2024-12-31", "record_status": "superseded", "superseded_by": "B-CORPORATE-20260901", "notice": "Historical address only. Current registered office is recorded in the September 2026 corporate register."}
+
+### DOC sources/companies/sim-hackathon-b-client/staff_training_plan.json  [role: CONTEXT ONLY - not KYC evidence]
+JSON: {"document_id": "B-HR-20260820", "issued_at": "2026-08-20", "record_type": "hr_plan", "entity": "Belorive Patrimoine SAS", "headcount": 18, "sessions": [{"topic": "Workstation ergonomics", "duration_hours": 2}, {"topic": "Spreadsheet basics", "duration_hours": 3}], "venue": "Lyon, France", "budget_eur": 1200, "period": "2026", "status": "Internal scheduling proposal; not a compliance-policy or authorization record."}
+
+### DOC sources/companies/sim-hackathon-b-client/tax.md  [role: primary]
+# Tax status memorandum
+
+Document ID: B-TAX-20260901
+
+**FICTIONAL EXERCISE DOCUMENT — NOT VALID FOR REAL USE.**
+
+Entity: Belorive Patrimoine SAS. Information as of 2026-09-01; accounting period is calendar 2025. The register covers its stated population; individual attributes explicitly marked unknown remain unknown. SIM-prefixed identifiers are deliberately invalid placeholders, not real tax, passport, registration, bank-account or authorization numbers.
+
+Classification is an explicit fact of this simulation, not tax advice. No financial-institution or exempt status, GIIN requirement, US entity tax residence or additional entity tax residence applies. Personal tax residence and citizenship are separate in the ownership register.
+JSON: {"tax_residences": [{"country": "France", "tin": "SIM-TIN-B-FR"}], "tax_category": "Passive non-financial entity", "active_subtype": null, "passive_income_pct": 80, "passive_assets_pct": 75, "supervisor": null, "unsupervised": true}
+
+### DOC sources/companies/sim-hackathon-b-entity-1/entity_facts.json  [role: subject record]
+JSON: {"subsidiary_name": "Belorive Immobilier Belarus LLC", "country_iso2": "BY", "address": "1 avenue du Site Fictif, Belarus", "financial_totals": {"revenue": 2000000, "expenses": 1000000, "assets": 5000000}}
+
+### DOC sources/companies/sim-hackathon-b-entity-1/entity_registry_extract.json  [role: subject record]
+JSON: {"document_id": "B-RELATED-REGISTRY-20260901", "issued_at": "2026-09-01", "record_type": "registry_extract", "entity": "Belorive Immobilier Belarus LLC", "registration": "SIM-RCS-B-RELATED-009", "registered_office": "1 avenue du Site Fictif, Belarus", "incorporation_country": "BY", "scope": "This extract belongs only to the named legal entity. It does not establish a tax residence or any identifier for another group company."}
+
+### DOC sources/companies/sim-hackathon-b-entity-2/entity_facts.json  [role: subject record]
+JSON: {"subsidiary_name": "Belorive Clôture Russia LLC", "country_iso2": "RU", "address": "1 avenue du Site Fictif, Russia", "financial_totals": {"revenue": 0, "expenses": 120000, "assets": 500000}}
+
+### DOC sources/companies/sim-hackathon-b-entity-2/person_relationships.json  [role: subject record]
+JSON: [{"person_id": "0cd724dc-b507-56d2-ae8d-2f35ff747f6d", "subsidiary_id": "sim-hackathon-b-entity-2", "relationship_type": "director_of", "description": "Director of Belorive Clôture Russia LLC"}]
+
+### DOC sources/companies/sim-hackathon-b-parent/entity_facts.json  [role: subject record]
+JSON: {"subsidiary_name": "Belorive Participations SAS", "country_iso2": "FR", "address": "50 place du Groupe Fictif, 69000 Lyon, France"}
+
+### DOC sources/persons/0cd724dc-b507-56d2-ae8d-2f35ff747f6d/personal_facts.json  [role: subject record]
+JSON: {"name": "Julien Valsenne", "given": "Julien", "surname": "Valsenne", "birth_date": null, "nationalities": ["France"], "residences": ["Russia"]}
+
+### DOC sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json  [role: subject record]
+JSON: {"given": "Camille", "surname": "Orvaux", "name": "Camille Orvaux", "birth_date": "1980-04-12", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-B1-FR"}, "id_number": "SIM-ID-B1"}
+
+### DOC sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json  [role: subject record]
+JSON: {"given": "Léa", "surname": "Montelac", "name": "Léa Montelac", "birth_date": "1985-08-23", "birth_country": "France", "nationalities": ["France", "United States"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France", "United States"], "tins": {"France": "SIM-TIN-B3-FR", "United States": null}, "id_number": "SIM-ID-B3", "tin_note": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required."}
+
+### DOC sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json  [role: subject record]
+JSON: {"given": "Alex", "surname": "Fernel", "name": "Alex Fernel", "birth_date": "1985-08-23", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-BR-FR"}, "id_number": "SIM-ID-BR", "missing_id_reason": null}
+
+### DOC sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json  [role: subject record]
+JSON: {"given": "Samir", "surname": "Dervelle", "name": "Samir Dervelle", "birth_date": "1985-08-23", "birth_country": "France", "nationalities": ["France"], "residences": ["France"], "address": "12 avenue des Personnages Fictifs, 69000 Lyon, France", "tax_residences": ["France"], "tins": {"France": "SIM-TIN-B2-FR"}, "id_number": "SIM-ID-B2"}

@@ -1,0 +1,197 @@
+{
+ "1": [
+  {
+   "op": "set",
+   "i": 11,
+   "set": {
+    "label": "Pays de résidence fiscale* / Numéro d'Identification Fiscale (NIF)*",
+    "instructions": "3 rows (1. 2. 3.) | Pays de résidence fiscale* (en toutes lettres, TOUS les pays, y compris la France) | NIF* ou 'NA' si aucun NIF délivré. Footnote (3): sans résidence fiscale, indiquer le pays de l'établissement principal / siège de direction effective. Footnote (4): NIF non obligatoire si résidence fiscale = France. Si résidence fiscale aux Etats-Unis : formulaire W-9 à compléter."
+   },
+   "why": "Model kept the table but not its row count or the footnotes (3) and (4), which change what must be written (NIF optional for France)."
+  }
+ ],
+ "2": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "label": "Catégorie du client (A, B, C ou D)*",
+    "instructions": "Cocher UNE seule catégorie. Si B (ENF Passive) : renseigner les bénéficiaires effectifs en partie III bis."
+   },
+   "why": "Label was the whole instruction sentence; the 'one category only' rule and the B -> III bis dependency were missing."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "label": "A. Entité Non Financière Active - sous-catégorie*",
+    "instructions": "Uniquement si la catégorie A est cochée."
+   },
+   "why": "Generic label 'Veuillez préciser la sous-catégorie associée' did not say it belongs to category A; condition missing."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "label": "Autre \"ENF Active\" (précision)",
+    "answer_bbox": [
+     340,
+     196,
+     740,
+     214
+    ],
+    "instructions": "Uniquement si la sous-catégorie 'Autre ENF Active' est cochée."
+   },
+   "why": "Answer zone was 7/1000 high (unusable for text); resized to the dotted line. Condition missing."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "label": "C. Numéro GIIN",
+    "instructions": "Uniquement si catégorie C, 'si applicable'. 16 cases (6-5-2-3)."
+   },
+   "why": "Condition (category C) and the 16-box layout were missing."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "label": "C. Statut si GIIN non exigé",
+    "answer_bbox": [
+     668,
+     395,
+     951,
+     412
+    ],
+    "instructions": "Uniquement si catégorie C."
+   },
+   "why": "Answer zone was 5/1000 high and started on the printed words 'correspondant :'; resized to the dotted line. Condition missing."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "label": "C. Entité d'investissement gérée par une institution financière (pays non-partie à l'échange automatique)",
+    "instructions": "Uniquement si catégorie C et résidence fiscale dans un pays non-partie à l'échange automatique d'informations. Si Oui : renseigner les bénéficiaires effectifs en partie III bis."
+   },
+   "why": "Label truncated mid-sentence; the double condition was only half captured."
+  },
+  {
+   "op": "set",
+   "i": 6,
+   "set": {
+    "label": "D. Entités exemptées - statut",
+    "instructions": "Uniquement si la catégorie D est cochée."
+   },
+   "why": "Generic label; condition (category D) missing."
+  }
+ ],
+ "3": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "III bis - INFORMATIONS RELATIVES AUX BÉNÉFICIAIRES EFFECTIFS",
+    "label": "Bénéficiaires effectifs",
+    "instructions": "Uniquement si III (B) ENF Passive, ou III (C) avec réponse Oui. 4 blocs personne | (1) Nom* et (2) Prénom* / (3) Date de naissance* et (4) Pays de naissance* / (5) Nationalité(s)* / (6) Adresse complète de résidence actuelle* | Pays de résidence fiscale* (TOUS) | NIF* ou NA | % de détention* : du capital en direct | du capital en indirect | des droits de vote (si différent). Personne physique uniquement ; si citoyen américain : 'Etats-Unis d'Amérique' + TIN."
+   },
+   "why": "Label was the banner 'Toutes les informations ci-dessous sont obligatoires'; the trigger condition and the 'natural person only' rule were missing."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "label": "Cadre réservé - justification des incohérences/contradictions",
+    "instructions": "À renseigner à la demande de la banque uniquement ; ne pas remplir en l'absence de contradictions signalées."
+   },
+   "why": "Label was the full sentence; kept bank_reserved=true (box is titled 'CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE')."
+  }
+ ],
+ "4": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "IV - DÉCLARATION",
+    "answer_bbox": [
+     150,
+     372,
+     318,
+     387
+    ]
+   },
+   "why": "Zone overran the next label 'le*' (nemotron); trimmed to the dotted line."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "IV - DÉCLARATION",
+    "answer_bbox": [
+     356,
+     372,
+     601,
+     387
+    ]
+   },
+   "why": "Height adjusted to the dotted line."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "IV - DÉCLARATION",
+    "answer_bbox": [
+     715,
+     368,
+     957,
+     395
+    ]
+   },
+   "why": "Zone sat on the printed label 'Signature* :' itself (x 620-750); moved to the free space right of the colon."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "IV - DÉCLARATION / Représentant légal*",
+    "answer_bbox": [
+     121,
+     411,
+     312,
+     428
+    ]
+   },
+   "why": "Zone was ~7% too low (y 480), inside the penal-code paragraph (nemotron); moved to the blue input cell."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "IV - DÉCLARATION / Représentant légal*",
+    "answer_bbox": [
+     410,
+     411,
+     601,
+     428
+    ]
+   },
+   "why": "Zone was ~7% too low (y 480), inside the penal-code paragraph (nemotron); moved to the blue input cell."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "IV - DÉCLARATION / Représentant légal*",
+    "answer_bbox": [
+     340,
+     434,
+     634,
+     451
+    ]
+   },
+   "why": "Zone was ~8% too low (y 520), inside the penal-code paragraph (nemotron); moved to the blue input cell."
+  }
+ ]
+}

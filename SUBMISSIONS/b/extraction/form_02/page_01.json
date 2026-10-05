@@ -1,0 +1,201 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 56.4,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 3763,
+    "total_tokens": 6423,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1616,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "mixed",
+    "text": "La Banque des Entreprises\n\nREF00001 - autocertification PM statut incertain - V 15.09.2017\n\n# AUTO-CERTIFICATION\n## DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES\n\nLa réglementation relative à l'échange automatique d'informations^(1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français :\n- des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers ;\n- des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française.\n\nA ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal.\n\n**L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.**\n\n**I - IDENTIFICATION DU CLIENT**\n\nDénomination Sociale* :\nForme Juridique :\nAdresse du siège social* :\nCode postal* :   Ville* :   Pays * :\nAdresse de l'établissement (si différent du siège social) :\nN° RCS* :   Lieu d'enregistrement :\nAutres numéros d'identification :\nCode NACE :\n\n**II - RÉSIDENCE(S) FISCALE(S) DU CLIENT (2)**\n\nVeuillez indiquer ci-dessous, en toutes lettres, TOUS les pays où la Personne Morale ou l'entité cliente est résidente fiscale^(3), y compris le cas échant la France\n\n| Pays de résidence fiscale* | Numéro d'Identification Fiscale (NIF)* ou indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale^(4) |\n| 1. | |\n| 2. | |\n| 3. | |\n\nSi vous avez indiqué que la Personne Morale ou l'entité cliente est résidente fiscale aux Etats-Unis **merci de compléter également le formulaire W-9 de l'IRS (5)** (administration fiscale américaine).\n\n(1) La réglementation concernant l'échange automatique d'informations relatif aux comptes en matière fiscale vise : - la loi n° 2014-1098 du 29 septembre 2014 ratifiant l'Accord intergouvernemental entre la France et les États-Unis d'Amérique en vue d'améliorer le respect des obligations fiscales à l'échelle internationale et de mettre en œuvre la loi relative au respect des obligations fiscales concernant les comptes étrangers (dite « Loi FATCA ») ; - le décret n°2016-1683 du 5 décembre 2016 fixant les règles et procédures concernant l'échange automatique et obligatoire de renseignements relatifs aux comptes financiers, mettant en œuvre la « norme commune de déclaration » de l'OCDE et transposant les annexes I et II de la directive 2014/107/UE du Conseil du 9 décembre 2014 modifiant la directive 2011/16/UE ; - le décret n° 2016-1779 du 19 décembre 2016 portant publication de l'accord multilatéral entre autorités compétentes concernant l'échange automatique de renseignements relatifs aux comptes financiers (ensemble six annexes), signé à Berlin le 29 octobre 2014. (2) En tant qu'institution financière, la La Banque des Entreprises n'est pas habilitée à remplir ce document au nom du client ou à lui fournir des conseils fiscaux en vue de remplir ce document. Aussi, en cas de doute sur le statut du client ou sur sa résidence fiscale, il est vivement recommandé de consulter un conseiller fiscal. (3) Si le client n'a pas de résidence fiscale, veuillez indiquer le pays de situation de l'établissement principal ou le siège de direction effective de l'entité cliente. (4) Le NIF n'est pas obligatoire pour les clients dont le pays de résidence fiscale est la France. (5) Vous trouverez le formulaire W9 en allant sur le site de l'IRS (https://www.irs.gov/pub/irs-pdf/fw9.pdf pour accès direct au document ou https://www.irs.gov/uac/about-form-w9 pour accès au document et explications).",
+    "fields": [
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Dénomination Sociale*",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          200,
+          332,
+          955,
+          348
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Forme Juridique :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          170,
+          348,
+          955,
+          364
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Adresse du siège social* :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          210,
+          372,
+          955,
+          388
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Code postal* :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          290,
+          388,
+          360,
+          404
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Ville* :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          430,
+          388,
+          690,
+          404
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Pays * :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          740,
+          388,
+          955,
+          404
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Adresse de l'établissement (si différent du siège social) :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          390,
+          412,
+          955,
+          428
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "N° RCS* :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          145,
+          432,
+          575,
+          448
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Lieu d'enregistrement :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          730,
+          432,
+          955,
+          448
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Autres numéros d'identification :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          260,
+          452,
+          955,
+          468
+        ]
+      },
+      {
+        "section": "I - IDENTIFICATION DU CLIENT",
+        "label": "Code NACE :",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          140,
+          472,
+          955,
+          488
+        ]
+      },
+      {
+        "section": "II - RÉSIDENCE(S) FISCALE(S) DU CLIENT",
+        "label": "Pays de résidence fiscale* / Numéro d'Identification Fiscale (NIF)*",
+        "field_type": "table",
+        "options": [],
+        "instructions": "Pays de résidence fiscale* | Numéro d'Identification Fiscale (NIF)* ou indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale",
+        "bank_reserved": false,
+        "answer_bbox": [
+          55,
+          595,
+          955,
+          645
+        ]
+      }
+    ]
+  }
+}
