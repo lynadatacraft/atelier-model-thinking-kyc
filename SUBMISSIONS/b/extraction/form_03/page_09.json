@@ -1,0 +1,89 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 37.7,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 1491,
+    "total_tokens": 4151,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 742,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "La Banque\ndes Entreprises\n\nStep 4: Certification\n\nThe requirements of the relevant anti money laundering legislation require institutions to gather client's information of their professional or business activity. The client subscribes to this Declaration and assumes the responsibility of the provided data listed on this declaration. Additionally, the client commits itself to communicate La Banque des Entreprises (La Banque des Entreprises) any data amendment during its relationship with La Banque des Entreprises. The lack of veracity or updates in the mentioned data and/or documents authorizes La Banque des Entreprises to terminate any or all the contracts formalized with the client.\n\nWithout prejudice to the provisions of article L.511-33 of the French Code monétaire et financier, and in accordance with them, the client expressly agrees that in addition to the cases provided for in this article, we may disclose to any entities belonging to the same group as La Banque des Entreprises, information about it protected by professional secrecy, if the persons to whom this information is disclosed are informed that it must be kept confidential to the extent legally permitted, or are legally or professionally bound by professional secrecy, and if this information is necessary for them for the following purposes and in the following cases: business development, development and management of the services and products offered, business relationships management with the client and with companies belonging to the same group if any, revenues and financial and operational risks management, fulfillment of their obligations or for auditing purposes or with respect to regulatory or supervisory authorities, and fraud prevention.\n\nCommunications made on this basis and treatment by their recipient of such disclosed information must comply with applicable personal data protection regulation.\n\nThis declaration is signed in  Date\nMonth Day Year\n\nName & Surname\n\nSignature\n\nPlease, print and sign the document.\n\nKnow Your Customer\n9",
+    "fields": [
+      {
+        "section": "Step 4: Certification",
+        "label": "This declaration is signed in",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          310,
+          443,
+          560,
+          478
+        ]
+      },
+      {
+        "section": "Step 4: Certification",
+        "label": "Date",
+        "field_type": "date",
+        "options": [],
+        "instructions": "Month | Day | Year",
+        "bank_reserved": false,
+        "answer_bbox": [
+          670,
+          443,
+          915,
+          478
+        ]
+      },
+      {
+        "section": "Step 4: Certification",
+        "label": "Name & Surname",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          240,
+          488,
+          895,
+          518
+        ]
+      },
+      {
+        "section": "Step 4: Certification",
+        "label": "Signature",
+        "field_type": "signature",
+        "options": [],
+        "instructions": "Please, print and sign the document.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          60,
+          550,
+          900,
+          640
+        ]
+      }
+    ]
+  }
+}

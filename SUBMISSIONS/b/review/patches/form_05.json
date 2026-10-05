@@ -1,0 +1,1135 @@
+{
+ "1": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Customer / Klient",
+    "label": "Nazwa Klienta / Legal Entity Name",
+    "answer_bbox": [
+     504,
+     538,
+     940,
+     564
+    ]
+   },
+   "why": "nemotron zone was in the introduction paragraph (y 150); moved to the measured value cell. Polish half of the bilingual label was dropped."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Customer / Klient",
+    "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz / Full Name and Job Title of Client Contact Completing the Form",
+    "answer_bbox": [
+     504,
+     565,
+     940,
+     604
+    ]
+   },
+   "why": "Zone in the introduction paragraph (y 200); moved to the value cell. English half of the label was dropped."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Customer / Klient",
+    "label": "Data / Date",
+    "answer_bbox": [
+     504,
+     607,
+     940,
+     633
+    ]
+   },
+   "why": "Zone in the introduction paragraph (y 250); moved to the value cell."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Customer / Klient",
+    "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej...? / Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?",
+    "answer_bbox": [
+     809,
+     633,
+     941,
+     702
+    ],
+    "options": [
+     {
+      "label": "Tak/Yes",
+      "box_bbox": [
+       852,
+       657,
+       860,
+       664
+      ]
+     },
+     {
+      "label": "Nie/No",
+      "box_bbox": [
+       853,
+       677,
+       860,
+       684
+      ]
+     }
+    ]
+   },
+   "why": "Checkbox squares were 30% too high (y 350-400, in the English introduction), too far to snap; set to the detected squares."
+  },
+  {
+   "op": "page",
+   "set": {
+    "text": "wersja: 08.04.2025\nLa Banque des Entreprises\nKwestionariusz dotyczący sankcji i ograniczeń handlu¹\nSanctions & Trade Restrictions Questionnaire²\n\nLa Banque des Entreprises (La Banque des Entreprises) jest zobowiązany do przestrzegania krajowych i międzynarodowych przepisów sankcyjnych i ograniczeń handlu. Jako klienci La Banque des Entreprises są Państwo (reprezentowany przez Państwa podmiot, jego oddziały/ filie i podmioty zależne) zobowiązani do niewykorzystywania produktów, funduszy, rachunków i usług dostarczanych przez La Banque des Entreprises do przeprowadzania transakcji lub innych działań bezpośrednio lub pośrednio związanych z sankcjonowanymi osobami, podmiotami, rządami, statkami powietrznymi i wodnymi („podmioty sankcjonowane”), obszarami geograficznymi („jurysdykcjami sankcjonowanymi” wskazanymi poniżej), określonymi towarami, oprogramowaniem czy usługami profesjonalnymi objętymi ograniczeniami, także w sytuacji, gdy taka transakcja lub inne działanie byłoby zakazane dla La Banque des Entreprises i/lub skutkowałoby naruszeniem sankcji przez La Banque des Entreprises. Niniejszy kwestionariusz służy zebraniu informacji na temat Państwa zaangażowania we współpracę z podmiotami sankcjonowanymi, jurysdykcjami sankcjonowanymi lub w inną działalność podlegającą wybranym ograniczeniom prawnym, w tym działania realizowane bez wykorzystania produktów i usług dostarczanych przez La Banque des Entreprises. Pojęcie „jurysdykcja sankcjonowana” w rozumieniu niniejszego kwestionariusza odnosi się do co najmniej jednego z następujących terytoriów: **Kuby, Iranu, Korei Północnej, Syrii, Białorusi, Rosji, Wenezueli (transakcje powiązane z rządem Wenezueli lub wenezuelskim sektorem energetycznym lub złota), Krymu oraz niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, chersońskiego, ługańskiego i zaporoskiego**. Prosimy o udzielenie odpowiedzi we wszystkich sekjach formularza. Odpowiedzi powinny być szczegółowe i odnosić się do Państwa biegłej i planowanej działalności. Dziękujemy.\n\nLa Banque des Entreprises (La Banque des Entreprises) is obliged to abide by local and international sanctions and trade restrictions. As a La Banque des Entreprises Client, you (the entity you represent, their branches/offices and subsidiaries) are obliged to refrain from using products, funds, accounts, and services provided by La Banque des Entreprises to perform transactions or any other activity directly or indirectly involving individuals, entities, governments, aircraft or vessels (“Sanctioned Parties”), locations (“Sanctioned Targets” as defined below), specific restricted goods, software and professional services, also where such transaction or activity would be prohibited for La Banque des Entreprises and/or would result in a violation of sanctions by La Banque des Entreprises. The aim of this questionnaire is to collect information on the extent of your activities with Sanctioned Parties, Sanctioned Targets or other restricted activity, including those activities that do not use La Banque des Entreprises products and services. The term “Sanctioned Target”, as used in this questionnaire, shall mean one or more of the following territories: Cuba, Iran, North Korea, Syria, Belarus, Russia, Venezuela (transactions with the nexus to the Government of Venezuela or Venezuelan energy or gold sector), Crimea and non-government controlled areas of Ukraine in the oblasts of Donetsk, Kherson, Luhansk and Zaporizhzhia. Please provide answers to all sections of this questionnaire. Please ensure that the information you submit in this document is as detailed as possible and relates to your current or contemplated activities. Thank you.\n\nNazwa Klienta\nLegal Entity Name\nImię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta wypełniającej formularz\nFull Name and Job Title of Client Contact Completing the Form\nData\nDate\nCzy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/fille i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises? Do the responses to this questionnaire cover all entities under your organizational structure i.e., your entity and all its branches/offices and subsidiaries, including those which do not hold accounts/relationships with La Banque des Entreprises?\nTak/Yes\nNie/No"
+   },
+   "why": "nemotron's Polish transcription of the title and introduction had ~15 corrupted words (e.g. 'organiń ceń' for 'ograniczeń', 'przygotowadzania' for 'przeprowadzania', 'rzadem' for 'rządem', 'tuzhańskiego i zaporiskiego' for 'ługańskiego i zaporoskiego'); re-transcribed from the page image."
+  }
+ ],
+ "3": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section was a copy of the question; normalised to Section A."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "5 - szczegóły / details (if Yes)",
+    "answer_bbox": [
+     61,
+     382,
+     800,
+     431
+    ]
+   },
+   "why": "Label was the instruction sentence; snapped to the white box."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section was a copy of the question; normalised to Section A."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "6 - szczegóły / details (if Yes)",
+    "answer_bbox": [
+     61,
+     586,
+     800,
+     635
+    ]
+   },
+   "why": "Label was the instruction sentence; snapped to the white box."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section normalised; checkbox was one row off and is snapped as a group (Tak above Nie)."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "7 - szczegóły / details (if Yes)",
+    "answer_bbox": [
+     61,
+     766,
+     799,
+     825
+    ]
+   },
+   "why": "Label was the instruction sentence; zone was 13/1000 short of the white box."
+  }
+ ],
+ "4": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section 'Odpowiedzi / Answers' is the column header, not the section."
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "8 - szczegóły / details",
+    "field_type": "text",
+    "answer_bbox": [
+     61,
+     378,
+     800,
+     412
+    ],
+    "instructions": "If Yes: number of the La Banque des Entreprises account used and the Sanctioned Parties/Targets. If No: controls ensuring the bank is insulated; or declare 'Relevant controls have been implemented' / 'No controls have been implemented'."
+   },
+   "why": "Model missed the answer space of question 8 (no white box is printed; the free blue area under the English text)."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section normalised."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "9 - szczegóły / details (if Yes)",
+    "answer_bbox": [
+     61,
+     547,
+     799,
+     605
+    ]
+   },
+   "why": "Snapped to the white box; label shortened."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section normalised; checkbox was one row off and is snapped as a group."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "10 - szczegóły / details (if Yes)",
+    "answer_bbox": [
+     61,
+     716,
+     800,
+     765
+    ]
+   },
+   "why": "Zone was 32/1000 below the white box, partly outside the question row."
+  }
+ ],
+ "5": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje"
+   },
+   "why": "Section normalised (question 11 is the last of Section A)."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Section A: Sanctions Related Exposure / Sekcja A: Ekspozycja na sankcje",
+    "label": "11 - szczegóły / details (if Yes)",
+    "answer_bbox": [
+     61,
+     272,
+     800,
+     321
+    ]
+   },
+   "why": "Zone ran into the Tak/Nie column (x 920); snapped to the white box."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 6,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 7,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 8,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 9,
+   "set": {
+    "section": "Section B: Activity in the Non-Government-Controlled Territories of Ukraine / Sekcja B",
+    "instructions": "Sekcja B: wypełnić tylko w przypadku działalności w co najmniej jednym z niekontrolowanych przez rząd Ukrainy obszarów obwodu donieckiego, ługańskiego, chersońskiego i zaporoskiego. / Section B: to be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia. If Yes to any: details in Section C."
+   },
+   "why": "Section B condition (only if activity in the 4 regions) was attached to question 1 only."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "options": [
+     {
+      "label": "Tak/Yes",
+      "box_bbox": [
+       849,
+       526,
+       857,
+       533
+      ]
+     },
+     {
+      "label": "Nie/No",
+      "box_bbox": [
+       849,
+       546,
+       857,
+       553
+      ]
+     }
+    ]
+   },
+   "why": "The Nie/No square is cut by a table line and was not detected; placed 20/1000 below the measured Tak/Yes square, the spacing of every other pair on this page."
+  }
+ ],
+ "8": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Kuba / Cuba",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     373,
+     941,
+     425
+    ]
+   },
+   "why": "One table field covering the header and only 6 of the 8 jurisdiction rows; split into one row per jurisdiction (measured lines)."
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Iran / Iran",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     427,
+     941,
+     478
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Korea Północna / North Korea",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     480,
+     941,
+     531
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Syria / Syria",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     533,
+     941,
+     584
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Białoruś / Belarus",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     586,
+     941,
+     638
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Rosja / Russia",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     640,
+     941,
+     692
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Krym / Crimea",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     694,
+     941,
+     745
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Wenezuela (rząd Wenezueli lub wenezuelski sektor energetyczny lub złota) / Venezuela (Gov't of Venezuela or Venezuela Energy or Gold Sector)",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     747,
+     941,
+     842
+    ]
+   },
+   "why": "Jurisdiction row of the Section C table (was inside one table field).",
+   "kind": "split"
+  }
+ ],
+ "9": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu donieckiego / Non-government controlled territories of Donetsk Region",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     117,
+     941,
+     201
+    ]
+   },
+   "why": "gemma zones formed a staircase (x0 = previous row's y0); rebuilt from the measured table lines. These rows continue the page 8 Section C table."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu ługańskiego / Non-government controlled territories of Luhansk Region",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     203,
+     941,
+     287
+    ]
+   },
+   "why": "gemma zones formed a staircase (x0 = previous row's y0); rebuilt from the measured table lines. These rows continue the page 8 Section C table."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu chersońskiego / Non-government controlled territories of Kherson Region",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     289,
+     941,
+     374
+    ]
+   },
+   "why": "gemma zones formed a staircase (x0 = previous row's y0); rebuilt from the measured table lines. These rows continue the page 8 Section C table."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Niekontrolowane przez rząd Ukrainy obszary obwodu zaporoskiego / Non-government controlled territories of Zaporizhzhia Region",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s).",
+    "answer_bbox": [
+     173,
+     376,
+     941,
+     460
+    ]
+   },
+   "why": "gemma zones formed a staircase (x0 = previous row's y0); rebuilt from the measured table lines. These rows continue the page 8 Section C table."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Section C: Sanctions Related Exposure Further Details / Sekcja C",
+    "label": "Suma / Total",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Only if 'Yes' to Section A questions 1, 2, 3 or 4. Columns: % of total revenue | Name of the entity and nature of the activity | % of total expenses | Name of the entity and nature of the activity | % of total assets | Name of the entity and purpose of the asset(s). Total row: sum of the rows above.",
+    "answer_bbox": [
+     173,
+     462,
+     941,
+     514
+    ]
+   },
+   "why": "gemma zones formed a staircase (x0 = previous row's y0); rebuilt from the measured table lines. These rows continue the page 8 Section C table."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "answer_bbox": [
+     811,
+     725,
+     941,
+     873
+    ],
+    "instructions": "If 'Tak/Yes': provide details in the table below (pages 10-11)."
+   },
+   "why": "Zone was a thin strip; set to the Tak/Nie cell. Condition pointing to the table was missing."
+  }
+ ],
+ "10": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Afganistan / Afghanistan",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     273,
+     941,
+     298
+    ]
+   },
+   "why": "One table field for 17 country rows; split into one row per country (measured lines)."
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Angola / Angola",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     300,
+     941,
+     326
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Białoruś / Belarus",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     328,
+     941,
+     382
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Republika Środkowoafrykańska / Central African Republic",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     384,
+     941,
+     410
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Korea Północna / North Korea",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     412,
+     941,
+     438
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Demokratyczna Republika Kongo / Democratic Republic of Congo",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     440,
+     941,
+     466
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Haiti / Haiti",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     468,
+     941,
+     494
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Iran / Iran",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     496,
+     941,
+     536
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Irak / Iraq",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     538,
+     941,
+     563
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Wybrzeże Kości Słoniowej / Ivory Coast",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     565,
+     941,
+     632
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Liban / Lebanon",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     634,
+     941,
+     675
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Liberia / Liberia",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     677,
+     941,
+     703
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Libia / Libya",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     705,
+     941,
+     731
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Mjanma (Birma) / Myanmar",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     733,
+     941,
+     758
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Rosja / Russia",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     760,
+     941,
+     827
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Sierra Leone / Sierra Leone",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     829,
+     941,
+     870
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  },
+  {
+   "op": "add",
+   "after": 0,
+   "field": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Somalia / Somalia",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     872,
+     941,
+     898
+    ]
+   },
+   "why": "Country row of the Section D table (was inside one table field).",
+   "kind": "split"
+  }
+ ],
+ "11": [
+  {
+   "op": "set",
+   "i": 0,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Sudan Południowy / South Sudan",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     117,
+     941,
+     143
+    ]
+   },
+   "why": "qwen typed the table row as a checkbox with 3 empty-label options, and its rows were shifted (Zimbabwe got the Yemen row). Retyped as a Section D table row on the measured lines."
+  },
+  {
+   "op": "set",
+   "i": 1,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Sudan / Sudan",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     145,
+     941,
+     171
+    ]
+   },
+   "why": "qwen typed the table row as a checkbox with 3 empty-label options, and its rows were shifted (Zimbabwe got the Yemen row). Retyped as a Section D table row on the measured lines."
+  },
+  {
+   "op": "set",
+   "i": 2,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Syria / Syria",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     173,
+     941,
+     198
+    ]
+   },
+   "why": "qwen typed the table row as a checkbox with 3 empty-label options, and its rows were shifted (Zimbabwe got the Yemen row). Retyped as a Section D table row on the measured lines."
+  },
+  {
+   "op": "set",
+   "i": 3,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Wenezuela / Venezuela",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     200,
+     941,
+     226
+    ]
+   },
+   "why": "qwen typed the table row as a checkbox with 3 empty-label options, and its rows were shifted (Zimbabwe got the Yemen row). Retyped as a Section D table row on the measured lines."
+  },
+  {
+   "op": "set",
+   "i": 4,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Jemen / Yemen",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     228,
+     941,
+     254
+    ]
+   },
+   "why": "qwen typed the table row as a checkbox with 3 empty-label options, and its rows were shifted (Zimbabwe got the Yemen row). Retyped as a Section D table row on the measured lines."
+  },
+  {
+   "op": "set",
+   "i": 5,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "Zimbabwe / Zimbabwe",
+    "field_type": "table",
+    "options": [],
+    "bank_reserved": false,
+    "instructions": "Complete in full if 'Yes' to Section A question 1 (or give a rationale if you think Section D is not applicable). Columns: Nature of the activity (e.g. import or export) | Name AND domicile of the legal entity engaged in the activity | Type of restricted goods, software or technology incl. commodity/HS codes; whether covered by a licence and issuing authority.",
+    "answer_bbox": [
+     293,
+     256,
+     941,
+     282
+    ]
+   },
+   "why": "qwen typed the table row as a checkbox with 3 empty-label options, and its rows were shifted (Zimbabwe got the Yemen row). Retyped as a Section D table row on the measured lines."
+  },
+  {
+   "op": "set",
+   "i": 6,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D"
+   },
+   "why": "Section normalised; checkbox snapped as a group."
+  },
+  {
+   "op": "set",
+   "i": 7,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "2 - szczegóły środków kontroli / details of controls (if Yes)",
+    "answer_bbox": [
+     61,
+     561,
+     799,
+     631
+    ]
+   },
+   "why": "Zone was 43/1000 above the white box, over the disclaimer text."
+  },
+  {
+   "op": "set",
+   "i": 8,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D"
+   },
+   "why": "Section normalised; checkbox snapped as a group."
+  },
+  {
+   "op": "set",
+   "i": 9,
+   "set": {
+    "section": "Section D: Trade Restrictive Measures/Trade Sanctions / Sekcja D",
+    "label": "3 - krótkie podsumowanie polityk/procedur / brief overview of policies and controls (if Yes)",
+    "answer_bbox": [
+     61,
+     738,
+     799,
+     870
+    ]
+   },
+   "why": "Zone started 20/1000 above the white box and stopped 34/1000 short."
+  }
+ ]
+}

@@ -1,0 +1,589 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "provider": "ModelRun",
+  "reasoning_effort": "medium",
+  "seconds": 108.5,
+  "tokens": {
+    "prompt": 13634,
+    "completion": 11174,
+    "reasoning": 5443,
+    "total": 24808
+  },
+  "answers": [
+    {
+      "id": "p1-0",
+      "value": "Cendrelis Instruments SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/corporate.md",
+          "pointer": "/name"
+        }
+      ],
+      "justification": "The corporate register extract names the entity as 'Cendrelis Instruments SAS'.",
+      "missing": []
+    },
+    {
+      "id": "p1-1",
+      "value": "Nora Avelune, Présidente",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/signer/name"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/signer_role"
+        }
+      ],
+      "justification": "The board mandate identifies Nora Avelune as the signatory with the role 'Présidente', authorised to prepare KYC/tax/sanctions questionnaires.",
+      "missing": []
+    },
+    {
+      "id": "p1-2",
+      "value": "2026-09-01",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/mandate.md",
+          "pointer": "/date"
+        }
+      ],
+      "justification": "The mandate document records the fixed exercise completion date as 01/09/2026.",
+      "missing": []
+    },
+    {
+      "id": "p1-3",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The negative declaration in both the activity register and compliance policy states: 'Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers.' The perimeter covers Cendrelis Instruments SAS and Cendrelis Export SAS.",
+      "missing": []
+    },
+    {
+      "id": "p2-0",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/country"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/current"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1/country"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1/current"
+        }
+      ],
+      "justification": "Cendrelis Export SAS has current activity in Cuba (a sanctioned jurisdiction) and Lebanon (involving a wholly government-owned entity, Laboratoire Public Levant SIM). Both are documented as current in the activity register.",
+      "missing": []
+    },
+    {
+      "id": "p2-1",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+        }
+      ],
+      "justification": "The compliance policy explicitly states there is no Russian-origin oil trading. No activity in the register involves Russian oil or petroleum products.",
+      "missing": []
+    },
+    {
+      "id": "p2-2",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The compliance policy explicitly negates new Russia/Belarus investment. The negative declaration confirms no other new Russia/Belarus investment beyond explicit entries, and no such entries exist.",
+      "missing": []
+    },
+    {
+      "id": "p2-3",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register lists only Cuba, Lebanon, and Myanmar. No activity in Russia or Belarus is documented. The compliance policy explicitly negates Russian-sector service business.",
+      "missing": []
+    },
+    {
+      "id": "p3-0",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/bank_users"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/country"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/bank_use"
+        }
+      ],
+      "justification": "Cendrelis Instruments SAS is the entity using La Banque des Entreprises products (bank_users: ['Cendrelis Instruments SAS'], bank_use: true). It has current activity in Cuba, a sanctioned jurisdiction, and in Lebanon involving a government-owned entity. The entity using LBE products therefore meets sanctions-related criteria.",
+      "missing": []
+    },
+    {
+      "id": "p3-1",
+      "value": "Entity: Cendrelis Instruments SAS. Criteria: current activity in a sanctioned jurisdiction (Cuba) and activity involving a government-owned entity (Lebanon – Laboratoire Public Levant SIM, 100% government-owned). Additional detail: Export and support of SIM-X1 measurement instruments to Cuba and Lebanon under authorization SIM-EXPORT-C-01; FY2025 revenue of EUR 600,000 (Cuba) and EUR 300,000 (Lebanon).",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/bank_users"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/government"
+        }
+      ],
+      "justification": "Cendrelis Instruments SAS is the LBE bank user. Its subsidiary Cendrelis Export SAS conducts current activity in Cuba (sanctioned) and Lebanon (government-owned counterparty). The government entity details are in the compliance register.",
+      "missing": []
+    },
+    {
+      "id": "p3-2",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/0/nationalities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/1/nationalities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/ownership.md",
+          "pointer": "/people/2/nationalities"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/governance_nexus"
+        }
+      ],
+      "justification": "All directors, senior officers, and 10%+ owners (Nora Avelune 60%, Hugo Valcendre 40%, Inès Rocheval – contractual control) are French nationals residing in France. The governance_nexus field is null. No person is in a sanctioned jurisdiction.",
+      "missing": []
+    },
+    {
+      "id": "p3-3",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [],
+      "justification": "The condition (answer 'Yes' to p3-2) is not triggered; the answer to p3-2 is 'Nie/No'.",
+      "missing": []
+    },
+    {
+      "id": "p3-4",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0"
+        }
+      ],
+      "justification": "The compliance register lists a license: SIM-EXPORT-C-01, a fictional controlled-item export authorization from the Simulation Export Review Office, relied upon by Cendrelis Export SAS for exports to Cuba and Lebanon.",
+      "missing": []
+    },
+    {
+      "id": "p3-5",
+      "value": "Type of authorization: Fictional controlled-item export authorization (ref. SIM-EXPORT-C-01). Recipient: Cendrelis Export SAS. Activities covered: Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories (Laboratoire Caribe SIM SA, Laboratoire Public Levant SIM). Regulatory authority: Simulation Export Review Office. Expiration date: not supplied (absent from the supplied extract).",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0/reference"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0/type"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0/recipient"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0/activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0/authority"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/licenses/0/expiry"
+        }
+      ],
+      "justification": "All details are drawn from the licenses array in the compliance register. The expiry is explicitly null with a note that it is absent from the supplied extract.",
+      "missing": [
+        "expiration date of authorization SIM-EXPORT-C-01"
+      ]
+    },
+    {
+      "id": "p4-0",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/bank_use"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/bank_product"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1/bank_use"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1/bank_product"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/bank_account"
+        }
+      ],
+      "justification": "The activity register documents bank_use: true with bank_product SIM-ACCOUNT-C for both the Cuba and Lebanon activities. SIM-ACCOUNT-C is the La Banque des Entreprises account (per compliance.md bank_account field). These activities involve sanctioned targets (Cuba – sanctioned jurisdiction; Lebanon – government-owned entity).",
+      "missing": []
+    },
+    {
+      "id": "p4-1",
+      "value": "La Banque des Entreprises account: SIM-ACCOUNT-C. Sanctioned Targets: Cuba (sanctioned jurisdiction – export and support of SIM-X1 instruments to Laboratoire Caribe SIM SA); Lebanon (government-owned entity – support of SIM-X1 instruments to Laboratoire Public Levant SIM, 100% government-owned).",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/bank_account"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/government"
+        }
+      ],
+      "justification": "Account SIM-ACCOUNT-C is identified in the compliance register and linked to the Cuba and Lebanon activities in the activity register. The sanctioned targets are Cuba (jurisdiction) and the government-owned Lebanese laboratory.",
+      "missing": []
+    },
+    {
+      "id": "p4-2",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/policy"
+        }
+      ],
+      "justification": "The compliance register documents a group policy applicable to all controlled entities, branches and joint ventures, with screening against Poland, EU, UN, UK and OFAC lists, alert investigation, transaction holds, quarterly risk review, annual audit, training, and escalation procedures.",
+      "missing": []
+    },
+    {
+      "id": "p4-3",
+      "value": "Group policy applies to all controlled entities, branches and joint ventures. Screened parties: customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions. Screening timing: at onboarding, daily, and before payment/shipment. Sanctions lists utilized: scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review conducted; annual independent audit (last performed 2026-06-30); annual staff training; escalation and incident records maintained.",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/policy"
+        }
+      ],
+      "justification": "The policy field in the compliance register provides the full description of the sanctions compliance framework.",
+      "missing": []
+    },
+    {
+      "id": "p4-4",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/chpl"
+        }
+      ],
+      "justification": "The compliance register explicitly states SIM-X1 measurement instruments are treated as dual-use goods (HS code SIM-HS-X1, control code SIM-DUAL-X1) and are on the simulated CHPL. Cendrelis Export SAS produces and sells these instruments.",
+      "missing": []
+    },
+    {
+      "id": "p4-5",
+      "value": "Goods: SIM-X1 measurement instruments. HS code: SIM-HS-X1. Control code: SIM-DUAL-X1. Geographical coverage: export to Cuba and Lebanon; transit via France. Entity: Cendrelis Export SAS. Authorization: SIM-EXPORT-C-01 (Simulation Export Review Office). Anti-diversion measures: contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews.",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/goods"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/hs_code"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/control_code"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/destinations"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/transit"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/anti_diversion"
+        }
+      ],
+      "justification": "All dual-use details are documented in the dual_use object of the compliance register.",
+      "missing": []
+    },
+    {
+      "id": "p5-0",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/destinations"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use/transit"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0/country"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1/country"
+        }
+      ],
+      "justification": "SIM-X1 dual-use instruments are exported to Cuba and Lebanon (both outside the EU) and transit through France (within the EU). The activity register confirms current export activity to both destinations.",
+      "missing": []
+    },
+    {
+      "id": "p5-1",
+      "value": "Goods: SIM-X1 measurement instruments (HS: SIM-HS-X1, control code: SIM-DUAL-X1). Export destinations outside EU: Cuba (FY2025 revenue EUR 600,000), Lebanon (FY2025 revenue EUR 300,000). Transit within EU: France. Entity: Cendrelis Export SAS. Authorization: SIM-EXPORT-C-01 from Simulation Export Review Office. Anti-diversion controls: contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews. Myanmar project is planned only (no executed transaction, compliance hold, no authorization issued).",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "pointer": "/dual_use"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/2"
+        }
+      ],
+      "justification": "The dual-use goods are exported outside the EU to Cuba and Lebanon, with transit through France. The Myanmar project is planned but not executed. All details from the compliance and activity registers.",
+      "missing": []
+    },
+    {
+      "id": "p5-2",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "The activity register explicitly states ukraine_regions_activity: false. The negative declaration confirms no Ukraine specified-region involvement. No registered office, central administration, or principal place of business in Donetsk, Luhansk, Kherson, or Zaporizhzhia regions.",
+      "missing": []
+    },
+    {
+      "id": "p5-3",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No subsidiaries or controlled affiliates in the specified Ukraine regions. The negative declaration confirms no Ukraine specified-region involvement beyond explicit entries, and no such entries exist.",
+      "missing": []
+    },
+    {
+      "id": "p5-4",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No branches, offices, or other entities operating in the specified Ukraine regions. The negative declaration and ukraine_regions_activity: false confirm absence of such activity.",
+      "missing": []
+    },
+    {
+      "id": "p5-5",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No importation of goods from the EU/UK Specified Regions into the EU or UK, and no tourism activities in those regions. The negative declaration confirms no Ukraine specified-region involvement.",
+      "missing": []
+    },
+    {
+      "id": "p5-6",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No ownership interest in an entity in the specified regions or land in any EUSR. The negative declaration confirms no Ukraine specified-region involvement.",
+      "missing": []
+    },
+    {
+      "id": "p5-7",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No debt owed by, or lending to, any entity in the specified regions. The negative declaration confirms no Ukraine specified-region involvement.",
+      "missing": []
+    },
+    {
+      "id": "p5-8",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No joint venture with an entity in the specified regions, nor any JV created since March 2022. The negative declaration confirms no Ukraine specified-region involvement.",
+      "missing": []
+    },
+    {
+      "id": "p5-9",
+      "value": "Nie/No",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/negative_declaration"
+        }
+      ],
+      "justification": "No support or ancillary services provided for activities in the specified regions or for tourism in any EUSR. The negative declaration confirms no Ukraine specified-region involvement.",
+      "missing": []
+    }
+  ]
+}

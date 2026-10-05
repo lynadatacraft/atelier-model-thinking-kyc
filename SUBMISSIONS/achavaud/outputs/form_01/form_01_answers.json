@@ -1,0 +1,878 @@
+{
+  "exercise": "form_01",
+  "company": "Asterive Services SAS",
+  "as_of": "2026-09-01",
+  "source_base": "entreprises/asterive_services",
+  "template_sha256": "68df17d89625314f2ecbaef41c49174ac00ef5c84909386ec80ca504e67591ff",
+  "method": "Local OCR and raster layout detection; form_01 semantic rules; no external API.",
+  "ocr_file": "form_01_ocr.json",
+  "answers": [
+    {
+      "page": 1,
+      "label": "Dénomination sociale",
+      "value": "Asterive Services SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/name",
+          "value": "Asterive Services SAS"
+        }
+      ],
+      "justification": "Nom de l'entité cliente, et non de sa maison mère.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          359.44000145736504,
+          154.65838304738708,
+          556.8800022997043,
+          176.29458639906423
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Dénomination sociale",
+        "rect": [
+          169.9199981689453,
+          152.3782501220703,
+          274.516845703125,
+          161.02566528320312
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Code SIREN / n° d'enregistrement",
+      "value": "SIM-RCS-A-001",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/registration",
+          "value": "SIM-RCS-A-001"
+        }
+      ],
+      "justification": "Numéro d'enregistrement SIM fourni ; ne pas inventer de SIREN réel.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          359.44000145736504,
+          181.77451799098634,
+          556.8800022997043,
+          203.4107213426635
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Code SIREN",
+        "rect": [
+          169.67999267578125,
+          179.494384765625,
+          224.86802673339844,
+          189.82322692871094
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Société cotée",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/listed",
+          "value": false
+        }
+      ],
+      "justification": "Le statut de cotation est explicitement fourni.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          393.60000161382754,
+          218.48885722254101
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Société cotée",
+        "rect": [
+          169.67999267578125,
+          224.12803649902344,
+          234.51007080078125,
+          232.53526306152344
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Marché de cotation",
+      "value": null,
+      "state": "not_applicable",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/listed",
+          "value": false
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/market",
+          "value": null
+        }
+      ],
+      "justification": "Marché requis seulement si la société est cotée.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          467.4815979003906,
+          240.6455535888672,
+          556.8800022997043,
+          255.29290771484375
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Marché de cotation",
+        "rect": [
+          361.67999267578125,
+          241.6455535888672,
+          455.5581970214844,
+          250.29290771484375
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Nom de la maison mère",
+      "value": "Asterive Participations SAS",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/parent/name",
+          "value": "Asterive Participations SAS"
+        }
+      ],
+      "justification": "Information de la maison mère, pas de l'entité cliente.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          359.44000145736504,
+          295.99823686844877,
+          556.8800022997043,
+          317.6344402201259
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Nom de la maison mère",
+        "rect": [
+          170.16000366210938,
+          293.71807861328125,
+          285.3504638671875,
+          302.3655090332031
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Pays d'immatriculation",
+      "value": "France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/parent/incorporation",
+          "value": "France"
+        }
+      ],
+      "justification": "Information de la maison mère, pas de l'entité cliente.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          359.44000145736504,
+          323.11437181204803,
+          556.8800022997043,
+          344.7505751637252
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Pays d'immatriculation d'immatriculation",
+        "rect": [
+          169.91998291015625,
+          320.5942687988281,
+          279.2640686035156,
+          335.9674377441406
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Pays de résidence fiscale",
+      "value": null,
+      "state": "missing_information",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/parent/tax_residence",
+          "value": null
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/parent/tax_residence_note",
+          "value": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence."
+        }
+      ],
+      "justification": "La résidence fiscale de la maison mère n'est pas confirmée. Son immatriculation et son adresse françaises ne permettent pas de la déduire.",
+      "missing_components": [
+        "Pays de résidence fiscale"
+      ],
+      "render": {
+        "kind": "text",
+        "rect": [
+          359.44000145736504,
+          350.2305067556473,
+          556.8800022997043,
+          371.8667101073245
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Pays de résidence fiscale",
+        "rect": [
+          169.91998291015625,
+          341.4712829589844,
+          288.79669189453125,
+          359.24652099609375
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Adresse de la maison mère",
+      "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/corporate_facts.json",
+          "section": "JSON",
+          "pointer": "/data/parent/address",
+          "value": "40 place du Groupe Fictif, 69000 Lyon, France"
+        }
+      ],
+      "justification": "Information de la maison mère, pas de l'entité cliente.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          359.44000145736504,
+          377.1066759032855,
+          556.8800022997043,
+          398.7428792549627
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Adresse de la maison mère",
+        "rect": [
+          169.43997192382812,
+          374.8265686035156,
+          300.4703063964844,
+          383.47393798828125
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Corée du nord",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.88000114345584,
+          507.40767555965186
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Corée du nord",
+        "rect": [
+          42.0,
+          499.12884521484375,
+          110.87997436523438,
+          513.5411987304688
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Crimée",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.88000114345584,
+          541.7227843820828
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Crimée",
+        "rect": [
+          42.0,
+          533.6839570001597,
+          75.9840087890625,
+          547.8560707003417
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Cuba",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.88000114345584,
+          575.7979274085527
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Cuba",
+        "rect": [
+          42.0,
+          567.9990742400333,
+          65.66397094726562,
+          581.9309877949969
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Irak",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.76000114296386,
+          609.993053333003
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Irak",
+        "rect": [
+          42.480010986328125,
+          602.0741133876079,
+          59.755218505859375,
+          616.2462881142495
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Iran",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.76000114296386,
+          644.548127951395
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Iran",
+        "rect": [
+          42.48004150390625,
+          637.3491768379198,
+          60.22084045410156,
+          650.8006901024467
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Myanmar",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.76000114296386,
+          678.7432538758454
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Myanmar",
+        "rect": [
+          42.48004150390625,
+          670.4644528544352,
+          88.71363830566406,
+          685.8376283071686
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Russie",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.88000114345584,
+          713.0583626982764
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Russie",
+        "rect": [
+          42.240020751953125,
+          705.0195261336886,
+          71.97601318359375,
+          719.1916398338706
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Soudan",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.88000114345584,
+          747.6134373166684
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Soudan",
+        "rect": [
+          42.000030517578125,
+          739.3345823471026,
+          77.42402648925781,
+          753.7469572189625
+        ]
+      }
+    },
+    {
+      "page": 1,
+      "label": "Activités internationales — Sud-Soudan",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          278.88000114345584,
+          781.8085632411188
+        ]
+      },
+      "questionnaire_label": {
+        "page": 1,
+        "text": "Sud-Soudan Sud-Soudan",
+        "rect": [
+          42.000030517578125,
+          773.8897094726562,
+          99.072021484375,
+          787.8216552734375
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Activités internationales — Syrie",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          279.0000011439479,
+          72.58965327821929
+        ]
+      },
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Syrie",
+        "rect": [
+          42.0,
+          64.79075477029262,
+          64.96797180175781,
+          78.72267595356368
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Activités internationales — Venezuela",
+      "value": "Non",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/activities",
+          "value": []
+        },
+        {
+          "document": "sources/companies/sim-hackathon-a-client/activities_facts.json",
+          "section": "JSON",
+          "pointer": "/data/negative_declaration",
+          "value": "Complete reviewed scope includes indirect customers/suppliers, agents, ownership, investments, branches, joint ventures and all controlled subsidiaries, including non-bank customers. No other current, FY2025 or contemplated country activities beyond the activity register; no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries."
+        }
+      ],
+      "justification": "Le registre exhaustif exclut les relations directes et indirectes, implantations et projets du client et de ses descendants contrôlés.",
+      "missing_components": [],
+      "render": {
+        "kind": "check",
+        "center": [
+          279.0000011439479,
+          107.14472789661127
+        ]
+      },
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Venezuela",
+        "rect": [
+          41.760009765625,
+          98.1459868261877,
+          91.42919921875,
+          113.27894687708788
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Représenté par",
+      "value": "Élodie Varenne",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer/name",
+          "value": "Élodie Varenne"
+        }
+      ],
+      "justification": "Signataire nommé du mandat ; les délégués ne sont pas substitués au signataire.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          121.89118194580078,
+          217.3688507080078,
+          558.7200126647949,
+          233.69769287109375
+        ]
+      },
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Représenté par",
+        "rect": [
+          36.71998977661133,
+          218.3688507080078,
+          110.6052017211914,
+          228.69769287109375
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "En qualité de",
+      "value": "Présidente",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/signer_role",
+          "value": "Présidente"
+        }
+      ],
+      "justification": "Qualité du signataire nommé.",
+      "missing_components": [],
+      "render": {
+        "kind": "text",
+        "rect": [
+          110.85118103027344,
+          241.8453369140625,
+          558.7200164794922,
+          258.1741943359375
+        ]
+      },
+      "questionnaire_label": {
+        "page": 2,
+        "text": "En qualité de",
+        "rect": [
+          36.71998596191406,
+          242.8453369140625,
+          99.29518127441406,
+          253.1741943359375
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Signé le",
+      "value": "01/09/2026",
+      "state": "answer",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/date",
+          "value": "01/09/2026"
+        }
+      ],
+      "justification": "Date fixe de complétion de l'exercice. Son inscription ne constitue pas une signature.",
+      "missing_components": [],
+      "render": {
+        "kind": "date",
+        "positions": [
+          [
+            79.36317443847656,
+            266.5618591308594,
+            104.95997619628906,
+            283.1308898925781
+          ],
+          [
+            118.71197509765625,
+            266.5618591308594,
+            139.51998901367188,
+            283.1308898925781
+          ],
+          [
+            153.27198791503906,
+            266.5618591308594,
+            193.27198791503906,
+            283.1308898925781
+          ]
+        ]
+      },
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Signé le",
+        "rect": [
+          36.47998046875,
+          267.5618591308594,
+          73.36317443847656,
+          278.1308898925781
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "label": "Confirmation des informations et signature",
+      "value": null,
+      "state": "human_action",
+      "sources": [
+        {
+          "document": "sources/companies/sim-hackathon-a-client/mandate.md",
+          "section": "bloc JSON",
+          "pointer": "/authority",
+          "value": "Board mandate dated 2026-08-20 authorizes the named signatory and listed delegates to prepare KYC/tax/sanctions questionnaires and the listed representatives to act for account-opening matters. Human approval and signature remain required."
+        }
+      ],
+      "justification": "Validation et signature humaines requises. Aucune signature n'est fournie ni générée.",
+      "missing_components": [],
+      "render": null,
+      "questionnaire_label": {
+        "page": 2,
+        "text": "Je confirme que les informations",
+        "rect": [
+          36.240020751953125,
+          154.29795837402344,
+          194.26080322265625,
+          164.62681579589844
+        ]
+      }
+    }
+  ]
+}

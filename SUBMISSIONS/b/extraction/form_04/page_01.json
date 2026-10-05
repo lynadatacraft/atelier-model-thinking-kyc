@@ -1,0 +1,183 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 45.6,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 4799,
+    "total_tokens": 7459,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2588,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "mixed",
+    "text": "# La Banque des Entreprises WB Sanctions Questionnaire\n\nLa Banque des Entreprises, its subsidiaries and affiliates (collectively \"La Banque des Entreprises\") are required to comply with applicable sanctions law and regulations¹ imposed by the Netherlands, the European Union, as well as other sanctions authority of each jurisdiction where La Banque des Entreprises has operations, such as for example the United States (\"Sanctions\"). As an La Banque des Entreprises client, you and your branches/offices and subsidiaries are expected to refrain from directing transactions to or through La Banque des Entreprises and otherwise using La Banque des Entreprises products, funds, accounts or services in connection with any transaction or activity, directly or indirectly involving individuals, entities, aircraft or vessels that are the subject of Sanctions (\"Sanctioned Parties\") as well as Sanctioned Jurisdictions (as defined below) or where a transaction or activity would be prohibited for La Banque des Entreprises, and/or would result in a violation of Sanctions by La Banque des Entreprises.\n\nThis questionnaire is one of the means through which La Banque des Entreprises aims to identify the extent of our clients' activities with certain entities, jurisdictions and territories and their direct or indirect engagements with targets of sanctions regimes. We kindly refer you to La Banque des Entreprises's FEC statement published on our website.\n\nClients are required to provide information about their business activities in or with the countries (or regions as the case may be): **Belarus, Crimea, Cuba, Iran, North Korea, Russia, Sudan, Syria, or the illegally annexed regions of Zaporizhzhia, Kherson, Donetsk and Luhansk in Ukraine** (\"Sanctioned Jurisdictions\"²) and Sanctioned Parties. In this questionnaire Sanctioned Parties shall be understood to include any individual, entity, vessel or aircraft that is, or is owned by 50% or more or controlled (irrespective of ownership) by one or more persons that are listed on a Sanctions list or is otherwise target of any Sanctions.\n\nTo enable La Banque des Entreprises to document your sanctions exposure, the Sanctions Questionnaire is requested to be completed by an appropriate and authorised representative of your company. The responses provided should encompass and be fully applicable to and reflective of all subsidiaries, investments, joint-ventures, branches and representative offices, incorporated and/or based anywhere in the world, which are owned, controlled and/or managed by you. For the avoidance of doubt this would include subsidiary / subordinate entities which do not have any relationship with La Banque des Entreprises.\n\nPlease answer all questions of this document and complete the Sanctions Exposure Confirmation at the end of this document.\n\n## Customer Information\n\n| Company name: | Country of Incorporation: |\n|---|---|\n| **La Banque des Entreprises internal use** |\n| Grid: | La Banque des Entreprises booking location(s): |\n| La Banque des Entreprises Relationship Manager: |\n\n## Part 1\n\n| | Questions | Yes | No |\n|---|---|---|---|\n| 1 | Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction? *For the purpose of this Questionnaire, activity includes, but is not limited to:* a. *deriving revenue by selling goods, services to a party in, or otherwise receiving income from a Sanctioned Jurisdiction;* b. *incurring expenses by purchasing goods or services from, or providing humanitarian aid to a party in Sanctioned Jurisdiction;* c. *maintaining assets by physical presence, registration, operations, or investments in a Sanctioned Jurisdiction; or* d. *otherwise interacting or dealing with a Sanctioned Jurisdiction including, without limitation, through transfer, transport, transshipment;* *and in each case including, without limitation, through third parties or agents.* Please select \"Yes\" for any activity, including those activities that are not prohibited by Sanctions, or specifically authorized by a relevant sanctions authority. *If \"Yes\" is selected, please provide further details in Part 2.* |  |  |\n| 2 | Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry? *If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.* |  |  |\n\n¹ Including, without limitation, any type of trade embargoes, export restrictions and sectoral sanctions laws or regulations.\n² Due to the evolving nature Russia/Ukraine sanctions regimes this questionnaire includes Russia, Belarus, and the illegally annexed regions of Ukraine Zaporizhzhia, Kherson, Donetsk and Luhansk in the definition of \"Sanctioned Jurisdictions\" and requires the information on activities in these countries and territories.\n\n1 | Page",
+    "fields": [
+      {
+        "section": "Customer Information",
+        "label": "Company name:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          150,
+          393,
+          318,
+          412
+        ]
+      },
+      {
+        "section": "Customer Information",
+        "label": "Country of Incorporation:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          480,
+          393,
+          950,
+          412
+        ]
+      },
+      {
+        "section": "La Banque des Entreprises internal use",
+        "label": "Grid:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": true,
+        "answer_bbox": [
+          80,
+          433,
+          318,
+          450
+        ]
+      },
+      {
+        "section": "La Banque des Entreprises internal use",
+        "label": "La Banque des Entreprises booking location(s):",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": true,
+        "answer_bbox": [
+          600,
+          433,
+          950,
+          450
+        ]
+      },
+      {
+        "section": "La Banque des Entreprises internal use",
+        "label": "La Banque des Entreprises Relationship Manager:",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": true,
+        "answer_bbox": [
+          400,
+          455,
+          950,
+          472
+        ]
+      },
+      {
+        "section": "Part 1",
+        "label": "1 Do you or any of your branches/offices, subsidiaries or joint ventures have current or contemplated activity, directly or indirectly, in, with or involving any Sanctioned Jurisdiction?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Yes",
+            "box_bbox": [
+              790,
+              515,
+              865,
+              740
+            ]
+          },
+          {
+            "label": "No",
+            "box_bbox": [
+              870,
+              515,
+              945,
+              740
+            ]
+          }
+        ],
+        "instructions": "If \"Yes\" is selected, please provide further details in Part 2.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          790,
+          515,
+          945,
+          740
+        ]
+      },
+      {
+        "section": "Part 1",
+        "label": "2 Are you or any of your branches/offices, subsidiaries or joint ventures currently engaged or contemplate engaging in activities in any of the sectors in Russia that are subject to Sanctions, including without limitation: technology, defense and related materiel, electronics, marine, energy, accounting, trust and corporate formation, management consulting, quantum computing, trading/commodities brokering, financing and financial services, shipping, insurance, architecture, engineering, manufacturing, transportation, metals and mining, quarrying, fish/seafood (and preparations thereof), alcoholic beverages or non-industrial diamonds and diamond jewelry?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Yes",
+            "box_bbox": [
+              790,
+              745,
+              865,
+              855
+            ]
+          },
+          {
+            "label": "No",
+            "box_bbox": [
+              870,
+              745,
+              945,
+              855
+            ]
+          }
+        ],
+        "instructions": "If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          790,
+          745,
+          945,
+          855
+        ]
+      },
+      {
+        "section": "Part 1",
+        "label": "If \"Yes\" is selected, please describe the current/contemplated activities, and provide the names of entities within your group which are or are contemplated to be involved in these activities below.",
+        "field_type": "text",
+        "options": [],
+        "instructions": "if question 2 answered Yes",
+        "bank_reserved": false,
+        "answer_bbox": [
+          115,
+          855,
+          780,
+          878
+        ]
+      }
+    ]
+  }
+}

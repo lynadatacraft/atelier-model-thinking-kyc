@@ -1,0 +1,379 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 136.3,
+  "usage": {
+    "prompt_tokens": 2600,
+    "completion_tokens": 7776,
+    "total_tokens": 10376,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5006,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "wersja: 08.04.2025\n\nLa Banque\ndes Entreprises\n\n| Sudan Południowy<br>South Sudan |  |  |  |\n|---|---|---|---|\n| Sudan<br>Sudan |  |  |  |\n| Syria<br>Syria |  |  |  |\n| Wenezuela<br>Venezuela |  |  |  |\n| Jemen<br>Yemen |  |  |  |\n| Zimbabwe<br>Zimbabwe |  |  |  |\n\n2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście listy G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem?\n\nNależy pamiętać, że CHPL G7 jest częścią skoordynowanych starań Państw G7 mających na celu zapobieżenie wykorzystaniu krytycznych towarów w przemyśle wojskowym Rosji. Lista koncentruje się na towarach podwójnego zastosowania i zaawansowanych technologiach, które są niezbędne dla rosyjskich systemów uzbrojenia, takich jak pociski, drony i śmigłowce.\n\nList of common high priority items (europa.eu)\n\nUwaga: Powyższy link ma charakter informacyjny i La Banque des Entreprises nie odpowiada za treść i dostępność wskazanej strony internetowej. W przypadku niedostępności strony obowiązek zapoznania się z aktualną listą towarów objętych ograniczeniami leży po Państwa stronie. \"W przypadku odpowiedzi „Tak\" należy podać szczegóły dotyczące środków kontroli mających na celu uniemożliwienie udostępniania tych przedmiotów na obszarze objętym sankcjami?\"\n\n2. Do you or any of your branches/ offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's Common High Priority List (CHPL) as per the link below?\n\nPlease note the G7's CHPL is part of the coordinated effort to prevent these critical items from reaching Russia's military. The list focuses on dual-use and advanced technology items that are vital for Russian weapon systems like missiles, drones, and helicopters.\n\nList of common high priority items (europa.eu)\n\nDisclaimer: The above link is for your information and La Banque des Entreprises is not responsible for the content and availability of the website. If it becomes unavailable, it is your responsibility to make yourself acquaint with the valid list of restricted goods. \"If yes, please provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?\"\n\n3. Czy reprezentowany przez Państwa podmiot wprowadził polityki/procedury mające na celu zapewnienie zgodności z sankcjami lub środkami ograniczającymi handel ustanowionymi przez Polskę, Unię Europejską, Wielką Brytanię lub Stany Zjednoczone Ameryki?\n\n\"W przypadku odpowiedzi \"Tak\" należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych i kontroli\n\n3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?\n\nIf \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.\n\nStrona 11 z 11",
+    "fields": [
+      {
+        "section": "Lista krajów / Country list",
+        "label": "Sudan Południowy / South Sudan",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "",
+            "box_bbox": [
+              190,
+              117,
+              290,
+              142
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              290,
+              117,
+              420,
+              142
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              420,
+              117,
+              940,
+              142
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          190,
+          117,
+          940,
+          142
+        ]
+      },
+      {
+        "section": "Lista krajów / Country list",
+        "label": "Sudan / Sudan",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "",
+            "box_bbox": [
+              190,
+              142,
+              290,
+              166
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              290,
+              142,
+              420,
+              166
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              420,
+              142,
+              940,
+              166
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          190,
+          142,
+          940,
+          166
+        ]
+      },
+      {
+        "section": "Lista krajów / Country list",
+        "label": "Syria / Syria",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "",
+            "box_bbox": [
+              190,
+              166,
+              290,
+              190
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              290,
+              166,
+              420,
+              190
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              420,
+              166,
+              940,
+              190
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          190,
+          166,
+          940,
+          190
+        ]
+      },
+      {
+        "section": "Lista krajów / Country list",
+        "label": "Wenezuela / Venezuela",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "",
+            "box_bbox": [
+              190,
+              190,
+              290,
+              214
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              290,
+              190,
+              420,
+              214
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              420,
+              190,
+              940,
+              214
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          190,
+          190,
+          940,
+          214
+        ]
+      },
+      {
+        "section": "Lista krajów / Country list",
+        "label": "Jemen / Yemen",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "",
+            "box_bbox": [
+              190,
+              214,
+              290,
+              228
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              290,
+              214,
+              420,
+              228
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              420,
+              214,
+              940,
+              228
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          190,
+          214,
+          940,
+          228
+        ]
+      },
+      {
+        "section": "Lista krajów / Country list",
+        "label": "Zimbabwe / Zimbabwe",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "",
+            "box_bbox": [
+              190,
+              228,
+              290,
+              252
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              290,
+              228,
+              420,
+              252
+            ]
+          },
+          {
+            "label": "",
+            "box_bbox": [
+              420,
+              228,
+              940,
+              252
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          190,
+          228,
+          940,
+          252
+        ]
+      },
+      {
+        "section": "Pytanie 2 / Question 2",
+        "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście listy G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem? / 2. Do you or any of your branches/ offices or subsidiaries have current or contemplated activity, directly or indirectly, in, or with, any of the items on the G7's Common High Priority List (CHPL) as per the link below?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              850,
+              275,
+              870,
+              288
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              850,
+              290,
+              870,
+              303
+            ]
+          }
+        ],
+        "instructions": "W przypadku odpowiedzi „Tak\" należy podać szczegóły dotyczące środków kontroli mających na celu uniemożliwienie udostępniania tych przedmiotów na obszarze objętym sankcjami / If yes, please provide details on your controls to prevent these items being made available in a sanctioned jurisdiction?",
+        "bank_reserved": false,
+        "answer_bbox": [
+          850,
+          275,
+          910,
+          303
+        ]
+      },
+      {
+        "section": "Pytanie 2 / Question 2",
+        "label": "Szczegóły środków kontroli / Details of controls",
+        "field_type": "text",
+        "options": [],
+        "instructions": "Wypełnić w przypadku odpowiedzi \"Tak\" / If \"Yes\" is selected",
+        "bank_reserved": false,
+        "answer_bbox": [
+          55,
+          518,
+          800,
+          609
+        ]
+      },
+      {
+        "section": "Pytanie 3 / Question 3",
+        "label": "3. Czy reprezentowany przez Państwa podmiot wprowadził polityki/procedury mające na celu zapewnienie zgodności z sankcjami lub środkami ograniczającymi handel ustanowionymi przez Polskę, Unię Europejską, Wielką Brytanię lub Stany Zjednoczone Ameryki? / 3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "Tak/Yes",
+            "box_bbox": [
+              850,
+              649,
+              870,
+              662
+            ]
+          },
+          {
+            "label": "Nie/No",
+            "box_bbox": [
+              850,
+              664,
+              870,
+              677
+            ]
+          }
+        ],
+        "instructions": "W przypadku odpowiedzi \"Tak\" należy przedstawić krótkie podsumowanie Państwa polityk/procedur sankcyjnych i kontroli / If \"Yes\" is selected: Please provide a brief overview of your trade sanctions policies/procedures and controls.",
+        "bank_reserved": false,
+        "answer_bbox": [
+          850,
+          649,
+          910,
+          677
+        ]
+      },
+      {
+        "section": "Pytanie 3 / Question 3",
+        "label": "Krótkie podsumowanie polityk/procedur sankcyjnych i kontroli / Brief overview of trade sanctions policies/procedures and controls",
+        "field_type": "text",
+        "options": [],
+        "instructions": "Wypełnić w przypadku odpowiedzi \"Tak\" / If \"Yes\" is selected",
+        "bank_reserved": false,
+        "answer_bbox": [
+          55,
+          718,
+          800,
+          836
+        ]
+      }
+    ]
+  }
+}

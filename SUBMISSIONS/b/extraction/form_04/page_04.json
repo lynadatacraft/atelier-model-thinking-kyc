@@ -1,0 +1,1319 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 114.3,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 9927,
+    "total_tokens": 12587,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4319,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "| Cuba | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Iran | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| North Korea | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Russia | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Sudan | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Syria | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Zaporizhzhia | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Kherson | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Donetsk | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n| Luhansk | a). b). c). d). | a). b). c). d). | a). b). c). d). |  |\n\n**Sanctions Exposure Confirmation**\n\nThe submitter attests that they have completed this form to the best of their knowledge and they have the requisite authority to complete this questionnaire on behalf of the Company and all its subsidiaries, investments, joint-ventures, branches and representative offices, incorporated and/or based anywhere in the world, including for the avoidance of doubt any subsidiary / subordinate entities which do not have any relationship with La Banque des Entreprises.\n\n| Name of submitter |  |\n| Name of company (including corp. suffix) |  |\n| Position within company |  |\n| Date | *[DD -MM -YYYY]* |\n\n4 | Page",
+    "fields": [
+      {
+        "section": "Sanctions Exposure",
+        "label": "Cuba",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              41,
+              363,
+              53
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              53,
+              363,
+              65
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              65,
+              363,
+              77
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              77,
+              363,
+              90
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              41,
+              542,
+              53
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              53,
+              542,
+              65
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              65,
+              542,
+              77
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              77,
+              542,
+              90
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              41,
+              728,
+              53
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              53,
+              728,
+              65
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              65,
+              728,
+              77
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              77,
+              728,
+              90
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          41,
+          728,
+          90
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Iran",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              92,
+              363,
+              104
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              104,
+              363,
+              116
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              116,
+              363,
+              128
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              128,
+              363,
+              141
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              92,
+              542,
+              104
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              104,
+              542,
+              116
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              116,
+              542,
+              128
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              128,
+              542,
+              141
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              92,
+              728,
+              104
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              104,
+              728,
+              116
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              116,
+              728,
+              128
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              128,
+              728,
+              141
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          92,
+          728,
+          141
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "North Korea",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              144,
+              363,
+              156
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              156,
+              363,
+              168
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              168,
+              363,
+              180
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              180,
+              363,
+              193
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              144,
+              542,
+              156
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              156,
+              542,
+              168
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              168,
+              542,
+              180
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              180,
+              542,
+              193
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              144,
+              728,
+              156
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              156,
+              728,
+              168
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              168,
+              728,
+              180
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              180,
+              728,
+              193
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          144,
+          728,
+          193
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Russia",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              195,
+              363,
+              207
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              207,
+              363,
+              219
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              219,
+              363,
+              231
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              231,
+              363,
+              244
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              195,
+              542,
+              207
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              207,
+              542,
+              219
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              219,
+              542,
+              231
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              231,
+              542,
+              244
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              195,
+              728,
+              207
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              207,
+              728,
+              219
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              219,
+              728,
+              231
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              231,
+              728,
+              244
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          195,
+          728,
+          244
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Sudan",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              246,
+              363,
+              258
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              258,
+              363,
+              270
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              270,
+              363,
+              282
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              282,
+              363,
+              295
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              246,
+              542,
+              258
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              258,
+              542,
+              270
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              270,
+              542,
+              282
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              282,
+              542,
+              295
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              246,
+              728,
+              258
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              258,
+              728,
+              270
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              270,
+              728,
+              282
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              282,
+              728,
+              295
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          246,
+          728,
+          295
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Syria",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              297,
+              363,
+              309
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              309,
+              363,
+              321
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              321,
+              363,
+              333
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              333,
+              363,
+              347
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              297,
+              542,
+              309
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              309,
+              542,
+              321
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              321,
+              542,
+              333
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              333,
+              542,
+              347
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              297,
+              728,
+              309
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              309,
+              728,
+              321
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              321,
+              728,
+              333
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              333,
+              728,
+              347
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          297,
+          728,
+          347
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Zaporizhzhia",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              349,
+              363,
+              361
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              361,
+              363,
+              373
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              373,
+              363,
+              385
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              385,
+              363,
+              398
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              349,
+              542,
+              361
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              361,
+              542,
+              373
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              373,
+              542,
+              385
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              385,
+              542,
+              398
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              349,
+              728,
+              361
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              361,
+              728,
+              373
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              373,
+              728,
+              385
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              385,
+              728,
+              398
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          349,
+          728,
+          398
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Kherson",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              400,
+              363,
+              412
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              412,
+              363,
+              424
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              424,
+              363,
+              436
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              436,
+              363,
+              449
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              400,
+              542,
+              412
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              412,
+              542,
+              424
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              424,
+              542,
+              436
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              436,
+              542,
+              449
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              400,
+              728,
+              412
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              412,
+              728,
+              424
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              424,
+              728,
+              436
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              436,
+              728,
+              449
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          400,
+          728,
+          449
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Donetsk",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              450,
+              363,
+              462
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              462,
+              363,
+              474
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              474,
+              363,
+              487
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              487,
+              363,
+              500
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              450,
+              542,
+              462
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              462,
+              542,
+              474
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              474,
+              542,
+              487
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              487,
+              542,
+              500
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              450,
+              728,
+              462
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              462,
+              728,
+              474
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              474,
+              728,
+              487
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              487,
+              728,
+              500
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          450,
+          728,
+          500
+        ]
+      },
+      {
+        "section": "Sanctions Exposure",
+        "label": "Luhansk",
+        "field_type": "checkbox",
+        "options": [
+          {
+            "label": "a).",
+            "box_bbox": [
+              187,
+              503,
+              363,
+              515
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              187,
+              515,
+              363,
+              527
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              187,
+              527,
+              363,
+              539
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              187,
+              539,
+              363,
+              552
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              363,
+              503,
+              542,
+              515
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              363,
+              515,
+              542,
+              527
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              363,
+              527,
+              542,
+              539
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              363,
+              539,
+              542,
+              552
+            ]
+          },
+          {
+            "label": "a).",
+            "box_bbox": [
+              542,
+              503,
+              728,
+              515
+            ]
+          },
+          {
+            "label": "b).",
+            "box_bbox": [
+              542,
+              515,
+              728,
+              527
+            ]
+          },
+          {
+            "label": "c).",
+            "box_bbox": [
+              542,
+              527,
+              728,
+              539
+            ]
+          },
+          {
+            "label": "d).",
+            "box_bbox": [
+              542,
+              539,
+              728,
+              552
+            ]
+          }
+        ],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          187,
+          503,
+          728,
+          552
+        ]
+      },
+      {
+        "section": "Sanctions Exposure Confirmation",
+        "label": "Name of submitter",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          320,
+          594,
+          957,
+          603
+        ]
+      },
+      {
+        "section": "Sanctions Exposure Confirmation",
+        "label": "Name of company (including corp. suffix)",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          320,
+          604,
+          957,
+          616
+        ]
+      },
+      {
+        "section": "Sanctions Exposure Confirmation",
+        "label": "Position within company",
+        "field_type": "text",
+        "options": [],
+        "instructions": "",
+        "bank_reserved": false,
+        "answer_bbox": [
+          320,
+          616,
+          957,
+          625
+        ]
+      },
+      {
+        "section": "Sanctions Exposure Confirmation",
+        "label": "Date",
+        "field_type": "date",
+        "options": [],
+        "instructions": "[DD -MM -YYYY]",
+        "bank_reserved": false,
+        "answer_bbox": [
+          320,
+          626,
+          957,
+          644
+        ]
+      }
+    ]
+  }
+}

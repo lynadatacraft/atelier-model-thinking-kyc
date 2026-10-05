@@ -1,0 +1,61 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "seconds": 47.4,
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 2666,
+    "total_tokens": 5326,
+    "cost": 0,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1581,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "result": {
+    "page_type": "form",
+    "text": "**III bis- INFORMATIONS RELATIVES AUX BÉNÉFICIAIRES EFFECTIFS**\n\nNous vous remercions de bien vouloir renseigner ci-après la liste et les informations des bénéficiaires effectifs si le client est :\n\n- Soit une ENF Passive (Section III (B)),\n- Soit une entité d'investissement dont 50% des revenus bruts proviennent d'une activité d'investissement, de réinvestissement ou de négociation d'actifs financiers et qu'elle est gérée par une institution financière ayant sa résidence fiscale dans un pays non-partie à l'échange automatique d'informations (Section III (C)).\n\n*A noter que si un Bénéficiaire effectif a la nationalité/citoyenneté américaine, il convient de renseigner « Etats-Unis d'Amérique » en Pays de résidence fiscale ainsi que le* **Numéro d'Identification Fiscale américain\\* (TIN).**\n\n⚠️ **Un bénéficiaire effectif ne peut être qu'une personne physique.**\n\n**Toutes les informations ci-dessous sont obligatoires**\n\n| Nom\\* (1) et Prénom\\* (2) / Date de Naissance\\* (3) et Pays de Naissance\\* (4) / Nationalité(s)\\*(5) Veuillez indiquer toutes vos nationalités / Adresse complète de Résidence actuelle\\*(6) | Pays de résidence fiscale\\* / Il convient d'indiquer TOUS les pays de domiciliation fiscale | Numéro d'Identification Fiscale (NIF)\\* / ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale | % de détention\\* (Du capital en direct / Du capital en indirect / Des droits de vote (7)) |\n| (1) et (2) : ......... (3) et (4) : (5) : ......... (6) : ......... | ......... | ......... | | | |\n| (1) et (2) : ......... (3) et (4) : (5) : ......... (6) : ......... | ......... | ......... | | | |\n| (1) et (2) : ......... (3) et (4) : ......... (5) : ......... (6) : ......... | ......... | ......... | | | |\n| (1) et (2) : ......... (3) et (4) : ......... (5) : ......... (6) : ......... | ......... | ......... | | | |\n\n**CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE** : **Préciser ci-après les éléments permettant de justifier les éventuelles incohérences/contradictions détectées entre les affirmations déclarées dans cette auto-certification et les autres informations dont dispose la La Banque des Entreprises.** [À ne pas remplir en l'absence de contradictions signalées]\n\n(7) Si différent du pourcentage de détention du capital.",
+    "fields": [
+      {
+        "section": "Toutes les informations ci-dessous sont obligatoires",
+        "label": "Toutes les informations ci-dessous sont obligatoires",
+        "field_type": "table",
+        "options": [],
+        "instructions": "Nom* (1) et Prénom* (2) / Date de Naissance* (3) et Pays de Naissance* (4) / Nationalité(s)*(5) Veuillez indiquer toutes vos nationalités / Adresse complète de Résidence actuelle*(6) | Pays de résidence fiscale* Il convient d'indiquer TOUS les pays de domiciliation fiscale | Numéro d'Identification Fiscale (NIF)* ou Indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale | % de détention* : Du capital en direct | Du capital en indirect | Des droits de vote (7)",
+        "bank_reserved": false,
+        "answer_bbox": [
+          40,
+          255,
+          958,
+          735
+        ]
+      },
+      {
+        "section": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE",
+        "label": "Préciser ci-après les éléments permettant de justifier les éventuelles incohérences/contradictions détectées entre les affirmations déclarées dans cette auto-certification et les autres informations dont dispose la La Banque des Entreprises.",
+        "field_type": "text",
+        "options": [],
+        "instructions": "À ne pas remplir en l'absence de contradictions signalées",
+        "bank_reserved": true,
+        "answer_bbox": [
+          192,
+          793,
+          930,
+          862
+        ]
+      }
+    ]
+  }
+}

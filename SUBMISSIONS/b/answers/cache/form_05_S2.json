@@ -1,0 +1,422 @@
+{
+  "model": "qwen/qwen3.8-27b:free",
+  "provider": "ModelRun",
+  "reasoning_effort": "medium",
+  "seconds": 67.5,
+  "tokens": {
+    "prompt": 12769,
+    "completion": 7649,
+    "reasoning": 4602,
+    "total": 20418
+  },
+  "partial": true,
+  "answers": [
+    {
+      "id": "p8-0",
+      "value": [
+        {
+          "% of total revenue": "1.0%",
+          "Name of the entity and nature of the activity": "Cendrelis Export SAS; Export and support of simulated measurement instruments under fictional export authorization SIM-EXPORT-C-01",
+          "% of total expenses": "0.2%",
+          "Name of the entity and nature of the activity (expenses)": "Cendrelis Export SAS; Export and support of simulated measurement instruments",
+          "% of total assets": "0.5%",
+          "Name of the entity and purpose of the asset(s)": "Cendrelis Export SAS; Assets related to export and support of measurement instruments"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/0"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/finance.md",
+          "pointer": "/group_totals"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/finance.md",
+          "pointer": "/activities/0"
+        }
+      ],
+      "justification": "Cuba activity confirmed in activity register and finance schedule. Revenue 600,000 / group revenue 60,000,000 = 1.0%. Expenses 80,000 / group expenses 40,000,000 = 0.2%. Assets 150,000 / group assets 30,000,000 = 0.5%. Entity is Cendrelis Export SAS (wholly owned subsidiary).",
+      "missing": []
+    },
+    {
+      "id": "p8-1",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Iran activity is recorded in the activity register or finance schedule. The negative declaration confirms no other country activities. Explicit zero exposure.",
+      "missing": []
+    },
+    {
+      "id": "p8-2",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No North Korea activity recorded. Negative declaration confirms absence.",
+      "missing": []
+    },
+    {
+      "id": "p8-3",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Syria activity recorded. Negative declaration confirms absence.",
+      "missing": []
+    },
+    {
+      "id": "p8-4",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+        }
+      ],
+      "justification": "No Belarus activity recorded. Compliance document explicitly states no new Russia/Belarus investment.",
+      "missing": []
+    },
+    {
+      "id": "p8-5",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+        }
+      ],
+      "justification": "No Russia activity recorded. Compliance document explicitly states no Russian-sector service business.",
+      "missing": []
+    },
+    {
+      "id": "p8-6",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Crimea activity recorded. Negative declaration confirms absence.",
+      "missing": []
+    },
+    {
+      "id": "p8-7",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Venezuela activity recorded. Negative declaration confirms absence.",
+      "missing": []
+    },
+    {
+      "id": "p9-0",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "no other sanctions-party, government, oil, new Russia/Belarus investment, Ukraine specified-region, dual-use or CHPL involvement beyond explicit entries"
+        }
+      ],
+      "justification": "ukraine_regions_activity is explicitly false. No Donetsk region activity recorded.",
+      "missing": []
+    },
+    {
+      "id": "p9-1",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        }
+      ],
+      "justification": "ukraine_regions_activity is explicitly false. No Luhansk region activity recorded.",
+      "missing": []
+    },
+    {
+      "id": "p9-2",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        }
+      ],
+      "justification": "ukraine_regions_activity is explicitly false. No Kherson region activity recorded.",
+      "missing": []
+    },
+    {
+      "id": "p9-3",
+      "value": [
+        {
+          "% of total revenue": "0%",
+          "Name of the entity and nature of the activity": "None",
+          "% of total expenses": "0%",
+          "Name of the entity and nature of the activity (expenses)": "None",
+          "% of total assets": "0%",
+          "Name of the entity and purpose of the asset(s)": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/ukraine_regions_activity"
+        }
+      ],
+      "justification": "ukraine_regions_activity is explicitly false. No Zaporizhzhia region activity recorded.",
+      "missing": []
+    },
+    {
+      "id": "p9-4",
+      "value": [
+        {
+          "% of total revenue": "1.0%",
+          "Name of the entity and nature of the activity": "Total",
+          "% of total expenses": "0.2%",
+          "Name of the entity and nature of the activity (expenses)": "Total",
+          "% of total assets": "0.5%",
+          "Name of the entity and purpose of the asset(s)": "Total"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/finance.md",
+          "pointer": "/group_totals"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/finance.md",
+          "pointer": "/activities/0"
+        }
+      ],
+      "justification": "Sum of all Section C country rows. Only Cuba has non-zero values: revenue 600,000/60,000,000=1.0%; expenses 80,000/40,000,000=0.2%; assets 150,000/30,000,000=0.5%. All other countries contribute 0%.",
+      "missing": []
+    },
+    {
+      "id": "p9-5",
+      "value": "Tak/Yes",
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/1"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "pointer": "/activities/2"
+        }
+      ],
+      "justification": "Cendrelis Export SAS has current activity in Lebanon (measurement-instrument support contract) and a planned activity in Myanmar (proposed private-sector instrument support project). Both Lebanon and Myanmar are listed in the Section D country table.",
+      "missing": []
+    },
+    {
+      "id": "p10-0",
+      "value": [
+        {
+          "Nature of the activity": "None",
+          "Name AND domicile of the legal entity": "None",
+          "Type of restricted goods/software/technology; licence and issuing authority": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Afghanistan activity recorded in the activity register.",
+      "missing": []
+    },
+    {
+      "id": "p10-1",
+      "value": [
+        {
+          "Nature of the activity": "None",
+          "Name AND domicile of the legal entity": "None",
+          "Type of restricted goods/software/technology; licence and issuing authority": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Angola activity recorded in the activity register.",
+      "missing": []
+    },
+    {
+      "id": "p10-2",
+      "value": [
+        {
+          "Nature of the activity": "None",
+          "Name AND domicile of the legal entity": "None",
+          "Type of restricted goods/software/technology; licence and issuing authority": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        },
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/compliance.md",
+          "quote": "There is no Russian-sector service business, Russian-origin oil trading or new Russia/Belarus investment."
+        }
+      ],
+      "justification": "No Belarus activity recorded. Compliance document confirms no new Russia/Belarus investment.",
+      "missing": []
+    },
+    {
+      "id": "p10-3",
+      "value": [
+        {
+          "Nature of the activity": "None",
+          "Name AND domicile of the legal entity": "None",
+          "Type of restricted goods/software/technology; licence and issuing authority": "None"
+        }
+      ],
+      "state": "answer",
+      "sources": [
+        {
+          "doc": "sources/companies/sim-hackathon-c-client/activities.md",
+          "quote": "No other current, FY2025 or contemplated country activities beyond the activity register"
+        }
+      ],
+      "justification": "No Central African Republic activity recorded.",
+      "missing": []
+    }
+  ]
+}

@@ -1,0 +1,3941 @@
+[
+ {
+  "page": 1,
+  "label": "Date",
+  "value": "01/09/2026",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+  "justification": "The mandate date is the form completion date.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p1_f1",
+  "label_short": "Date",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/date",
+    "quote": "01/09/2026",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Signature",
+  "value": null,
+  "state": "human_action",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#header/9",
+  "justification": "Signature must be provided by a person; the dossier notes no signature is supplied.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p1_f2",
+  "label_short": "Signature",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "header/9",
+    "quote": "No signature is supplied.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Legal Name",
+  "value": "Cendrelis Instruments SAS",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/name (= sources/companies/sim-hackathon-c-client/mandate.md#/name)",
+  "justification": "Legal name is given in the corporate register.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f3",
+  "label_short": "Legal Name",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/name",
+    "quote": "Cendrelis Instruments SAS",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/name",
+    "quote": "Cendrelis Instruments SAS",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "■ Tax Identification Number | Step 1: Entity Identification",
+  "value": "SIM-TIN-C-FR",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/tin",
+  "justification": "Tax Identification Number is listed in the corporate register.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f4",
+  "label_short": "Tax Identification Number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/tin",
+    "quote": "SIM-TIN-C-FR",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "(Optional) / 1 LEI | Step 1: Entity Identification",
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/lei",
+  "justification": "LEI is not provided (null) in the corporate register.",
+  "missing": [
+   "LEI"
+  ],
+  "group": null,
+  "field_id": "03_p2_f5",
+  "label_short": "LEI",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/lei",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "■ NACE Code of the company",
+  "value": "26.51",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/nace",
+  "justification": "NACE code is recorded in the corporate register.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f6",
+  "label_short": "NACE Code",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/nace",
+    "quote": "26.51",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Entity's Type",
+  "value": "None of the indicated below",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/business_description",
+  "justification": "The business description does not match any listed special types, so the generic option applies.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f7",
+  "label_short": "Entity's Type",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/business_description",
+    "quote": "Manufacture and support of simulated measurement instruments; domestic business plus the explicitly listed exports and projects.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Name of authority",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/tax.md#/supervisor",
+  "justification": "No supervisory authority is listed (null), so the field is not applicable.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f8",
+  "label_short": "Name of authority",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/tax.md",
+    "pointer": "/supervisor",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Company is not supervised by a regulatory authority",
+  "value": "Company is not supervised by a regulatory authority",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/tax.md#/supervisor",
+  "justification": "Supervisor is null, indicating the company is not supervised.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f9",
+  "label_short": "Company is not supervised by a regulatory authority",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/tax.md",
+    "pointer": "/supervisor",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Source of funds",
+  "value": "Own activity",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/source_of_funds_description",
+  "justification": "Source of funds is described as operating receipts, i.e., own activity.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f10",
+  "label_short": "Source of funds",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/source_of_funds_description",
+    "quote": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Deposits",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/source_of_funds_description",
+  "justification": "Deposits are not selected as a source of funds, so the amount field does not apply.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p2_f11",
+  "label_short": "Deposits (amount)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/source_of_funds_description",
+    "quote": "Operating receipts from the stated business and shareholder capital subscriptions; no customer deposits or other funding source.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Can the corporation issue bearer shares?",
+  "value": "No",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/corporate.md#/bearer",
+  "justification": "Corporate register states bearer shares are not allowed.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p3_f12",
+  "label_short": "Can the corporation issue bearer shares?",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/corporate.md",
+    "pointer": "/bearer",
+    "quote": "false",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Name and Surname — Controlling Person 1",
+  "value": "Nora Avelune",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/name; sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "First controlling person listed in the ownership register.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f13",
+  "label_short": "Name and Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Type of control (1) — Controlling Person 1",
+  "value": "A",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/direct_pct",
+  "justification": "Direct ownership >25% qualifies as Type A control.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f14",
+  "label_short": "Type of control (1)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/0/direct_pct",
+    "quote": "60",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Ownership % (2) — Controlling Person 1",
+  "value": "60%",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/direct_pct",
+  "justification": "Direct ownership percentage is 60.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f15",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/0/direct_pct",
+    "quote": "60",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Date of birth — Controlling Person 1",
+  "value": "1980-04-12",
+  "state": "answer",
+  "source": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/birth_date",
+  "justification": "Birth date from personal facts of Nora Avelune.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f16",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1980-04-12",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Nationality — Controlling Person 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/nationalities/0 (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/nationalities/0, sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/nationalities/0, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/nationalities/0)",
+  "justification": "Nationality listed as France.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f17",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Country of residence — Controlling Person 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/residences/0 (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/residences/0, sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/residences/0, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/residences/0)",
+  "justification": "Country of residence is France.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f18",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Passport or national ID card number — Controlling Person 1",
+  "value": "SIM-ID-C1",
+  "state": "answer",
+  "source": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/id_number",
+  "justification": "Passport/ID number from personal facts.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f19",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/id_number",
+    "quote": "SIM-ID-C1",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Address of residence — Controlling Person 1",
+  "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+  "state": "answer",
+  "source": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/address (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/address, sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/address, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/address)",
+  "justification": "Residential address from personal facts.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f20",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling Person 1",
+  "value": "2020-01-15",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/0/control_since",
+  "justification": "Control start date recorded in ownership register.",
+  "missing": [],
+  "group": "Controlling Person 1",
+  "field_id": "03_p4_f21",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/0/control_since",
+    "quote": "2020-01-15",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Name and Surname — Controlling Person 2",
+  "value": "Hugo Valcendre",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/name; sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/name",
+  "justification": "Second controlling person listed in ownership register.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f22",
+  "label_short": "Name and Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/1/name",
+    "quote": "Hugo Valcendre",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Hugo Valcendre",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Type of control (1) — Controlling Person 2",
+  "value": "A",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/direct_pct",
+  "justification": "Direct ownership >25% qualifies as Type A control.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f23",
+  "label_short": "Type of control (1)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/1/direct_pct",
+    "quote": "40",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Ownership % (2) — Controlling Person 2",
+  "value": "40%",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/direct_pct",
+  "justification": "Direct ownership percentage is 40.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f24",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/1/direct_pct",
+    "quote": "40",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Date of birth — Controlling Person 2",
+  "value": "1985-08-23",
+  "state": "answer",
+  "source": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/birth_date (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/birth_date, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/birth_date)",
+  "justification": "Birth date from personal facts of Hugo Valcendre.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f25",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1985-08-23",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1985-08-23",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1985-08-23",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Nationality — Controlling Person 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/nationalities/0 (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/nationalities/0, sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/nationalities/0, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/nationalities/0)",
+  "justification": "Nationality listed as France.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f26",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Country of residence — Controlling Person 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/residences/0 (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/residences/0, sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/residences/0, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/residences/0)",
+  "justification": "Country of residence is France.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f27",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Passport or national ID card number — Controlling Person 2",
+  "value": "SIM-ID-C2",
+  "state": "answer",
+  "source": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/id_number",
+  "justification": "Passport/ID number from personal facts.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f28",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/id_number",
+    "quote": "SIM-ID-C2",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Address of residence — Controlling Person 2",
+  "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+  "state": "answer",
+  "source": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/address (= sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/address, sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/address, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/address)",
+  "justification": "Residential address from personal facts.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f29",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling Person 2",
+  "value": "2020-01-15",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/1/control_since",
+  "justification": "Control start date recorded for Hugo Valcendre.",
+  "missing": [],
+  "group": "Controlling Person 2",
+  "field_id": "03_p4_f30",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/1/control_since",
+    "quote": "2020-01-15",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Name and Surname — Controlling Person 3",
+  "value": "Inès Rocheval",
+  "state": "answer",
+  "source": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/name",
+  "justification": "The personal facts file provides the full name of the third UBO.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f31",
+  "label_short": "Name and Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Inès Rocheval",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Type of control (1) — Controlling Person 3",
+  "value": "B",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/control_basis; sources/companies/sim-hackathon-c-client/person_relationships.json#/3/control_basis",
+  "justification": "The control_basis indicates control by appointment rights, matching type B.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f32",
+  "label_short": "Type of control (1)",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/2/control_basis",
+    "quote": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes.",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/person_relationships.json",
+    "pointer": "/3/control_basis",
+    "quote": "Contractual right to appoint/remove a majority of the board, effective 2020-01-15; no equity or votes.",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Ownership % (2) — Controlling Person 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/direct_pct",
+  "justification": "The UBO has 0 % direct ownership, so ownership percentage is not applicable for type B control.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f33",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/2/direct_pct",
+    "quote": "0",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Date of birth — Controlling Person 3",
+  "value": "1985-08-23",
+  "state": "answer",
+  "source": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/birth_date (= sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/birth_date, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/birth_date)",
+  "justification": "Birth date is listed in the personal facts file.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f34",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1985-08-23",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1985-08-23",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/birth_date",
+    "quote": "1985-08-23",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Nationality — Controlling Person 3",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/nationalities/0 (= sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/nationalities/0, sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/nationalities/0, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/nationalities/0)",
+  "justification": "Nationality is given in the personal facts file.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f35",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/nationalities/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Country of residence — Controlling Person 3",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/residences/0 (= sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/residences/0, sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/residences/0, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/residences/0)",
+  "justification": "Country of residence is listed in the personal facts file.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f36",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Passport or national ID card number — Controlling Person 3",
+  "value": "SIM-ID-C3",
+  "state": "answer",
+  "source": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/id_number",
+  "justification": "Passport/ID number is provided in the personal facts file.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f37",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/id_number",
+    "quote": "SIM-ID-C3",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Address of residence — Controlling Person 3",
+  "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+  "state": "answer",
+  "source": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json#/address (= sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json#/address, sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/address, sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/address)",
+  "justification": "Residential address is given in the personal facts file.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f38",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/2e49ea16-4a18-546e-bcb9-be1bbaf4180f/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/e7cf7f41-ae73-5d73-9512-39b056d3974a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling Person 3",
+  "value": "2020-01-15",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#/people/2/control_since",
+  "justification": "Control since date is recorded in the ownership register.",
+  "missing": [],
+  "group": "Controlling Person 3",
+  "field_id": "03_p4_f39",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "/people/2/control_since",
+    "quote": "2020-01-15",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Name and Surname — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f40",
+  "label_short": "Name and Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Type of control (1) — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f41",
+  "label_short": "Type of control (1)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Ownership % (2) — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f42",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date of birth — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f43",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Nationality — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f44",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Country of residence — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f45",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Passport or national ID card number — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f46",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Address of residence — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f47",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling person 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fourth person exists.",
+  "missing": [],
+  "group": "Controlling person 4",
+  "field_id": "03_p5_f48",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Name and Surname — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f49",
+  "label_short": "Name and Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Type of control (1) — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f50",
+  "label_short": "Type of control (1)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Ownership % (2) — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f51",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date of birth — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f52",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Nationality — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f53",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Country of residence — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f54",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Passport or national ID card number — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f55",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Address of residence — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f56",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling person 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Only three controlling persons are listed; no fifth person exists.",
+  "missing": [],
+  "group": "Controlling person 5",
+  "field_id": "03_p5_f57",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Name and Surname — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "The ownership register states the listed controlling persons are complete, and only three persons are listed, so no Controlling Person 6 exists.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f58",
+  "label_short": "Name and Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Type of control (1) — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 is defined as the register is complete with only three persons.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f59",
+  "label_short": "Type of control (1)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Ownership % (2) — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "Ownership % cannot be provided because there is no Controlling Person 6.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f60",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date of birth — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 to have a birth date.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f61",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Nationality — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 to have a nationality.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f62",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Country of residence — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 to have a country of residence.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f63",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Passport or national ID card number — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 to have an ID number.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f64",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Address of residence — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 to have an address.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f65",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling person 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 6 to have a control start date.",
+  "missing": [],
+  "group": "Controlling person 6",
+  "field_id": "03_p5_f66",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Name and Surname — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 exists as the register is complete with only three persons.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f67",
+  "label_short": "Name and Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Type of control (1) — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to specify type of control.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f68",
+  "label_short": "Type of control (1)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Ownership % (2) — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to provide ownership percentage.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f69",
+  "label_short": "Ownership % (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date of birth — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to have a birth date.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f70",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Nationality — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to have a nationality.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f71",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Country of residence — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to have a country of residence.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f72",
+  "label_short": "Country of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Passport or national ID card number — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to have an ID number.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f73",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Address of residence — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to have an address.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f74",
+  "label_short": "Address of residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "label": "Date on which the person became \"Controlling Person\" — Controlling person 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/ownership.md#header/6",
+  "justification": "No Controlling Person 7 to have a control start date.",
+  "missing": [],
+  "group": "Controlling person 7",
+  "field_id": "03_p5_f75",
+  "label_short": "Date on which the person became \"Controlling Person\"",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Name & Surname — Authorized Representative 1",
+  "value": "Nora Avelune",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/name; sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "The mandate lists Nora Avelune as the signatory and representative authorized for account opening.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f76",
+  "label_short": "Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Date of birth — Authorized Representative 1",
+  "value": "1980-04-12",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/birth_date",
+  "justification": "Birth date is provided in the mandate for the representative.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f77",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/birth_date",
+    "quote": "1980-04-12",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Nationality — Authorized Representative 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/nationalities/0",
+  "justification": "Nationality is given in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f78",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/residences/0",
+  "justification": "Country of residence is listed in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f79",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/residences/0",
+  "justification": "Repeated field uses same source as previous.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f80",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/residences/0",
+  "justification": "Repeated field uses same source as previous.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f81",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 1",
+  "value": "SIM-ID-C1",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/id_number",
+  "justification": "Passport/ID number is provided in the mandate for the representative.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f82",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/id_number",
+    "quote": "SIM-ID-C1",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 1",
+  "value": "SIM-ID-C1",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/id_number",
+  "justification": "Repeated field uses same source.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f83",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/id_number",
+    "quote": "SIM-ID-C1",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 1",
+  "value": "SIM-ID-C1",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/id_number",
+  "justification": "Repeated field uses same source.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p6_f84",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/id_number",
+    "quote": "SIM-ID-C1",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Name & Surname — Authorized Representative 2",
+  "value": "Alex Fernel",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name",
+  "justification": "The board mandate lists Alex Fernel as a representative.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f85",
+  "label_short": "Name & Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Date of birth — Authorized Representative 2",
+  "value": "1985-08-23",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/birth_date",
+  "justification": "The mandate provides Alex Fernel's date of birth.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f86",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/birth_date",
+    "quote": "1985-08-23",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Nationality — Authorized Representative 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/nationalities/0",
+  "justification": "The mandate records France as Alex Fernel's nationality.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f87",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences/0",
+  "justification": "The mandate records France as Alex Fernel's country of residence.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f88",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences/0",
+  "justification": "Repeated field, same source as previous.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f89",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences/0",
+  "justification": "Repeated field, same source as previous.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f90",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 2",
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/id_number (= sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/missing_id_reason)",
+  "justification": "Alex Fernel's ID number is not supplied and is noted as missing.",
+  "missing": [
+   "id_number"
+  ],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f91",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/id_number",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/missing_id_reason",
+    "quote": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 2",
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/id_number (= sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/missing_id_reason)",
+  "justification": "Repeated field; ID number remains unknown.",
+  "missing": [
+   "id_number"
+  ],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f92",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/id_number",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/missing_id_reason",
+    "quote": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 2",
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/id_number (= sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/missing_id_reason)",
+  "justification": "Repeated field; ID number remains unknown.",
+  "missing": [
+   "id_number"
+  ],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p6_f93",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/id_number",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/missing_id_reason",
+    "quote": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Name & Surname — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f94",
+  "label_short": "Name & Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Date of birth — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f95",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Nationality — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f96",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f97",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f98",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f99",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f100",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f101",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 3",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No third authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p6_f102",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Name & Surname — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f103",
+  "label_short": "Name & Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Date of birth — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f104",
+  "label_short": "Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Nationality — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f105",
+  "label_short": "Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f106",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f107",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f108",
+  "label_short": "Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f109",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f110",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives",
+  "justification": "No fourth authorized representative is listed.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p6_f111",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives",
+    "quote": "[{\"id\": \"C1\", \"given\": \"Nora\", \"surname\": \"Avelune\", \"name\": \"Nora Avelune\", \"birth_date\": \"1980-04-12\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-C1-FR\"}, \"id_number\": \"SIM-ID-C1\"}, {\"id\": \"CR\", \"given\": \"Alex\", \"surname\": \"Fernel\", \"name\": \"Alex Fernel\", \"birth_date\": \"1985-08-23\", \"birth_country\": \"France\", \"nationalities\": [\"France\"], \"residences\": [\"France\"], \"address\": \"12 avenue des Personnages Fictifs, 69000 Lyon, France\", \"tax_residences\": [\"France\"], \"tins\": {\"France\": \"SIM-TIN-CR-FR\"}, \"id_number\": null, \"missing_id_reason\": \"Identity document renewal pending; number not supplied as of 2026-09-01.\"}]",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Name & Surname — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f112",
+  "label_short": "Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Date of birth — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f113",
+  "label_short": "Date of birth",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Nationality — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f114",
+  "label_short": "Nationality",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f115",
+  "label_short": "Country of Residence",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f116",
+  "label_short": "Country of Residence",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Country of Residence — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f117",
+  "label_short": "Country of Residence",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f118",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f119",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "label": "Passport or national ID card number — Authorized Representative 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed in the mandate register; no Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p6_f120",
+  "label_short": "Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 1 | Name & Surname",
+  "value": "Nora Avelune",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name; sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "The mandate register lists Nora Avelune as Representative 1.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p7_f121",
+  "label_short": "Authorized Representative 1 | Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 1 | Date of birth",
+  "value": "1980-04-12",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/birth_date",
+  "justification": "Birth date is recorded for Representative 1 in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p7_f122",
+  "label_short": "Authorized Representative 1 | Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/birth_date",
+    "quote": "1980-04-12",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 1 | Nationality",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/nationalities/0",
+  "justification": "Nationality of Representative 1 is France per the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p7_f123",
+  "label_short": "Authorized Representative 1 | Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 1 | Country of Residence",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/residences/0",
+  "justification": "Country of residence for Representative 1 is France as shown in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p7_f124",
+  "label_short": "Authorized Representative 1 | Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 1 | Passport or national ID card number",
+  "value": "SIM-ID-C1",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/id_number",
+  "justification": "Passport/ID number for Representative 1 is provided in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 1",
+  "field_id": "03_p7_f125",
+  "label_short": "Authorized Representative 1 | Passport or national ID card number",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/id_number",
+    "quote": "SIM-ID-C1",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 2 | Name & Surname",
+  "value": "Alex Fernel",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name",
+  "justification": "The mandate register lists Alex Fernel as Representative 2.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p7_f126",
+  "label_short": "Authorized Representative 2 | Name & Surname",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 2 | Date of birth",
+  "value": "1985-08-23",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/birth_date",
+  "justification": "Birth date for Representative 2 is recorded in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p7_f127",
+  "label_short": "Authorized Representative 2 | Date of birth",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/birth_date",
+    "quote": "1985-08-23",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 2 | Nationality",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/nationalities/0",
+  "justification": "Nationality of Representative 2 is France per the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p7_f128",
+  "label_short": "Authorized Representative 2 | Nationality",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 2 | Country of Residence",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/residences/0",
+  "justification": "Country of residence for Representative 2 is France as shown in the mandate.",
+  "missing": [],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p7_f129",
+  "label_short": "Authorized Representative 2 | Country of Residence",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 2 | Passport or national ID card number",
+  "value": null,
+  "state": "missing_information",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/id_number (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/missing_id_reason); sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json#/missing_id_reason",
+  "justification": "Passport/ID number for Representative 2 is not supplied; the mandate notes it is missing.",
+  "missing": [
+   "Passport or national ID card number"
+  ],
+  "group": "Authorized Representative 2",
+  "field_id": "03_p7_f130",
+  "label_short": "Authorized Representative 2 | Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/id_number",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/missing_id_reason",
+    "quote": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/fd1b4137-afa0-5f95-8bb8-30afcf336c2a/personal_facts.json",
+    "pointer": "/missing_id_reason",
+    "quote": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 3 | Name & Surname",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 3 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p7_f131",
+  "label_short": "Authorized Representative 3 | Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 3 | Date of birth",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 3 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p7_f132",
+  "label_short": "Authorized Representative 3 | Date of birth",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 3 | Nationality",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 3 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p7_f133",
+  "label_short": "Authorized Representative 3 | Nationality",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 3 | Country of Residence",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 3 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p7_f134",
+  "label_short": "Authorized Representative 3 | Country of Residence",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 3 | Passport or national ID card number",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 3 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 3",
+  "field_id": "03_p7_f135",
+  "label_short": "Authorized Representative 3 | Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 4 | Name & Surname",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 4 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p7_f136",
+  "label_short": "Authorized Representative 4 | Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 4 | Date of birth",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 4 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p7_f137",
+  "label_short": "Authorized Representative 4 | Date of birth",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 4 | Nationality",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 4 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p7_f138",
+  "label_short": "Authorized Representative 4 | Nationality",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 4 | Country of Residence",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 4 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p7_f139",
+  "label_short": "Authorized Representative 4 | Country of Residence",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 4 | Passport or national ID card number",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two authorized representatives are listed; Representative 4 does not exist.",
+  "missing": [],
+  "group": "Authorized Representative 4",
+  "field_id": "03_p7_f140",
+  "label_short": "Authorized Representative 4 | Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 5 | Name & Surname",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two representatives are listed in the mandate, so no Authorized Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p7_f141",
+  "label_short": "Authorized Representative 5 | Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 5 | Date of birth",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two representatives are listed in the mandate, so no Authorized Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p7_f142",
+  "label_short": "Authorized Representative 5 | Date of birth",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 5 | Nationality",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two representatives are listed in the mandate, so no Authorized Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p7_f143",
+  "label_short": "Authorized Representative 5 | Nationality",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 5 | Country of Residence",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two representatives are listed in the mandate, so no Authorized Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p7_f144",
+  "label_short": "Authorized Representative 5 | Country of Residence",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 5 | Passport or national ID card number",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two representatives are listed in the mandate, so no Authorized Representative 5 exists.",
+  "missing": [],
+  "group": "Authorized Representative 5",
+  "field_id": "03_p7_f145",
+  "label_short": "Authorized Representative 5 | Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "label": "Authorized Representative 6 | Passport or national ID card number",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/representatives/0/name (= sources/companies/sim-hackathon-c-client/mandate.md#/representatives/1/name); sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "Only two representatives are listed in the mandate, so no Authorized Representative 6 exists.",
+  "missing": [],
+  "group": "Authorized Representative 6",
+  "field_id": "03_p7_f146",
+  "label_short": "Authorized Representative 6 | Passport or national ID card number",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/0/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/representatives/1/name",
+    "quote": "Alex Fernel",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "label": "This declaration is signed in",
+  "value": "Lyon",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/place",
+  "justification": "The mandate specifies the place of signing as Lyon.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p9_f147",
+  "label_short": "This declaration is signed in",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/place",
+    "quote": "Lyon",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "label": "Date",
+  "value": "01/09/2026",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/date",
+  "justification": "The mandate provides the fixed exercise completion date for signing.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p9_f148",
+  "label_short": "Date",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/date",
+    "quote": "01/09/2026",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "label": "Name & Surname",
+  "value": "Nora Avelune",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-c-client/mandate.md#/signer/name; sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json#/name",
+  "justification": "The signatory listed in the mandate is Nora Avelune.",
+  "missing": [],
+  "group": null,
+  "field_id": "03_p9_f149",
+  "label_short": "Name & Surname",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-c-client/mandate.md",
+    "pointer": "/signer/name",
+    "quote": "Nora Avelune",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/eda94533-6f47-51f8-abfa-951e43bfe1f5/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Nora Avelune",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ }
+]
