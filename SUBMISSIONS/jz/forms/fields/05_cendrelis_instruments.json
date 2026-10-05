@@ -1,0 +1,3329 @@
+{
+ "file": "05_cendrelis_instruments.pdf",
+ "model": "openai/gpt-oss-120b",
+ "pages": [
+  {
+   "page": 1,
+   "page_instructions": [
+    "Prosimy o udzielenie odpowiedzi we wszystkich sekcjach formularza. Odpowiedzi powinny być szczegółowe i odnosić się do Państwa bieżącej i planowanej działalności.",
+    "Please provide answers to all sections of this questionnaire. Please ensure that the information you submit in this document is as detailed as possible and relates to your current or contemplated activities.",
+    "Niniejszy formularz należy wypełnić w porozumieniu z właściwymi jednostkami odpowiedzialnymi za kwestie zgodności i/lub prawne w Państwa organizacji."
+   ],
+   "fields": [
+    {
+     "label": "Nazwa Klienta / Legal Entity Name",
+     "description": "Name of the client (legal entity).",
+     "section": "Client information",
+     "type": "text",
+     "areas": [
+      "p1_b4"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p1_f1",
+     "page": 1
+    },
+    {
+     "label": "Imię i nazwisko oraz stanowisko osoby kontaktowej ze strony klienta / Full Name and Job Title",
+     "description": "Full name and job title of the client contact completing the form.",
+     "section": "Client information",
+     "type": "text",
+     "areas": [
+      "p1_b5"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p1_f2",
+     "page": 1
+    },
+    {
+     "label": "Data / Date",
+     "description": "Date of completing the questionnaire.",
+     "section": "Client information",
+     "type": "date",
+     "areas": [
+      "p1_b6"
+     ],
+     "options": [],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p1_f3",
+     "page": 1
+    },
+    {
+     "label": "Czy odpowiedzi na pytania zawarte w tym kwestionariuszu obejmują wszystkie podmioty w ramach Państwa struktury organizacyjnej, tj. reprezentowany przez Państwa podmiot oraz wszystkie jego oddziały/filie i spółki zależne, łącznie z tymi, które nie posiadają rachunków/nie utrzymują relacji w La Banque des Entreprises?",
+     "description": "Indicates whether the answers cover all entities in the organizational structure.",
+     "section": "General",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p1_b9"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p1_b10"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p1_f4",
+     "page": 1
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p1_b2",
+     "reason": "checkbox inside running text"
+    },
+    {
+     "area": "p1_b3",
+     "reason": "checkbox inside running text"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 2,
+   "page_instructions": [
+    "Udzielone odpowiedzi powinny obejmować poprzedni rok finansowy, rok kalendarzowy lub ostatnie 12 miesięcy, a także wszelkie bieżące lub planowane działania",
+    "Please provide your responses covering the prior financial year, or calendar year, or past 12 months, as well as any current, or contemplated activity."
+   ],
+   "fields": [
+    {
+     "label": "1. Do you or any of your branches/offices or subsidiaries have current or contemplated activity, directly or indirectly, in, with, or involving Sanctioned Targets or Sanctions Parties?",
+     "description": "Indicates whether the entity or its branches/subsidiaries are involved with sanctioned persons or entities.",
+     "section": "Section A: Sanctions Related Exposure",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b3"
+      },
+      {
+       "label": "No",
+       "area": "p2_b4"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes, provide further details in Section C.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p2_f5",
+     "page": 2
+    },
+    {
+     "label": "2. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in the purchase, sale, or maritime transport of oil and/or petroleum products of Russian origin?",
+     "description": "Indicates involvement in oil or petroleum product transactions of Russian origin.",
+     "section": "Section A: Sanctions Related Exposure",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b7"
+      },
+      {
+       "label": "No",
+       "area": "p2_b8"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes, provide further details in Section C.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p2_f6",
+     "page": 2
+    },
+    {
+     "label": "3. Are you or any of your branches/offices or subsidiaries currently engaged, or contemplate engaging in any new investments in Russia or Belarus?",
+     "description": "Indicates whether the entity is making or planning new investments in Russia or Belarus.",
+     "section": "Section A: Sanctions Related Exposure",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b11"
+      },
+      {
+       "label": "No",
+       "area": "p2_b12"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes, provide further details in Section C.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p2_f7",
+     "page": 2
+    },
+    {
+     "label": "4. Are you or any of your branches/offices or subsidiaries currently engaged or contemplate engaging in activities in Russia or Belarus?",
+     "description": "Indicates involvement in any activities in Russia or Belarus.",
+     "section": "Section A: Sanctions Related Exposure",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p2_b15"
+      },
+      {
+       "label": "No",
+       "area": "p2_b16"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "If Yes, provide further details in Section C.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p2_f8",
+     "page": 2
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  },
+  {
+   "page": 3,
+   "page_instructions": [
+    "*If \"Yes\" to any of the above, please provide the name of the entity(ies) that may qualify and indicate which situation applies, with additional detail.",
+    "*If \"Yes\" is selected, please provide the name of such person or entity, indicate the relevant Sanctioned Jurisdiction, and provide additional details."
+   ],
+   "fields": [
+    {
+     "label": "5. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny korzystający z produktów i usług La Banque des Entreprises",
+     "description": "Whether the entity or its branches/subsidiaries are incorporated, domiciled, or owned by Russian or Belarusian persons or entities.",
+     "section": "Question 5",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p3_b3"
+      },
+      {
+       "label": "No",
+       "area": "p3_b4"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p3_f9",
+     "page": 3
+    },
+    {
+     "label": "Details for question 5 (if Yes)",
+     "description": "Provide the name of the entity(ies) that may qualify and indicate which of the situations apply, with additional detail.",
+     "section": "Question 5",
+     "type": "long_text",
+     "areas": [
+      "p3_b5"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if Yes to question 5",
+     "instructions": "Enter details only when \"Yes\" is selected above.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p3_f10",
+     "page": 3
+    },
+    {
+     "label": "6. Czy w reprezentowanym przez Państwa podmiocie lub jego oddziale/filii lub podmiocie zależnym występuje dyrektor wyższego szczebla, członek kadry zarządzającej, osoba lub podmiot posiadający co najmniej 10% praw własności lub udziałów/akcji lub osoba sprawująca kontrolę nad podmiotem w sposób bezpośredni lub pośredni, która jest sankcjonowana lub obywatel jurysdykcji sankcjonowanej",
+     "description": "Whether the entity has a senior officer, 10%+ owner, or controlling person who is sanctioned or from a sanctioned jurisdiction.",
+     "section": "Question 6",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p3_b7"
+      },
+      {
+       "label": "No",
+       "area": "p3_b8"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p3_f11",
+     "page": 3
+    },
+    {
+     "label": "7. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny uzyskał zezwolenie lub licencję od organu sankcyjnego/regulatora na przeprowadzenie działań z podmiotem sankcjonowanym lub prowadzenie działalności powiązanej z jurysdykcją sankcjonowaną?",
+     "description": "Whether the entity relies on an authorization or license from a sanctions/regulatory authority to conduct activities with sanctioned parties or jurisdictions.",
+     "section": "Question 7",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p3_b11"
+      },
+      {
+       "label": "No",
+       "area": "p3_b12"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p3_f12",
+     "page": 3
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p3_b9",
+     "reason": "question label cell, not an answer area"
+    },
+    {
+     "area": "p3_b13",
+     "reason": "question label cell, not an answer area"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 4,
+   "page_instructions": [
+    "*If \"Yes\" is selected, please provide the number of the account maintained by La Banque des Entreprises, and the Sanctioned Parties or Sanctioned Targets.",
+    "*If \"No\" is selected, please describe the controls that will be maintained to ensure that La Banque des Entreprises is insulated from any activity in the Sanctioned Targets or in respect of Sanctioned Parties."
+   ],
+   "fields": [
+    {
+     "label": "8. Czy reprezentowany przez Państwa podmiot obecnie wykorzystuje lub w przyszłości zamierza wykorzystywać lub udostępniać swoim oddziałom/filiom, podmiotom zależnym lub innej osobie trzeciej produkty, usługi, systemy lub platformy La Banque des Entreprises, w sposób bezpośredni lub pośredni, w celu przeprowadzenia działań z lub w odniesieniu do podmiotu sankcjonowanego lub jurysdykcji sankcjonowanej (wskazanej na stronie 1, w tym wszelkich działań, na które uzyskano szczegółowe zezwolenie, lub które nie są zakazane)?",
+     "description": "Whether the entity currently uses or intends to use La Banque des Entreprises products or services for sanctioned parties or jurisdictions.",
+     "section": "Sanctions – Question 8",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p4_b3"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p4_b4"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "*If \"Yes\" is selected, provide account number and sanctioned parties; if \"No\", describe controls.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p4_f13",
+     "page": 4
+    },
+    {
+     "label": "9. Czy reprezentowany przez Państwa podmiot wdrożył polityki i procedury mające na celu zapewnienie zgodności z obowiązującymi przepisami sankcyjnymi lub środkami ograniczającymi handel (w szczególności wprowadzonymi przez Polskę, OFAC, ONZ, Wielkiej Brytanii, UE), wiążące dla wszystkich Państwa oddziałów/filii i podmiotów zależnych?",
+     "description": "Whether the entity has implemented sanctions compliance policies and procedures applicable to all branches and subsidiaries.",
+     "section": "Sanctions – Question 9",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Nie/No",
+       "area": "p4_b6"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "*If \"Yes\" is selected, provide a brief overview of policies; if \"No\", describe controls.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p4_f14",
+     "page": 4
+    },
+    {
+     "label": "10. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny jest zaangażowany w produkcję lub sprzedaż towarów podwójnego zastosowania wymienionych w załączniku I do Rozporządzenia UE 2021/821?",
+     "description": "Whether the entity or its branches/subsidiaries are involved in the production or sale of dual‑use goods listed in EU Regulation 2021/821.",
+     "section": "Sanctions – Question 10",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p4_b9"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p4_b10"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "*If \"Yes\" is selected, provide detailed information on the activity; if \"No\", no further details required.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p4_f15",
+     "page": 4
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p4_b7",
+     "reason": "question text cell, not an answer area"
+    },
+    {
+     "area": "p4_b11",
+     "reason": "question text cell, not an answer area"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 5,
+   "page_instructions": [
+    "*W przypadku odpowiedzi „Tak\" należy podać szczegółowe informacje dotyczące prowadzonej działalności, w tym m.in. wskazać kraje docelowe, kraje, przez które prowadzony jest tranzyt/transfer, zharmonizowane kody taryfowe (kody celne) produktów, uzyskane zezwolenia, wprowadzone postanowienia umowne zakazujące powrotnego wywozu do Rosji/w celu wykorzystania w Rosji oraz odpowiednie zabezpieczenia takich zakazów.",
+    "To be completed only when there is activity in one/more of the non-government-controlled territories of Donetsk, Luhansk, Kherson and Zaporizhzhia Regions of Ukraine."
+   ],
+   "fields": [
+    {
+     "label": "11. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny eksportuje produkty podwójnego zastosowania w rozumieniu Rozporządzenia UE 2021/821 poza terytorium Unii Europejskiej lub jest zaangażowany w tranzyt/transfer takich produktów (na terytorium Unii Europejskiej lub poza nim) lub inne działania powiązane ze wskazaną działalnością?",
+     "description": "Export of dual‑use goods outside the EU or involvement in their transit/transfer.",
+     "section": "Section A",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b2"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b3"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f16",
+     "page": 5
+    },
+    {
+     "label": "1. Czy reprezentowany przez Państwa podmiot ma siedzibę, centrum zarządzania lub główne miejsce prowadzenia działalności w wymienionych obszarach?",
+     "description": "Whether the entity has its registered office, central administration or principal place of business in the specified regions.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b7"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b8"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f17",
+     "page": 5
+    },
+    {
+     "label": "2. Czy reprezentowany przez Państwa podmiot ma podmioty zależne lub kontrolowane podmioty powiązane w wymienionych obszarach?",
+     "description": "Whether the entity has subsidiaries or controlled affiliates in the specified regions.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b11"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b12"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f18",
+     "page": 5
+    },
+    {
+     "label": "3. Czy reprezentowany przez Państwa podmiot ma oddziały/filie i inne podmioty prowadzące działalność operacyjną w wymienionych regionach?",
+     "description": "Whether the entity has branches/offices or other operating entities in the specified regions.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b15"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f19",
+     "page": 5
+    },
+    {
+     "label": "4. Czy reprezentowany przez Państwa podmiot jest zaangażowany w dowolny sposób w import na terytorium UE lub Wielkiej Brytanii towarów pochodzących z co najmniej jednego obszaru wskazanego przez UE/Wielką Brytanię lub w działalność turystyczną w tych obszarach?",
+     "description": "Whether the entity is involved in importing goods from the specified regions into the EU/UK or in tourism activities there.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b18"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b19"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f20",
+     "page": 5
+    },
+    {
+     "label": "5. Czy reprezentowany przez Państwa podmiot posiada lub zamierza nabyć prawa własności w „podmiocie we wskazanych obszarach\" lub do ziemi w obszarach wskazanych przez UE/Wielką Brytanię?",
+     "description": "Whether the entity holds or intends to acquire ownership interest in an entity or land in the specified regions.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b22"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b23"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f21",
+     "page": 5
+    },
+    {
+     "label": "6. Czy reprezentowany przez Państwa podmiot udzielił lub zamierza udzielić lub być zaangażowany w udzielenie pożyczki podmiotowi ze wskazanych obszarów?",
+     "description": "Whether the entity has given, intends to give, or be involved in lending to an entity in the specified regions.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b26"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b27"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f22",
+     "page": 5
+    },
+    {
+     "label": "7. Czy reprezentowany przez Państwa podmiot zamierza utworzyć spółkę joint venture z podmiotem ze wskazanych obszarów lub zrobił to od marca 2022?",
+     "description": "Whether the entity intends to create or has created a joint venture with an entity in the specified regions since March 2022.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b30"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b31"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f23",
+     "page": 5
+    },
+    {
+     "label": "8. Czy reprezentowany przez Państwa podmiot udziela wsparcia lub świadczy usługi pomocnicze w odniesieniu do działań opisanych w punktach 2), 3) i 4) lub działalności turystycznej w dowolnym obszarze wskazanym przez UE/Wielką Brytanię?",
+     "description": "Whether the entity provides support or ancillary services for the activities described in points 2‑4 or tourism activities in any specified region.",
+     "section": "Section B",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p5_b34"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p5_b35"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f24",
+     "page": 5
+    },
+    {
+     "label": "If Yes to any question in this section, provide detailed information in Section C.",
+     "description": "Provide detailed information about the activity when any answer is Yes.",
+     "section": "Section B",
+     "type": "long_text",
+     "areas": [
+      "p5_b36"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if Yes to any question in this section",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p5_f25",
+     "page": 5
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p5_b4",
+     "reason": "header cell containing question text, not an answer place"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 6,
+   "page_instructions": [
+    "If \"Yes\" to any or all the questions in this section, please provide additional details in Section C."
+   ],
+   "fields": [
+    {
+     "label": "Additional details (Section C)",
+     "description": "Provide further information if any question in this section was answered Yes.",
+     "section": "Section B",
+     "type": "long_text",
+     "areas": [
+      "p6_b1"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if Yes to any question in this section",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p6_f26",
+     "page": 6
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  },
+  {
+   "page": 7,
+   "page_instructions": [],
+   "fields": [],
+   "discarded": [],
+   "check_errors": []
+  },
+  {
+   "page": 8,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Kuba – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b13"
+     ],
+     "options": [],
+     "group": "Kuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f27",
+     "page": 8
+    },
+    {
+     "label": "Kuba – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b14"
+     ],
+     "options": [],
+     "group": "Kuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f28",
+     "page": 8
+    },
+    {
+     "label": "Kuba – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b15"
+     ],
+     "options": [],
+     "group": "Kuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f29",
+     "page": 8
+    },
+    {
+     "label": "Kuba – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b16"
+     ],
+     "options": [],
+     "group": "Kuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f30",
+     "page": 8
+    },
+    {
+     "label": "Kuba – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b17"
+     ],
+     "options": [],
+     "group": "Kuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f31",
+     "page": 8
+    },
+    {
+     "label": "Kuba – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b18"
+     ],
+     "options": [],
+     "group": "Kuba",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f32",
+     "page": 8
+    },
+    {
+     "label": "Iran – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b20"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f33",
+     "page": 8
+    },
+    {
+     "label": "Iran – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b21"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f34",
+     "page": 8
+    },
+    {
+     "label": "Iran – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b22"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f35",
+     "page": 8
+    },
+    {
+     "label": "Iran – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b23"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f36",
+     "page": 8
+    },
+    {
+     "label": "Iran – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b24"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f37",
+     "page": 8
+    },
+    {
+     "label": "Iran – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b25"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f38",
+     "page": 8
+    },
+    {
+     "label": "Korea Północna – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b27"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f39",
+     "page": 8
+    },
+    {
+     "label": "Korea Północna – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b28"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f40",
+     "page": 8
+    },
+    {
+     "label": "Korea Północna – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b29"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f41",
+     "page": 8
+    },
+    {
+     "label": "Korea Północna – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b30"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f42",
+     "page": 8
+    },
+    {
+     "label": "Korea Północna – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b31"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f43",
+     "page": 8
+    },
+    {
+     "label": "Korea Północna – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b32"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f44",
+     "page": 8
+    },
+    {
+     "label": "Syria – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b34"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f45",
+     "page": 8
+    },
+    {
+     "label": "Syria – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b35"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f46",
+     "page": 8
+    },
+    {
+     "label": "Syria – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b36"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f47",
+     "page": 8
+    },
+    {
+     "label": "Syria – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b37"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f48",
+     "page": 8
+    },
+    {
+     "label": "Syria – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b38"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f49",
+     "page": 8
+    },
+    {
+     "label": "Syria – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b39"
+     ],
+     "options": [],
+     "group": "Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f50",
+     "page": 8
+    },
+    {
+     "label": "Białoruś – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b41"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f51",
+     "page": 8
+    },
+    {
+     "label": "Białoruś – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b42"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f52",
+     "page": 8
+    },
+    {
+     "label": "Białoruś – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b43"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f53",
+     "page": 8
+    },
+    {
+     "label": "Białoruś – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b44"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f54",
+     "page": 8
+    },
+    {
+     "label": "Białoruś – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b45"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f55",
+     "page": 8
+    },
+    {
+     "label": "Białoruś – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b46"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f56",
+     "page": 8
+    },
+    {
+     "label": "Rosja – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b48"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f57",
+     "page": 8
+    },
+    {
+     "label": "Rosja – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b49"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f58",
+     "page": 8
+    },
+    {
+     "label": "Rosja – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b50"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f59",
+     "page": 8
+    },
+    {
+     "label": "Rosja – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b51"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f60",
+     "page": 8
+    },
+    {
+     "label": "Rosja – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b52"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f61",
+     "page": 8
+    },
+    {
+     "label": "Rosja – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b53"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f62",
+     "page": 8
+    },
+    {
+     "label": "Krym – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b55"
+     ],
+     "options": [],
+     "group": "Krym",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f63",
+     "page": 8
+    },
+    {
+     "label": "Krym – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b56"
+     ],
+     "options": [],
+     "group": "Krym",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f64",
+     "page": 8
+    },
+    {
+     "label": "Krym – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b57"
+     ],
+     "options": [],
+     "group": "Krym",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f65",
+     "page": 8
+    },
+    {
+     "label": "Krym – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b58"
+     ],
+     "options": [],
+     "group": "Krym",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f66",
+     "page": 8
+    },
+    {
+     "label": "Krym – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b59"
+     ],
+     "options": [],
+     "group": "Krym",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f67",
+     "page": 8
+    },
+    {
+     "label": "Krym – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b60"
+     ],
+     "options": [],
+     "group": "Krym",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f68",
+     "page": 8
+    },
+    {
+     "label": "Venezuela – % of total Revenue",
+     "description": "Percentage of total revenue derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b62"
+     ],
+     "options": [],
+     "group": "Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f69",
+     "page": 8
+    },
+    {
+     "label": "Venezuela – Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity related to this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b63"
+     ],
+     "options": [],
+     "group": "Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f70",
+     "page": 8
+    },
+    {
+     "label": "Venezuela – % of total expenses",
+     "description": "Percentage of total expenses (purchases, imports) derived from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b64"
+     ],
+     "options": [],
+     "group": "Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f71",
+     "page": 8
+    },
+    {
+     "label": "Venezuela – Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses from this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b65"
+     ],
+     "options": [],
+     "group": "Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f72",
+     "page": 8
+    },
+    {
+     "label": "Venezuela – % of total assets",
+     "description": "Percentage of total assets (real estate/property, investments) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "number",
+     "areas": [
+      "p8_b66"
+     ],
+     "options": [],
+     "group": "Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f73",
+     "page": 8
+    },
+    {
+     "label": "Venezuela – Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the asset(s) held in this sanctioned jurisdiction.",
+     "section": "Section C: Sanctions Related Exposure Further Details",
+     "type": "long_text",
+     "areas": [
+      "p8_b67"
+     ],
+     "options": [],
+     "group": "Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p8_f74",
+     "page": 8
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p8_b11",
+     "reason": "decorative line, not an answer place"
+    }
+   ],
+   "check_errors": []
+  },
+  {
+   "page": 9,
+   "page_instructions": [
+    "Please note if you provided a positive response to Section A, Question 1, we expect that you will also complete this section in full.",
+    "If you have completed Section A, Q1 positively, but think Section D is not applicable, please provide rationale below."
+   ],
+   "fields": [
+    {
+     "label": "Donetsk Region | % of total Revenue",
+     "description": "Percentage of total revenue associated with activity in Donetsk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b2"
+     ],
+     "options": [],
+     "group": "Donetsk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f75",
+     "page": 9
+    },
+    {
+     "label": "Donetsk Region | Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity in Donetsk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b3"
+     ],
+     "options": [],
+     "group": "Donetsk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f76",
+     "page": 9
+    },
+    {
+     "label": "Donetsk Region | % of total expenses",
+     "description": "Percentage of total expenses associated with activity in Donetsk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b4"
+     ],
+     "options": [],
+     "group": "Donetsk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f77",
+     "page": 9
+    },
+    {
+     "label": "Donetsk Region | Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses in Donetsk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b5"
+     ],
+     "options": [],
+     "group": "Donetsk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f78",
+     "page": 9
+    },
+    {
+     "label": "Donetsk Region | % of total assets",
+     "description": "Percentage of total assets associated with activity in Donetsk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b6"
+     ],
+     "options": [],
+     "group": "Donetsk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f79",
+     "page": 9
+    },
+    {
+     "label": "Donetsk Region | Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the assets in Donetsk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b7"
+     ],
+     "options": [],
+     "group": "Donetsk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f80",
+     "page": 9
+    },
+    {
+     "label": "Luhansk Region | % of total Revenue",
+     "description": "Percentage of total revenue associated with activity in Luhansk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b9"
+     ],
+     "options": [],
+     "group": "Luhansk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f81",
+     "page": 9
+    },
+    {
+     "label": "Luhansk Region | Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity in Luhansk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b10"
+     ],
+     "options": [],
+     "group": "Luhansk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f82",
+     "page": 9
+    },
+    {
+     "label": "Luhansk Region | % of total expenses",
+     "description": "Percentage of total expenses associated with activity in Luhansk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b11"
+     ],
+     "options": [],
+     "group": "Luhansk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f83",
+     "page": 9
+    },
+    {
+     "label": "Luhansk Region | Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses in Luhansk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b12"
+     ],
+     "options": [],
+     "group": "Luhansk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f84",
+     "page": 9
+    },
+    {
+     "label": "Luhansk Region | % of total assets",
+     "description": "Percentage of total assets associated with activity in Luhansk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b13"
+     ],
+     "options": [],
+     "group": "Luhansk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f85",
+     "page": 9
+    },
+    {
+     "label": "Luhansk Region | Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the assets in Luhansk Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b14"
+     ],
+     "options": [],
+     "group": "Luhansk Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f86",
+     "page": 9
+    },
+    {
+     "label": "Kherson Region | % of total Revenue",
+     "description": "Percentage of total revenue associated with activity in Kherson Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b16"
+     ],
+     "options": [],
+     "group": "Kherson Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f87",
+     "page": 9
+    },
+    {
+     "label": "Kherson Region | Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity in Kherson Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b17"
+     ],
+     "options": [],
+     "group": "Kherson Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f88",
+     "page": 9
+    },
+    {
+     "label": "Kherson Region | % of total expenses",
+     "description": "Percentage of total expenses associated with activity in Kherson Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b18"
+     ],
+     "options": [],
+     "group": "Kherson Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f89",
+     "page": 9
+    },
+    {
+     "label": "Kherson Region | Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses in Kherson Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b19"
+     ],
+     "options": [],
+     "group": "Kherson Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f90",
+     "page": 9
+    },
+    {
+     "label": "Kherson Region | % of total assets",
+     "description": "Percentage of total assets associated with activity in Kherson Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b20"
+     ],
+     "options": [],
+     "group": "Kherson Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f91",
+     "page": 9
+    },
+    {
+     "label": "Kherson Region | Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the assets in Kherson Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b21"
+     ],
+     "options": [],
+     "group": "Kherson Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f92",
+     "page": 9
+    },
+    {
+     "label": "Zaporizhzhia Region | % of total Revenue",
+     "description": "Percentage of total revenue associated with activity in Zaporizhzhia Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b23"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f93",
+     "page": 9
+    },
+    {
+     "label": "Zaporizhzhia Region | Name of the entity and Nature of the activity",
+     "description": "Name of the entity and nature of the activity in Zaporizhzhia Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b24"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f94",
+     "page": 9
+    },
+    {
+     "label": "Zaporizhzhia Region | % of total expenses",
+     "description": "Percentage of total expenses associated with activity in Zaporizhzhia Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b25"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f95",
+     "page": 9
+    },
+    {
+     "label": "Zaporizhzhia Region | Name of the entity and Nature of the activity (expenses)",
+     "description": "Name of the entity and nature of the activity related to expenses in Zaporizhzhia Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b26"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f96",
+     "page": 9
+    },
+    {
+     "label": "Zaporizhzhia Region | % of total assets",
+     "description": "Percentage of total assets associated with activity in Zaporizhzhia Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b27"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f97",
+     "page": 9
+    },
+    {
+     "label": "Zaporizhzhia Region | Name of the entity and Purpose of the asset(s)",
+     "description": "Name of the entity and purpose of the assets in Zaporizhzhia Region.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b28"
+     ],
+     "options": [],
+     "group": "Zaporizhzhia Region",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f98",
+     "page": 9
+    },
+    {
+     "label": "Total | % of total Revenue",
+     "description": "Total percentage of revenue across all listed regions.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b30"
+     ],
+     "options": [],
+     "group": "Total",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f99",
+     "page": 9
+    },
+    {
+     "label": "Total | Name of the entity and Nature of the activity",
+     "description": "Total name of entities and nature of activity across all regions.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b31"
+     ],
+     "options": [],
+     "group": "Total",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f100",
+     "page": 9
+    },
+    {
+     "label": "Total | % of total expenses",
+     "description": "Total percentage of expenses across all listed regions.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b32"
+     ],
+     "options": [],
+     "group": "Total",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f101",
+     "page": 9
+    },
+    {
+     "label": "Total | Name of the entity and Nature of the activity (expenses)",
+     "description": "Total name of entities and nature of activity related to expenses across all regions.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b33"
+     ],
+     "options": [],
+     "group": "Total",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f102",
+     "page": 9
+    },
+    {
+     "label": "Total | % of total assets",
+     "description": "Total percentage of assets across all listed regions.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "percentage",
+     "areas": [
+      "p9_b34"
+     ],
+     "options": [],
+     "group": "Total",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f103",
+     "page": 9
+    },
+    {
+     "label": "Total | Name of the entity and Purpose of the asset(s)",
+     "description": "Total name of entities and purpose of assets across all regions.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "text",
+     "areas": [
+      "p9_b35"
+     ],
+     "options": [],
+     "group": "Total",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f104",
+     "page": 9
+    },
+    {
+     "label": "Question 1: Does the entity or its branches conduct activity in the listed countries?",
+     "description": "Indicates whether the entity conducts activity in the listed countries.",
+     "section": "Section D: Trade Restrictive Measures/Trade Sanctions",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Yes",
+       "area": "p9_b38"
+      },
+      {
+       "label": "No",
+       "area": "p9_b39"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p9_f105",
+     "page": 9
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  },
+  {
+   "page": 10,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Afganistan | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b6"
+     ],
+     "options": [],
+     "group": "Afganistan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f106",
+     "page": 10
+    },
+    {
+     "label": "Afganistan | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b7"
+     ],
+     "options": [],
+     "group": "Afganistan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f107",
+     "page": 10
+    },
+    {
+     "label": "Afganistan | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b8"
+     ],
+     "options": [],
+     "group": "Afganistan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f108",
+     "page": 10
+    },
+    {
+     "label": "Angola | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b10"
+     ],
+     "options": [],
+     "group": "Angola",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f109",
+     "page": 10
+    },
+    {
+     "label": "Angola | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b11"
+     ],
+     "options": [],
+     "group": "Angola",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f110",
+     "page": 10
+    },
+    {
+     "label": "Angola | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b12"
+     ],
+     "options": [],
+     "group": "Angola",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f111",
+     "page": 10
+    },
+    {
+     "label": "Białoruś | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b14"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f112",
+     "page": 10
+    },
+    {
+     "label": "Białoruś | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b15"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f113",
+     "page": 10
+    },
+    {
+     "label": "Białoruś | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b16"
+     ],
+     "options": [],
+     "group": "Białoruś",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f114",
+     "page": 10
+    },
+    {
+     "label": "Republika Środkowoafrykańska | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b18"
+     ],
+     "options": [],
+     "group": "Republika Środkowoafrykańska",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f115",
+     "page": 10
+    },
+    {
+     "label": "Republika Środkowoafrykańska | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b19"
+     ],
+     "options": [],
+     "group": "Republika Środkowoafrykańska",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f116",
+     "page": 10
+    },
+    {
+     "label": "Republika Środkowoafrykańska | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b20"
+     ],
+     "options": [],
+     "group": "Republika Środkowoafrykańska",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f117",
+     "page": 10
+    },
+    {
+     "label": "Korea Północna | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b22"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f118",
+     "page": 10
+    },
+    {
+     "label": "Korea Północna | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b23"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f119",
+     "page": 10
+    },
+    {
+     "label": "Korea Północna | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b24"
+     ],
+     "options": [],
+     "group": "Korea Północna",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f120",
+     "page": 10
+    },
+    {
+     "label": "Demokratyczna Republika Kongo | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b26"
+     ],
+     "options": [],
+     "group": "Demokratyczna Republika Kongo",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f121",
+     "page": 10
+    },
+    {
+     "label": "Demokratyczna Republika Kongo | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b27"
+     ],
+     "options": [],
+     "group": "Demokratyczna Republika Kongo",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f122",
+     "page": 10
+    },
+    {
+     "label": "Demokratyczna Republika Kongo | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b28"
+     ],
+     "options": [],
+     "group": "Demokratyczna Republika Kongo",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f123",
+     "page": 10
+    },
+    {
+     "label": "Haiti | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b30"
+     ],
+     "options": [],
+     "group": "Haiti",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f124",
+     "page": 10
+    },
+    {
+     "label": "Haiti | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b31"
+     ],
+     "options": [],
+     "group": "Haiti",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f125",
+     "page": 10
+    },
+    {
+     "label": "Haiti | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b32"
+     ],
+     "options": [],
+     "group": "Haiti",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f126",
+     "page": 10
+    },
+    {
+     "label": "Iran | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b34"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f127",
+     "page": 10
+    },
+    {
+     "label": "Iran | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b35"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f128",
+     "page": 10
+    },
+    {
+     "label": "Iran | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b36"
+     ],
+     "options": [],
+     "group": "Iran",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f129",
+     "page": 10
+    },
+    {
+     "label": "Irak | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b38"
+     ],
+     "options": [],
+     "group": "Irak",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f130",
+     "page": 10
+    },
+    {
+     "label": "Irak | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b39"
+     ],
+     "options": [],
+     "group": "Irak",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f131",
+     "page": 10
+    },
+    {
+     "label": "Irak | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b40"
+     ],
+     "options": [],
+     "group": "Irak",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f132",
+     "page": 10
+    },
+    {
+     "label": "Wybrzeże Kości Słoniowej | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b42"
+     ],
+     "options": [],
+     "group": "Wybrzeże Kości Słoniowej",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f133",
+     "page": 10
+    },
+    {
+     "label": "Wybrzeże Kości Słoniowej | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b43"
+     ],
+     "options": [],
+     "group": "Wybrzeże Kości Słoniowej",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f134",
+     "page": 10
+    },
+    {
+     "label": "Wybrzeże Kości Słoniowej | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b44"
+     ],
+     "options": [],
+     "group": "Wybrzeże Kości Słoniowej",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f135",
+     "page": 10
+    },
+    {
+     "label": "Liban | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b46"
+     ],
+     "options": [],
+     "group": "Liban",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f136",
+     "page": 10
+    },
+    {
+     "label": "Liban | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b47"
+     ],
+     "options": [],
+     "group": "Liban",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f137",
+     "page": 10
+    },
+    {
+     "label": "Liban | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b48"
+     ],
+     "options": [],
+     "group": "Liban",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f138",
+     "page": 10
+    },
+    {
+     "label": "Liberia | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b49"
+     ],
+     "options": [],
+     "group": "Liberia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f139",
+     "page": 10
+    },
+    {
+     "label": "Liberia | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b50"
+     ],
+     "options": [],
+     "group": "Liberia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f140",
+     "page": 10
+    },
+    {
+     "label": "Liberia | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b51"
+     ],
+     "options": [],
+     "group": "Liberia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f141",
+     "page": 10
+    },
+    {
+     "label": "Libia | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b54"
+     ],
+     "options": [],
+     "group": "Libia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f142",
+     "page": 10
+    },
+    {
+     "label": "Libia | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b55"
+     ],
+     "options": [],
+     "group": "Libia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f143",
+     "page": 10
+    },
+    {
+     "label": "Libia | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b56"
+     ],
+     "options": [],
+     "group": "Libia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f144",
+     "page": 10
+    },
+    {
+     "label": "Mjanma (Birma) | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b58"
+     ],
+     "options": [],
+     "group": "Mjanma (Birma)",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f145",
+     "page": 10
+    },
+    {
+     "label": "Mjanma (Birma) | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b59"
+     ],
+     "options": [],
+     "group": "Mjanma (Birma)",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f146",
+     "page": 10
+    },
+    {
+     "label": "Mjanma (Birma) | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b60"
+     ],
+     "options": [],
+     "group": "Mjanma (Birma)",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f147",
+     "page": 10
+    },
+    {
+     "label": "Rosja | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b62"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f148",
+     "page": 10
+    },
+    {
+     "label": "Rosja | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b63"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f149",
+     "page": 10
+    },
+    {
+     "label": "Rosja | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b64"
+     ],
+     "options": [],
+     "group": "Rosja",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f150",
+     "page": 10
+    },
+    {
+     "label": "Sierra Leone | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b66"
+     ],
+     "options": [],
+     "group": "Sierra Leone",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f151",
+     "page": 10
+    },
+    {
+     "label": "Sierra Leone | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b67"
+     ],
+     "options": [],
+     "group": "Sierra Leone",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f152",
+     "page": 10
+    },
+    {
+     "label": "Sierra Leone | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b68"
+     ],
+     "options": [],
+     "group": "Sierra Leone",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f153",
+     "page": 10
+    },
+    {
+     "label": "Somalia | Rodzaj działalności (np. import lub eksport)",
+     "description": "Type of activity (e.g., import or export)",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b70"
+     ],
+     "options": [],
+     "group": "Somalia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f154",
+     "page": 10
+    },
+    {
+     "label": "Somalia | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność",
+     "description": "Name and domicile of the legal entity engaged in the activity",
+     "section": "Country details",
+     "type": "text",
+     "areas": [
+      "p10_b71"
+     ],
+     "options": [],
+     "group": "Somalia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f155",
+     "page": 10
+    },
+    {
+     "label": "Somalia | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami",
+     "description": "Specify the restricted goods, software or technology, including commodity codes and license details",
+     "section": "Country details",
+     "type": "long_text",
+     "areas": [
+      "p10_b72"
+     ],
+     "options": [],
+     "group": "Somalia",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p10_f156",
+     "page": 10
+    }
+   ],
+   "discarded": [],
+   "check_errors": []
+  },
+  {
+   "page": 11,
+   "page_instructions": [],
+   "fields": [
+    {
+     "label": "Sudan Południowy / South Sudan | Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "description": "Describe the type of activity (e.g., import or export) for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b2"
+     ],
+     "options": [],
+     "group": "Country: Sudan Południowy / South Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f157",
+     "page": 11
+    },
+    {
+     "label": "Sudan Południowy / South Sudan | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged",
+     "description": "Provide the name and domicile of the legal entity involved in the activity for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b3"
+     ],
+     "options": [],
+     "group": "Country: Sudan Południowy / South Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f158",
+     "page": 11
+    },
+    {
+     "label": "Sudan Południowy / South Sudan | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe",
+     "description": "Specify the type of goods, software or technology subject to restrictions for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b4"
+     ],
+     "options": [],
+     "group": "Country: Sudan Południowy / South Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f159",
+     "page": 11
+    },
+    {
+     "label": "Sudan | Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "description": "Describe the type of activity (e.g., import or export) for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b6"
+     ],
+     "options": [],
+     "group": "Country: Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f160",
+     "page": 11
+    },
+    {
+     "label": "Sudan | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged",
+     "description": "Provide the name and domicile of the legal entity involved in the activity for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b7"
+     ],
+     "options": [],
+     "group": "Country: Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f161",
+     "page": 11
+    },
+    {
+     "label": "Sudan | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe",
+     "description": "Specify the type of goods, software or technology subject to restrictions for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b8"
+     ],
+     "options": [],
+     "group": "Country: Sudan",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f162",
+     "page": 11
+    },
+    {
+     "label": "Syria | Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "description": "Describe the type of activity (e.g., import or export) for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b10"
+     ],
+     "options": [],
+     "group": "Country: Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f163",
+     "page": 11
+    },
+    {
+     "label": "Syria | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged",
+     "description": "Provide the name and domicile of the legal entity involved in the activity for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b11"
+     ],
+     "options": [],
+     "group": "Country: Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f164",
+     "page": 11
+    },
+    {
+     "label": "Syria | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe",
+     "description": "Specify the type of goods, software or technology subject to restrictions for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b12"
+     ],
+     "options": [],
+     "group": "Country: Syria",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f165",
+     "page": 11
+    },
+    {
+     "label": "Wenezuela / Venezuela | Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "description": "Describe the type of activity (e.g., import or export) for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b14"
+     ],
+     "options": [],
+     "group": "Country: Wenezuela / Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f166",
+     "page": 11
+    },
+    {
+     "label": "Wenezuela / Venezuela | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged",
+     "description": "Provide the name and domicile of the legal entity involved in the activity for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b15"
+     ],
+     "options": [],
+     "group": "Country: Wenezuela / Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f167",
+     "page": 11
+    },
+    {
+     "label": "Wenezuela / Venezuela | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe",
+     "description": "Specify the type of goods, software or technology subject to restrictions for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b16"
+     ],
+     "options": [],
+     "group": "Country: Wenezuela / Venezuela",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f168",
+     "page": 11
+    },
+    {
+     "label": "Jemen / Yemen | Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "description": "Describe the type of activity (e.g., import or export) for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b18"
+     ],
+     "options": [],
+     "group": "Country: Jemen / Yemen",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f169",
+     "page": 11
+    },
+    {
+     "label": "Jemen / Yemen | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged",
+     "description": "Provide the name and domicile of the legal entity involved in the activity for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b19"
+     ],
+     "options": [],
+     "group": "Country: Jemen / Yemen",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f170",
+     "page": 11
+    },
+    {
+     "label": "Jemen / Yemen | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe",
+     "description": "Specify the type of goods, software or technology subject to restrictions for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b20"
+     ],
+     "options": [],
+     "group": "Country: Jemen / Yemen",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f171",
+     "page": 11
+    },
+    {
+     "label": "Zimbabwe | Rodzaj działalności (np. import lub eksport) Nature of the activity (e.g. import or export)",
+     "description": "Describe the type of activity (e.g., import or export) for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b22"
+     ],
+     "options": [],
+     "group": "Country: Zimbabwe",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f172",
+     "page": 11
+    },
+    {
+     "label": "Zimbabwe | Nazwa i domicyl podmiotu prawnego zaangażowanego w działalność Name AND domicile of the legal entity engaged",
+     "description": "Provide the name and domicile of the legal entity involved in the activity for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b23"
+     ],
+     "options": [],
+     "group": "Country: Zimbabwe",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f173",
+     "page": 11
+    },
+    {
+     "label": "Zimbabwe | Rodzaj towarów, oprogramowania lub technologii objętych ograniczeniami, w tym zharmonizowane kody taryfowe",
+     "description": "Specify the type of goods, software or technology subject to restrictions for the listed country.",
+     "section": "Sanctions – CHPL",
+     "type": "text",
+     "areas": [
+      "p11_b24"
+     ],
+     "options": [],
+     "group": "Country: Zimbabwe",
+     "condition": null,
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f174",
+     "page": 11
+    },
+    {
+     "label": "2. Czy reprezentowany przez Państwa podmiot lub jego oddział/filia lub podmiot zależny prowadzi obecnie lub planuje działania, bezpośrednio lub pośrednio, w lub z którymkolwiek z produktów wskazanym na liście G7 Common High Priority List (CHPL) zgodnie z poniższym linkiem?",
+     "description": "Indicates whether the entity currently or plans activities with items on the G7 CHPL.",
+     "section": "Sanctions – CHPL",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p11_b26"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p11_b27"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "*If Yes, provide details on your controls to prevent these items being made available in a sanctioned jurisdiction.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f175",
+     "page": 11
+    },
+    {
+     "label": "3. Have you implemented policies and procedures to comply with Polish, EU, UK or US Trade Sanctions?",
+     "description": "Indicates whether the entity has implemented policies and procedures to comply with relevant trade sanctions.",
+     "section": "Sanctions – CHPL",
+     "type": "single_choice",
+     "areas": [],
+     "options": [
+      {
+       "label": "Tak/Yes",
+       "area": "p11_b30"
+      },
+      {
+       "label": "Nie/No",
+       "area": "p11_b31"
+      }
+     ],
+     "group": null,
+     "condition": null,
+     "instructions": "*If Yes, provide a brief overview of your trade sanctions policies/procedures and controls.",
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f176",
+     "page": 11
+    },
+    {
+     "label": "Overview of trade sanctions policies and controls",
+     "description": "Provide a brief overview of your trade sanctions policies/procedures and controls.",
+     "section": "Sanctions – CHPL",
+     "type": "long_text",
+     "areas": [
+      "p11_b33"
+     ],
+     "options": [],
+     "group": null,
+     "condition": "if Yes to question 3",
+     "instructions": null,
+     "bank_reserved": false,
+     "signature": false,
+     "id": "05_p11_f177",
+     "page": 11
+    }
+   ],
+   "discarded": [
+    {
+     "area": "p11_b28",
+     "reason": "question text, not an answer field"
+    },
+    {
+     "area": "p11_b32",
+     "reason": "question text, not an answer field"
+    }
+   ],
+   "check_errors": []
+  }
+ ],
+ "usage": {
+  "input_tokens": 70682,
+  "output_tokens": 38511,
+  "requests": 11,
+  "seconds": 105.7,
+  "cost_usd": 0.0337
+ }
+}

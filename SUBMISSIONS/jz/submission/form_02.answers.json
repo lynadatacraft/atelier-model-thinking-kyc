@@ -1,0 +1,1664 @@
+[
+ {
+  "page": 1,
+  "label": "Dénomination Sociale*",
+  "value": "Belorive Patrimoine SAS",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/name (= sources/companies/sim-hackathon-b-client/mandate.md#/name)",
+  "justification": "Le nom légal du client est indiqué dans le registre corporate comme \"Belorive Patrimoine SAS\".",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f1",
+  "label_short": "Dénomination Sociale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/name",
+    "quote": "Belorive Patrimoine SAS",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "/name",
+    "quote": "Belorive Patrimoine SAS",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Forme Juridique: | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": "SAS",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/legal_form",
+  "justification": "La forme juridique du client est précisée dans le registre corporate comme \"SAS\".",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f2",
+  "label_short": "Forme Juridique",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/legal_form",
+    "quote": "SAS",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Adresse du siège social* | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/address",
+  "justification": "L'adresse du siège social est fournie dans le registre corporate sous le champ \"address\".",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f3",
+  "label_short": "Adresse du siège social",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/address",
+    "quote": "11 rue des Sociétés Fictives, 69000 Lyon, France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Code postal*: | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": "69000",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/postcode",
+  "justification": "Le code postal du siège social est indiqué comme \"69000\" dans le registre corporate.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f4",
+  "label_short": "Code postal",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/postcode",
+    "quote": "69000",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Ville*: | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": "Lyon",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/city",
+  "justification": "La ville du siège social est mentionnée comme \"Lyon\" dans le registre corporate.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f5",
+  "label_short": "Ville",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/city",
+    "quote": "Lyon",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Pays *: | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country",
+  "justification": "Le pays du siège social est indiqué comme France dans le registre d’entreprise.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f6",
+  "label_short": "Pays",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Adresse de l'établissement (si différent du siège social): | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/establishment",
+  "justification": "Aucun établissement différent du siège social n’est indiqué ; le champ établissement est nul, donc non applicable.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f7",
+  "label_short": "Adresse de l'établissement (si différent du siège social)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/establishment",
+    "quote": "null",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "N° RCS",
+  "value": "SIM-RCS-B-001",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registration",
+  "justification": "Le numéro RCS est indiqué comme SIM-RCS-B-001 dans le registre d’entreprise.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f8",
+  "label_short": "N° RCS",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/registration",
+    "quote": "SIM-RCS-B-001",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Lieu d'enregistrement: | La Banque REF00001-autocertification PM statut incertain - V 15.09.2017 AUTO-CERTIFICATION DESTINÉE AUX PERSONNES MORALES et AUTRES ENTITES La réglementation relative à l'échange automatique d'informations (1) vise à lutter contre l'évasion fiscale. Elle impose à l'ensemble des banques présentes sur le territoire français : des obligations d'identification de leurs clients et de la résidence fiscale de ces derniers; des obligations déclaratives annuelles des clients non-résidents fiscaux français auprès de l'administration fiscale française. A ce titre, cette auto-certification de résidence fiscale doit être complétée par le client afin de permettre à la La Banque des Entreprises de se conformer à ses obligations en recueillant certaines informations sur le statut fiscal de ses clients. En cas de doute sur la résidence fiscale (point II) ou sur la catégorie (point III) de la Personne Morale ou de l'entité cliente, il est vivement recommandé de consulter un conseiller fiscal. L'auto-certification ne sera valide que si les champs en rouge, signalés par un astérisque * sont renseignés.",
+  "value": "Lyon",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/registry_place",
+  "justification": "Le lieu d’enregistrement est Lyon selon le registre d’entreprise.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f9",
+  "label_short": "Lieu d'enregistrement",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/registry_place",
+    "quote": "Lyon",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Autres numéros d'identification: | Code postal*: Adresse de l'établissement (si différent du siège social)",
+  "value": "SIM-INTERNAL-B-001",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/other_ids",
+  "justification": "Les autres numéros d’identification sont indiqués comme SIM-INTERNAL-B-001 dans le registre d’entreprise.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f10",
+  "label_short": "Autres numéros d'identification",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/other_ids",
+    "quote": "SIM-INTERNAL-B-001",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Code NACE: | Code postal*: Adresse de l'établissement (si différent du siège social)",
+  "value": "68.20",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/nace",
+  "justification": "Le code NACE indiqué dans le registre corporate est 68.20.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p1_f11",
+  "label_short": "Code NACE",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/nace",
+    "quote": "68.20",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "Pays de résidence fiscale",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country",
+  "justification": "Le client est résident fiscal en France selon le memorandum fiscal.",
+  "missing": [],
+  "group": "Residence 1",
+  "field_id": "02_p1_f12",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_residences/0/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "1.",
+  "value": "SIM-TIN-B-FR",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/tin; sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/tin",
+  "justification": "Le NIF français du client est indiqué comme SIM-TIN-B-FR dans le registre corporate et le memorandum fiscal.",
+  "missing": [],
+  "group": "Residence 1",
+  "field_id": "02_p1_f13",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/tin",
+    "quote": "SIM-TIN-B-FR",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_residences/0/tin",
+    "quote": "SIM-TIN-B-FR",
+    "role": "cited",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "2. | Pays de résidence fiscale",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country",
+  "justification": "Le client n’a qu’une seule résidence fiscale (France) ; aucune deuxième résidence n’est indiquée.",
+  "missing": [],
+  "group": "Residence 2",
+  "field_id": "02_p1_f14",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_residences/0/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "2. | Numéro d'Identification Fiscale (NIF)* ou indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale (4)",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country",
+  "justification": "Pas de deuxième résidence fiscale, donc pas de NIF associé.",
+  "missing": [],
+  "group": "Residence 2",
+  "field_id": "02_p1_f15",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_residences/0/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "3. | Numéro d'Identification Fiscale (NIF)* ou indiquer Non Applicable (NA) en l'absence de NIF délivré par les autorités du pays de résidence fiscale (4)",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country; sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/country (= sources/companies/sim-hackathon-b-client/tax.md#/tax_residences/0/tin)",
+  "justification": "Le client n’a qu’une résidence fiscale, la France, comme indiqué dans le registre corporate et le mémorandum fiscal ; aucune autre résidence n’est mentionnée, donc le champ Résidence 3 n’est pas applicable.",
+  "missing": [],
+  "group": "Residence 3",
+  "field_id": "02_p1_f16",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_residences/0/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 2
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_residences/0/tin",
+    "quote": "SIM-TIN-B-FR",
+    "role": "cited",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 1,
+  "label": "1. | Pays de résidence fiscale",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/country",
+  "justification": "Le registre corporate indique que le pays d’incorporation et de résidence fiscale du client est la France.",
+  "missing": [],
+  "group": "Residence 1",
+  "field_id": "02_p1_f17",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Catégorie du client (A, B, C, D)",
+  "value": "B",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category (= sources/companies/sim-hackathon-b-client/tax.md#/passive_income_pct)",
+  "justification": "Le mémorandum fiscal classe l’entité comme Passive non‑financière avec 80 % de revenus passifs, ce qui correspond à la catégorie B.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f18",
+  "label_short": "Catégorie du client (A, B, C, D)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_category",
+    "quote": "Passive non-financial entity",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/passive_income_pct",
+    "quote": "80",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Sous-catégorie A",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+  "justification": "La catégorie B a été sélectionnée, donc la sous‑catégorie A n’est pas applicable.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f19",
+  "label_short": "Sous-catégorie A",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_category",
+    "quote": "Passive non-financial entity",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Autre \"ENF Active\"",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/tax_category",
+  "justification": "La sous‑catégorie « Autre ENF Active » ne s’applique que si la catégorie A est choisie, ce qui n’est pas le cas.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f20",
+  "label_short": "Autre ENF Active (précisez)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/tax_category",
+    "quote": "Passive non-financial entity",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "□□□□",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/passive_income_pct; sources/companies/sim-hackathon-b-client/corporate.md#/business_description",
+  "justification": "Le client est une Entité Non Financière Passive (revenus passifs > 50 %), donc la catégorie C (Institution financière) n’est pas sélectionnée ; le GIIN n’est pas requis.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f21",
+  "label_short": "Numéro GIIN",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/passive_income_pct",
+    "quote": "80",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/business_description",
+    "quote": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.",
+    "role": "cited",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "> En cas de statut n'exigeant pas l'obtention d'un GIIN, veuillez indiquer le statut correspondant",
+  "value": "Entité Non Financière Passive",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/tax.md#/passive_income_pct; sources/companies/sim-hackathon-b-client/corporate.md#/business_description",
+  "justification": "Statut du client : Entité Non Financière Passive, conformément au pourcentage de revenus passifs de 80 % indiqué dans le mémorandum fiscal.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f22",
+  "label_short": "Statut (si pas de GIIN)",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/tax.md",
+    "pointer": "/passive_income_pct",
+    "quote": "80",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/business_description",
+    "quote": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.",
+    "role": "cited",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Entité d'investissement (50% revenus bruts d'activité d'investissement)",
+  "value": "Non",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/business_description",
+  "justification": "Le client n’est pas une entité d’investissement, il exerce une activité de location immobilière et ne génère pas ≥ 50 % de revenus bruts d’activités d’investissement.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f23",
+  "label_short": "Entité d'investissement (50% revenus bruts d'activité d'investissement)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/business_description",
+    "quote": "Non-financial ownership and leasing of commercial property, with a passive-income profile explicitly stipulated by the tax memorandum; existing foreign property interests and a wind-down subsidiary.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "label": "Entités exemptées de la déclaration",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/corporate.md#/listed",
+  "justification": "Aucun des statuts d’exemption (cotée, publique, internationale, banque centrale, exclue FATCA) ne s’applique : l’entité n’est pas cotée (listed = false) et aucune mention de statut public ou d’exclusion n’est présente.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p2_f24",
+  "label_short": "Entités exemptées de la déclaration",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/corporate.md",
+    "pointer": "/listed",
+    "quote": "false",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 1",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/tax_residences/0 (= sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/tax_residences/0, sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json#/tax_residences/0, sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json#/tax_residences/0)",
+  "justification": "Le bénéficiaire effectif 1 (Camille Orvaux) a la résidence fiscale en France.",
+  "missing": [],
+  "group": "Beneficial owner 1",
+  "field_id": "02_p3_f25",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 1",
+  "value": "SIM-TIN-B1-FR",
+  "state": "answer",
+  "source": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/tins/France",
+  "justification": "Le NIF de Camille Orvaux est SIM‑TIN‑B1‑FR.",
+  "missing": [],
+  "group": "Beneficial owner 1",
+  "field_id": "02_p3_f26",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+    "pointer": "/tins/France",
+    "quote": "SIM-TIN-B1-FR",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de détention direct — Beneficial owner 1",
+  "value": "0 %",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/direct_pct",
+  "justification": "Pour Camille Orvaux, la part de détention directe est de 0 %.",
+  "missing": [],
+  "group": "Beneficial owner 1",
+  "field_id": "02_p3_f27",
+  "label_short": "% de détention direct",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/0/direct_pct",
+    "quote": "0",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de détention indirect — Beneficial owner 1",
+  "value": "42 %",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/indirect_pct",
+  "justification": "Pour Camille Orvaux, la part de détention indirecte est de 42 %.",
+  "missing": [],
+  "group": "Beneficial owner 1",
+  "field_id": "02_p3_f28",
+  "label_short": "% de détention indirect",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/0/indirect_pct",
+    "quote": "42",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de vote des droits de vote — Beneficial owner 1",
+  "value": "42 %",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/0/votes_pct",
+  "justification": "Pour Camille Orvaux, le pourcentage de droits de vote est de 42 %.",
+  "missing": [],
+  "group": "Beneficial owner 1",
+  "field_id": "02_p3_f29",
+  "label_short": "% de vote des droits de vote",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/0/votes_pct",
+    "quote": "42",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 2",
+  "value": "France",
+  "state": "answer",
+  "source": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json#/tax_residences/0 (= sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/tax_residences/0, sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/tax_residences/0, sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json#/tax_residences/0)",
+  "justification": "Le bénéficiaire effectif 2 (Samir Dervelle) a pour résidence fiscale la France, comme indiqué dans son dossier personnel.",
+  "missing": [],
+  "group": "Beneficial owner 2",
+  "field_id": "02_p3_f30",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 2",
+  "value": "SIM-TIN-B2-FR",
+  "state": "answer",
+  "source": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json#/tins/France",
+  "justification": "Le NIF du bénéficiaire effectif 2 (Samir Dervelle) est SIM-TIN-B2-FR, tel qu'indiqué dans son dossier personnel.",
+  "missing": [],
+  "group": "Beneficial owner 2",
+  "field_id": "02_p3_f31",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+    "pointer": "/tins/France",
+    "quote": "SIM-TIN-B2-FR",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 3",
+  "value": "France ; United States",
+  "state": "answer",
+  "source": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/tax_residences/0 (= sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/tax_residences/1, sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/tax_residences/0, sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json#/tax_residences/0, sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json#/tax_residences/0)",
+  "justification": "Le bénéficiaire effectif 3 (Léa Montelac) possède deux résidences fiscales, la France et les United States, comme indiqué dans son dossier personnel.",
+  "missing": [],
+  "group": "Beneficial owner 3",
+  "field_id": "02_p3_f32",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/tax_residences/1",
+    "quote": "United States",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+    "pointer": "/tax_residences/0",
+    "quote": "France",
+    "role": "corroborating",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 3",
+  "value": "SIM-TIN-B3-FR",
+  "state": "answer",
+  "source": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/tins/France",
+  "justification": "Le NIF du bénéficiaire effectif 3 (Léa Montelac) est SIM-TIN-B3-FR, fourni dans son dossier personnel ; aucun NIF américain n'est disponible.",
+  "missing": [],
+  "group": "Beneficial owner 3",
+  "field_id": "02_p3_f33",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/tins/France",
+    "quote": "SIM-TIN-B3-FR",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Nom* (1) et Prénom* (2)",
+  "value": "Léa Montelac",
+  "state": "answer",
+  "source": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/name",
+  "justification": "Le nom complet du bénéficiaire effectif 3 est Léa Montelac, tel qu'indiqué dans son dossier personnel.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f34",
+  "label_short": "Nom* (1) et Prénom* (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/name",
+    "quote": "Léa Montelac",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Date de Naissance* (3) et Pays de Naissance* (4)",
+  "value": "1985-08-23, France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/birth_date (= sources/companies/sim-hackathon-b-client/ownership.md#/people/2/birth_country)",
+  "justification": "Date de naissance et pays de naissance extraits du registre de l'ownership pour Léa Montelac.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f35",
+  "label_short": "Date de Naissance* (3) et Pays de Naissance* (4)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/birth_date",
+    "quote": "1985-08-23",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/birth_country",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Nationalité(s)*(5)",
+  "value": "France ; United States",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/0 (= sources/companies/sim-hackathon-b-client/ownership.md#/people/2/nationalities/1)",
+  "justification": "Nationalités de Léa Montelac indiquées dans le registre de l'ownership.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f36",
+  "label_short": "Nationalité(s)*(5)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/nationalities/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/nationalities/1",
+    "quote": "United States",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Adresse complète de Résidence actuelle*(6)",
+  "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/address; sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json#/address (= sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/address, sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json#/address, sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json#/address)",
+  "justification": "Adresse de résidence actuelle tirée du registre de l'ownership pour Léa Montelac.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f37",
+  "label_short": "Adresse complète de Résidence actuelle*(6)",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/29374053-356e-5d60-979c-fd6cf6bb51b9/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 2
+   },
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 2
+   },
+   {
+    "document": "sources/persons/8ae0d408-2d51-5c8f-822a-a795e9baa779/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 2
+   },
+   {
+    "document": "sources/persons/9751a47f-e88f-5771-9d5c-ec1a6e8728cd/personal_facts.json",
+    "pointer": "/address",
+    "quote": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale",
+  "value": "France ; United States",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tax_residences/0 (= sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tax_residences/1)",
+  "justification": "Pays de résidence fiscale de Léa Montelac indiqués dans le registre de l'ownership.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f38",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/tax_residences/0",
+    "quote": "France",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/tax_residences/1",
+    "quote": "United States",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF)",
+  "value": "SIM-TIN-B3-FR",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/2/tins/France; sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json#/tins/France",
+  "justification": "Numéro d'identification fiscale français de Léa Montelac extrait du registre de l'ownership.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f39",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/2/tins/France",
+    "quote": "SIM-TIN-B3-FR",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/persons/78da5c96-5e92-582b-8d59-68dceaeae03a/personal_facts.json",
+    "pointer": "/tins/France",
+    "quote": "SIM-TIN-B3-FR",
+    "role": "corroborating",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Nom* (1) et Prénom* (2) — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f40",
+  "label_short": "Nom* (1) et Prénom* (2)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Date de Naissance* (3) et Pays de Naissance* (4) — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f41",
+  "label_short": "Date de Naissance* (3) et Pays de Naissance* (4)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Nationalité(s)*(5) — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f42",
+  "label_short": "Nationalité(s)*(5)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Adresse complète de Résidence actuelle*(6) — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f43",
+  "label_short": "Adresse complète de Résidence actuelle*(6)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f44",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f45",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de détention direct — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f46",
+  "label_short": "% de détention direct",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de détention indirect — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f47",
+  "label_short": "% de détention indirect",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de vote des droits de vote — Beneficial owner 4",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Le registre des bénéficiaires effectifs ne comporte que trois personnes, le groupe 4 n'est donc pas applicable.",
+  "missing": [],
+  "group": "Beneficial owner 4",
+  "field_id": "02_p3_f48",
+  "label_short": "% de vote des droits de vote",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe aucun bénéficiaire effectif supplémentaire ; le registre des bénéficiaires effectifs indique qu'il est complet et ne comporte que les trois UBOs B1, B2, B3.",
+  "missing": [],
+  "group": "Beneficial owner 5",
+  "field_id": "02_p3_f49",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 5",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe aucun bénéficiaire effectif supplémentaire ; le registre des bénéficiaires effectifs indique qu'il est complet et ne comporte que les trois UBOs B1, B2, B3.",
+  "missing": [],
+  "group": "Beneficial owner 5",
+  "field_id": "02_p3_f50",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe aucun bénéficiaire effectif supplémentaire ; le registre des bénéficiaires effectifs indique qu'il est complet et ne comporte que les trois UBOs B1, B2, B3.",
+  "missing": [],
+  "group": "Beneficial owner 6",
+  "field_id": "02_p3_f51",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 6",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe aucun bénéficiaire effectif supplémentaire ; le registre des bénéficiaires effectifs indique qu'il est complet et ne comporte que les trois UBOs B1, B2, B3.",
+  "missing": [],
+  "group": "Beneficial owner 6",
+  "field_id": "02_p3_f52",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 7",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe aucun bénéficiaire effectif supplémentaire ; le registre des bénéficiaires effectifs indique qu'il est complet et ne comporte que les trois UBOs B1, B2, B3.",
+  "missing": [],
+  "group": "Beneficial owner 7",
+  "field_id": "02_p3_f53",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale — Beneficial owner 8",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe pas de huitième bénéficiaire effectif dans les registres, seuls B1, B2 et B3 sont répertoriés.",
+  "missing": [],
+  "group": "Beneficial owner 8",
+  "field_id": "02_p3_f54",
+  "label_short": "Pays de résidence fiscale",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF) — Beneficial owner 8",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe pas de huitième bénéficiaire effectif dans les registres, seuls B1, B2 et B3 sont répertoriés.",
+  "missing": [],
+  "group": "Beneficial owner 8",
+  "field_id": "02_p3_f55",
+  "label_short": "Numéro d'Identification Fiscale (NIF)",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Pays de résidence fiscale*",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe pas de huitième bénéficiaire effectif dans les registres, seuls B1, B2 et B3 sont répertoriés.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f56",
+  "label_short": "Pays de résidence fiscale*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "Numéro d'Identification Fiscale (NIF)*",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe pas de huitième bénéficiaire effectif dans les registres, seuls B1, B2 et B3 sont répertoriés.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f57",
+  "label_short": "Numéro d'Identification Fiscale (NIF)*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de détention direct",
+  "value": null,
+  "state": "not_applicable",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#header/6",
+  "justification": "Il n'existe pas de huitième bénéficiaire effectif dans les registres, seuls B1, B2 et B3 sont répertoriés.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f58",
+  "label_short": "% de détention direct",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "header/6",
+    "quote": "The listed controlling persons are complete.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de détention indirect",
+  "value": "28 %",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/indirect_pct; sources/companies/sim-hackathon-b-client/person_relationships.json#/2/indirect_pct",
+  "justification": "Le pourcentage indirect de détention du bénéficiaire effectif B2 est de 28 % selon le registre de propriété.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f59",
+  "label_short": "% de détention indirect",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/1/indirect_pct",
+    "quote": "28",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/person_relationships.json",
+    "pointer": "/2/indirect_pct",
+    "quote": "28",
+    "role": "cited",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "% de vote des droits de vote",
+  "value": "28 %",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/ownership.md#/people/1/votes_pct; sources/companies/sim-hackathon-b-client/person_relationships.json#/2/votes_pct",
+  "justification": "Le pourcentage de vote du bénéficiaire effectif B2 est de 28 % selon le registre de propriété.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f60",
+  "label_short": "% de vote des droits de vote",
+  "independent_sources": 2,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/ownership.md",
+    "pointer": "/people/1/votes_pct",
+    "quote": "28",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/person_relationships.json",
+    "pointer": "/2/votes_pct",
+    "quote": "28",
+    "role": "cited",
+    "evidence": 2
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "label": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE | Préciser ci-après les éléments permettant de justifier les éventuelles incohérences/contradictions détectées entre les affirmations déclarées dans cette auto-certification et les autres informations dont dispose la La Banque des Entreprises. [À ne pas remplir en l'absence de contradictions signalées]",
+  "value": null,
+  "state": "bank_reserved",
+  "source": null,
+  "justification": "Champ réservé à la banque, aucune donnée à fournir.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p3_f61",
+  "label_short": "CADRE RESERVE A RENSEIGNER A LA DEMANDE DE LA BANQUE",
+  "independent_sources": 0,
+  "sources": []
+ },
+ {
+  "page": 4,
+  "label": "Fait à*",
+  "value": "Lyon",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#/place",
+  "justification": "Le mandat indique que le lieu de la déclaration est Lyon.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p4_f62",
+  "label_short": "Fait à*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "/place",
+    "quote": "Lyon",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "le",
+  "value": "01/09/2026",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#/date",
+  "justification": "Le mandat indique la date du 01/09/2026 comme date de la déclaration.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p4_f63",
+  "label_short": "le*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "/date",
+    "quote": "01/09/2026",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Nom",
+  "value": "Orvaux",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/surname",
+  "justification": "Le nom du signataire est indiqué dans le mandat à la clé /signer/surname.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p4_f64",
+  "label_short": "Nom*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "/signer/surname",
+    "quote": "Orvaux",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Prénom",
+  "value": "Camille",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer/given",
+  "justification": "Le prénom du signataire est indiqué dans le mandat à la clé /signer/given.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p4_f65",
+  "label_short": "Prénom*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "/signer/given",
+    "quote": "Camille",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Fonction au sein de l'entité cliente",
+  "value": "Présidente",
+  "state": "answer",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#/signer_role",
+  "justification": "La fonction du signataire au sein de l'entité cliente est indiquée dans le mandat à la clé /signer_role.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p4_f66",
+  "label_short": "Fonction au sein de l'entité cliente*",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "/signer_role",
+    "quote": "Présidente",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "label": "Signature",
+  "value": null,
+  "state": "human_action",
+  "source": "sources/companies/sim-hackathon-b-client/mandate.md#header/8 (= sources/companies/sim-hackathon-b-client/mandate.md#header/9)",
+  "justification": "Signature non exécutée : signature humaine requise.",
+  "missing": [],
+  "group": null,
+  "field_id": "02_p4_sig",
+  "label_short": "Signature",
+  "independent_sources": 1,
+  "sources": [
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "header/8",
+    "quote": "The date is the fixed exercise completion date, not an actual executed signature.",
+    "role": "cited",
+    "evidence": 1
+   },
+   {
+    "document": "sources/companies/sim-hackathon-b-client/mandate.md",
+    "pointer": "header/9",
+    "quote": "No signature is supplied.",
+    "role": "cited",
+    "evidence": 1
+   }
+  ]
+ }
+]
