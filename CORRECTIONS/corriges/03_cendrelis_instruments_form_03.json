@@ -1,0 +1,1957 @@
+{
+  "exercice": "form_03",
+  "company": "Cendrelis Instruments SAS",
+  "dataset_version": "hackathon-v2",
+  "answers": [
+    {
+      "field_id": "form_03.identity.name",
+      "page": 2,
+      "status": "answer",
+      "value": "Cendrelis Instruments SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.identity.tin",
+      "page": 2,
+      "status": "answer",
+      "value": "SIM-TIN-C-FR",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.identity.lei",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No LEI assigned; optional field.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.identity.nace",
+      "page": 2,
+      "status": "answer",
+      "value": "26.51",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.entity_type",
+      "page": 2,
+      "status": "answer",
+      "value": "None",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.supervisor",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Not a financial entity / no other funding, as applicable.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.2: financial entity"
+    },
+    {
+      "field_id": "form_03.unsupervised",
+      "page": 2,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.funds",
+      "page": 2,
+      "status": "answer",
+      "value": [
+        "Own activity",
+        "Investors"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.2: always"
+    },
+    {
+      "field_id": "form_03.other_funds",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Not a financial entity / no other funding, as applicable.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.3: funds includes Others"
+    },
+    {
+      "field_id": "form_03.bearer",
+      "page": 3,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_03 p.3: always"
+    },
+    {
+      "field_id": "form_03.cp.1.name",
+      "page": 4,
+      "status": "answer",
+      "value": "Nora Avelune",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.control_type",
+      "page": 4,
+      "status": "answer",
+      "value": "A",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.ownership_pct",
+      "page": 4,
+      "status": "answer",
+      "value": 60,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.birth_date",
+      "page": 4,
+      "status": "answer",
+      "value": "1980-04-12",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.nationalities",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.residences",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.id_number",
+      "page": 4,
+      "status": "answer",
+      "value": "SIM-ID-C1",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.address",
+      "page": 4,
+      "status": "answer",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.1.control_since",
+      "page": 4,
+      "status": "answer",
+      "value": "2020-01-15",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 1 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.name",
+      "page": 4,
+      "status": "answer",
+      "value": "Hugo Valcendre",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.control_type",
+      "page": 4,
+      "status": "answer",
+      "value": "A",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.ownership_pct",
+      "page": 4,
+      "status": "answer",
+      "value": 40,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.birth_date",
+      "page": 4,
+      "status": "answer",
+      "value": "1985-08-23",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.nationalities",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.residences",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.id_number",
+      "page": 4,
+      "status": "answer",
+      "value": "SIM-ID-C2",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.address",
+      "page": 4,
+      "status": "answer",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.2.control_since",
+      "page": 4,
+      "status": "answer",
+      "value": "2020-01-15",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 2 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.name",
+      "page": 4,
+      "status": "answer",
+      "value": "Inès Rocheval",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.control_type",
+      "page": 4,
+      "status": "answer",
+      "value": "B",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.ownership_pct",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Ownership percentage requested only for control type A.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.birth_date",
+      "page": 4,
+      "status": "answer",
+      "value": "1985-08-23",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.nationalities",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.residences",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.id_number",
+      "page": 4,
+      "status": "answer",
+      "value": "SIM-ID-C3",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.address",
+      "page": 4,
+      "status": "answer",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.3.control_since",
+      "page": 4,
+      "status": "answer",
+      "value": "2020-01-15",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.4: controlling person 3 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.name",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.control_type",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.ownership_pct",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.birth_date",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.nationalities",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.residences",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.id_number",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.address",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.4.control_since",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 4 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.name",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.control_type",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.ownership_pct",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.birth_date",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.nationalities",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.residences",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.id_number",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.address",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.5.control_since",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 5 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.name",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.control_type",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.ownership_pct",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.birth_date",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.nationalities",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.residences",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.id_number",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.address",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.6.control_since",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 6 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.name",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.control_type",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.ownership_pct",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.birth_date",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.nationalities",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.residences",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.id_number",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.address",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.cp.7.control_since",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/tax.md"
+      ],
+      "rule_reference": "form_03 p.5: controlling person 7 exists"
+    },
+    {
+      "field_id": "form_03.representative.1.name",
+      "page": 6,
+      "status": "answer",
+      "value": "Nora Avelune",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 1 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.1.birth_date",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Already disclosed in Step 3: only name required in Step 4.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 1 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.1.nationalities",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Already disclosed in Step 3: only name required in Step 4.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 1 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.1.residences",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Already disclosed in Step 3: only name required in Step 4.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 1 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.1.id_number",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Already disclosed in Step 3: only name required in Step 4.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 1 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.2.name",
+      "page": 6,
+      "status": "answer",
+      "value": "Alex Fernel",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 2 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.2.birth_date",
+      "page": 6,
+      "status": "answer",
+      "value": "1985-08-23",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 2 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.2.nationalities",
+      "page": 6,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 2 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.2.residences",
+      "page": 6,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 2 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.2.id_number",
+      "page": 6,
+      "status": "missing_information",
+      "value": null,
+      "reason": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 2 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.3.name",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 3 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.3.birth_date",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 3 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.3.nationalities",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 3 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.3.residences",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 3 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.3.id_number",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 3 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.4.name",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 4 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.4.birth_date",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 4 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.4.nationalities",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 4 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.4.residences",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 4 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.4.id_number",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 4 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.5.name",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 5 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.5.birth_date",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 5 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.5.nationalities",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 5 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.5.residences",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 5 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.5.id_number",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.6: representative 5 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.6.name",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 6 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.6.birth_date",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 6 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.6.nationalities",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 6 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.6.residences",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 6 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.6.id_number",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 6 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.7.name",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 7 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.7.birth_date",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 7 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.7.nationalities",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 7 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.7.residences",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 7 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.7.id_number",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 7 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.8.name",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 8 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.8.birth_date",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 8 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.8.nationalities",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 8 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.8.residences",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 8 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.8.id_number",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 8 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.9.name",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 9 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.9.birth_date",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 9 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.9.nationalities",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 9 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.9.residences",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 9 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.9.id_number",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 9 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.10.name",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 10 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.10.birth_date",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 10 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.10.nationalities",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 10 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.10.residences",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 10 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.representative.10.id_number",
+      "page": 7,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person slot.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+      ],
+      "rule_reference": "form_03 p.7: representative 10 exists; name only if already disclosed in Step 3"
+    },
+    {
+      "field_id": "form_03.authority_document",
+      "page": 7,
+      "status": "answer",
+      "value": "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+      "reason": "Synthetic board mandate; not an executed legal document.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_03 p.7: always"
+    },
+    {
+      "field_id": "form_03.attestation.place",
+      "page": 9,
+      "status": "answer",
+      "value": "Lyon",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_03 p.9: always"
+    },
+    {
+      "field_id": "form_03.attestation.month",
+      "page": 9,
+      "status": "answer",
+      "value": "09",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_03 p.9: always"
+    },
+    {
+      "field_id": "form_03.attestation.day",
+      "page": 9,
+      "status": "answer",
+      "value": "01",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_03 p.9: always"
+    },
+    {
+      "field_id": "form_03.attestation.year",
+      "page": 9,
+      "status": "answer",
+      "value": "2026",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_03 p.9: always"
+    },
+    {
+      "field_id": "form_03.attestation.name",
+      "page": 9,
+      "status": "answer",
+      "value": "Nora Avelune",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_03 p.9: always"
+    },
+    {
+      "field_id": "form_03.signature",
+      "page": 9,
+      "status": "human_action",
+      "value": null,
+      "reason": "Populate factual signatory details; signature/consent must be supplied by a human.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [],
+      "rule_reference": "form_03 p.9: always"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "exercice": "form_01",
+  "company": "Asterive Services SAS",
+  "dataset_version": "hackathon-v2",
+  "answers": [
+    {
+      "field_id": "form_01.identity.name",
+      "page": 1,
+      "status": "answer",
+      "value": "Asterive Services SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.identity.registration",
+      "page": 1,
+      "status": "answer",
+      "value": "SIM-RCS-A-001",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.listed",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.market",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Not listed.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: listed = Oui"
+    },
+    {
+      "field_id": "form_01.parent.name",
+      "page": 1,
+      "status": "answer",
+      "value": "Asterive Participations SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: client is a subsidiary"
+    },
+    {
+      "field_id": "form_01.parent.incorporation",
+      "page": 1,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: client is a subsidiary"
+    },
+    {
+      "field_id": "form_01.parent.tax_residence",
+      "page": 1,
+      "status": "missing_information",
+      "value": null,
+      "reason": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [
+        "tax_residence"
+      ],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: client is a subsidiary"
+    },
+    {
+      "field_id": "form_01.parent.address",
+      "page": 1,
+      "status": "answer",
+      "value": "40 place du Groupe Fictif, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+      ],
+      "rule_reference": "form_01 p.1: client is a subsidiary"
+    },
+    {
+      "field_id": "form_01.exposure.north_korea",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.crimea",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.cuba",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.iraq",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.iran",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.myanmar",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.russia",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.sudan",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.south_sudan",
+      "page": 1,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.1: always"
+    },
+    {
+      "field_id": "form_01.exposure.syria",
+      "page": 2,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.2: always"
+    },
+    {
+      "field_id": "form_01.exposure.venezuela",
+      "page": 2,
+      "status": "answer",
+      "value": "Non",
+      "reason": "Complete activity register and explicit negative scope declaration.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/activities.md"
+      ],
+      "rule_reference": "form_01 p.2: always"
+    },
+    {
+      "field_id": "form_01.attestation.name",
+      "page": 2,
+      "status": "answer",
+      "value": "Élodie Varenne",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md"
+      ],
+      "rule_reference": "form_01 p.2: always"
+    },
+    {
+      "field_id": "form_01.attestation.role",
+      "page": 2,
+      "status": "answer",
+      "value": "Présidente",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md"
+      ],
+      "rule_reference": "form_01 p.2: always"
+    },
+    {
+      "field_id": "form_01.attestation.date",
+      "page": 2,
+      "status": "answer",
+      "value": "01/09/2026",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/mandate.md"
+      ],
+      "rule_reference": "form_01 p.2: always"
+    },
+    {
+      "field_id": "form_01.signature",
+      "page": 2,
+      "status": "human_action",
+      "value": null,
+      "reason": "Populate factual signatory details; signature/consent must be supplied by a human.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [],
+      "rule_reference": "form_01 p.2: always"
+    }
+  ]
+}

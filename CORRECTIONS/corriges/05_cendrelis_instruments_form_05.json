@@ -1,0 +1,2990 @@
+{
+  "exercice": "form_05",
+  "company": "Cendrelis Instruments SAS",
+  "dataset_version": "hackathon-v2",
+  "answers": [
+    {
+      "field_id": "form_05.identity.name",
+      "page": 1,
+      "status": "answer",
+      "value": "Cendrelis Instruments SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_05 p.1: always"
+    },
+    {
+      "field_id": "form_05.identity.contact",
+      "page": 1,
+      "status": "answer",
+      "value": "Nora Avelune, Présidente",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_05 p.1: always"
+    },
+    {
+      "field_id": "form_05.identity.date",
+      "page": 1,
+      "status": "answer",
+      "value": "01/09/2026",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md"
+      ],
+      "rule_reference": "form_05 p.1: always"
+    },
+    {
+      "field_id": "form_05.scope",
+      "page": 1,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/corporate.md"
+      ],
+      "rule_reference": "form_05 p.1: always"
+    },
+    {
+      "field_id": "form_05.A1",
+      "page": 2,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.2: always"
+    },
+    {
+      "field_id": "form_05.A2",
+      "page": 2,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.2: always"
+    },
+    {
+      "field_id": "form_05.A3",
+      "page": 2,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.2: always"
+    },
+    {
+      "field_id": "form_05.A4",
+      "page": 2,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.2: always"
+    },
+    {
+      "field_id": "form_05.A5",
+      "page": 3,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.3: always"
+    },
+    {
+      "field_id": "form_05.A5.details",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No follow-up triggered.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.3: A5 Yes"
+    },
+    {
+      "field_id": "form_05.A6",
+      "page": 3,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.3: always"
+    },
+    {
+      "field_id": "form_05.A6.details",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No follow-up triggered.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.3: A6 Yes"
+    },
+    {
+      "field_id": "form_05.A7",
+      "page": 3,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.3: always"
+    },
+    {
+      "field_id": "form_05.A7.details",
+      "page": 3,
+      "status": "missing_information",
+      "value": null,
+      "reason": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity.",
+      "calculation": null,
+      "supported_value": [
+        {
+          "reference": "SIM-EXPORT-C-01",
+          "type": "Fictional controlled-item export authorization",
+          "recipient": "Cendrelis Export SAS",
+          "activity": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories",
+          "authority": "Simulation Export Review Office",
+          "expiry": null,
+          "expiry_note": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+        }
+      ],
+      "missing_components": [
+        "/0/expiry"
+      ],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.3: A7 Yes"
+    },
+    {
+      "field_id": "form_05.A8",
+      "page": 4,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.4: always"
+    },
+    {
+      "field_id": "form_05.A8.details",
+      "page": 4,
+      "status": "answer",
+      "value": {
+        "account": "SIM-ACCOUNT-C",
+        "use": "Proposed issuer payment/settlement services for listed activities, subject to compliance approval; disclosure is not authorization.",
+        "activities": [
+          {
+            "country": "Cuba",
+            "entity": "Cendrelis Export SAS",
+            "third_parties": [
+              "Laboratoire Caribe SIM SA"
+            ],
+            "description": "Export and support of simulated measurement instruments under the fictional export authorization."
+          },
+          {
+            "country": "Lebanon",
+            "entity": "Cendrelis Export SAS",
+            "third_parties": [
+              "Laboratoire Public Levant SIM"
+            ],
+            "description": "Measurement-instrument support contract with a wholly government-owned laboratory."
+          },
+          {
+            "country": "Myanmar",
+            "entity": "Cendrelis Export SAS",
+            "third_parties": [
+              "Atelier Delta SIM Ltd"
+            ],
+            "description": "Proposed private-sector instrument support project; no 2025 amounts and no executed transaction."
+          }
+        ]
+      },
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.4: always; controls if No"
+    },
+    {
+      "field_id": "form_05.A9",
+      "page": 4,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.4: always"
+    },
+    {
+      "field_id": "form_05.A9.details",
+      "page": 4,
+      "status": "answer",
+      "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.4: A9 Yes"
+    },
+    {
+      "field_id": "form_05.A10",
+      "page": 4,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.4: always"
+    },
+    {
+      "field_id": "form_05.A10.details",
+      "page": 4,
+      "status": "answer",
+      "value": {
+        "classification": {
+          "goods": "SIM-X1 measurement instruments",
+          "hs_code": "SIM-HS-X1",
+          "control_code": "SIM-DUAL-X1",
+          "destinations": [
+            "Cuba",
+            "Lebanon"
+          ],
+          "transit": [
+            "France"
+          ],
+          "classification": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+          "anti_diversion": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+        },
+        "authorizations": [
+          {
+            "reference": "SIM-EXPORT-C-01",
+            "type": "Fictional controlled-item export authorization",
+            "recipient": "Cendrelis Export SAS",
+            "activity": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories",
+            "authority": "Simulation Export Review Office",
+            "expiry": null,
+            "expiry_note": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+          }
+        ]
+      },
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.4: A10 Yes"
+    },
+    {
+      "field_id": "form_05.A11",
+      "page": 5,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: always"
+    },
+    {
+      "field_id": "form_05.A11.details",
+      "page": 5,
+      "status": "answer",
+      "value": {
+        "classification": {
+          "goods": "SIM-X1 measurement instruments",
+          "hs_code": "SIM-HS-X1",
+          "control_code": "SIM-DUAL-X1",
+          "destinations": [
+            "Cuba",
+            "Lebanon"
+          ],
+          "transit": [
+            "France"
+          ],
+          "classification": "Explicit exercise fact: SIM-X1 is treated as dual-use and on the simulated CHPL; no mapping to a real-world legal list is asserted.",
+          "anti_diversion": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition."
+        },
+        "authorizations": [
+          {
+            "reference": "SIM-EXPORT-C-01",
+            "type": "Fictional controlled-item export authorization",
+            "recipient": "Cendrelis Export SAS",
+            "activity": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories",
+            "authority": "Simulation Export Review Office",
+            "expiry": null,
+            "expiry_note": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+          }
+        ]
+      },
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: A11 Yes"
+    },
+    {
+      "field_id": "form_05.B1",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B2",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B3",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B4",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B5",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B6",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B7",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B8",
+      "page": 5,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.5: activity in non-government-controlled Donetsk/Luhansk/Kherson/Zaporizhzhia"
+    },
+    {
+      "field_id": "form_05.B.details",
+      "page": 6,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No activity in the four specified Ukrainian territories; Section B must be left blank, not marked No in all boxes.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.6: any B Yes"
+    },
+    {
+      "field_id": "form_05.C.cuba.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 1.0,
+      "reason": "",
+      "calculation": "100 × Cuba in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.cuba.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Cendrelis Export SAS",
+          "activity": "Export and support of simulated measurement instruments under the fictional export authorization.",
+          "amount_eur": 600000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.cuba.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.2,
+      "reason": "",
+      "calculation": "100 × Cuba in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.cuba.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Cendrelis Export SAS",
+          "activity": "Export and support of simulated measurement instruments under the fictional export authorization.",
+          "amount_eur": 80000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.cuba.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.5,
+      "reason": "",
+      "calculation": "100 × Cuba in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.cuba.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Cendrelis Export SAS",
+          "activity": "Export and support of simulated measurement instruments under the fictional export authorization.",
+          "amount_eur": 150000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.iran.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Iran in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.iran.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.iran.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Iran in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.iran.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.iran.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Iran in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.iran.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.north_korea.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × North Korea in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.north_korea.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.north_korea.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × North Korea in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.north_korea.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.north_korea.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × North Korea in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.north_korea.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.syria.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Syria in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.syria.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.syria.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Syria in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.syria.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.syria.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Syria in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.syria.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.belarus.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Belarus in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.belarus.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.belarus.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Belarus in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.belarus.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.belarus.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Belarus in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.belarus.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.russia.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Russia in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.russia.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.russia.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Russia in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.russia.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.russia.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Russia in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.russia.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.crimea.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Crimea in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.crimea.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.crimea.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Crimea in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.crimea.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.crimea.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Crimea in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.crimea.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.venezuela.revenue.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Venezuela in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.venezuela.revenue.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.venezuela.expenses.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Venezuela in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.venezuela.expenses.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.venezuela.assets.pct",
+      "page": 8,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Venezuela in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.venezuela.assets.description",
+      "page": 8,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.8: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.donetsk.revenue.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Donetsk in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.donetsk.revenue.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.donetsk.expenses.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Donetsk in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.donetsk.expenses.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.donetsk.assets.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Donetsk in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.donetsk.assets.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.luhansk.revenue.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Luhansk in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.luhansk.revenue.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.luhansk.expenses.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Luhansk in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.luhansk.expenses.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.luhansk.assets.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Luhansk in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.luhansk.assets.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.kherson.revenue.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Kherson in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.kherson.revenue.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.kherson.expenses.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Kherson in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.kherson.expenses.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.kherson.assets.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Kherson in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.kherson.assets.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.zaporizhzhia.revenue.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Zaporizhzhia in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.zaporizhzhia.revenue.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.zaporizhzhia.expenses.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Zaporizhzhia in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.zaporizhzhia.expenses.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.zaporizhzhia.assets.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × Zaporizhzhia in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.zaporizhzhia.assets.description",
+      "page": 9,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.total.revenue.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 1.0,
+      "reason": "",
+      "calculation": "100 × Total in-scope revenue / group revenue; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.total.revenue.description",
+      "page": 9,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Cendrelis Export SAS",
+          "activity": "Export and support of simulated measurement instruments under the fictional export authorization.",
+          "amount_eur": 600000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.total.expenses.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.2,
+      "reason": "",
+      "calculation": "100 × Total in-scope expenses / group expenses; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.total.expenses.description",
+      "page": 9,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Cendrelis Export SAS",
+          "activity": "Export and support of simulated measurement instruments under the fictional export authorization.",
+          "amount_eur": 80000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.total.assets.pct",
+      "page": 9,
+      "status": "answer",
+      "value": 0.5,
+      "reason": "",
+      "calculation": "100 × Total in-scope assets / group assets; total excludes countries absent from Section C.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.C.total.assets.description",
+      "page": 9,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Cendrelis Export SAS",
+          "activity": "Export and support of simulated measurement instruments under the fictional export authorization.",
+          "amount_eur": 150000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/finance.md"
+      ],
+      "rule_reference": "form_05 p.9: any A1–A4 Yes or any B Yes"
+    },
+    {
+      "field_id": "form_05.D.na_reason",
+      "page": 9,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "For exposed cases Section D is completed; baseline has A1 No.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.9: A1 Yes and D declared inapplicable"
+    },
+    {
+      "field_id": "form_05.D1",
+      "page": 9,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.9: always"
+    },
+    {
+      "field_id": "form_05.D.country.afghanistan.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.afghanistan.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.afghanistan.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.angola.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.angola.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.angola.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.belarus.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.belarus.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.belarus.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.central_african_republic.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.central_african_republic.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.central_african_republic.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.north_korea.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.north_korea.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.north_korea.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.democratic_republic_of_congo.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.democratic_republic_of_congo.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.democratic_republic_of_congo.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.haiti.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.haiti.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.haiti.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.iran.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.iran.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.iran.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.iraq.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.iraq.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.iraq.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.ivory_coast.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.ivory_coast.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.ivory_coast.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.lebanon.activity",
+      "page": 10,
+      "status": "answer",
+      "value": [
+        "Measurement-instrument support contract with a wholly government-owned laboratory."
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.lebanon.entity",
+      "page": 10,
+      "status": "answer",
+      "value": [
+        "Cendrelis Export SAS — 30 rue des Instruments Fictifs, 69000 Lyon, France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.lebanon.controls",
+      "page": 10,
+      "status": "answer",
+      "value": [
+        "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; SIM-EXPORT-C-01, Simulation Export Review Office; expiry not supplied"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.liberia.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.liberia.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.liberia.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.libya.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.libya.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.libya.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.myanmar.activity",
+      "page": 10,
+      "status": "answer",
+      "value": [
+        "Proposed private-sector instrument support project; no 2025 amounts and no executed transaction."
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.myanmar.entity",
+      "page": 10,
+      "status": "answer",
+      "value": [
+        "Cendrelis Export SAS — 30 rue des Instruments Fictifs, 69000 Lyon, France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.myanmar.controls",
+      "page": 10,
+      "status": "answer",
+      "value": [
+        "SIM-X1; SIM-HS-X1; SIM-DUAL-X1; proposed project, no authorization issued for Myanmar, compliance hold"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.russia.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.russia.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.russia.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.sierra_leone.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.sierra_leone.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.sierra_leone.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.somalia.activity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.somalia.entity",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.somalia.controls",
+      "page": 10,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.10: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.south_sudan.activity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.south_sudan.entity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.south_sudan.controls",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.sudan.activity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.sudan.entity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.sudan.controls",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.syria.activity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.syria.entity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.syria.controls",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.venezuela.activity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.venezuela.entity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.venezuela.controls",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.yemen.activity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.yemen.entity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.yemen.controls",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.zimbabwe.activity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.zimbabwe.entity",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D.country.zimbabwe.controls",
+      "page": 11,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No current or contemplated country activity; leave unused country cells blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D1 Yes and country has activity"
+    },
+    {
+      "field_id": "form_05.D2",
+      "page": 11,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: always"
+    },
+    {
+      "field_id": "form_05.D2.details",
+      "page": 11,
+      "status": "answer",
+      "value": "Contracts prohibit re-export to or use in Russia; verified end-user certificates, serial-number tracking, destination checks, no-resale undertakings, shipment holds and post-delivery reviews enforce the prohibition.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D2 Yes"
+    },
+    {
+      "field_id": "form_05.D3",
+      "page": 11,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: always"
+    },
+    {
+      "field_id": "form_05.D3.details",
+      "page": 11,
+      "status": "answer",
+      "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+        "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+      ],
+      "rule_reference": "form_05 p.11: D3 Yes"
+    }
+  ]
+}

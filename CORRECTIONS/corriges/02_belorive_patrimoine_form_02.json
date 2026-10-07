@@ -1,0 +1,1122 @@
+{
+  "exercice": "form_02",
+  "company": "Belorive Patrimoine SAS",
+  "dataset_version": "hackathon-v2",
+  "answers": [
+    {
+      "field_id": "form_02.identity.name",
+      "page": 1,
+      "status": "answer",
+      "value": "Belorive Patrimoine SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.legal_form",
+      "page": 1,
+      "status": "answer",
+      "value": "SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.street",
+      "page": 1,
+      "status": "answer",
+      "value": "11 rue des Sociétés Fictives",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.postcode",
+      "page": 1,
+      "status": "answer",
+      "value": "69000",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.city",
+      "page": 1,
+      "status": "answer",
+      "value": "Lyon",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.country",
+      "page": 1,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.establishment",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Establishment address equals registered office.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.registration",
+      "page": 1,
+      "status": "answer",
+      "value": "SIM-RCS-B-001",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.registry_place",
+      "page": 1,
+      "status": "answer",
+      "value": "Lyon",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.other_ids",
+      "page": 1,
+      "status": "answer",
+      "value": "SIM-INTERNAL-B-001",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.identity.nace",
+      "page": 1,
+      "status": "answer",
+      "value": "68.20",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_02 p.1: always"
+    },
+    {
+      "field_id": "form_02.tax.1.country",
+      "page": 1,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: tax residence 1 exists"
+    },
+    {
+      "field_id": "form_02.tax.1.tin",
+      "page": 1,
+      "status": "answer",
+      "value": "SIM-TIN-B-FR",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: tax residence 1 exists"
+    },
+    {
+      "field_id": "form_02.tax.2.country",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused tax residence row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: tax residence 2 exists"
+    },
+    {
+      "field_id": "form_02.tax.2.tin",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused tax residence row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: tax residence 2 exists"
+    },
+    {
+      "field_id": "form_02.tax.3.country",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused tax residence row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: tax residence 3 exists"
+    },
+    {
+      "field_id": "form_02.tax.3.tin",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused tax residence row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: tax residence 3 exists"
+    },
+    {
+      "field_id": "form_02.tax.w9",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No US entity tax residence; a US-citizen beneficial owner does not make the entity US resident.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.1: US entity tax residence"
+    },
+    {
+      "field_id": "form_02.status.category",
+      "page": 2,
+      "status": "answer",
+      "value": "B Passive NFE",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.2: always"
+    },
+    {
+      "field_id": "form_02.status.active_subtype",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Branch does not match the explicitly stipulated entity tax classification.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.2: category A"
+    },
+    {
+      "field_id": "form_02.status.giin",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Branch does not match the explicitly stipulated entity tax classification.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.2: category C and GIIN applicable"
+    },
+    {
+      "field_id": "form_02.status.no_giin_reason",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Branch does not match the explicitly stipulated entity tax classification.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.2: category C and GIIN not required"
+    },
+    {
+      "field_id": "form_02.status.managed_investment",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Branch does not match the explicitly stipulated entity tax classification.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.2: category C and non-participating tax jurisdiction"
+    },
+    {
+      "field_id": "form_02.status.exempt_subtype",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Branch does not match the explicitly stipulated entity tax classification.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.2: category D"
+    },
+    {
+      "field_id": "form_02.ubo.1.surname",
+      "page": 3,
+      "status": "answer",
+      "value": "Orvaux",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.given",
+      "page": 3,
+      "status": "answer",
+      "value": "Camille",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.birth_date",
+      "page": 3,
+      "status": "answer",
+      "value": "1980-04-12",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.birth_country",
+      "page": 3,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.nationalities",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.address",
+      "page": 3,
+      "status": "answer",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.tax_residences",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.tins",
+      "page": 3,
+      "status": "answer",
+      "value": {
+        "France": "SIM-TIN-B1-FR"
+      },
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.direct_pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.indirect_pct",
+      "page": 3,
+      "status": "answer",
+      "value": 42,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.1.votes_pct",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Voting percentage equals total capital percentage; printed instruction asks only if different.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 1 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.surname",
+      "page": 3,
+      "status": "answer",
+      "value": "Dervelle",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.given",
+      "page": 3,
+      "status": "answer",
+      "value": "Samir",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.birth_date",
+      "page": 3,
+      "status": "answer",
+      "value": "1985-08-23",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.birth_country",
+      "page": 3,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.nationalities",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.address",
+      "page": 3,
+      "status": "answer",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.tax_residences",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "France"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.tins",
+      "page": 3,
+      "status": "answer",
+      "value": {
+        "France": "SIM-TIN-B2-FR"
+      },
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.direct_pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.indirect_pct",
+      "page": 3,
+      "status": "answer",
+      "value": 28,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.2.votes_pct",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Voting percentage equals total capital percentage; printed instruction asks only if different.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 2 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.surname",
+      "page": 3,
+      "status": "answer",
+      "value": "Montelac",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.given",
+      "page": 3,
+      "status": "answer",
+      "value": "Léa",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.birth_date",
+      "page": 3,
+      "status": "answer",
+      "value": "1985-08-23",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.birth_country",
+      "page": 3,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.nationalities",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "France",
+        "United States"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.address",
+      "page": 3,
+      "status": "answer",
+      "value": "12 avenue des Personnages Fictifs, 69000 Lyon, France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.tax_residences",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "France",
+        "United States"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.tins",
+      "page": 3,
+      "status": "missing_information",
+      "value": null,
+      "reason": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required.",
+      "calculation": null,
+      "supported_value": {
+        "France": "SIM-TIN-B3-FR",
+        "United States": null
+      },
+      "missing_components": [
+        "United States"
+      ],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.direct_pct",
+      "page": 3,
+      "status": "answer",
+      "value": 30,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.indirect_pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.3.votes_pct",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Voting percentage equals total capital percentage; printed instruction asks only if different.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.surname",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.given",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.birth_date",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.birth_country",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.nationalities",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.address",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.tax_residences",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.tins",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.direct_pct",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.indirect_pct",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.ubo.4.votes_pct",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "Unused person row.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+      ],
+      "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 4 exists"
+    },
+    {
+      "field_id": "form_02.contradictions",
+      "page": 3,
+      "status": "bank_reserved",
+      "value": null,
+      "reason": "No bank request or contradictions flagged.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_02 p.3: bank explicitly requests clarification"
+    },
+    {
+      "field_id": "form_02.attestation.place",
+      "page": 4,
+      "status": "answer",
+      "value": "Lyon",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_02 p.4: always"
+    },
+    {
+      "field_id": "form_02.attestation.date",
+      "page": 4,
+      "status": "answer",
+      "value": "01/09/2026",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_02 p.4: always"
+    },
+    {
+      "field_id": "form_02.attestation.surname",
+      "page": 4,
+      "status": "answer",
+      "value": "Orvaux",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_02 p.4: always"
+    },
+    {
+      "field_id": "form_02.attestation.given",
+      "page": 4,
+      "status": "answer",
+      "value": "Camille",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_02 p.4: always"
+    },
+    {
+      "field_id": "form_02.attestation.role",
+      "page": 4,
+      "status": "answer",
+      "value": "Présidente",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_02 p.4: always"
+    },
+    {
+      "field_id": "form_02.signature",
+      "page": 4,
+      "status": "human_action",
+      "value": null,
+      "reason": "Populate factual signatory details; signature/consent must be supplied by a human.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [],
+      "rule_reference": "form_02 p.4: always"
+    }
+  ]
+}

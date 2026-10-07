@@ -1,0 +1,128 @@
+[
+  {
+    "exercice": "form_01",
+    "company": "Asterive Services SAS",
+    "field_id": "form_01.parent.tax_residence",
+    "page": 1,
+    "status": "missing_information",
+    "value": null,
+    "reason": "Current tax-residence confirmation has not been supplied. French incorporation and registered address do not establish tax residence.",
+    "calculation": null,
+    "supported_value": null,
+    "missing_components": [
+      "tax_residence"
+    ],
+    "evidence": [
+      "entreprises/asterive_services/sources/companies/sim-hackathon-a-client/corporate.md"
+    ],
+    "rule_reference": "form_01 p.1: client is a subsidiary"
+  },
+  {
+    "exercice": "form_02",
+    "company": "Belorive Patrimoine SAS",
+    "field_id": "form_02.ubo.3.tins",
+    "page": 3,
+    "status": "missing_information",
+    "value": null,
+    "reason": "US tax identifier not supplied. US tax residence is confirmed; do not interpret the absent number as not issued or not required.",
+    "calculation": null,
+    "supported_value": {
+      "France": "SIM-TIN-B3-FR",
+      "United States": null
+    },
+    "missing_components": [
+      "United States"
+    ],
+    "evidence": [
+      "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/ownership.md",
+      "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/tax.md"
+    ],
+    "rule_reference": "form_02 p.3: (category B or qualifying managed investment entity) and person 3 exists"
+  },
+  {
+    "exercice": "form_03",
+    "company": "Cendrelis Instruments SAS",
+    "field_id": "form_03.representative.2.id_number",
+    "page": 6,
+    "status": "missing_information",
+    "value": null,
+    "reason": "Identity document renewal pending; number not supplied as of 2026-09-01.",
+    "calculation": null,
+    "supported_value": null,
+    "missing_components": [],
+    "evidence": [
+      "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/mandate.md",
+      "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/ownership.md"
+    ],
+    "rule_reference": "form_03 p.6: representative 2 exists; name only if already disclosed in Step 3"
+  },
+  {
+    "exercice": "form_04",
+    "company": "Belorive Patrimoine SAS",
+    "field_id": "form_04.matrix.belarus.assets.pct",
+    "page": 3,
+    "status": "missing_information",
+    "value": null,
+    "reason": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+    "calculation": null,
+    "supported_value": {
+      "numerator_eur": 500000
+    },
+    "missing_components": [
+      "group_assets_denominator_eur"
+    ],
+    "evidence": [
+      "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+    ],
+    "rule_reference": "form_04 p.3: q1 Yes"
+  },
+  {
+    "exercice": "form_04",
+    "company": "Belorive Patrimoine SAS",
+    "field_id": "form_04.matrix.russia.assets.pct",
+    "page": 4,
+    "status": "missing_information",
+    "value": null,
+    "reason": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+    "calculation": null,
+    "supported_value": {
+      "numerator_eur": 100000
+    },
+    "missing_components": [
+      "group_assets_denominator_eur"
+    ],
+    "evidence": [
+      "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+    ],
+    "rule_reference": "form_04 p.4: q1 Yes"
+  },
+  {
+    "exercice": "form_05",
+    "company": "Cendrelis Instruments SAS",
+    "field_id": "form_05.A7.details",
+    "page": 3,
+    "status": "missing_information",
+    "value": null,
+    "reason": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity.",
+    "calculation": null,
+    "supported_value": [
+      {
+        "reference": "SIM-EXPORT-C-01",
+        "type": "Fictional controlled-item export authorization",
+        "recipient": "Cendrelis Export SAS",
+        "activity": "Simulated instrument family SIM-X1 to Cuba and Lebanon via France; end-use limited to named laboratories",
+        "authority": "Simulation Export Review Office",
+        "expiry": null,
+        "expiry_note": "Expiry date is absent from the supplied extract; request the full authorization. The scenario states reliance on this permission but does not establish its current validity."
+      }
+    ],
+    "missing_components": [
+      "/0/expiry"
+    ],
+    "evidence": [
+      "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/activities.md",
+      "entreprises/cendrelis_instruments/sources/companies/sim-hackathon-c-client/compliance.md"
+    ],
+    "rule_reference": "form_05 p.3: A7 Yes"
+  }
+]

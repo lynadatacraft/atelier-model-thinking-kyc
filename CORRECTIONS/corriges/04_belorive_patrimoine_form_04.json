@@ -1,0 +1,2635 @@
+{
+  "exercice": "form_04",
+  "company": "Belorive Patrimoine SAS",
+  "dataset_version": "hackathon-v2",
+  "answers": [
+    {
+      "field_id": "form_04.identity.name",
+      "page": 1,
+      "status": "answer",
+      "value": "Belorive Patrimoine SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.identity.incorporation",
+      "page": 1,
+      "status": "answer",
+      "value": "France",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/corporate.md"
+      ],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.bank.grid",
+      "page": 1,
+      "status": "bank_reserved",
+      "value": null,
+      "reason": "Leave internal bank fields blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.bank.booking_locations",
+      "page": 1,
+      "status": "bank_reserved",
+      "value": null,
+      "reason": "Leave internal bank fields blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.bank.relationship_manager",
+      "page": 1,
+      "status": "bank_reserved",
+      "value": null,
+      "reason": "Leave internal bank fields blank.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.q1",
+      "page": 1,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.q2",
+      "page": 1,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.1: always"
+    },
+    {
+      "field_id": "form_04.q2.details",
+      "page": 1,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No follow-up triggered.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.1: q2 Yes"
+    },
+    {
+      "field_id": "form_04.q3",
+      "page": 2,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: always"
+    },
+    {
+      "field_id": "form_04.q3.details",
+      "page": 2,
+      "status": "answer",
+      "value": [
+        {
+          "reference": "SIM-AUTH-B-01",
+          "type": "Fictional sanctions wind-down authorization",
+          "recipient": "Belorive Clôture Russia LLC",
+          "activity": "Administrative closure and recovery of existing receivables only; no new sales/investment",
+          "authority": "Simulation Authorization Office",
+          "expiry": "2026-12-31"
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: q3 Yes"
+    },
+    {
+      "field_id": "form_04.q4",
+      "page": 2,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: always"
+    },
+    {
+      "field_id": "form_04.q4.details",
+      "page": 2,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No follow-up triggered.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: q4 Yes"
+    },
+    {
+      "field_id": "form_04.q5",
+      "page": 2,
+      "status": "answer",
+      "value": false,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: always"
+    },
+    {
+      "field_id": "form_04.q5.details",
+      "page": 2,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: always; controls if No"
+    },
+    {
+      "field_id": "form_04.q6",
+      "page": 2,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: always"
+    },
+    {
+      "field_id": "form_04.q6.details",
+      "page": 2,
+      "status": "answer",
+      "value": {
+        "name": "Julien Valsenne",
+        "role": "Director of Belorive Clôture Russia LLC",
+        "nationality": "France",
+        "residence": "Russia",
+        "ownership_pct": 0,
+        "listed": false,
+        "government_role": false
+      },
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.2: q6 Yes"
+    },
+    {
+      "field_id": "form_04.q7",
+      "page": 3,
+      "status": "answer",
+      "value": true,
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.3: any q1–q6 Yes"
+    },
+    {
+      "field_id": "form_04.q7.details",
+      "page": 3,
+      "status": "answer",
+      "value": "Group policy applies to all controlled entities, branches and joint ventures. Screen customers, beneficial owners, directors, employees, suppliers, end-users, intermediaries and transactions at onboarding, daily and before payment/shipment against the scenario versions of Poland, EU, UN, UK and OFAC lists. Compliance investigates alerts; transactions are held pending clearance. Quarterly risk review, annual independent audit (last 2026-06-30), annual staff training, escalation and incident records are maintained.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/activities.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md"
+      ],
+      "rule_reference": "form_04 p.3: any q1–q6 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.revenue.pct",
+      "page": 3,
+      "status": "answer",
+      "value": 1.0,
+      "reason": "",
+      "calculation": "100 × sum(Belarus revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.revenue.activity",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Immobilier Belarus LLC",
+          "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+          "amount_eur": 200000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.revenue.parties",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "Locataire Boréal SIM LLC"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.revenue.bank",
+      "page": 3,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.assets.pct",
+      "page": 3,
+      "status": "missing_information",
+      "value": null,
+      "reason": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+      "calculation": null,
+      "supported_value": {
+        "numerator_eur": 500000
+      },
+      "missing_components": [
+        "group_assets_denominator_eur"
+      ],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.assets.activity",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Immobilier Belarus LLC",
+          "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+          "amount_eur": 500000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.assets.parties",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "Locataire Boréal SIM LLC"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.assets.bank",
+      "page": 3,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.expenses.pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0.5,
+      "reason": "",
+      "calculation": "100 × sum(Belarus expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.expenses.activity",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Immobilier Belarus LLC",
+          "description": "Existing property leases to private commercial tenants; no new investments contemplated.",
+          "amount_eur": 60000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.expenses.parties",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        "Locataire Boréal SIM LLC"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.expenses.bank",
+      "page": 3,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.belarus.entities",
+      "page": 3,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Immobilier Belarus LLC",
+          "percentages": {
+            "revenue": 10.0,
+            "assets": 10.0,
+            "expenses": 6.0
+          },
+          "zero_denominator_note": "N/A when entity denominator is zero, not 0%."
+        }
+      ],
+      "reason": "",
+      "calculation": "100 × jurisdiction amount / corresponding entity total; zero denominator = not applicable.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.revenue.pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Crimea revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.revenue.activity",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.revenue.parties",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.revenue.bank",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.assets.pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.assets.activity",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.assets.parties",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.assets.bank",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.expenses.pct",
+      "page": 3,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Crimea expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.expenses.activity",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.expenses.parties",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.expenses.bank",
+      "page": 3,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.crimea.entities",
+      "page": 3,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.3: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Cuba revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Cuba expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.cuba.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Iran revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Iran expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.iran.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(North Korea revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(North Korea expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.north_korea.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Russia revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Clôture Russia LLC",
+          "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+          "amount_eur": 0
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "Archivage Nord SIM LLC"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.assets.pct",
+      "page": 4,
+      "status": "missing_information",
+      "value": null,
+      "reason": "FY2025 consolidated assets are strictly positive, but the consolidated total is not supplied. Entity schedules cover only part of the group and do not permit reconstruction of the total.",
+      "calculation": null,
+      "supported_value": {
+        "numerator_eur": 100000
+      },
+      "missing_components": [
+        "group_assets_denominator_eur"
+      ],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Clôture Russia LLC",
+          "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+          "amount_eur": 100000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "Archivage Nord SIM LLC"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.2,
+      "reason": "",
+      "calculation": "100 × sum(Russia expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Clôture Russia LLC",
+          "description": "Wind-down: outstanding receivables and administrative closure expenses; no new sales or investment.",
+          "amount_eur": 24000
+        }
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        "Archivage Nord SIM LLC"
+      ],
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "Issuer accounts, lending, guarantees, payment routes and platforms are excluded from covered activities; segregated ledgers and separate banking channels are used, treasury blocks covered payments and cash-pool transfers, compliance approves routing and reconciles monthly. No indirect issuer financing or settlement is permitted.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.russia.entities",
+      "page": 4,
+      "status": "answer",
+      "value": [
+        {
+          "entity": "Belorive Clôture Russia LLC",
+          "percentages": {
+            "revenue": null,
+            "assets": 20.0,
+            "expenses": 20.0
+          },
+          "zero_denominator_note": "N/A when entity denominator is zero, not 0%."
+        }
+      ],
+      "reason": "",
+      "calculation": "100 × jurisdiction amount / corresponding entity total; zero denominator = not applicable.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Sudan revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Sudan expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.sudan.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Syria revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Syria expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.syria.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Zaporizhzhia revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Zaporizhzhia expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.zaporizhzhia.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Kherson revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Kherson expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.kherson.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Donetsk revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Donetsk expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.donetsk.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.revenue.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Luhansk revenue) / group revenue 20000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.revenue.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.revenue.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.revenue.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.assets.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0,
+      "reason": "",
+      "calculation": "Zero numerator / confirmed strictly-positive denominator = 0%; exact denominator unknown.",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.assets.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.assets.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.assets.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.expenses.pct",
+      "page": 4,
+      "status": "answer",
+      "value": 0.0,
+      "reason": "",
+      "calculation": "100 × sum(Luhansk expenses) / group expenses 12000000 EUR",
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.expenses.activity",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.expenses.parties",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.expenses.bank",
+      "page": 4,
+      "status": "answer",
+      "value": "No current or contemplated activity.",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/compliance.md",
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.matrix.luhansk.entities",
+      "page": 4,
+      "status": "not_applicable",
+      "value": null,
+      "reason": "No entity activity in this jurisdiction.",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/finance.md"
+      ],
+      "rule_reference": "form_04 p.4: q1 Yes"
+    },
+    {
+      "field_id": "form_04.attestation.name",
+      "page": 4,
+      "status": "answer",
+      "value": "Camille Orvaux",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_04 p.4: always"
+    },
+    {
+      "field_id": "form_04.attestation.company",
+      "page": 4,
+      "status": "answer",
+      "value": "Belorive Patrimoine SAS",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_04 p.4: always"
+    },
+    {
+      "field_id": "form_04.attestation.role",
+      "page": 4,
+      "status": "answer",
+      "value": "Présidente",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_04 p.4: always"
+    },
+    {
+      "field_id": "form_04.attestation.date",
+      "page": 4,
+      "status": "answer",
+      "value": "01/09/2026",
+      "reason": "",
+      "calculation": null,
+      "supported_value": null,
+      "missing_components": [],
+      "evidence": [
+        "entreprises/belorive_patrimoine/sources/companies/sim-hackathon-b-client/mandate.md"
+      ],
+      "rule_reference": "form_04 p.4: always"
+    }
+  ]
+}
